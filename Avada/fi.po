@@ -549,6 +549,9 @@ msgid ""
 "Avada user! Please note that ThemeFusion does not provide product support "
 "here."
 msgstr ""
+"Käyttäjäfoorumimme on tarkoitettu käyttäjien väliseen viestintään. Kysy "
+"muilta Avadan käyttäjiltä! Ota huomioon, että ThemeFusion ei tarjoa "
+"tuotetukea käyttäjäfoorumin välityksellä."
 
 # @ Avada
 #: includes/admin-screens/support.php:55 includes/admin-screens/support.php:57
@@ -562,11 +565,14 @@ msgid ""
 "help grow our community. Please note, ThemeFusion does not provide support "
 "here."
 msgstr ""
+"Facebookryhmämme on aivan mahtava! Tule ja jaa tietoa muiden Avada-käyttäjien "
+"kanssa ja autat yhteisöämme kasvamaan. Ota huomioon, että ThemeFusion ei "
+"tarjoa tuotetukea Facebookin välityksellä."
 
 # @ Avada
 #: includes/admin-screens/system-status.php:26
 msgid "Get System Report"
-msgstr ""
+msgstr "Luo järjestelmäraportti"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:26
@@ -633,11 +639,11 @@ msgstr "etusivu"
 # @ Avada
 #: includes/admin-screens/system-status.php:113
 msgid "The URL of your site's homepage."
-msgstr ""
+msgstr "Sivuston etusivun URL:"
 
 #: includes/admin-screens/system-status.php:117
 msgid "Site URL:"
-msgstr ""
+msgstr "Sivuston URL:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:118
@@ -646,12 +652,12 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:122
 msgid "WP Version:"
-msgstr ""
+msgstr "WP-versio:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:123
 msgid "The version of WordPress installed on your site."
-msgstr ""
+msgstr "Sivustolle asennettu WordPress-versio."
 
 #: includes/admin-screens/system-status.php:127
 msgid "WP Multisite:"
@@ -669,7 +675,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:133
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
-msgstr ""
+msgstr "Maksimimäärä muistia (RAM), jonka sivusto voi käyttää kerrallaan."
 
 #: includes/admin-screens/system-status.php:137
 msgid ""
@@ -685,6 +691,8 @@ msgid ""
 "Your current memory limit is sufficient, but if you need to import classic "
 "demo content, the required memory limit is <strong>256MB.</strong>"
 msgstr ""
+"Nykyinen muistiraja (memory limit) on riittävä. Classic-version demotiedostojen "
+"tuonti edellyttää muistirajaa <strong>256MB.</strong>"
 
 #: includes/admin-screens/system-status.php:147
 msgid "WP Debug Mode:"
@@ -697,7 +705,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:152
 msgid "Language:"
-msgstr ""
+msgstr "Kieli:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:153
@@ -712,12 +720,12 @@ msgstr "Palvelinympäristö"
 
 #: includes/admin-screens/system-status.php:168
 msgid "Server Info:"
-msgstr ""
+msgstr "Palvelimen tiedot:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:169
 msgid "Information about the web server that is currently hosting your site."
-msgstr ""
+msgstr "Tietoa palvelimesta, jolle sivusto on asennettu"
 
 #: includes/admin-screens/system-status.php:173
 msgid "PHP Version:"
@@ -726,7 +734,7 @@ msgstr "PHP-versio:"
 # @ Avada
 #: includes/admin-screens/system-status.php:174
 msgid "The version of PHP installed on your hosting server."
-msgstr "Palvelimellesi asennettu PHP-versio."
+msgstr "Palvelimelle asennettu PHP-versio."
 
 #: includes/admin-screens/system-status.php:179
 msgid "PHP Post Max Size:"
@@ -739,7 +747,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:184
 msgid "PHP Time Limit:"
-msgstr ""
+msgstr "PHP-aikaraja:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:185
@@ -841,7 +849,7 @@ msgstr "MySQL-versio:"
 # @ Avada
 #: includes/admin-screens/system-status.php:323
 msgid "The version of MySQL installed on your hosting server."
-msgstr "Palvelimellesi asennettu MySQL-versio."
+msgstr "Palvelimelle asennettu MySQL-versio."
 
 #: includes/admin-screens/system-status.php:333
 msgid "Max Upload Size:"
@@ -876,17 +884,19 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:349
 msgid "WP Remote Post:"
-msgstr "Samankaltaisia kirjoituksia"
+msgstr ""
 
 #: includes/admin-screens/system-status.php:355
 msgid "GD Library:"
-msgstr ""
+msgstr "GD-kirjasto:"
 
 #: includes/admin-screens/system-status.php:356
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
 msgstr ""
+"Avada käyttää tätä kirjastoa kuvien koon muokkaukseen ja nopeuttaakseen "
+"sivuston latautumista."
 
 # @ Avada
 #: includes/admin-screens/system-status.php:359
@@ -915,6 +925,8 @@ msgid ""
 "Thanks for registering your purchase. You will now receive the automatic "
 "updates."
 msgstr ""
+"Kiitos ostoksesi rekisteröimisestä. Voit nyt vastaanottaa "
+"automaattisia päivityksiä."
 
 # @ Avada
 #: includes/admin-screens/welcome.php:23
@@ -932,11 +944,13 @@ msgstr ""
 msgid ""
 "Your Purchase Must Be Registered To Receive Theme Support & Auto Updates"
 msgstr ""
+"Sinun on rekisteröitävä ostoksesi saadaksesi tuotetukea ja "
+"vastaanottaaksesi automaattisia päivityksiä."
 
 # @ Avada
 #: includes/admin-screens/welcome.php:42
 msgid "Step 1 - Signup for Support"
-msgstr ""
+msgstr "Vaihe 1 - Luo käyttäjätunnukset tuotetukeen"
 
 #: includes/admin-screens/welcome.php:43
 msgid ""
@@ -949,7 +963,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/welcome.php:46
 msgid "Step 2 - Generate an API Key"
-msgstr ""
+msgstr "Vaihe 2 - Luo API-avain"
 
 # @ Avada
 #: includes/admin-screens/welcome.php:47
@@ -967,7 +981,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/welcome.php:51
 msgid "Step 3 - Purchase Validation"
-msgstr ""
+msgstr "Vaihe 3 - oston vahvistaminen"
 
 # @ Avada
 #: includes/admin-screens/welcome.php:52
@@ -997,17 +1011,17 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/welcome.php:71
 msgid "Themeforest Username"
-msgstr ""
+msgstr "Themeforest-käyttäjätunnus"
 
 # @ Avada
 #: includes/admin-screens/welcome.php:72
 msgid "Enter Themeforest Purchase Code"
-msgstr ""
+msgstr "Syötä Themeforest-ostokoodi"
 
 # @ Avada
 #: includes/admin-screens/welcome.php:73
 msgid "Enter API Key"
-msgstr ""
+msgstr "Syötä API-avain"
 
 # @ bbpress
 # @ Avada
@@ -1056,7 +1070,7 @@ msgstr "tila"
 
 #: includes/auto-patcher/includes/class-avada-patcher-admin-screen.php:100
 msgid "Apply Patch"
-msgstr ""
+msgstr "Asenna paikka"
 
 #: includes/avada-functions.php:441 includes/avada-functions.php:443
 msgid "By %s"
@@ -1103,7 +1117,7 @@ msgstr "Oma tili"
 
 #: includes/avada-functions.php:712
 msgid "Login failed, please try again."
-msgstr ""
+msgstr "Kirjautuminen epäonnistui, ole hyvä ja yritä uudelleen."
 
 # @ Avada
 #: includes/avada-functions.php:715
@@ -1284,19 +1298,19 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-admin.php:246
 msgid "Install Avada Demos"
-msgstr ""
+msgstr "Asenna Avada-demoja"
 
 #: includes/class-avada-admin.php:307 includes/class-avada-admin.php:313
 msgid "Error"
-msgstr ""
+msgstr "Virhe"
 
 #: includes/class-avada-admin.php:310
 msgid "Updated"
-msgstr ""
+msgstr "Päivitetty"
 
 #: includes/class-avada-admin.php:316
 msgid "Empty"
-msgstr ""
+msgstr "Tyhjä"
 
 #: includes/class-avada-admin.php:521
 msgid "Avada portfolio category base"
@@ -1395,7 +1409,7 @@ msgstr ""
 
 #: includes/class-avada-migrate.php:275
 msgid "link"
-msgstr ""
+msgstr "linkki"
 
 #: includes/class-avada-migrate.php:277
 msgid ""
@@ -1426,11 +1440,11 @@ msgstr ""
 
 #: includes/class-avada-migrate.php:291
 msgid "Done!"
-msgstr ""
+msgstr "Valmis!"
 
 #: includes/class-avada-migrate.php:293
 msgid "Almost there..."
-msgstr ""
+msgstr "Melkein valmis..."
 
 #: includes/class-avada-migrate.php:295
 msgid "Halfway there... Patience Padawan, Patience."
@@ -1502,12 +1516,12 @@ msgstr "ostoskori"
 # @ Avada
 #: includes/class-avada-scripts.php:268
 msgid "All posts displayed."
-msgstr ""
+msgstr "Kaikki kirjoitukset ovat näkyvillä."
 
 # @ Avada
 #: includes/class-avada-scripts.php:269
 msgid "All items displayed."
-msgstr ""
+msgstr "Kaikki osiot ladattu."
 
 # @ Avada
 #: includes/class-avada-scripts.php:270
