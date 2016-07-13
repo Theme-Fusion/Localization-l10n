@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2016-04-04 16:43:04+00:00\n"
-"PO-Revision-Date: 2016-03-07 14:57-0000\n"
+"PO-Revision-Date: 2016-05-03 15:49+0300\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/avada/language/"
 "he/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.7\n"
 
 # @ Avada
 #: templates/blog-layout.php:219
@@ -39,7 +39,7 @@ msgstr "אופס... הדף הזה לא נמצא!"
 
 #: 404.php:17
 msgid "Helpful Links"
-msgstr ""
+msgstr "קישורים שימושיים"
 
 # @ Avada
 #: 404.php:29
@@ -65,31 +65,28 @@ msgstr "חיפוש בפורום..."
 
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
-#, fuzzy
 msgid "In reply to: "
-msgstr "השב"
+msgstr "בתגובה ל:"
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
 msgid "Topic: "
-msgstr ""
+msgstr "נושא:"
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:49
 msgid "in group forum "
-msgstr ""
+msgstr "בפורום קבוצתי"
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:53
-#, fuzzy
 msgid "in forum "
-msgstr "תפקיד בפורום:"
+msgstr "בפורום"
 
 # @ bbpress
 #: bbpress/loop-single-reply.php:44
-#, fuzzy
 msgid "in reply to: "
-msgstr "השב"
+msgstr "בתגובה ל:"
 
 # @ Avada
 #: comments.php:19
@@ -129,7 +126,7 @@ msgstr "אתר"
 
 #: comments.php:57
 msgid "Comment"
-msgstr ""
+msgstr "הערה"
 
 # @ Avada
 #: comments.php:57
@@ -148,7 +145,7 @@ msgstr "חובה להיות %sמחובר %s כדי שתוכל להגיב."
 
 #: comments.php:61
 msgid "Logged in as %s. %sLog out &raquo;%s"
-msgstr ""
+msgstr "מחובר כ %s. %sצא &raquo;%s"
 
 # @ Avada
 #: comments.php:61
@@ -165,6 +162,8 @@ msgid ""
 "Form email address is not set in Theme Options. Please fill in a valid "
 "address to make contact form work."
 msgstr ""
+"כתובת המייל עבור טופס אינה מוגדרת בהגדרות ערכת העיצוב. אנא מלא כתובת תקינה "
+"כדי שטופס יצירת הקשר יעבוד."
 
 # @ Avada
 #: contact.php:32 contact.php:34
@@ -176,7 +175,7 @@ msgstr "אנא בדוק אם כל השדות מלאים במידע תקף. תו�
 #: contact.php:41 contact.php:43
 msgid ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
-msgstr ""
+msgstr "תודה לך %s על פנייתך! ההודעה שלך נשלחה בהצלחה!"
 
 # @ Avada
 #: contact.php:52 contact.php:64 includes/class-avada-contact.php:112
@@ -195,7 +194,7 @@ msgstr " שלח טופס "
 
 #: faqs.php:103 single.php:47
 msgid "View Larger Image"
-msgstr ""
+msgstr "צפה בתמונה מוגדלת"
 
 # @ Avada
 #: functions.php:328
@@ -204,25 +203,25 @@ msgstr "יבוא תוכן ההדגמה עבר בהצלחה"
 
 #: functions.php:598
 msgid "Date: %s"
-msgstr ""
+msgstr "תאריך: %s"
 
 #: functions.php:605
 msgid "Bible Text: "
-msgstr ""
+msgstr "טקסט תנ\"כי"
 
 #: functions.php:607
 msgid "Series: "
-msgstr ""
+msgstr "סדרות:"
 
 #: functions.php:623
 msgid "Topics: "
-msgstr ""
+msgstr "נושאים:"
 
 #: functions.php:738
 msgid ""
 "Our site is currently undergoing scheduled maintenance. Please try again in "
 "a moment."
-msgstr ""
+msgstr "האתר נמצא כרגע בתחזוקה. אנא נסה שנית מאוחר יותר."
 
 #: functions.php:742
 msgid ""
@@ -411,8 +410,7 @@ msgid ""
 msgstr "נתוני הדגמה יובאו בהצלחה. כעת, נא התקן והפעל %s plugin פעם אחת בלבד."
 
 # @ Avada
-#: includes/admin-screens/install-demos.php:42
-#: includes/options/advanced.php:71
+#: includes/admin-screens/install-demos.php:42 includes/options/advanced.php:71
 msgid "Regenerate Thumbnails"
 msgstr "צור תמונות ממוזערות מחדש"
 
@@ -483,9 +481,8 @@ msgstr ""
 
 # @ Avada
 #: includes/admin-screens/support.php:35 includes/admin-screens/support.php:37
-#, fuzzy
 msgid "Documentation"
-msgstr "תיעוד מקון"
+msgstr "תיעוד מקוון"
 
 # @ Avada
 #: includes/admin-screens/support.php:36
@@ -1462,26 +1459,26 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-multiple-featured-images.php:31
 msgid "Featured image %s"
-msgstr " תמונות מועדפות בשאלות נפוצות %s"
+msgstr " תמונה מועדפת %s"
 
 # @ Avada
 #: includes/class-avada-multiple-featured-images.php:32
 msgid "Set featured image %s"
-msgstr " תמונות מועדפות בשאלות נפוצות %s"
+msgstr "הגדר תמונה מועדפת %s"
 
 # @ Avada
 #: includes/class-avada-multiple-featured-images.php:33
 msgid "Remove featured image %s"
-msgstr " תמונות מועדפות בשאלות נפוצות %s"
+msgstr "הסר תמונה מועדפת %s"
 
 # @ Avada
 #: includes/class-avada-multiple-featured-images.php:34
 msgid "Use as featured image %s"
-msgstr "בטל את התמונה המועדפת הראשונה %s"
+msgstr "השתמש כתמונה מועדפת %s"
 
 #: includes/class-avada-scripts.php:147 includes/class-avada-scripts.php:227
 msgid "Go to Top"
-msgstr ""
+msgstr "עבור למעלה"
 
 # @ Avada
 #: includes/class-avada-scripts.php:263
@@ -1642,9 +1639,8 @@ msgstr "אתר:"
 #: includes/class-fusion-widget-recent-works.php:80
 #: includes/class-fusion-widget-social-links.php:318
 #: includes/class-fusion-widget-tweets.php:188
-#, fuzzy
 msgid "Title:"
-msgstr ">כותרת"
+msgstr "כותרת:"
 
 # @ Avada
 #: includes/class-fusion-widget-contact-info.php:95
@@ -1653,7 +1649,7 @@ msgstr "כתובת דואר אלקטרוני"
 
 #: includes/class-fusion-widget-contact-info.php:115
 msgid "Email Link Text:"
-msgstr ""
+msgstr "טקסט קישור דואר אלקטרוני:"
 
 #: includes/class-fusion-widget-contact-info.php:119
 msgid "Website URL (with HTTP):"
@@ -1670,7 +1666,7 @@ msgstr ""
 
 #: includes/class-fusion-widget-facebook-page.php:105
 msgid "Find us on Facebook"
-msgstr ""
+msgstr "חפשו אותנו בפייסבוק"
 
 #: includes/class-fusion-widget-facebook-page.php:116
 msgid ""
@@ -3383,9 +3379,9 @@ msgstr "בחירת הצגת רקע תמונת התצוגה בגודל של 100%.
 # @ Avada
 #: includes/metaboxes/tabs/tab_background.php:40
 #: includes/metaboxes/tabs/tab_background.php:76
-#: includes/metaboxes/tabs/tab_header.php:53
-#: includes/options/background.php:75 includes/options/background.php:162
-#: includes/options/footer.php:220 includes/options/header.php:389
+#: includes/metaboxes/tabs/tab_header.php:53 includes/options/background.php:75
+#: includes/options/background.php:162 includes/options/footer.php:220
+#: includes/options/header.php:389
 msgid "Background Repeat"
 msgstr "חזרה בשנית על הרקע"
 
@@ -3413,9 +3409,9 @@ msgstr "פרוס אנכית"
 # @ Avada
 #: includes/metaboxes/tabs/tab_background.php:45
 #: includes/metaboxes/tabs/tab_background.php:81
-#: includes/metaboxes/tabs/tab_header.php:58
-#: includes/options/background.php:84 includes/options/background.php:171
-#: includes/options/footer.php:229 includes/options/header.php:398
+#: includes/metaboxes/tabs/tab_header.php:58 includes/options/background.php:84
+#: includes/options/background.php:171 includes/options/footer.php:229
+#: includes/options/header.php:398
 msgid "No Repeat"
 msgstr "ללא חזרה בשנית"
 
@@ -4267,8 +4263,7 @@ msgid ""
 msgstr "בחר את מיקום סרגל הצד 1. אם סרגל הצד 2 נבחר, הוא יוצג בצד הנגדי."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:18
-#: includes/options/sidebars.php:64
+#: includes/metaboxes/tabs/tab_sidebars.php:18 includes/options/sidebars.php:64
 msgid "Sidebar Background Color"
 msgstr "צבע רקע של ניווט צד"
 
@@ -12765,11 +12760,11 @@ msgstr "אופס!"
 
 #: search.php:48
 msgid "Helpful Links:"
-msgstr ""
+msgstr "קישורים שימושיים:"
 
 #: search.php:59
 msgid "Try again"
-msgstr ""
+msgstr "נסה שנית"
 
 # @ Avada
 #: search.php:60
@@ -12815,7 +12810,7 @@ msgstr ""
 
 #: single-wpfc_sermon.php:103 single.php:109
 msgid "About the Author: %s"
-msgstr ""
+msgstr "אודות המחבר: %s"
 
 #: slidingbar.php:25
 msgid "Toggle SlidingBar Area"
@@ -13198,7 +13193,7 @@ msgstr "צור קשר"
 
 #. Template Name of the plugin/theme
 msgid "FAQs"
-msgstr ""
+msgstr "שאלות נפוצות"
 
 #. Template Name of the plugin/theme
 msgid "Side Navigation"
