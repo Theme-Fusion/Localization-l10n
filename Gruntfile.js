@@ -38,6 +38,24 @@ module.exports = function(grunt) {
 						}
 					}
 				}
+			},
+			plugin2: {
+				src: ['fusion-builder/fusion-builder.pot'],
+				options: {
+					locales: ['de_DE','es_ES', 'fi', 'fr_FR', 'he', 'it_IT', 'ja', 'ko', 'mk_MK', 'nb_NO', 'nl_NL', 'pl_PL', 'pt_BR', 'ru_RU'],
+					poFilesPath: 'fusion-builder/fusion-builder-<%= locale%>.po',
+					msgInit: {
+						cmd: 'msginit',
+						opts: {}
+					},
+					msgMerge: {
+						cmd: 'msgmerge',
+						opts: {
+							'no-fuzzy-matching': true,
+							'backup': 'none',
+						}
+					}
+				}
 			}
 		},
 		potomo: {
