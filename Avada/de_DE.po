@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2016-10-12 15:27:10+00:00\n"
-"PO-Revision-Date: 2016-03-07 14:54-0000\n"
+"PO-Revision-Date: 2016-10-17 09:12+0200\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/avada/"
 "language/de_DE/)\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: templates/blog-layout.php:198
@@ -155,7 +155,7 @@ msgstr ""
 
 #: comments.php:67
 msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
-msgstr ""
+msgstr "Angemeldet als %1$s. %2$sAbmelden &raquo;%3$s"
 
 # @ Avada
 #: comments.php:67
@@ -281,7 +281,7 @@ msgstr ""
 #: includes/class-avada-admin.php:443
 #: includes/class-fusion-builder-filters.php:1018
 msgid "Product Registration"
-msgstr ""
+msgstr "Produktregistrierung"
 
 #: includes/admin-screens/fusion-plugins.php:54
 msgid "Version: %1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
@@ -926,11 +926,11 @@ msgstr ""
 
 #: includes/avada-functions.php:485 includes/avada-functions.php:487
 msgid "By %s"
-msgstr ""
+msgstr "Von %s"
 
 #: includes/avada-functions.php:513
 msgid "Categories: %s"
-msgstr ""
+msgstr "Kategorien: %s"
 
 #: includes/avada-functions.php:525
 msgid "Tags: %s"
@@ -948,7 +948,7 @@ msgstr "1 Kommentar"
 
 #: includes/avada-functions.php:532 templates/related-posts.php:87
 msgid "% Comments"
-msgstr ""
+msgstr "% Kommentare"
 
 # @ Avada
 #: includes/avada-functions.php:615 includes/options/blog.php:274
@@ -1727,13 +1727,13 @@ msgstr ""
 #: includes/class-avada-admin.php:204 includes/class-avada-admin.php:342
 #: includes/class-avada-admin.php:444
 msgid "Support"
-msgstr "Unterstützung für das UberMenu PlugIn"
+msgstr "Support"
 
 # @ Avada
 #: includes/class-avada-admin.php:205 includes/class-avada-admin.php:343
 #: includes/class-avada-admin.php:445
 msgid "Install Demos"
-msgstr ""
+msgstr "Demos installieren"
 
 #: includes/class-avada-admin.php:206 includes/class-avada-admin.php:344
 #: includes/class-avada-admin.php:446
@@ -1761,7 +1761,7 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-admin.php:421
 msgid "Welcome to Avada!"
-msgstr ""
+msgstr "Willkommen zu Avada!"
 
 #: includes/class-avada-admin.php:425 includes/class-avada-admin.php:434
 msgid ""
@@ -3321,12 +3321,12 @@ msgstr "Hintergrund"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:279
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:10
-#: includes/options/blog.php:37 includes/options/page_title_bar.php:17
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:10 includes/options/blog.php:37
+#: includes/options/page_title_bar.php:17
 #: includes/options/page_title_bar.php:24
 #: includes/options/page_title_bar.php:30
 msgid "Page Title Bar"
-msgstr "Titelbalken der Seite"
+msgstr "Kopfzeilen-Container"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:280 includes/options/portfolio.php:17
@@ -3858,8 +3858,8 @@ msgid "Adjust the button shortcode parameters for the second button."
 msgstr "Passen Sie die Shortcode-Parameter für die zweite Schaltfläche an."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:10
-#: includes/options/layout.php:19 includes/options/layout.php:25
+#: includes/metaboxes/tabs/tab_background.php:10 includes/options/layout.php:19
+#: includes/options/layout.php:25
 msgid "Layout"
 msgstr "Layout"
 
@@ -3902,14 +3902,13 @@ msgid "Default"
 msgstr "Voreinstellung"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:13
-#: includes/options/layout.php:32
+#: includes/metaboxes/tabs/tab_background.php:13 includes/options/layout.php:32
 msgid "Wide"
 msgstr "Breit"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:14
-#: includes/options/layout.php:31 includes/options/portfolio.php:176
+#: includes/metaboxes/tabs/tab_background.php:14 includes/options/layout.php:31
+#: includes/options/portfolio.php:176
 msgid "Boxed"
 msgstr "Eingerahmt"
 
@@ -4211,7 +4210,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:51
 #: includes/options/page_title_bar.php:42
 msgid "Page Title Bar Text"
-msgstr "Text für den Titelbalken einer Seite"
+msgstr "Kopfzeilen-Text anzeigen"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:57
@@ -4297,7 +4296,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:141
 #: includes/options/page_title_bar.php:77
 msgid "Page Title Bar Height"
-msgstr "Höhe des Titelbalkens der Seite"
+msgstr "Höhe des Kopfzeilen-Containers"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:142
@@ -4319,7 +4318,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:169
 #: includes/options/page_title_bar.php:105
 msgid "Page Title Bar Background Color"
-msgstr "Hintergrundfarbe des Titelbalkens einer Seite"
+msgstr "Hintergrundfarbe des Kopfzeilen-Containers"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:170
@@ -4330,7 +4329,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:178
 #: includes/options/page_title_bar.php:124
 msgid "Page Title Bar Borders Color"
-msgstr "Rahmenfarbe des Titelbalkens der Seite"
+msgstr "Rahmenfarbe des Kopfzeilen-Containers"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:179
@@ -4340,7 +4339,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:187
 msgid "Page Title Bar Background"
-msgstr "Hintergrund für Titelbalken der Seite"
+msgstr "Hintergrund des Kopfzeilen-Containers"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:188
@@ -4645,8 +4644,7 @@ msgstr ""
 "wird sie auf der gegenüberliegenden Seite angezeigt."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:68
-#: includes/options/sidebars.php:66
+#: includes/metaboxes/tabs/tab_sidebars.php:68 includes/options/sidebars.php:66
 msgid "Sidebar Background Color"
 msgstr "Seitenleiste Hintergrundfarfbe"
 
@@ -4752,7 +4750,7 @@ msgstr "Dieses Bild wird den Slider auf mobilen Geräten überschreiben."
 # @ Avada
 #: includes/options/advanced.php:17
 msgid "Advanced"
-msgstr "Erweitert"
+msgstr "Erweiterte Einstellungen"
 
 #: includes/options/advanced.php:24
 msgid "Code Fields (Tracking etc.)"
@@ -6049,7 +6047,7 @@ msgstr ""
 # @ Avada
 #: includes/options/custom_css.php:17
 msgid "Custom CSS"
-msgstr "Eigenes CSS"
+msgstr "Benutzerdefinierte CSS"
 
 # @ Avada
 #: includes/options/custom_css.php:23
