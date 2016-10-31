@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 				src: ['Avada/Avada.pot'],
 				options: {
 					locales: ['ca', 'bg_BG', 'cs_CZ', 'da_DK', 'de_DE','el', 'es_ES', 'fa', 'fa_IR', 'fi', 'fr_FR', 'he', 'hr_HR', 'hu_HU', 'it_IT', 'ja', 'ko', 'mk_MK', 'nb_NO', 'nl_NL', 'pl_PL', 'pt_BR', 'pt_PT', 'ro', 'ru_RU', 'sv_SE', 'tr_TR', 'uk_UA', 'zh_CN', 'zh_TW' ],
-					poFilesPath: 'Avada/<%= locale%>.po',
+					poFilesPath: 'Avada/Avada-<%= locale%>.po',
 					msgInit: {
 						cmd: 'msginit',
 						opts: {}
