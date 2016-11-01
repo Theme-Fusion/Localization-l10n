@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2016-10-18 15:58:43+00:00\n"
+"POT-Creation-Date: 2016-11-01 18:17:40+00:00\n"
 "PO-Revision-Date: 2016-03-07 14:59-0000\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: \n"
@@ -259,9 +259,9 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/fusion-plugins.php:26
 #: includes/admin-screens/install-demos.php:75
-#: includes/class-avada-admin.php:205 includes/class-avada-admin.php:270
-#: includes/class-avada-admin.php:446
-#: includes/class-fusion-builder-filters.php:1019
+#: includes/class-avada-admin.php:206 includes/class-avada-admin.php:271
+#: includes/class-avada-admin.php:447
+#: includes/class-fusion-builder-filters.php:1018
 msgid "Product Registration"
 msgstr "Регистрация темы"
 
@@ -291,7 +291,7 @@ msgstr "Необходим"
 #: includes/admin-screens/fusion-plugins.php:86
 #: includes/admin-screens/install-demos.php:66
 #: includes/admin-screens/support.php:50
-#: includes/admin-screens/system-status.php:541
+#: includes/admin-screens/system-status.php:570
 #: includes/admin-screens/welcome.php:68
 msgid ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
@@ -312,7 +312,7 @@ msgstr ""
 
 # @ Avada
 #: includes/admin-screens/install-demos.php:49
-#: includes/class-avada-admin.php:623
+#: includes/class-avada-admin.php:635
 #: includes/class-tgm-plugin-activation.php:2861
 msgid "Install"
 msgstr "Установить"
@@ -497,53 +497,55 @@ msgid "No previous versions could be detected"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:104
-#: includes/admin-screens/system-status.php:126
+#: includes/admin-screens/system-status.php:129
 msgid "Previous Version"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:104
-#: includes/admin-screens/system-status.php:126
+#: includes/admin-screens/system-status.php:129
 msgid "Version %s"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:107
-msgid "Avada 4.0 Migration:"
+msgid "Avada 4.0 Conversion:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:111
-msgid "Rerun Theme Options Migration from version %s to version 4.0 manually."
+#: includes/admin-screens/system-status.php:112
+msgid "Rerun Theme Options Conversion from version %s to version 4.0 manually."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:117
+#: includes/admin-screens/system-status.php:113
+#: includes/admin-screens/system-status.php:138
+msgid "Run Conversion"
+msgstr ""
+
+#: includes/admin-screens/system-status.php:119
 msgid ""
 "Warning: By clicking OK, all changes made to your theme options after "
 "installing Avada 4.0 will be lost. Your Theme Options will be reset to the "
-"values from %s and then migrated again to 4.0."
+"values from %s and then converted again to 4.0."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:129
-msgid "Avada 5.0 Migration:"
+#: includes/admin-screens/system-status.php:132
+msgid "Avada 5.0 Conversion:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:133
-msgid "Rerun Shortcode Migration from version %s to version 5.0 manually."
+#: includes/admin-screens/system-status.php:137
+msgid "Rerun Shortcode Conversion from version %s to version 5.0 manually."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:139
-msgid ""
-"Warning: By clicking OK, you will be redirected to the conversion splash "
-"screen, where you can restart the conversion of your page contents to the "
-"new Fusion Builder format."
+#: includes/admin-screens/system-status.php:143
+msgid "Revert Fusion-Builder Conversion"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:149
-msgid "Remove Avada 5.0 Migration Backups:"
+#: includes/admin-screens/system-status.php:144
+msgid "Revert Conversion"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:154
 msgid ""
 "The backups cleanup process has been scheduled and your the version 5.0 "
-"migration backups will be purged from your database."
+"conversion backups will be purged from your database."
 msgstr ""
 
 #: includes/admin-screens/system-status.php:188
@@ -552,71 +554,90 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:191
 msgid ""
-"Remove Shortcode Migration Backups created during the version 5.0 migration."
+"Remove Shortcode Conversion Backups created during the version 5.0 "
+"conversion."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:199
+#: includes/admin-screens/system-status.php:197
+msgid "Remove Backups"
+msgstr ""
+
+#: includes/admin-screens/system-status.php:207
+msgid ""
+"Warning: By clicking OK, you will be redirected to the conversion splash "
+"screen, where you can restart the conversion of your page contents to the "
+"new Fusion Builder format."
+msgstr ""
+
+#: includes/admin-screens/system-status.php:216
+msgid ""
+"Warning: By clicking OK, you will be redirected to the conversion splash "
+"screen, where you can start the conversion reversion of your page contents "
+"to the old Fusion Builder format."
+msgstr ""
+
+#: includes/admin-screens/system-status.php:225
 msgid ""
 "Warning: This is a non-reversable process. By clicking OK, all backups "
-"created during the 5.0 shortcode-migration process will be removed from your "
-"database."
+"created during the 5.0 shortcode-conversion process will be removed from "
+"your database."
 msgstr ""
 
 # @ Avada
-#: includes/admin-screens/system-status.php:210
-#: includes/admin-screens/system-status.php:214
+#: includes/admin-screens/system-status.php:239
+#: includes/admin-screens/system-status.php:243
 msgid "WordPress Environment"
 msgstr "Среда WordPress"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:219
+#: includes/admin-screens/system-status.php:248
 msgid "Home URL:"
 msgstr "URL главной страницы:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:220
+#: includes/admin-screens/system-status.php:249
 msgid "The URL of your site's homepage."
 msgstr "URL главной страницы Вашего сайта."
 
-#: includes/admin-screens/system-status.php:224
+#: includes/admin-screens/system-status.php:253
 msgid "Site URL:"
 msgstr "URL сайта:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:225
+#: includes/admin-screens/system-status.php:254
 msgid "The root URL of your site."
 msgstr "URL корневой директории Вашего сайта."
 
-#: includes/admin-screens/system-status.php:229
+#: includes/admin-screens/system-status.php:258
 msgid "WP Version:"
 msgstr "Версия WP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:230
+#: includes/admin-screens/system-status.php:259
 msgid "The version of WordPress installed on your site."
 msgstr "Версия WordPress, установленного на Вашем сайте."
 
-#: includes/admin-screens/system-status.php:234
+#: includes/admin-screens/system-status.php:263
 msgid "WP Multisite:"
 msgstr "WP мультисайт:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:235
+#: includes/admin-screens/system-status.php:264
 msgid "Whether or not you have WordPress Multisite enabled."
 msgstr "Активирована или нет многосайтовость WordPress."
 
-#: includes/admin-screens/system-status.php:239
+#: includes/admin-screens/system-status.php:268
 msgid "WP Memory Limit:"
 msgstr "Ограничение по используемой памяти WP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:240
+#: includes/admin-screens/system-status.php:269
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
 msgstr ""
 "Максимальное количество памяти (RAM), которое в единицу времени может "
 "использовать Ваш сайт."
 
-#: includes/admin-screens/system-status.php:245
+#: includes/admin-screens/system-status.php:274
 msgid ""
 "%1$s - We recommend setting memory to at least <strong>128MB</strong>. <br /"
 "> To import classic demo data, <strong>256MB</strong> of memory limit is "
@@ -625,7 +646,7 @@ msgid ""
 "\"noopener noreferrer\">Increasing memory allocated to PHP.</a>"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:249
+#: includes/admin-screens/system-status.php:278
 msgid ""
 "Your current memory limit is sufficient, but if you need to import classic "
 "demo content, the required memory limit is <strong>256MB.</strong>"
@@ -633,64 +654,64 @@ msgstr ""
 "Ваш текущий лимит памяти достаточный, однако, чтобы импортировать пакет демо "
 "данных 'Классический', понадобится лимит памяти в <strong>256Мб.</strong>"
 
-#: includes/admin-screens/system-status.php:256
+#: includes/admin-screens/system-status.php:285
 msgid "WP Debug Mode:"
 msgstr "Режим отладки WP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:257
+#: includes/admin-screens/system-status.php:286
 msgid "Displays whether or not WordPress is in Debug Mode."
 msgstr "Показывает - находится ли WordPress в режиме отладки."
 
-#: includes/admin-screens/system-status.php:267
+#: includes/admin-screens/system-status.php:296
 msgid "Language:"
 msgstr "Язык:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:268
+#: includes/admin-screens/system-status.php:297
 msgid "The current language used by WordPress. Default = English"
 msgstr "Текущий язык, используемый WordPress. по умолчанию - английский"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:274
-#: includes/admin-screens/system-status.php:278
+#: includes/admin-screens/system-status.php:303
+#: includes/admin-screens/system-status.php:307
 msgid "Server Environment"
 msgstr "Среда сервера"
 
-#: includes/admin-screens/system-status.php:283
+#: includes/admin-screens/system-status.php:312
 msgid "Server Info:"
 msgstr "Информация по серверу:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:284
+#: includes/admin-screens/system-status.php:313
 msgid "Information about the web server that is currently hosting your site."
 msgstr ""
 "Информация по веб-серверу, на котором в текущий момент развёрнут Ваш сайт. "
 
-#: includes/admin-screens/system-status.php:288
+#: includes/admin-screens/system-status.php:317
 msgid "PHP Version:"
 msgstr "Версия PHP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:289
+#: includes/admin-screens/system-status.php:318
 msgid "The version of PHP installed on your hosting server."
 msgstr "Версия PHP, установленного на Вашем сервере хостинга."
 
-#: includes/admin-screens/system-status.php:294
+#: includes/admin-screens/system-status.php:323
 msgid "PHP Post Max Size:"
 msgstr "Максимальный размер данных, передаваемых методом Post (PHP):"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:295
+#: includes/admin-screens/system-status.php:324
 msgid "The largest file size that can be contained in one post."
 msgstr "Максимальный размер файла, который может быть передан методом Post."
 
-#: includes/admin-screens/system-status.php:299
+#: includes/admin-screens/system-status.php:328
 msgid "PHP Time Limit:"
 msgstr "Лимит времени исполнения скрипта PHP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:300
+#: includes/admin-screens/system-status.php:329
 msgid ""
 "The amount of time (in seconds) that your site will spend on a single "
 "operation before timing out (to avoid server lockups)"
@@ -699,7 +720,7 @@ msgstr ""
 "одной операции, прежде чем будет достигнут лимит времени (чтобы избежать "
 "зависаний сервера)"
 
-#: includes/admin-screens/system-status.php:306
+#: includes/admin-screens/system-status.php:335
 msgid ""
 "%1$s - We recommend setting max execution time to at least 180. <br /> To "
 "import classic demo content, <strong>300</strong> seconds of max execution "
@@ -707,7 +728,7 @@ msgid ""
 "\"noopener noreferrer\">Increasing max execution to PHP</a>"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:310
+#: includes/admin-screens/system-status.php:339
 msgid ""
 "Current time limit is sufficient, but if you need import classic demo "
 "content, the required time is <strong>300</strong>."
@@ -716,14 +737,14 @@ msgstr ""
 "пакет демо данных 'Классиический', понадобится установить лимит времени в "
 "<strong>300</strong>."
 
-#: includes/admin-screens/system-status.php:317
+#: includes/admin-screens/system-status.php:346
 msgid "PHP Max Input Vars:"
 msgstr "Максимальное количество используемых переменных (PHP):"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:318
-#: includes/admin-screens/system-status.php:358
-#: includes/admin-screens/system-status.php:391
+#: includes/admin-screens/system-status.php:347
+#: includes/admin-screens/system-status.php:387
+#: includes/admin-screens/system-status.php:420
 msgid ""
 "The maximum number of variables your server can use for a single function to "
 "avoid overloads."
@@ -731,9 +752,9 @@ msgstr ""
 "Максимальное количество переменных, которое можно использовать в одной "
 "функции, чтобы предотвратить зависание Вашего сервера."
 
-#: includes/admin-screens/system-status.php:342
-#: includes/admin-screens/system-status.php:382
-#: includes/admin-screens/system-status.php:415
+#: includes/admin-screens/system-status.php:371
+#: includes/admin-screens/system-status.php:411
+#: includes/admin-screens/system-status.php:444
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
 "POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" rel="
@@ -741,12 +762,12 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/admin-screens/system-status.php:350
+#: includes/admin-screens/system-status.php:379
 msgid "SUHOSIN Installed:"
 msgstr "Установлен SUHOSIN:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:351
+#: includes/admin-screens/system-status.php:380
 msgid ""
 "Suhosin is an advanced protection system for PHP installations. It was "
 "designed to protect your servers on the one hand against a number of well "
@@ -764,22 +785,22 @@ msgstr ""
 "изменения в его конфигурацию, чтобы увелечить его лимиты представления "
 "данных."
 
-#: includes/admin-screens/system-status.php:357
+#: includes/admin-screens/system-status.php:386
 msgid "Suhosin Post Max Vars:"
 msgstr ""
 "Максимальное количество переменных, передаваемых методом Post, для Suhosin:"
 
-#: includes/admin-screens/system-status.php:390
+#: includes/admin-screens/system-status.php:419
 msgid "Suhosin Request Max Vars:"
 msgstr ""
 "Максимальное количество переменных, передаваемых в массиве $_REQUEST "
 "(методами Get/Post или Cookie), для Suhosin:"
 
-#: includes/admin-screens/system-status.php:423
+#: includes/admin-screens/system-status.php:452
 msgid "Suhosin Post Max Value Length:"
 msgstr "Максимальная длина переменной, передаваемой методом Post, для Suhosin:"
 
-#: includes/admin-screens/system-status.php:424
+#: includes/admin-screens/system-status.php:453
 msgid ""
 "Defines the maximum length of a variable that is registered through a POST "
 "request."
@@ -787,7 +808,7 @@ msgstr ""
 "Определяет максимальную длину переменной, определённой посредством POST "
 "запроса."
 
-#: includes/admin-screens/system-status.php:430
+#: includes/admin-screens/system-status.php:459
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
 "prohibit the Theme Options data from being saved to your database. See: <a "
@@ -795,11 +816,11 @@ msgid ""
 "Configuration Info</a>."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:439
+#: includes/admin-screens/system-status.php:468
 msgid "ZipArchive:"
 msgstr "Zip архиватор:"
 
-#: includes/admin-screens/system-status.php:440
+#: includes/admin-screens/system-status.php:469
 msgid ""
 "ZipArchive is required for importing demos. They are used to import and "
 "export zip files specifically for sliders."
@@ -808,32 +829,32 @@ msgstr ""
 "импортируются и экспортируются посредством zip файлов, особенно в случае "
 "демо слайдеров."
 
-#: includes/admin-screens/system-status.php:444
+#: includes/admin-screens/system-status.php:473
 msgid "MySQL Version:"
 msgstr "Версия MySQL:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:445
+#: includes/admin-screens/system-status.php:474
 msgid "The version of MySQL installed on your hosting server."
 msgstr "Версия MySQL, установленного на Вашем сервере хостинга."
 
-#: includes/admin-screens/system-status.php:455
+#: includes/admin-screens/system-status.php:484
 msgid "Max Upload Size:"
 msgstr "Максимальный размер файла, загружаемого на сервер хостинга:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:456
+#: includes/admin-screens/system-status.php:485
 msgid ""
 "The largest file size that can be uploaded to your WordPress installation."
 msgstr ""
 "Максимальный размер файла, который может быть загружен на сервер с "
 "установленным WordPress."
 
-#: includes/admin-screens/system-status.php:460
+#: includes/admin-screens/system-status.php:489
 msgid "DOMDocument:"
 msgstr "PHP Класс DOMDocument:"
 
-#: includes/admin-screens/system-status.php:461
+#: includes/admin-screens/system-status.php:490
 msgid ""
 "DOMDocument is required for the Fusion Builder plugin to properly function."
 msgstr ""
@@ -841,12 +862,12 @@ msgstr ""
 "конструктора страниц Fusion Builder. DOMDocument представляет все содержимое "
 "HTML или XML документа, служит в качестве корня дерева документа"
 
-#: includes/admin-screens/system-status.php:465
+#: includes/admin-screens/system-status.php:494
 msgid "WP Remote Get:"
 msgstr "Метод WordPress wp_remote_get():"
 
-#: includes/admin-screens/system-status.php:466
-#: includes/admin-screens/system-status.php:472
+#: includes/admin-screens/system-status.php:495
+#: includes/admin-screens/system-status.php:501
 msgid ""
 "Avada uses this method to communicate with different APIs, e.g. Google, "
 "Twitter, Facebook."
@@ -855,38 +876,38 @@ msgstr ""
 "Google, Twitter, Facebook."
 
 # @ Avada
-#: includes/admin-screens/system-status.php:471
+#: includes/admin-screens/system-status.php:500
 msgid "WP Remote Post:"
 msgstr "Метод WordPress wp_remote_post():"
 
-#: includes/admin-screens/system-status.php:477
+#: includes/admin-screens/system-status.php:506
 msgid "GD Library:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:478
+#: includes/admin-screens/system-status.php:507
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
 msgstr ""
 
 # @ Avada
-#: includes/admin-screens/system-status.php:481
+#: includes/admin-screens/system-status.php:510
 #: includes/class-tgm-plugin-activation.php:2459
 msgid "Not Installed"
 msgstr "Не установлен"
 
-#: includes/admin-screens/system-status.php:483
+#: includes/admin-screens/system-status.php:512
 msgid "Installed"
 msgstr ""
 
 # @ Avada
-#: includes/admin-screens/system-status.php:496
-#: includes/admin-screens/system-status.php:500
+#: includes/admin-screens/system-status.php:525
+#: includes/admin-screens/system-status.php:529
 msgid "Active Plugins"
 msgstr "Активные плагины"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:524
+#: includes/admin-screens/system-status.php:553
 msgid "Visit plugin homepage"
 msgstr "Посетить домашнюю страницу плагина"
 
@@ -1007,97 +1028,97 @@ msgstr ""
 
 # @ Avada
 # @ woocommerce
-#: includes/avada-functions.php:737 woocommerce/checkout/thankyou.php:37
+#: includes/avada-functions.php:742 woocommerce/checkout/thankyou.php:37
 #: woocommerce/compatibility/2.5/checkout/thankyou.php:37
 msgid "My Account"
 msgstr "Моя учётная запись"
 
-#: includes/avada-functions.php:744
+#: includes/avada-functions.php:749
 msgid "Login failed, please try again."
 msgstr ""
 
 # @ Avada
-#: includes/avada-functions.php:747
+#: includes/avada-functions.php:752
 msgid "Username"
 msgstr "Имя пользователя"
 
 # @ Avada
-#: includes/avada-functions.php:748
+#: includes/avada-functions.php:753
 msgid "Password"
 msgstr "Пароль"
 
 # @ Avada
-#: includes/avada-functions.php:749
+#: includes/avada-functions.php:754
 msgid "Remember Me"
 msgstr "Запомнить меня"
 
 # @ Avada
-#: includes/avada-functions.php:752
+#: includes/avada-functions.php:757
 msgid "Log In"
 msgstr "Войти"
 
-#: includes/avada-functions.php:756
+#: includes/avada-functions.php:761
 msgid "Register"
 msgstr ""
 
 # @ Avada
-#: includes/avada-functions.php:760
+#: includes/avada-functions.php:765
 msgid "Logout"
 msgstr "Выйти"
 
-#: includes/avada-functions.php:815
+#: includes/avada-functions.php:820
 msgid "%s Item(s)"
 msgstr ""
 
 # @ Avada
-#: includes/avada-functions.php:817
+#: includes/avada-functions.php:822
 msgid "Cart"
 msgstr "Корзина"
 
 # @ Avada
-#: includes/avada-functions.php:845 includes/woo-config.php:465
+#: includes/avada-functions.php:853 includes/woo-config.php:465
 #: templates/rollover.php:176
 msgid "View Cart"
 msgstr "Смотреть корзину"
 
 # @ Avada
-#: includes/avada-functions.php:846
+#: includes/avada-functions.php:854
 msgid "Checkout"
 msgstr "Оформить заказ"
 
-#: includes/avada-functions.php:1142
+#: includes/avada-functions.php:1134
 msgid "LayerSlider"
 msgstr ""
 
-#: includes/avada-functions.php:1187 includes/avada-functions.php:1200
+#: includes/avada-functions.php:1179 includes/avada-functions.php:1192
 msgid "This Slider Is Assigned Via Fusion Page Options"
 msgstr ""
 
-#: includes/avada-functions.php:1188
+#: includes/avada-functions.php:1180
 msgid "Slider ID: "
 msgstr ""
 
-#: includes/avada-functions.php:1189
+#: includes/avada-functions.php:1181
 msgid "Edit slider"
 msgstr ""
 
-#: includes/avada-functions.php:1189
+#: includes/avada-functions.php:1181
 msgid "Edit Slider"
 msgstr ""
 
-#: includes/avada-functions.php:1191
+#: includes/avada-functions.php:1183
 msgid "Edit slides"
 msgstr ""
 
-#: includes/avada-functions.php:1191
+#: includes/avada-functions.php:1183
 msgid "Edit Slides"
 msgstr ""
 
-#: includes/avada-functions.php:1201
+#: includes/avada-functions.php:1193
 msgid "Slider \"%s\" cannot be found"
 msgstr ""
 
-#: includes/avada-functions.php:1202
+#: includes/avada-functions.php:1194
 msgid "Learn How To Import Sliders"
 msgstr ""
 
@@ -1349,21 +1370,22 @@ msgstr ""
 # @ Avada
 #: includes/avadaredux/class-avada-avadaredux.php:1129
 #: includes/avadaredux/class-avada-avadaredux.php:1130
-#: includes/class-avada-admin.php:211 includes/class-avada-admin.php:349
-#: includes/class-avada-admin.php:352
+#: includes/class-avada-admin.php:212 includes/class-avada-admin.php:350
+#: includes/class-avada-admin.php:353
 msgid "Theme Options"
 msgstr "Настройки Темы"
 
 #: includes/avadaredux/class-avada-avadaredux.php:1240
 msgid ""
-"Are you sure? This will reset all saved theme options to their default "
-"values."
+"Are you sure? This will reset all saved options to the default theme values. "
+"This does not reset them to a demo that you may have imported."
 msgstr ""
 
 #: includes/avadaredux/class-avada-avadaredux.php:1250
 msgid ""
-"Are you sure? This will reset all saved options to their default values for "
-"this section."
+"Are you sure? This will reset all saved options to the default theme values "
+"for this section. This does not reset them to a demo that you may have "
+"imported."
 msgstr ""
 
 #: includes/avadaredux/class-avada-avadaredux.php:1260
@@ -1387,7 +1409,7 @@ msgstr ""
 
 # @ Avada
 #: includes/avadaredux/custom-fields/spacing/field_spacing.php:82
-#: templates/portfolio-layout.php:235
+#: templates/portfolio-layout.php:231
 msgid "All"
 msgstr "Все"
 
@@ -1794,52 +1816,52 @@ msgstr ""
 msgid "Sanitized value and saved as %1$s instead of %2$s."
 msgstr ""
 
-#: includes/class-avada-admin.php:129 includes/class-avada-admin.php:162
-#: includes/class-avada-admin.php:171
+#: includes/class-avada-admin.php:130 includes/class-avada-admin.php:163
+#: includes/class-avada-admin.php:172
 msgid "ThemeFusion News"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:207 includes/class-avada-admin.php:345
-#: includes/class-avada-admin.php:447
+#: includes/class-avada-admin.php:208 includes/class-avada-admin.php:346
+#: includes/class-avada-admin.php:448
 msgid "Support"
 msgstr "Техподдержка"
 
 # @ Avada
-#: includes/class-avada-admin.php:208 includes/class-avada-admin.php:346
-#: includes/class-avada-admin.php:448
+#: includes/class-avada-admin.php:209 includes/class-avada-admin.php:347
+#: includes/class-avada-admin.php:449
 msgid "Install Demos"
 msgstr "Установить демонстрационные материалы"
 
-#: includes/class-avada-admin.php:209 includes/class-avada-admin.php:347
-#: includes/class-avada-admin.php:449
+#: includes/class-avada-admin.php:210 includes/class-avada-admin.php:348
+#: includes/class-avada-admin.php:450
 msgid "Plugins"
 msgstr "Плагины"
 
 # @ Avada
-#: includes/class-avada-admin.php:210 includes/class-avada-admin.php:348
-#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
-#: includes/class-avada-admin.php:450
-#: includes/patcher/class-avada-patcher-admin-screen.php:118
+#: includes/class-avada-admin.php:211 includes/class-avada-admin.php:349
+#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
+#: includes/class-avada-admin.php:451
+#: includes/patcher/class-avada-patcher-admin-screen.php:119
 msgid "System Status"
 msgstr "Состояние системы"
 
 # @ Avada
-#: includes/class-avada-admin.php:345
+#: includes/class-avada-admin.php:346
 msgid "Avada Support"
 msgstr "Техподдержка Avada"
 
 # @ Avada
-#: includes/class-avada-admin.php:346
+#: includes/class-avada-admin.php:347
 msgid "Install Avada Demos"
 msgstr "Установить демонстрационные материалы Avada"
 
 # @ Avada
-#: includes/class-avada-admin.php:424
+#: includes/class-avada-admin.php:425
 msgid "Welcome to Avada!"
 msgstr "Добро пожаловать в Avada!"
 
-#: includes/class-avada-admin.php:428 includes/class-avada-admin.php:437
+#: includes/class-avada-admin.php:429 includes/class-avada-admin.php:438
 msgid ""
 "We're sorry but the demo data could not be imported. It is most likely due "
 "to low PHP configurations on your server. There are two possible solutions."
@@ -1848,23 +1870,23 @@ msgstr ""
 "причина в ограниченных PHP настройках Вашего сервера. Есть два возможных "
 "решения."
 
-#: includes/class-avada-admin.php:430 includes/class-avada-admin.php:439
+#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
 msgid "Solution 1:"
 msgstr "Решение 1:"
 
-#: includes/class-avada-admin.php:430 includes/class-avada-admin.php:439
+#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
 msgid "Import the demo using an alternate method."
 msgstr "Импортируйте демо данные, используя альтернативный способ."
 
-#: includes/class-avada-admin.php:430 includes/class-avada-admin.php:439
+#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
 msgid "Alternate Method"
 msgstr "Альтернативный способ"
 
-#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
+#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
 msgid "Solution 2:"
 msgstr "Решение 2:"
 
-#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
+#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
 msgid ""
 "Fix the PHP configurations in the System Status that are reported in <strong "
 "style=\"color: red;\">RED</strong>, then use the %s, then reimport."
@@ -1873,12 +1895,12 @@ msgstr ""
 "Системы' выделены <strong style=\"color: red;\">КРАСНЫМ</strong>, затем "
 "используйте %s, затем повторите попытку импорта."
 
-#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
+#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
 msgid "Reset WordPress Plugin"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:434
+#: includes/class-avada-admin.php:435
 msgid ""
 "Demo data successfully imported. Now, please install and run %s plugin once."
 msgstr ""
@@ -1886,13 +1908,13 @@ msgstr ""
 "запустите плагин %s."
 
 # @ Avada
-#: includes/class-avada-admin.php:434 includes/options/advanced.php:82
+#: includes/class-avada-admin.php:435 includes/options/advanced.php:82
 msgid "Regenerate Thumbnails"
 msgstr ""
 "Привести в соответствие размеры существующих миниатюр с размерами миниатюр "
 "импортируемых демо-данных"
 
-#: includes/class-avada-admin.php:443
+#: includes/class-avada-admin.php:444
 msgid ""
 "Avada is now installed and ready to use! Get ready to build something "
 "beautiful. Please register your purchase to get automatic theme updates, "
@@ -1900,78 +1922,78 @@ msgid ""
 "information. We hope you enjoy it! %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:443
+#: includes/class-avada-admin.php:444
 msgid "Guided Tour of Avada"
 msgstr ""
 
-#: includes/class-avada-admin.php:443
+#: includes/class-avada-admin.php:444
 msgid "Watch Our Quick Guided Tour!"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:444
+#: includes/class-avada-admin.php:445
 #: includes/class-tgm-plugin-activation.php:2697
 msgid "Version"
 msgstr "Версия"
 
-#: includes/class-avada-admin.php:623
+#: includes/class-avada-admin.php:635
 msgid "Install %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:642
+#: includes/class-avada-admin.php:654
 msgid "Activate %s"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:642
+#: includes/class-avada-admin.php:654
 #: includes/class-tgm-plugin-activation.php:2870
 msgid "Activate"
 msgstr "Активировать"
 
-#: includes/class-avada-admin.php:665
+#: includes/class-avada-admin.php:677
 msgid "Update %s"
 msgstr ""
 
 # @ bbpress
-#: includes/class-avada-admin.php:665
+#: includes/class-avada-admin.php:677
 #: includes/class-tgm-plugin-activation.php:2867
 #: includes/options/colors.php:136 includes/options/colors.php:164
 msgid "Update"
 msgstr "Обновить"
 
-#: includes/class-avada-admin.php:678
+#: includes/class-avada-admin.php:690
 msgid "Deactivate %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:678
+#: includes/class-avada-admin.php:690
 msgid "Deactivate"
 msgstr ""
 
-#: includes/class-avada-admin.php:700
+#: includes/class-avada-admin.php:712
 msgid "Fusion Builder will be installable, once Fusion Core plugin is updated."
 msgstr ""
 
-#: includes/class-avada-admin.php:700
+#: includes/class-avada-admin.php:712
 msgid "Fusion Builder"
 msgstr ""
 
-#: includes/class-avada-admin.php:719
+#: includes/class-avada-admin.php:731
 msgid "Manage Plugins Below"
 msgstr ""
 
-#: includes/class-avada-admin.php:722
+#: includes/class-avada-admin.php:734
 msgid "Go Manage Plugins"
 msgstr ""
 
-#: includes/class-avada-admin.php:737
+#: includes/class-avada-admin.php:749
 msgid "Avada portfolio category base"
 msgstr ""
 
-#: includes/class-avada-admin.php:746
+#: includes/class-avada-admin.php:758
 msgid "Avada portfolio skill base"
 msgstr ""
 
-#: includes/class-avada-admin.php:755
+#: includes/class-avada-admin.php:767
 msgid "Avada portfolio tag base"
 msgstr ""
 
@@ -2081,7 +2103,7 @@ msgstr "Если вы не нашли то, что искали, попробу�
 #: includes/class-avada-layout-bbpress.php:260
 #: includes/fusion-functions.php:181 includes/woo-config.php:349
 #: single-avada_portfolio.php:23 single-avada_portfolio.php:31
-#: single-avada_portfolio.php:41 single-wpfc_sermon.php:13 single.php:14
+#: single-avada_portfolio.php:45 single-wpfc_sermon.php:13 single.php:14
 msgid "Previous"
 msgstr "Предыдущая"
 
@@ -2090,8 +2112,8 @@ msgstr "Предыдущая"
 #: includes/class-avada-layout-bbpress.php:239
 #: includes/class-avada-layout-bbpress.php:261
 #: includes/fusion-functions.php:197 includes/woo-config.php:350
-#: single-avada_portfolio.php:48 single-avada_portfolio.php:56
-#: single-avada_portfolio.php:66 single-wpfc_sermon.php:14 single.php:15
+#: single-avada_portfolio.php:52 single-avada_portfolio.php:60
+#: single-avada_portfolio.php:74 single-wpfc_sermon.php:14 single.php:15
 msgid "Next"
 msgstr "Следующая"
 
@@ -2100,12 +2122,12 @@ msgid "Avada Theme Option Migration"
 msgstr ""
 
 #: includes/class-avada-migrate.php:359
-#: includes/class-fusion-builder-migrate.php:805
+#: includes/class-fusion-builder-migrate.php:811
 msgid "Avada Logo"
 msgstr ""
 
 #: includes/class-avada-migrate.php:368
-msgid "Migration Information"
+msgid "Conversion Information"
 msgstr ""
 
 #: includes/class-avada-migrate.php:368
@@ -2138,7 +2160,7 @@ msgid "Updating Avada Database Entries"
 msgstr ""
 
 #: includes/class-avada-migrate.php:382
-msgid "Currently migrating language: %s"
+msgid "Currently converting language: %s"
 msgstr ""
 
 #: includes/class-avada-migrate.php:385
@@ -2158,7 +2180,7 @@ msgid "This may take a few minutes, please wait."
 msgstr ""
 
 #: includes/class-avada-migrate.php:398
-msgid "Migrating language: %1$s of %2$s."
+msgid "Converting language: %1$s of %2$s."
 msgstr ""
 
 #: includes/class-avada-migrate.php:403
@@ -2183,7 +2205,7 @@ msgid "Take Me To Shortcode Conversion"
 msgstr ""
 
 #: includes/class-avada-migrate.php:435
-#: includes/class-fusion-builder-migrate.php:834
+#: includes/class-fusion-builder-migrate.php:840
 msgid "Created with %s"
 msgstr ""
 
@@ -2267,7 +2289,7 @@ msgstr "Социальный микроформат для гиперссыло�
 
 # @ Avada
 #: includes/class-avada-nav-walker-megamenu.php:189
-#: includes/patcher/class-avada-patcher-admin-screen.php:153
+#: includes/patcher/class-avada-patcher-admin-screen.php:157
 msgid "Description"
 msgstr "Описание"
 
@@ -2538,31 +2560,31 @@ msgid "Default Sidebar of Avada"
 msgstr "Сайдбар темы Avada по умолчанию"
 
 # @ Avada
-#: includes/class-avada-template.php:381
+#: includes/class-avada-template.php:383
 msgid "%1$s at %2$s"
 msgstr "%1$s в %2$s"
 
 # @ Avada
-#: includes/class-avada-template.php:381
+#: includes/class-avada-template.php:383
 msgid " - Edit"
 msgstr " - Редактировать"
 
 # @ Avada
-#: includes/class-avada-template.php:381
+#: includes/class-avada-template.php:383
 msgid " - Reply"
 msgstr " - Ответить"
 
 # @ Avada
-#: includes/class-avada-template.php:385
+#: includes/class-avada-template.php:387
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает проверки модератором."
 
-#: includes/class-avada-upgrade.php:353
+#: includes/class-avada-upgrade.php:354
 msgid "View Changelog"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-upgrade.php:354
+#: includes/class-avada-upgrade.php:355
 #: includes/class-tgm-plugin-activation.php:409
 msgid "Dismiss this notice"
 msgstr "Игнорировать это уведомление"
@@ -2601,7 +2623,7 @@ msgid ""
 "Elements tab in the %s."
 msgstr ""
 
-#: includes/class-fusion-builder-filters.php:1019
+#: includes/class-fusion-builder-filters.php:1018
 msgid ""
 "Your product must be registered to receive Avada demo pages. Go to the %s "
 "tab to complete registration."
@@ -2611,22 +2633,22 @@ msgstr ""
 msgid ""
 "It looks like the %s folder in your WordPress installation is not writable. "
 "Please make sure to change the file/folder permissions to allow downloading "
-"the Fusion-Builder demos before using them."
+"the Avada demo pages through the Fusion Builder Library before using them."
 msgstr ""
 
-#: includes/class-fusion-builder-filters.php:1042
+#: includes/class-fusion-builder-filters.php:1041
 msgid ""
 "Once you register your Avada theme purchase, you will be able to select any "
 "Avada demo, view each page it contains and import any of them individually."
 msgstr ""
 
-#: includes/class-fusion-builder-filters.php:1046
+#: includes/class-fusion-builder-filters.php:1045
 msgid ""
 "Once the demos are downloaded, you will be able to select any Avada demo, "
 "view each page it contains and import any of them individually."
 msgstr ""
 
-#: includes/class-fusion-builder-filters.php:1050
+#: includes/class-fusion-builder-filters.php:1049
 msgid ""
 "Importing a single demo page is to receive the skeleton layout only. "
 "<strong>You will not receive demo images, fusion theme options, custom post "
@@ -2637,62 +2659,62 @@ msgid ""
 "> Install Demos tab."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:280
+#: includes/class-fusion-builder-migrate.php:285
 msgid "Avada Shortcode Conversion"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:282
+#: includes/class-fusion-builder-migrate.php:287
 msgid "Revert Avada Shortcode Conversion"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1039
+#: includes/class-fusion-builder-migrate.php:1045
 msgid ""
 "Avada 5.0 is an amazing update with new features, improvements and our brand "
 "new Fusion Builder. To enjoy Avada 5.0, conversion steps need to be "
 "performed. Please see below. Thank you for choosing Avada!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1041
+#: includes/class-fusion-builder-migrate.php:1047
 msgid ""
 "This is the reversion process. Please see below for further information."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1081
+#: includes/class-fusion-builder-migrate.php:1087
 msgid "IMPORTANT: Shortcode Conversion For Fusion Builder"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1083
+#: includes/class-fusion-builder-migrate.php:1089
 msgid "Collect IDs of posts that need to be converted"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1085
+#: includes/class-fusion-builder-migrate.php:1091
 msgid ""
 "Convert posts, slides, widgets and theme-options to new shortcode syntax"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1087
+#: includes/class-fusion-builder-migrate.php:1093
 msgid "Congratulations! The conversion finished successfully!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1091
+#: includes/class-fusion-builder-migrate.php:1097
 msgid "IMPORTANT: Revert Shortcode Conversion For Fusion Builder"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1093
+#: includes/class-fusion-builder-migrate.php:1099
 msgid "Collect IDs of posts that need to be reverted"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1095
+#: includes/class-fusion-builder-migrate.php:1101
 msgid ""
 "Revert posts, slides, widgets and theme-options that were previously "
 "converted"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1097
+#: includes/class-fusion-builder-migrate.php:1103
 msgid "Congratulations! The reversion finished successfully!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1113
+#: includes/class-fusion-builder-migrate.php:1119
 msgid ""
 "Our newly built Fusion Builder is amazing and up to 5x faster. It needs to "
 "convert your old shortcodes to the new syntax. This will ensure all "
@@ -2700,50 +2722,50 @@ msgid ""
 "plugins."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1114
+#: includes/class-fusion-builder-migrate.php:1120
 msgid ""
 "Avada will search through your posts and pages and collect IDs of all pages "
 "using the old shortcodes and convert them to our new syntax. A backup is "
 "created of those pages and posts, to ensure all your data is fully secure."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1115
+#: includes/class-fusion-builder-migrate.php:1121
 msgid ""
 "The process can take time, please be patient during conversion and DO NOT "
 "CLOSE THIS SCREEN!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1116
+#: includes/class-fusion-builder-migrate.php:1122
 msgid ""
 "If the migration is not performed, you won't be able to use Avada %s unless "
 "you manually trigger the conversion at a later time through the WP admin "
 "area."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1117
+#: includes/class-fusion-builder-migrate.php:1123
 msgid ""
 "If you don't want your pages converted then please delete the new Avada "
 "folder and copy the old Avada folder to your server. If you did not backup "
 "your previous Avada theme folder, you can %s."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1118
+#: includes/class-fusion-builder-migrate.php:1124
 msgid ""
 "We recommend doing a full database backup before proceeding with conversion."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1119
+#: includes/class-fusion-builder-migrate.php:1125
 msgid ""
 "By pressing the \"Start Conversion\" button below, you confirm that Avada "
 "should convert your posts and pages to the new shortcode syntax."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1120
 #: includes/class-fusion-builder-migrate.php:1126
+#: includes/class-fusion-builder-migrate.php:1132
 msgid "I have read the above."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1122
+#: includes/class-fusion-builder-migrate.php:1128
 msgid ""
 "You have already converted your shortcodes to the new Avada 5.0 structure, "
 "but have chosen to revert back to their previous state before you installed "
@@ -2751,126 +2773,126 @@ msgid ""
 "Avada."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1123
+#: includes/class-fusion-builder-migrate.php:1129
 msgid ""
 "Once reversion is done, you can load a previous version of Avada onto your "
 "server. You can download %s here if you do not have a backup of your "
 "previous theme."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1123
+#: includes/class-fusion-builder-migrate.php:1129
 msgid "Avada 4.0.3"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1124
+#: includes/class-fusion-builder-migrate.php:1130
 msgid ""
 "The process can take time, please be patient during reversion and DO NOT "
 "CLOSE THIS SCREEN!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1125
+#: includes/class-fusion-builder-migrate.php:1131
 msgid ""
 "By pressing the \"Start Reversion\" button below, you confirm that Avada "
 "should revert your posts and pages to the previous syntax."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1131
+#: includes/class-fusion-builder-migrate.php:1137
 msgid ""
 "Currently scanning posts of post type \"%1$s\" (items %2$s to %3$s of %4$s "
 "total)."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1139
+#: includes/class-fusion-builder-migrate.php:1145
 msgid "Posts that need to be converted: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1141
+#: includes/class-fusion-builder-migrate.php:1147
 msgid "Posts that need to be reverted: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1157
+#: includes/class-fusion-builder-migrate.php:1163
 msgid "Remaining items to convert: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1159
+#: includes/class-fusion-builder-migrate.php:1165
 msgid "Remaining items to revert: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1163
+#: includes/class-fusion-builder-migrate.php:1169
 msgid ""
 "All needed posts have been converted to the new Fusion Builder syntax. You "
 "can now update Fusion Core and install Fusion Builder plugin."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1165
+#: includes/class-fusion-builder-migrate.php:1171
 msgid ""
 "All needed posts have been reverted to the previous syntax. You can now roll-"
 "back to <a href=\"%s\" target=\"_blank\">Avada 4.0.3</a>."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1218
+#: includes/class-fusion-builder-migrate.php:1224
 msgid "Scanning posts of post type \"%1$s\". Total posts: %2$s."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1244
+#: includes/class-fusion-builder-migrate.php:1250
 msgid "Converting posts."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1245
+#: includes/class-fusion-builder-migrate.php:1251
 msgid "Converting slides."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1246
+#: includes/class-fusion-builder-migrate.php:1252
 msgid "Converting widgets."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1247
+#: includes/class-fusion-builder-migrate.php:1253
 msgid "Converting theme options."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1249
+#: includes/class-fusion-builder-migrate.php:1255
 msgid "Reverting posts."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1250
+#: includes/class-fusion-builder-migrate.php:1256
 msgid "Reverting slides."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1251
+#: includes/class-fusion-builder-migrate.php:1257
 msgid "Reverting widgets."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1252
+#: includes/class-fusion-builder-migrate.php:1258
 msgid "Reverting theme options."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1272
+#: includes/class-fusion-builder-migrate.php:1278
 msgid "Start Reversion"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1274
+#: includes/class-fusion-builder-migrate.php:1280
 msgid "Start Conversion"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1280
+#: includes/class-fusion-builder-migrate.php:1286
 msgid "Do Not Revert"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1282
+#: includes/class-fusion-builder-migrate.php:1288
 msgid "Do Not Convert"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1294
+#: includes/class-fusion-builder-migrate.php:1300
 msgid ""
 "Please confirm that you have read the instructions, by checking the box."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1301
-#: includes/class-fusion-builder-migrate.php:1318
+#: includes/class-fusion-builder-migrate.php:1307
+#: includes/class-fusion-builder-migrate.php:1324
 msgid "Take me to Admin"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1322
+#: includes/class-fusion-builder-migrate.php:1328
 msgid "Update Required Plugins"
 msgstr ""
 
@@ -3104,7 +3126,7 @@ msgstr "Тип"
 
 # @ Avada
 #: includes/class-tgm-plugin-activation.php:2698
-#: includes/patcher/class-avada-patcher-admin-screen.php:154
+#: includes/patcher/class-avada-patcher-admin-screen.php:158
 msgid "Status"
 msgstr "Состояние"
 
@@ -3276,7 +3298,7 @@ msgid "Pages:"
 msgstr "Страницы:"
 
 # @ Avada
-#: includes/dynamic_css.php:8394
+#: includes/dynamic_css.php:8411
 msgid "Please enter correct details for this required field."
 msgstr "Введите правильные данные в это поле, обязательное для заполнения."
 
@@ -5709,7 +5731,11 @@ msgstr ""
 #: includes/options/colors.php:30
 msgid ""
 "Controls the main theme skin to be light or dark. Select a skin and all "
-"color options will change to the defined selection."
+"color options will change to the defined selection. Please note that "
+"individual pages have containers and Fusion Page Options that can override "
+"this setting, therefor you may not fully see the changes. If you change to "
+"light and a page is still dark, edit the page and look at each container "
+"background settings, along with Fusion Page Options."
 msgstr ""
 
 # @ Avada
@@ -8820,7 +8846,7 @@ msgstr "Количество элементов на странице портф
 #: includes/options/portfolio.php:60
 msgid ""
 "Controls the number of posts that display per page for portfolio elements "
-"and portfolio archive pages. Enter 0 to display all posts on one page."
+"and portfolio archive pages. Enter -1 to display all posts on one page."
 msgstr ""
 
 #: includes/options/portfolio.php:71
@@ -9003,7 +9029,7 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/options/portfolio.php:288 single-avada_portfolio.php:144
+#: includes/options/portfolio.php:288 single-avada_portfolio.php:152
 msgid "Project Details"
 msgstr "Сведения о проекте"
 
@@ -10489,13 +10515,12 @@ msgid "Controls the border size of the section separator."
 msgstr "Задаёт толщину границы разделителя блоков контента."
 
 #: includes/options/shortcode_styling.php:1316
-msgid "Section Separator Divider Candy Background Color"
+msgid "Section Separator Background Color"
 msgstr ""
 
-# @ Avada
 #: includes/options/shortcode_styling.php:1317
-msgid "Controls the background color of the divider candy."
-msgstr "Задаёт фоновый цвет декоративного конька разделителя блоков контента."
+msgid "Controls the background color of the section separator style."
+msgstr ""
 
 # @ Avada
 #: includes/options/shortcode_styling.php:1324
@@ -12246,98 +12271,93 @@ msgstr "Размер шрифта иконки WooCommerce"
 msgid "Controls the font size of the WooCommerce icons."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:117
+#: includes/patcher/class-avada-patcher-admin-screen.php:118
 msgid ""
-"We've checked the PHP configurations on your server and there are one or "
-"more low values which could cause the patches install to fail. You can see "
+"Avada checked the PHP configurations on your server and one or more low "
+"values were found that could cause the patches install to fail. You can see "
 "them in red on our %s tab. There are links to show you how to adjust them or "
 "you can contact your host for assistance."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:130
-msgid "Avada Patcher: There Are No Available Patches For Avada v%s"
+#: includes/patcher/class-avada-patcher-admin-screen.php:131
+msgid "Avada Patcher: Currently there are no patches available for Avada v%s"
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:132
+#: includes/patcher/class-avada-patcher-admin-screen.php:133
 msgid "Avada Patcher: The following patches are available for Avada %s"
 msgstr ""
 
 # @ Avada
-#: includes/patcher/class-avada-patcher-admin-screen.php:134
+#: includes/patcher/class-avada-patcher-admin-screen.php:135
 #: templates/portfolio-archive-layout.php:218
-#: templates/portfolio-layout.php:457
+#: templates/portfolio-layout.php:453
 msgid "Learn More"
 msgstr "Подробнее"
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:138
+#: includes/patcher/class-avada-patcher-admin-screen.php:139
 msgid ""
 "The status column displays if a patch was applied. However, a patch can be "
 "reapplied if necessary."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:151
+#: includes/patcher/class-avada-patcher-admin-screen.php:155
 msgid "Patch #"
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:152
+#: includes/patcher/class-avada-patcher-admin-screen.php:156
 msgid "Issue Date"
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:201
-msgid ""
-"The patch could not be applied due to your server configuration. Please "
-"contact <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Avada "
-"support</a> providing your FTP credentials so that a representative can "
-"apply the patch manually."
-msgstr ""
-
-#: includes/patcher/class-avada-patcher-admin-screen.php:206
-msgid ""
-"The patch could not be applied. Please try adding <code>define( 'FS_METHOD', "
-"'direct' );</code> in your wp-config.php file and try again, or contact <a "
-"href='%s' target='_blank' rel='noopener noreferrer'>Avada support</a> "
-"providing your FTP credentials so that a representative can apply the patch "
-"manually."
-msgstr ""
-
-#: includes/patcher/class-avada-patcher-admin-screen.php:228
+#: includes/patcher/class-avada-patcher-admin-screen.php:221
 msgid "Patch Applied"
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:230
+#: includes/patcher/class-avada-patcher-admin-screen.php:223
 msgid "Apply Patch"
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:236
+#: includes/patcher/class-avada-patcher-admin-screen.php:225
+msgid "Dismiss Notices"
+msgstr ""
+
+#: includes/patcher/class-avada-patcher-admin-screen.php:232
 msgid "Please apply patch #%s first."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-admin-screen.php:238
+#: includes/patcher/class-avada-patcher-admin-screen.php:234
 msgid "Patch cannot be currently aplied."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-client.php:114
+#: includes/patcher/class-avada-patcher-client.php:115
 msgid ""
 "The Avada patches server could not be reached. Please contact your host to "
-"unblock the \"https://theme-fusion.com/\" domain."
+"unblock the \"https://updates.theme-fusion.com/\" domain."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-filesystem.php:98
+#: includes/patcher/class-avada-patcher-filesystem.php:100
 msgid ""
 "The Avada patch contents cannot be retrieved. Please contact your host to "
 "unblock the \"https://gist.github.com/\" domain."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-filesystem.php:113
+#: includes/patcher/class-avada-patcher-filesystem.php:116
 msgid "Patch empty."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-filesystem.php:128
+#: includes/patcher/class-avada-patcher-filesystem.php:132
 msgid "Invalid Patch target."
 msgstr ""
 
-#: includes/patcher/class-avada-patcher-filesystem.php:137
-msgid "Unable to write file %s to the filesystem."
+#: includes/patcher/class-avada-patcher-filesystem.php:156
+msgid ""
+"The patch could not be applied because of your specific server permissions. "
+"You have two options to remedy this. 1. <a %1$s>Download this zip file</a> "
+"which contains the files needed to fix this issue. Simply extract the zip "
+"file, and replace the files it contains with the same files on your server. "
+"DO NOT REPLACE THE ENTIRE FOLDER. 2. <a %2$s>Contact our support center</a>, "
+"submit a ticket and include your FTP credentials so one of our support "
+"experts can apply the fix for you. Once the fix is applied, click the "
+"\"Dismiss Notices\" button so this message is removed."
 msgstr ""
 
 #: includes/plugins/importer/importer.php:666
@@ -12662,12 +12682,12 @@ msgid "Add New Widget Section"
 msgstr "Добавить новую область виджетов"
 
 # @ Avada
-#: includes/plugins/multiple_sidebars.php:370
+#: includes/plugins/multiple_sidebars.php:380
 msgid "Select Sidebar 1:"
 msgstr "Выберите 1-й сайдбар:"
 
 # @ Avada
-#: includes/plugins/multiple_sidebars.php:371
+#: includes/plugins/multiple_sidebars.php:381
 msgid ""
 "Select sidebar 1 that will display on this page. Choose \"No Sidebar\" for "
 "full width."
@@ -12675,47 +12695,47 @@ msgstr ""
 "Выберите 1-й сайдбар, отображаемый на этой странице. Выберите опцию 'Без "
 "сайдбара', чтобы контент выводился на всю ширину области сайта."
 
-#: includes/plugins/multiple_sidebars.php:381
-#: includes/plugins/multiple_sidebars.php:449
+#: includes/plugins/multiple_sidebars.php:391
+#: includes/plugins/multiple_sidebars.php:459
 msgid "WP Default Sidebar"
 msgstr ""
 
 # @ Avada
-#: includes/plugins/multiple_sidebars.php:386
-#: includes/plugins/multiple_sidebars.php:392
-#: includes/plugins/multiple_sidebars.php:407
-#: includes/plugins/multiple_sidebars.php:413
-#: includes/plugins/multiple_sidebars.php:419
-#: includes/plugins/multiple_sidebars.php:454
-#: includes/plugins/multiple_sidebars.php:460
-#: includes/plugins/multiple_sidebars.php:475
-#: includes/plugins/multiple_sidebars.php:481
-#: includes/plugins/multiple_sidebars.php:527
-#: includes/plugins/multiple_sidebars.php:585
+#: includes/plugins/multiple_sidebars.php:396
+#: includes/plugins/multiple_sidebars.php:402
+#: includes/plugins/multiple_sidebars.php:417
+#: includes/plugins/multiple_sidebars.php:423
+#: includes/plugins/multiple_sidebars.php:429
+#: includes/plugins/multiple_sidebars.php:464
+#: includes/plugins/multiple_sidebars.php:470
+#: includes/plugins/multiple_sidebars.php:485
+#: includes/plugins/multiple_sidebars.php:491
+#: includes/plugins/multiple_sidebars.php:537
+#: includes/plugins/multiple_sidebars.php:595
 msgid "Blog Sidebar"
 msgstr "Сайдбар блога"
 
-#: includes/plugins/multiple_sidebars.php:402
-#: includes/plugins/multiple_sidebars.php:470
+#: includes/plugins/multiple_sidebars.php:412
+#: includes/plugins/multiple_sidebars.php:480
 msgid "No Sidebar"
 msgstr ""
 
-#: includes/plugins/multiple_sidebars.php:414
-#: includes/plugins/multiple_sidebars.php:421
-#: includes/plugins/multiple_sidebars.php:455
-#: includes/plugins/multiple_sidebars.php:461
-#: includes/plugins/multiple_sidebars.php:476
-#: includes/plugins/multiple_sidebars.php:482
+#: includes/plugins/multiple_sidebars.php:424
+#: includes/plugins/multiple_sidebars.php:431
+#: includes/plugins/multiple_sidebars.php:465
+#: includes/plugins/multiple_sidebars.php:471
+#: includes/plugins/multiple_sidebars.php:486
+#: includes/plugins/multiple_sidebars.php:492
 msgid "Default Sidebar"
 msgstr ""
 
 # @ Avada
-#: includes/plugins/multiple_sidebars.php:438
+#: includes/plugins/multiple_sidebars.php:448
 msgid "Select Sidebar 2:"
 msgstr "Выберите 2-й сайдбар:"
 
 # @ Avada
-#: includes/plugins/multiple_sidebars.php:439
+#: includes/plugins/multiple_sidebars.php:449
 msgid ""
 "Select sidebar 2 that will display on this page. Sidebar 2 can only be used "
 "if sidebar 1 is selected."
@@ -13564,34 +13584,34 @@ msgid "If you want to rephrase your query, here is your chance:"
 msgstr "Если Вы хотите перефразировать запрос, это Ваш шанс:"
 
 # @ Avada
-#: single-avada_portfolio.php:137
+#: single-avada_portfolio.php:145
 msgid "Project Description"
 msgstr "Описание проекта"
 
-#: single-avada_portfolio.php:148
+#: single-avada_portfolio.php:156
 msgid "Skills Needed:"
 msgstr ""
 
 # @ Avada
-#: single-avada_portfolio.php:157
+#: single-avada_portfolio.php:165
 msgid "Categories:"
 msgstr "Категории:"
 
 # @ Avada
 # @ bbpress
-#: single-avada_portfolio.php:166
+#: single-avada_portfolio.php:174
 msgid "Tags:"
 msgstr "Теги:"
 
-#: single-avada_portfolio.php:176
+#: single-avada_portfolio.php:184
 msgid "Project URL:"
 msgstr ""
 
-#: single-avada_portfolio.php:184
+#: single-avada_portfolio.php:192
 msgid "Copyright:"
 msgstr ""
 
-#: single-avada_portfolio.php:191
+#: single-avada_portfolio.php:199
 msgid "By:"
 msgstr ""
 
@@ -13642,7 +13662,7 @@ msgstr "Защищено паролем"
 
 # @ Avada
 #: templates/blog-layout.php:249 templates/portfolio-archive-layout.php:278
-#: templates/portfolio-layout.php:504
+#: templates/portfolio-layout.php:500
 msgid "Load More Posts"
 msgstr "Загрузить ещё записи"
 
@@ -13651,7 +13671,7 @@ msgstr "Загрузить ещё записи"
 msgid " View Project"
 msgstr "Посмотреть проект"
 
-#: templates/portfolio-layout.php:461
+#: templates/portfolio-layout.php:457
 msgid "View Project"
 msgstr ""
 
@@ -13969,7 +13989,7 @@ msgid "Side Navigation"
 msgstr "Боковая навигация"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:530
+#: includes/admin-screens/system-status.php:559
 msgctxt "by author"
 msgid "by %s"
 msgstr "Автор %s"
@@ -14000,6 +14020,11 @@ msgstr[2] "Все"
 msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
 msgstr "не известен"
+
+# @ Avada
+#~ msgid "Controls the background color of the divider candy."
+#~ msgstr ""
+#~ "Задаёт фоновый цвет декоративного конька разделителя блоков контента."
 
 # @ Avada
 #~ msgid ""
