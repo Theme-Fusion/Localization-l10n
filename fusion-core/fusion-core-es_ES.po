@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-core\n"
-"POT-Creation-Date: 2016-10-18 15:59:06+00:00\n"
-"PO-Revision-Date: 2016-03-07 15:12-0000\n"
+"POT-Creation-Date: 2016-11-02 12:29:26+00:00\n"
+"PO-Revision-Date: 2016-11-03 21:06+0100\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
 "language/es_ES/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: /Users/muhammadharis/Dropbox/projects/avada/wp-content/"
 "plugins/fusion-core\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
@@ -29,15 +29,15 @@ msgstr ""
 
 #: fusion-core.php:147
 msgid "Portfolio Categories"
-msgstr ""
+msgstr "Categorías de Portafolio"
 
 #: fusion-core.php:161
 msgid "Skills"
-msgstr ""
+msgstr "Aptitudes"
 
 #: fusion-core.php:175
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 # @ fusion-core
 #: fusion-core.php:225
@@ -157,7 +157,7 @@ msgstr "Fusion Slider"
 
 #: fusion-slider.php:45
 msgid "View Slide"
-msgstr ""
+msgstr "Ver Slide"
 
 # @ fusion-core
 #: fusion-slider.php:67
@@ -226,11 +226,12 @@ msgstr "Exportar / Importar"
 
 #: fusion-slider.php:131 fusion-slider.php:261
 msgid "Slider Size"
-msgstr ""
+msgstr "Tamaño de slider"
 
 #: fusion-slider.php:132 fusion-slider.php:263
 msgid "Enter a pixel value for width and height, ex: 1000px"
 msgstr ""
+"Introduce un valor en píxeles para el ancho y alto, por ejemplo: 1000px"
 
 # @ fusion-core
 #: fusion-slider.php:136 fusion-slider.php:171 fusion-slider.php:266
@@ -247,17 +248,16 @@ msgstr "Alto"
 # @ fusion-core
 #: fusion-slider.php:144 fusion-slider.php:275
 msgid "Slider Content Max Width"
-msgstr ""
+msgstr "Ancho máximo para el contenido del slider"
 
 # @ fusion-core
 #: fusion-slider.php:146
-#, fuzzy
 msgid ""
 "Controls the width of content, In pixels, ex: 850px. Leave blank for site "
 "width."
 msgstr ""
-"Escoger el radio de los iconos en caja. En píxeles (px), ej: 1px, o \"round"
-"\". Dejar en blanco para la selección de opciones en el tema."
+"Controla el ancho del contenido, en píxeles, por ejemplo: 850 px. Dejar en "
+"blanco para el ancho por defecto."
 
 # @ fusion-core
 #: fusion-slider.php:149 fusion-slider.php:282
@@ -276,7 +276,6 @@ msgstr "Efecto de desplazamiento Parallax"
 
 # @ fusion-core
 #: fusion-slider.php:158 fusion-slider.php:294
-#, fuzzy
 msgid ""
 "Check this box to have a parallax scrolling effect, this ONLY works when "
 "assigning the slider in page options. It does not work when using a slider "
@@ -284,12 +283,12 @@ msgid ""
 "exact due to negative margin which is based off the overall header size. ex: "
 "500px will show as 415px. Please adjust accordingly."
 msgstr ""
-"Marcar para tener un efecto de desplazamiento parallax, esto funciona SÓLO "
-"cuando se asigna el slider en  opciones de la página. No funciona cuando se "
-"utiliza un shortcode de slider. Con esta opción habilitada, el alto del "
-"slider que ha ingresado no será exacto debido a un margen negativo la cual "
-"está basada en el tamaño total del encabezado ej:.. 500px mostrará como "
-"415px. Favor de ajustarlo como debe ser."
+"Marque esta casilla para tener un efecto scroll parallax, esto sólo funciona "
+"cuando asigna el slider en la página de configuración. No funciona cuando se "
+"utiliza un shortcode para el slider. Con esta opción activada, la altura del "
+"slide no será exacto debido al margen negativo que se basa fuera del tamaño "
+"total de cabecera. por ejemplo: 500px mostrará como 415px. Por favor, ajuste "
+"en consecuencia."
 
 # @ fusion-core
 #: fusion-slider.php:161 fusion-slider.php:298
@@ -303,19 +302,21 @@ msgstr "Marcar para mostrar las flechas de navegación."
 
 #: fusion-slider.php:167 fusion-slider.php:306
 msgid "Navigation Box Size"
-msgstr ""
+msgstr "Tamaño de la caja de navegación"
 
 #: fusion-slider.php:168 fusion-slider.php:308
 msgid "Enter a pixel value for width and height, ex: 40px"
 msgstr ""
+"Introduce un valor en píxeles para el ancho y alto, por ejemplo: 1000px"
 
 #: fusion-slider.php:179 fusion-slider.php:320
 msgid "Navigation Arrow Size"
-msgstr ""
+msgstr "Tamaño de las flechas de Navegación"
 
 #: fusion-slider.php:181 fusion-slider.php:323
 msgid "Enter a pixel value for the arrow size, ex: 14px"
 msgstr ""
+"Introduzce un valor en píxeles para el tamaño de la flecha, por ejemplo: 14px"
 
 # @ fusion-core
 #: fusion-slider.php:184 fusion-slider.php:327
@@ -385,22 +386,27 @@ msgstr ""
 # @ fusion-core
 #: fusion-slider.php:220 fusion-slider.php:375
 msgid "Responsive Typography Sensitivity"
-msgstr ""
+msgstr "Sensibilidad de la Tipografía en diseño responsivo"
 
 #: fusion-slider.php:222 fusion-slider.php:378
 msgid ""
 "Values below 1 decrease resizing, values above 1 increase sizing. ex: .6"
 msgstr ""
+"Valores inferiores a 1 disminuyen el tamaño y valores superiores a 1 lo "
+"aumentan"
 
 #: fusion-slider.php:225 fusion-slider.php:382
 msgid "Minimum Font Size Factor"
-msgstr ""
+msgstr "Factor mínimo para el tamaño de fuente"
 
 #: fusion-slider.php:227 fusion-slider.php:385
 msgid ""
 "Minimum font factor is used to determine minimum distance between headings "
 "and body type by a multiplying value. ex: 1.5"
 msgstr ""
+"El factor mínimo del tamaño de fuente se utiliza para determinar la "
+"distancia mínima entre las fuentes de encabezado y cuerpo por la "
+"multiplicación de un valor, por ejemplo: 1.5"
 
 # @ fusion-core
 #: fusion-slider.php:278
@@ -408,6 +414,8 @@ msgid ""
 "Controls the width of content,  In pixels, ex: 850px. Leave blank for site "
 "width."
 msgstr ""
+"Controla el ancho del contenido, en píxeles, por ejemplo: 850 px. Dejar en "
+"blanco para el ancho por defecto."
 
 # @ fusion-core
 #: fusion-slider.php:414
@@ -427,35 +435,35 @@ msgstr "Exportar todos los Sliders"
 # @ fusion-core
 #: fusion-slider.php:423
 msgid "Choose a file from your computer:"
-msgstr "Elige un archivo de tu computadora:"
+msgstr "Elige un archivo de tu ordenador:"
 
 #: fusion-slider.php:639
 msgid "No file to import."
-msgstr ""
+msgstr "No hay archivo para importar"
 
 #: fusion-slider.php:645 fusion-slider.php:685
 msgid "Clone this slide"
-msgstr ""
+msgstr "Clonar este slide"
 
 #: fusion-slider.php:645 fusion-slider.php:658
 msgid "Clone"
-msgstr ""
+msgstr "Clonar"
 
 #: fusion-slider.php:658 fusion-slider.php:674
 msgid "Clone this slider"
-msgstr ""
+msgstr "Clonar este slider"
 
 #: fusion-slider.php:699 fusion-slider.php:787
 msgid "( Cloned )"
-msgstr ""
+msgstr "(Clonado)"
 
 #: fusion-slider.php:756
 msgid "No slide to clone."
-msgstr ""
+msgstr "No hay slide para clonar."
 
 #: fusion-slider.php:775
 msgid "Cloninig failed. Post not found. ID: "
-msgstr ""
+msgstr "Fallo en la clonación. No se ha encontrado el ID de la entrada."
 
 # @ wordpress-importer
 #: libs/parsers.php:42 libs/parsers.php:72 libs/parsers.php:80
@@ -730,61 +738,60 @@ msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
 "strong> from a WordPress export file."
 msgstr ""
+"Importar <strong>entradas, páginas, comentarios, campos personalizados, "
+"categorías y etiquetas</strong> desde un archivo de exportación de WordPress."
 
 # @ fusion-core
 #. Plugin Name of the plugin/theme
-#, fuzzy
 msgid "Fusion Core"
-msgstr "Fusion Slider"
+msgstr "Fusion Core"
 
 #. Author URI of the plugin/theme
 msgid "http://theme-fusion.com"
-msgstr ""
+msgstr "http://theme-fusion.com"
 
 #. Description of the plugin/theme
 msgid "ThemeFusion Core Plugin for ThemeFusion Themes"
-msgstr ""
+msgstr "Núcleo del plugin para plantillas de ThemeFusion"
 
 #. Author of the plugin/theme
-#, fuzzy
 msgid "ThemeFusion"
-msgstr "Opciones del tema"
+msgstr "ThemeFusion"
 
 #: fusion-core.php:129
 msgctxt "Post Type General Name"
 msgid "Portfolio"
-msgstr ""
+msgstr "Portfolio"
 
 #: fusion-core.php:189
 msgctxt "Post Type General Name"
 msgid "FAQs"
-msgstr ""
+msgstr "FAQs"
 
 # @ fusion-core
 #: fusion-core.php:223
 msgctxt "Post Type General Name"
 msgid "Elastic Sliders"
-msgstr ""
+msgstr "Elastic Sliders"
 
 # @ fusion-core
 #: fusion-slider.php:40
 msgctxt "Post Type General Name"
 msgid "Fusion Slides"
-msgstr ""
+msgstr "Fusion Slides"
 
 #: fusion-core.php:130
 msgctxt "Post Type Singular Name"
 msgid "Portfolio"
-msgstr ""
+msgstr "Portfolio"
 
 #: fusion-core.php:190
 msgctxt "Post Type Singular Name"
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 # @ fusion-core
 #: fusion-core.php:224
-#, fuzzy
 msgctxt "Post Type Singular Name"
 msgid "Elastic Slider"
 msgstr "Elastic Slider"
@@ -793,36 +800,34 @@ msgstr "Elastic Slider"
 #: fusion-slider.php:41
 msgctxt "Post Type Singular Name"
 msgid "Fusion Slide"
-msgstr ""
+msgstr "Fusion Slide"
 
 #: fusion-core.php:150
 msgctxt "slug"
 msgid "portfolio_category"
-msgstr ""
+msgstr "categoria_portfolio"
 
 #: fusion-core.php:164
 msgctxt "slug"
 msgid "portfolio_skills"
-msgstr ""
+msgstr "habilidades_portfolio"
 
 #: fusion-core.php:178
 msgctxt "slug"
 msgid "portfolio_tags"
-msgstr ""
+msgstr "etiquetas_portfolio"
 
 # @ fusion-core
 #: fusion-core.php:248
-#, fuzzy
 msgctxt "Taxonomy General Name"
 msgid "Groups"
-msgstr "Buscar"
+msgstr "Grupos"
 
 # @ fusion-core
 #: fusion-core.php:249
-#, fuzzy
 msgctxt "Taxonomy Singular Name"
 msgid "Group"
-msgstr " - Editar"
+msgstr "Grupo"
 
 # @ fusion-core
 #~ msgid "The type of animation when slides rotate."
