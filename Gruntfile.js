@@ -80,6 +80,17 @@ module.exports = function(grunt) {
 					ext: '.mo',
 					nonull: true
 				}]
+			},
+			plugin2: {
+				options: { poDel: false },
+				files: [{
+					expand: true,
+					cwd: 'fusion-builder',
+					src: ['*.po'],
+					dest: 'fusion-builder',
+					ext: '.mo',
+					nonull: true
+				}]
 			}
 		},
 	});
