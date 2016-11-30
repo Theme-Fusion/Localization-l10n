@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2016-11-11 13:04:41+00:00\n"
+"POT-Creation-Date: 2016-11-21 15:17:23+00:00\n"
 "PO-Revision-Date: 2016-03-07 15:01-0000\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Bulgarian (Bulgaria) (http://www.transifex.com/projects/p/"
@@ -266,8 +266,8 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/fusion-plugins.php:26
 #: includes/admin-screens/install-demos.php:75
-#: includes/class-avada-admin.php:206 includes/class-avada-admin.php:271
-#: includes/class-avada-admin.php:447
+#: includes/class-avada-admin.php:192 includes/class-avada-admin.php:257
+#: includes/class-avada-admin.php:433
 #: includes/class-fusion-builder-filters.php:1018
 msgid "Product Registration"
 msgstr ""
@@ -317,7 +317,7 @@ msgstr ""
 
 # @ Avada
 #: includes/admin-screens/install-demos.php:49
-#: includes/class-avada-admin.php:635
+#: includes/class-avada-admin.php:621
 #: includes/class-tgm-plugin-activation.php:2861
 msgid "Install"
 msgstr "Инсталиране"
@@ -908,8 +908,8 @@ msgstr ""
 #: includes/admin-screens/welcome.php:55
 msgid ""
 "Enter a name for your token, then check the boxes for <strong>View Your "
-"Envato Account Username, Download Your Purchased Items, Verify Purchases "
-"You've Made</strong> and <strong>List Purchases You've Made</strong> from "
+"Envato Account Username, Download Your Purchased Items, List Purchases "
+"You've Made</strong> and <strong>Verify Purchases You've Made</strong> from "
 "the permissions needed section. Check the box to agree to the terms and "
 "conditions, then click the <strong>Create Token button</strong>"
 msgstr ""
@@ -1278,8 +1278,8 @@ msgstr ""
 # @ Avada
 #: includes/avadaredux/class-avada-avadaredux.php:1129
 #: includes/avadaredux/class-avada-avadaredux.php:1130
-#: includes/class-avada-admin.php:212 includes/class-avada-admin.php:350
-#: includes/class-avada-admin.php:353
+#: includes/class-avada-admin.php:198 includes/class-avada-admin.php:336
+#: includes/class-avada-admin.php:339
 msgid "Theme Options"
 msgstr "Настройки на темата"
 
@@ -1325,9 +1325,9 @@ msgstr "Всички"
 #: includes/avadaredux/custom-fields/spacing/field_spacing.php:106
 #: includes/avadaredux/custom-fields/typography/field_typography.php:453
 #: includes/options/extra.php:245 includes/options/header.php:44
-#: includes/options/menu.php:537 includes/options/shortcode_styling.php:1106
-#: includes/options/shortcode_styling.php:1158
-#: includes/options/shortcode_styling.php:1501
+#: includes/options/menu.php:537 includes/options/shortcode_styling.php:1111
+#: includes/options/shortcode_styling.php:1163
+#: includes/options/shortcode_styling.php:1506
 #: includes/options/social_media.php:92 includes/options/social_media.php:216
 #: includes/options/social_media.php:393
 #: includes/widget/class-fusion-widget-social-links.php:505
@@ -1343,9 +1343,9 @@ msgstr "Горе"
 #: includes/options/logo.php:40 includes/options/menu.php:365
 #: includes/options/menu.php:535 includes/options/menu.php:1285
 #: includes/options/page_title_bar.php:214 includes/options/portfolio.php:189
-#: includes/options/shortcode_styling.php:1095
-#: includes/options/shortcode_styling.php:1159
-#: includes/options/shortcode_styling.php:1502
+#: includes/options/shortcode_styling.php:1100
+#: includes/options/shortcode_styling.php:1164
+#: includes/options/shortcode_styling.php:1507
 #: includes/options/sidebars.php:132 includes/options/sidebars.php:175
 #: includes/options/sidebars.php:244 includes/options/sidebars.php:305
 #: includes/options/sidebars.php:352 includes/options/sidebars.php:421
@@ -1359,9 +1359,9 @@ msgstr "Дясно"
 #: includes/avadaredux/custom-fields/spacing/field_spacing.php:120
 #: includes/avadaredux/custom-fields/typography/field_typography.php:462
 #: includes/options/extra.php:244 includes/options/lightbox.php:92
-#: includes/options/menu.php:536 includes/options/shortcode_styling.php:1107
-#: includes/options/shortcode_styling.php:1160
-#: includes/options/shortcode_styling.php:1503
+#: includes/options/menu.php:536 includes/options/shortcode_styling.php:1112
+#: includes/options/shortcode_styling.php:1165
+#: includes/options/shortcode_styling.php:1508
 #: includes/options/social_media.php:94 includes/options/social_media.php:218
 #: includes/options/social_media.php:395
 #: includes/widget/class-fusion-widget-social-links.php:507
@@ -1377,9 +1377,9 @@ msgstr ""
 #: includes/options/menu.php:363 includes/options/menu.php:534
 #: includes/options/menu.php:1283 includes/options/page_title_bar.php:212
 #: includes/options/portfolio.php:187
-#: includes/options/shortcode_styling.php:1093
-#: includes/options/shortcode_styling.php:1161
-#: includes/options/shortcode_styling.php:1504
+#: includes/options/shortcode_styling.php:1098
+#: includes/options/shortcode_styling.php:1166
+#: includes/options/shortcode_styling.php:1509
 #: includes/options/sidebars.php:131 includes/options/sidebars.php:174
 #: includes/options/sidebars.php:243 includes/options/sidebars.php:304
 #: includes/options/sidebars.php:351 includes/options/sidebars.php:420
@@ -1724,93 +1724,93 @@ msgstr ""
 msgid "Sanitized value and saved as %1$s instead of %2$s."
 msgstr ""
 
-#: includes/class-avada-admin.php:130 includes/class-avada-admin.php:163
-#: includes/class-avada-admin.php:172
+#: includes/class-avada-admin.php:116 includes/class-avada-admin.php:149
+#: includes/class-avada-admin.php:158
 msgid "ThemeFusion News"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:208 includes/class-avada-admin.php:346
-#: includes/class-avada-admin.php:448
+#: includes/class-avada-admin.php:194 includes/class-avada-admin.php:332
+#: includes/class-avada-admin.php:434
 msgid "Support"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:209 includes/class-avada-admin.php:347
-#: includes/class-avada-admin.php:449
+#: includes/class-avada-admin.php:195 includes/class-avada-admin.php:333
+#: includes/class-avada-admin.php:435
 msgid "Install Demos"
 msgstr ""
 
-#: includes/class-avada-admin.php:210 includes/class-avada-admin.php:348
-#: includes/class-avada-admin.php:450
+#: includes/class-avada-admin.php:196 includes/class-avada-admin.php:334
+#: includes/class-avada-admin.php:436
 msgid "Plugins"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:211 includes/class-avada-admin.php:349
-#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
-#: includes/class-avada-admin.php:451
+#: includes/class-avada-admin.php:197 includes/class-avada-admin.php:335
+#: includes/class-avada-admin.php:418 includes/class-avada-admin.php:427
+#: includes/class-avada-admin.php:437
 msgid "System Status"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:346
+#: includes/class-avada-admin.php:332
 msgid "Avada Support"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:347
+#: includes/class-avada-admin.php:333
 msgid "Install Avada Demos"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:425
+#: includes/class-avada-admin.php:411
 msgid "Welcome to Avada!"
 msgstr ""
 
-#: includes/class-avada-admin.php:429 includes/class-avada-admin.php:438
+#: includes/class-avada-admin.php:415 includes/class-avada-admin.php:424
 msgid ""
 "We're sorry but the demo data could not be imported. It is most likely due "
 "to low PHP configurations on your server. There are two possible solutions."
 msgstr ""
 
-#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
+#: includes/class-avada-admin.php:417 includes/class-avada-admin.php:426
 msgid "Solution 1:"
 msgstr ""
 
-#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
+#: includes/class-avada-admin.php:417 includes/class-avada-admin.php:426
 msgid "Import the demo using an alternate method."
 msgstr ""
 
-#: includes/class-avada-admin.php:431 includes/class-avada-admin.php:440
+#: includes/class-avada-admin.php:417 includes/class-avada-admin.php:426
 msgid "Alternate Method"
 msgstr ""
 
-#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
+#: includes/class-avada-admin.php:418 includes/class-avada-admin.php:427
 msgid "Solution 2:"
 msgstr ""
 
-#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
+#: includes/class-avada-admin.php:418 includes/class-avada-admin.php:427
 msgid ""
 "Fix the PHP configurations in the System Status that are reported in <strong "
 "style=\"color: red;\">RED</strong>, then use the %s, then reimport."
 msgstr ""
 
-#: includes/class-avada-admin.php:432 includes/class-avada-admin.php:441
+#: includes/class-avada-admin.php:418 includes/class-avada-admin.php:427
 msgid "Reset WordPress Plugin"
 msgstr ""
 
-#: includes/class-avada-admin.php:435
+#: includes/class-avada-admin.php:421
 msgid ""
 "Demo data successfully imported. Now, please install and run %s plugin once."
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:435 includes/options/advanced.php:82
+#: includes/class-avada-admin.php:421 includes/options/advanced.php:82
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: includes/class-avada-admin.php:444
+#: includes/class-avada-admin.php:430
 msgid ""
 "Avada is now installed and ready to use! Get ready to build something "
 "beautiful. Please register your purchase to get automatic theme updates, "
@@ -1818,78 +1818,78 @@ msgid ""
 "information. We hope you enjoy it! %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:444
+#: includes/class-avada-admin.php:430
 msgid "Guided Tour of Avada"
 msgstr ""
 
-#: includes/class-avada-admin.php:444
+#: includes/class-avada-admin.php:430
 msgid "Watch Our Quick Guided Tour!"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:445
+#: includes/class-avada-admin.php:431
 #: includes/class-tgm-plugin-activation.php:2697
 msgid "Version"
 msgstr ""
 
-#: includes/class-avada-admin.php:635
+#: includes/class-avada-admin.php:621
 msgid "Install %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:654
+#: includes/class-avada-admin.php:640
 msgid "Activate %s"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:654
+#: includes/class-avada-admin.php:640
 #: includes/class-tgm-plugin-activation.php:2870
 msgid "Activate"
 msgstr "Активиране"
 
-#: includes/class-avada-admin.php:677
+#: includes/class-avada-admin.php:663
 msgid "Update %s"
 msgstr ""
 
 # @ bbpress
-#: includes/class-avada-admin.php:677
+#: includes/class-avada-admin.php:663
 #: includes/class-tgm-plugin-activation.php:2867
 #: includes/options/colors.php:136 includes/options/colors.php:164
 msgid "Update"
 msgstr ""
 
-#: includes/class-avada-admin.php:690
+#: includes/class-avada-admin.php:676
 msgid "Deactivate %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:690
+#: includes/class-avada-admin.php:676
 msgid "Deactivate"
 msgstr ""
 
-#: includes/class-avada-admin.php:712
+#: includes/class-avada-admin.php:698
 msgid "Fusion Builder will be installable, once Fusion Core plugin is updated."
 msgstr ""
 
-#: includes/class-avada-admin.php:712
+#: includes/class-avada-admin.php:698
 msgid "Fusion Builder"
 msgstr ""
 
-#: includes/class-avada-admin.php:731
+#: includes/class-avada-admin.php:717
 msgid "Manage Plugins Below"
 msgstr ""
 
-#: includes/class-avada-admin.php:734
+#: includes/class-avada-admin.php:720
 msgid "Go Manage Plugins"
 msgstr ""
 
-#: includes/class-avada-admin.php:749
+#: includes/class-avada-admin.php:735
 msgid "Avada portfolio category base"
 msgstr ""
 
-#: includes/class-avada-admin.php:758
+#: includes/class-avada-admin.php:744
 msgid "Avada portfolio skill base"
 msgstr ""
 
-#: includes/class-avada-admin.php:767
+#: includes/class-avada-admin.php:753
 msgid "Avada portfolio tag base"
 msgstr ""
 
@@ -2043,15 +2043,15 @@ msgstr ""
 msgid "Avada Logo"
 msgstr ""
 
-#: includes/class-avada-migrate.php:368
+#: includes/class-avada-migrate.php:367
 msgid "Conversion Information"
 msgstr ""
 
-#: includes/class-avada-migrate.php:368
+#: includes/class-avada-migrate.php:367
 msgid "link"
 msgstr ""
 
-#: includes/class-avada-migrate.php:371
+#: includes/class-avada-migrate.php:370
 msgid ""
 "We have an amazing new update in store for you! Avada %s includes our "
 "completely new Theme Options Panel and the brand new Fusion Builder. To "
@@ -2062,7 +2062,7 @@ msgid ""
 "for choosing Avada!"
 msgstr ""
 
-#: includes/class-avada-migrate.php:373
+#: includes/class-avada-migrate.php:372
 msgid ""
 "We have an amazing new update in store for you! Avada %s includes our "
 "completely new Theme Options Panel and the brand new Fusion Builder. To "
@@ -2072,57 +2072,57 @@ msgid ""
 "Thank you for choosing Avada!"
 msgstr ""
 
-#: includes/class-avada-migrate.php:379
+#: includes/class-avada-migrate.php:378
 msgid "Updating Avada Database Entries"
 msgstr ""
 
-#: includes/class-avada-migrate.php:382
+#: includes/class-avada-migrate.php:381
 msgid "Currently converting language: %s"
 msgstr ""
 
-#: includes/class-avada-migrate.php:385
+#: includes/class-avada-migrate.php:384
 msgid "Done!"
 msgstr ""
 
-#: includes/class-avada-migrate.php:387
+#: includes/class-avada-migrate.php:386
 msgid "Almost there..."
 msgstr ""
 
-#: includes/class-avada-migrate.php:389
+#: includes/class-avada-migrate.php:388
 msgid "Halfway there... Patience Padawan, Patience."
 msgstr ""
 
-#: includes/class-avada-migrate.php:391
+#: includes/class-avada-migrate.php:390
 msgid "This may take a few minutes, please wait."
 msgstr ""
 
-#: includes/class-avada-migrate.php:398
+#: includes/class-avada-migrate.php:397
 msgid "Converting language: %1$s of %2$s."
 msgstr ""
 
-#: includes/class-avada-migrate.php:403
+#: includes/class-avada-migrate.php:402
 msgid "Updating Avada Database options: step %1$s of %2$s."
 msgstr ""
 
-#: includes/class-avada-migrate.php:421
+#: includes/class-avada-migrate.php:420
 msgid ""
 "Congratulations, Theme Options database enrties were successfully converted."
 msgstr ""
 
-#: includes/class-avada-migrate.php:422
+#: includes/class-avada-migrate.php:421
 msgid "For best experience, please clear your browser cache once."
 msgstr ""
 
-#: includes/class-avada-migrate.php:423
+#: includes/class-avada-migrate.php:422
 msgid "Dynamic-CSS caches have been auto reset."
 msgstr ""
 
-#: includes/class-avada-migrate.php:430
+#: includes/class-avada-migrate.php:429
 msgid "Take Me To Shortcode Conversion"
 msgstr ""
 
-#: includes/class-avada-migrate.php:435
-#: includes/class-fusion-builder-migrate.php:840
+#: includes/class-avada-migrate.php:434
+#: includes/class-fusion-builder-migrate.php:839
 msgid "Created with %s"
 msgstr ""
 
@@ -2351,7 +2351,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_post.php:142
 #: includes/metaboxes/tabs/tab_post.php:153
 #: includes/metaboxes/tabs/tab_post.php:164
-#: includes/options/shortcode_styling.php:830
+#: includes/options/shortcode_styling.php:835
 msgid "Show"
 msgstr "Покажи"
 
@@ -2370,7 +2370,7 @@ msgstr "Покажи"
 #: includes/metaboxes/tabs/tab_post.php:154
 #: includes/metaboxes/tabs/tab_post.php:165
 #: includes/options/page_title_bar.php:37 includes/options/search_page.php:88
-#: includes/options/shortcode_styling.php:832
+#: includes/options/shortcode_styling.php:837
 msgid "Hide"
 msgstr "Скрий"
 
@@ -2498,12 +2498,12 @@ msgstr "-Отговори"
 msgid "Your comment is awaiting moderation."
 msgstr "Вашият коментар очаква потвърждение."
 
-#: includes/class-avada-upgrade.php:358
+#: includes/class-avada-upgrade.php:360
 msgid "View Changelog"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-upgrade.php:359
+#: includes/class-avada-upgrade.php:361
 #: includes/class-tgm-plugin-activation.php:409
 msgid "Dismiss this notice"
 msgstr "Отхвърляне на това съобщение"
@@ -2566,54 +2566,54 @@ msgstr ""
 msgid "Revert Avada Shortcode Conversion"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1045
+#: includes/class-fusion-builder-migrate.php:1044
 msgid ""
 "Avada 5.0 is an amazing update with new features, improvements and our brand "
 "new Fusion Builder. To enjoy Avada 5.0, conversion steps need to be "
 "performed. Please see below. Thank you for choosing Avada!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1047
+#: includes/class-fusion-builder-migrate.php:1046
 msgid ""
 "This is the reversion process. Please see below for further information."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1087
+#: includes/class-fusion-builder-migrate.php:1086
 msgid "IMPORTANT: Shortcode Conversion For Fusion Builder"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1089
+#: includes/class-fusion-builder-migrate.php:1088
 msgid "Collect IDs of posts that need to be converted"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1091
+#: includes/class-fusion-builder-migrate.php:1090
 msgid ""
 "Convert posts, slides, widgets and theme-options to new shortcode syntax"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1093
+#: includes/class-fusion-builder-migrate.php:1092
 msgid "Congratulations! The conversion finished successfully!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1097
+#: includes/class-fusion-builder-migrate.php:1096
 msgid "IMPORTANT: Revert Shortcode Conversion For Fusion Builder"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1099
+#: includes/class-fusion-builder-migrate.php:1098
 msgid "Collect IDs of posts that need to be reverted"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1101
+#: includes/class-fusion-builder-migrate.php:1100
 msgid ""
 "Revert posts, slides, widgets and theme-options that were previously "
 "converted"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1103
+#: includes/class-fusion-builder-migrate.php:1102
 msgid "Congratulations! The reversion finished successfully!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1119
+#: includes/class-fusion-builder-migrate.php:1118
 msgid ""
 "Our newly built Fusion Builder is amazing and up to 5x faster. It needs to "
 "convert your old shortcodes to the new syntax. This will ensure all "
@@ -2621,50 +2621,50 @@ msgid ""
 "plugins."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1120
+#: includes/class-fusion-builder-migrate.php:1119
 msgid ""
 "Avada will search through your posts and pages and collect IDs of all pages "
 "using the old shortcodes and convert them to our new syntax. A backup is "
 "created of those pages and posts, to ensure all your data is fully secure."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1121
+#: includes/class-fusion-builder-migrate.php:1120
 msgid ""
 "The process can take time, please be patient during conversion and DO NOT "
 "CLOSE THIS SCREEN!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1122
+#: includes/class-fusion-builder-migrate.php:1121
 msgid ""
 "If the migration is not performed, you won't be able to use Avada %s unless "
 "you manually trigger the conversion at a later time through the WP admin "
 "area."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1123
+#: includes/class-fusion-builder-migrate.php:1122
 msgid ""
 "If you don't want your pages converted then please delete the new Avada "
 "folder and copy the old Avada folder to your server. If you did not backup "
 "your previous Avada theme folder, you can %s."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1124
+#: includes/class-fusion-builder-migrate.php:1123
 msgid ""
 "We recommend doing a full database backup before proceeding with conversion."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1125
+#: includes/class-fusion-builder-migrate.php:1124
 msgid ""
 "By pressing the \"Start Conversion\" button below, you confirm that Avada "
 "should convert your posts and pages to the new shortcode syntax."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1126
-#: includes/class-fusion-builder-migrate.php:1132
+#: includes/class-fusion-builder-migrate.php:1125
+#: includes/class-fusion-builder-migrate.php:1131
 msgid "I have read the above."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1128
+#: includes/class-fusion-builder-migrate.php:1127
 msgid ""
 "You have already converted your shortcodes to the new Avada 5.0 structure, "
 "but have chosen to revert back to their previous state before you installed "
@@ -2672,126 +2672,126 @@ msgid ""
 "Avada."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1129
+#: includes/class-fusion-builder-migrate.php:1128
 msgid ""
 "Once reversion is done, you can load a previous version of Avada onto your "
 "server. You can download %s here if you do not have a backup of your "
 "previous theme."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1129
+#: includes/class-fusion-builder-migrate.php:1128
 msgid "Avada 4.0.3"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1130
+#: includes/class-fusion-builder-migrate.php:1129
 msgid ""
 "The process can take time, please be patient during reversion and DO NOT "
 "CLOSE THIS SCREEN!"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1131
+#: includes/class-fusion-builder-migrate.php:1130
 msgid ""
 "By pressing the \"Start Reversion\" button below, you confirm that Avada "
 "should revert your posts and pages to the previous syntax."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1137
+#: includes/class-fusion-builder-migrate.php:1136
 msgid ""
 "Currently scanning posts of post type \"%1$s\" (items %2$s to %3$s of %4$s "
 "total)."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1145
+#: includes/class-fusion-builder-migrate.php:1144
 msgid "Posts that need to be converted: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1147
+#: includes/class-fusion-builder-migrate.php:1146
 msgid "Posts that need to be reverted: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1163
+#: includes/class-fusion-builder-migrate.php:1162
 msgid "Remaining items to convert: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1165
+#: includes/class-fusion-builder-migrate.php:1164
 msgid "Remaining items to revert: %s"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1169
+#: includes/class-fusion-builder-migrate.php:1168
 msgid ""
 "All needed posts have been converted to the new Fusion Builder syntax. You "
 "can now update Fusion Core and install Fusion Builder plugin."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1171
+#: includes/class-fusion-builder-migrate.php:1170
 msgid ""
 "All needed posts have been reverted to the previous syntax. You can now roll-"
 "back to <a href=\"%s\" target=\"_blank\">Avada 4.0.3</a>."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1224
+#: includes/class-fusion-builder-migrate.php:1223
 msgid "Scanning posts of post type \"%1$s\". Total posts: %2$s."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1250
+#: includes/class-fusion-builder-migrate.php:1249
 msgid "Converting posts."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1251
+#: includes/class-fusion-builder-migrate.php:1250
 msgid "Converting slides."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1252
+#: includes/class-fusion-builder-migrate.php:1251
 msgid "Converting widgets."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1253
+#: includes/class-fusion-builder-migrate.php:1252
 msgid "Converting theme options."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1255
+#: includes/class-fusion-builder-migrate.php:1254
 msgid "Reverting posts."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1256
+#: includes/class-fusion-builder-migrate.php:1255
 msgid "Reverting slides."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1257
+#: includes/class-fusion-builder-migrate.php:1256
 msgid "Reverting widgets."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1258
+#: includes/class-fusion-builder-migrate.php:1257
 msgid "Reverting theme options."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1278
+#: includes/class-fusion-builder-migrate.php:1277
 msgid "Start Reversion"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1280
+#: includes/class-fusion-builder-migrate.php:1279
 msgid "Start Conversion"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1286
+#: includes/class-fusion-builder-migrate.php:1285
 msgid "Do Not Revert"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1288
+#: includes/class-fusion-builder-migrate.php:1287
 msgid "Do Not Convert"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1300
+#: includes/class-fusion-builder-migrate.php:1299
 msgid ""
 "Please confirm that you have read the instructions, by checking the box."
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1307
-#: includes/class-fusion-builder-migrate.php:1324
+#: includes/class-fusion-builder-migrate.php:1306
+#: includes/class-fusion-builder-migrate.php:1323
 msgid "Take me to Admin"
 msgstr ""
 
-#: includes/class-fusion-builder-migrate.php:1328
+#: includes/class-fusion-builder-migrate.php:1327
 msgid "Update Required Plugins"
 msgstr ""
 
@@ -3195,7 +3195,7 @@ msgid "Pages:"
 msgstr "Страници"
 
 # @ Avada
-#: includes/dynamic_css.php:8411
+#: includes/dynamic_css.php:8412
 msgid "Please enter correct details for this required field."
 msgstr "Моля въведете коректни данни за това задължително поле."
 
@@ -3552,8 +3552,8 @@ msgstr "Подравняване на съдържанието"
 #: includes/options/elastic_slider.php:61 includes/options/logo.php:39
 #: includes/options/menu.php:364 includes/options/menu.php:1284
 #: includes/options/page_title_bar.php:213 includes/options/portfolio.php:188
-#: includes/options/shortcode_styling.php:1094
-#: includes/options/shortcode_styling.php:1718
+#: includes/options/shortcode_styling.php:1099
+#: includes/options/shortcode_styling.php:1723
 #: includes/widget/class-fusion-widget-menu.php:168
 msgid "Center"
 msgstr "Център"
@@ -3585,9 +3585,9 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:43
 #: includes/options/footer.php:77 includes/options/page_title_bar.php:425
 #: includes/options/portfolio.php:166
-#: includes/options/shortcode_styling.php:486
-#: includes/options/shortcode_styling.php:1505
-#: includes/options/shortcode_styling.php:1652
+#: includes/options/shortcode_styling.php:491
+#: includes/options/shortcode_styling.php:1510
+#: includes/options/shortcode_styling.php:1657
 #: includes/options/social_media.php:96 includes/options/social_media.php:220
 #: includes/options/social_media.php:397
 #: includes/widget/class-fusion-widget-social-links.php:509
@@ -3597,63 +3597,63 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:124
 #: includes/metaboxes/options/options_slide.php:170
-#: includes/options/shortcode_styling.php:1641
+#: includes/options/shortcode_styling.php:1646
 msgid "Single Solid"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:125
 #: includes/metaboxes/options/options_slide.php:171
-#: includes/options/shortcode_styling.php:1642
+#: includes/options/shortcode_styling.php:1647
 msgid "Single Dashed"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:126
 #: includes/metaboxes/options/options_slide.php:172
-#: includes/options/shortcode_styling.php:1643
+#: includes/options/shortcode_styling.php:1648
 msgid "Single Dotted"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:127
 #: includes/metaboxes/options/options_slide.php:173
-#: includes/options/shortcode_styling.php:1645
+#: includes/options/shortcode_styling.php:1650
 msgid "Double Solid"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:128
 #: includes/metaboxes/options/options_slide.php:174
-#: includes/options/shortcode_styling.php:1646
+#: includes/options/shortcode_styling.php:1651
 msgid "Double Dashed"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:129
 #: includes/metaboxes/options/options_slide.php:175
-#: includes/options/shortcode_styling.php:1647
+#: includes/options/shortcode_styling.php:1652
 msgid "Double Dotted"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:130
 #: includes/metaboxes/options/options_slide.php:176
-#: includes/options/shortcode_styling.php:1649
+#: includes/options/shortcode_styling.php:1654
 msgid "Underline Solid"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:131
 #: includes/metaboxes/options/options_slide.php:177
-#: includes/options/shortcode_styling.php:1650
+#: includes/options/shortcode_styling.php:1655
 msgid "Underline Dashed"
 msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:132
 #: includes/metaboxes/options/options_slide.php:178
-#: includes/options/shortcode_styling.php:1651
+#: includes/options/shortcode_styling.php:1656
 msgid "Underline Dotted"
 msgstr ""
 
@@ -3786,7 +3786,7 @@ msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:215
-#: includes/options/shortcode_styling.php:510
+#: includes/options/shortcode_styling.php:515
 msgid "Button"
 msgstr "Бутон"
 
@@ -5022,13 +5022,13 @@ msgstr ""
 
 #: includes/options/background.php:80 includes/options/background.php:192
 #: includes/options/footer.php:224 includes/options/header.php:395
-#: includes/options/shortcode_styling.php:603
+#: includes/options/shortcode_styling.php:608
 msgid "Controls how the background image repeats."
 msgstr ""
 
 #: includes/options/background.php:85 includes/options/background.php:197
 #: includes/options/footer.php:229 includes/options/header.php:400
-#: includes/options/shortcode_styling.php:609
+#: includes/options/shortcode_styling.php:614
 msgid "Repeat All"
 msgstr ""
 
@@ -6563,7 +6563,7 @@ msgid "Controls the direction the rollover starts from."
 msgstr ""
 
 #: includes/options/extra.php:241 includes/options/menu.php:533
-#: includes/options/shortcode_styling.php:487
+#: includes/options/shortcode_styling.php:492
 msgid "Fade"
 msgstr ""
 
@@ -6911,52 +6911,52 @@ msgstr ""
 msgid "Background Position"
 msgstr ""
 
-#: includes/options/footer.php:267 includes/options/shortcode_styling.php:617
+#: includes/options/footer.php:267 includes/options/shortcode_styling.php:622
 msgid "Controls how the background image is positioned."
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:272 includes/options/shortcode_styling.php:623
+#: includes/options/footer.php:272 includes/options/shortcode_styling.php:628
 msgid "top left"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:273 includes/options/shortcode_styling.php:624
+#: includes/options/footer.php:273 includes/options/shortcode_styling.php:629
 msgid "top center"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:274 includes/options/shortcode_styling.php:625
+#: includes/options/footer.php:274 includes/options/shortcode_styling.php:630
 msgid "top right"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:275 includes/options/shortcode_styling.php:626
+#: includes/options/footer.php:275 includes/options/shortcode_styling.php:631
 msgid "center left"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:276 includes/options/shortcode_styling.php:627
+#: includes/options/footer.php:276 includes/options/shortcode_styling.php:632
 msgid "center center"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:277 includes/options/shortcode_styling.php:628
+#: includes/options/footer.php:277 includes/options/shortcode_styling.php:633
 msgid "center right"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:278 includes/options/shortcode_styling.php:629
+#: includes/options/footer.php:278 includes/options/shortcode_styling.php:634
 msgid "bottom left"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:279 includes/options/shortcode_styling.php:630
+#: includes/options/footer.php:279 includes/options/shortcode_styling.php:635
 msgid "bottom center"
 msgstr ""
 
 # @ Avada
-#: includes/options/footer.php:280 includes/options/shortcode_styling.php:631
+#: includes/options/footer.php:280 includes/options/shortcode_styling.php:636
 msgid "bottom right"
 msgstr ""
 
@@ -8883,17 +8883,17 @@ msgstr ""
 
 #: includes/options/responsive.php:31 includes/options/responsive.php:122
 #: includes/options/responsive.php:139
-#: includes/options/shortcode_styling.php:416
-#: includes/options/shortcode_styling.php:580
-#: includes/options/shortcode_styling.php:763
+#: includes/options/shortcode_styling.php:421
+#: includes/options/shortcode_styling.php:585
+#: includes/options/shortcode_styling.php:768
 msgid "On"
 msgstr ""
 
 #: includes/options/responsive.php:32 includes/options/responsive.php:123
 #: includes/options/responsive.php:140
-#: includes/options/shortcode_styling.php:417
-#: includes/options/shortcode_styling.php:581
-#: includes/options/shortcode_styling.php:764
+#: includes/options/shortcode_styling.php:422
+#: includes/options/shortcode_styling.php:586
+#: includes/options/shortcode_styling.php:769
 msgid "Off"
 msgstr ""
 
@@ -9385,7 +9385,7 @@ msgid "Content Box Title Font Size"
 msgstr ""
 
 #: includes/options/shortcode_styling.php:370
-msgid "Controls the size of the title text."
+msgid "Controls the size of the title text. in pixels"
 msgstr ""
 
 #: includes/options/shortcode_styling.php:377
@@ -9410,602 +9410,602 @@ msgid "Content Box Icon Font Size"
 msgstr ""
 
 #: includes/options/shortcode_styling.php:394
-#: includes/options/shortcode_styling.php:725
+#: includes/options/shortcode_styling.php:730
 msgid "Controls the size of the icon."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:401
+#: includes/options/shortcode_styling.php:406
 msgid "Content Box Icon Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:402
+#: includes/options/shortcode_styling.php:407
 msgid "Controls the color of the content box icon."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:409
+#: includes/options/shortcode_styling.php:414
 #, fuzzy
 msgid "Content Box Icon Background"
 msgstr "Цвят на фона на заглавието"
 
-#: includes/options/shortcode_styling.php:410
+#: includes/options/shortcode_styling.php:415
 msgid "Turn on to display a background behind the icon."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:421
+#: includes/options/shortcode_styling.php:426
 msgid "Content Box Icon Background Radius"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:422
+#: includes/options/shortcode_styling.php:427
 msgid "Controls the border radius of the icon background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:429
+#: includes/options/shortcode_styling.php:434
 msgid "Content Box Icon Background Color"
 msgstr "Цвят на фона на заглавието"
 
-#: includes/options/shortcode_styling.php:430
+#: includes/options/shortcode_styling.php:435
 msgid "Controls the color of the icon background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:437
+#: includes/options/shortcode_styling.php:442
 msgid "Content Box Icon Background Inner Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:438
+#: includes/options/shortcode_styling.php:443
 msgid "Controls the inner border color of the icon background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:445
+#: includes/options/shortcode_styling.php:450
 msgid "Content Box Icon Background Inner Border Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:446
+#: includes/options/shortcode_styling.php:451
 msgid "Controls the inner border size of the icon background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:458
+#: includes/options/shortcode_styling.php:463
 msgid "Content Box Icon Background Outer Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:459
+#: includes/options/shortcode_styling.php:464
 msgid "Controls the outer border color of the icon background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:466
+#: includes/options/shortcode_styling.php:471
 msgid "Content Box Icon Background Outer Border Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:467
+#: includes/options/shortcode_styling.php:472
 msgid "Controls the outer border size of the icon background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:479
+#: includes/options/shortcode_styling.php:484
 msgid "Content Box Hover Animation Type"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:480
+#: includes/options/shortcode_styling.php:485
 msgid "Controls the hover effect of the icon."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:488
+#: includes/options/shortcode_styling.php:493
 msgid "Slide"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:489
+#: includes/options/shortcode_styling.php:494
 msgid "Pulsate"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:493
+#: includes/options/shortcode_styling.php:498
 #, fuzzy
 msgid "Content Box Hover Animation Accent Color"
 msgstr "Цвят на фона на заглавието"
 
-#: includes/options/shortcode_styling.php:494
+#: includes/options/shortcode_styling.php:499
 msgid "Controls the accent color for the hover animation."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:501
+#: includes/options/shortcode_styling.php:506
 msgid "Content Box Link Type"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:502
+#: includes/options/shortcode_styling.php:507
 msgid "Controls the type of link that displays in the content box."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:508
+#: includes/options/shortcode_styling.php:513
 msgid "Text"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:509
+#: includes/options/shortcode_styling.php:514
 msgid "Button Bar"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:514
+#: includes/options/shortcode_styling.php:519
 msgid "Content Box Link Area"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:515
+#: includes/options/shortcode_styling.php:520
 msgid "Controls which area the link will be assigned to."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:521
+#: includes/options/shortcode_styling.php:526
 msgid "Link + Icon"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:522
+#: includes/options/shortcode_styling.php:527
 msgid "Entire Content Box"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:526
+#: includes/options/shortcode_styling.php:531
 msgid "Content Box Link Target"
 msgstr "Подравняване на съдържанието"
 
-#: includes/options/shortcode_styling.php:527
-#: includes/options/shortcode_styling.php:676
+#: includes/options/shortcode_styling.php:532
+#: includes/options/shortcode_styling.php:681
 msgid "Controls how the link will open."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:533
-#: includes/options/shortcode_styling.php:682
+#: includes/options/shortcode_styling.php:538
+#: includes/options/shortcode_styling.php:687
 msgid "Same Window"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:534
+#: includes/options/shortcode_styling.php:539
 msgid "New Window/Tab"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:538
+#: includes/options/shortcode_styling.php:543
 msgid "Content Box Top/Bottom Margins"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:539
+#: includes/options/shortcode_styling.php:544
 msgid "Controls the top/bottom margin for content boxes."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:556
+#: includes/options/shortcode_styling.php:561
 msgid "Countdown Element"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:561
+#: includes/options/shortcode_styling.php:566
 msgid "Countdown Timezone"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:562
+#: includes/options/shortcode_styling.php:567
 msgid "Controls the timezone that is used for the countdown calculation."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:568
+#: includes/options/shortcode_styling.php:573
 msgid "Site Timezone"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:569
+#: includes/options/shortcode_styling.php:574
 msgid "User Timezone"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:573
+#: includes/options/shortcode_styling.php:578
 msgid "Countdown Show Weeks"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:574
+#: includes/options/shortcode_styling.php:579
 msgid "Turn on to display the number of weeks in the countdown."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:585
+#: includes/options/shortcode_styling.php:590
 #, fuzzy
 msgid "Countdown Background Color"
 msgstr "Цвят на фона на заглавието"
 
-#: includes/options/shortcode_styling.php:586
+#: includes/options/shortcode_styling.php:591
 msgid "Controls the background color for the countdown box."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:593
+#: includes/options/shortcode_styling.php:598
 msgid "Countdown Background Image"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:594
+#: includes/options/shortcode_styling.php:599
 msgid "Select an image for the countdown box background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:602
+#: includes/options/shortcode_styling.php:607
 msgid "Countdown Background Repeat"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:610
+#: includes/options/shortcode_styling.php:615
 msgid "Repeat Horizontal"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:611
+#: includes/options/shortcode_styling.php:616
 msgid "Repeat Vertical"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:612
+#: includes/options/shortcode_styling.php:617
 msgid "Repeat None"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:616
+#: includes/options/shortcode_styling.php:621
 msgid "Countdown Background Position"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:635
+#: includes/options/shortcode_styling.php:640
 msgid "Countdown Counter Box Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:636
+#: includes/options/shortcode_styling.php:641
 msgid "Controls the background color for the counter boxes."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:643
+#: includes/options/shortcode_styling.php:648
 msgid "Countdown Counter Text Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:644
+#: includes/options/shortcode_styling.php:649
 msgid "Controls the color for the countdown timer text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:651
+#: includes/options/shortcode_styling.php:656
 #, fuzzy
 msgid "Countdown Heading Text Color"
 msgstr "Цвят на заглавието"
 
-#: includes/options/shortcode_styling.php:652
+#: includes/options/shortcode_styling.php:657
 msgid "Controls the color for the countdown headings."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:659
+#: includes/options/shortcode_styling.php:664
 msgid "Countdown Subheading Text Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:660
+#: includes/options/shortcode_styling.php:665
 msgid "Controls the color for the countdown subheadings."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:667
+#: includes/options/shortcode_styling.php:672
 msgid "Countdown Link Text Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:668
+#: includes/options/shortcode_styling.php:673
 msgid "Controls the color for the countdown link text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:675
+#: includes/options/shortcode_styling.php:680
 #, fuzzy
 msgid "Countdown Link Target"
 msgstr "Подравняване на съдържанието"
 
-#: includes/options/shortcode_styling.php:683
+#: includes/options/shortcode_styling.php:688
 msgid "New Window"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:689
+#: includes/options/shortcode_styling.php:694
 msgid "Counter Boxes Element"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:695
+#: includes/options/shortcode_styling.php:700
 msgid "Counter Box Speed"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:696
+#: includes/options/shortcode_styling.php:701
 msgid "Controls the speed of all counter box elements. ex: 1000 = 1 second."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:708
+#: includes/options/shortcode_styling.php:713
 msgid "Counter Box Title Font Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:709
+#: includes/options/shortcode_styling.php:714
 msgid "Controls the color of the counter value and icon."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:716
+#: includes/options/shortcode_styling.php:721
 msgid "Counter Box Title Font Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:717
+#: includes/options/shortcode_styling.php:722
 msgid "Controls the size of the counter value and icon."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:724
+#: includes/options/shortcode_styling.php:729
 msgid "Counter Box Icon Size"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:732
+#: includes/options/shortcode_styling.php:737
 msgid "Counter Box Body Font Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:733
+#: includes/options/shortcode_styling.php:738
 msgid "Controls the color of the counter box body text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:740
+#: includes/options/shortcode_styling.php:745
 msgid "Counter Box Body Font Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:741
+#: includes/options/shortcode_styling.php:746
 msgid "Controls the size of the counter box body text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:748
+#: includes/options/shortcode_styling.php:753
 msgid "Counter Box Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:749
+#: includes/options/shortcode_styling.php:754
 msgid "Controls the color of the counter box border."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:756
+#: includes/options/shortcode_styling.php:761
 msgid "Counter Box Icon On Top"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:757
+#: includes/options/shortcode_styling.php:762
 msgid "Turn on to display the icon on top of the counter value."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:770
+#: includes/options/shortcode_styling.php:775
 msgid "Counter Circle Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:776
+#: includes/options/shortcode_styling.php:781
 msgid "Counter Circle Filled Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:777
+#: includes/options/shortcode_styling.php:782
 msgid "Controls the color of the filled circle."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:784
+#: includes/options/shortcode_styling.php:789
 msgid "Counter Circle Unfilled Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:785
+#: includes/options/shortcode_styling.php:790
 msgid "Controls the color of the unfilled circle."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:794
+#: includes/options/shortcode_styling.php:799
 msgid "Dropcap Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:800
+#: includes/options/shortcode_styling.php:805
 msgid "Dropcap Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:801
+#: includes/options/shortcode_styling.php:806
 msgid ""
 "Controls the color of the dropcap text, or the dropcap box if a box is used."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:810
+#: includes/options/shortcode_styling.php:815
 msgid "FAQ Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:816
+#: includes/options/shortcode_styling.php:821
 msgid "FAQ Featured Images"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:817
+#: includes/options/shortcode_styling.php:822
 msgid "Turn on to display featured images."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:824
+#: includes/options/shortcode_styling.php:829
 msgid "FAQ Filters"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:825
+#: includes/options/shortcode_styling.php:830
 msgid "Controls how the filters display for FAQs."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:831
+#: includes/options/shortcode_styling.php:836
 msgid "Show without \"All\""
 msgstr ""
 
-#: includes/options/shortcode_styling.php:839
+#: includes/options/shortcode_styling.php:844
 msgid "Flip Boxes Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:845
+#: includes/options/shortcode_styling.php:850
 msgid "Flip Box Background Color Frontside"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:846
+#: includes/options/shortcode_styling.php:851
 msgid "Controls the color of the frontside background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:853
+#: includes/options/shortcode_styling.php:858
 msgid "Flip Box Heading Color Frontside"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:854
+#: includes/options/shortcode_styling.php:859
 msgid "Controls the color of the frontside heading."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:861
+#: includes/options/shortcode_styling.php:866
 msgid "Flip Box Text Color Frontside"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:862
+#: includes/options/shortcode_styling.php:867
 msgid "Controls the color of the frontside text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:869
+#: includes/options/shortcode_styling.php:874
 msgid "Flip Box Background Color Backside"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:870
+#: includes/options/shortcode_styling.php:875
 msgid "Controls the color of the backside background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:877
+#: includes/options/shortcode_styling.php:882
 msgid "Flip Box Heading Color Backside"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:878
+#: includes/options/shortcode_styling.php:883
 msgid "Controls the color of the backside heading."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:885
+#: includes/options/shortcode_styling.php:890
 msgid "Flip Box Text Color Backside"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:886
+#: includes/options/shortcode_styling.php:891
 msgid "Controls the color of the backside text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:893
+#: includes/options/shortcode_styling.php:898
 msgid "Flip Box Border Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:894
+#: includes/options/shortcode_styling.php:899
 msgid "Controls the border size of the flip box background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:906
+#: includes/options/shortcode_styling.php:911
 msgid "Flip Box Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:907
+#: includes/options/shortcode_styling.php:912
 msgid "Controls the border color of flip box background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:914
+#: includes/options/shortcode_styling.php:919
 msgid "Flip Box Border Radius"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:915
+#: includes/options/shortcode_styling.php:920
 msgid "Controls the border radius of the flip box background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:925
+#: includes/options/shortcode_styling.php:930
 msgid "Icon Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:931
+#: includes/options/shortcode_styling.php:936
 msgid "Icon Circle Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:932
+#: includes/options/shortcode_styling.php:937
 msgid "Controls the color of the circle background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:939
+#: includes/options/shortcode_styling.php:944
 msgid "Icon Circle Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:940
+#: includes/options/shortcode_styling.php:945
 msgid "Controls the border color of the circle background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:947
+#: includes/options/shortcode_styling.php:952
 msgid "Icon Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:948
+#: includes/options/shortcode_styling.php:953
 msgid "Controls the color of the icon."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:957
+#: includes/options/shortcode_styling.php:962
 msgid "Image Frame Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:963
+#: includes/options/shortcode_styling.php:968
 msgid "Image Frame Border Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:964
+#: includes/options/shortcode_styling.php:969
 msgid "Controls the border color of the image frame."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:971
+#: includes/options/shortcode_styling.php:976
 msgid "Image Frame Border Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:972
+#: includes/options/shortcode_styling.php:977
 msgid "Controls the border size of the image frame."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:984
+#: includes/options/shortcode_styling.php:989
 msgid "Image Frame Border Radius"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:985
+#: includes/options/shortcode_styling.php:990
 msgid "Controls the border radius of the image frame."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:993
+#: includes/options/shortcode_styling.php:998
 msgid "Image Frame Style Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:994
+#: includes/options/shortcode_styling.php:999
 msgid ""
 "Controls the style color of the image frame. Only works for glow and drop "
 "shadow style."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1003
+#: includes/options/shortcode_styling.php:1008
 msgid "Modal Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1009
+#: includes/options/shortcode_styling.php:1014
 msgid "Modal Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1010
+#: includes/options/shortcode_styling.php:1015
 msgid "Controls the background color of the modal popup box."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1017
+#: includes/options/shortcode_styling.php:1022
 msgid "Modal Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1018
+#: includes/options/shortcode_styling.php:1023
 msgid "Controls the border color of the modal popup box."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1027
+#: includes/options/shortcode_styling.php:1032
 msgid "Person Element"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1034
+#: includes/options/shortcode_styling.php:1039
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The styling options for the social icons "
 "used in the person element are controlled through the options under the "
@@ -10013,343 +10013,343 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1040
+#: includes/options/shortcode_styling.php:1045
 #, fuzzy
 msgid "Person Background Color"
 msgstr "Цвят на фона на заглавието"
 
-#: includes/options/shortcode_styling.php:1041
+#: includes/options/shortcode_styling.php:1046
 msgid "Controls the background color of the person area."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1048
+#: includes/options/shortcode_styling.php:1053
 msgid "Person Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1049
+#: includes/options/shortcode_styling.php:1054
 msgid "Controls the border color of the person image."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1056
+#: includes/options/shortcode_styling.php:1061
 msgid "Person Border Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1057
+#: includes/options/shortcode_styling.php:1062
 msgid "Controls the border size of the person image."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1069
+#: includes/options/shortcode_styling.php:1074
 msgid "Person Border Radius"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1070
+#: includes/options/shortcode_styling.php:1075
 msgid "Controls the border radius of the person image."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1078
+#: includes/options/shortcode_styling.php:1083
 msgid "Person Style Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1079
+#: includes/options/shortcode_styling.php:1084
 msgid "Controls the style color for all style types except border."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1086
+#: includes/options/shortcode_styling.php:1091
 #, fuzzy
 msgid "Person Content Alignment"
 msgstr "Подравняване на съдържанието"
 
-#: includes/options/shortcode_styling.php:1087
+#: includes/options/shortcode_styling.php:1092
 msgid "Controls the alignment of the person content."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1099
+#: includes/options/shortcode_styling.php:1104
 msgid "Person Social Icon Position"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1100
+#: includes/options/shortcode_styling.php:1105
 msgid "Controls the position of the social icons."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1113
+#: includes/options/shortcode_styling.php:1118
 msgid "Popover Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1119
+#: includes/options/shortcode_styling.php:1124
 msgid "Popover Heading Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1120
+#: includes/options/shortcode_styling.php:1125
 msgid "Controls the color of the popover heading background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1127
+#: includes/options/shortcode_styling.php:1132
 msgid "Popover Content Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1128
+#: includes/options/shortcode_styling.php:1133
 msgid "Controls the color of popover content background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1135
+#: includes/options/shortcode_styling.php:1140
 msgid "Popover Border Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1136
+#: includes/options/shortcode_styling.php:1141
 msgid "Controls the border color of popover box."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1143
+#: includes/options/shortcode_styling.php:1148
 msgid "Popover Text Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1144
+#: includes/options/shortcode_styling.php:1149
 msgid "Controls the color of the popover text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1151
+#: includes/options/shortcode_styling.php:1156
 msgid "Popover Position"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1152
+#: includes/options/shortcode_styling.php:1157
 msgid ""
 "Controls the position of the popover in reference to the triggering element."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1167
+#: includes/options/shortcode_styling.php:1172
 msgid "Pricing Table Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1173
+#: includes/options/shortcode_styling.php:1178
 msgid "Pricing Box Style 1 Heading Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1174
+#: includes/options/shortcode_styling.php:1179
 msgid "Controls the color of style 1 pricing table headings."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1181
+#: includes/options/shortcode_styling.php:1186
 msgid "Pricing Box Style 2 Heading Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1182
+#: includes/options/shortcode_styling.php:1187
 msgid "Controls the color of style 2 pricing table headings."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1189
+#: includes/options/shortcode_styling.php:1194
 msgid "Pricing Box Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1190
+#: includes/options/shortcode_styling.php:1195
 msgid "Controls the color portions of pricing boxes."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1197
+#: includes/options/shortcode_styling.php:1202
 msgid "Pricing Box Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1198
+#: includes/options/shortcode_styling.php:1203
 msgid "Controls the color of the main background and title background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1205
+#: includes/options/shortcode_styling.php:1210
 msgid "Pricing Box Border Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1206
+#: includes/options/shortcode_styling.php:1211
 msgid ""
 "Controls the color of the outer border, pricing row and footer row "
 "backgrounds."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1213
+#: includes/options/shortcode_styling.php:1218
 msgid "Pricing Box Divider Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1214
+#: includes/options/shortcode_styling.php:1219
 msgid "Controls the color of the dividers in-between pricing rows."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1223
+#: includes/options/shortcode_styling.php:1228
 msgid "Progress Bar Element"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1229
+#: includes/options/shortcode_styling.php:1234
 msgid "Progress Bar Height"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1230
+#: includes/options/shortcode_styling.php:1235
 msgid "Insert a height for the progress bar."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1237
+#: includes/options/shortcode_styling.php:1242
 msgid "Text Position"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1238
+#: includes/options/shortcode_styling.php:1243
 msgid ""
 "Select the position of the progress bar text. Choose \"Default\" for theme "
 "option selection."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1244
+#: includes/options/shortcode_styling.php:1249
 msgid "On Bar"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1245
+#: includes/options/shortcode_styling.php:1250
 msgid "Above Bar"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1246
+#: includes/options/shortcode_styling.php:1251
 msgid "Below Bar"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1250
+#: includes/options/shortcode_styling.php:1255
 msgid "Progress Bar Filled Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1251
+#: includes/options/shortcode_styling.php:1256
 msgid "Controls the color of the progress bar filled area."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1258
+#: includes/options/shortcode_styling.php:1263
 msgid "Progress Bar Filled Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1259
+#: includes/options/shortcode_styling.php:1264
 msgid "Controls the border color of the progress bar filled area."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1266
+#: includes/options/shortcode_styling.php:1271
 msgid "Progress Bar Filled Border Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1267
+#: includes/options/shortcode_styling.php:1272
 msgid "Controls the border size of the progress bar filled area."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1279
+#: includes/options/shortcode_styling.php:1284
 msgid "Progress Bar Unfilled Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1280
+#: includes/options/shortcode_styling.php:1285
 msgid "Controls the color of the progress bar unfilled area."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1287
+#: includes/options/shortcode_styling.php:1292
 msgid "Progress Bar Text Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1288
+#: includes/options/shortcode_styling.php:1293
 msgid "Controls the color of the progress bar text."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1297
+#: includes/options/shortcode_styling.php:1302
 msgid "Section Separator Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1303
+#: includes/options/shortcode_styling.php:1308
 msgid "Section Separator Border Size"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1304
+#: includes/options/shortcode_styling.php:1309
 msgid "Controls the border size of the section separator."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1316
+#: includes/options/shortcode_styling.php:1321
 msgid "Section Separator Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1317
+#: includes/options/shortcode_styling.php:1322
 msgid "Controls the background color of the section separator style."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1324
+#: includes/options/shortcode_styling.php:1329
 msgid "Section Separator Border Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1325
+#: includes/options/shortcode_styling.php:1330
 msgid "Controls the border color of the separator."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1334
+#: includes/options/shortcode_styling.php:1339
 msgid "Separator Element"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1340
+#: includes/options/shortcode_styling.php:1345
 msgid "Separator Style"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1341
+#: includes/options/shortcode_styling.php:1346
 msgid ""
 "Controls the line style of all separators, divider lines on portfolio "
 "archives, blog archives, product archives and more."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1347
+#: includes/options/shortcode_styling.php:1352
 msgid "No Style"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1348
+#: includes/options/shortcode_styling.php:1353
 msgid "Single Border Solid"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1349
+#: includes/options/shortcode_styling.php:1354
 msgid "Double Border Solid"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1350
+#: includes/options/shortcode_styling.php:1355
 msgid "Single Border Dashed"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1351
+#: includes/options/shortcode_styling.php:1356
 msgid "Double Border Dashed"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1352
+#: includes/options/shortcode_styling.php:1357
 msgid "Single Border Dotted"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1353
+#: includes/options/shortcode_styling.php:1358
 msgid "Double Border Dotted"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1354
+#: includes/options/shortcode_styling.php:1359
 msgid "Shadow"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1358
+#: includes/options/shortcode_styling.php:1363
 msgid "Separator Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1359
+#: includes/options/shortcode_styling.php:1364
 msgid ""
 "Controls the color of all separators, divider lines and borders for meta, "
 "previous & next, filters, archive pages, boxes around number pagination, "
@@ -10357,47 +10357,47 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1366
+#: includes/options/shortcode_styling.php:1371
 msgid "Separator Circle"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1367
+#: includes/options/shortcode_styling.php:1372
 msgid "Turn on if you want to display a circle around the separator icon."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1374
+#: includes/options/shortcode_styling.php:1379
 msgid "Border Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1375
+#: includes/options/shortcode_styling.php:1380
 msgid "Controls the border size of the separator."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1389
+#: includes/options/shortcode_styling.php:1394
 msgid "Social Icon Elements"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1398
+#: includes/options/shortcode_styling.php:1403
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> These social icon global options control "
 "both the social link element and person element."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1401
+#: includes/options/shortcode_styling.php:1406
 msgid "Social Links Icons Font Size"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1402
+#: includes/options/shortcode_styling.php:1407
 msgid "Controls the font size for the social link icons."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1409
+#: includes/options/shortcode_styling.php:1414
 msgid "Social Links Icon Color Type"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1410
+#: includes/options/shortcode_styling.php:1415
 #: includes/options/social_media.php:101 includes/options/social_media.php:232
 #: includes/options/social_media.php:402
 msgid ""
@@ -10405,13 +10405,13 @@ msgid ""
 "will use the exact brand color of each network for the icons or boxes."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1416
+#: includes/options/shortcode_styling.php:1421
 #: includes/options/social_media.php:106 includes/options/social_media.php:237
 #: includes/options/social_media.php:407
 msgid "Custom Colors"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1417
+#: includes/options/shortcode_styling.php:1422
 #: includes/options/social_media.php:107 includes/options/social_media.php:238
 #: includes/options/social_media.php:408
 #: includes/widget/class-fusion-widget-social-links.php:470
@@ -10419,280 +10419,280 @@ msgid "Brand Colors"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1421
+#: includes/options/shortcode_styling.php:1426
 msgid "Social Links Custom Icons Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1422
+#: includes/options/shortcode_styling.php:1427
 msgid "Controls the color of the custom icons."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1436
+#: includes/options/shortcode_styling.php:1441
 msgid "Social Links Icons Boxed"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1437
+#: includes/options/shortcode_styling.php:1442
 msgid ""
 "Turn on to have the icon displayed in a small box. Turn off to have the icon "
 "displayed with no box."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1444
+#: includes/options/shortcode_styling.php:1449
 msgid "Social Links Icons Custom Box Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1445
+#: includes/options/shortcode_styling.php:1450
 msgid "Select a custom social icon box color."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1464
+#: includes/options/shortcode_styling.php:1469
 msgid "Social Links Icons Boxed Radius"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1465
+#: includes/options/shortcode_styling.php:1470
 msgid "Box radius for the social icons."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1480
+#: includes/options/shortcode_styling.php:1485
 msgid "Social Links Icons Boxed Padding"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1494
+#: includes/options/shortcode_styling.php:1499
 msgid "Social Links Icons Tooltip Position"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1495
+#: includes/options/shortcode_styling.php:1500
 msgid "Controls the tooltip position of the social links icons."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1511
+#: includes/options/shortcode_styling.php:1516
 msgid "Tabs Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1517
+#: includes/options/shortcode_styling.php:1522
 msgid "Tabs Background Color + Hover Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1518
+#: includes/options/shortcode_styling.php:1523
 msgid "Controls the color of the active tab, tab hover and content background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1525
+#: includes/options/shortcode_styling.php:1530
 msgid "Tabs Inactive Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1526
+#: includes/options/shortcode_styling.php:1531
 msgid "Controls the color of the inactive tabs."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1533
+#: includes/options/shortcode_styling.php:1538
 msgid "Tabs Border Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1534
+#: includes/options/shortcode_styling.php:1539
 msgid "Controls the color of the tab border."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1543
+#: includes/options/shortcode_styling.php:1548
 msgid "Tagline Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1549
+#: includes/options/shortcode_styling.php:1554
 msgid "Tagline Box Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1550
+#: includes/options/shortcode_styling.php:1555
 msgid "Controls the color of the tagline box background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1557
+#: includes/options/shortcode_styling.php:1562
 msgid "Tagline Box Border Color"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1558
+#: includes/options/shortcode_styling.php:1563
 msgid "Controls the border color of the tagline box."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1565
+#: includes/options/shortcode_styling.php:1570
 msgid "Tagline Top/Bottom Margins"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1566
+#: includes/options/shortcode_styling.php:1571
 msgid "Controls the top/bottom margin of the tagline box."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1582
+#: includes/options/shortcode_styling.php:1587
 msgid "Testimonials Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1588
+#: includes/options/shortcode_styling.php:1593
 msgid "Testimonial Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1589
+#: includes/options/shortcode_styling.php:1594
 msgid "Controls the color of the testimonial background."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1596
+#: includes/options/shortcode_styling.php:1601
 msgid "Testimonial Text Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1597
+#: includes/options/shortcode_styling.php:1602
 msgid "Controls the color of the testimonial text."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1604
+#: includes/options/shortcode_styling.php:1609
 msgid "Testimonials Speed"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1605
+#: includes/options/shortcode_styling.php:1610
 msgid "Controls the speed of the testimonial slider. ex: 1000 = 1 second."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1617
+#: includes/options/shortcode_styling.php:1622
 msgid "Random Order"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1618
+#: includes/options/shortcode_styling.php:1623
 msgid "Turn on to display testimonials in a random order."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1627
+#: includes/options/shortcode_styling.php:1632
 msgid "Title Element"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1633
+#: includes/options/shortcode_styling.php:1638
 msgid "Title Separator"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1634
+#: includes/options/shortcode_styling.php:1639
 msgid "Controls the type of title separator that will display."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1640
+#: includes/options/shortcode_styling.php:1645
 msgid "Single"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1644
+#: includes/options/shortcode_styling.php:1649
 msgid "Double"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1648
+#: includes/options/shortcode_styling.php:1653
 msgid "Underline"
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1656
+#: includes/options/shortcode_styling.php:1661
 msgid "Title Separator Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1657
+#: includes/options/shortcode_styling.php:1662
 msgid "Controls the color of the title separators."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1664
+#: includes/options/shortcode_styling.php:1669
 msgid "Title Top/Bottom Margins"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1665
+#: includes/options/shortcode_styling.php:1670
 msgid ""
 "Controls the top/bottom margin of the titles. Leave empty to use "
 "corresponding heading margins."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1681
+#: includes/options/shortcode_styling.php:1686
 msgid "Toggles Element"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1686
+#: includes/options/shortcode_styling.php:1691
 msgid "Toggle Divider Line"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1687
+#: includes/options/shortcode_styling.php:1692
 msgid "Turn on to display a divider line between each item."
 msgstr ""
 
 # @ Avada
-#: includes/options/shortcode_styling.php:1694
+#: includes/options/shortcode_styling.php:1699
 msgid "Toggles Inactive Box Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1695
+#: includes/options/shortcode_styling.php:1700
 msgid "Controls the color of the inactive toggle box."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1704
+#: includes/options/shortcode_styling.php:1709
 msgid "User Login Element"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1710
+#: includes/options/shortcode_styling.php:1715
 msgid "User Login Text Align"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1711
+#: includes/options/shortcode_styling.php:1716
 msgid ""
 "Controls the alignment of all user login content. \"Text Flow\" follows the "
 "default text align of the site. \"Center\" will center all elements."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1717
+#: includes/options/shortcode_styling.php:1722
 msgid "Text Flow"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1722
+#: includes/options/shortcode_styling.php:1727
 msgid "User Login Form Background Color"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1723
+#: includes/options/shortcode_styling.php:1728
 msgid "Controls the color of the form background."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1732
+#: includes/options/shortcode_styling.php:1737
 msgid "Visibility Size Options"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1738
+#: includes/options/shortcode_styling.php:1743
 msgid "Small Screen"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1739
+#: includes/options/shortcode_styling.php:1744
 msgid "Controls when the small screen visibility should take effect."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1749
+#: includes/options/shortcode_styling.php:1754
 msgid "Medium Screen"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1750
+#: includes/options/shortcode_styling.php:1755
 msgid "Controls when the medium screen visibility should take effect."
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1760
+#: includes/options/shortcode_styling.php:1765
 msgid "Large Screen"
 msgstr ""
 
-#: includes/options/shortcode_styling.php:1761
+#: includes/options/shortcode_styling.php:1766
 msgid ""
 "Any screen larger than that which is defined as the medium screen will be "
 "counted as a large screen."
@@ -12042,7 +12042,7 @@ msgstr ""
 
 # @ Avada
 #: includes/patcher/class-avada-patcher-admin-screen.php:126
-#: templates/portfolio-archive-layout.php:218
+#: templates/portfolio-archive-layout.php:226
 #: templates/portfolio-layout.php:453
 msgid "Learn More"
 msgstr "Научи Повече"
@@ -13380,13 +13380,13 @@ msgid "Protected"
 msgstr ""
 
 # @ Avada
-#: templates/blog-layout.php:249 templates/portfolio-archive-layout.php:278
+#: templates/blog-layout.php:249 templates/portfolio-archive-layout.php:286
 #: templates/portfolio-layout.php:500
 msgid "Load More Posts"
 msgstr ""
 
 # @ Avada
-#: templates/portfolio-archive-layout.php:227
+#: templates/portfolio-archive-layout.php:235
 msgid " View Project"
 msgstr ""
 
