@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2016-11-21 15:17:23+00:00\n"
-"PO-Revision-Date: 2016-11-30 12:00-0200\n"
+"PO-Revision-Date: 2016-11-30 12:22-0200\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
 "avada/language/pt_BR/)\n"
@@ -74,7 +74,7 @@ msgstr "Tipo"
 # @ bbpress
 #: bbpress/loop-search-topic.php:49
 msgid "in group forum "
-msgstr ""
+msgstr "em grupo do fórum"
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:53
@@ -141,11 +141,11 @@ msgstr "Deixar Um Comentário"
 
 #: comments.php:66
 msgid "You must be %1$slogged in%2$s to post a comment."
-msgstr ""
+msgstr "Você precise estar %1$slogged in%2$s para postar um comentário."
 
 #: comments.php:67
 msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
-msgstr ""
+msgstr "Logado como %1$s. %2$sLog out &raquo;%3$s"
 
 # @ Avada
 #: comments.php:67
@@ -162,6 +162,8 @@ msgid ""
 "Form email address is not set in Theme Options. Please fill in a valid "
 "address to make contact form work."
 msgstr ""
+"Endereço de e-mail para o formulário não foi definido nas Opções do Tema. "
+"Por favor, preencha um e-mail válido para fazer o formulário funcionar."
 
 # @ Avada
 #: contact.php:42 contact.php:44
@@ -176,6 +178,7 @@ msgstr ""
 msgid ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
 msgstr ""
+"Thank you %s for using our contact form! Your email was successfully sent!"
 
 # @ Avada
 #: contact.php:62 contact.php:74 includes/class-avada-contact.php:155
@@ -271,11 +274,11 @@ msgstr ""
 #: includes/class-avada-admin.php:433
 #: includes/class-fusion-builder-filters.php:1018
 msgid "Product Registration"
-msgstr ""
+msgstr "Registro do Produto"
 
 #: includes/admin-screens/fusion-plugins.php:54
 msgid "Version: %1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
-msgstr ""
+msgstr "Versão: %1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
 
 #: includes/admin-screens/fusion-plugins.php:56
 msgid "Available Version: %s"
@@ -337,6 +340,7 @@ msgstr "Novo"
 #: includes/admin-screens/install-demos.php:74
 msgid "Avada Demos Can Only Be Installed With A Valid Token Registration"
 msgstr ""
+"Demos do Avada só podem ser instalados com um Token de registração válido."
 
 #: includes/admin-screens/install-demos.php:75
 msgid ""
@@ -481,7 +485,7 @@ msgstr "Histórico de atualizações:"
 
 #: includes/admin-screens/system-status.php:52
 msgid "No previous versions could be detected"
-msgstr ""
+msgstr "Versões anteriores não foram detectadas"
 
 #: includes/admin-screens/system-status.php:104
 #: includes/admin-screens/system-status.php:129
@@ -512,6 +516,9 @@ msgid ""
 "installing Avada 4.0 will be lost. Your Theme Options will be reset to the "
 "values from %s and then converted again to 4.0."
 msgstr ""
+"Atenção: Ao clicar em OK, todas as alterações  realizadas nas opções de seu "
+"tema antes de instalar Avada 4.0 serão perdidas. As opções de seu tema serão "
+"resetadas para os valores de %s e serão convertidas para 4.0."
 
 #: includes/admin-screens/system-status.php:132
 msgid "Avada 5.0 Conversion:"
@@ -527,7 +534,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:144
 msgid "Revert Conversion"
-msgstr ""
+msgstr "Reverter Conversão"
 
 #: includes/admin-screens/system-status.php:154
 msgid ""
@@ -547,7 +554,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:197
 msgid "Remove Backups"
-msgstr ""
+msgstr "Remover Backups"
 
 #: includes/admin-screens/system-status.php:207
 msgid ""
@@ -961,7 +968,7 @@ msgstr "1 Comentário"
 
 #: includes/avada-functions.php:505 templates/related-posts.php:87
 msgid "% Comments"
-msgstr ""
+msgstr "% Comentários"
 
 # @ Avada
 #: includes/avada-functions.php:588 includes/options/blog.php:274
@@ -986,7 +993,7 @@ msgstr "Minha Conta"
 
 #: includes/avada-functions.php:749
 msgid "Login failed, please try again."
-msgstr ""
+msgstr "Erro no acesso, por favor tente novamente."
 
 # @ Avada
 #: includes/avada-functions.php:752
@@ -1010,7 +1017,7 @@ msgstr "Entrar"
 
 #: includes/avada-functions.php:761
 msgid "Register"
-msgstr ""
+msgstr "Registrp"
 
 # @ Avada
 #: includes/avada-functions.php:765
@@ -1019,7 +1026,7 @@ msgstr "Sair"
 
 #: includes/avada-functions.php:820
 msgid "%s Item(s)"
-msgstr ""
+msgstr "%s Item(ns)"
 
 # @ Avada
 #: includes/avada-functions.php:822
@@ -1071,7 +1078,7 @@ msgstr ""
 
 #: includes/avada-functions.php:1194
 msgid "Learn How To Import Sliders"
-msgstr ""
+msgstr "Aprenda como importar Sliders"
 
 #: includes/avada-tgm.php:123
 msgid "Install/Update Required Plugins"
@@ -1269,7 +1276,7 @@ msgstr ""
 #: includes/avadaredux/class-avada-avadaredux.php:517
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:99
 msgid "In pixels."
-msgstr ""
+msgstr "Em pixels"
 
 #: includes/avadaredux/class-avada-avadaredux.php:817
 msgid "This option has a dependency for a corresponding %s Option."
@@ -1473,7 +1480,7 @@ msgstr "Tamanho da Fonte"
 
 #: includes/avadaredux/custom-fields/typography/field_typography.php:415
 msgid "Size"
-msgstr ""
+msgstr "Tamanho"
 
 #: includes/avadaredux/custom-fields/typography/field_typography.php:423
 #: includes/avadaredux/custom-fields/typography/field_typography.php:424
@@ -1483,12 +1490,12 @@ msgstr ""
 #: includes/avadaredux/custom-fields/typography/field_typography.php:432
 #: includes/avadaredux/custom-fields/typography/field_typography.php:433
 msgid "Word Spacing"
-msgstr ""
+msgstr "Espaço entre palavras"
 
 #: includes/avadaredux/custom-fields/typography/field_typography.php:441
 #: includes/avadaredux/custom-fields/typography/field_typography.php:442
 msgid "Letter Spacing"
-msgstr ""
+msgstr "Espaço entre letras"
 
 #: includes/avadaredux/custom-fields/typography/field_typography.php:452
 #: includes/avadaredux/custom-fields/typography/field_typography.php:453
@@ -1502,11 +1509,11 @@ msgstr ""
 
 #: includes/avadaredux/custom-fields/typography/field_typography.php:480
 msgid "Font Color"
-msgstr ""
+msgstr "Cor da fonte"
 
 #: includes/avadaredux/custom-fields/typography/field_typography.php:482
 msgid "Font color"
-msgstr ""
+msgstr "Cor da fonte"
 
 # @ Avada
 #: includes/avadaredux/custom-fields/typography/field_typography.php:907
@@ -1667,11 +1674,11 @@ msgstr ""
 
 #: includes/avadaredux/extensions/search/extension_search.php:98
 msgid "Search for option(s)"
-msgstr ""
+msgstr "Buscar por opção"
 
 #: includes/avadaredux/panel_templates/header_stickybar.tpl.php:20
 msgid "Expand Options"
-msgstr ""
+msgstr "Expandir Opções"
 
 # @ Avada
 #: includes/avadaredux/panel_templates/header_stickybar.tpl.php:24
@@ -1680,7 +1687,7 @@ msgstr ""
 
 #: includes/avadaredux/panel_templates/header_stickybar.tpl.php:31
 msgid "Save Changes"
-msgstr ""
+msgstr "Salvar Alterações"
 
 #: includes/avadaredux/panel_templates/header_stickybar.tpl.php:35
 msgid "Reset Section"
@@ -1742,7 +1749,7 @@ msgstr "Novidades ThemeFusion"
 #: includes/class-avada-admin.php:194 includes/class-avada-admin.php:332
 #: includes/class-avada-admin.php:434
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 # @ Avada
 #: includes/class-avada-admin.php:195 includes/class-avada-admin.php:333
@@ -1853,7 +1860,7 @@ msgstr "Instalar %s"
 
 #: includes/class-avada-admin.php:640
 msgid "Activate %s"
-msgstr ""
+msgstr "Ativar %s"
 
 # @ Avada
 #: includes/class-avada-admin.php:640
@@ -2282,7 +2289,7 @@ msgstr ""
 
 #: includes/class-avada-scripts.php:163 includes/class-avada-scripts.php:242
 msgid "Go to Top"
-msgstr ""
+msgstr "Ir ao Topo"
 
 # @ Avada
 #: includes/class-avada-scripts.php:300
@@ -2521,7 +2528,7 @@ msgstr "Seu comentário está aguardando aprovação."
 
 #: includes/class-avada-upgrade.php:360
 msgid "View Changelog"
-msgstr ""
+msgstr "Ver Log de Mudanças"
 
 # @ Avada
 #: includes/class-avada-upgrade.php:361
@@ -3047,17 +3054,17 @@ msgstr "Status"
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-tgm-plugin-activation.php:2747
 msgid "Install %2$s"
-msgstr ""
+msgstr "Instalar %2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-tgm-plugin-activation.php:2752
 msgid "Update %2$s"
-msgstr ""
+msgstr "Ataulizar %2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-tgm-plugin-activation.php:2758
 msgid "Activate %2$s"
-msgstr ""
+msgstr "Ativar %2$s"
 
 #: includes/class-tgm-plugin-activation.php:2828
 msgid "Upgrade message from the plugin author:"
@@ -3066,10 +3073,13 @@ msgstr ""
 #: includes/class-tgm-plugin-activation.php:2901
 msgid "No plugins were selected to be installed. No action taken."
 msgstr ""
+"Nenhum plugin foi selecionado para ser instalado. Nenhuma ação foi realizada."
 
 #: includes/class-tgm-plugin-activation.php:2903
 msgid "No plugins were selected to be updated. No action taken."
 msgstr ""
+"Nenhum plugin foi selecionado para ser atualizado. Nenhuma ação foi "
+"realizada."
 
 #: includes/class-tgm-plugin-activation.php:2944
 msgid "No plugins are available to be installed at this time."
@@ -3178,7 +3188,7 @@ msgstr "Instalando Plugin  %1$s (%2$d/%3$d)"
 # @ Avada
 #: includes/custom_functions.php:137 includes/custom_functions.php:286
 msgid "Loading..."
-msgstr ""
+msgstr "Carregando..."
 
 # @ Avada
 #: includes/custom_functions.php:569
@@ -3302,7 +3312,7 @@ msgstr "Definir Miniatura"
 
 #: includes/megamenu/mega-menus.php:127
 msgid "Remove Image"
-msgstr ""
+msgstr "Remover Imagem"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:272
@@ -3711,7 +3721,7 @@ msgstr ""
 #: includes/metaboxes/options/options_slide.php:188
 #: includes/metaboxes/options/options_slide.php:200
 msgid "Default: %s"
-msgstr ""
+msgstr "Padrão: %s"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:139
@@ -12759,7 +12769,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-facebook-page.php:159
 msgid "See Instructions."
-msgstr ""
+msgstr "Ver instruções."
 
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:167
@@ -12777,17 +12787,17 @@ msgstr ""
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:183
 msgid "Show Friends Faces"
-msgstr ""
+msgstr "Mostrar rosto dos amigos"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:188
 msgid "Show Posts"
-msgstr ""
+msgstr "Mostrar postagens"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:193
 msgid "Show Cover Photo"
-msgstr ""
+msgstr "Mostrar capa"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:198
@@ -12796,11 +12806,11 @@ msgstr "Exibir Cabeçalho"
 
 #: includes/widget/class-fusion-widget-flickr.php:22
 msgid "The most recent photos from flickr."
-msgstr ""
+msgstr "Fotos mais recentes do flickr."
 
 #: includes/widget/class-fusion-widget-flickr.php:138
 msgid "Photos from Flickr"
-msgstr ""
+msgstr "Fotos do Flickr"
 
 #: includes/widget/class-fusion-widget-flickr.php:154
 msgid "Flickr ID (<a href=\"%s\">Get your flickr ID</s>):"
@@ -12831,7 +12841,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-menu.php:165
 msgid "Alignment:"
-msgstr ""
+msgstr "Alinhamento:"
 
 #: includes/widget/class-fusion-widget-menu.php:173
 msgid "Menu Padding:"
@@ -12851,7 +12861,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-menu.php:189
 msgid "Font Size:"
-msgstr ""
+msgstr "Tamanho da Fonte:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-recent-works.php:114
@@ -12916,7 +12926,7 @@ msgstr "Posição do Slider"
 
 #: includes/widget/class-fusion-widget-social-links.php:514
 msgid "Show Custom Icons:"
-msgstr ""
+msgstr "Mostrar Icones Personalizados:"
 
 #: includes/widget/class-fusion-widget-social-links.php:522
 msgid "Use Theme Option Links:"
@@ -12966,7 +12976,7 @@ msgstr "Postar Comentário"
 
 #: includes/widget/class-fusion-widget-tabs.php:245
 msgid "Popular Posts Order By:"
-msgstr ""
+msgstr "Ordenar Posts Populares Por:"
 
 #: includes/widget/class-fusion-widget-tabs.php:248
 msgid "Highest Views"
@@ -12979,7 +12989,7 @@ msgstr "Número de Colunas do Rodapé"
 
 #: includes/widget/class-fusion-widget-tabs.php:256
 msgid "Number of recent posts:"
-msgstr ""
+msgstr "Número de posts recentes:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:260
@@ -13204,21 +13214,21 @@ msgstr "atrás"
 
 #: includes/woo-config.php:201
 msgid "Out of stock"
-msgstr ""
+msgstr "Sem estoque"
 
 # @ woocommerce
 #: includes/woo-config.php:429 woocommerce/cart/cart.php:127
 #: woocommerce/compatibility/2.5/cart/cart.php:127
 msgid "Update Cart"
-msgstr ""
+msgstr "Atualizar Carrinho"
 
 #: includes/woo-config.php:446
 msgid "Hello %1$s (not %2$s? %3$s)"
-msgstr ""
+msgstr "Olá %1$s (not %2$s? %3$s)"
 
 #: includes/woo-config.php:449
 msgid "Sign Out"
-msgstr ""
+msgstr "Sair"
 
 # @ Avada
 #: includes/woo-config.php:453
@@ -13394,7 +13404,7 @@ msgstr "Código Postal / CEP"
 # @ woocommerce
 #: includes/woo-config.php:1489
 msgid "Update Totals"
-msgstr ""
+msgstr "Atualizar Total"
 
 # @ Avada
 #: includes/woo-config.php:1523 includes/woo-config.php:1572
@@ -13545,7 +13555,7 @@ msgstr "Por:"
 #: single-wpfc_sermon.php:45 single-wpfc_sermon.php:63
 #: tribe-events/pro/photo/single-event.php:29
 msgid "Go to \"%s\""
-msgstr ""
+msgstr "Ir para \"%s\""
 
 #: single-wpfc_sermon.php:113 single.php:97
 msgid "About the Author: %s"
@@ -13585,7 +13595,7 @@ msgstr "Ler Mais"
 # @ Avada
 #: templates/blog-layout.php:200
 msgid "Protected"
-msgstr ""
+msgstr "Protegido"
 
 # @ Avada
 #: templates/blog-layout.php:249 templates/portfolio-archive-layout.php:286
