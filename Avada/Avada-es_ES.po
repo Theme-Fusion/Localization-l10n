@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-03-18 02:35:27+00:00\n"
-"PO-Revision-Date: 2016-11-03 19:49+0100\n"
-"Last-Translator: Michael Clarke\n"
+"PO-Revision-Date: 2017-04-03 23:51+0200\n"
+"Last-Translator: NiloVelez\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
 "language/es_ES/)\n"
 "Language: es_ES\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 # @ Avada
 #: 404.php:20
@@ -224,7 +224,7 @@ msgstr "¡Los datos de la demostración se han importado correctamente!"
 
 #: functions.php:620 functions.php:621
 msgid "Fusion Patcher"
-msgstr ""
+msgstr "Fusion Patcher"
 
 #: functions.php:635
 msgid ""
@@ -247,10 +247,12 @@ msgid ""
 "The Fusion-Core plugin needs to be updated before your site can exit "
 "maintenance mode. Please %s to update the plugin."
 msgstr ""
+"Para poder sacar tu sitio del modo mantenimiento tienes que actualizar el "
+"plugin Fusion-Core antes. Por favor, %s para actualizar el plugin."
 
 #: functions.php:650
 msgid "follow this link"
-msgstr ""
+msgstr "sigue este enlace"
 
 #: includes/admin-screens/demos.php:33
 msgid ""
@@ -267,7 +269,7 @@ msgstr ""
 
 #: includes/admin-screens/demos.php:37
 msgid "All Demos"
-msgstr ""
+msgstr "Todas las Demos"
 
 #: includes/admin-screens/demos.php:91
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:125
@@ -301,12 +303,15 @@ msgstr ""
 #: includes/admin-screens/demos.php:117
 msgid "Avada Demos Can Only Be Imported With A Valid Token Registration"
 msgstr ""
+"Las Demos de Avada sólo se pueden importar con un token de registro válido"
 
 #: includes/admin-screens/demos.php:118
 msgid ""
 "Please visit the %s page and enter a valid token to import the full Avada "
 "Demos and the single pages through Fusion Builder."
 msgstr ""
+"Por favor, visita la página %s e introduce un token válido para importar las "
+"demos completas de Avada y las páginas individuales desde el Fusion Builder."
 
 # @ Avada
 #: includes/admin-screens/demos.php:118 includes/admin-screens/faq.php:31
@@ -324,11 +329,11 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:21
 msgid "online support center"
-msgstr ""
+msgstr "centro de ayuda online"
 
 #: includes/admin-screens/faq.php:27
 msgid "How Do I Register My Avada Purchase?"
-msgstr ""
+msgstr "¿cómo registro mi compra de Avada?"
 
 #: includes/admin-screens/faq.php:31
 msgid ""
@@ -1287,12 +1292,11 @@ msgstr "%s item(s)"
 # @ Avada
 #: includes/avada-functions.php:546
 msgid "Cart"
-msgstr "Carro"
+msgstr "Carrito"
 
 # @ Avada
 #: includes/avada-functions.php:549 includes/avada-functions.php:580
-#: includes/avada-functions.php:585
-#: includes/lib/inc/templates/rollover.php:210
+#: includes/avada-functions.php:585 includes/lib/inc/templates/rollover.php:210
 #: templates/wc-top-user-container.php:39
 msgid "View Cart"
 msgstr "Ver carro"
@@ -2064,8 +2068,7 @@ msgid "Go to Top"
 msgstr "Ir a Arriba"
 
 # @ Avada
-#: includes/class-avada-scripts.php:584
-#: templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:584 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "Detalles"
 
@@ -5509,8 +5512,8 @@ msgstr "Fondo"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:295
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:19
-#: includes/options/blog.php:47 includes/options/page_title_bar.php:27
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:19 includes/options/blog.php:47
+#: includes/options/page_title_bar.php:27
 #: includes/options/page_title_bar.php:34
 #: includes/options/page_title_bar.php:40
 msgid "Page Title Bar"
@@ -6036,20 +6039,19 @@ msgid "Adjust the button shortcode parameters for the second button."
 msgstr "Ajuste los parámetros del shortcode  botón para el segundo botón."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:19
-#: includes/options/layout.php:40 includes/options/layout.php:46
+#: includes/metaboxes/tabs/tab_background.php:19 includes/options/layout.php:40
+#: includes/options/layout.php:46
 msgid "Layout"
 msgstr "Formato"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:22
-#: includes/options/layout.php:53
+#: includes/metaboxes/tabs/tab_background.php:22 includes/options/layout.php:53
 msgid "Wide"
 msgstr "Ancho ampliado (Wide)"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:23
-#: includes/options/layout.php:52 includes/options/portfolio.php:186
+#: includes/metaboxes/tabs/tab_background.php:23 includes/options/layout.php:52
+#: includes/options/portfolio.php:186
 msgid "Boxed"
 msgstr "En caja (Boxed)"
 
@@ -6806,8 +6808,7 @@ msgstr ""
 "lateral 2, se mostrará en el lado opuesto."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:77
-#: includes/options/sidebars.php:76
+#: includes/metaboxes/tabs/tab_sidebars.php:77 includes/options/sidebars.php:76
 msgid "Sidebar Background Color"
 msgstr "Color de fondo de la barra lateral"
 
