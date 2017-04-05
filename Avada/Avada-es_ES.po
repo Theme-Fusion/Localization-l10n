@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-03-18 02:35:27+00:00\n"
-"PO-Revision-Date: 2017-04-03 23:51+0200\n"
-"Last-Translator: NiloVelez\n"
+"PO-Revision-Date: 2017-04-05 15:45+0200\n"
+"Last-Translator: Nilo Velez <nilovelez@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
 "language/es_ES/)\n"
 "Language: es_ES\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.0\n"
 
 # @ Avada
 #: 404.php:20
@@ -216,6 +216,8 @@ msgid ""
 "Your server runs on an old version of PHP 5.2. It is recommended you update "
 "to %s or greater."
 msgstr ""
+"Su servidor se ejecuta en una versión antigua de PHP 5.2. Se recomienda que "
+"actualice a %s o mayor."
 
 # @ Avada
 #: functions.php:353
@@ -262,10 +264,16 @@ msgid ""
 "to ensure your server meets all requirements for a successful import. "
 "Settings that need attention will be listed in red. %s."
 msgstr ""
+"La instalación de una demo proporciona páginas, publicaciones, menús, "
+"imágenes, opciones de temas, widgets y más. IMPORTANTE: Los complementos "
+"incluidos deben instalarse y activarse antes de instalar una demostración. "
+"Compruebe la ficha \"Estado del sistema\" para asegurarse de que su servidor "
+"cumple todos los requisitos para una importación exitosa. Los ajustes que "
+"necesitan atención se enumerarán en rojo."
 
 #: includes/admin-screens/demos.php:33
 msgid "View more info here"
-msgstr ""
+msgstr "Ver más información aquí"
 
 #: includes/admin-screens/demos.php:37
 msgid "All Demos"
@@ -326,6 +334,9 @@ msgid ""
 "more in-depth documentation, please visit our %s to view documentation, "
 "knowledgebase and video tutorials."
 msgstr ""
+"Estos son en general las preguntas más frecuentes para ayudarle a empezar. "
+"Para obtener más documentación detallada, visite nuestro%s para ver la "
+"documentación, la base de conocimientos y vídeo tutoriales."
 
 #: includes/admin-screens/faq.php:21
 msgid "online support center"
@@ -341,10 +352,13 @@ msgid ""
 "demos, Slider Revolution, Layer Slider and automatic theme updates. You can "
 "easily register your product on the %s tab."
 msgstr ""
+"Tu compra de Avada requiere el registro del producto para recibir las demos "
+"de Avada, el Revolution Slider, Layer Slider y actualizaciones automáticas "
+"del tema. Puedes registrar fácilmente tu producto en la pestaña %s."
 
 #: includes/admin-screens/faq.php:37
 msgid "How Do I Get Support For Avada?"
-msgstr ""
+msgstr "¿Cómo obtengo ayuda sobre Avada?"
 
 #: includes/admin-screens/faq.php:41
 msgid ""
@@ -758,7 +772,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:133
 msgid "Avada 5.0 Conversion:"
-msgstr ""
+msgstr "Conversión a Avada 5.0:"
 
 #: includes/admin-screens/system-status.php:138
 msgid "Rerun Shortcode Conversion from version %s to version 5.0 manually."
@@ -842,7 +856,7 @@ msgstr "Si tienes o no WordPress Multisitio habilitado."
 
 #: includes/admin-screens/system-status.php:247
 msgid "PHP Memory Limit:"
-msgstr ""
+msgstr "Límite de memoria de PHP:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:248
@@ -1063,7 +1077,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:482
 msgid "ZipArchive:"
-msgstr "Archivos diarios:"
+msgstr "ZipArchive:"
 
 #: includes/admin-screens/system-status.php:483
 msgid ""
@@ -1160,7 +1174,7 @@ msgstr "Visitar la web del plugin"
 
 #: includes/admin-screens/system-status.php:568
 msgid "by %s"
-msgstr ""
+msgstr "por %s"
 
 #: includes/admin-screens/system-status.php:587
 msgid ""
@@ -1195,7 +1209,7 @@ msgstr ""
 
 #: includes/admin-screens/welcome.php:27
 msgid "Welcome To Avada"
-msgstr ""
+msgstr "Bienvenido a Avada"
 
 #: includes/admin-screens/welcome.php:28
 msgid ""
@@ -1299,7 +1313,7 @@ msgstr "Carrito"
 #: includes/avada-functions.php:585 includes/lib/inc/templates/rollover.php:210
 #: templates/wc-top-user-container.php:39
 msgid "View Cart"
-msgstr "Ver carro"
+msgstr "Ver carrito"
 
 # @ Avada
 #: includes/avada-functions.php:581
@@ -1358,7 +1372,7 @@ msgstr "Instalando plugin:%s"
 # @ Avada
 #: includes/avada-tgm.php:134 includes/class-tgm-plugin-activation.php:346
 msgid "Something went wrong with the plugin API."
-msgstr "Ha habido un fallo en el API del plugin"
+msgstr "Ha habido un fallo en el API de plugins."
 
 #: includes/avada-tgm.php:135
 msgid "Avada requires the following plugin installed: %1$s."
@@ -1485,7 +1499,7 @@ msgstr "Soporte"
 #: includes/class-avada-admin.php:228 includes/class-avada-admin.php:402
 #: includes/class-avada-admin.php:534
 msgid "Demos"
-msgstr ""
+msgstr "Demos"
 
 #: includes/class-avada-admin.php:229 includes/class-avada-admin.php:403
 #: includes/class-avada-admin.php:535
@@ -1501,15 +1515,15 @@ msgstr "Estado del sistema"
 
 #: includes/class-avada-admin.php:234
 msgid "Fusion Patcher %s"
-msgstr ""
+msgstr "Fusion Patcher %s"
 
 #: includes/class-avada-admin.php:294 includes/class-avada-admin.php:530
 msgid "Welcome"
-msgstr ""
+msgstr "Bienvenido"
 
 #: includes/class-avada-admin.php:399 includes/class-avada-admin.php:531
 msgid "Registration"
-msgstr ""
+msgstr "Registro"
 
 #: includes/class-avada-admin.php:401 includes/class-avada-admin.php:533
 #: includes/metaboxes/metaboxes.php:290
@@ -1519,7 +1533,7 @@ msgstr "Preguntas frecuentes"
 # @ Avada
 #: includes/class-avada-admin.php:503
 msgid "Welcome to Avada!"
-msgstr "Bienvenido a Avada"
+msgstr "¡Bienvenido a Avada!"
 
 #: includes/class-avada-admin.php:507 includes/class-avada-admin.php:519
 msgid ""
@@ -1669,7 +1683,7 @@ msgstr "Etiqueta Base para el Portfolio de Avada"
 
 #: includes/class-avada-avadaredux-migration.php:131
 msgid "Preparing to run Upgrade"
-msgstr "Prepararando la actualización..."
+msgstr "Prepararando la actualización"
 
 #: includes/class-avada-avadaredux-migration.php:135
 msgid "Slider controls"
@@ -1693,7 +1707,7 @@ msgstr "Conversión de colores HEX a RGBA"
 
 #: includes/class-avada-avadaredux-migration.php:157
 msgid "HEX colors"
-msgstr "Colores HEX (Hexadecimales)"
+msgstr "Colores HEX"
 
 #: includes/class-avada-avadaredux-migration.php:161
 msgid "Media Files"
@@ -1754,7 +1768,7 @@ msgstr "Etiqueta:"
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:120
 msgid "Search:"
-msgstr "Buscar ..."
+msgstr "Buscar:"
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:121
@@ -1865,7 +1879,7 @@ msgstr ""
 
 #: includes/class-avada-migrate.php:395
 msgid "Updating Avada Database Entries"
-msgstr "Actualización de base de datos…"
+msgstr "Actualizando las entradas de Avada en la base de datos"
 
 #: includes/class-avada-migrate.php:398
 msgid "Currently converting language: %s"
@@ -1881,11 +1895,11 @@ msgstr "Casi estamos..."
 
 #: includes/class-avada-migrate.php:405
 msgid "Halfway there... Patience Padawan, Patience."
-msgstr "Estamos a mitad de camino... ¡Paciencia mi joven Padawan, paciencia!"
+msgstr "Estamos a mitad de camino... Paciencia mi joven Padawan, paciencia."
 
 #: includes/class-avada-migrate.php:407
 msgid "This may take a few minutes, please wait."
-msgstr "Esto puede tardar unos minutos, espere por favor…"
+msgstr "Esto puede tardar unos minutos, espere por favor."
 
 #: includes/class-avada-migrate.php:414
 msgid "Converting language: %1$s of %2$s."
@@ -1906,7 +1920,7 @@ msgstr "Para una mejor experiencia, borrar la caché del navegador una vez."
 
 #: includes/class-avada-migrate.php:439
 msgid "Dynamic-CSS caches have been auto reset."
-msgstr "La cache dinámica de las CSS ha sido reseteada. ¡Que te diviertas!"
+msgstr "La cache CSS dinámica ha sido reseteada."
 
 #: includes/class-avada-migrate.php:446
 msgid "Take Me To Shortcode Conversion"
@@ -2008,7 +2022,7 @@ msgid ""
 "The description will be displayed in the menu if the current theme supports "
 "it."
 msgstr ""
-"La descripción aperecerá en el menú si está disponible con el tema actual"
+"La descripción aparecerá en el menú si está disponible con el tema actual."
 
 # @ Avada
 #: includes/class-avada-nav-walker-megamenu.php:208
@@ -2091,7 +2105,7 @@ msgstr "Series:"
 
 #: includes/class-avada-sermon-manager.php:102
 msgid "Topics: "
-msgstr "Temas:"
+msgstr "Temas: "
 
 # @ Avada
 #: includes/class-avada-sidebars.php:37
@@ -2111,7 +2125,7 @@ msgstr " - Editar"
 # @ Avada
 #: includes/class-avada-template.php:395
 msgid " - Reply"
-msgstr "- Responder"
+msgstr " - Responder"
 
 # @ Avada
 #: includes/class-avada-template.php:399
@@ -2135,12 +2149,12 @@ msgstr "Panel de Control"
 # @ Avada
 #: includes/class-avada-woocommerce.php:1181
 msgid "You Have %d Item In Your Cart"
-msgstr "Tienes %d item para comprar"
+msgstr "Tienes %d artículo en el carrito"
 
 # @ Avada
 #: includes/class-avada-woocommerce.php:1184
 msgid "You Have %d Items In Your Cart"
-msgstr "Tienes %d artículos en el Carro de la compra"
+msgstr "Tienes %d artículos en el carrito"
 
 # @ Avada
 #: includes/class-avada-woocommerce.php:1311
@@ -2217,7 +2231,7 @@ msgstr ""
 
 #: includes/class-fusion-builder-migrate.php:1107
 msgid "IMPORTANT: Shortcode Conversion For Fusion Builder"
-msgstr " IMPORTANTE: Conversión de códigos cortos para FUSION BUILDER:"
+msgstr "IMPORTANTE: Conversión de códigos cortos para FUSION BUILDER"
 
 #: includes/class-fusion-builder-migrate.php:1109
 msgid "Collect IDs of posts that need to be converted"
@@ -2398,7 +2412,7 @@ msgid ""
 msgstr ""
 "Todos los post necesarios han sido convertidos a la nueva sintaxis  del "
 "nuevo Fusion Builder. Ahora puedes actualizar los plugins Fusion Core y "
-"Fusion Builder"
+"Fusion Builder."
 
 #: includes/class-fusion-builder-migrate.php:1191
 msgid ""
@@ -2412,35 +2426,35 @@ msgstr "Analizando las entradas (post) \"%1$s\". Total de entradas: %2$s."
 
 #: includes/class-fusion-builder-migrate.php:1270
 msgid "Converting posts."
-msgstr "Convirtiendo entradas"
+msgstr "Convirtiendo entradas."
 
 #: includes/class-fusion-builder-migrate.php:1271
 msgid "Converting slides."
-msgstr "Convirtiendo slides"
+msgstr "Convirtiendo slides."
 
 #: includes/class-fusion-builder-migrate.php:1272
 msgid "Converting widgets."
-msgstr "Convirtiendo widgets"
+msgstr "Convirtiendo widgets."
 
 #: includes/class-fusion-builder-migrate.php:1273
 msgid "Converting theme options."
-msgstr "Convirtiendo opciones del tema"
+msgstr "Convirtiendo opciones del tema."
 
 #: includes/class-fusion-builder-migrate.php:1275
 msgid "Reverting posts."
-msgstr "Revirtiendo entradas"
+msgstr "Revirtiendo entradas."
 
 #: includes/class-fusion-builder-migrate.php:1276
 msgid "Reverting slides."
-msgstr "Revirtiendo slides"
+msgstr "Revirtiendo slides."
 
 #: includes/class-fusion-builder-migrate.php:1277
 msgid "Reverting widgets."
-msgstr "Revirtiendo widgets"
+msgstr "Revirtiendo widgets."
 
 #: includes/class-fusion-builder-migrate.php:1278
 msgid "Reverting theme options."
-msgstr "Revirtiendo opciones del tema"
+msgstr "Revirtiendo opciones del tema."
 
 #: includes/class-fusion-builder-migrate.php:1298
 msgid "Start Reversion"
@@ -2467,7 +2481,7 @@ msgstr ""
 #: includes/class-fusion-builder-migrate.php:1327
 #: includes/class-fusion-builder-migrate.php:1344
 msgid "Take me to Admin"
-msgstr "Lléveme a Administrar el tema!"
+msgstr "Llévame al escritorio"
 
 #: includes/class-fusion-builder-migrate.php:1348
 msgid "Update Required Plugins"
@@ -2506,8 +2520,8 @@ msgstr[1] "Comience la actualización de los plugins"
 #: includes/class-tgm-plugin-activation.php:393
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
-msgstr[0] "La activación del plugin ha fallado."
-msgstr[1] "Comience a activar los plug-in"
+msgstr[0] "Comenzar a activar el plugin"
+msgstr[1] "Comenzar a activar los plugins"
 
 # @ Avada
 #: includes/class-tgm-plugin-activation.php:399
@@ -3014,7 +3028,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-fusionredux.php:1260
 msgid "Dismiss Message"
-msgstr ""
+msgstr "Descartar este Mensaje"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:289
 msgid ""
@@ -3070,7 +3084,7 @@ msgstr "Aplicar Parche"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:407
 msgid "Dismiss Notices"
-msgstr ""
+msgstr "Descartar Avisos"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:414
 msgid "Please apply patch #%s first."
@@ -3349,7 +3363,7 @@ msgstr "No"
 
 #: includes/lib/inc/class-fusion-settings.php:457
 msgid "none"
-msgstr ""
+msgstr "Ninguno"
 
 #: includes/lib/inc/class-fusion-settings.php:466
 msgid ""
@@ -3917,22 +3931,22 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1751
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:1751
 msgid "Enable"
-msgstr ""
+msgstr "Habilitar"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1756
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:1756
 msgid "Disable"
-msgstr ""
+msgstr "Deshabilitar"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1762
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:1762
 msgid "moving the mouse over"
-msgstr ""
+msgstr "Mover el ratón por encima"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1764
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:1764
 msgid "clicking"
-msgstr ""
+msgstr "haciendo click"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1768
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:1768
@@ -4022,7 +4036,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_admin_notices.php:97
 msgid "Dismiss"
-msgstr ""
+msgstr "Descartar"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_cdn.php:77
 msgid ""
@@ -4107,11 +4121,11 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_panel.php:138
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_section.php:79
 msgid "Back"
-msgstr ""
+msgstr "Atrás"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_panel.php:146
 msgid "Help"
-msgstr ""
+msgstr "Ayuda"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_section.php:72
 msgid "Press return or enter to open"
@@ -4142,7 +4156,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:107
 msgid "Import from URL"
-msgstr ""
+msgstr "Importar de una URL"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:113
 msgid ""
@@ -14490,15 +14504,15 @@ msgstr "Compartir En Facebook"
 
 #: templates/wc-after-single-product-summary.php:40
 msgid "Tweet This Product"
-msgstr "Twitear este servicio"
+msgstr "Twitear este producto"
 
 #: templates/wc-after-single-product-summary.php:50
 msgid "Pin This Product"
-msgstr "Pinea este servicio"
+msgstr "Añadir a Pinterest"
 
 #: templates/wc-after-single-product-summary.php:59
 msgid "Mail This Product"
-msgstr "Envía por email"
+msgstr "Enviar por email"
 
 # @ Avada
 # @ woocommerce
@@ -14527,14 +14541,14 @@ msgstr "Revisar &amp; Realizar el pago"
 #: templates/wc-cart-collaterals.php:20
 #: templates/wc-checkout-coupon-form.php:22
 msgid "Have A Promotional Code?"
-msgstr "Tiene un codigo Promocional"
+msgstr "¿Tienes algún cupón de descuento?"
 
 # @ woocommerce
 #: templates/wc-cart-collaterals.php:23
 #: templates/wc-checkout-coupon-form.php:26 woocommerce/cart/cart.php:136
 #: woocommerce/compatibility/2.6/cart/cart.php:121
 msgid "Coupon code"
-msgstr "Tiene un código promocional?"
+msgstr "Código de cupón"
 
 # @ woocommerce
 #: templates/wc-cart-collaterals.php:24
@@ -14711,7 +14725,7 @@ msgstr[1] "Ver todo %2$s %3$s"
 
 #: tribe-events/pro/photo/single-event.php:78
 msgid "Find Out More"
-msgstr "Obtén más información."
+msgstr "Obtén más información"
 
 #: tribe-events/pro/related-events.php:27
 msgid "Related %s"
@@ -14764,7 +14778,7 @@ msgstr "Ver todos %s"
 # @ woocommerce
 #: woocommerce/cart/cart.php:80 woocommerce/compatibility/2.6/cart/cart.php:70
 msgid "Available on backorder"
-msgstr "No se permite instalar el paquete."
+msgstr "No se permite la reserva"
 
 # @ woocommerce
 #: woocommerce/cart/cart.php:121
@@ -14828,7 +14842,7 @@ msgstr ""
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:44
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:80
 msgid "Thank you. Your order has been received."
-msgstr "Gracias. He recibido tu pedido"
+msgstr "Gracias. Hemos recibido tu pedido."
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:49
@@ -14840,13 +14854,13 @@ msgstr "Número de pedido:"
 #: woocommerce/checkout/thankyou.php:54
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:52
 msgid "Date:"
-msgstr "Fecha"
+msgstr "Fecha:"
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:59
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:56
 msgid "Total:"
-msgstr "Reciente"
+msgstr "Total:"
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:65
@@ -14972,7 +14986,7 @@ msgstr "desconocido"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
 msgctxt "by author"
 msgid "by %s"
-msgstr "Por %s"
+msgstr "por %s"
 
 #: includes/widget/class-fusion-widget-tweets.php:644
 msgctxt "%s = human-readable time difference"
