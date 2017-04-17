@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2017-04-14 10:44:48+00:00\n"
+"POT-Creation-Date: 2017-04-17 10:44:37+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2681,15 +2681,15 @@ msgstr ""
 msgid "Token"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:437
+#: includes/lib/inc/class-fusion-product-registration.php:442
 msgid "Congratulations! Your product is registered now."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:439
+#: includes/lib/inc/class-fusion-product-registration.php:444
 msgid "Please enter your Envato token to complete registration."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:449
+#: includes/lib/inc/class-fusion-product-registration.php:454
 msgid ""
 "The %1$s %2$s is bundled in %3$s and no registration is required for it. "
 "Updates will be provided from %3$s. If however you have purchased %1$s "
@@ -2697,12 +2697,12 @@ msgid ""
 "receive %2$s updates regardless of %3$s, please check this checkbox."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:489
+#: includes/lib/inc/class-fusion-product-registration.php:494
 #: includes/plugins/importer/wordpress-importer.php:284
 msgid "Submit"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:495
+#: includes/lib/inc/class-fusion-product-registration.php:500
 msgid ""
 "Registration could not be completed because the value entered above is a "
 "purchase code. A token key is needed to register. Please read the "
@@ -2710,15 +2710,24 @@ msgid ""
 "registration."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:497
+#: includes/lib/inc/class-fusion-product-registration.php:502
 msgid "Invalid token, or corresponding Envato account does not have %s purchased."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:507
+#: includes/lib/inc/class-fusion-product-registration.php:517
+msgid ""
+"Token does not have the necessary permissions. Please create a new token "
+"and make sure the following permissions are enabled for it: <strong>View "
+"Your Envato Account Username</strong>, <strong>Download Your Purchased "
+"Items</strong>, <strong>List Purchases You've Made</strong>, <strong>Verify "
+"Purchases You've Made</strong>."
+msgstr ""
+
+#: includes/lib/inc/class-fusion-product-registration.php:527
 msgid "Instructions For Generating A Token"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:510
+#: includes/lib/inc/class-fusion-product-registration.php:530
 msgid ""
 "Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal "
 "Token</a> link. <strong>IMPORTANT:</strong> You must be logged into the "
@@ -2728,7 +2737,7 @@ msgid ""
 "Token Page."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:511
+#: includes/lib/inc/class-fusion-product-registration.php:531
 msgid ""
 "Enter a name for your token, then check the boxes for <strong>View Your "
 "Envato Account Username, Download Your Purchased Items, List Purchases "
@@ -2737,14 +2746,14 @@ msgid ""
 "conditions, then click the <strong>Create Token button</strong>"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:512
+#: includes/lib/inc/class-fusion-product-registration.php:532
 msgid ""
 "A new page will load with a token number in a box. Copy the token number "
 "then come back to this registration page and paste it into the field below "
 "and click the <strong>Submit</strong> button."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:513
+#: includes/lib/inc/class-fusion-product-registration.php:533
 msgid ""
 "You will see a green check mark for success, or a failure message if "
 "something went wrong. If it failed, please make sure you followed the steps "

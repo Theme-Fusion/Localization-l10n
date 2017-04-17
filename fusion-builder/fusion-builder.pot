@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2017-04-14 10:46:46+00:00\n"
+"POT-Creation-Date: 2017-04-17 10:46:36+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -256,7 +256,7 @@ msgstr ""
 #: inc/admin-screens/settings.php:35
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:41
 #: inc/options/responsive.php:34 inc/options/responsive.php:86
-#: shortcodes/fusion-content-boxes.php:1409 shortcodes/fusion-countdown.php:377
+#: shortcodes/fusion-content-boxes.php:1409 shortcodes/fusion-countdown.php:382
 #: shortcodes/fusion-counters-box.php:478
 msgid "On"
 msgstr ""
@@ -265,7 +265,7 @@ msgstr ""
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:44
 #: inc/options/dynamic_css_js.php:45 inc/options/responsive.php:35
 #: inc/options/responsive.php:87 shortcodes/fusion-content-boxes.php:1410
-#: shortcodes/fusion-countdown.php:378 shortcodes/fusion-counters-box.php:479
+#: shortcodes/fusion-countdown.php:383 shortcodes/fusion-counters-box.php:479
 msgid "Off"
 msgstr ""
 
@@ -691,9 +691,9 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:1908
 #: shortcodes/fusion-content-boxes.php:2353
 #: shortcodes/fusion-content-boxes.php:2380
-#: shortcodes/fusion-content-boxes.php:2449 shortcodes/fusion-countdown.php:532
-#: shortcodes/fusion-countdown.php:544 shortcodes/fusion-countdown.php:573
-#: shortcodes/fusion-countdown.php:600 shortcodes/fusion-countdown.php:719
+#: shortcodes/fusion-content-boxes.php:2449 shortcodes/fusion-countdown.php:537
+#: shortcodes/fusion-countdown.php:549 shortcodes/fusion-countdown.php:578
+#: shortcodes/fusion-countdown.php:605 shortcodes/fusion-countdown.php:724
 #: shortcodes/fusion-counters-box.php:556
 #: shortcodes/fusion-counters-box.php:591
 #: shortcodes/fusion-counters-circle.php:322
@@ -1305,7 +1305,7 @@ msgstr ""
 #: shortcodes/fusion-container.php:670 shortcodes/fusion-container.php:712
 #: shortcodes/fusion-container.php:811 shortcodes/fusion-container.php:845
 #: shortcodes/fusion-content-boxes.php:1688
-#: shortcodes/fusion-content-boxes.php:2113 shortcodes/fusion-countdown.php:545
+#: shortcodes/fusion-content-boxes.php:2113 shortcodes/fusion-countdown.php:550
 #: shortcodes/fusion-counters-box.php:558
 #: shortcodes/fusion-counters-circle.php:407
 #: shortcodes/fusion-counters-circle.php:418 shortcodes/fusion-dropcap.php:196
@@ -1370,7 +1370,7 @@ msgstr ""
 #: shortcodes/fusion-container.php:671 shortcodes/fusion-container.php:713
 #: shortcodes/fusion-container.php:812 shortcodes/fusion-container.php:846
 #: shortcodes/fusion-content-boxes.php:1689
-#: shortcodes/fusion-content-boxes.php:2114 shortcodes/fusion-countdown.php:546
+#: shortcodes/fusion-content-boxes.php:2114 shortcodes/fusion-countdown.php:551
 #: shortcodes/fusion-counters-box.php:557
 #: shortcodes/fusion-counters-circle.php:408
 #: shortcodes/fusion-counters-circle.php:419 shortcodes/fusion-dropcap.php:195
@@ -1676,7 +1676,7 @@ msgid "Download and import file attachments"
 msgstr ""
 
 #: inc/importer/wordpress-importer.php:286
-#: inc/lib/inc/class-fusion-product-registration.php:489
+#: inc/lib/inc/class-fusion-product-registration.php:494
 msgid "Submit"
 msgstr ""
 
@@ -2212,15 +2212,15 @@ msgstr ""
 msgid "Token"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:437
+#: inc/lib/inc/class-fusion-product-registration.php:442
 msgid "Congratulations! Your product is registered now."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:439
+#: inc/lib/inc/class-fusion-product-registration.php:444
 msgid "Please enter your Envato token to complete registration."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:449
+#: inc/lib/inc/class-fusion-product-registration.php:454
 msgid ""
 "The %1$s %2$s is bundled in %3$s and no registration is required for it. "
 "Updates will be provided from %3$s. If however you have purchased %1$s "
@@ -2228,7 +2228,7 @@ msgid ""
 "receive %2$s updates regardless of %3$s, please check this checkbox."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:495
+#: inc/lib/inc/class-fusion-product-registration.php:500
 msgid ""
 "Registration could not be completed because the value entered above is a "
 "purchase code. A token key is needed to register. Please read the "
@@ -2236,15 +2236,24 @@ msgid ""
 "registration."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:497
+#: inc/lib/inc/class-fusion-product-registration.php:502
 msgid "Invalid token, or corresponding Envato account does not have %s purchased."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:507
+#: inc/lib/inc/class-fusion-product-registration.php:517
+msgid ""
+"Token does not have the necessary permissions. Please create a new token "
+"and make sure the following permissions are enabled for it: <strong>View "
+"Your Envato Account Username</strong>, <strong>Download Your Purchased "
+"Items</strong>, <strong>List Purchases You've Made</strong>, <strong>Verify "
+"Purchases You've Made</strong>."
+msgstr ""
+
+#: inc/lib/inc/class-fusion-product-registration.php:527
 msgid "Instructions For Generating A Token"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:510
+#: inc/lib/inc/class-fusion-product-registration.php:530
 msgid ""
 "Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal "
 "Token</a> link. <strong>IMPORTANT:</strong> You must be logged into the "
@@ -2254,7 +2263,7 @@ msgid ""
 "Token Page."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:511
+#: inc/lib/inc/class-fusion-product-registration.php:531
 msgid ""
 "Enter a name for your token, then check the boxes for <strong>View Your "
 "Envato Account Username, Download Your Purchased Items, List Purchases "
@@ -2263,14 +2272,14 @@ msgid ""
 "conditions, then click the <strong>Create Token button</strong>"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:512
+#: inc/lib/inc/class-fusion-product-registration.php:532
 msgid ""
 "A new page will load with a token number in a box. Copy the token number "
 "then come back to this registration page and paste it into the field below "
 "and click the <strong>Submit</strong> button."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:513
+#: inc/lib/inc/class-fusion-product-registration.php:533
 msgid ""
 "You will see a green check mark for success, or a failure message if "
 "something went wrong. If it failed, please make sure you followed the steps "
@@ -3111,7 +3120,7 @@ msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:141
 #: shortcodes/fusion-column-inner.php:568 shortcodes/fusion-column.php:881
-#: shortcodes/fusion-container.php:645 shortcodes/fusion-countdown.php:596
+#: shortcodes/fusion-container.php:645 shortcodes/fusion-countdown.php:601
 msgid "Background Repeat"
 msgstr ""
 
@@ -3133,7 +3142,7 @@ msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:223
 #: shortcodes/fusion-column-inner.php:542 shortcodes/fusion-column.php:855
-#: shortcodes/fusion-container.php:619 shortcodes/fusion-countdown.php:569
+#: shortcodes/fusion-container.php:619 shortcodes/fusion-countdown.php:574
 msgid "Background Position"
 msgstr ""
 
@@ -5325,7 +5334,7 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-alert.php:299 shortcodes/fusion-column-inner.php:526
-#: shortcodes/fusion-column.php:839 shortcodes/fusion-countdown.php:552
+#: shortcodes/fusion-column.php:839 shortcodes/fusion-countdown.php:557
 #: shortcodes/fusion-modal.php:428 shortcodes/fusion-person.php:683
 #: shortcodes/fusion-pricing-table.php:581 shortcodes/fusion-sharingbox.php:714
 #: shortcodes/fusion-tabs.php:657 shortcodes/fusion-tagline.php:443
@@ -5377,8 +5386,8 @@ msgstr ""
 #: shortcodes/fusion-alert.php:356 shortcodes/fusion-checklist.php:388
 #: shortcodes/fusion-checklist.php:493 shortcodes/fusion-content-boxes.php:1613
 #: shortcodes/fusion-content-boxes.php:2033
-#: shortcodes/fusion-content-boxes.php:2371 shortcodes/fusion-countdown.php:646
-#: shortcodes/fusion-countdown.php:663 shortcodes/fusion-counters-box.php:516
+#: shortcodes/fusion-content-boxes.php:2371 shortcodes/fusion-countdown.php:651
+#: shortcodes/fusion-countdown.php:668 shortcodes/fusion-counters-box.php:516
 #: shortcodes/fusion-counters-box.php:692
 #: shortcodes/fusion-counters-circle.php:314
 #: shortcodes/fusion-counters-circle.php:435
@@ -5514,7 +5523,7 @@ msgstr ""
 
 #: shortcodes/fusion-alert.php:431 shortcodes/fusion-blog.php:2006
 #: shortcodes/fusion-button.php:1233 shortcodes/fusion-checklist.php:441
-#: shortcodes/fusion-content-boxes.php:1982 shortcodes/fusion-countdown.php:734
+#: shortcodes/fusion-content-boxes.php:1982 shortcodes/fusion-countdown.php:739
 #: shortcodes/fusion-counters-box.php:600
 #: shortcodes/fusion-counters-circle.php:331 shortcodes/fusion-events.php:307
 #: shortcodes/fusion-flip-boxes.php:617 shortcodes/fusion-fontawesome.php:393
@@ -5541,7 +5550,7 @@ msgstr ""
 
 #: shortcodes/fusion-alert.php:435 shortcodes/fusion-blog.php:2010
 #: shortcodes/fusion-button.php:1237 shortcodes/fusion-checklist.php:445
-#: shortcodes/fusion-content-boxes.php:1986 shortcodes/fusion-countdown.php:738
+#: shortcodes/fusion-content-boxes.php:1986 shortcodes/fusion-countdown.php:743
 #: shortcodes/fusion-counters-box.php:604
 #: shortcodes/fusion-counters-circle.php:335 shortcodes/fusion-events.php:311
 #: shortcodes/fusion-flip-boxes.php:621 shortcodes/fusion-fontawesome.php:397
@@ -5572,7 +5581,7 @@ msgstr ""
 #: shortcodes/fusion-button.php:1241 shortcodes/fusion-checklist.php:449
 #: shortcodes/fusion-column-inner.php:510 shortcodes/fusion-column.php:823
 #: shortcodes/fusion-container.php:586 shortcodes/fusion-content-boxes.php:1990
-#: shortcodes/fusion-countdown.php:742 shortcodes/fusion-counters-box.php:608
+#: shortcodes/fusion-countdown.php:747 shortcodes/fusion-counters-box.php:608
 #: shortcodes/fusion-counters-circle.php:339 shortcodes/fusion-dropcap.php:216
 #: shortcodes/fusion-events.php:315 shortcodes/fusion-flip-boxes.php:625
 #: shortcodes/fusion-fontawesome.php:401 shortcodes/fusion-google-map.php:651
@@ -5603,7 +5612,7 @@ msgstr ""
 #: shortcodes/fusion-button.php:1244 shortcodes/fusion-checklist.php:450
 #: shortcodes/fusion-column-inner.php:511 shortcodes/fusion-column.php:824
 #: shortcodes/fusion-container.php:587 shortcodes/fusion-content-boxes.php:1991
-#: shortcodes/fusion-countdown.php:743 shortcodes/fusion-counters-box.php:609
+#: shortcodes/fusion-countdown.php:748 shortcodes/fusion-counters-box.php:609
 #: shortcodes/fusion-counters-circle.php:340 shortcodes/fusion-dropcap.php:219
 #: shortcodes/fusion-events.php:316 shortcodes/fusion-flip-boxes.php:626
 #: shortcodes/fusion-fontawesome.php:404 shortcodes/fusion-google-map.php:652
@@ -5634,7 +5643,7 @@ msgstr ""
 #: shortcodes/fusion-button.php:1248 shortcodes/fusion-checklist.php:457
 #: shortcodes/fusion-column-inner.php:518 shortcodes/fusion-column.php:831
 #: shortcodes/fusion-container.php:594 shortcodes/fusion-content-boxes.php:1998
-#: shortcodes/fusion-countdown.php:749 shortcodes/fusion-counters-box.php:616
+#: shortcodes/fusion-countdown.php:754 shortcodes/fusion-counters-box.php:616
 #: shortcodes/fusion-counters-circle.php:347 shortcodes/fusion-dropcap.php:223
 #: shortcodes/fusion-events.php:322 shortcodes/fusion-flip-boxes.php:632
 #: shortcodes/fusion-fontawesome.php:408 shortcodes/fusion-google-map.php:659
@@ -5663,7 +5672,7 @@ msgstr ""
 #: shortcodes/fusion-button.php:1251 shortcodes/fusion-checklist.php:458
 #: shortcodes/fusion-column-inner.php:519 shortcodes/fusion-column.php:832
 #: shortcodes/fusion-container.php:595 shortcodes/fusion-content-boxes.php:1999
-#: shortcodes/fusion-countdown.php:750 shortcodes/fusion-counters-box.php:617
+#: shortcodes/fusion-countdown.php:755 shortcodes/fusion-counters-box.php:617
 #: shortcodes/fusion-counters-circle.php:348 shortcodes/fusion-dropcap.php:226
 #: shortcodes/fusion-events.php:323 shortcodes/fusion-flip-boxes.php:633
 #: shortcodes/fusion-fontawesome.php:411 shortcodes/fusion-google-map.php:660
@@ -6240,14 +6249,14 @@ msgstr ""
 msgid "_self = open in same browser tab, _blank = open in new browser tab."
 msgstr ""
 
-#: shortcodes/fusion-button.php:879 shortcodes/fusion-countdown.php:720
+#: shortcodes/fusion-button.php:879 shortcodes/fusion-countdown.php:725
 #: shortcodes/fusion-image-carousel.php:586
 #: shortcodes/fusion-imageframe.php:666 shortcodes/fusion-person.php:629
 #: shortcodes/fusion-slider.php:511 shortcodes/fusion-tagline.php:563
 msgid "_self"
 msgstr ""
 
-#: shortcodes/fusion-button.php:880 shortcodes/fusion-countdown.php:721
+#: shortcodes/fusion-button.php:880 shortcodes/fusion-countdown.php:726
 #: shortcodes/fusion-image-carousel.php:587
 #: shortcodes/fusion-imageframe.php:667 shortcodes/fusion-person.php:630
 #: shortcodes/fusion-slider.php:512 shortcodes/fusion-tagline.php:564
@@ -6322,9 +6331,9 @@ msgstr ""
 #: shortcodes/fusion-column.php:986 shortcodes/fusion-container.php:914
 #: shortcodes/fusion-container.php:922 shortcodes/fusion-container.php:943
 #: shortcodes/fusion-container.php:963 shortcodes/fusion-container.php:977
-#: shortcodes/fusion-countdown.php:630 shortcodes/fusion-countdown.php:639
-#: shortcodes/fusion-countdown.php:656 shortcodes/fusion-countdown.php:673
-#: shortcodes/fusion-countdown.php:703 shortcodes/fusion-dropcap.php:187
+#: shortcodes/fusion-countdown.php:635 shortcodes/fusion-countdown.php:644
+#: shortcodes/fusion-countdown.php:661 shortcodes/fusion-countdown.php:678
+#: shortcodes/fusion-countdown.php:708 shortcodes/fusion-dropcap.php:187
 #: shortcodes/fusion-fontawesome.php:335 shortcodes/fusion-fontawesome.php:344
 #: shortcodes/fusion-fontawesome.php:353 shortcodes/fusion-fontawesome.php:369
 #: shortcodes/fusion-popover.php:272 shortcodes/fusion-popover.php:288
@@ -6542,7 +6551,7 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:483 shortcodes/fusion-column.php:796
-#: shortcodes/fusion-countdown.php:677
+#: shortcodes/fusion-countdown.php:682
 msgid "Link URL"
 msgstr ""
 
@@ -6575,12 +6584,12 @@ msgid "Controls the background color."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:534 shortcodes/fusion-column.php:847
-#: shortcodes/fusion-container.php:611 shortcodes/fusion-countdown.php:561
+#: shortcodes/fusion-container.php:611 shortcodes/fusion-countdown.php:566
 msgid "Background Image"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:535 shortcodes/fusion-column.php:848
-#: shortcodes/fusion-container.php:612 shortcodes/fusion-countdown.php:562
+#: shortcodes/fusion-container.php:612 shortcodes/fusion-countdown.php:567
 msgid "Upload an image to display in the background."
 msgstr ""
 
@@ -6590,72 +6599,72 @@ msgid "Choose the postion of the background image."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:555 shortcodes/fusion-column.php:868
-#: shortcodes/fusion-container.php:623 shortcodes/fusion-countdown.php:574
+#: shortcodes/fusion-container.php:623 shortcodes/fusion-countdown.php:579
 msgid "Left Top"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:556 shortcodes/fusion-column.php:869
-#: shortcodes/fusion-container.php:624 shortcodes/fusion-countdown.php:575
+#: shortcodes/fusion-container.php:624 shortcodes/fusion-countdown.php:580
 msgid "Left Center"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:557 shortcodes/fusion-column.php:870
-#: shortcodes/fusion-container.php:625 shortcodes/fusion-countdown.php:576
+#: shortcodes/fusion-container.php:625 shortcodes/fusion-countdown.php:581
 msgid "Left Bottom"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:558 shortcodes/fusion-column.php:871
-#: shortcodes/fusion-container.php:626 shortcodes/fusion-countdown.php:577
+#: shortcodes/fusion-container.php:626 shortcodes/fusion-countdown.php:582
 msgid "Right Top"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:559 shortcodes/fusion-column.php:872
-#: shortcodes/fusion-container.php:627 shortcodes/fusion-countdown.php:578
+#: shortcodes/fusion-container.php:627 shortcodes/fusion-countdown.php:583
 msgid "Right Center"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:560 shortcodes/fusion-column.php:873
-#: shortcodes/fusion-container.php:628 shortcodes/fusion-countdown.php:579
+#: shortcodes/fusion-container.php:628 shortcodes/fusion-countdown.php:584
 msgid "Right Bottom"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:561 shortcodes/fusion-column.php:874
-#: shortcodes/fusion-container.php:629 shortcodes/fusion-countdown.php:580
+#: shortcodes/fusion-container.php:629 shortcodes/fusion-countdown.php:585
 msgid "Center Top"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:562 shortcodes/fusion-column.php:875
-#: shortcodes/fusion-container.php:630 shortcodes/fusion-countdown.php:581
+#: shortcodes/fusion-container.php:630 shortcodes/fusion-countdown.php:586
 msgid "Center Center"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:563 shortcodes/fusion-column.php:876
-#: shortcodes/fusion-container.php:631 shortcodes/fusion-countdown.php:582
+#: shortcodes/fusion-container.php:631 shortcodes/fusion-countdown.php:587
 msgid "Center Bottom"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:569 shortcodes/fusion-column.php:882
-#: shortcodes/fusion-container.php:646 shortcodes/fusion-countdown.php:597
+#: shortcodes/fusion-container.php:646 shortcodes/fusion-countdown.php:602
 msgid "Choose how the background image repeats."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:572 shortcodes/fusion-column.php:894
-#: shortcodes/fusion-container.php:649 shortcodes/fusion-countdown.php:601
+#: shortcodes/fusion-container.php:649 shortcodes/fusion-countdown.php:606
 msgid "No Repeat"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:573 shortcodes/fusion-column.php:895
-#: shortcodes/fusion-container.php:650 shortcodes/fusion-countdown.php:602
+#: shortcodes/fusion-container.php:650 shortcodes/fusion-countdown.php:607
 msgid "Repeat Vertically and Horizontally"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:574 shortcodes/fusion-column.php:896
-#: shortcodes/fusion-container.php:651 shortcodes/fusion-countdown.php:603
+#: shortcodes/fusion-container.php:651 shortcodes/fusion-countdown.php:608
 msgid "Repeat Horizontally"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:575 shortcodes/fusion-column.php:897
-#: shortcodes/fusion-container.php:652 shortcodes/fusion-countdown.php:604
+#: shortcodes/fusion-container.php:652 shortcodes/fusion-countdown.php:609
 msgid "Repeat Vertically"
 msgstr ""
 
@@ -6863,8 +6872,8 @@ msgstr ""
 #: shortcodes/fusion-container.php:765 shortcodes/fusion-container.php:773
 #: shortcodes/fusion-container.php:781 shortcodes/fusion-container.php:815
 #: shortcodes/fusion-container.php:849 shortcodes/fusion-container.php:880
-#: shortcodes/fusion-countdown.php:557 shortcodes/fusion-countdown.php:565
-#: shortcodes/fusion-countdown.php:585 shortcodes/fusion-countdown.php:607
+#: shortcodes/fusion-countdown.php:562 shortcodes/fusion-countdown.php:570
+#: shortcodes/fusion-countdown.php:590 shortcodes/fusion-countdown.php:612
 msgid "Background"
 msgstr ""
 
@@ -7184,13 +7193,13 @@ msgstr ""
 msgid "Content Box Link Target"
 msgstr ""
 
-#: shortcodes/fusion-content-boxes.php:1552 shortcodes/fusion-countdown.php:464
+#: shortcodes/fusion-content-boxes.php:1552 shortcodes/fusion-countdown.php:469
 msgid "Controls how the link will open."
 msgstr ""
 
 #: shortcodes/fusion-content-boxes.php:1557
 #: shortcodes/fusion-content-boxes.php:1864
-#: shortcodes/fusion-content-boxes.php:2354 shortcodes/fusion-countdown.php:469
+#: shortcodes/fusion-content-boxes.php:2354 shortcodes/fusion-countdown.php:474
 msgid "Same Window"
 msgstr ""
 
@@ -7390,7 +7399,7 @@ msgstr ""
 msgid "Link+Icon"
 msgstr ""
 
-#: shortcodes/fusion-content-boxes.php:1859 shortcodes/fusion-countdown.php:714
+#: shortcodes/fusion-content-boxes.php:1859 shortcodes/fusion-countdown.php:719
 #: shortcodes/fusion-image-carousel.php:582
 #: shortcodes/fusion-imageframe.php:662 shortcodes/fusion-person.php:625
 #: shortcodes/fusion-slider.php:507 shortcodes/fusion-tagline.php:559
@@ -7586,294 +7595,294 @@ msgstr ""
 msgid "Seconds"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:355
+#: shortcodes/fusion-countdown.php:360
 msgid "Countdown Element"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:360
+#: shortcodes/fusion-countdown.php:365
 msgid "Countdown Timezone"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:361
+#: shortcodes/fusion-countdown.php:366
 msgid "Controls the timezone that is used for the countdown calculation."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:366
+#: shortcodes/fusion-countdown.php:371
 msgid "Site Timezone"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:367
+#: shortcodes/fusion-countdown.php:372
 msgid "User Timezone"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:371
+#: shortcodes/fusion-countdown.php:376
 msgid "Countdown Show Weeks"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:372
+#: shortcodes/fusion-countdown.php:377
 msgid "Turn on to display the number of weeks in the countdown."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:382
+#: shortcodes/fusion-countdown.php:387
 msgid "Countdown Background Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:383
+#: shortcodes/fusion-countdown.php:388
 msgid "Controls the background color for the countdown box."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:389
+#: shortcodes/fusion-countdown.php:394
 msgid "Countdown Background Image"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:390
+#: shortcodes/fusion-countdown.php:395
 msgid "Select an image for the countdown box background."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:397
+#: shortcodes/fusion-countdown.php:402
 msgid "Countdown Background Repeat"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:398
+#: shortcodes/fusion-countdown.php:403
 msgid "Controls how the background image repeats."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:403
+#: shortcodes/fusion-countdown.php:408
 msgid "Repeat All"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:404
+#: shortcodes/fusion-countdown.php:409
 msgid "Repeat Horizontal"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:405
+#: shortcodes/fusion-countdown.php:410
 msgid "Repeat Vertical"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:406
+#: shortcodes/fusion-countdown.php:411
 msgid "Repeat None"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:410
+#: shortcodes/fusion-countdown.php:415
 msgid "Countdown Background Position"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:411
+#: shortcodes/fusion-countdown.php:416
 msgid "Controls how the background image is positioned."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:416
+#: shortcodes/fusion-countdown.php:421
 msgid "top left"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:417
+#: shortcodes/fusion-countdown.php:422
 msgid "top center"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:418
+#: shortcodes/fusion-countdown.php:423
 msgid "top right"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:419
+#: shortcodes/fusion-countdown.php:424
 msgid "center left"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:420
+#: shortcodes/fusion-countdown.php:425
 msgid "center center"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:421
+#: shortcodes/fusion-countdown.php:426
 msgid "center right"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:422
+#: shortcodes/fusion-countdown.php:427
 msgid "bottom left"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:423
+#: shortcodes/fusion-countdown.php:428
 msgid "bottom center"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:424
+#: shortcodes/fusion-countdown.php:429
 msgid "bottom right"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:428
+#: shortcodes/fusion-countdown.php:433
 msgid "Countdown Counter Box Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:429
+#: shortcodes/fusion-countdown.php:434
 msgid "Controls the background color for the counter boxes."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:435
+#: shortcodes/fusion-countdown.php:440
 msgid "Countdown Counter Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:436
+#: shortcodes/fusion-countdown.php:441
 msgid "Controls the color for the countdown timer text."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:442
+#: shortcodes/fusion-countdown.php:447
 msgid "Countdown Heading Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:443
+#: shortcodes/fusion-countdown.php:448
 msgid "Controls the color for the countdown headings."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:449
+#: shortcodes/fusion-countdown.php:454
 msgid "Countdown Subheading Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:450
+#: shortcodes/fusion-countdown.php:455
 msgid "Controls the color for the countdown subheadings."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:456
+#: shortcodes/fusion-countdown.php:461
 msgid "Countdown Link Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:457
+#: shortcodes/fusion-countdown.php:462
 msgid "Controls the color for the countdown link text."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:463
+#: shortcodes/fusion-countdown.php:468
 msgid "Countdown Link Target"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:470
+#: shortcodes/fusion-countdown.php:475
 msgid "New Window"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:513
+#: shortcodes/fusion-countdown.php:518
 #: shortcodes/fusion-counters-circle.php:414
 msgid "Countdown"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:521
+#: shortcodes/fusion-countdown.php:526
 msgid "Countdown Timer End"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:522
+#: shortcodes/fusion-countdown.php:527
 msgid ""
 "Set the end date and time for the countdown time. Click the calendar icon "
 "to use the date picker. Use SQL time format: YYYY-MM-DD HH:MM:SS. E.g: "
 "2016-05-10 12:30:00."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:528
+#: shortcodes/fusion-countdown.php:533
 msgid "Timezone"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:529
+#: shortcodes/fusion-countdown.php:534
 msgid "Choose which timezone should be used for the countdown calculation."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:533
+#: shortcodes/fusion-countdown.php:538
 msgid "Timezone of Site"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:534
+#: shortcodes/fusion-countdown.php:539
 msgid "Timezone of User"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:540
+#: shortcodes/fusion-countdown.php:545
 msgid "Show Weeks"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:541
+#: shortcodes/fusion-countdown.php:546
 msgid "Select \"yes\" to show weeks for longer countdowns."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:553
+#: shortcodes/fusion-countdown.php:558
 msgid "Choose a background color for the countdown wrapping box."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:570
+#: shortcodes/fusion-countdown.php:575
 msgid "Choose the position of the background image."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:618 shortcodes/fusion-flip-boxes.php:764
+#: shortcodes/fusion-countdown.php:623 shortcodes/fusion-flip-boxes.php:764
 #: shortcodes/fusion-imageframe.php:575 shortcodes/fusion-testimonials.php:734
 msgid "Border Radius"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:619
+#: shortcodes/fusion-countdown.php:624
 msgid ""
 "Choose the radius of outer box and also the countdown. In pixels (px), ex: "
 "1px."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:625
+#: shortcodes/fusion-countdown.php:630
 msgid "Countdown Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:626
+#: shortcodes/fusion-countdown.php:631
 msgid "Choose a background color for the countdown."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:634
+#: shortcodes/fusion-countdown.php:639
 msgid "Countdown Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:635
+#: shortcodes/fusion-countdown.php:640
 msgid "Choose a text color for the countdown timer."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:643
+#: shortcodes/fusion-countdown.php:648
 msgid "Heading Text"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:644
+#: shortcodes/fusion-countdown.php:649
 msgid "Choose a heading text for the countdown."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:651
+#: shortcodes/fusion-countdown.php:656
 msgid "Heading Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:652
+#: shortcodes/fusion-countdown.php:657
 msgid "Choose a text color for the countdown heading."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:660
+#: shortcodes/fusion-countdown.php:665
 msgid "Subheading Text"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:661
+#: shortcodes/fusion-countdown.php:666
 msgid "Choose a subheading text for the countdown."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:668
+#: shortcodes/fusion-countdown.php:673
 msgid "Subheading Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:669
+#: shortcodes/fusion-countdown.php:674
 msgid "Choose a text color for the countdown subheading."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:678
+#: shortcodes/fusion-countdown.php:683
 msgid "Add a url for the link. E.g: http://example.com."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:684
+#: shortcodes/fusion-countdown.php:689
 msgid "Link Text"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:685
+#: shortcodes/fusion-countdown.php:690
 msgid "Choose a link text for the countdown."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:698
+#: shortcodes/fusion-countdown.php:703
 msgid "Link Text Color"
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:699
+#: shortcodes/fusion-countdown.php:704
 msgid "Choose a text color for the countdown link."
 msgstr ""
 
-#: shortcodes/fusion-countdown.php:715
+#: shortcodes/fusion-countdown.php:720
 msgid ""
 "_self = open in same window\n"
 "                                      _blank = open in new window"
