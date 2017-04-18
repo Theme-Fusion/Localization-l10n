@@ -29,7 +29,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-04-17 10:44:37+00:00\n"
 "PO-Revision-Date: 2016-12-14 12:09+0100\n"
-"Last-Translator: Michael Clarke\n"
+"Last-Translator: Thomas Kühn\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/avada/"
 "language/de_DE/)\n"
 "Language: de_DE\n"
@@ -73,7 +73,7 @@ msgstr "Forum durchsuchen..."
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
 msgid "In reply to: "
-msgstr "- Antworten"
+msgstr "in Beantwortung von: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
@@ -773,7 +773,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:232
 msgid "Site URL:"
-msgstr ""
+msgstr "Seiten URL:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:233
@@ -789,7 +789,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:238
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:140
 msgid "The version of WordPress installed on your site."
-msgstr ""
+msgstr "Die installierte WordPress Version Deiner Seite."
 
 #: includes/admin-screens/system-status.php:242
 msgid "WP Multisite:"
@@ -844,19 +844,19 @@ msgstr "Sprache:"
 #: includes/admin-screens/system-status.php:292
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:258
 msgid "The current language used by WordPress. Default = English"
-msgstr ""
+msgstr "Die aktuell von WordPress genutzte Sprache. Standard = Englisch"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:298
 #: includes/admin-screens/system-status.php:302
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:297
 msgid "Server Environment"
-msgstr ""
+msgstr "Server Umgebung"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:307
 msgid "Server Info:"
-msgstr "Kopfzeile Info"
+msgstr "Server Info"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:308
@@ -947,7 +947,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:395
 msgid "SUHOSIN Installed:"
-msgstr "Nicht installiert"
+msgstr "SUHOSIN installiert:"
 
 #: includes/admin-screens/system-status.php:396
 msgid ""
@@ -962,7 +962,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:402
 msgid "Suhosin Post Max Vars:"
-msgstr "Beitrags-Meta anzeigen"
+msgstr ""
 
 #: includes/admin-screens/system-status.php:437
 msgid "Suhosin Request Max Vars:"
@@ -989,7 +989,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:488
 msgid "ZipArchive:"
-msgstr "Tagesarchiv"
+msgstr "ZipArchive:"
 
 #: includes/admin-screens/system-status.php:489
 msgid ""
@@ -1040,7 +1040,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:520
 msgid "WP Remote Post:"
-msgstr "Ähnliche Beiträge"
+msgstr "WP Remote Post:"
 
 #: includes/admin-screens/system-status.php:529
 msgid "GD Library:"
@@ -1214,7 +1214,7 @@ msgstr "Warenkorb"
 #: includes/lib/inc/templates/rollover.php:214
 #: templates/wc-top-user-container.php:39
 msgid "View Cart"
-msgstr "Warenkorb"
+msgstr "Warenkorb ansehen"
 
 # @ Avada
 #: includes/avada-functions.php:588
@@ -1231,32 +1231,32 @@ msgstr ""
 
 #: includes/avada-functions.php:892
 msgid "Edit slider"
-msgstr ""
+msgstr "Slider bearbeiten"
 
 #: includes/avada-functions.php:893
 msgid "Edit Slider"
-msgstr ""
+msgstr "Slider bearbeiten"
 
 #: includes/avada-functions.php:896 includes/avada-functions.php:897
 msgid "Edit Slides"
-msgstr ""
+msgstr "Slides Bearbeiten"
 
 #: includes/avada-functions.php:900 includes/avada-functions.php:901
 #: includes/avada-functions.php:914
 msgid "Remove Slider"
-msgstr ""
+msgstr "Slider entfernen"
 
 #: includes/avada-functions.php:911
 msgid "Slider \"%s\" cannot be found"
-msgstr ""
+msgstr "Slider \"%s\" wurde nicht gefunden"
 
 #: includes/avada-functions.php:912 includes/avada-functions.php:913
 msgid "Learn How To Import Sliders"
-msgstr ""
+msgstr "Lerne Slider zu importieren"
 
 #: includes/avada-tgm.php:144
 msgid "Install/Update Required Plugins"
-msgstr ""
+msgstr "Installiere/Aktualisiere benötigte Plugins"
 
 # @ Avada
 #: includes/avada-tgm.php:145 includes/class-tgm-plugin-activation.php:341
@@ -1415,7 +1415,7 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-admin.php:517
 msgid "Welcome to Avada!"
-msgstr "Willkommen zu Avada!"
+msgstr "Willkommen bei Avada!"
 
 #: includes/class-avada-admin.php:521 includes/class-avada-admin.php:533
 msgid ""
@@ -1426,7 +1426,7 @@ msgstr ""
 #: includes/class-avada-admin.php:523 includes/class-avada-admin.php:535
 #: includes/class-avada-admin.php:542
 msgid "Solution 1:"
-msgstr ""
+msgstr "Lösung 1:"
 
 #: includes/class-avada-admin.php:523 includes/class-avada-admin.php:535
 #: includes/class-avada-admin.php:542
@@ -1436,12 +1436,12 @@ msgstr ""
 #: includes/class-avada-admin.php:523 includes/class-avada-admin.php:535
 #: includes/class-avada-admin.php:542
 msgid "Alternate Method"
-msgstr ""
+msgstr "Alternative Methode"
 
 #: includes/class-avada-admin.php:524 includes/class-avada-admin.php:536
 #: includes/class-avada-admin.php:543
 msgid "Solution 2:"
-msgstr ""
+msgstr "Lösung 2:"
 
 #: includes/class-avada-admin.php:524 includes/class-avada-admin.php:536
 msgid ""
@@ -1455,7 +1455,7 @@ msgstr "ROT"
 
 #: includes/class-avada-admin.php:524 includes/class-avada-admin.php:536
 msgid "Reset WordPress Plugin"
-msgstr ""
+msgstr "WordPress Plugin zurücksetzen"
 
 #: includes/class-avada-admin.php:528
 msgid ""
@@ -1512,7 +1512,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:715
 #, fuzzy
 msgid "Version"
-msgstr "Hintergrund des Retina Seite Titelbalkens (Retina Version @2x) "
+msgstr "Version"
 
 #: includes/class-avada-admin.php:804
 msgid "Install %s"
@@ -1526,7 +1526,7 @@ msgstr "Installieren"
 
 #: includes/class-avada-admin.php:819
 msgid "Activate %s"
-msgstr ""
+msgstr "Aktiviere %s"
 
 # @ Avada
 #: includes/class-avada-admin.php:819
@@ -1536,26 +1536,26 @@ msgstr "Aktivieren"
 
 #: includes/class-avada-admin.php:842
 msgid "Update %s"
-msgstr ""
+msgstr "Aktualisiere %s"
 
 # @ bbpress
 #: includes/class-avada-admin.php:842
 #: includes/class-tgm-plugin-activation.php:2869
 #: includes/options/colors.php:146 includes/options/colors.php:174
 msgid "Update"
-msgstr ""
+msgstr "Aktualisieren"
 
 #: includes/class-avada-admin.php:855
 msgid "Deactivate %s"
-msgstr ""
+msgstr "Deaktiviere %s"
 
 #: includes/class-avada-admin.php:855
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktivieren"
 
 #: includes/class-avada-admin.php:877
 msgid "Fusion Builder will be installable, once Fusion Core plugin is updated."
-msgstr ""
+msgstr "Fusion Builder ist installierbar, wenn Fusion Core aktualisiert wurde."
 
 #: includes/class-avada-admin.php:877
 msgid "Fusion Builder"
@@ -1563,11 +1563,11 @@ msgstr ""
 
 #: includes/class-avada-admin.php:896
 msgid "Manage Plugins Below"
-msgstr ""
+msgstr "Verwalte Plugins unten"
 
 #: includes/class-avada-admin.php:901
 msgid "Go Manage Plugins"
-msgstr ""
+msgstr "Verwalte Plugins"
 
 #: includes/class-avada-admin.php:918
 msgid "Avada portfolio category base"
@@ -1599,7 +1599,7 @@ msgstr ""
 
 #: includes/class-avada-avadaredux-migration.php:148
 msgid "Social Networks"
-msgstr ""
+msgstr "Soziale Netzwerke"
 
 #: includes/class-avada-avadaredux-migration.php:152
 msgid "HEX to RGBA colors conversion"
@@ -1646,7 +1646,7 @@ msgstr ""
 
 #: includes/class-avada-avadaredux.php:227 includes/mega-menus.php:33
 msgid "Avada Options"
-msgstr ""
+msgstr "Avada Einstellungen"
 
 #: includes/class-avada-avadaredux.php:248
 msgid ""
@@ -1662,7 +1662,7 @@ msgstr "Startseite"
 #: includes/class-avada-breadcrumbs.php:119
 #, fuzzy
 msgid "Tag:"
-msgstr "Füge Code vor dem &lt;/body&gt; Tag hinzu."
+msgstr "Schlagwort:"
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:120
@@ -1774,19 +1774,19 @@ msgstr ""
 
 #: includes/class-avada-migrate.php:401
 msgid "Done!"
-msgstr ""
+msgstr "Erledigt!"
 
 #: includes/class-avada-migrate.php:403
 msgid "Almost there..."
-msgstr ""
+msgstr "Fast geschafft..."
 
 #: includes/class-avada-migrate.php:405
 msgid "Halfway there... Patience Padawan, Patience."
-msgstr ""
+msgstr "Halb am Ziel... Ruhig Padawan, Ruhig."
 
 #: includes/class-avada-migrate.php:407
 msgid "This may take a few minutes, please wait."
-msgstr ""
+msgstr "Es kann einige Minuten dauern, bitte warte."
 
 #: includes/class-avada-migrate.php:414
 msgid "Converting language: %1$s of %2$s."
@@ -1816,7 +1816,7 @@ msgstr ""
 #: includes/class-avada-migrate.php:451
 #: includes/class-fusion-builder-migrate.php:863
 msgid "Created with %s"
-msgstr ""
+msgstr "Erstellt mit %s"
 
 # @ Avada
 #: includes/class-avada-multiple-featured-images.php:68
@@ -1968,7 +1968,7 @@ msgstr "Warenkorb"
 
 #: includes/class-avada-scripts.php:518
 msgid "Go to Top"
-msgstr ""
+msgstr "Nach oben"
 
 # @ Avada
 #: includes/class-avada-scripts.php:598
@@ -1978,7 +1978,7 @@ msgstr "Details"
 
 #: includes/class-avada-scripts.php:601
 msgid "Not all fields have been filled in correctly."
-msgstr ""
+msgstr "Nicht alle Felder wurden richtig ausgefüllt."
 
 #: includes/class-avada-sermon-manager.php:54
 msgid "Date: %s"
@@ -2024,7 +2024,7 @@ msgstr "Ihr Kommentar muss noch freigeschalten werden."
 
 #: includes/class-avada-upgrade.php:326
 msgid "View Changelog"
-msgstr ""
+msgstr "Changelog ansehen"
 
 # @ Avada
 #: includes/class-avada-upgrade.php:327
@@ -2039,12 +2039,12 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-woocommerce.php:1184
 msgid "You Have %d Item In Your Cart"
-msgstr ""
+msgstr "Du hast %d Artikel im Warenkorb"
 
 # @ Avada
 #: includes/class-avada-woocommerce.php:1187
 msgid "You Have %d Items In Your Cart"
-msgstr "Sie haben %d Artikel in Ihrem Warenkorb"
+msgstr "Du hast %d Artikel im Warenkorb"
 
 # @ Avada
 #: includes/class-avada-woocommerce.php:1314
@@ -2328,7 +2328,7 @@ msgstr ""
 # @ shoestrap
 #: includes/class-fusion-image-resizer.php:64
 msgid "No image URL has been entered."
-msgstr ""
+msgstr "Keine Bild URL eingegeben."
 
 # @ Avada
 #: includes/class-tgm-plugin-activation.php:340
@@ -2338,7 +2338,7 @@ msgstr "Die benötigten Plugins installieren"
 #. translators: %s: plugin name.
 #: includes/class-tgm-plugin-activation.php:345
 msgid "Updating Plugin: %s"
-msgstr ""
+msgstr "Aktualisiere Plugin: %s"
 
 # @ Avada
 #. translators: 1: plugin name(s).
@@ -2374,7 +2374,7 @@ msgstr "Zurück zur Übersicht"
 #: includes/class-tgm-plugin-activation.php:401
 #: includes/class-tgm-plugin-activation.php:3098
 msgid "The following plugin was activated successfully:"
-msgstr ""
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
 
 #. translators: 1: plugin name.
 #: includes/class-tgm-plugin-activation.php:403
@@ -2412,7 +2412,7 @@ msgstr ""
 #: includes/class-tgm-plugin-activation.php:649
 #, fuzzy
 msgid "Update Required"
-msgstr "Benötigt"
+msgstr "Aktualisierung notwendig"
 
 #: includes/class-tgm-plugin-activation.php:1061
 msgid ""
@@ -2435,7 +2435,7 @@ msgstr ""
 
 #: includes/class-tgm-plugin-activation.php:1236
 msgid "Installation/Update Of Required Plugins Needed"
-msgstr ""
+msgstr "Installation/Update benötigter Plugins notwendig"
 
 #. translators: %s: version number
 #: includes/class-tgm-plugin-activation.php:2124
@@ -2476,19 +2476,19 @@ msgstr "Aktiv"
 
 #: includes/class-tgm-plugin-activation.php:2473
 msgid "Required Update not Available"
-msgstr ""
+msgstr "Benötigtes Update nicht verfügbar"
 
 # @ Avada
 #: includes/class-tgm-plugin-activation.php:2476
 #, fuzzy
 msgid "Requires Update"
-msgstr "Benötigt"
+msgstr "Benötigt Update"
 
 # @ Avada
 #: includes/class-tgm-plugin-activation.php:2479
 #, fuzzy
 msgid "Update recommended"
-msgstr "Empfohlen"
+msgstr "Update empfohlen"
 
 # @ Avada
 #. translators: 1: number of plugins.
@@ -2521,11 +2521,11 @@ msgstr[1] ""
 #: includes/class-tgm-plugin-activation.php:2636
 #, fuzzy
 msgid "Installed version:"
-msgstr "Plugins installieren"
+msgstr "Installierte Version:"
 
 #: includes/class-tgm-plugin-activation.php:2644
 msgid "Minimum required version:"
-msgstr ""
+msgstr "Minimal benötigte Version:"
 
 #: includes/class-tgm-plugin-activation.php:2656
 msgid "Available version:"
@@ -2560,7 +2560,7 @@ msgstr "Status"
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-tgm-plugin-activation.php:2749
 msgid "Install %2$s"
-msgstr ""
+msgstr "Installiere %2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-tgm-plugin-activation.php:2754
@@ -2570,7 +2570,7 @@ msgstr ""
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-tgm-plugin-activation.php:2760
 msgid "Activate %2$s"
-msgstr ""
+msgstr "Aktiviere %2$s"
 
 #: includes/class-tgm-plugin-activation.php:2830
 msgid "Upgrade message from the plugin author:"
@@ -2957,7 +2957,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-product-registration.php:442
 msgid "Congratulations! Your product is registered now."
-msgstr ""
+msgstr "Glückwunsch! Ihr Produkt ist jetzt registriert."
 
 #: includes/lib/inc/class-fusion-product-registration.php:444
 msgid "Please enter your Envato token to complete registration."
@@ -3331,7 +3331,7 @@ msgstr "Rechts"
 #: includes/options/social_media.php:405
 #: includes/widget/class-fusion-widget-social-links.php:539
 msgid "Bottom"
-msgstr "Farbe des unteren Bereiches der Schaltfläche"
+msgstr "Unten"
 
 # @ Avada
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:127
@@ -3717,19 +3717,19 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:184
 msgid "Settings Saved!"
-msgstr ""
+msgstr "Einstellungen gespeichert!"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:204
 msgid "Settings have changed, you should save them!"
-msgstr ""
+msgstr "Einstellungen geändert, Du solltest speichern!"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:212
 msgid "error(s) were found!"
-msgstr ""
+msgstr "Fehler wurden gefunden!"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:220
 msgid "warning(s) were found!"
-msgstr ""
+msgstr "Warnung(en) wurden gefunden!"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:312
 msgid ""
@@ -4421,7 +4421,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:24
 msgid "New in this Release"
-msgstr ""
+msgstr "Neu in dieser Version"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/changelog.php:2
 msgid "FusionRedux Framework - Changelog"
@@ -4828,15 +4828,15 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:722
 msgid "is available"
-msgstr ""
+msgstr "ist verfügbar"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:728
 msgid "Author URL"
-msgstr ""
+msgstr "Autor URL"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:729
 msgid "The theme developers URL."
-msgstr ""
+msgstr "Die Theme Entwickler URL"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:733
 msgid "Child Theme"
@@ -4844,7 +4844,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:734
 msgid "Displays whether or not the current theme is a child theme."
-msgstr ""
+msgstr "Zeigt, ob das aktuelle Theme ein Child Theme ist oder nicht."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:737
 msgid ""
@@ -4867,15 +4867,15 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:754
 msgid "The installed version of the parent theme."
-msgstr ""
+msgstr "Die installierte Version des Parent Themes"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:759
 msgid "Parent Theme Author URL"
-msgstr ""
+msgstr "Parent Theme Autor URL"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:761
 msgid "The parent theme developers URL."
-msgstr ""
+msgstr "Die Parent Theme Entwickler URL."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:2
 msgid "FusionRedux Framework - Support"
@@ -5193,7 +5193,7 @@ msgstr "Schaltflächenform"
 # @ Avada
 #: includes/mega-menus.php:56
 msgid "Button Medium"
-msgstr "Sschaltflächengrösse"
+msgstr "Schaltflächengrösse"
 
 # @ Avada
 #: includes/mega-menus.php:57
@@ -5619,7 +5619,7 @@ msgstr "Keine"
 #: includes/metaboxes/options/options_slide.php:201
 #, fuzzy
 msgid "Single Solid"
-msgstr "Einfach solide"
+msgstr "Einfach durchgezogen"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:153
@@ -5640,7 +5640,7 @@ msgstr "Einfach gepunktet"
 #: includes/metaboxes/options/options_slide.php:204
 #, fuzzy
 msgid "Double Solid"
-msgstr "Doppelt solide"
+msgstr "Doppelt durchgezogen"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:156
@@ -5661,7 +5661,7 @@ msgstr "Doppelt gepunktet"
 #: includes/metaboxes/options/options_slide.php:207
 #, fuzzy
 msgid "Underline Solid"
-msgstr "Unterstrichen solide"
+msgstr "Unterstrichen durchgezogen"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:159
@@ -5900,7 +5900,7 @@ msgstr "Wählen Sie Layout weit oder eingerahmt aus."
 #: includes/metaboxes/tabs/tab_background.php:96
 #: includes/metaboxes/tabs/tab_header.php:47
 msgid "Background Color"
-msgstr "Hintergrundfarbe des Titels"
+msgstr "Hintergrundfarbe"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_background.php:47
@@ -5949,14 +5949,14 @@ msgstr "Kachel"
 #: includes/metaboxes/tabs/tab_background.php:133
 #: includes/metaboxes/tabs/tab_header.php:118
 msgid "Tile Horizontally"
-msgstr "Kacheln untereinander"
+msgstr "Kacheln nebeneinander"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_background.php:84
 #: includes/metaboxes/tabs/tab_background.php:134
 #: includes/metaboxes/tabs/tab_header.php:119
 msgid "Tile Vertically"
-msgstr "Kacheln nebeneinander"
+msgstr "Kacheln untereinander"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_background.php:85
@@ -6032,7 +6032,7 @@ msgstr "Kopfbereich zeigen"
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:24
 msgid "Choose to show or hide the header."
-msgstr "Auswählen, um Kopfbereich zu zeigen oder verbergen."
+msgstr "Auswählen, um Kopfbereich zu zeigen/verbergen."
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:29 includes/options/header.php:507
@@ -6443,12 +6443,12 @@ msgstr "Fügen Sie die URL des Videos ein, das in der Lightbox angezeigt wird."
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:111
 msgid "Project URL"
-msgstr "Projekt ansehen"
+msgstr "Projekt URL"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:112
 msgid "The URL the project text links to."
-msgstr "Die URL, wo der Projekt Text verlinkt wird."
+msgstr "Die URL, wohin der Projekt Text verlinkt wird."
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:117
@@ -7568,7 +7568,7 @@ msgstr ""
 
 #: includes/options/colors.php:27
 msgid "Colors"
-msgstr ""
+msgstr "Farben"
 
 #: includes/options/colors.php:34
 msgid ""
@@ -8409,7 +8409,7 @@ msgstr ""
 # @ Avada
 #: includes/options/extra.php:58
 msgid "Basis for Excerpt Length"
-msgstr "Basis für die Zusammenfassungs- Länge."
+msgstr "Basis für die Auszugslänge."
 
 #: includes/options/extra.php:59
 msgid "Controls if the excerpt length is based on words or characters."
@@ -8417,11 +8417,11 @@ msgstr ""
 
 #: includes/options/extra.php:64
 msgid "Words"
-msgstr ""
+msgstr "Wörter"
 
 #: includes/options/extra.php:65
 msgid "Characters"
-msgstr ""
+msgstr "Buchstaben"
 
 #: includes/options/extra.php:69
 msgid "Excerpt [...] Display"
@@ -8445,7 +8445,7 @@ msgstr ""
 
 #: includes/options/extra.php:90
 msgid "Comments on Pages"
-msgstr ""
+msgstr "Kommentare auf Seite"
 
 #: includes/options/extra.php:91
 msgid "Turn on to allow comments on regular pages."
@@ -8878,7 +8878,7 @@ msgstr ""
 # @ Avada
 #: includes/options/footer.php:97
 msgid "Sticky Footer"
-msgstr ""
+msgstr "Fixierte Fusszeile"
 
 #: includes/options/footer.php:98
 msgid ""
@@ -9570,7 +9570,7 @@ msgstr "Kein Schatten"
 
 #: includes/options/layout.php:114
 msgid "Light Shadow"
-msgstr "Leicher Schatten"
+msgstr "Leichter Schatten"
 
 #: includes/options/layout.php:115
 msgid "Medium Shadow"
@@ -9578,7 +9578,7 @@ msgstr "Mittlerer Schatten"
 
 #: includes/options/layout.php:116
 msgid "Hard Shadow"
-msgstr "Starker Schatten"
+msgstr "Harter Schatten"
 
 #: includes/options/layout.php:128
 msgid "Controls the top/bottom padding for page content."
@@ -13173,7 +13173,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-facebook-page.php:158
 msgid "Find us on Facebook"
-msgstr ""
+msgstr "Finde uns auf Facebook"
 
 #: includes/widget/class-fusion-widget-facebook-page.php:170
 msgid ""
@@ -13216,7 +13216,7 @@ msgstr ""
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:209
 msgid "Use Small Header"
-msgstr "Kopfbereich zeigen"
+msgstr "Benutze schmalen Kopfbereich"
 
 #: includes/widget/class-fusion-widget-flickr.php:31
 msgid "The most recent photos from flickr."
@@ -13255,7 +13255,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-menu.php:180
 msgid "Alignment:"
-msgstr ""
+msgstr "Ausrichtung:"
 
 #: includes/widget/class-fusion-widget-menu.php:188
 msgid "Menu Padding:"
@@ -13294,7 +13294,7 @@ msgstr ""
 #: includes/widget/class-fusion-widget-social-links.php:489
 #, fuzzy
 msgid "Link Target:"
-msgstr "Ziel des Linkes"
+msgstr "Link-Ziel:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-social-links.php:494
@@ -13370,7 +13370,7 @@ msgstr "Es wurden noch keine Einträge veröffentlicht ."
 
 #: includes/widget/class-fusion-widget-tabs.php:186
 msgid "%s says:"
-msgstr ""
+msgstr "%s sagt:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:188
@@ -13386,7 +13386,7 @@ msgstr "Es wurden noch keine Kommentare veröffentlicht."
 #: includes/widget/class-fusion-widget-tabs.php:253
 #: includes/widget/class-fusion-widget-tabs.php:261
 msgid "Highest Comments"
-msgstr "Kommentar senden"
+msgstr "Höchste Kommentare"
 
 #: includes/widget/class-fusion-widget-tabs.php:259
 msgid "Popular Posts Order By:"
@@ -13408,27 +13408,27 @@ msgstr ""
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:274
 msgid "Number of comments:"
-msgstr "Keine Kommentare"
+msgstr "Anzahl Kommentare:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:279
 msgid "Show popular posts"
-msgstr "Anzeigen verbundener Beiträge"
+msgstr "Zeige beliebte Beiträge"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:283
 msgid "Show recent posts"
-msgstr "Anzeigen verbundener Beiträge"
+msgstr "Zeige verwandte Beiträge"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:287
 msgid "Show comments"
-msgstr "Kommentare anzeigen"
+msgstr "Zeige Kommentare"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:172
 msgid "Recent Tweets"
-msgstr "Kürzlich"
+msgstr "Neueste Tweets"
 
 #: includes/widget/class-fusion-widget-tweets.php:242
 msgid ""
@@ -13444,7 +13444,7 @@ msgstr ""
 #: includes/widget/class-fusion-widget-tweets.php:250
 #, fuzzy
 msgid "Widget Style:"
-msgstr "Voreinstellung"
+msgstr "Widget Stil:"
 
 #: includes/widget/class-fusion-widget-tweets.php:252
 msgid "Twitter Preconfigured Style (deprecated)"
@@ -13454,23 +13454,23 @@ msgstr ""
 #: includes/widget/class-fusion-widget-tweets.php:253
 #, fuzzy
 msgid "Twitter Style"
-msgstr "Twitter"
+msgstr "Twitter Stil"
 
 #: includes/widget/class-fusion-widget-tweets.php:254
 #, fuzzy
 msgid "Avada Style"
-msgstr "Avada Style"
+msgstr "Avada Stil"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:259
 msgid "Twitter Username:"
-msgstr "Benutzername"
+msgstr "Twitter Name"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:264
 #, fuzzy
 msgid "Twitter Widget ID:"
-msgstr "Fusszeilen Widgets"
+msgstr ""
 
 #: includes/widget/class-fusion-widget-tweets.php:269
 msgid "Consumer Key:"
@@ -13514,35 +13514,35 @@ msgstr ""
 #: includes/widget/class-fusion-widget-tweets.php:317
 #, fuzzy
 msgid "Border Color:"
-msgstr "Rahmenfarbe"
+msgstr "Rahmenfarbe:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:323
 #, fuzzy
 msgid "Show Header"
-msgstr "Kopfzeile"
+msgstr "Zeige Kopfzeile"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:328
 #, fuzzy
 msgid "Show Footer"
-msgstr "Fusszeile"
+msgstr "Zeige Fusszeile"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:333
 #, fuzzy
 msgid "Show Borders"
-msgstr "Kommentare anzeigen"
+msgstr "Zeige Ränder"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:338
 #, fuzzy
 msgid "Transparent Background"
-msgstr "Hintergrund des Titels"
+msgstr "Transparenter Hintergrund"
 
 #: includes/widget/class-fusion-widget-tweets.php:356
 msgid "Tweets by %s"
-msgstr ""
+msgstr "Tweets von %s"
 
 # @ Avada
 #: search.php:36 searchform.php:17
@@ -13552,7 +13552,7 @@ msgstr "Suchen ..."
 # @ Avada
 #: search.php:54
 msgid "Couldn't find what you're looking for!"
-msgstr "Leider konnten wir nicht finden wonach Sie suchen."
+msgstr "Leider konnten wir nicht finden wonach Sie suchen!"
 
 # @ Avada
 #: search.php:58
@@ -13585,7 +13585,7 @@ msgstr "Über den Autor: %s"
 
 #: single.php:60
 msgid "View Larger Image"
-msgstr ""
+msgstr "Zeige grösseres Bild"
 
 #: slidingbar.php:38
 msgid "Toggle SlidingBar Area"
@@ -14106,11 +14106,11 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "100% Width"
-msgstr ""
+msgstr "100% Breite"
 
 #. Template Name of the plugin/theme
 msgid "Blank Page"
-msgstr ""
+msgstr "Leere Seite"
 
 # @ Avada
 #. Template Name of the plugin/theme
@@ -14119,7 +14119,7 @@ msgstr "Kontakt"
 
 #. Template Name of the plugin/theme
 msgid "Side Navigation"
-msgstr ""
+msgstr "Seitennavigation"
 
 # @ Avada
 #: includes/class-tgm-plugin-activation.php:1256
@@ -14127,7 +14127,7 @@ msgstr ""
 #, fuzzy
 msgctxt "plugin A *and* plugin B"
 msgid "and"
-msgstr "Ausklappen"
+msgstr "und"
 
 #. translators: 1: install status, 2: update status
 #: includes/class-tgm-plugin-activation.php:2488
@@ -14173,7 +14173,7 @@ msgstr "%s her"
 
 # @ Avada
 #~ msgid "All posts displayed."
-#~ msgstr "Ähnliche Beiträge"
+#~ msgstr "Alle gezeigten Beiträge"
 
 # @ Avada
 #~ msgid "Loading Portfolio Items..."
