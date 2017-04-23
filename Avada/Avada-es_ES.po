@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-04-10 18:36+0200\n"
-"PO-Revision-Date: 2017-04-10 18:46+0200\n"
-"Last-Translator: Nilo Velez\n"
+"PO-Revision-Date: 2017-04-23 00:58+0200\n"
+"Last-Translator: Nilo Velez <nilovelez@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
 "language/es_ES/)\n"
 "Language: es_ES\n"
@@ -21,12 +21,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0\n"
+"X-Generator: Poedit 2.0.1\n"
 
 # @ Avada
 #: 404.php:20
 msgid "Oops, This Page Could Not Be Found!"
-msgstr "¡Vaya! No hemos podido encontrar esa página"
+msgstr "¡No hemos podido encontrar esa página!"
 
 #: 404.php:30
 msgid "Helpful Links"
@@ -147,7 +147,7 @@ msgstr "Comentar..."
 # @ Avada
 #: comments.php:70 comments.php:71
 msgid "Leave A Comment"
-msgstr "Deje su comentario"
+msgstr "Deja tu comentario"
 
 #: comments.php:72
 msgid "You must be %1$slogged in%2$s to post a comment."
@@ -155,7 +155,7 @@ msgstr "Debe %1$s iniciar sesión %2$s para escribir un comentario."
 
 #: comments.php:73
 msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
-msgstr "Conectado como%1$s. %2$Desconecter &raquo;%3$s"
+msgstr "Conectado como %1$s. %2$sDesconectar &raquo;%3$s"
 
 # @ Avada
 #: comments.php:73
@@ -451,7 +451,7 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:86
 msgid "Where Can I Find More Information About How To Use Avada?"
-msgstr ""
+msgstr "¿Dónde puedo encontrar más información sobre cómo utilizar Avada?"
 
 #: includes/admin-screens/faq.php:90
 #, fuzzy
@@ -3017,39 +3017,39 @@ msgstr "Personalizado"
 
 #: includes/lib/inc/class-fusion-data.php:1001
 msgid "Thin (100)"
-msgstr "Extra fina (100)"
+msgstr "Thin (100)"
 
 #: includes/lib/inc/class-fusion-data.php:1002
 msgid "Extra Light (200)"
-msgstr "Fina (200)"
+msgstr "Extra Light (200)"
 
 #: includes/lib/inc/class-fusion-data.php:1003
 msgid "Light (300)"
-msgstr "Fino (300)"
+msgstr "Light (300)"
 
 #: includes/lib/inc/class-fusion-data.php:1004
 msgid "Normal (400)"
-msgstr "Normal: 400"
+msgstr "Normal (400)"
 
 #: includes/lib/inc/class-fusion-data.php:1005
 msgid "Medium (500)"
-msgstr "Medio 500"
+msgstr "Medium (500)"
 
 #: includes/lib/inc/class-fusion-data.php:1006
 msgid "Semi Bold (600)"
-msgstr "Semi-grueso 600"
+msgstr "Semi Bold (600)"
 
 #: includes/lib/inc/class-fusion-data.php:1007
 msgid "Bold (700)"
-msgstr "Grueso 700"
+msgstr "Bold (700)"
 
 #: includes/lib/inc/class-fusion-data.php:1008
 msgid "Bolder (800)"
-msgstr "Extra gruesa 800"
+msgstr "Bolder (800)"
 
 #: includes/lib/inc/class-fusion-data.php:1009
 msgid "Extra Bold (900)"
-msgstr "Extra gruesa (900)"
+msgstr "Extra Bold (900)"
 
 #: includes/lib/inc/class-fusion-envato-api.php:61
 #: includes/lib/inc/class-fusion-envato-api.php:71
@@ -3146,6 +3146,8 @@ msgstr ""
 #: includes/lib/inc/class-fusion-fusionredux.php:1264
 msgid "Please replace them with locally-imported files from your media-library"
 msgstr ""
+"Por favor reemplázalos con archivos importados localmente desde la "
+"biblioteca de medios"
 
 #: includes/lib/inc/class-fusion-fusionredux.php:1270
 msgid "Dismiss Message"
@@ -4607,11 +4609,11 @@ msgstr "Tests unitarios de FusionRedux"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:20
 msgid "FusionRedux Plugin File"
-msgstr ""
+msgstr "Fichero del plugin FusionRedux"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:21
 msgid "FusionRedux Boostrap Tests"
-msgstr ""
+msgstr "FusionRedux Boostrap Tests"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:22
 msgid "CI Testing FIle"
@@ -4821,7 +4823,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:15
 msgid "What is FusionRedux Framework?"
-msgstr ""
+msgstr "¿Qué es FusionRedux Framework?"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:17
 msgid ""
@@ -4836,7 +4838,7 @@ msgstr "Nuevo en esta versión"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/changelog.php:2
 msgid "FusionRedux Framework - Changelog"
-msgstr ""
+msgstr "FusionRedux Framework - Registro de cambios"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/changelog.php:5
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:30
@@ -11519,38 +11521,32 @@ msgstr ""
 "de menú en la sección de Apariencia > Menús."
 
 #: includes/options/menu.php:1549
-#, fuzzy
 msgid "Main Menu Icon Position"
 msgstr "Posición del Icono del Menú Principal"
 
 #: includes/options/menu.php:1550
-#, fuzzy
 msgid "Controls the main menu icon position."
-msgstr "Controla la posición del icono del menú principal"
+msgstr "Controla la posición del icono del menú principal."
 
 #: includes/options/menu.php:1562
-#, fuzzy
 msgid "Main Menu Icon Size"
-msgstr "Tamaño del Icono del Menú Principal"
+msgstr "Tamaño de Icono del Menú Principal"
 
 #: includes/options/menu.php:1563
-#, fuzzy
 msgid "Controls the size of the menu icon."
-msgstr "Controla el tamaño del icono del menú principal"
+msgstr "Controla el tamaño del icono del menú principal."
 
 #: includes/options/menu.php:1574
-#, fuzzy
 msgid "Main Menu Icon Color"
 msgstr "Color del Icono del Menú Principal"
 
 #: includes/options/menu.php:1575
-#, fuzzy
 msgid "Controls the color of the main menu icon."
-msgstr "Controla el color del icono del menú principal"
+msgstr "Controla el color del icono del menú principal."
 
 #: includes/options/menu.php:1581
 msgid "Main Menu Icon Hover Color"
-msgstr ""
+msgstr "Color de icono del menú principal al pasar por encima"
 
 #: includes/options/menu.php:1582
 msgid "Controls the hover color of the main menu icon."
@@ -11558,7 +11554,7 @@ msgstr ""
 
 #: includes/options/menu.php:1588
 msgid "Mega Menu Thumbnail Size"
-msgstr ""
+msgstr "Tamaño de miniatura del Mega Menú"
 
 #: includes/options/menu.php:1589
 msgid ""
@@ -11839,16 +11835,15 @@ msgid "Number of Portfolio Items Per Page"
 msgstr "Número de Items del Portfolio por página"
 
 #: includes/options/portfolio.php:70
-#, fuzzy
 msgid ""
 "Controls the number of posts that display per page for portfolio elements "
 "and portfolio archive pages. Set to -1 to display all. Set to 0 to use the "
 "number of posts from Settings > Reading."
 msgstr ""
 "Controla el número de entradas que se muestran por página para elementos de "
-"portfolio y sus páginas de archivo. Establecer en -1 para mostrar todos. "
-"Establecer en 0 para utilizar el número de entradas definido en "
-"Configuración > Lectura de Wordpress."
+"portfolio y páginas de archivos de  porfolio. Establécelo en -1 para mostrar "
+"todos. Establécelo en 0 para utilizar el número de entradas definido en "
+"Ajustes > Lectura."
 
 #: includes/options/portfolio.php:81
 msgid "Portfolio Column Spacing"
@@ -12715,7 +12710,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:408
 msgid "Global Events Calendar Sidebar 1"
-msgstr ""
+msgstr "Barra lateral 2 de calendario de eventos globales"
 
 #: includes/options/sidebars.php:409
 msgid ""
@@ -12725,7 +12720,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:416
 msgid "Global Events Calendar Sidebar 2"
-msgstr ""
+msgstr "Barra lateral 2 de calendario de eventos globales"
 
 #: includes/options/sidebars.php:417
 msgid ""
@@ -13614,7 +13609,6 @@ msgstr ""
 "Woocommerce."
 
 #: includes/options/woocommerce.php:103
-#, fuzzy
 msgid "WooCommerce Product Gallery Size"
 msgstr "Tamaño de la Galería de Productos de WooCommerce"
 
@@ -13645,9 +13639,8 @@ msgid "Controls the size of the single product page image gallery."
 msgstr ""
 
 #: includes/options/woocommerce.php:113
-#, fuzzy
 msgid "WooCommerce Product Gallery Thumbnails Columns"
-msgstr " Galería columnas miniaturas de productos WooCommerce"
+msgstr "Columnas de la Galería de producto de WooCommerce"
 
 #: includes/options/woocommerce.php:114
 msgid ""
@@ -13659,9 +13652,8 @@ msgid ""
 msgstr ""
 
 #: includes/options/woocommerce.php:125
-#, fuzzy
 msgid "WooCommerce Product Gallery Zoom"
-msgstr " Zoom galería de productos de WooCommerce"
+msgstr "Zoom de galería de productos de WooCommerce"
 
 #: includes/options/woocommerce.php:126
 msgid ""
@@ -14185,7 +14177,6 @@ msgstr ""
 "Elija un archivo WXR (xml) para cargar, Clic en Cargar archivo e importarlo."
 
 #: includes/plugins/importer/wordpress-importer.php:1237
-#, fuzzy
 msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
 "strong> from a WordPress export file."
@@ -14725,7 +14716,7 @@ msgstr "Altura (mínima es 200):"
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:304
 msgid "Color Scheme:"
-msgstr "Esquema de color"
+msgstr "Esquema de color:"
 
 #: includes/widget/class-fusion-widget-tweets.php:312
 msgid "Link Color (leave empty for Theme default link color):"
@@ -14735,7 +14726,7 @@ msgstr ""
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:317
 msgid "Border Color:"
-msgstr "Color del borde"
+msgstr "Color del borde:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:323
@@ -14778,7 +14769,7 @@ msgstr "¡Oops!"
 
 #: search.php:61
 msgid "Helpful Links:"
-msgstr "Enlaces de ayuda"
+msgstr "Enlaces de ayuda:"
 
 #: search.php:73
 msgid "Try again"
@@ -14796,7 +14787,7 @@ msgstr "Ir a \"%s\""
 
 #: single-wpfc_sermon.php:127 single.php:110
 msgid "About the Author: %s"
-msgstr "About the autor: %s"
+msgstr "Acerca del autor: %s"
 
 #: single.php:60
 msgid "View Larger Image"
@@ -14827,7 +14818,7 @@ msgstr "Editar perfil"
 # @ Avada
 #: templates/blog-layout.php:198 templates/blog-layout.php:224
 msgid "Read More"
-msgstr "Más información"
+msgstr "Seguir Leyendo"
 
 # @ Avada
 #: templates/blog-layout.php:209
@@ -15196,13 +15187,12 @@ msgid "Subtotal"
 msgstr "Ver proyecto"
 
 #: woocommerce/checkout/thankyou.php:33
-#, fuzzy
 msgid ""
 "Unfortunately your order cannot be processed as the originating bank/"
 "merchant has declined your transaction. Please attempt your purchase again."
 msgstr ""
-"Desafortunadamente su orden no puede ser procesada como el banco / "
-"comerciante de origen ha rechazado su transacción. Intente su compra de "
+"Desafortunadamente tu pedido no se puede procesar porque el banco / "
+"comerciante de origen ha rechazado tu transacción. Intenta tu compra de "
 "nuevo."
 
 # @ woocommerce
