@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-core\n"
-"POT-Creation-Date: 2016-11-11 13:05:15+00:00\n"
-"PO-Revision-Date: 2016-03-07 15:14-0000\n"
-"Last-Translator: Michael Clarke\n"
+"POT-Creation-Date: 2017-04-17 10:45:45+00:00\n"
+"PO-Revision-Date: 2017-03-03 14:12+0200\n"
+"Last-Translator: Stathopoulos Aristeides <info@aristeides.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/avada/"
 "language/pl_PL/)\n"
 "Language: pl_PL\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: /Users/muhammadharis/Dropbox/projects/avada/wp-content/"
 "plugins/fusion-core\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
@@ -24,230 +24,281 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: fusion-core.php:150
+#: fusion-core.php:282
 msgid "Portfolio Categories"
 msgstr ""
 
-#: fusion-core.php:164
+#: fusion-core.php:296
 msgid "Skills"
 msgstr ""
 
-#: fusion-core.php:178
+#: fusion-core.php:299
+msgid "Add New Skill"
+msgstr ""
+
+#: fusion-core.php:313
 msgid "Tags"
 msgstr ""
 
 # @ fusion-core
-#: fusion-core.php:230
+#: fusion-core.php:371
 msgid "Elastic Slider"
 msgstr "Slajder Elastic "
 
 # @ fusion-core
-#: fusion-core.php:231 fusion-slider.php:43
+#: fusion-core.php:372 fusion-slider/class-fusion-slider.php:72
 msgid "Parent Slide:"
 msgstr "Slajd nadrzędny"
 
 # @ fusion-core
-#: fusion-core.php:232 fusion-slider.php:44
+#: fusion-core.php:373 fusion-slider/class-fusion-slider.php:73
 msgid "Add or Edit Slides"
 msgstr "Dodaj lub edytuj slajdy"
 
 # @ fusion-core
-#: fusion-core.php:233
+#: fusion-core.php:374
 msgid "View Slides"
 msgstr "Zobacz slajdy"
 
 # @ fusion-core
-#: fusion-core.php:234 fusion-core.php:235 fusion-slider.php:46
-#: fusion-slider.php:47
+#: fusion-core.php:375 fusion-core.php:376
+#: fusion-slider/class-fusion-slider.php:75
+#: fusion-slider/class-fusion-slider.php:76
 msgid "Add New Slide"
 msgstr "Dodaj nowy slajd"
 
 # @ fusion-core
-#: fusion-core.php:236 fusion-slider.php:48
+#: fusion-core.php:377 fusion-slider/class-fusion-slider.php:77
 msgid "Edit Slide"
 msgstr "Edytuj slajd"
 
 # @ fusion-core
-#: fusion-core.php:237 fusion-slider.php:49
+#: fusion-core.php:378 fusion-slider/class-fusion-slider.php:78
 msgid "Update Slide"
 msgstr "Aktualizuj slajd"
 
 # @ fusion-core
-#: fusion-core.php:238 fusion-slider.php:50
+#: fusion-core.php:379 fusion-slider/class-fusion-slider.php:79
 msgid "Search Slide"
 msgstr "Wyszukaj slajdy"
 
 # @ fusion-core
-#: fusion-core.php:239 fusion-slider.php:51
+#: fusion-core.php:380 fusion-slider/class-fusion-slider.php:80
 msgid "Not found"
 msgstr "Nie znaleziono"
 
 # @ fusion-core
-#: fusion-core.php:240 fusion-slider.php:52
+#: fusion-core.php:381 fusion-slider/class-fusion-slider.php:81
 msgid "Not found in Trash"
 msgstr "Nie znaleziono w koszu"
 
 # @ fusion-core
-#: fusion-core.php:255
+#: fusion-core.php:396
 msgid "Add or Edit Groups"
 msgstr "Dodaj lub edytuj grupy"
 
 # @ fusion-core
-#: fusion-core.php:256
+#: fusion-core.php:397
 msgid "All Groups"
 msgstr "Wszystkie grupy"
 
 # @ fusion-core
-#: fusion-core.php:257
+#: fusion-core.php:398
 msgid "Parent Group:"
 msgstr "Grupa nadrzędna:"
 
 # @ fusion-core
-#: fusion-core.php:258
+#: fusion-core.php:399
 msgid "New Group Name"
 msgstr "Nazwa nowej grupy"
 
 # @ fusion-core
-#: fusion-core.php:259
+#: fusion-core.php:400
 msgid "Add Groups"
 msgstr "Dodaj grupy"
 
 # @ fusion-core
-#: fusion-core.php:260
+#: fusion-core.php:401
 msgid "Edit Group"
 msgstr "Edytuj grupę"
 
 # @ fusion-core
-#: fusion-core.php:261
+#: fusion-core.php:402
 msgid "Update Group"
 msgstr "Aktualizuj grupę"
 
 # @ fusion-core
-#: fusion-core.php:262
+#: fusion-core.php:403
 msgid "Separate groups with commas"
 msgstr "Oddziel grupy przecinkami"
 
 # @ fusion-core
-#: fusion-core.php:263
+#: fusion-core.php:404
 msgid "Search Groups"
 msgstr "Wyszukaj grupy"
 
 # @ fusion-core
-#: fusion-core.php:264
+#: fusion-core.php:405
 msgid "Add or remove groups"
 msgstr "Dodaj lub usuń grupy"
 
 # @ fusion-core
-#: fusion-core.php:265
+#: fusion-core.php:406
 msgid "Choose from the most used groups"
 msgstr "Wybierz z najczęściej używanych grup"
 
 # @ fusion-core
-#: fusion-core.php:266 fusion-slider.php:80
+#: fusion-core.php:407 fusion-slider/class-fusion-slider.php:109
 msgid "Not Found"
 msgstr "Nie znaleziono"
 
+#: fusion-core.php:627 fusion-core.php:628
+msgid "Fusion Patcher"
+msgstr ""
+
 # @ fusion-core
-#: fusion-slider.php:42 fusion-slider.php:68
+#: fusion-slider/class-fusion-slider.php:71
+#: fusion-slider/class-fusion-slider.php:97
+#: shortcodes/fusion-fusionslider.php:469
 msgid "Fusion Slider"
 msgstr "Slajder Fusion"
 
-#: fusion-slider.php:45
+#: fusion-slider/class-fusion-slider.php:74
 msgid "View Slide"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider.php:67
+#: fusion-slider/class-fusion-slider.php:96
 msgid "Fusion Sliders"
 msgstr "Slajdery Fusion"
 
 # @ fusion-core
-#: fusion-slider.php:69
+#: fusion-slider/class-fusion-slider.php:98
 msgid "Add or Edit Sliders"
 msgstr "Dodaj lub edytuj slajdery"
 
 # @ fusion-core
-#: fusion-slider.php:70
+#: fusion-slider/class-fusion-slider.php:99
 msgid "All Sliders"
 msgstr "Wszystkie slajdery"
 
 # @ fusion-core
-#: fusion-slider.php:71
+#: fusion-slider/class-fusion-slider.php:100
 msgid "Parent Slider:"
 msgstr "Slajder nadrzędny"
 
 # @ fusion-core
-#: fusion-slider.php:72
+#: fusion-slider/class-fusion-slider.php:101
 msgid "New Slider Name"
 msgstr "Nazwa nowego slajdera"
 
 # @ fusion-core
-#: fusion-slider.php:73
+#: fusion-slider/class-fusion-slider.php:102
 msgid "Add Slider"
 msgstr "Dodaj slajder"
 
 # @ fusion-core
-#: fusion-slider.php:74
+#: fusion-slider/class-fusion-slider.php:103
 msgid "Edit Slider"
 msgstr "Edytuj slajder"
 
 # @ fusion-core
-#: fusion-slider.php:75
+#: fusion-slider/class-fusion-slider.php:104
 msgid "Update Slider"
 msgstr "Aktualizuj  slajder"
 
 # @ fusion-core
-#: fusion-slider.php:76
+#: fusion-slider/class-fusion-slider.php:105
 msgid "Separate sliders with commas"
 msgstr "Oddziel slajdery przecinkami"
 
 # @ fusion-core
-#: fusion-slider.php:77
+#: fusion-slider/class-fusion-slider.php:106
 msgid "Search Sliders"
 msgstr "Wyszukaj slajdery"
 
 # @ fusion-core
-#: fusion-slider.php:78
+#: fusion-slider/class-fusion-slider.php:107
 msgid "Add or remove sliders"
 msgstr "Dodaj lub usuń slajdery"
 
 # @ fusion-core
-#: fusion-slider.php:79
+#: fusion-slider/class-fusion-slider.php:108
 msgid "Choose from the most used sliders"
 msgstr "Wybierz z najczęściej używanych slajderów"
 
 # @ fusion-core
-#: fusion-slider.php:114
+#: fusion-slider/class-fusion-slider.php:236
 msgid "Export / Import"
 msgstr "Eksport / Import"
 
-#: fusion-slider.php:131 fusion-slider.php:261
+#: fusion-slider/class-fusion-slider.php:556
+msgid "No file to import."
+msgstr ""
+
+#: fusion-slider/class-fusion-slider.php:569
+#: fusion-slider/templates/clone-button-after-title.php:14
+msgid "Clone this slide"
+msgstr ""
+
+#: fusion-slider/class-fusion-slider.php:569
+#: fusion-slider/class-fusion-slider.php:589
+msgid "Clone"
+msgstr ""
+
+#: fusion-slider/class-fusion-slider.php:589
+#: fusion-slider/templates/clone-button-edit-form.php:12
+#: fusion-slider/templates/clone-button-edit-form.php:13
+msgid "Clone this slider"
+msgstr ""
+
+#: fusion-slider/class-fusion-slider.php:640
+#: fusion-slider/class-fusion-slider.php:759
+msgid "%s ( Cloned )"
+msgstr ""
+
+#: fusion-slider/class-fusion-slider.php:710
+msgid "No slide to clone."
+msgstr ""
+
+#: fusion-slider/class-fusion-slider.php:729
+msgid "Cloninig failed. Post not found. ID: %s"
+msgstr ""
+
+#: fusion-slider/templates/add-new-meta-fields.php:12
+#: fusion-slider/templates/edit-meta-fields.php:12
 msgid "Slider Size"
 msgstr ""
 
-#: fusion-slider.php:132 fusion-slider.php:263
+#: fusion-slider/templates/add-new-meta-fields.php:13
+#: fusion-slider/templates/edit-meta-fields.php:14
 msgid "Enter a pixel value for width and height, ex: 1000px"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider.php:136 fusion-slider.php:171 fusion-slider.php:266
-#: fusion-slider.php:311
+#: fusion-slider/templates/add-new-meta-fields.php:17
+#: fusion-slider/templates/add-new-meta-fields.php:52
+#: fusion-slider/templates/edit-meta-fields.php:17
+#: fusion-slider/templates/edit-meta-fields.php:62
 msgid "Width"
 msgstr "Szerokość "
 
 # @ fusion-core
-#: fusion-slider.php:140 fusion-slider.php:175 fusion-slider.php:270
-#: fusion-slider.php:315
+#: fusion-slider/templates/add-new-meta-fields.php:21
+#: fusion-slider/templates/add-new-meta-fields.php:56
+#: fusion-slider/templates/edit-meta-fields.php:21
+#: fusion-slider/templates/edit-meta-fields.php:66
 msgid "Height"
 msgstr "Wysokość "
 
 # @ fusion-core
-#: fusion-slider.php:144 fusion-slider.php:275
+#: fusion-slider/templates/add-new-meta-fields.php:25
+#: fusion-slider/templates/edit-meta-fields.php:26
 msgid "Slider Content Max Width"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider.php:146
+#: fusion-slider/templates/add-new-meta-fields.php:27
 #, fuzzy
 msgid ""
 "Controls the width of content, In pixels, ex: 850px. Leave blank for site "
@@ -257,22 +308,26 @@ msgstr ""
 "\".  Zostaw puste aby wybrać opcję motywu."
 
 # @ fusion-core
-#: fusion-slider.php:149 fusion-slider.php:282
+#: fusion-slider/templates/add-new-meta-fields.php:30
+#: fusion-slider/templates/edit-meta-fields.php:33
 msgid "Full Screen Slider"
 msgstr "Slajder pełnoekranowy"
 
 # @ fusion-core
-#: fusion-slider.php:152 fusion-slider.php:286
+#: fusion-slider/templates/add-new-meta-fields.php:33
+#: fusion-slider/templates/edit-meta-fields.php:37
 msgid "Check this option if you want full width and height of the screen."
 msgstr "Zaznacz tę opcję jeśli chcesz pełną szerokość i wysokość ekranu."
 
 # @ fusion-core
-#: fusion-slider.php:155 fusion-slider.php:290
+#: fusion-slider/templates/add-new-meta-fields.php:36
+#: fusion-slider/templates/edit-meta-fields.php:41
 msgid "Parallax Scrolling Effect"
 msgstr "Efekt przewijania parallax"
 
 # @ fusion-core
-#: fusion-slider.php:158 fusion-slider.php:294
+#: fusion-slider/templates/add-new-meta-fields.php:39
+#: fusion-slider/templates/edit-meta-fields.php:45
 #, fuzzy
 msgid ""
 "Check this box to have a parallax scrolling effect, this ONLY works when "
@@ -289,167 +344,173 @@ msgstr ""
 "px. Spróbuj się dopasować."
 
 # @ fusion-core
-#: fusion-slider.php:161 fusion-slider.php:298
+#: fusion-slider/templates/add-new-meta-fields.php:42
+#: fusion-slider/templates/edit-meta-fields.php:49
 msgid "Display Navigation Arrows"
 msgstr "Pokaż strzałki nawigacji"
 
 # @ fusion-core
-#: fusion-slider.php:164 fusion-slider.php:302
+#: fusion-slider/templates/add-new-meta-fields.php:45
+#: fusion-slider/templates/edit-meta-fields.php:53
 msgid "Check this box to display the navigation arrows."
 msgstr "Zaznacz to pole aby wyświetlić strzałki nawigacji."
 
-#: fusion-slider.php:167 fusion-slider.php:306
+#: fusion-slider/templates/add-new-meta-fields.php:48
+#: fusion-slider/templates/edit-meta-fields.php:57
 msgid "Navigation Box Size"
 msgstr ""
 
-#: fusion-slider.php:168 fusion-slider.php:308
+#: fusion-slider/templates/add-new-meta-fields.php:49
 msgid "Enter a pixel value for width and height, ex: 40px"
 msgstr ""
 
-#: fusion-slider.php:179 fusion-slider.php:320
+#: fusion-slider/templates/add-new-meta-fields.php:60
+#: fusion-slider/templates/edit-meta-fields.php:71
 msgid "Navigation Arrow Size"
 msgstr ""
 
-#: fusion-slider.php:181 fusion-slider.php:323
+#: fusion-slider/templates/add-new-meta-fields.php:62
+#: fusion-slider/templates/edit-meta-fields.php:74
 msgid "Enter a pixel value for the arrow size, ex: 14px"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider.php:184 fusion-slider.php:327
+#: fusion-slider/templates/add-new-meta-fields.php:65
+#: fusion-slider/templates/edit-meta-fields.php:78
 msgid "Display Pagination Circles"
 msgstr "Pokaż kółka paginacji"
 
 # @ fusion-core
-#: fusion-slider.php:187 fusion-slider.php:331
+#: fusion-slider/templates/add-new-meta-fields.php:68
+#: fusion-slider/templates/edit-meta-fields.php:82
 msgid "Check this box to display the pagination circles."
 msgstr "Zaznacz to pole aby wyświetlić kółka paginacji."
 
 # @ fusion-core
-#: fusion-slider.php:190 fusion-slider.php:335
+#: fusion-slider/templates/add-new-meta-fields.php:71
+#: fusion-slider/templates/edit-meta-fields.php:86
 msgid "Autoplay"
 msgstr "Automatyczne odtwarzanie"
 
 # @ fusion-core
-#: fusion-slider.php:193 fusion-slider.php:339
+#: fusion-slider/templates/add-new-meta-fields.php:74
+#: fusion-slider/templates/edit-meta-fields.php:90
 msgid "Check this box to autoplay the slides."
 msgstr "Zaznacz to pole aby włączyć automatyczne odtwarzanie slajdów."
 
 # @ fusion-core
-#: fusion-slider.php:196 fusion-slider.php:343
+#: fusion-slider/templates/add-new-meta-fields.php:77
+#: fusion-slider/templates/edit-meta-fields.php:94
 msgid "Slide Loop"
 msgstr "Pętla slajdu"
 
 # @ fusion-core
-#: fusion-slider.php:199 fusion-slider.php:347
+#: fusion-slider/templates/add-new-meta-fields.php:80
+#: fusion-slider/templates/edit-meta-fields.php:98
 msgid "Check this box to have the slider loop infinitely."
 msgstr "Zaznacz to pole aby zapętlić slajder w nieskończoność."
 
 # @ fusion-core
-#: fusion-slider.php:202 fusion-slider.php:351
+#: fusion-slider/templates/add-new-meta-fields.php:83
+#: fusion-slider/templates/edit-meta-fields.php:102
+#: shortcodes/fusion-portfolio.php:1330 shortcodes/fusion-portfolio.php:1345
+#: shortcodes/fusion-portfolio.php:1363 shortcodes/fusion-portfolio.php:1384
 msgid "Animation"
 msgstr "Animacja"
 
-#: fusion-slider.php:207 fusion-slider.php:357
+#: fusion-slider/templates/add-new-meta-fields.php:88
+#: fusion-slider/templates/edit-meta-fields.php:109
 msgid ""
 "The type of animation when slides rotate.<br/>Please Note: Fade effect does "
 "not work in IE."
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider.php:210 fusion-slider.php:361
+#: fusion-slider/templates/add-new-meta-fields.php:91
+#: fusion-slider/templates/edit-meta-fields.php:113
 msgid "Slideshow Speed"
 msgstr "Prędkość pokazu slajdów"
 
 # @ fusion-core
-#: fusion-slider.php:212 fusion-slider.php:364
+#: fusion-slider/templates/add-new-meta-fields.php:93
+#: fusion-slider/templates/edit-meta-fields.php:116
 msgid "Controls the speed of the slideshow. 1000 = 1 second."
 msgstr "Ustaw prędkość przejścia pokazu slajdów. 1000 = 1 sekunda."
 
 # @ fusion-core
-#: fusion-slider.php:215 fusion-slider.php:368
+#: fusion-slider/templates/add-new-meta-fields.php:96
+#: fusion-slider/templates/edit-meta-fields.php:120
 msgid "Animation Speed"
 msgstr "Prędkość animacji"
 
 # @ fusion-core
-#: fusion-slider.php:217 fusion-slider.php:371
+#: fusion-slider/templates/add-new-meta-fields.php:98
+#: fusion-slider/templates/edit-meta-fields.php:123
 msgid ""
 "Controls the speed of the slide transition from slide to slide. 1000 = 1 "
 "second."
 msgstr "Ustaw prędkość przejścia między slajdami. 1000 = 1 sekunda."
 
 # @ fusion-core
-#: fusion-slider.php:220 fusion-slider.php:375
+#: fusion-slider/templates/add-new-meta-fields.php:101
+#: fusion-slider/templates/edit-meta-fields.php:127
 msgid "Responsive Typography Sensitivity"
 msgstr ""
 
-#: fusion-slider.php:222 fusion-slider.php:378
+#: fusion-slider/templates/add-new-meta-fields.php:103
+#: fusion-slider/templates/edit-meta-fields.php:130
 msgid ""
 "Values below 1 decrease resizing, values above 1 increase sizing. ex: .6"
 msgstr ""
 
-#: fusion-slider.php:225 fusion-slider.php:382
+#: fusion-slider/templates/add-new-meta-fields.php:106
+#: fusion-slider/templates/edit-meta-fields.php:134
 msgid "Minimum Font Size Factor"
 msgstr ""
 
-#: fusion-slider.php:227 fusion-slider.php:385
+#: fusion-slider/templates/add-new-meta-fields.php:108
+#: fusion-slider/templates/edit-meta-fields.php:137
 msgid ""
 "Minimum font factor is used to determine minimum distance between headings "
 "and body type by a multiplying value. ex: 1.5"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider.php:278
+#: fusion-slider/templates/edit-meta-fields.php:29
 msgid ""
 "Controls the width of content,  In pixels, ex: 850px. Leave blank for site "
 "width."
 msgstr ""
 
+#: fusion-slider/templates/edit-meta-fields.php:59
+msgid ""
+"Enter a pixel for height. Width accepts pixel and percentage values., ex: "
+"40px"
+msgstr ""
+
 # @ fusion-core
-#: fusion-slider.php:414
+#: fusion-slider/templates/export-import-settings.php:12
 msgid "Export and Import Fusion Sliders"
 msgstr "Eksport i import slajderów fusion"
 
 # @ fusion-core
-#: fusion-slider.php:418
+#: fusion-slider/templates/export-import-settings.php:16
 msgid "Export"
 msgstr "Eksport"
 
 # @ fusion-core
-#: fusion-slider.php:419
+#: fusion-slider/templates/export-import-settings.php:17
 msgid "Export All Sliders"
 msgstr "Eksportuj wszystkie slajdery"
 
 # @ fusion-core
-#: fusion-slider.php:423
+#: fusion-slider/templates/export-import-settings.php:21
 msgid "Choose a file from your computer:"
 msgstr "Wybierz plik z dysku:"
 
-#: fusion-slider.php:639
-msgid "No file to import."
-msgstr ""
-
-#: fusion-slider.php:645 fusion-slider.php:685
-msgid "Clone this slide"
-msgstr ""
-
-#: fusion-slider.php:645 fusion-slider.php:658
-msgid "Clone"
-msgstr ""
-
-#: fusion-slider.php:658 fusion-slider.php:674
-msgid "Clone this slider"
-msgstr ""
-
-#: fusion-slider.php:699 fusion-slider.php:787
-msgid "( Cloned )"
-msgstr ""
-
-#: fusion-slider.php:756
-msgid "No slide to clone."
-msgstr ""
-
-#: fusion-slider.php:775
-msgid "Cloninig failed. Post not found. ID: "
+#: fusion-slider/templates/slider.php:31
+#: shortcodes/fusion-fusionslider.php:145
+msgid "Loading..."
 msgstr ""
 
 # @ wordpress-importer
@@ -727,6 +788,639 @@ msgid ""
 msgstr ""
 
 # @ fusion-core
+#: shortcodes/fusion-faq.php:157 shortcodes/fusion-portfolio.php:532
+msgid "All"
+msgstr "Wszystkie"
+
+#: shortcodes/fusion-faq.php:241
+msgid "View Larger Image"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:300
+msgid "FAQ Element"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:306
+msgid "FAQ Featured Images"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:307
+msgid "Turn on to display featured images."
+msgstr ""
+
+#: shortcodes/fusion-faq.php:314
+msgid "FAQ Filters"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:315
+msgid "Controls how the filters display for FAQs."
+msgstr ""
+
+#: shortcodes/fusion-faq.php:320 shortcodes/fusion-faq.php:395
+msgid "Show"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:321 shortcodes/fusion-faq.php:396
+msgid "Show without \"All\""
+msgstr ""
+
+#: shortcodes/fusion-faq.php:322 shortcodes/fusion-faq.php:397
+msgid "Hide"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:382
+msgid "FAQ"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:390
+msgid "Display Filters"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:391
+msgid "Display the FAQ filters."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:394 shortcodes/fusion-faq.php:407
+#: shortcodes/fusion-portfolio.php:936 shortcodes/fusion-portfolio.php:948
+#: shortcodes/fusion-portfolio.php:1034 shortcodes/fusion-portfolio.php:1055
+#: shortcodes/fusion-portfolio.php:1129 shortcodes/fusion-portfolio.php:1177
+#: shortcodes/fusion-portfolio.php:1219 shortcodes/fusion-portfolio.php:1378
+msgid "Default"
+msgstr "Domyślnie"
+
+#: shortcodes/fusion-faq.php:403
+msgid "Display Featured Images"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:404
+msgid "Display the FAQ featured images."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:408 shortcodes/fusion-portfolio.php:1093
+#: shortcodes/fusion-portfolio.php:1220 shortcodes/fusion-portfolio.php:1275
+#: shortcodes/fusion-portfolio.php:1293 shortcodes/fusion-portfolio.php:1311
+msgid "Yes"
+msgstr "Tak"
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:409 shortcodes/fusion-portfolio.php:1095
+#: shortcodes/fusion-portfolio.php:1221 shortcodes/fusion-portfolio.php:1276
+#: shortcodes/fusion-portfolio.php:1294 shortcodes/fusion-portfolio.php:1312
+msgid "No"
+msgstr "Nie"
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:415 shortcodes/fusion-portfolio.php:1108
+msgid "Categories"
+msgstr "Kategorie"
+
+#: shortcodes/fusion-faq.php:416
+msgid "Select categories to include or leave blank for all."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:423 shortcodes/fusion-portfolio.php:1116
+msgid "Exclude Categories"
+msgstr "Pomiń kategorie"
+
+#: shortcodes/fusion-faq.php:424 shortcodes/fusion-portfolio.php:1117
+msgid "Select categories to exclude."
+msgstr ""
+
+#: shortcodes/fusion-faq.php:431 shortcodes/fusion-fusionslider.php:485
+#: shortcodes/fusion-portfolio.php:1395
+msgid "Element Visibility"
+msgstr ""
+
+#: shortcodes/fusion-faq.php:435 shortcodes/fusion-fusionslider.php:489
+#: shortcodes/fusion-portfolio.php:1399
+msgid ""
+"Choose to show or hide the element on small, medium or large screens. You "
+"can choose more than one at a time."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:439 shortcodes/fusion-fusionslider.php:493
+#: shortcodes/fusion-portfolio.php:1403
+msgid "CSS Class"
+msgstr "Klasa CSS "
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:440 shortcodes/fusion-fusionslider.php:496
+#: shortcodes/fusion-portfolio.php:1404
+msgid "Add a class to the wrapping HTML element."
+msgstr "Dodaj klasę dla otaczającego elementu HTML."
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:443 shortcodes/fusion-faq.php:451
+#: shortcodes/fusion-portfolio.php:1407 shortcodes/fusion-portfolio.php:1415
+msgid "General"
+msgstr "Ogólny"
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:447 shortcodes/fusion-fusionslider.php:500
+#: shortcodes/fusion-portfolio.php:1411
+msgid "CSS ID"
+msgstr "ID CSS"
+
+# @ fusion-core
+#: shortcodes/fusion-faq.php:448 shortcodes/fusion-fusionslider.php:503
+#: shortcodes/fusion-portfolio.php:1412
+msgid "Add an ID to the wrapping HTML element."
+msgstr "Dodaj ID dla otaczającego elementu HTML."
+
+# @ fusion-core
+#: shortcodes/fusion-fusionslider.php:477
+msgid "Slider Name"
+msgstr "Nazwa slajdera"
+
+#: shortcodes/fusion-fusionslider.php:478
+msgid ""
+"Select the slider you want to use.  The options will appear as the slider "
+"name next to the number of slides in brackets."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:462
+#: templates/portfolio-archive-layout.php:242
+msgid "Learn More"
+msgstr "Więcej informacji"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:467
+msgid "View Project"
+msgstr "Zobacz produkt"
+
+#: shortcodes/fusion-portfolio.php:592
+#: templates/portfolio-archive-layout.php:302
+msgid "Load More Posts"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:887
+msgid "All items displayed."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:888
+msgid "Loading the next set of posts..."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:912
+msgid "Portfolio"
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:920
+msgid "Layout"
+msgstr "Układ "
+
+#: shortcodes/fusion-portfolio.php:921
+msgid "Select the layout for the element."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:924
+msgid "Carousel"
+msgstr "Karuzela"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:925
+msgid "Grid"
+msgstr "Siatka"
+
+#: shortcodes/fusion-portfolio.php:926
+msgid "Grid with text"
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:932
+msgid "Picture Size"
+msgstr "Rozmiar obrazka"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:933
+msgid ""
+"fixed = width and height will be fixed <br />auto = width and height will "
+"adjust to the image."
+msgstr ""
+"stałe = szerokość oraz wysokość będą stałe <br /> auto= szerokość oraz "
+"wysokość dostosują się do obrazka."
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:937
+msgid "Fixed"
+msgstr "Stałe"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:938
+msgid "Auto"
+msgstr "Auto"
+
+#: shortcodes/fusion-portfolio.php:944
+msgid "Grid with Text Layout"
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:945
+msgid "Select if the grid with excerpts layouts are boxed or unboxed."
+msgstr "Wybierz czy siatki z zajawkami mają być w ramce czy bez ramki."
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:949
+msgid "Boxed"
+msgstr "Z ramkami"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:950
+msgid "Unboxed"
+msgstr "Bez ramek"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:963
+msgid "Columns"
+msgstr "Kolumny"
+
+#: shortcodes/fusion-portfolio.php:964
+msgid ""
+"Select the number of columns to display. With Carousel layout this specifies "
+"the maximum amount of columns."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:973
+msgid "Content Position"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:974
+msgid ""
+"Select if title, terms and excerpts should be displayed below or next to the "
+"featured images. Only works on \"Grid with text\" layout."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:978
+msgid "Below image"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:979
+msgid "Next to Image"
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:996
+msgid "Column Spacing"
+msgstr "Rozstaw kolumn"
+
+#: shortcodes/fusion-portfolio.php:997
+msgid ""
+"Insert the amount of spacing between portfolio items without \"px\". ex: 7."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1019
+msgid "Posts Per Page"
+msgstr "Wpisów na stronę"
+
+#: shortcodes/fusion-portfolio.php:1020
+msgid ""
+"Select number of posts per page.  Set to -1 to display all. Set to 0 to use "
+"number of posts from Settings > Reading."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1030
+msgid "Portfolio Title Display"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1031
+msgid "Controls what displays with the portfolio post title."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1035
+msgid "Title and Categories"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1036
+msgid "Only Title"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1037
+msgid "Only Categories"
+msgstr ""
+
+# @ fusion-core
+# @ Avada
+#: shortcodes/fusion-portfolio.php:1038 shortcodes/fusion-portfolio.php:1133
+msgid "None"
+msgstr "Brak"
+
+#: shortcodes/fusion-portfolio.php:1051
+msgid "Portfolio Text Alignment"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1052
+msgid ""
+"Controls the alignment of the portfolio title, categories and excerpt text "
+"when using the Portfolio Text layouts."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1056 shortcodes/fusion-portfolio.php:1341
+msgid "Left"
+msgstr "Z lewej"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1057
+msgid "Center"
+msgstr "Środek"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1058 shortcodes/fusion-portfolio.php:1339
+msgid "Right"
+msgstr "Z prawej"
+
+#: shortcodes/fusion-portfolio.php:1071
+msgid "Portfolio Text Layout Padding "
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1072
+msgid ""
+"Controls the padding for the portfolio text layout when using boxed mode. "
+"Enter values including any valid CSS unit, ex: 25px, 25px, 25px, 25px."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1089
+msgid "Show Filters"
+msgstr "Pokaż filtry "
+
+#: shortcodes/fusion-portfolio.php:1090
+msgid "Choose to show or hide the category filters."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1094
+msgid "Yes without \"All\""
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1109
+msgid "Select categories or leave blank for all."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1124
+#, fuzzy
+msgid "Pagination Type"
+msgstr "Rodzaj paginacji "
+
+#: shortcodes/fusion-portfolio.php:1125
+msgid "Choose the type of pagination."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1130
+msgid "Pagination"
+msgstr "Paginacja"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1131
+msgid "Infinite Scrolling"
+msgstr "Przewijaj w nieskończoność"
+
+#: shortcodes/fusion-portfolio.php:1132
+msgid "Load More Button"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1145
+msgid "Hide URL Parameter"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1146
+msgid ""
+"Turn on to remove portfolio category parameters in single post URLs. These "
+"are mainly used for single item pagination within selected categories."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1150
+msgid "On"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1151
+msgid "Off"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1163
+msgid "Post Offset"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1164
+msgid "The number of posts to skip. ex: 1."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1173
+msgid "Content Display"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1174
+msgid "Choose to display an excerpt or full content."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1178
+msgid "Excerpt"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1179
+msgid "Full Content"
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1192
+msgid "Excerpt Length"
+msgstr "Długości zajawki"
+
+#: shortcodes/fusion-portfolio.php:1193
+msgid "Insert the number of words/characters you want to show in the excerpt."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1215
+msgid "Strip HTML"
+msgstr "Usuń HTML"
+
+#: shortcodes/fusion-portfolio.php:1216
+msgid "Strip HTML from the post excerpt."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1239
+msgid "Carousel Layout"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1240
+msgid "Choose to show titles on rollover image, or below image."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1243
+msgid "Title below image"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1244
+msgid "Title on rollover"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1257
+msgid "Carousel Scroll Items"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1258
+msgid ""
+"Insert the amount of items to scroll. Leave empty to scroll number of "
+"visible items."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1271
+msgid "Carousel Autoplay"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1272
+msgid "Choose to autoplay the carousel."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1289
+msgid "Carousel Show Navigation"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1290
+msgid "Choose to show navigation buttons on the carousel."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1307
+msgid "Carousel Mouse Scroll"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1308
+msgid "Choose to enable mouse drag control on the carousel."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1325
+msgid "Animation Type"
+msgstr "Typ animacji"
+
+#: shortcodes/fusion-portfolio.php:1326
+msgid "Select the type of animation to use on the element."
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1334
+msgid "Direction of Animation"
+msgstr "Kierunek animacji"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1335
+msgid "Select the incoming direction for the animation."
+msgstr "Wybierz kierunek rozpoczęcia animacji."
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1338
+msgid "Top"
+msgstr "Góra"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1340
+msgid "Bottom"
+msgstr "Dół"
+
+#: shortcodes/fusion-portfolio.php:1342
+msgid "Static"
+msgstr ""
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1356
+msgid "Speed of Animation"
+msgstr "Prędkość animacji"
+
+# @ fusion-core
+#: shortcodes/fusion-portfolio.php:1357
+msgid "Type in speed of animation in seconds (0.1 - 1)."
+msgstr "Wpisz prędkość animacji w sekundach (0,1 - 1)."
+
+#: shortcodes/fusion-portfolio.php:1374
+msgid "Offset of Animation"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1375
+msgid "Controls when the animation should start."
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1379
+msgid "Top of element hits bottom of viewport"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1380
+msgid "Top of element hits middle of viewport"
+msgstr ""
+
+#: shortcodes/fusion-portfolio.php:1381
+msgid "Bottom of element enters viewport"
+msgstr ""
+
+#: shortcodes/previews/fusion-faq-preview.php:13
+#: shortcodes/previews/fusion-portfolio-preview.php:18
+msgid "categories = %s"
+msgstr ""
+
+#: shortcodes/previews/fusion-portfolio-preview.php:12
+msgid "layout = %s"
+msgstr ""
+
+#: templates/portfolio-archive-layout.php:251
+msgid " View Project"
+msgstr ""
+
+#: templates/single-avada_portfolio.php:30
+#: templates/single-avada_portfolio.php:38
+#: templates/single-avada_portfolio.php:53
+msgid "Previous"
+msgstr ""
+
+#: templates/single-avada_portfolio.php:60
+#: templates/single-avada_portfolio.php:68
+#: templates/single-avada_portfolio.php:83
+msgid "Next"
+msgstr ""
+
+#: templates/single-avada_portfolio.php:158
+msgid "Project Description"
+msgstr ""
+
+#: templates/single-avada_portfolio.php:169
+msgid "Project Details"
+msgstr ""
+
+#: templates/single-avada_portfolio.php:173
+msgid "Skills Needed:"
+msgstr ""
+
+# @ Avada
+#: templates/single-avada_portfolio.php:182
+msgid "Categories:"
+msgstr "Kategorie:"
+
+# @ Avada
+#: templates/single-avada_portfolio.php:191
+msgid "Tags:"
+msgstr "Tagi:"
+
+#: templates/single-avada_portfolio.php:206
+msgid "Project URL:"
+msgstr ""
+
+#: templates/single-avada_portfolio.php:220
+msgid "Copyright:"
+msgstr ""
+
+#: templates/single-avada_portfolio.php:228
+msgid "By:"
+msgstr ""
+
+# @ fusion-core
 #. Plugin Name of the plugin/theme
 #, fuzzy
 msgid "Fusion Core"
@@ -745,95 +1439,95 @@ msgstr ""
 msgid "ThemeFusion"
 msgstr "Opcje szablonu"
 
-#: fusion-core.php:129
+#: fusion-core.php:261
 msgctxt "Post Type General Name"
 msgid "Portfolio"
 msgstr ""
 
-#: fusion-core.php:192
+#: fusion-core.php:327
 msgctxt "Post Type General Name"
 msgid "FAQs"
 msgstr ""
 
 # @ fusion-core
-#: fusion-core.php:228
+#: fusion-core.php:369
 msgctxt "Post Type General Name"
 msgid "Elastic Sliders"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider.php:40
+#: fusion-slider/class-fusion-slider.php:69
 msgctxt "Post Type General Name"
 msgid "Fusion Slides"
 msgstr ""
 
-#: fusion-core.php:130
+#: fusion-core.php:262
 msgctxt "Post Type Singular Name"
 msgid "Portfolio"
 msgstr ""
 
-#: fusion-core.php:193
+#: fusion-core.php:328
 msgctxt "Post Type Singular Name"
 msgid "FAQ"
 msgstr ""
 
 # @ fusion-core
-#: fusion-core.php:229
+#: fusion-core.php:370
 #, fuzzy
 msgctxt "Post Type Singular Name"
 msgid "Elastic Slider"
 msgstr "Slajder Elastic "
 
 # @ fusion-core
-#: fusion-slider.php:41
+#: fusion-slider/class-fusion-slider.php:70
 msgctxt "Post Type Singular Name"
 msgid "Fusion Slide"
 msgstr ""
 
-#: fusion-core.php:131
+#: fusion-core.php:263
 msgctxt "fusion-core"
 msgid "Add New Portfolio Post"
 msgstr ""
 
-#: fusion-core.php:132
+#: fusion-core.php:264
 msgctxt "fusion-core"
 msgid "Edit Portfolio Post"
 msgstr ""
 
-#: fusion-core.php:194
+#: fusion-core.php:329
 msgctxt "fusion-core"
 msgid "Add New FAQ Post"
 msgstr ""
 
-#: fusion-core.php:195
+#: fusion-core.php:330
 msgctxt "fusion-core"
 msgid "Edit FAQ Post"
 msgstr ""
 
-#: fusion-core.php:153
+#: fusion-core.php:285
 msgctxt "slug"
 msgid "portfolio_category"
 msgstr ""
 
-#: fusion-core.php:167
+#: fusion-core.php:302
 msgctxt "slug"
 msgid "portfolio_skills"
 msgstr ""
 
-#: fusion-core.php:181
+#: fusion-core.php:316
 msgctxt "slug"
 msgid "portfolio_tags"
 msgstr ""
 
 # @ fusion-core
-#: fusion-core.php:253
+#: fusion-core.php:394
 #, fuzzy
 msgctxt "Taxonomy General Name"
 msgid "Groups"
 msgstr "Szukaj"
 
 # @ fusion-core
-#: fusion-core.php:254
+#: fusion-core.php:395
 #, fuzzy
 msgctxt "Taxonomy Singular Name"
 msgid "Group"
@@ -977,10 +1671,6 @@ msgstr ""
 #~ "koloru poniżej."
 
 # @ fusion-core
-#~ msgid "General"
-#~ msgstr "Ogólny"
-
-# @ fusion-core
 #~ msgid "Error"
 #~ msgstr "Błąd"
 
@@ -1048,14 +1738,6 @@ msgstr ""
 #~ msgstr "Pokaż cień poniżej okienkiem alertu."
 
 # @ fusion-core
-#~ msgid "Yes"
-#~ msgstr "Tak"
-
-# @ fusion-core
-#~ msgid "No"
-#~ msgstr "Nie"
-
-# @ fusion-core
 #~ msgid "Alert Content"
 #~ msgstr "Treść alertu"
 
@@ -1068,44 +1750,12 @@ msgstr ""
 #~ msgstr "Wpisz tutaj swoją treść"
 
 # @ fusion-core
-#~ msgid "Animation Type"
-#~ msgstr "Typ animacji"
-
-# @ fusion-core
-#~ msgid "Direction of Animation"
-#~ msgstr "Kierunek animacji"
-
-# @ fusion-core
 #~ msgid "Select the incoming direction for the animation"
 #~ msgstr "Wybierz kierunek rozpoczęcia animacji."
 
 # @ fusion-core
-#~ msgid "Speed of Animation"
-#~ msgstr "Prędkość animacji"
-
-# @ fusion-core
 #~ msgid "Type in speed of animation in seconds (0.1 - 1)"
 #~ msgstr "Wpisz prędkość animacji w sekundach (0,1 - 1)."
-
-# @ fusion-core
-#~ msgid "Default"
-#~ msgstr "Domyślnie"
-
-# @ fusion-core
-#~ msgid "CSS Class"
-#~ msgstr "Klasa CSS "
-
-# @ fusion-core
-#~ msgid "Add a class to the wrapping HTML element."
-#~ msgstr "Dodaj klasę dla otaczającego elementu HTML."
-
-# @ fusion-core
-#~ msgid "CSS ID"
-#~ msgstr "ID CSS"
-
-# @ fusion-core
-#~ msgid "Add an ID to the wrapping HTML element."
-#~ msgstr "Dodaj ID dla otaczającego elementu HTML."
 
 # @ fusion-core
 #~ msgid "Button"
@@ -1368,18 +2018,6 @@ msgstr ""
 #~ msgstr "Wybierz rozmieszczenie przycisku."
 
 # @ fusion-core
-#~ msgid "Left"
-#~ msgstr "Z lewej"
-
-# @ fusion-core
-#~ msgid "Center"
-#~ msgstr "Środek"
-
-# @ fusion-core
-#~ msgid "Right"
-#~ msgstr "Z prawej"
-
-# @ fusion-core
 #~ msgid "Checklist"
 #~ msgstr "Lista kontrolna"
 
@@ -1465,24 +2103,12 @@ msgstr ""
 #~ "nie może zostać wyświetlony."
 
 # @ fusion-core
-#~ msgid "Picture Size"
-#~ msgstr "Rozmiar obrazka"
-
-# @ fusion-core
 #~ msgid ""
 #~ "fixed = width and height will be fixed<br>auto = width and height will "
 #~ "adjust to the image."
 #~ msgstr ""
 #~ "stałe = szerokość oraz wysokość będą stałe <br> auto= szerokość oraz "
 #~ "wysokość dostosują się do obrazka."
-
-# @ fusion-core
-#~ msgid "Fixed"
-#~ msgstr "Stałe"
-
-# @ fusion-core
-#~ msgid "Auto"
-#~ msgstr "Auto"
 
 # @ fusion-core
 #~ msgid "Add New Client Image"
@@ -1760,11 +2386,6 @@ msgstr ""
 #~ "Select the animation type for icon on hover. Select default for theme "
 #~ "option selection."
 #~ msgstr "Wybierz rodzaj przycisku. Zaznacz domyślne aby wybrać opcję motywu."
-
-# @ fusion-core
-# @ Avada
-#~ msgid "None"
-#~ msgstr "Brak"
 
 # @ fusion-core
 #~ msgid "Fade"
@@ -2263,14 +2884,6 @@ msgstr ""
 #~ "px, np: 35."
 
 # @ fusion-core
-#~ msgid "Select the incoming direction for the animation."
-#~ msgstr "Wybierz kierunek rozpoczęcia animacji."
-
-# @ fusion-core
-#~ msgid "Type in speed of animation in seconds (0.1 - 1)."
-#~ msgstr "Wpisz prędkość animacji w sekundach (0,1 - 1)."
-
-# @ fusion-core
 #~ msgid "Add New Flip Box"
 #~ msgstr "Dodaj nowe okienko obrotowe"
 
@@ -2294,16 +2907,8 @@ msgstr ""
 #~ msgstr "Wybierz rozmieszczenie ikony."
 
 # @ fusion-core
-#~ msgid "Categories"
-#~ msgstr "Kategorie"
-
-# @ fusion-core
 #~ msgid "Select a category or leave blank for all"
 #~ msgstr "Wybierz kategorię lub zostaw puste by wybrać wszystkie"
-
-# @ fusion-core
-#~ msgid "Slider Name"
-#~ msgstr "Nazwa slajdera"
 
 # @ fusion-core
 #~ msgid ""
@@ -2554,10 +3159,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Select the hover effect type."
 #~ msgstr "Wybierz styl obramowania."
-
-# @ fusion-core
-#~ msgid "Column Spacing"
-#~ msgstr "Rozstaw kolumn"
 
 # @ fusion-core
 #, fuzzy
@@ -2811,14 +3412,6 @@ msgstr ""
 #~ msgstr "Promień obramowania obrazka"
 
 # @ fusion-core
-#~ msgid "Top"
-#~ msgstr "Góra"
-
-# @ fusion-core
-#~ msgid "Bottom"
-#~ msgstr "Dół"
-
-# @ fusion-core
 #~ msgid "Boxed Social Icons"
 #~ msgstr "Ikony społecznościowe w ramce"
 
@@ -3062,10 +3655,6 @@ msgstr ""
 #~ msgstr "Pokaż własną ikonę społecznościową ustawioną w opcjach motywu"
 
 # @ fusion-core
-#~ msgid "Layout"
-#~ msgstr "Układ "
-
-# @ fusion-core
 #~ msgid "Choose a layout style for Post Slider."
 #~ msgstr "Wybierz układ dla slajdera wpisu."
 
@@ -3233,10 +3822,6 @@ msgstr ""
 #~ msgstr "Data z boku"
 
 # @ fusion-core
-#~ msgid "Columns"
-#~ msgstr "Kolumny"
-
-# @ fusion-core
 #~ msgid "Select the number of columns to display"
 #~ msgstr "Wybierz liczbę kolumn do pokazania"
 
@@ -3247,10 +3832,6 @@ msgstr ""
 # @ fusion-core
 #~ msgid "Select the number of posts to display"
 #~ msgstr "Wybierz liczbę wpisów do wyświetlenia"
-
-# @ fusion-core
-#~ msgid "Exclude Categories"
-#~ msgstr "Pomiń kategorie"
 
 # @ fusion-core
 #~ msgid "Select a category to exclude"
@@ -3289,17 +3870,9 @@ msgstr ""
 #~ msgstr "Zaznacz aby wyświetlić zajawkę wpisu."
 
 # @ fusion-core
-#~ msgid "Excerpt Length"
-#~ msgstr "Długości zajawki"
-
-# @ fusion-core
 #~ msgid ""
 #~ "Insert the number of words/characters you want to show in the excerpt"
 #~ msgstr "Wpisz liczbę słów/znaków którą chcesz wyświetlać w zajawce."
-
-# @ fusion-core
-#~ msgid "Strip HTML"
-#~ msgstr "Usuń HTML"
 
 # @ fusion-core
 #~ msgid "Strip HTML from the post excerpt"
@@ -3314,36 +3887,12 @@ msgstr ""
 #~ msgstr "Wybierz układ skróconego kodu"
 
 # @ fusion-core
-#~ msgid "Carousel"
-#~ msgstr "Karuzela"
-
-# @ fusion-core
-#~ msgid "Grid"
-#~ msgstr "Siatka"
-
-# @ fusion-core
 #~ msgid "Grid with Excerpts"
 #~ msgstr "Siatki z zajawkami"
 
 # @ fusion-core
 #~ msgid "Grid with Excerpts Layout"
 #~ msgstr "Układ siatki z zajawkami"
-
-# @ fusion-core
-#~ msgid "Select if the grid with excerpts layouts are boxed or unboxed."
-#~ msgstr "Wybierz czy siatki z zajawkami mają być w ramce czy bez ramki."
-
-# @ fusion-core
-#~ msgid "Boxed"
-#~ msgstr "Z ramkami"
-
-# @ fusion-core
-#~ msgid "Unboxed"
-#~ msgstr "Bez ramek"
-
-# @ fusion-core
-#~ msgid "Show Filters"
-#~ msgstr "Pokaż filtry "
 
 # @ fusion-core
 #~ msgid "Choose to show or hide the category filters"
@@ -4209,10 +4758,6 @@ msgstr ""
 #~ msgstr "Linia czasu"
 
 # @ fusion-core
-#~ msgid "Posts Per Page"
-#~ msgstr "Wpisów na stronę"
-
-# @ fusion-core
 #~ msgid "Link Title To Post"
 #~ msgstr "Linkuj tytuł do wpisu"
 
@@ -4255,19 +4800,6 @@ msgstr ""
 # @ fusion-core
 #~ msgid "Show Pagination"
 #~ msgstr "Pokaż paginację"
-
-# @ fusion-core
-#, fuzzy
-#~ msgid "Pagination Type"
-#~ msgstr "Rodzaj paginacji "
-
-# @ fusion-core
-#~ msgid "Pagination"
-#~ msgstr "Paginacja"
-
-# @ fusion-core
-#~ msgid "Infinite Scrolling"
-#~ msgstr "Przewijaj w nieskończoność"
 
 # @ fusion-core
 #~ msgid "Grid Layout # of Columns"
@@ -4473,10 +5005,6 @@ msgstr ""
 #~ msgstr "Wybierz pozycję obrazu w tle"
 
 # @ fusion-core
-#~ msgid "All"
-#~ msgstr "Wszystkie"
-
-# @ fusion-core
 #~ msgid "Controls the border color."
 #~ msgstr "Ustawienia koloru obramowania."
 
@@ -4564,14 +5092,6 @@ msgstr ""
 # @ fusion-core
 #~ msgid "Comments"
 #~ msgstr "Komentarze"
-
-# @ fusion-core
-#~ msgid "Learn More"
-#~ msgstr "Więcej informacji"
-
-# @ fusion-core
-#~ msgid "View Project"
-#~ msgstr "Zobacz produkt"
 
 # @ fusion-core
 #~ msgid "Bounce"
@@ -4935,14 +5455,6 @@ msgstr ""
 # @ fusion-core
 #~ msgid "Highlight Shortcode"
 #~ msgstr "Skrócony kod podświetlenia"
-
-# @ fusion-core
-#~ msgid ""
-#~ "fixed = width and height will be fixed <br />auto = width and height will "
-#~ "adjust to the image."
-#~ msgstr ""
-#~ "stałe = szerokość oraz wysokość będą stałe <br /> auto= szerokość oraz "
-#~ "wysokość dostosują się do obrazka."
 
 # @ fusion-core
 #~ msgid "Image Carousel Shortcode"
@@ -5460,14 +5972,6 @@ msgstr ""
 # @ Avada
 #~ msgid "By"
 #~ msgstr "Autor"
-
-# @ Avada
-#~ msgid "Categories:"
-#~ msgstr "Kategorie:"
-
-# @ Avada
-#~ msgid "Tags:"
-#~ msgstr "Tagi:"
 
 # @ fusion-core
 #~ msgid ""
