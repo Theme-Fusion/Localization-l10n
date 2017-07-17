@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2017-07-05 11:48:39+00:00\n"
+"POT-Creation-Date: 2017-07-17 12:03:57+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:01+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: English\n"
@@ -68,7 +68,7 @@ msgstr "No Comments"
 msgid "One Comment"
 msgstr "One Comment"
 
-#: comments.php:31 includes/options/blog.php:311
+#: comments.php:31 includes/options/blog.php:357
 #: includes/options/portfolio.php:338
 #: includes/widget/class-fusion-widget-tabs.php:87
 msgid "Comments"
@@ -92,8 +92,8 @@ msgstr "Name"
 msgid "Email (required)"
 msgstr "Email (required)"
 
-#: comments.php:64 includes/options/social_media.php:553
-#: includes/options/social_media.php:554
+#: comments.php:64 includes/options/social_media.php:554
+#: includes/options/social_media.php:555
 msgid "Email"
 msgstr "Email"
 
@@ -172,8 +172,8 @@ msgid "Submit Form"
 msgstr "Submit Form"
 
 #: functions.php:193 functions.php:194 includes/admin-screens/demos.php:116
-#: includes/class-avada-admin.php:236 includes/class-avada-admin.php:420
-#: includes/class-avada-admin.php:423
+#: includes/class-avada-admin.php:261 includes/class-avada-admin.php:517
+#: includes/class-avada-admin.php:520
 #: includes/class-avada-megamenu-framework.php:179
 msgid "Theme Options"
 msgstr "Theme Options"
@@ -226,17 +226,24 @@ msgstr "follow this link"
 
 #: includes/admin-screens/demos.php:33
 msgid ""
-"Importing a demo provides pages, posts, images, theme options, widgets, "
-"sliders and more. IMPORTANT: The included plugins need to be installed and "
-"activated before you install a demo. Please check the \"System Status\" tab "
-"to ensure your server meets all requirements for a successful import. "
-"Settings that need attention will be listed in red. %s."
+"Avada demos can be fully imported (everything), or partially imported (only "
+"portions). Hover over the demo you want to use and make your selections. Any "
+"demo you use will display a badge on it after import so you can quickly "
+"recognize and modify the content you already imported. You can choose to "
+"uninstall this content at any time. Uninstalling content from a demo will "
+"remove ALL previously imported demo content from that demo and restore your "
+"site to it's previous state before the demo content was imported.<br /"
+"><strong>IMPORTANT:</strong> Demo imports can vary in time. The included "
+"plugins need to be installed and activated before you install a demo. Please "
+"check the %1$s tab to ensure your server meets all requirements for a "
+"successful import. Settings that need attention will be listed in red. %2$s."
 msgstr ""
-"Importing a demo provides pages, posts, images, theme options, widgets, "
-"sliders and more. IMPORTANT: The included plugins need to be installed and "
-"activated before you install a demo. Please check the \"System Status\" tab "
-"to ensure your server meets all requirements for a successful import. "
-"Settings that need attention will be listed in red. %s."
+
+#: includes/admin-screens/demos.php:33 includes/class-avada-admin.php:260
+#: includes/class-avada-admin.php:516 includes/class-avada-admin.php:622
+#: includes/class-avada-admin.php:634 includes/class-avada-admin.php:655
+msgid "System Status"
+msgstr "System Status"
 
 #: includes/admin-screens/demos.php:33
 msgid "View more info here"
@@ -278,7 +285,7 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
-#: includes/admin-screens/demos.php:112 includes/metaboxes/metaboxes.php:277
+#: includes/admin-screens/demos.php:112 includes/metaboxes/metaboxes.php:276
 msgid "Sliders"
 msgstr "Sliders"
 
@@ -293,70 +300,74 @@ msgstr ""
 msgid "All"
 msgstr "All"
 
-#: includes/admin-screens/demos.php:202 includes/admin-screens/demos.php:313
-#: includes/class-avada-admin.php:1106
+#: includes/admin-screens/demos.php:202 includes/admin-screens/demos.php:331
+#: includes/class-avada-admin.php:1205
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:125
 #: includes/options/colors.php:155 includes/options/colors.php:204
 msgid "Import"
 msgstr "Import"
 
-#: includes/admin-screens/demos.php:202 includes/class-avada-admin.php:1105
+#: includes/admin-screens/demos.php:202 includes/class-avada-admin.php:1202
 msgid "Modify"
 msgstr ""
 
-#: includes/admin-screens/demos.php:218
+#: includes/admin-screens/demos.php:205 includes/class-avada-admin.php:1203
+msgid "Full Import"
+msgstr ""
+
+#: includes/admin-screens/demos.php:207 includes/class-avada-admin.php:1204
+msgid "Partial Import"
+msgstr ""
+
+#: includes/admin-screens/demos.php:223
 msgid "Preview"
 msgstr "Preview"
 
-#: includes/admin-screens/demos.php:222
+#: includes/admin-screens/demos.php:227
 msgid "New"
 msgstr "New"
 
-#: includes/admin-screens/demos.php:225
-msgid "Imported"
-msgstr ""
-
-#: includes/admin-screens/demos.php:233
+#: includes/admin-screens/demos.php:238
 msgid "Live Preview"
 msgstr ""
 
-#: includes/admin-screens/demos.php:241
+#: includes/admin-screens/demos.php:246
 msgid "The Following Plugins Are Required To Import Content"
 msgstr ""
 
-#: includes/admin-screens/demos.php:254 includes/class-avada-admin.php:820
+#: includes/admin-screens/demos.php:259 includes/class-avada-admin.php:917
 #: includes/class-tgm-plugin-activation.php:2863
 msgid "Install"
 msgstr "Install"
 
-#: includes/admin-screens/demos.php:257
+#: includes/admin-screens/demos.php:262 includes/class-avada-admin.php:1226
 #: includes/class-tgm-plugin-activation.php:2467
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:100
 msgid "Active"
 msgstr "Active"
 
-#: includes/admin-screens/demos.php:260 includes/class-avada-admin.php:836
+#: includes/admin-screens/demos.php:265 includes/class-avada-admin.php:933
 #: includes/class-tgm-plugin-activation.php:2872
 msgid "Activate"
 msgstr "Activate"
 
-#: includes/admin-screens/demos.php:289
+#: includes/admin-screens/demos.php:307
 msgid "Import Content"
 msgstr ""
 
-#: includes/admin-screens/demos.php:289
+#: includes/admin-screens/demos.php:307
 msgid "(menus only import with \"All\")"
 msgstr ""
 
-#: includes/admin-screens/demos.php:296
+#: includes/admin-screens/demos.php:314
 msgid "Remove Content"
 msgstr ""
 
-#: includes/admin-screens/demos.php:300
+#: includes/admin-screens/demos.php:318
 msgid "Uninstall"
 msgstr ""
 
-#: includes/admin-screens/demos.php:317
+#: includes/admin-screens/demos.php:335
 #: includes/class-avada-megamenu-framework.php:326
 #: includes/class-avada-megamenu-framework.php:343
 #: includes/class-avada-nav-walker-megamenu.php:241
@@ -371,11 +382,11 @@ msgstr ""
 msgid "Remove"
 msgstr "Remove"
 
-#: includes/admin-screens/demos.php:321
+#: includes/admin-screens/demos.php:339
 msgid "Done"
 msgstr ""
 
-#: includes/admin-screens/demos.php:336 includes/admin-screens/faq.php:126
+#: includes/admin-screens/demos.php:354 includes/admin-screens/faq.php:126
 #: includes/admin-screens/plugins.php:150
 #: includes/admin-screens/registration.php:34
 #: includes/admin-screens/support.php:61
@@ -388,15 +399,15 @@ msgstr ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
 "making your experience perfect."
 
-#: includes/admin-screens/demos.php:341
+#: includes/admin-screens/demos.php:359
 msgid "Warning "
 msgstr ""
 
-#: includes/admin-screens/demos.php:351
+#: includes/admin-screens/demos.php:369
 msgid "Avada Demos Can Only Be Imported With A Valid Token Registration"
 msgstr "Avada Demos Can Only Be Imported With A Valid Token Registration"
 
-#: includes/admin-screens/demos.php:352
+#: includes/admin-screens/demos.php:370
 msgid ""
 "Please visit the %s page and enter a valid token to import the full Avada "
 "Demos and the single pages through Fusion Builder."
@@ -404,8 +415,8 @@ msgstr ""
 "Please visit the %s page and enter a valid token to import the full Avada "
 "Demos and the single pages through Fusion Builder."
 
-#: includes/admin-screens/demos.php:352 includes/admin-screens/faq.php:31
-#: includes/admin-screens/plugins.php:56 includes/class-avada-admin.php:229
+#: includes/admin-screens/demos.php:370 includes/admin-screens/faq.php:31
+#: includes/admin-screens/plugins.php:56 includes/class-avada-admin.php:254
 #: includes/class-fusion-builder-filters.php:204
 msgid "Product Registration"
 msgstr "Product Registration"
@@ -947,7 +958,7 @@ msgid "The root URL of your site."
 msgstr "The root URL of your site."
 
 #: includes/admin-screens/system-status.php:239
-msgid "WP content path:"
+msgid "WP Content Path:"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:240
@@ -961,7 +972,7 @@ msgid "N/A"
 msgstr "N/A"
 
 #: includes/admin-screens/system-status.php:244
-msgid "WP path:"
+msgid "WP Path:"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:245
@@ -1346,7 +1357,7 @@ msgstr ""
 "to treat you as we would want to be treated. This helps form a relationship "
 "between us that benefits all Avada customers."
 
-#: includes/avada-functions.php:377 includes/options/blog.php:304
+#: includes/avada-functions.php:377 includes/options/blog.php:350
 msgid "Related Posts"
 msgstr "Related Posts"
 
@@ -1570,55 +1581,49 @@ msgstr "Plugin activated successfully."
 msgid "All plugins installed and activated successfully. %s"
 msgstr "All plugins installed and activated successfully. %s"
 
-#: includes/class-avada-admin.php:140 includes/class-avada-admin.php:175
-#: includes/class-avada-admin.php:184
+#: includes/class-avada-admin.php:149 includes/class-avada-admin.php:184
+#: includes/class-avada-admin.php:193
 msgid "ThemeFusion News"
 msgstr "ThemeFusion News"
 
-#: includes/class-avada-admin.php:232 includes/class-avada-admin.php:415
-#: includes/class-avada-admin.php:554
+#: includes/class-avada-admin.php:257 includes/class-avada-admin.php:512
+#: includes/class-avada-admin.php:651
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:320
 msgid "Support"
 msgstr "Support"
 
-#: includes/class-avada-admin.php:233 includes/class-avada-admin.php:417
-#: includes/class-avada-admin.php:556
+#: includes/class-avada-admin.php:258 includes/class-avada-admin.php:514
+#: includes/class-avada-admin.php:653
 msgid "Demos"
 msgstr "Demos"
 
-#: includes/class-avada-admin.php:234 includes/class-avada-admin.php:418
-#: includes/class-avada-admin.php:557
+#: includes/class-avada-admin.php:259 includes/class-avada-admin.php:515
+#: includes/class-avada-admin.php:654
 msgid "Plugins"
 msgstr "Plugins"
 
-#: includes/class-avada-admin.php:235 includes/class-avada-admin.php:419
-#: includes/class-avada-admin.php:525 includes/class-avada-admin.php:537
-#: includes/class-avada-admin.php:558
-msgid "System Status"
-msgstr "System Status"
-
-#: includes/class-avada-admin.php:239
+#: includes/class-avada-admin.php:264
 msgid "Fusion Patcher %s"
 msgstr "Fusion Patcher %s"
 
-#: includes/class-avada-admin.php:301 includes/class-avada-admin.php:552
+#: includes/class-avada-admin.php:326 includes/class-avada-admin.php:649
 msgid "Welcome"
 msgstr "Welcome"
 
-#: includes/class-avada-admin.php:414 includes/class-avada-admin.php:553
+#: includes/class-avada-admin.php:511 includes/class-avada-admin.php:650
 msgid "Registration"
 msgstr "Registration"
 
-#: includes/class-avada-admin.php:416 includes/class-avada-admin.php:555
-#: includes/metaboxes/metaboxes.php:279
+#: includes/class-avada-admin.php:513 includes/class-avada-admin.php:652
+#: includes/metaboxes/metaboxes.php:278
 msgid "FAQ"
 msgstr "FAQ"
 
-#: includes/class-avada-admin.php:518
+#: includes/class-avada-admin.php:615
 msgid "Welcome to Avada!"
 msgstr "Welcome to Avada!"
 
-#: includes/class-avada-admin.php:522 includes/class-avada-admin.php:534
+#: includes/class-avada-admin.php:619 includes/class-avada-admin.php:631
 msgid ""
 "We're sorry but the demo data could not be imported. It is most likely due "
 "to low PHP configurations on your server. There are two possible solutions."
@@ -1626,27 +1631,27 @@ msgstr ""
 "We're sorry but the demo data could not be imported. It is most likely due "
 "to low PHP configurations on your server. There are two possible solutions."
 
-#: includes/class-avada-admin.php:524 includes/class-avada-admin.php:536
-#: includes/class-avada-admin.php:543
+#: includes/class-avada-admin.php:621 includes/class-avada-admin.php:633
+#: includes/class-avada-admin.php:640
 msgid "Solution 1:"
 msgstr "Solution 1:"
 
-#: includes/class-avada-admin.php:524 includes/class-avada-admin.php:536
-#: includes/class-avada-admin.php:543
+#: includes/class-avada-admin.php:621 includes/class-avada-admin.php:633
+#: includes/class-avada-admin.php:640
 msgid "Import the demo using an alternate method."
 msgstr "Import the demo using an alternate method."
 
-#: includes/class-avada-admin.php:524 includes/class-avada-admin.php:536
-#: includes/class-avada-admin.php:543
+#: includes/class-avada-admin.php:621 includes/class-avada-admin.php:633
+#: includes/class-avada-admin.php:640
 msgid "Alternate Method"
 msgstr "Alternate Method"
 
-#: includes/class-avada-admin.php:525 includes/class-avada-admin.php:537
-#: includes/class-avada-admin.php:544
+#: includes/class-avada-admin.php:622 includes/class-avada-admin.php:634
+#: includes/class-avada-admin.php:641
 msgid "Solution 2:"
 msgstr "Solution 2:"
 
-#: includes/class-avada-admin.php:525 includes/class-avada-admin.php:537
+#: includes/class-avada-admin.php:622 includes/class-avada-admin.php:634
 msgid ""
 "Fix the PHP configurations in the System Status that are reported in %1$s, "
 "then use the %2$s, then reimport."
@@ -1654,15 +1659,15 @@ msgstr ""
 "Fix the PHP configurations in the System Status that are reported in %1$s, "
 "then use the %2$s, then reimport."
 
-#: includes/class-avada-admin.php:525 includes/class-avada-admin.php:537
+#: includes/class-avada-admin.php:622 includes/class-avada-admin.php:634
 msgid "RED"
 msgstr "RED"
 
-#: includes/class-avada-admin.php:525 includes/class-avada-admin.php:537
+#: includes/class-avada-admin.php:622 includes/class-avada-admin.php:634
 msgid "Reset WordPress Plugin"
 msgstr "Reset WordPress Plugin"
 
-#: includes/class-avada-admin.php:529
+#: includes/class-avada-admin.php:626
 msgid ""
 "Demo data successfully imported. Install and run %s plugin once if you would "
 "like images generated to the specific theme sizes. This is not needed if you "
@@ -1672,11 +1677,11 @@ msgstr ""
 "like images generated to the specific theme sizes. This is not needed if you "
 "upload your own images because WP does it automatically."
 
-#: includes/class-avada-admin.php:529 includes/options/advanced.php:92
+#: includes/class-avada-admin.php:626 includes/options/advanced.php:92
 msgid "Regenerate Thumbnails"
 msgstr "Regenerate Thumbnails"
 
-#: includes/class-avada-admin.php:530
+#: includes/class-avada-admin.php:627
 msgid ""
 "Please visit the %s page and change your permalinks structure to \"Post Name"
 "\" so that content links work properly."
@@ -1684,11 +1689,11 @@ msgstr ""
 "Please visit the %s page and change your permalinks structure to \"Post Name"
 "\" so that content links work properly."
 
-#: includes/class-avada-admin.php:530
+#: includes/class-avada-admin.php:627
 msgid "Permalinks"
 msgstr "Permalinks"
 
-#: includes/class-avada-admin.php:541
+#: includes/class-avada-admin.php:638
 msgid ""
 "We're sorry but the demo data could not be imported. We were unable to find "
 "import file."
@@ -1696,7 +1701,7 @@ msgstr ""
 "We're sorry but the demo data could not be imported. We were unable to find "
 "import file."
 
-#: includes/class-avada-admin.php:544
+#: includes/class-avada-admin.php:641
 msgid ""
 "Make sure WordPress directory permissions are correct and uploads directory "
 "is writable."
@@ -1704,12 +1709,12 @@ msgstr ""
 "Make sure WordPress directory permissions are correct and uploads directory "
 "is writable."
 
-#: includes/class-avada-admin.php:544
+#: includes/class-avada-admin.php:641
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:293
 msgid "Learn More"
 msgstr "Learn More"
 
-#: includes/class-avada-admin.php:548
+#: includes/class-avada-admin.php:645
 msgid ""
 "Avada is now installed and ready to use! Get ready to build something "
 "beautiful. Please <a href=\"%1$s\" target=\"%2$s\">register your purchase</"
@@ -1723,80 +1728,80 @@ msgstr ""
 "plugins. Check out the <a href=\"%3$s\">Support tab</a> to learn how to "
 "receive product support. We hope you enjoy it!"
 
-#: includes/class-avada-admin.php:550
+#: includes/class-avada-admin.php:647
 #: includes/class-tgm-plugin-activation.php:2699
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:715
 msgid "Version"
 msgstr "Version"
 
-#: includes/class-avada-admin.php:789
+#: includes/class-avada-admin.php:886
 msgid "Please update Fusion Core to latest version."
 msgstr ""
 
-#: includes/class-avada-admin.php:820
+#: includes/class-avada-admin.php:917
 msgid "Install %s"
 msgstr "Install %s"
 
-#: includes/class-avada-admin.php:836
+#: includes/class-avada-admin.php:933
 msgid "Activate %s"
 msgstr "Activate %s"
 
-#: includes/class-avada-admin.php:859
+#: includes/class-avada-admin.php:956
 msgid "Update %s"
 msgstr "Update %s"
 
-#: includes/class-avada-admin.php:859
+#: includes/class-avada-admin.php:956
 #: includes/class-tgm-plugin-activation.php:2869
 #: includes/options/colors.php:146 includes/options/colors.php:174
 msgid "Update"
 msgstr "Update"
 
-#: includes/class-avada-admin.php:872
+#: includes/class-avada-admin.php:969
 msgid "Deactivate %s"
 msgstr "Deactivate %s"
 
-#: includes/class-avada-admin.php:872
+#: includes/class-avada-admin.php:969
 msgid "Deactivate"
 msgstr "Deactivate"
 
-#: includes/class-avada-admin.php:894
+#: includes/class-avada-admin.php:991
 msgid "Fusion Builder will be installable, once Fusion Core plugin is updated."
 msgstr ""
 "Fusion Builder will be installable, once Fusion Core plugin is updated."
 
-#: includes/class-avada-admin.php:894
+#: includes/class-avada-admin.php:991
 msgid "Fusion Builder"
 msgstr "Fusion Builder"
 
-#: includes/class-avada-admin.php:913
+#: includes/class-avada-admin.php:1010
 msgid "Manage Plugins Below"
 msgstr "Manage Plugins Below"
 
-#: includes/class-avada-admin.php:918
+#: includes/class-avada-admin.php:1015
 msgid "Go Manage Plugins"
 msgstr "Go Manage Plugins"
 
-#: includes/class-avada-admin.php:935
+#: includes/class-avada-admin.php:1032
 msgid "Avada portfolio category base"
 msgstr "Avada portfolio category base"
 
-#: includes/class-avada-admin.php:946
+#: includes/class-avada-admin.php:1043
 msgid "Avada portfolio skill base"
 msgstr "Avada portfolio skill base"
 
-#: includes/class-avada-admin.php:957
+#: includes/class-avada-admin.php:1054
 msgid "Avada portfolio tag base"
 msgstr "Avada portfolio tag base"
 
-#: includes/class-avada-admin.php:1104
+#: includes/class-avada-admin.php:1201
 msgid "Content"
 msgstr ""
 
-#: includes/class-avada-admin.php:1107
+#: includes/class-avada-admin.php:1206
 msgid "Download"
 msgstr ""
 
-#: includes/class-avada-admin.php:1108
+#: includes/class-avada-admin.php:1207
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1810,7 +1815,7 @@ msgid ""
 "as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1109 includes/class-avada-admin.php:1117
+#: includes/class-avada-admin.php:1208 includes/class-avada-admin.php:1216
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1823,7 +1828,7 @@ msgid ""
 "must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1110
+#: includes/class-avada-admin.php:1209
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1837,7 +1842,7 @@ msgid ""
 "Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1111
+#: includes/class-avada-admin.php:1210
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1851,7 +1856,7 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1112
+#: includes/class-avada-admin.php:1211
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1866,7 +1871,7 @@ msgid ""
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1113
+#: includes/class-avada-admin.php:1212
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1880,7 +1885,7 @@ msgid ""
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1114
+#: includes/class-avada-admin.php:1213
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1894,7 +1899,7 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1115
+#: includes/class-avada-admin.php:1214
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1907,7 +1912,7 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1116
+#: includes/class-avada-admin.php:1215
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1921,51 +1926,55 @@ msgid ""
 "Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1118
+#: includes/class-avada-admin.php:1217
 msgid "Currently Processing: %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1119
+#: includes/class-avada-admin.php:1218
 msgid "Currently Removing: %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1120
+#: includes/class-avada-admin.php:1219
 #: includes/lib/inc/importer/class-wxr-importer.php:505
-#: includes/lib/inc/importer/wordpress-importer.php:134
 msgid "The file does not exist"
 msgstr ""
 
-#: includes/class-avada-admin.php:1121
+#: includes/class-avada-admin.php:1220
 msgid ""
 "Demo server couldn't be reached. Please check for wp_remote_get on the <a "
 "href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr ""
 
-#: includes/class-avada-admin.php:1122
+#: includes/class-avada-admin.php:1221
 msgid ""
 "Demo import failed. Please check for PHP limits in red on the <a href=\"%s\" "
 "target=\"_blank\">System Status</a> page. Change those to the recommended "
 "value and try again."
 msgstr ""
 
-#: includes/class-avada-admin.php:1123
+#: includes/class-avada-admin.php:1222
 msgid ""
-"Removing demo content will remove ALL previously imported content from this "
-"demo."
+"Removing demo content will remove ALL previously imported demo content from "
+"this demo and restore your site to the previous state it was in before this "
+"demo content was imported."
 msgstr ""
 
-#: includes/class-avada-admin.php:1124
+#: includes/class-avada-admin.php:1223
 msgid ""
 "ERROR:\\n\\nFusion Builder Plugin can only be installed and activated if "
 "Fusion Core plugin is at version 3.0 or higher. Your version of Fusion Core "
 "is %s. Please update Fusion Core first."
 msgstr ""
 
-#: includes/class-avada-admin.php:1125
+#: includes/class-avada-admin.php:1224
 msgid ""
 "ERROR:\\n\\nThis plugin can only be installed or updated, after you have "
 "successfully completed the Avada product registration on the \"Product "
 "Registration\" tab."
+msgstr ""
+
+#: includes/class-avada-admin.php:1225
+msgid "Plugin install failed. Please try Again."
 msgstr ""
 
 #: includes/class-avada-avadaredux-migration.php:130
@@ -2092,7 +2101,7 @@ msgstr "If you didn't find what you were looking for, try a new search!"
 #: includes/class-avada-layout-bbpress.php:222
 #: includes/class-avada-layout-bbpress.php:247
 #: includes/class-avada-layout-bbpress.php:269
-#: includes/class-avada-woocommerce.php:369 includes/fusion-functions.php:186
+#: includes/class-avada-woocommerce.php:368 includes/fusion-functions.php:186
 #: single-wpfc_sermon.php:21 single.php:21
 msgid "Previous"
 msgstr "Previous"
@@ -2100,7 +2109,7 @@ msgstr "Previous"
 #: includes/class-avada-layout-bbpress.php:223
 #: includes/class-avada-layout-bbpress.php:248
 #: includes/class-avada-layout-bbpress.php:270
-#: includes/class-avada-woocommerce.php:370 includes/fusion-functions.php:202
+#: includes/class-avada-woocommerce.php:369 includes/fusion-functions.php:202
 #: single-wpfc_sermon.php:22 single.php:22
 msgid "Next"
 msgstr "Next"
@@ -2500,7 +2509,7 @@ msgstr "Link Relationship (XFN)"
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:321
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:149
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:204
-#: woocommerce/single-product/tabs/description.php:14
+#: woocommerce/single-product/tabs/description.php:16
 msgid "Description"
 msgstr "Description"
 
@@ -2590,29 +2599,29 @@ msgstr " - Reply"
 msgid "Your comment is awaiting moderation."
 msgstr "Your comment is awaiting moderation."
 
-#: includes/class-avada-upgrade.php:327
+#: includes/class-avada-upgrade.php:328
 msgid "View Changelog"
 msgstr "View Changelog"
 
-#: includes/class-avada-upgrade.php:328
+#: includes/class-avada-upgrade.php:329
 #: includes/class-tgm-plugin-activation.php:408
 msgid "Dismiss this notice"
 msgstr "Dismiss this notice"
 
-#: includes/class-avada-woocommerce.php:607
+#: includes/class-avada-woocommerce.php:606
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: includes/class-avada-woocommerce.php:1183
+#: includes/class-avada-woocommerce.php:1182
 msgid "You Have %d Item In Your Cart"
 msgstr "You Have %d Item In Your Cart"
 
-#: includes/class-avada-woocommerce.php:1185
+#: includes/class-avada-woocommerce.php:1184
 msgid "You Have %d Items In Your Cart"
 msgstr "You Have %d Items In Your Cart"
 
-#: includes/class-avada-woocommerce.php:1312
-#: includes/class-avada-woocommerce.php:1329
+#: includes/class-avada-woocommerce.php:1311
+#: includes/class-avada-woocommerce.php:1328
 msgid "Continue"
 msgstr "Continue"
 
@@ -3291,13 +3300,9 @@ msgstr "Yearly Archives: %s"
 msgid "Back to Parent Page"
 msgstr "Back to Parent Page"
 
-#: includes/dynamic_css.php:7946
+#: includes/dynamic_css.php:7972
 msgid "Please enter correct details for this required field."
 msgstr "Please enter correct details for this required field."
-
-#: includes/importer/avada-import-functions.php:352
-msgid "%s must be a directory"
-msgstr "%s must be a directory"
 
 #: includes/lib/inc/class-fusion-data.php:143 includes/options/contact.php:52
 #: includes/widget/class-fusion-widget-social-links.php:296
@@ -3370,6 +3375,19 @@ msgstr ""
 msgid "Remove featured image 2"
 msgstr ""
 
+#: includes/lib/inc/class-fusion-featured-image.php:106
+msgid "Featured images Info"
+msgstr ""
+
+#. translators: The "Fusion Theme Options" link.
+#: includes/lib/inc/class-fusion-featured-image.php:175
+msgid "To control the amount of featured image boxes, visit %s."
+msgstr ""
+
+#: includes/lib/inc/class-fusion-featured-image.php:175
+msgid "Fusion Theme Options"
+msgstr ""
+
 #: includes/lib/inc/class-fusion-fusionredux.php:442
 msgid "%1$s Enter value including CSS unit (px, em, rem), ex: %2$s."
 msgstr "%1$s Enter value including CSS unit (px, em, rem), ex: %2$s."
@@ -3392,7 +3410,7 @@ msgid "In pixels."
 msgstr "In pixels."
 
 #: includes/lib/inc/class-fusion-fusionredux.php:715
-#: includes/metaboxes/metaboxes.php:278
+#: includes/metaboxes/metaboxes.php:277
 msgid "Page"
 msgstr "Page"
 
@@ -3475,7 +3493,7 @@ msgid "Patch #"
 msgstr "Patch #"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:316
-#: includes/metaboxes/metaboxes.php:286 templates/wc-view-order.php:22
+#: includes/metaboxes/metaboxes.php:285 templates/wc-view-order.php:22
 #: woocommerce/cart/cart.php:34 woocommerce/checkout/form-pay.php:31
 #: woocommerce/checkout/review-order.php:17
 #: woocommerce/compatibility/2.6/cart/cart.php:26
@@ -3577,7 +3595,6 @@ msgstr ""
 "%2$s updates regardless of %3$s, please check this checkbox."
 
 #: includes/lib/inc/class-fusion-product-registration.php:496
-#: includes/lib/inc/importer/wordpress-importer.php:285
 msgid "Submit"
 msgstr "Submit"
 
@@ -3891,26 +3908,21 @@ msgstr ""
 
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:312
 #: includes/lib/inc/importer/class-wxr-importer.php:1807
-#: includes/lib/inc/importer/wordpress-importer.php:1031
 msgid "Remote file is incorrect size"
 msgstr "Remote file is incorrect size"
 
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:317
 #: includes/lib/inc/importer/class-wxr-importer.php:1812
-#: includes/lib/inc/importer/wordpress-importer.php:1036
 msgid "Zero size file downloaded"
 msgstr "Zero size file downloaded"
 
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:323
 #: includes/lib/inc/importer/class-wxr-importer.php:1818
-#: includes/lib/inc/importer/wordpress-importer.php:1042
 msgid "Remote file is too large, limit is %s"
 msgstr "Remote file is too large, limit is %s"
 
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:513
 #: includes/lib/inc/importer/class-wxr-importer.php:1712
-#: includes/lib/inc/importer/wordpress-importer.php:517
-#: includes/lib/inc/importer/wordpress-importer.php:739
 msgid "Failed to import %s %s"
 msgstr "Failed to import %s %s"
 
@@ -3926,11 +3938,6 @@ msgid "Term %d remapped to %d"
 msgstr ""
 
 #: includes/lib/inc/importer/class-logger-html.php:17
-#: includes/lib/inc/importer/wordpress-importer.php:132
-#: includes/lib/inc/importer/wordpress-importer.php:142
-#: includes/lib/inc/importer/wordpress-importer.php:193
-#: includes/lib/inc/importer/wordpress-importer.php:197
-#: includes/lib/inc/importer/wordpress-importer.php:206
 msgid "Sorry, there has been an error."
 msgstr "Sorry, there has been an error."
 
@@ -3947,7 +3954,6 @@ msgid ""
 msgstr ""
 
 #: includes/lib/inc/importer/class-wxr-importer.php:505
-#: includes/lib/inc/importer/wordpress-importer.php:134
 msgid "%s, please try again."
 msgstr ""
 
@@ -3976,7 +3982,6 @@ msgid "Post %d remapped to %d"
 msgstr ""
 
 #: includes/lib/inc/importer/class-wxr-importer.php:1051
-#: includes/lib/inc/importer/wordpress-importer.php:974
 msgid "Invalid file type"
 msgstr "Invalid file type"
 
@@ -4050,205 +4055,6 @@ msgstr ""
 msgid "Could not update comment #%d with mapped data"
 msgstr ""
 
-#: includes/lib/inc/importer/parsers.php:43
-#: includes/lib/inc/importer/parsers.php:75
-#: includes/lib/inc/importer/parsers.php:83
-msgid "There was an error when reading this WXR file"
-msgstr "There was an error when reading this WXR file"
-
-#: includes/lib/inc/importer/parsers.php:44
-msgid ""
-"Details are shown above. The importer will now try again with a different "
-"parser..."
-msgstr ""
-"Details are shown above. The importer will now try again with a different "
-"parser..."
-
-#: includes/lib/inc/importer/parsers.php:87
-#: includes/lib/inc/importer/parsers.php:92
-#: includes/lib/inc/importer/parsers.php:311
-#: includes/lib/inc/importer/parsers.php:502
-msgid ""
-"This does not appear to be a WXR file, missing/invalid WXR version number"
-msgstr ""
-"This does not appear to be a WXR file, missing/invalid WXR version number"
-
-#: includes/lib/inc/importer/wordpress-importer.php:177
-msgid "All done."
-msgstr "All done."
-
-#: includes/lib/inc/importer/wordpress-importer.php:177
-msgid "Have fun!"
-msgstr "Have fun!"
-
-#: includes/lib/inc/importer/wordpress-importer.php:178
-msgid "Remember to update the passwords and roles of imported users."
-msgstr "Remember to update the passwords and roles of imported users."
-
-#: includes/lib/inc/importer/wordpress-importer.php:198
-msgid ""
-"The export file could not be found at <code>%s</code>. It is likely that "
-"this was caused by a permissions problem."
-msgstr ""
-"The export file could not be found at <code>%s</code>. It is likely that "
-"this was caused by a permissions problem."
-
-#: includes/lib/inc/importer/wordpress-importer.php:214
-msgid ""
-"This WXR file (version %s) may not be supported by this version of the "
-"importer. Please consider updating."
-msgstr ""
-"This WXR file (version %s) may not be supported by this version of the "
-"importer. Please consider updating."
-
-#: includes/lib/inc/importer/wordpress-importer.php:239
-msgid ""
-"Failed to import author %s. Their posts will be attributed to the current "
-"user."
-msgstr ""
-"Failed to import author %s. Their posts will be attributed to the current "
-"user."
-
-#: includes/lib/inc/importer/wordpress-importer.php:265
-msgid "Assign Authors"
-msgstr "Assign Authors"
-
-#: includes/lib/inc/importer/wordpress-importer.php:266
-msgid ""
-"To make it easier for you to edit and save the imported content, you may "
-"want to reassign the author of the imported item to an existing user of this "
-"site. For example, you may want to import all the entries as <code>admin</"
-"code>s entries."
-msgstr ""
-"To make it easier for you to edit and save the imported content, you may "
-"want to reassign the author of the imported item to an existing user of this "
-"site. For example, you may want to import all the entries as <code>admin</"
-"code>s entries."
-
-#: includes/lib/inc/importer/wordpress-importer.php:268
-msgid ""
-"If a new user is created by WordPress, a new password will be randomly "
-"generated and the new user&#8217;s role will be set as %s. Manually changing "
-"the new user&#8217;s details will be necessary."
-msgstr ""
-"If a new user is created by WordPress, a new password will be randomly "
-"generated and the new user&#8217;s role will be set as %s. Manually changing "
-"the new user&#8217;s details will be necessary."
-
-#: includes/lib/inc/importer/wordpress-importer.php:278
-msgid "Import Attachments"
-msgstr "Import Attachments"
-
-#: includes/lib/inc/importer/wordpress-importer.php:281
-msgid "Download and import file attachments"
-msgstr "Download and import file attachments"
-
-#: includes/lib/inc/importer/wordpress-importer.php:298
-msgid "Import author:"
-msgstr "Import author:"
-
-#: includes/lib/inc/importer/wordpress-importer.php:309
-msgid "or create new user with login name:"
-msgstr "or create new user with login name:"
-
-#: includes/lib/inc/importer/wordpress-importer.php:312
-msgid "as a new user:"
-msgstr "as a new user:"
-
-#: includes/lib/inc/importer/wordpress-importer.php:320
-msgid "assign posts to an existing user:"
-msgstr "assign posts to an existing user:"
-
-#: includes/lib/inc/importer/wordpress-importer.php:322
-msgid "or assign posts to an existing user:"
-msgstr "or assign posts to an existing user:"
-
-#: includes/lib/inc/importer/wordpress-importer.php:323
-msgid "- Select -"
-msgstr "- Select -"
-
-#: includes/lib/inc/importer/wordpress-importer.php:373
-msgid ""
-"Failed to create new user for %s. Their posts will be attributed to the "
-"current user."
-msgstr ""
-"Failed to create new user for %s. Their posts will be attributed to the "
-"current user."
-
-#: includes/lib/inc/importer/wordpress-importer.php:425
-msgid "Failed to import category %s"
-msgstr "Failed to import category %s"
-
-#: includes/lib/inc/importer/wordpress-importer.php:468
-msgid "Failed to import post tag %s"
-msgstr "Failed to import post tag %s"
-
-#: includes/lib/inc/importer/wordpress-importer.php:606
-msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-
-#: includes/lib/inc/importer/wordpress-importer.php:643
-msgid "%s &#8220;%s&#8221; already exists."
-msgstr "%s &#8220;%s&#8221; already exists."
-
-#: includes/lib/inc/importer/wordpress-importer.php:705
-msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr "Failed to import %s &#8220;%s&#8221;"
-
-#: includes/lib/inc/importer/wordpress-importer.php:870
-msgid "Menu item skipped due to missing menu slug"
-msgstr "Menu item skipped due to missing menu slug"
-
-#: includes/lib/inc/importer/wordpress-importer.php:877
-msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr "Menu item skipped due to invalid menu slug: %s"
-
-#: includes/lib/inc/importer/wordpress-importer.php:961
-msgid "Fetching attachments is not enabled"
-msgstr "Fetching attachments is not enabled"
-
-#: includes/lib/inc/importer/wordpress-importer.php:1018
-msgid "Remote server did not respond"
-msgstr "Remote server did not respond"
-
-#: includes/lib/inc/importer/wordpress-importer.php:1024
-msgid "Remote server returned error response %1$d %2$s"
-msgstr "Remote server returned error response %1$d %2$s"
-
-#: includes/lib/inc/importer/wordpress-importer.php:1140
-msgid "Import WordPress"
-msgstr "Import WordPress"
-
-#: includes/lib/inc/importer/wordpress-importer.php:1147
-msgid ""
-"A new version of this importer is available. Please update to version %s to "
-"ensure compatibility with newer export files."
-msgstr ""
-"A new version of this importer is available. Please update to version %s to "
-"ensure compatibility with newer export files."
-
-#: includes/lib/inc/importer/wordpress-importer.php:1162
-msgid ""
-"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
-"the posts, pages, comments, custom fields, categories, and tags into this "
-"site."
-msgstr ""
-"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
-"the posts, pages, comments, custom fields, categories, and tags into this "
-"site."
-
-#: includes/lib/inc/importer/wordpress-importer.php:1163
-msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr "Choose a WXR (.xml) file to upload, then click Upload file and import."
-
-#: includes/lib/inc/importer/wordpress-importer.php:1238
-msgid ""
-"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
-"strong> from a WordPress export file."
-msgstr ""
-"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
-"strong> from a WordPress export file."
-
 #: includes/lib/inc/redux/custom-fields/color_alpha/field_color_alpha.php:68
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:124
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/color/field_color.php:73
@@ -4275,8 +4081,8 @@ msgstr "Height"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:215
 #: includes/options/extra.php:255 includes/options/header.php:54
 #: includes/options/menu.php:640 includes/options/menu.php:1561
-#: includes/options/social_media.php:102 includes/options/social_media.php:226
-#: includes/options/social_media.php:403
+#: includes/options/social_media.php:103 includes/options/social_media.php:227
+#: includes/options/social_media.php:404
 #: includes/widget/class-fusion-widget-social-links.php:538
 msgid "Top"
 msgstr "Top"
@@ -4295,8 +4101,8 @@ msgstr "Top"
 #: includes/options/sidebars.php:198 includes/options/sidebars.php:273
 #: includes/options/sidebars.php:340 includes/options/sidebars.php:387
 #: includes/options/sidebars.php:462 includes/options/sidebars.php:505
-#: includes/options/social_media.php:103 includes/options/social_media.php:227
-#: includes/options/social_media.php:404
+#: includes/options/social_media.php:104 includes/options/social_media.php:228
+#: includes/options/social_media.php:405
 #: includes/widget/class-fusion-widget-menu.php:184
 #: includes/widget/class-fusion-widget-social-links.php:539
 msgid "Right"
@@ -4308,8 +4114,8 @@ msgstr "Right"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:229
 #: includes/options/extra.php:254 includes/options/lightbox.php:102
 #: includes/options/menu.php:639 includes/options/menu.php:1563
-#: includes/options/social_media.php:104 includes/options/social_media.php:228
-#: includes/options/social_media.php:405
+#: includes/options/social_media.php:105 includes/options/social_media.php:229
+#: includes/options/social_media.php:406
 #: includes/widget/class-fusion-widget-social-links.php:540
 msgid "Bottom"
 msgstr "Bottom"
@@ -4327,8 +4133,8 @@ msgstr "Bottom"
 #: includes/options/sidebars.php:154 includes/options/sidebars.php:197
 #: includes/options/sidebars.php:272 includes/options/sidebars.php:339
 #: includes/options/sidebars.php:386 includes/options/sidebars.php:461
-#: includes/options/sidebars.php:504 includes/options/social_media.php:105
-#: includes/options/social_media.php:229 includes/options/social_media.php:406
+#: includes/options/sidebars.php:504 includes/options/social_media.php:106
+#: includes/options/social_media.php:230 includes/options/social_media.php:407
 #: includes/widget/class-fusion-widget-menu.php:182
 #: includes/widget/class-fusion-widget-social-links.php:541
 msgid "Left"
@@ -6282,28 +6088,28 @@ msgstr "Sanitized value and saved as %1$s instead of %2$s."
 msgid "Gallery"
 msgstr "Gallery"
 
-#: includes/metaboxes/metaboxes.php:279
+#: includes/metaboxes/metaboxes.php:278
 msgid "Post"
 msgstr "Post"
 
-#: includes/metaboxes/metaboxes.php:280 includes/options/header.php:33
+#: includes/metaboxes/metaboxes.php:279 includes/options/header.php:33
 msgid "Header"
 msgstr "Header"
 
-#: includes/metaboxes/metaboxes.php:281 includes/options/footer.php:28
+#: includes/metaboxes/metaboxes.php:280 includes/options/footer.php:28
 msgid "Footer"
 msgstr "Footer"
 
-#: includes/metaboxes/metaboxes.php:282 includes/options/sidebars.php:55
+#: includes/metaboxes/metaboxes.php:281 includes/options/sidebars.php:55
 msgid "Sidebars"
 msgstr "Sidebars"
 
-#: includes/metaboxes/metaboxes.php:283 includes/options/background.php:29
+#: includes/metaboxes/metaboxes.php:282 includes/options/background.php:29
 #: includes/options/menu.php:87
 msgid "Background"
 msgstr "Background"
 
-#: includes/metaboxes/metaboxes.php:284
+#: includes/metaboxes/metaboxes.php:283
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:19
 #: includes/options/blog.php:47 includes/options/page_title_bar.php:29
 #: includes/options/page_title_bar.php:36
@@ -6311,11 +6117,11 @@ msgstr "Background"
 msgid "Page Title Bar"
 msgstr "Page Title Bar"
 
-#: includes/metaboxes/metaboxes.php:285 includes/options/portfolio.php:27
+#: includes/metaboxes/metaboxes.php:284 includes/options/portfolio.php:27
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: includes/metaboxes/metaboxes.php:679
+#: includes/metaboxes/metaboxes.php:678
 msgid "Browse"
 msgstr "Browse"
 
@@ -6535,8 +6341,8 @@ msgstr "Heading Separator"
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:52
 #: includes/metaboxes/tabs/tab_sidebars.php:81 includes/options/footer.php:87
 #: includes/options/page_title_bar.php:459 includes/options/portfolio.php:187
-#: includes/options/sidebars.php:74 includes/options/social_media.php:106
-#: includes/options/social_media.php:230 includes/options/social_media.php:407
+#: includes/options/sidebars.php:74 includes/options/social_media.php:107
+#: includes/options/social_media.php:231 includes/options/social_media.php:408
 #: includes/widget/class-fusion-widget-social-links.php:542
 msgid "None"
 msgstr "None"
@@ -7467,7 +7273,7 @@ msgstr "Slider Position"
 msgid "Below"
 msgstr "Below"
 
-#: includes/metaboxes/tabs/tab_sliders.php:142 includes/options/blog.php:267
+#: includes/metaboxes/tabs/tab_sliders.php:142 includes/options/blog.php:313
 #: includes/options/contact.php:66 includes/options/header.php:90
 msgid "Above"
 msgstr "Above"
@@ -7741,18 +7547,45 @@ msgid "Rich Snippets"
 msgstr "Rich Snippets"
 
 #: includes/options/advanced.php:223
-msgid "Turn on to enable rich snippets data site wide."
-msgstr "Turn on to enable rich snippets data site wide."
+msgid ""
+"Turn on to enable rich snippets data site wide. If set to \"On\", you can "
+"also control individual items below. If set to \"Off\" all items will be "
+"disabled."
+msgstr ""
 
-#: includes/options/advanced.php:231
+#: includes/options/advanced.php:229
+msgid "Rich Snippets Title"
+msgstr ""
+
+#: includes/options/advanced.php:230
+msgid "Turn on to enable title rich snippet data site wide."
+msgstr ""
+
+#: includes/options/advanced.php:243
+msgid "Rich Snippets Author Info"
+msgstr ""
+
+#: includes/options/advanced.php:244
+msgid "Turn on to enable author rich snippet data site wide."
+msgstr ""
+
+#: includes/options/advanced.php:257
+msgid "Rich Snippets Publish Date"
+msgstr ""
+
+#: includes/options/advanced.php:258
+msgid "Turn on to enable date rich snippet data site wide."
+msgstr ""
+
+#: includes/options/advanced.php:273
 msgid "Dynamic CSS & JS"
 msgstr "Dynamic CSS & JS"
 
-#: includes/options/advanced.php:237
+#: includes/options/advanced.php:279
 msgid "CSS Compiling method"
 msgstr "CSS Compiling method"
 
-#: includes/options/advanced.php:238
+#: includes/options/advanced.php:280
 msgid ""
 "Select \"File\" mode to compile the dynamic CSS to files (a separate file "
 "will be created for each of your pages & posts inside of the uploads/fusion-"
@@ -7764,23 +7597,23 @@ msgstr ""
 "styles folder), \"Database\" mode to cache the CSS in your database, or "
 "select \"Disabled\" to disable."
 
-#: includes/options/advanced.php:243
+#: includes/options/advanced.php:285
 msgid "File"
 msgstr "File"
 
-#: includes/options/advanced.php:244
+#: includes/options/advanced.php:286
 msgid "Database"
 msgstr "Database"
 
-#: includes/options/advanced.php:245 includes/options/blog.php:268
+#: includes/options/advanced.php:287 includes/options/blog.php:314
 msgid "Disabled"
 msgstr "Disabled"
 
-#: includes/options/advanced.php:249
+#: includes/options/advanced.php:291
 msgid "Cache Server IP"
 msgstr "Cache Server IP"
 
-#: includes/options/advanced.php:250
+#: includes/options/advanced.php:292
 msgid ""
 "For unique cases where you are using cloud flare and a cache server, ex: "
 "varnish cache. Enter your cache server IP to clear the theme options dynamic "
@@ -7790,7 +7623,7 @@ msgstr ""
 "varnish cache. Enter your cache server IP to clear the theme options dynamic "
 "CSS cache. Consult with your server admin for help."
 
-#: includes/options/advanced.php:257
+#: includes/options/advanced.php:299
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
 "exist or access is restricted."
@@ -7798,11 +7631,11 @@ msgstr ""
 "<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
 "exist or access is restricted."
 
-#: includes/options/advanced.php:262
+#: includes/options/advanced.php:304
 msgid "Enable JS Compiler"
 msgstr "Enable JS Compiler"
 
-#: includes/options/advanced.php:263
+#: includes/options/advanced.php:305
 msgid ""
 "We have detected that your server supports HTTP/2. We recommend you leave "
 "the compiler disabled as that will improve performance of your site by "
@@ -7812,7 +7645,7 @@ msgstr ""
 "the compiler disabled as that will improve performance of your site by "
 "allowing multiple JS files to be downloaded simultaneously."
 
-#: includes/options/advanced.php:263
+#: includes/options/advanced.php:305
 msgid ""
 "By default all the javascript files are combined. Disabling the JS compiler "
 "will load non-combined javascript files. This will have an impact on the "
@@ -7822,11 +7655,11 @@ msgstr ""
 "will load non-combined javascript files. This will have an impact on the "
 "performance of your site."
 
-#: includes/options/advanced.php:269 includes/options/advanced.php:274
+#: includes/options/advanced.php:311 includes/options/advanced.php:316
 msgid "Reset Fusion Caches"
 msgstr "Reset Fusion Caches"
 
-#: includes/options/advanced.php:270
+#: includes/options/advanced.php:312
 msgid ""
 "Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
 "%1$s and %2$s folders. When resetting the caches on the main site of a "
@@ -7840,7 +7673,7 @@ msgstr ""
 "NOTE: On large multisite installations with a low PHP timeout setting, bulk-"
 "resetting the caches may timeout."
 
-#: includes/options/advanced.php:270
+#: includes/options/advanced.php:312
 msgid ""
 "Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
 "%1$s and %2$s folders."
@@ -8141,22 +7974,22 @@ msgid ""
 "or search results page."
 msgstr ""
 
-#: includes/options/blog.php:151
+#: includes/options/blog.php:174
 msgid "Grid/Masonry Layout Column Spacing"
 msgstr ""
 
-#: includes/options/blog.php:152
+#: includes/options/blog.php:175
 msgid ""
 "Controls the amount of spacing between columns for the grid and masonry "
 "layout when using it for the assigned blog page in \"settings > reading\" or "
 "blog archive pages or search results page."
 msgstr ""
 
-#: includes/options/blog.php:164
+#: includes/options/blog.php:210
 msgid "Blog Content Display"
 msgstr "Blog Content Display"
 
-#: includes/options/blog.php:165
+#: includes/options/blog.php:211
 msgid ""
 "Controls if the blog content displays an excerpt or full content for the "
 "assigned blog page in \"settings > reading\" or blog archive pages."
@@ -8164,19 +7997,19 @@ msgstr ""
 "Controls if the blog content displays an excerpt or full content for the "
 "assigned blog page in \"settings > reading\" or blog archive pages."
 
-#: includes/options/blog.php:170 includes/options/portfolio.php:147
+#: includes/options/blog.php:216 includes/options/portfolio.php:147
 msgid "Excerpt"
 msgstr "Excerpt"
 
-#: includes/options/blog.php:171 includes/options/portfolio.php:148
+#: includes/options/blog.php:217 includes/options/portfolio.php:148
 msgid "Full Content"
 msgstr "Full Content"
 
-#: includes/options/blog.php:175
+#: includes/options/blog.php:221
 msgid "Excerpt Length"
 msgstr "Excerpt Length"
 
-#: includes/options/blog.php:176
+#: includes/options/blog.php:222
 msgid ""
 "Controls the number of words in the post excerpts for the assigned blog page "
 "in \"settings > reading\" or blog archive pages."
@@ -8184,11 +8017,11 @@ msgstr ""
 "Controls the number of words in the post excerpts for the assigned blog page "
 "in \"settings > reading\" or blog archive pages."
 
-#: includes/options/blog.php:194 includes/options/portfolio.php:171
+#: includes/options/blog.php:240 includes/options/portfolio.php:171
 msgid "Strip HTML from Excerpt"
 msgstr "Strip HTML from Excerpt"
 
-#: includes/options/blog.php:195
+#: includes/options/blog.php:241
 msgid ""
 "Turn on to strip HTML content from the excerpt for the assigned blog page in "
 "\"settings > reading\" or blog archive pages."
@@ -8196,21 +8029,21 @@ msgstr ""
 "Turn on to strip HTML content from the excerpt for the assigned blog page in "
 "\"settings > reading\" or blog archive pages."
 
-#: includes/options/blog.php:201
+#: includes/options/blog.php:247
 msgid "Featured Image / Video on Blog Archive Page"
 msgstr "Featured Image / Video on Blog Archive Page"
 
-#: includes/options/blog.php:202
+#: includes/options/blog.php:248
 msgid ""
 "Turn on to display featured images and videos on the blog archive pages."
 msgstr ""
 "Turn on to display featured images and videos on the blog archive pages."
 
-#: includes/options/blog.php:208
+#: includes/options/blog.php:254
 msgid "Blog Alternate Layout Month and Year Format"
 msgstr "Blog Alternate Layout Month and Year Format"
 
-#: includes/options/blog.php:209
+#: includes/options/blog.php:255
 msgid ""
 "Controls the month and year format for blog alternate layouts. <a href="
 "\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
@@ -8220,11 +8053,11 @@ msgstr ""
 "\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">Formatting Date and Time</a>"
 
-#: includes/options/blog.php:215
+#: includes/options/blog.php:261
 msgid "Blog Alternate Layout Day Format"
 msgstr "Blog Alternate Layout Day Format"
 
-#: includes/options/blog.php:216
+#: includes/options/blog.php:262
 msgid ""
 "Controls the day format for blog alternate layouts. <a href=\"http://codex."
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
@@ -8234,11 +8067,11 @@ msgstr ""
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">Formatting Date and Time</a>"
 
-#: includes/options/blog.php:222
+#: includes/options/blog.php:268
 msgid "Blog Timeline Layout Date Format"
 msgstr "Blog Timeline Layout Date Format"
 
-#: includes/options/blog.php:223
+#: includes/options/blog.php:269
 msgid ""
 "Controls the timeline label format for blog timeline layouts. <a href="
 "\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
@@ -8248,15 +8081,15 @@ msgstr ""
 "\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">Formatting Date</a>"
 
-#: includes/options/blog.php:231
+#: includes/options/blog.php:277
 msgid "Blog Single Post"
 msgstr "Blog Single Post"
 
-#: includes/options/blog.php:239 includes/options/portfolio.php:310
+#: includes/options/blog.php:285 includes/options/portfolio.php:310
 msgid "100% Width Page"
 msgstr "100% Width Page"
 
-#: includes/options/blog.php:240
+#: includes/options/blog.php:286
 msgid ""
 "Turn on to display blog posts at 100% browser width according to the window "
 "size. Turn off to follow site width."
@@ -8264,29 +8097,29 @@ msgstr ""
 "Turn on to display blog posts at 100% browser width according to the window "
 "size. Turn off to follow site width."
 
-#: includes/options/blog.php:246
+#: includes/options/blog.php:292
 msgid "Featured Image / Video on Single Blog Post"
 msgstr "Featured Image / Video on Single Blog Post"
 
-#: includes/options/blog.php:247
+#: includes/options/blog.php:293
 msgid "Turn on to display featured images and videos on single blog posts."
 msgstr "Turn on to display featured images and videos on single blog posts."
 
-#: includes/options/blog.php:253 includes/options/portfolio.php:264
+#: includes/options/blog.php:299 includes/options/portfolio.php:264
 msgid "Previous/Next Pagination"
 msgstr "Previous/Next Pagination"
 
-#: includes/options/blog.php:254
+#: includes/options/blog.php:300
 msgid ""
 "Turn on to display the previous/next post pagination for single blog posts."
 msgstr ""
 "Turn on to display the previous/next post pagination for single blog posts."
 
-#: includes/options/blog.php:260
+#: includes/options/blog.php:306
 msgid "Post Title"
 msgstr "Post Title"
 
-#: includes/options/blog.php:261
+#: includes/options/blog.php:307
 msgid ""
 "Controls if the post title displays above or below the featured post image "
 "or is disabled."
@@ -8294,56 +8127,56 @@ msgstr ""
 "Controls if the post title displays above or below the featured post image "
 "or is disabled."
 
-#: includes/options/blog.php:266
+#: includes/options/blog.php:312
 msgid "Below "
 msgstr "Below "
 
-#: includes/options/blog.php:272
+#: includes/options/blog.php:318
 msgid "Meta Data Position"
 msgstr ""
 
-#: includes/options/blog.php:273
+#: includes/options/blog.php:319
 msgid "Choose where the meta data is positioned."
 msgstr ""
 
-#: includes/options/blog.php:278
+#: includes/options/blog.php:324
 msgid "Below Article"
 msgstr ""
 
-#: includes/options/blog.php:279
+#: includes/options/blog.php:325
 msgid "Below Title"
 msgstr ""
 
-#: includes/options/blog.php:290
+#: includes/options/blog.php:336
 msgid "Author Info Box"
 msgstr "Author Info Box"
 
-#: includes/options/blog.php:291
+#: includes/options/blog.php:337
 msgid "Turn on to display the author info box below posts."
 msgstr "Turn on to display the author info box below posts."
 
-#: includes/options/blog.php:297 includes/options/portfolio.php:352
-#: includes/options/social_media.php:356
+#: includes/options/blog.php:343 includes/options/portfolio.php:352
+#: includes/options/social_media.php:357
 msgid "Social Sharing Box"
 msgstr "Social Sharing Box"
 
-#: includes/options/blog.php:298
+#: includes/options/blog.php:344
 msgid "Turn on to display the social sharing box."
 msgstr "Turn on to display the social sharing box."
 
-#: includes/options/blog.php:305
+#: includes/options/blog.php:351
 msgid "Turn on to display related posts."
 msgstr "Turn on to display related posts."
 
-#: includes/options/blog.php:312
+#: includes/options/blog.php:358
 msgid "Turn on to display comments."
 msgstr "Turn on to display comments."
 
-#: includes/options/blog.php:320
+#: includes/options/blog.php:366
 msgid "Blog Meta"
 msgstr "Blog Meta"
 
-#: includes/options/blog.php:329
+#: includes/options/blog.php:375
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The on/off meta options on this tab only "
 "control the assigned blog page in settings > reading, or the blog archives, "
@@ -8355,11 +8188,11 @@ msgstr ""
 "not the blog element. The only options on this tab that work with the blog "
 "element are the Meta Data Font Size and Date Format options."
 
-#: includes/options/blog.php:334
+#: includes/options/blog.php:380
 msgid "Post Meta"
 msgstr "Post Meta"
 
-#: includes/options/blog.php:335
+#: includes/options/blog.php:381
 msgid ""
 "Turn on to display post meta on blog posts. If set to \"On\", you can also "
 "control individual meta items below. If set to \"Off\" all meta items will "
@@ -8369,67 +8202,67 @@ msgstr ""
 "control individual meta items below. If set to \"Off\" all meta items will "
 "be disabled."
 
-#: includes/options/blog.php:341
+#: includes/options/blog.php:387
 msgid "Post Meta Author"
 msgstr "Post Meta Author"
 
-#: includes/options/blog.php:342
+#: includes/options/blog.php:388
 msgid "Turn on to display the post meta author name."
 msgstr "Turn on to display the post meta author name."
 
-#: includes/options/blog.php:355
+#: includes/options/blog.php:401
 msgid "Post Meta Date"
 msgstr "Post Meta Date"
 
-#: includes/options/blog.php:356
+#: includes/options/blog.php:402
 msgid "Turn on to display the post meta date."
 msgstr "Turn on to display the post meta date."
 
-#: includes/options/blog.php:369
+#: includes/options/blog.php:415
 msgid "Post Meta Categories"
 msgstr "Post Meta Categories"
 
-#: includes/options/blog.php:370
+#: includes/options/blog.php:416
 msgid "Turn on to display the post meta categories."
 msgstr "Turn on to display the post meta categories."
 
-#: includes/options/blog.php:383
+#: includes/options/blog.php:429
 msgid "Post Meta Comments"
 msgstr "Post Meta Comments"
 
-#: includes/options/blog.php:384
+#: includes/options/blog.php:430
 msgid "Turn on to display the post meta comments."
 msgstr "Turn on to display the post meta comments."
 
-#: includes/options/blog.php:397
+#: includes/options/blog.php:443
 msgid "Post Meta Read More Link"
 msgstr "Post Meta Read More Link"
 
-#: includes/options/blog.php:398
+#: includes/options/blog.php:444
 msgid "Turn on to display the post meta read more link."
 msgstr "Turn on to display the post meta read more link."
 
-#: includes/options/blog.php:411
+#: includes/options/blog.php:457
 msgid "Post Meta Tags"
 msgstr "Post Meta Tags"
 
-#: includes/options/blog.php:412
+#: includes/options/blog.php:458
 msgid "Turn on to display the post meta tags."
 msgstr "Turn on to display the post meta tags."
 
-#: includes/options/blog.php:425
+#: includes/options/blog.php:471
 msgid "Meta Data Font Size"
 msgstr "Meta Data Font Size"
 
-#: includes/options/blog.php:426
+#: includes/options/blog.php:472
 msgid "Controls the font size for meta data text."
 msgstr "Controls the font size for meta data text."
 
-#: includes/options/blog.php:432
+#: includes/options/blog.php:478
 msgid "Date Format"
 msgstr "Date Format"
 
-#: includes/options/blog.php:433
+#: includes/options/blog.php:479
 msgid ""
 "Controls the date format for date meta data.  <a href=\"http://codex."
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
@@ -12877,56 +12710,56 @@ msgstr ""
 "Social media links use a repeater field and allow one network per field. "
 "Click the \"Add\" button to add additional fields."
 
-#: includes/options/social_media.php:54
+#: includes/options/social_media.php:55
 msgid "Select a social network to automatically add its icon"
 msgstr "Select a social network to automatically add its icon"
 
-#: includes/options/social_media.php:60
+#: includes/options/social_media.php:61
 msgid "Link (URL)"
 msgstr "Link (URL)"
 
-#: includes/options/social_media.php:61 includes/options/social_media.php:67
+#: includes/options/social_media.php:62 includes/options/social_media.php:68
 msgid "Insert your custom link here"
 msgstr "Insert your custom link here"
 
-#: includes/options/social_media.php:66
+#: includes/options/social_media.php:67
 msgid "Custom Icon Title"
 msgstr "Custom Icon Title"
 
-#: includes/options/social_media.php:72
+#: includes/options/social_media.php:73
 msgid "Link (URL) of the image you want to use as the icon"
 msgstr "Link (URL) of the image you want to use as the icon"
 
-#: includes/options/social_media.php:73
+#: includes/options/social_media.php:74
 msgid "Upload your custom icon"
 msgstr "Upload your custom icon"
 
-#: includes/options/social_media.php:81
+#: includes/options/social_media.php:82
 msgid "Header Social Icons"
 msgstr "Header Social Icons"
 
-#: includes/options/social_media.php:89
+#: includes/options/social_media.php:90
 msgid "Header Social Icon Font Size"
 msgstr "Header Social Icon Font Size"
 
-#: includes/options/social_media.php:90
+#: includes/options/social_media.php:91
 msgid "Controls the font size of the header social icons."
 msgstr "Controls the font size of the header social icons."
 
-#: includes/options/social_media.php:96
+#: includes/options/social_media.php:97
 msgid "Header Social Icon Tooltip Position"
 msgstr "Header Social Icon Tooltip Position"
 
-#: includes/options/social_media.php:97
+#: includes/options/social_media.php:98
 msgid "Controls the tooltip position of the header social icons."
 msgstr "Controls the tooltip position of the header social icons."
 
-#: includes/options/social_media.php:110
+#: includes/options/social_media.php:111
 msgid "Header Social Icon Color Type"
 msgstr "Header Social Icon Color Type"
 
-#: includes/options/social_media.php:111 includes/options/social_media.php:242
-#: includes/options/social_media.php:412
+#: includes/options/social_media.php:112 includes/options/social_media.php:243
+#: includes/options/social_media.php:413
 msgid ""
 "Custom colors allow you to choose a color for icons and boxes. Brand colors "
 "will use the exact brand color of each network for the icons or boxes."
@@ -12934,22 +12767,22 @@ msgstr ""
 "Custom colors allow you to choose a color for icons and boxes. Brand colors "
 "will use the exact brand color of each network for the icons or boxes."
 
-#: includes/options/social_media.php:116 includes/options/social_media.php:247
-#: includes/options/social_media.php:417
+#: includes/options/social_media.php:117 includes/options/social_media.php:248
+#: includes/options/social_media.php:418
 msgid "Custom Colors"
 msgstr "Custom Colors"
 
-#: includes/options/social_media.php:117 includes/options/social_media.php:248
-#: includes/options/social_media.php:418
+#: includes/options/social_media.php:118 includes/options/social_media.php:249
+#: includes/options/social_media.php:419
 #: includes/widget/class-fusion-widget-social-links.php:503
 msgid "Brand Colors"
 msgstr "Brand Colors"
 
-#: includes/options/social_media.php:121
+#: includes/options/social_media.php:122
 msgid "Header Social Icon Color"
 msgstr "Header Social Icon Color"
 
-#: includes/options/social_media.php:122
+#: includes/options/social_media.php:123
 msgid ""
 "Controls the color of the header social icons. This color will be used for "
 "all social icons in the header."
@@ -12957,76 +12790,76 @@ msgstr ""
 "Controls the color of the header social icons. This color will be used for "
 "all social icons in the header."
 
-#: includes/options/social_media.php:135
+#: includes/options/social_media.php:136
 msgid "Header Social Icons Boxed"
 msgstr "Header Social Icons Boxed"
 
-#: includes/options/social_media.php:136 includes/options/social_media.php:279
+#: includes/options/social_media.php:137 includes/options/social_media.php:280
 msgid "Controls if each icon is displayed in a small box."
 msgstr "Controls if each icon is displayed in a small box."
 
-#: includes/options/social_media.php:142
+#: includes/options/social_media.php:143
 msgid "Header Social Icon Box Color"
 msgstr "Header Social Icon Box Color"
 
-#: includes/options/social_media.php:143 includes/options/social_media.php:293
-#: includes/options/social_media.php:444
+#: includes/options/social_media.php:144 includes/options/social_media.php:294
+#: includes/options/social_media.php:445
 msgid "Controls the color of the social icon box."
 msgstr "Controls the color of the social icon box."
 
-#: includes/options/social_media.php:161
+#: includes/options/social_media.php:162
 msgid "Header Social Icon Boxed Radius"
 msgstr "Header Social Icon Boxed Radius"
 
-#: includes/options/social_media.php:162
+#: includes/options/social_media.php:163
 msgid "Controls the box radius"
 msgstr "Controls the box radius"
 
-#: includes/options/social_media.php:175
+#: includes/options/social_media.php:176
 msgid "Header Social Icon Boxed Padding"
 msgstr "Header Social Icon Boxed Padding"
 
-#: includes/options/social_media.php:176 includes/options/social_media.php:336
+#: includes/options/social_media.php:177 includes/options/social_media.php:337
 msgid "Controls the interior padding of the box."
 msgstr "Controls the interior padding of the box."
 
-#: includes/options/social_media.php:191
+#: includes/options/social_media.php:192
 msgid "Footer Social Icons"
 msgstr "Footer Social Icons"
 
-#: includes/options/social_media.php:199
+#: includes/options/social_media.php:200
 msgid "Display Social Icons In The Footer"
 msgstr "Display Social Icons In The Footer"
 
-#: includes/options/social_media.php:200
+#: includes/options/social_media.php:201
 msgid "Turn on to display social icons in the footer copyright bar."
 msgstr "Turn on to display social icons in the footer copyright bar."
 
-#: includes/options/social_media.php:206
+#: includes/options/social_media.php:207
 msgid "Footer Social Icon Font Size"
 msgstr "Footer Social Icon Font Size"
 
-#: includes/options/social_media.php:207
+#: includes/options/social_media.php:208
 msgid "Controls the font size of the footer social icons."
 msgstr "Controls the font size of the footer social icons."
 
-#: includes/options/social_media.php:220
+#: includes/options/social_media.php:221
 msgid "Footer Social Icon Tooltip Position"
 msgstr "Footer Social Icon Tooltip Position"
 
-#: includes/options/social_media.php:221
+#: includes/options/social_media.php:222
 msgid "Controls the tooltip position of the footer social icons."
 msgstr "Controls the tooltip position of the footer social icons."
 
-#: includes/options/social_media.php:241
+#: includes/options/social_media.php:242
 msgid "Footer Social Icon Color Type"
 msgstr "Footer Social Icon Color Type"
 
-#: includes/options/social_media.php:259
+#: includes/options/social_media.php:260
 msgid "Footer Social Icon Color"
 msgstr "Footer Social Icon Color"
 
-#: includes/options/social_media.php:260
+#: includes/options/social_media.php:261
 msgid ""
 "Controls the color of the footer social icons. This color will be used for "
 "all social icons in the footer."
@@ -13034,72 +12867,72 @@ msgstr ""
 "Controls the color of the footer social icons. This color will be used for "
 "all social icons in the footer."
 
-#: includes/options/social_media.php:278
+#: includes/options/social_media.php:279
 msgid "Footer Social Icons Boxed"
 msgstr "Footer Social Icons Boxed"
 
-#: includes/options/social_media.php:292
+#: includes/options/social_media.php:293
 msgid "Footer Social Icon Box Color"
 msgstr "Footer Social Icon Box Color"
 
-#: includes/options/social_media.php:316
+#: includes/options/social_media.php:317
 msgid "Footer Social Icon Boxed Radius"
 msgstr "Footer Social Icon Boxed Radius"
 
-#: includes/options/social_media.php:317
+#: includes/options/social_media.php:318
 msgid "Controls the box radius."
 msgstr "Controls the box radius."
 
-#: includes/options/social_media.php:335
+#: includes/options/social_media.php:336
 msgid "Footer Social Icon Boxed Padding"
 msgstr "Footer Social Icon Boxed Padding"
 
-#: includes/options/social_media.php:362
+#: includes/options/social_media.php:363
 msgid "Sharing Box Tagline"
 msgstr "Sharing Box Tagline"
 
-#: includes/options/social_media.php:363
+#: includes/options/social_media.php:364
 msgid "Insert a tagline for the social sharing boxes."
 msgstr "Insert a tagline for the social sharing boxes."
 
-#: includes/options/social_media.php:365 single-wpfc_sermon.php:116
+#: includes/options/social_media.php:366 single-wpfc_sermon.php:116
 msgid "Share This Story, Choose Your Platform!"
 msgstr "Share This Story, Choose Your Platform!"
 
-#: includes/options/social_media.php:369
+#: includes/options/social_media.php:370
 msgid "Sharing Box Tagline Text Color"
 msgstr "Sharing Box Tagline Text Color"
 
-#: includes/options/social_media.php:370
+#: includes/options/social_media.php:371
 msgid "Controls the color of the tagline text in the social sharing boxes."
 msgstr "Controls the color of the tagline text in the social sharing boxes."
 
-#: includes/options/social_media.php:376
+#: includes/options/social_media.php:377
 msgid "Sharing Box Background Color"
 msgstr "Sharing Box Background Color"
 
-#: includes/options/social_media.php:377
+#: includes/options/social_media.php:378
 msgid "Controls the background color of the social sharing boxes."
 msgstr "Controls the background color of the social sharing boxes."
 
-#: includes/options/social_media.php:383
+#: includes/options/social_media.php:384
 msgid "Social Sharing Box Icons"
 msgstr "Social Sharing Box Icons"
 
-#: includes/options/social_media.php:390
+#: includes/options/social_media.php:391
 msgid "Sharing Box Icon Font Size"
 msgstr "Sharing Box Icon Font Size"
 
-#: includes/options/social_media.php:391
+#: includes/options/social_media.php:392
 msgid "Controls the font size of the social icons in the social sharing boxes."
 msgstr ""
 "Controls the font size of the social icons in the social sharing boxes."
 
-#: includes/options/social_media.php:397
+#: includes/options/social_media.php:398
 msgid "Sharing Box Icons Tooltip Position"
 msgstr "Sharing Box Icons Tooltip Position"
 
-#: includes/options/social_media.php:398
+#: includes/options/social_media.php:399
 msgid ""
 "Controls the tooltip position of the social icons in the social sharing "
 "boxes."
@@ -13107,15 +12940,15 @@ msgstr ""
 "Controls the tooltip position of the social icons in the social sharing "
 "boxes."
 
-#: includes/options/social_media.php:411
+#: includes/options/social_media.php:412
 msgid "Sharing Box Icon Color Type"
 msgstr "Sharing Box Icon Color Type"
 
-#: includes/options/social_media.php:422
+#: includes/options/social_media.php:423
 msgid "Sharing Box Icon Color"
 msgstr "Sharing Box Icon Color"
 
-#: includes/options/social_media.php:423
+#: includes/options/social_media.php:424
 msgid ""
 "Controls the color of the social icons in the social sharing boxes. This "
 "color will be used for all social icons."
@@ -13123,75 +12956,75 @@ msgstr ""
 "Controls the color of the social icons in the social sharing boxes. This "
 "color will be used for all social icons."
 
-#: includes/options/social_media.php:436
+#: includes/options/social_media.php:437
 msgid "Sharing Box Icons Boxed"
 msgstr "Sharing Box Icons Boxed"
 
-#: includes/options/social_media.php:437
+#: includes/options/social_media.php:438
 msgid "Controls if each social icon is displayed in a small box."
 msgstr "Controls if each social icon is displayed in a small box."
 
-#: includes/options/social_media.php:443
+#: includes/options/social_media.php:444
 msgid "Sharing Box Icon Box Color"
 msgstr "Sharing Box Icon Box Color"
 
-#: includes/options/social_media.php:462
+#: includes/options/social_media.php:463
 msgid "Sharing Box Icon Boxed Radius"
 msgstr "Sharing Box Icon Boxed Radius"
 
-#: includes/options/social_media.php:463
+#: includes/options/social_media.php:464
 msgid "Controls the box radius of the social icon box."
 msgstr "Controls the box radius of the social icon box."
 
-#: includes/options/social_media.php:476
+#: includes/options/social_media.php:477
 msgid "Sharing Box Icons Boxed Padding"
 msgstr "Sharing Box Icons Boxed Padding"
 
-#: includes/options/social_media.php:477
+#: includes/options/social_media.php:478
 msgid "Controls the interior padding of the social icon box."
 msgstr "Controls the interior padding of the social icon box."
 
-#: includes/options/social_media.php:490
+#: includes/options/social_media.php:491
 msgid "Sharing Box Links"
 msgstr "Sharing Box Links"
 
-#: includes/options/social_media.php:497 includes/options/social_media.php:498
+#: includes/options/social_media.php:498 includes/options/social_media.php:499
 msgid "Facebook"
 msgstr "Facebook"
 
-#: includes/options/social_media.php:498 includes/options/social_media.php:505
-#: includes/options/social_media.php:512 includes/options/social_media.php:519
-#: includes/options/social_media.php:526 includes/options/social_media.php:533
-#: includes/options/social_media.php:540 includes/options/social_media.php:547
-#: includes/options/social_media.php:554
+#: includes/options/social_media.php:499 includes/options/social_media.php:506
+#: includes/options/social_media.php:513 includes/options/social_media.php:520
+#: includes/options/social_media.php:527 includes/options/social_media.php:534
+#: includes/options/social_media.php:541 includes/options/social_media.php:548
+#: includes/options/social_media.php:555
 msgid "Turn on to display %s in the social share box."
 msgstr "Turn on to display %s in the social share box."
 
-#: includes/options/social_media.php:504 includes/options/social_media.php:505
+#: includes/options/social_media.php:505 includes/options/social_media.php:506
 msgid "Twitter"
 msgstr "Twitter"
 
-#: includes/options/social_media.php:511 includes/options/social_media.php:512
+#: includes/options/social_media.php:512 includes/options/social_media.php:513
 msgid "Reddit"
 msgstr "Reddit"
 
-#: includes/options/social_media.php:518 includes/options/social_media.php:519
+#: includes/options/social_media.php:519 includes/options/social_media.php:520
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: includes/options/social_media.php:525 includes/options/social_media.php:526
+#: includes/options/social_media.php:526 includes/options/social_media.php:527
 msgid "Google+"
 msgstr "Google+"
 
-#: includes/options/social_media.php:532 includes/options/social_media.php:533
+#: includes/options/social_media.php:533 includes/options/social_media.php:534
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: includes/options/social_media.php:539 includes/options/social_media.php:540
+#: includes/options/social_media.php:540 includes/options/social_media.php:541
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: includes/options/social_media.php:546 includes/options/social_media.php:547
+#: includes/options/social_media.php:547 includes/options/social_media.php:548
 msgid "VK"
 msgstr "VK"
 
@@ -13857,7 +13690,7 @@ msgid "Web:"
 msgstr "Web:"
 
 #: includes/widget/class-fusion-widget-contact-info.php:151
-#: includes/widget/class-fusion-widget-facebook-page.php:173
+#: includes/widget/class-fusion-widget-facebook-page.php:177
 #: includes/widget/class-fusion-widget-flickr.php:163
 #: includes/widget/class-fusion-widget-recent-works.php:136
 #: includes/widget/class-fusion-widget-social-links.php:485
@@ -13885,11 +13718,11 @@ msgstr "Website URL Text:"
 msgid "Adds support for Facebook Page Plugin."
 msgstr "Adds support for Facebook Page Plugin."
 
-#: includes/widget/class-fusion-widget-facebook-page.php:158
+#: includes/widget/class-fusion-widget-facebook-page.php:162
 msgid "Find us on Facebook"
 msgstr "Find us on Facebook"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:170
+#: includes/widget/class-fusion-widget-facebook-page.php:174
 msgid ""
 "IMPORTANT: Please create a Facebook App and use its ID for features like "
 "sharing."
@@ -13897,35 +13730,35 @@ msgstr ""
 "IMPORTANT: Please create a Facebook App and use its ID for features like "
 "sharing."
 
-#: includes/widget/class-fusion-widget-facebook-page.php:170
+#: includes/widget/class-fusion-widget-facebook-page.php:174
 msgid "See Instructions."
 msgstr "See Instructions."
 
-#: includes/widget/class-fusion-widget-facebook-page.php:178
+#: includes/widget/class-fusion-widget-facebook-page.php:182
 msgid "Facebook Page URL:"
 msgstr "Facebook Page URL:"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:183
+#: includes/widget/class-fusion-widget-facebook-page.php:187
 msgid "Facebook App ID:"
 msgstr "Facebook App ID:"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:188
+#: includes/widget/class-fusion-widget-facebook-page.php:192
 msgid "Width (has to be between 180 and 500):"
 msgstr "Width (has to be between 180 and 500):"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:194
+#: includes/widget/class-fusion-widget-facebook-page.php:198
 msgid "Show Friends Faces"
 msgstr "Show Friends Faces"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:199
+#: includes/widget/class-fusion-widget-facebook-page.php:203
 msgid "Show Posts"
 msgstr "Show Posts"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:204
+#: includes/widget/class-fusion-widget-facebook-page.php:208
 msgid "Show Cover Photo"
 msgstr "Show Cover Photo"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:209
+#: includes/widget/class-fusion-widget-facebook-page.php:213
 msgid "Use Small Header"
 msgstr "Use Small Header"
 
@@ -14278,15 +14111,15 @@ msgstr "About %s"
 msgid "Edit profile"
 msgstr "Edit profile"
 
-#: templates/blog-layout.php:304 templates/blog-layout.php:330
+#: templates/blog-layout.php:309 templates/blog-layout.php:335
 msgid "Read More"
 msgstr "Read More"
 
-#: templates/blog-layout.php:315
+#: templates/blog-layout.php:320
 msgid "Protected"
 msgstr "Protected"
 
-#: templates/blog-layout.php:370
+#: templates/blog-layout.php:375
 msgid "Load More Posts"
 msgstr "Load More Posts"
 
@@ -14769,10 +14602,194 @@ msgctxt "by author"
 msgid "by %s"
 msgstr "by %s"
 
+#: includes/wc-functions.php:74
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
 #: includes/widget/class-fusion-widget-tweets.php:668
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
 msgstr "%s ago"
+
+#~ msgid ""
+#~ "Importing a demo provides pages, posts, images, theme options, widgets, "
+#~ "sliders and more. IMPORTANT: The included plugins need to be installed "
+#~ "and activated before you install a demo. Please check the \"System Status"
+#~ "\" tab to ensure your server meets all requirements for a successful "
+#~ "import. Settings that need attention will be listed in red. %s."
+#~ msgstr ""
+#~ "Importing a demo provides pages, posts, images, theme options, widgets, "
+#~ "sliders and more. IMPORTANT: The included plugins need to be installed "
+#~ "and activated before you install a demo. Please check the \"System Status"
+#~ "\" tab to ensure your server meets all requirements for a successful "
+#~ "import. Settings that need attention will be listed in red. %s."
+
+#~ msgid "%s must be a directory"
+#~ msgstr "%s must be a directory"
+
+#~ msgid "There was an error when reading this WXR file"
+#~ msgstr "There was an error when reading this WXR file"
+
+#~ msgid ""
+#~ "Details are shown above. The importer will now try again with a different "
+#~ "parser..."
+#~ msgstr ""
+#~ "Details are shown above. The importer will now try again with a different "
+#~ "parser..."
+
+#~ msgid ""
+#~ "This does not appear to be a WXR file, missing/invalid WXR version number"
+#~ msgstr ""
+#~ "This does not appear to be a WXR file, missing/invalid WXR version number"
+
+#~ msgid "All done."
+#~ msgstr "All done."
+
+#~ msgid "Have fun!"
+#~ msgstr "Have fun!"
+
+#~ msgid "Remember to update the passwords and roles of imported users."
+#~ msgstr "Remember to update the passwords and roles of imported users."
+
+#~ msgid ""
+#~ "The export file could not be found at <code>%s</code>. It is likely that "
+#~ "this was caused by a permissions problem."
+#~ msgstr ""
+#~ "The export file could not be found at <code>%s</code>. It is likely that "
+#~ "this was caused by a permissions problem."
+
+#~ msgid ""
+#~ "This WXR file (version %s) may not be supported by this version of the "
+#~ "importer. Please consider updating."
+#~ msgstr ""
+#~ "This WXR file (version %s) may not be supported by this version of the "
+#~ "importer. Please consider updating."
+
+#~ msgid ""
+#~ "Failed to import author %s. Their posts will be attributed to the current "
+#~ "user."
+#~ msgstr ""
+#~ "Failed to import author %s. Their posts will be attributed to the current "
+#~ "user."
+
+#~ msgid "Assign Authors"
+#~ msgstr "Assign Authors"
+
+#~ msgid ""
+#~ "To make it easier for you to edit and save the imported content, you may "
+#~ "want to reassign the author of the imported item to an existing user of "
+#~ "this site. For example, you may want to import all the entries as "
+#~ "<code>admin</code>s entries."
+#~ msgstr ""
+#~ "To make it easier for you to edit and save the imported content, you may "
+#~ "want to reassign the author of the imported item to an existing user of "
+#~ "this site. For example, you may want to import all the entries as "
+#~ "<code>admin</code>s entries."
+
+#~ msgid ""
+#~ "If a new user is created by WordPress, a new password will be randomly "
+#~ "generated and the new user&#8217;s role will be set as %s. Manually "
+#~ "changing the new user&#8217;s details will be necessary."
+#~ msgstr ""
+#~ "If a new user is created by WordPress, a new password will be randomly "
+#~ "generated and the new user&#8217;s role will be set as %s. Manually "
+#~ "changing the new user&#8217;s details will be necessary."
+
+#~ msgid "Import Attachments"
+#~ msgstr "Import Attachments"
+
+#~ msgid "Download and import file attachments"
+#~ msgstr "Download and import file attachments"
+
+#~ msgid "Import author:"
+#~ msgstr "Import author:"
+
+#~ msgid "or create new user with login name:"
+#~ msgstr "or create new user with login name:"
+
+#~ msgid "as a new user:"
+#~ msgstr "as a new user:"
+
+#~ msgid "assign posts to an existing user:"
+#~ msgstr "assign posts to an existing user:"
+
+#~ msgid "or assign posts to an existing user:"
+#~ msgstr "or assign posts to an existing user:"
+
+#~ msgid "- Select -"
+#~ msgstr "- Select -"
+
+#~ msgid ""
+#~ "Failed to create new user for %s. Their posts will be attributed to the "
+#~ "current user."
+#~ msgstr ""
+#~ "Failed to create new user for %s. Their posts will be attributed to the "
+#~ "current user."
+
+#~ msgid "Failed to import category %s"
+#~ msgstr "Failed to import category %s"
+
+#~ msgid "Failed to import post tag %s"
+#~ msgstr "Failed to import post tag %s"
+
+#~ msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+#~ msgstr "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+
+#~ msgid "%s &#8220;%s&#8221; already exists."
+#~ msgstr "%s &#8220;%s&#8221; already exists."
+
+#~ msgid "Failed to import %s &#8220;%s&#8221;"
+#~ msgstr "Failed to import %s &#8220;%s&#8221;"
+
+#~ msgid "Menu item skipped due to missing menu slug"
+#~ msgstr "Menu item skipped due to missing menu slug"
+
+#~ msgid "Menu item skipped due to invalid menu slug: %s"
+#~ msgstr "Menu item skipped due to invalid menu slug: %s"
+
+#~ msgid "Fetching attachments is not enabled"
+#~ msgstr "Fetching attachments is not enabled"
+
+#~ msgid "Remote server did not respond"
+#~ msgstr "Remote server did not respond"
+
+#~ msgid "Remote server returned error response %1$d %2$s"
+#~ msgstr "Remote server returned error response %1$d %2$s"
+
+#~ msgid "Import WordPress"
+#~ msgstr "Import WordPress"
+
+#~ msgid ""
+#~ "A new version of this importer is available. Please update to version %s "
+#~ "to ensure compatibility with newer export files."
+#~ msgstr ""
+#~ "A new version of this importer is available. Please update to version %s "
+#~ "to ensure compatibility with newer export files."
+
+#~ msgid ""
+#~ "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll "
+#~ "import the posts, pages, comments, custom fields, categories, and tags "
+#~ "into this site."
+#~ msgstr ""
+#~ "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll "
+#~ "import the posts, pages, comments, custom fields, categories, and tags "
+#~ "into this site."
+
+#~ msgid ""
+#~ "Choose a WXR (.xml) file to upload, then click Upload file and import."
+#~ msgstr ""
+#~ "Choose a WXR (.xml) file to upload, then click Upload file and import."
+
+#~ msgid ""
+#~ "Import <strong>posts, pages, comments, custom fields, categories, and "
+#~ "tags</strong> from a WordPress export file."
+#~ msgstr ""
+#~ "Import <strong>posts, pages, comments, custom fields, categories, and "
+#~ "tags</strong> from a WordPress export file."
+
+#~ msgid "Turn on to enable rich snippets data site wide."
+#~ msgstr "Turn on to enable rich snippets data site wide."
 
 #~ msgid "Version: %1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
 #~ msgstr "Version: %1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
