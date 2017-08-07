@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-07-17 12:03:57+00:00\n"
-"PO-Revision-Date: 2016-03-07 14:56-0000\n"
+"PO-Revision-Date: 2017-08-04 17:13-0500\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/avada/language/"
 "fi/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 2.0.3\n"
 
 # @ Avada
 #: 404.php:20
@@ -41,9 +41,8 @@ msgstr "Etkö löydä etsimääsi? Yritä uudelleen allaolevaa hakua käyttäen!
 # @ bbpress
 #: bbpress/form-search.php:14 includes/class-avada-layout-bbpress.php:141
 #: search.php:35
-#, fuzzy
 msgid "Search for:"
-msgstr "Hae ..."
+msgstr "Etsi ..."
 
 # @ Avada
 #: bbpress/form-search.php:17 includes/class-avada-layout-bbpress.php:144
@@ -52,9 +51,8 @@ msgstr "Hae foorumilta..."
 
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
-#, fuzzy
 msgid "In reply to: "
-msgstr "- Vastaa"
+msgstr "- Vastaa aiheeseen: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
@@ -68,15 +66,13 @@ msgstr ""
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:53
-#, fuzzy
 msgid "in forum "
-msgstr "Rooli foorumilla:"
+msgstr "foorumilla:"
 
 # @ bbpress
 #: bbpress/loop-single-reply.php:44
-#, fuzzy
 msgid "in reply to: "
-msgstr "- Vastaa"
+msgstr "vastauksena:"
 
 # @ Avada
 #: comments.php:31
@@ -137,12 +133,12 @@ msgstr "URL"
 
 #: comments.php:69
 msgid "Comment"
-msgstr ""
+msgstr "Kommentti"
 
 # @ Avada
 #: comments.php:69
 msgid "Comment..."
-msgstr "kommentoi..."
+msgstr "Kommentoi..."
 
 # @ Avada
 #: comments.php:70 comments.php:71
@@ -152,11 +148,11 @@ msgstr "Jätä kommentti"
 #. translators: Opening and closing link tags.
 #: comments.php:73
 msgid "You must be %1$slogged in%2$s to post a comment."
-msgstr ""
+msgstr "Sinun täytyy olla %1$skirjautuneena sisään%2$s kommentoidaksesi."
 
 #: comments.php:74
 msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
-msgstr ""
+msgstr "Olet kirjautunut sisään nimellä %1$s. %2$sKirjaudu ulos &raquo;%3$s"
 
 # @ Avada
 #: comments.php:74
@@ -941,8 +937,8 @@ msgstr ""
 
 # @ woocommerce
 #: includes/admin-screens/system-status.php:241
-#: includes/admin-screens/system-status.php:246
-#: templates/wc-view-order.php:167 templates/wc-view-order.php:184
+#: includes/admin-screens/system-status.php:246 templates/wc-view-order.php:167
+#: templates/wc-view-order.php:184
 msgid "N/A"
 msgstr ""
 
@@ -1350,7 +1346,7 @@ msgstr "Kirjaudu sisään"
 
 #: includes/avada-functions.php:493
 msgid "Register"
-msgstr ""
+msgstr "Rekisteröidy"
 
 # @ Avada
 #: includes/avada-functions.php:497
@@ -1360,7 +1356,7 @@ msgstr "Kirjaudu ulos"
 #. translators: Number of items.
 #: includes/avada-functions.php:552
 msgid "%s Item(s)"
-msgstr ""
+msgstr "%s kohdetta"
 
 # @ Avada
 #: includes/avada-functions.php:554
@@ -1369,8 +1365,7 @@ msgstr "ostoskori"
 
 # @ Avada
 #: includes/avada-functions.php:557 includes/avada-functions.php:591
-#: includes/avada-functions.php:596
-#: includes/lib/inc/templates/rollover.php:211
+#: includes/avada-functions.php:596 includes/lib/inc/templates/rollover.php:211
 #: templates/wc-top-user-container.php:44
 msgid "View Cart"
 msgstr "Tarkastele ostoskoria"
@@ -1994,13 +1989,12 @@ msgstr "etusivu"
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:119
 msgid "Tag:"
-msgstr ""
+msgstr "Avainsana:"
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:120
-#, fuzzy
 msgid "Search:"
-msgstr "Haku"
+msgstr "Haku:"
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:121
@@ -2072,7 +2066,7 @@ msgstr ""
 #: includes/class-avada-megamenu-framework.php:123
 #: includes/options/colors.php:140 includes/options/colors.php:196
 msgid "Save"
-msgstr ""
+msgstr "Tallenna"
 
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:124
@@ -2506,8 +2500,7 @@ msgid "Go to Top"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-scripts.php:615
-#: templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:615 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "lisätiedot"
 
@@ -2569,12 +2562,12 @@ msgstr "Jätä tämä ilmoitus huomiotta"
 
 #: includes/class-avada-woocommerce.php:606
 msgid "Dashboard"
-msgstr ""
+msgstr "Hallinta"
 
 # @ Avada
 #: includes/class-avada-woocommerce.php:1182
 msgid "You Have %d Item In Your Cart"
-msgstr ""
+msgstr "Sinulla on %d tuote ostoskorissasi"
 
 # @ Avada
 #: includes/class-avada-woocommerce.php:1184
@@ -5884,8 +5877,8 @@ msgstr "tausta"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:283
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:19
-#: includes/options/blog.php:47 includes/options/page_title_bar.php:29
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:19 includes/options/blog.php:47
+#: includes/options/page_title_bar.php:29
 #: includes/options/page_title_bar.php:36
 #: includes/options/page_title_bar.php:42
 msgid "Page Title Bar"
@@ -6391,20 +6384,19 @@ msgid "Adjust the button shortcode parameters for the second button."
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:19
-#: includes/options/layout.php:40 includes/options/layout.php:46
+#: includes/metaboxes/tabs/tab_background.php:19 includes/options/layout.php:40
+#: includes/options/layout.php:46
 msgid "Layout"
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:22
-#: includes/options/layout.php:53
+#: includes/metaboxes/tabs/tab_background.php:22 includes/options/layout.php:53
 msgid "Wide"
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:23
-#: includes/options/layout.php:52 includes/options/portfolio.php:136
+#: includes/metaboxes/tabs/tab_background.php:23 includes/options/layout.php:52
+#: includes/options/portfolio.php:136
 msgid "Boxed"
 msgstr ""
 
@@ -7086,23 +7078,19 @@ msgid ""
 "the opposite side. %s"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:78
-#: includes/options/sidebars.php:68
+#: includes/metaboxes/tabs/tab_sidebars.php:78 includes/options/sidebars.php:68
 msgid "Sticky Sidebars"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:82
-#: includes/options/sidebars.php:75
+#: includes/metaboxes/tabs/tab_sidebars.php:82 includes/options/sidebars.php:75
 msgid "Sidebar 1"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:83
-#: includes/options/sidebars.php:76
+#: includes/metaboxes/tabs/tab_sidebars.php:83 includes/options/sidebars.php:76
 msgid "Sidebar 2"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:84
-#: includes/options/sidebars.php:77
+#: includes/metaboxes/tabs/tab_sidebars.php:84 includes/options/sidebars.php:77
 msgid "Both"
 msgstr ""
 
@@ -9017,9 +9005,8 @@ msgstr ""
 
 # @ Avada
 #: includes/options/extra.php:120
-#, fuzzy
 msgid "Related Posts / Projects"
-msgstr "Samankaltaisia projekteja"
+msgstr "Samankaltaisia artikkeleita / projekteja"
 
 # @ Avada
 #: includes/options/extra.php:126
@@ -10242,19 +10229,19 @@ msgstr ""
 
 #: includes/options/lightbox.php:119
 msgid "Fast"
-msgstr ""
+msgstr "Nopea"
 
 #: includes/options/lightbox.php:120
 msgid "Slow"
-msgstr ""
+msgstr "Hidas"
 
 #: includes/options/lightbox.php:121
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 #: includes/options/lightbox.php:132
 msgid "Arrows"
-msgstr ""
+msgstr "Nuolet"
 
 #: includes/options/lightbox.php:133
 msgid "Turn on to display arrows in the lightbox"
@@ -10311,7 +10298,7 @@ msgstr ""
 # @ Avada
 #: includes/options/lightbox.php:254
 msgid "Deeplinking"
-msgstr ""
+msgstr "Syvälinkittäminen"
 
 #: includes/options/lightbox.php:255
 msgid "Turn on to deeplink images in the lightbox."
@@ -10420,9 +10407,8 @@ msgstr ""
 # @ Avada
 #: includes/options/logo.php:303 includes/options/logo.php:310
 #: templates/logo.php:70
-#, fuzzy
 msgid "Mobile Logo"
-msgstr "Google Map -leveys"
+msgstr "Mobiililogo"
 
 # @ Avada
 #: includes/options/logo.php:311
@@ -11411,7 +11397,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:135
 msgid "No Text"
-msgstr ""
+msgstr "Ei tekstiä"
 
 # @ Avada
 #: includes/options/portfolio.php:137
@@ -11532,7 +11518,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:278
 msgid "First Featured Image"
-msgstr ""
+msgstr "Ensimmäinen artikkelikuva"
 
 #: includes/options/portfolio.php:279
 msgid "Turn on to display the 1st featured image on single portfolio posts."
@@ -11556,7 +11542,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:317
 msgid "Project Description Title"
-msgstr ""
+msgstr "Projektia kuvaava otsikko"
 
 #: includes/options/portfolio.php:318
 msgid ""
@@ -11586,7 +11572,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:345
 msgid "Author"
-msgstr ""
+msgstr "Kirjoittaja"
 
 #: includes/options/portfolio.php:346
 msgid "Turn on to display the author name on single portfolio posts."
@@ -11602,12 +11588,12 @@ msgstr ""
 
 #: includes/options/responsive.php:29
 msgid "Responsive"
-msgstr ""
+msgstr "Responsiivinen"
 
 # @ Avada
 #: includes/options/responsive.php:35
 msgid "Responsive Design"
-msgstr ""
+msgstr "Responsiivinen ulkoasu"
 
 #: includes/options/responsive.php:36
 msgid ""
@@ -11766,7 +11752,7 @@ msgstr ""
 
 #: includes/options/search_page.php:90
 msgid "Search Field Position"
-msgstr ""
+msgstr "Hakukentän sijainti"
 
 #: includes/options/search_page.php:91
 msgid "Controls the position of the search bar on the search results page."
@@ -11774,11 +11760,11 @@ msgstr ""
 
 #: includes/options/search_page.php:96
 msgid "Above Results"
-msgstr ""
+msgstr "Tulosten yläpuolella"
 
 #: includes/options/search_page.php:97
 msgid "Below Results"
-msgstr ""
+msgstr "Tulosten alapuolella"
 
 #: includes/options/shortcode_styling.php:30
 msgid "Fusion Builder Elements"
@@ -11819,9 +11805,8 @@ msgstr ""
 
 # @ Avada
 #: includes/options/sidebars.php:96
-#, fuzzy
 msgid "Sidebar Widget Title Background Color"
-msgstr "Otsikon taustaväri"
+msgstr "Sivupalkin vimpaimen otsikon taustaväri"
 
 #: includes/options/sidebars.php:97
 msgid ""
@@ -12109,7 +12094,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:393
 msgid "WooCommerce Archive"
-msgstr ""
+msgstr "WooCommercen arkisto"
 
 #: includes/options/sidebars.php:402
 msgid ""
@@ -12403,7 +12388,7 @@ msgstr "Sosiaalinen media"
 
 #: includes/options/social_media.php:33
 msgid "Social Media Icons"
-msgstr ""
+msgstr "Sosiaalisen median kuvakkeet"
 
 #: includes/options/social_media.php:40
 msgid ""
@@ -12416,7 +12401,7 @@ msgstr ""
 
 #: includes/options/social_media.php:45
 msgid "Social Media Links"
-msgstr ""
+msgstr "Sosiaalisen median linkit"
 
 #: includes/options/social_media.php:46
 msgid ""
@@ -12430,7 +12415,7 @@ msgstr ""
 
 #: includes/options/social_media.php:61
 msgid "Link (URL)"
-msgstr ""
+msgstr "Linkki (URL)"
 
 #: includes/options/social_media.php:62 includes/options/social_media.php:68
 msgid "Insert your custom link here"
@@ -12483,13 +12468,13 @@ msgstr ""
 #: includes/options/social_media.php:117 includes/options/social_media.php:248
 #: includes/options/social_media.php:418
 msgid "Custom Colors"
-msgstr ""
+msgstr "Kustomoidut värit"
 
 #: includes/options/social_media.php:118 includes/options/social_media.php:249
 #: includes/options/social_media.php:419
 #: includes/widget/class-fusion-widget-social-links.php:503
 msgid "Brand Colors"
-msgstr ""
+msgstr "Brändin värit"
 
 #: includes/options/social_media.php:122
 msgid "Header Social Icon Color"
@@ -13127,7 +13112,7 @@ msgstr ""
 
 #: includes/options/woocommerce.php:308
 msgid "Clean"
-msgstr ""
+msgstr "Siisti"
 
 #: includes/options/woocommerce.php:312
 msgid "WooCommerce Tab Design"
@@ -13208,35 +13193,37 @@ msgstr ""
 #: includes/plugins/multiple_sidebars.php:162
 msgid "Widget Section already exists, please use a different name."
 msgstr ""
+"Vimpainosio on jo olemassa tällä nimellä, ole hyvä ja käytä toista nimeä."
 
 #: includes/plugins/multiple_sidebars.php:227
 #: includes/plugins/multiple_sidebars.php:306
 msgid "No Widget Sections defined."
-msgstr ""
+msgstr "Sivupalkkiosioita ei olla määritelty."
 
 #: includes/plugins/multiple_sidebars.php:230
 msgid "Sidebar does not exist."
-msgstr ""
+msgstr "Sivupalkkia ei ole olemassa."
 
 #: includes/plugins/multiple_sidebars.php:264
 msgid "Are you sure you want to remove"
-msgstr ""
+msgstr "Oletko varma että haluat poistaa"
 
 #: includes/plugins/multiple_sidebars.php:264
 msgid "This will remove any widgets you have assigned to this widget section."
 msgstr ""
+"Tämä poistaa kaikki vimpaimet, jotka olet määrittänyt tähän vimpainosioon."
 
 #: includes/plugins/multiple_sidebars.php:272
 msgid "Widget Section Name:"
-msgstr ""
+msgstr "Vimpainosion nimi:"
 
 #: includes/plugins/multiple_sidebars.php:283
 msgid "Widget Sections"
-msgstr ""
+msgstr "Vimpainosiot"
 
 #: includes/plugins/multiple_sidebars.php:288
 msgid "Widget Section Name"
-msgstr ""
+msgstr "Vimpainosion nimi"
 
 #: includes/plugins/multiple_sidebars.php:289
 msgid "CSS Class"
@@ -13244,20 +13231,20 @@ msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:300
 msgid "Remove this Widget Section"
-msgstr ""
+msgstr "Poista tämä vimpainosio"
 
 #: includes/plugins/multiple_sidebars.php:300
 msgid "remove"
-msgstr ""
+msgstr "poista"
 
 #: includes/plugins/multiple_sidebars.php:310
 msgid "Add New Widget Section"
-msgstr ""
+msgstr "Lisää uusi vimpainosio"
 
 # @ Avada
 #: includes/plugins/multiple_sidebars.php:391
 msgid "Select Sidebar 1:"
-msgstr ""
+msgstr "Valitse sivupalkki 1:"
 
 # @ Avada
 #: includes/plugins/multiple_sidebars.php:392
@@ -13279,12 +13266,12 @@ msgstr ""
 #: includes/plugins/multiple_sidebars.php:548
 #: includes/plugins/multiple_sidebars.php:606
 msgid "Blog Sidebar"
-msgstr ""
+msgstr "Blogin sivupalkki"
 
 #: includes/plugins/multiple_sidebars.php:423
 #: includes/plugins/multiple_sidebars.php:491
 msgid "No Sidebar"
-msgstr ""
+msgstr "Ei sivupalkkia"
 
 #: includes/plugins/multiple_sidebars.php:435
 #: includes/plugins/multiple_sidebars.php:442
@@ -13326,14 +13313,14 @@ msgstr "Seuraava kirjoitus"
 #: includes/widget/class-fusion-widget-ad-125-125.php:140
 #: includes/widget/class-fusion-widget-ad-125-125.php:149
 msgid "Ad %s"
-msgstr ""
+msgstr "Mainos %s"
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:124
 #: includes/widget/class-fusion-widget-ad-125-125.php:133
 #: includes/widget/class-fusion-widget-ad-125-125.php:142
 #: includes/widget/class-fusion-widget-ad-125-125.php:151
 msgid "Image Ad Link:"
-msgstr ""
+msgstr "Kuvamainoksen kohdelinkki:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-ad-125-125.php:128
@@ -13385,23 +13372,23 @@ msgstr "sähköposti"
 
 #: includes/widget/class-fusion-widget-contact-info.php:175
 msgid "Email Link Text:"
-msgstr ""
+msgstr "Sähköpostilinkin teksti:"
 
 #: includes/widget/class-fusion-widget-contact-info.php:179
 msgid "Website URL (with HTTP):"
-msgstr ""
+msgstr "Verkkosivuston osoite (HTTP-alku): "
 
 #: includes/widget/class-fusion-widget-contact-info.php:183
 msgid "Website URL Text:"
-msgstr ""
+msgstr "Verkkosivuston osoitteen teksti: "
 
 #: includes/widget/class-fusion-widget-facebook-page.php:31
 msgid "Adds support for Facebook Page Plugin."
-msgstr ""
+msgstr "Lisää tuen Facebookin Page-lisäosalle."
 
 #: includes/widget/class-fusion-widget-facebook-page.php:162
 msgid "Find us on Facebook"
-msgstr ""
+msgstr "Löydä meidät Facebookista"
 
 #: includes/widget/class-fusion-widget-facebook-page.php:174
 msgid ""
@@ -13429,30 +13416,30 @@ msgstr ""
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:198
 msgid "Show Friends Faces"
-msgstr ""
+msgstr "Näytä ystävien kasvot"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:203
 msgid "Show Posts"
-msgstr ""
+msgstr "Näytä artikkelit"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:208
 msgid "Show Cover Photo"
-msgstr ""
+msgstr "Näytä artikkelikuva"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-facebook-page.php:213
 msgid "Use Small Header"
-msgstr "Näytä otsake"
+msgstr "Näytä pieni otsake"
 
 #: includes/widget/class-fusion-widget-flickr.php:31
 msgid "The most recent photos from flickr."
-msgstr ""
+msgstr "Viimeisimmät kuvat flickr:stä."
 
 #: includes/widget/class-fusion-widget-flickr.php:152
 msgid "Photos from Flickr"
-msgstr ""
+msgstr "Kuvat Flickr:stä"
 
 #: includes/widget/class-fusion-widget-flickr.php:168
 msgid "Flickr ID (<a href=\"%s\">Get your flickr ID</a>):"
@@ -13502,7 +13489,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-menu.php:204
 msgid "Font Size:"
-msgstr ""
+msgstr "Fonttikoko:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-recent-works.php:130
@@ -13515,7 +13502,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-social-links.php:433
 msgid "Get Social"
-msgstr ""
+msgstr "Sosiaalinen media"
 
 #: includes/widget/class-fusion-widget-social-links.php:490
 msgid "Link Target:"
@@ -13590,7 +13577,7 @@ msgstr "Yhtään kirjoitusta ei ole vielä julkaistu."
 
 #: includes/widget/class-fusion-widget-tabs.php:186
 msgid "%s says:"
-msgstr ""
+msgstr "henkilö %s sanoo:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:188
@@ -13606,23 +13593,23 @@ msgstr "Yhtään kommenttia ei ole vielä julkaistu."
 #: includes/widget/class-fusion-widget-tabs.php:252
 #: includes/widget/class-fusion-widget-tabs.php:260
 msgid "Highest Comments"
-msgstr "Lähetä kommentti"
+msgstr "Suosituimmat kommentit"
 
 #: includes/widget/class-fusion-widget-tabs.php:258
 msgid "Popular Posts Order By:"
-msgstr ""
+msgstr "Lajittele suosituimmat artikkelit tämän mukaan: "
 
 #: includes/widget/class-fusion-widget-tabs.php:261
 msgid "Highest Views"
-msgstr ""
+msgstr "Eniten katselukertoja"
 
 #: includes/widget/class-fusion-widget-tabs.php:265
 msgid "Number of popular posts:"
-msgstr ""
+msgstr "Suosituimpien artikkeleiden määrä:"
 
 #: includes/widget/class-fusion-widget-tabs.php:269
 msgid "Number of recent posts:"
-msgstr ""
+msgstr "Viimeisimpien artikkeleiden määrä:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:273
@@ -13631,7 +13618,7 @@ msgstr "Ei kommentteja"
 
 #: includes/widget/class-fusion-widget-tabs.php:278
 msgid "Show popular posts"
-msgstr ""
+msgstr "Näytä suositus artikkelit"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:282
@@ -13670,9 +13657,8 @@ msgstr ""
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:257
-#, fuzzy
 msgid "Twitter Style"
-msgstr "Twitter"
+msgstr "Twitterin tyyli"
 
 #: includes/widget/class-fusion-widget-tweets.php:258
 msgid "Avada Style"
@@ -13705,7 +13691,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-tweets.php:293
 msgid "Number of Tweet (max. 20 tweets possible):"
-msgstr ""
+msgstr "Twiittien määrä (max. 20 twiittiä): "
 
 #: includes/widget/class-fusion-widget-tweets.php:298
 msgid "Icon Color (leave empty for default icon color):"
@@ -13713,11 +13699,11 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-tweets.php:303
 msgid "Max. Width (has to be between 180 and 520):"
-msgstr ""
+msgstr "Maksimi leveys (180 - 520 väliltä): "
 
 #: includes/widget/class-fusion-widget-tweets.php:308
 msgid "Height (min. is 200):"
-msgstr ""
+msgstr "Korkeus (minimi on 200):"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:313
@@ -13737,31 +13723,27 @@ msgstr "Reunuksen väri"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:332
-#, fuzzy
 msgid "Show Header"
-msgstr "Näytä lisätiedot"
+msgstr "Näytä otsake"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:337
-#, fuzzy
 msgid "Show Footer"
-msgstr "Näytä kirjoittaja"
+msgstr "Näytä alapalkki"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:342
-#, fuzzy
 msgid "Show Borders"
-msgstr "Näytä kommentit"
+msgstr "Näytä reunat"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:347
-#, fuzzy
 msgid "Transparent Background"
-msgstr "Kuvatekstin tausta"
+msgstr "Läpinäkyvä tausta"
 
 #: includes/widget/class-fusion-widget-tweets.php:365
 msgid "Tweets by %s"
-msgstr ""
+msgstr "Twiitit henkilöltä %s"
 
 # @ Avada
 #: search.php:36 searchform.php:17
@@ -13780,11 +13762,11 @@ msgstr "Hupsis!"
 
 #: search.php:61
 msgid "Helpful Links:"
-msgstr ""
+msgstr "Hyödyllisiä linkkejä"
 
 #: search.php:73
 msgid "Try again"
-msgstr ""
+msgstr "Yritä uudelleen"
 
 # @ Avada
 #: search.php:74
@@ -13795,12 +13777,12 @@ msgstr "Voit muotoilla hakusi uudelleen, jos haluat:"
 #: single-wpfc_sermon.php:56 single-wpfc_sermon.php:76
 #: tribe-events/pro/photo/single-event.php:29
 msgid "Go to \"%s\""
-msgstr ""
+msgstr "Mene kohteeseen \"%s\""
 
 #. translators: The link.
 #: single-wpfc_sermon.php:127 single.php:126
 msgid "About the Author: %s"
-msgstr ""
+msgstr "Tietoa kirjoittajasta: %s"
 
 #: single.php:66
 msgid "View Larger Image"
@@ -13817,11 +13799,11 @@ msgstr "Kirjoittaja ei ole lisännyt lisätietoja."
 
 #: templates/author-info.php:31
 msgid "So far %1$s has created %2$s blog entries."
-msgstr ""
+msgstr "Tähän mennessä %1$s on luonut %2$s blogiartikkelia."
 
 #: templates/author-info.php:41
 msgid "About %s"
-msgstr ""
+msgstr "Tietoa %s"
 
 # @ Avada
 #: templates/author-info.php:46
@@ -13836,17 +13818,17 @@ msgstr "Lue lisää"
 # @ Avada
 #: templates/blog-layout.php:320
 msgid "Protected"
-msgstr ""
+msgstr "Suojattu"
 
 # @ Avada
 #: templates/blog-layout.php:375
 msgid "Load More Posts"
-msgstr ""
+msgstr "Lataa lisää artikkeleita"
 
 # @ Avada
 #: templates/elasticslider.php:32
 msgid "Loading..."
-msgstr ""
+msgstr "Ladataan..."
 
 #: templates/logo.php:62 templates/logo.php:64
 msgid "Retina Logo"
@@ -13878,19 +13860,19 @@ msgstr ""
 
 #: templates/wc-after-single-product-summary.php:30
 msgid "Share On Facebook"
-msgstr ""
+msgstr "Jaa Facebookissa"
 
 #: templates/wc-after-single-product-summary.php:38
 msgid "Tweet This Product"
-msgstr ""
+msgstr "Twiittaa tästä tuotteesta"
 
 #: templates/wc-after-single-product-summary.php:47
 msgid "Pin This Product"
-msgstr ""
+msgstr "Pin tämä tuote"
 
 #: templates/wc-after-single-product-summary.php:55
 msgid "Mail This Product"
-msgstr ""
+msgstr "Jaa tuote sähköpostitse"
 
 # @ Avada
 # @ woocommerce
@@ -13926,47 +13908,47 @@ msgstr "Syötä mahdollinen alennuskoodi."
 #: templates/wc-checkout-coupon-form.php:26 woocommerce/cart/cart.php:141
 #: woocommerce/compatibility/2.6/cart/cart.php:121
 msgid "Coupon code"
-msgstr ""
+msgstr "Kuponkikoodi"
 
 # @ woocommerce
 #: templates/wc-cart-collaterals.php:24
 #: woocommerce/compatibility/2.6/cart/cart.php:121
 msgid "Apply Coupon"
-msgstr ""
+msgstr "Vahvista kuponki"
 
 #: templates/wc-cart-shipping-calc.php:24
 msgid "Calculate shipping"
-msgstr ""
+msgstr "Laske toimituskulut"
 
 # @ woocommerce
 #: templates/wc-cart-shipping-calc.php:31
 msgid "Select a country&hellip;"
-msgstr ""
+msgstr "Valitse valtio"
 
 # @ woocommerce
 #: templates/wc-cart-shipping-calc.php:49
 #: templates/wc-cart-shipping-calc.php:54
 #: templates/wc-cart-shipping-calc.php:66
 msgid "State / county"
-msgstr ""
+msgstr "Valtio"
 
 # @ woocommerce
 #: templates/wc-cart-shipping-calc.php:55
 msgid "Select a state&hellip;"
-msgstr ""
+msgstr "Valitse valtio"
 
 # @ woocommerce
 #: templates/wc-cart-shipping-calc.php:74
 msgid "City"
-msgstr ""
+msgstr "Kaupunki"
 
 #: templates/wc-cart-shipping-calc.php:82
 msgid "Postcode / ZIP"
-msgstr ""
+msgstr "Postinumero"
 
 #: templates/wc-cart-shipping-calc.php:88
 msgid "Update totals"
-msgstr ""
+msgstr "Päivitä summa"
 
 # @ Avada
 #: templates/wc-catalog-ordering.php:44 templates/wc-catalog-ordering.php:79
@@ -14001,40 +13983,40 @@ msgstr "arvostelu"
 #: templates/wc-catalog-ordering.php:88 templates/wc-catalog-ordering.php:91
 #: templates/wc-catalog-ordering.php:95
 msgid "Sort by %s"
-msgstr ""
+msgstr "Lajittele: %s"
 
 #: templates/wc-catalog-ordering.php:105
 msgid "Ascending order"
-msgstr ""
+msgstr "Nouseva järjestys"
 
 #: templates/wc-catalog-ordering.php:107
 msgid "Descending order"
-msgstr ""
+msgstr "Laskeva järjestys"
 
 #: templates/wc-catalog-ordering.php:115 templates/wc-catalog-ordering.php:118
 #: templates/wc-catalog-ordering.php:121 templates/wc-catalog-ordering.php:124
 msgid "Show <strong>%s Products</strong>"
-msgstr ""
+msgstr "Näytä <strong>%s tuotetta</strong>"
 
 #: templates/wc-catalog-ordering.php:142
 msgid "View as grid"
-msgstr ""
+msgstr "Tarkastele ruudukkona"
 
 #: templates/wc-catalog-ordering.php:145
 msgid "View as list"
-msgstr ""
+msgstr "Tarkastele listauksena"
 
 #: templates/wc-checkout-coupon-form.php:30 woocommerce/cart/cart.php:141
 msgid "Apply coupon"
-msgstr ""
+msgstr "Vahvista kuponki"
 
 #: templates/wc-proceed-to-checkout.php:15 woocommerce/cart/cart.php:146
 msgid "Update cart"
-msgstr ""
+msgstr "Päivitä ostoskori"
 
 #: templates/wc-product-loop-outofstock-flash.php:19
 msgid "Out of stock"
-msgstr ""
+msgstr "Loppuunmyyty"
 
 # @ Avada
 #: templates/wc-product-search-form.php:17
@@ -14043,26 +14025,26 @@ msgstr "Hae..."
 
 #: templates/wc-top-user-container.php:20
 msgid "Hello %1$s (not %2$s? %3$s)"
-msgstr ""
+msgstr "Hei %1$s (etkö ole %2$s? %3$s)"
 
 #: templates/wc-top-user-container.php:23
 msgid "Sign Out"
-msgstr ""
+msgstr "Kirjaudu ulos"
 
 # @ Avada
 #: templates/wc-top-user-container.php:27
 msgid "Hello"
-msgstr ""
+msgstr "Hei"
 
 #: templates/wc-view-order.php:18
 msgid "Order details"
-msgstr ""
+msgstr "Tilauksen tiedot"
 
 # @ woocommerce
 #: templates/wc-view-order.php:23 woocommerce/cart/cart.php:36
 #: woocommerce/cart/cart.php:92 woocommerce/compatibility/2.6/cart/cart.php:28
 msgid "Quantity"
-msgstr ""
+msgstr "Määrä"
 
 # @ woocommerce
 #: templates/wc-view-order.php:24 woocommerce/cart/cart.php:37
@@ -14072,39 +14054,39 @@ msgstr ""
 #: woocommerce/compatibility/2.6/checkout/review-order.php:18
 #: woocommerce/compatibility/2.6/checkout/review-order.php:118
 msgid "Total"
-msgstr ""
+msgstr "Yhteensä"
 
 # @ woocommerce
 #: templates/wc-view-order.php:134
 msgid "Customer details"
-msgstr ""
+msgstr "Asiakkaan tiedot"
 
 #: templates/wc-view-order.php:161
 msgid "Billing address"
-msgstr ""
+msgstr "laskutusosoite"
 
 #: templates/wc-view-order.php:179
 msgid "Shipping address"
-msgstr ""
+msgstr "Toimitusosoite"
 
 #: tribe-events/day/single-event.php:70 tribe-events/list/single-event.php:69
 #: tribe-events/pro/map/single-event.php:69
 msgid "Find out more"
-msgstr ""
+msgstr "Lue lisää"
 
 #: tribe-events/month/single-day.php:41
 msgid "View 1 %1$s"
 msgid_plural "View All %2$s %3$s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tarkastele yhtä %1$s"
+msgstr[1] "Tarkastele kaikkia %2$s %3$s"
 
 #: tribe-events/pro/photo/single-event.php:78
 msgid "Find Out More"
-msgstr ""
+msgstr "Lue lisää"
 
 #: tribe-events/pro/related-events.php:27
 msgid "Related %s"
-msgstr ""
+msgstr "Samankaltaisia %s"
 
 # @ Avada
 #: tribe-events/pro/widgets/countdown-widget.php:21
@@ -14118,62 +14100,62 @@ msgstr "tunnit"
 
 #: tribe-events/pro/widgets/countdown-widget.php:29
 msgid "min"
-msgstr ""
+msgstr "minuutit"
 
 #: tribe-events/pro/widgets/countdown-widget.php:34
 msgid "sec"
-msgstr ""
+msgstr "sekunnit"
 
 #: tribe-events/pro/widgets/list-widget.php:57
 msgid "View More&hellip;"
-msgstr ""
+msgstr "Lue lisää%hellip;"
 
 #: tribe-events/pro/widgets/list-widget.php:65
 #: tribe-events/widgets/list-widget.php:69
 msgid "There are no upcoming %s at this time."
-msgstr ""
+msgstr "Tällä hetkellä ei ole tulevia %s"
 
 #: tribe-events/pro/widgets/venue-widget.php:40
 msgid "No upcoming %s."
-msgstr ""
+msgstr "Ei tulevia %s."
 
 #: tribe-events/pro/widgets/venue-widget.php:63
 msgid "View all %1$s at this %2$s"
-msgstr ""
+msgstr "Tarkastele kaikkia %1$s tässä %2$s"
 
 #: tribe-events/single-event.php:83
 msgid "%s Navigation"
-msgstr ""
+msgstr "%s navigaatio"
 
 #: tribe-events/widgets/list-widget.php:65
 msgid "View All %s"
-msgstr ""
+msgstr "Tarkastele kaikkia %s"
 
 # @ woocommerce
 #: woocommerce/cart/cart.php:80 woocommerce/compatibility/2.6/cart/cart.php:70
 msgid "Available on backorder"
-msgstr ""
+msgstr "Jälkitilattavissa"
 
 # @ woocommerce
 #: woocommerce/cart/cart.php:121
 #: woocommerce/compatibility/2.6/cart/cart.php:106
 msgid "Remove this item"
-msgstr ""
+msgstr "Poista tämä kohde"
 
 #: woocommerce/cart/cart.php:141
 msgid "Coupon:"
-msgstr ""
+msgstr "Kuponki:"
 
 # @ woocommerce
 #: woocommerce/checkout/form-pay.php:24
 #: woocommerce/compatibility/2.6/checkout/form-pay.php:24
 msgid "Your order"
-msgstr ""
+msgstr "Tilauksesi"
 
 #: woocommerce/checkout/form-pay.php:32
 #: woocommerce/compatibility/2.6/checkout/form-pay.php:32
 msgid "Totals"
-msgstr ""
+msgstr "Yhteensä"
 
 # @ woocommerce
 #: woocommerce/checkout/form-pay.php:87
@@ -14183,38 +14165,42 @@ msgid ""
 "location. Please contact us if you require assistance or wish to make "
 "alternate arrangements."
 msgstr ""
+"Anteeksi, vaikuttaa siltä että sijainnissasi ei ole saatavilla maksutapoja. "
+"Ole hyvä ja ota yhteyttä sopiaksesi järjestelyistä."
 
 #: woocommerce/checkout/review-order.php:71
 #: woocommerce/compatibility/2.6/checkout/review-order.php:71
 msgid "Subtotal"
-msgstr ""
+msgstr "Välisumma"
 
 #: woocommerce/checkout/thankyou.php:33
 msgid ""
 "Unfortunately your order cannot be processed as the originating bank/"
 "merchant has declined your transaction. Please attempt your purchase again."
 msgstr ""
+"Valitettavasti tilauksesi käsittely epäonnistui, koska maksupalveluntarjoaja "
+"esti maksun välityksen. Ole hyvä ja yritä maksua uudelleen."
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:36
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:35
 msgid "Pay"
-msgstr ""
+msgstr "Maksa"
 
 #: woocommerce/checkout/thankyou.php:38
 msgid "My account"
-msgstr ""
+msgstr "Oma tili"
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:45 woocommerce/checkout/thankyou.php:86
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:44
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:80
 msgid "Thank you. Your order has been received."
-msgstr ""
+msgstr "Kiitos. Tilauksesi on vastaanotettu"
 
 #: woocommerce/checkout/thankyou.php:49
 msgid "Order number:"
-msgstr ""
+msgstr "Tilauksen numero:"
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:54
@@ -14227,20 +14213,20 @@ msgstr "päiväys"
 #: woocommerce/checkout/thankyou.php:59
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:56
 msgid "Total:"
-msgstr ""
+msgstr "Yhteensä:"
 
 #: woocommerce/checkout/thankyou.php:65
 msgid "Payment method:"
-msgstr ""
+msgstr "Maksutapa:"
 
 #: woocommerce/compatibility/2.6/cart/cart.php:121
 msgid "Coupon"
-msgstr ""
+msgstr "Kuponki:"
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/cart/cart.php:127
 msgid "Update Cart"
-msgstr ""
+msgstr "Päivitä ostoskori"
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:25
@@ -14248,45 +14234,47 @@ msgid ""
 "Unfortunately your order cannot be processed as the originating bank/"
 "merchant has declined your transaction."
 msgstr ""
+"Valitettavasti tilauksesi käsittely epäonnistui, koska maksupalveluntarjoaja "
+"esti maksun välityksen."
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:29
 msgid "Please attempt your purchase again or go to your account page."
-msgstr ""
+msgstr "Ole hyvä ja yritä maksua uudelleen tai mene omalle tilille"
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:31
 msgid "Please attempt your purchase again."
-msgstr ""
+msgstr "Ole hyvä ja yritä maksua uudelleen."
 
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:48
 msgid "Order Number:"
-msgstr ""
+msgstr "Tilauksen numero:"
 
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:61
 msgid "Payment Method:"
-msgstr ""
+msgstr "Maksutapa:"
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/single-product/add-to-cart/variable.php:32
 #: woocommerce/single-product/add-to-cart/variable.php:36
 msgid "This product is currently out of stock and unavailable."
-msgstr ""
+msgstr "Tämä tuote on loppunut varastosta"
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/single-product/add-to-cart/variable.php:55
 #: woocommerce/single-product/add-to-cart/variable.php:59
 msgid "Clear selection"
-msgstr ""
+msgstr "Poista valinta"
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/single-product/tabs/description.php:14
 msgid "Product Description"
-msgstr ""
+msgstr "Tuotekuvaus"
 
 #: woocommerce/single-product/tabs/additional-information.php:25
 msgid "Additional information"
-msgstr ""
+msgstr "Lisätietoja"
 
 #. Theme Name of the plugin/theme
 msgid "Avada"
@@ -14313,16 +14301,16 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "100% Width"
-msgstr ""
+msgstr "100% leveys"
 
 #. Template Name of the plugin/theme
 msgid "Blank Page"
-msgstr ""
+msgstr "Tyhjä sivu"
 
 # @ Avada
 #. Template Name of the plugin/theme
 msgid "Contact"
-msgstr ""
+msgstr "Ota yhteyttä"
 
 #. Template Name of the plugin/theme
 msgid "Side Navigation"
@@ -14363,12 +14351,12 @@ msgstr "%s..."
 #: includes/wc-functions.php:74
 msgctxt "breadcrumb"
 msgid "Home"
-msgstr ""
+msgstr "Koti"
 
 #: includes/widget/class-fusion-widget-tweets.php:668
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
-msgstr ""
+msgstr "%s sitten"
 
 # @ wordpress-importer
 #, fuzzy
