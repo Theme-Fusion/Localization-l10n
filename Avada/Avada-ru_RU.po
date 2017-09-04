@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-03-15 16:33:51+00:00\n"
-"PO-Revision-Date: 2016-03-07 14:59-0000\n"
+"PO-Revision-Date: 2017-09-04 19:10+0300\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-Bookmarks: 2359,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 # @ Avada
@@ -27,7 +27,7 @@ msgstr "К сожалению, эта страница не найдена!"
 
 #: 404.php:30
 msgid "Helpful Links"
-msgstr ""
+msgstr "Полезные ссылки"
 
 # @ Avada
 #: 404.php:43
@@ -134,12 +134,12 @@ msgstr "Адрес URL"
 
 #: comments.php:69
 msgid "Comment"
-msgstr ""
+msgstr "Комментарий"
 
 # @ Avada
 #: comments.php:69
 msgid "Comment..."
-msgstr "Комментарий..."
+msgstr "Комментировать..."
 
 # @ Avada
 #: comments.php:70 comments.php:71
@@ -1247,8 +1247,7 @@ msgstr "Корзина"
 
 # @ Avada
 #: includes/avada-functions.php:548 includes/avada-functions.php:579
-#: includes/avada-functions.php:584
-#: includes/lib/inc/templates/rollover.php:210
+#: includes/avada-functions.php:584 includes/lib/inc/templates/rollover.php:210
 #: templates/wc-top-user-container.php:39
 msgid "View Cart"
 msgstr "Смотреть корзину"
@@ -2015,8 +2014,7 @@ msgid "Go to Top"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-scripts.php:548
-#: templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:548 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "Детали"
 
@@ -3260,15 +3258,15 @@ msgstr ""
 
 #: includes/lib/inc/functions.php:155 includes/lib/inc/functions.php:157
 msgid "By %s"
-msgstr ""
+msgstr "%s"
 
 #: includes/lib/inc/functions.php:183
 msgid "Categories: %s"
-msgstr ""
+msgstr "Рубрики: %s"
 
 #: includes/lib/inc/functions.php:195
 msgid "Tags: %s"
-msgstr ""
+msgstr "Метки: %s"
 
 # @ Avada
 #: includes/lib/inc/functions.php:202 templates/related-posts.php:97
@@ -5373,8 +5371,8 @@ msgstr "Фон"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:295
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:19
-#: includes/options/blog.php:47 includes/options/page_title_bar.php:27
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:19 includes/options/blog.php:47
+#: includes/options/page_title_bar.php:27
 #: includes/options/page_title_bar.php:34
 #: includes/options/page_title_bar.php:40
 msgid "Page Title Bar"
@@ -5887,20 +5885,19 @@ msgid "Adjust the button shortcode parameters for the second button."
 msgstr "Настройте параметры шоткода кнопки для второй кнопки."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:19
-#: includes/options/layout.php:40 includes/options/layout.php:46
+#: includes/metaboxes/tabs/tab_background.php:19 includes/options/layout.php:40
+#: includes/options/layout.php:46
 msgid "Layout"
 msgstr "Макет вывода"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:22
-#: includes/options/layout.php:53
+#: includes/metaboxes/tabs/tab_background.php:22 includes/options/layout.php:53
 msgid "Wide"
 msgstr "На всю ширину окна браузера"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:23
-#: includes/options/layout.php:52 includes/options/portfolio.php:186
+#: includes/metaboxes/tabs/tab_background.php:23 includes/options/layout.php:52
+#: includes/options/portfolio.php:186
 msgid "Boxed"
 msgstr "С заданной шириной"
 
@@ -6647,8 +6644,7 @@ msgstr ""
 "отображаться с противоположной стороны контента относительно 1-го сайдбара."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:77
-#: includes/options/sidebars.php:76
+#: includes/metaboxes/tabs/tab_sidebars.php:77 includes/options/sidebars.php:76
 msgid "Sidebar Background Color"
 msgstr "Фоновый Цвет Сайдбара"
 
@@ -13351,12 +13347,12 @@ msgstr "%s Ссылка:"
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:74
 msgid "Popular"
-msgstr "Популярные"
+msgstr "Лучшие"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:78
 msgid "Recent"
-msgstr "Последние"
+msgstr "Новые"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:123
@@ -13366,7 +13362,7 @@ msgstr "Нет опубликованных записей."
 
 #: includes/widget/class-fusion-widget-tabs.php:181
 msgid "%s says:"
-msgstr ""
+msgstr "%s говорит:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:183
