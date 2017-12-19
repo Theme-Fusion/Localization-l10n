@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-core\n"
-"POT-Creation-Date: 2017-11-29 13:26:29+00:00\n"
+"POT-Creation-Date: 2017-12-19 07:47:00+00:00\n"
 "PO-Revision-Date: 2017-04-05 08:59+0200\n"
 "Last-Translator: NiloVelez\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
@@ -162,7 +162,7 @@ msgstr "Fusion Patcher"
 # @ fusion-core
 #: fusion-slider/class-fusion-slider.php:71
 #: fusion-slider/class-fusion-slider.php:98
-#: shortcodes/fusion-fusionslider.php:482
+#: shortcodes/fusion-fusionslider.php:503
 msgid "Fusion Slider"
 msgstr "Fusion Slider"
 
@@ -231,40 +231,40 @@ msgid "Choose from the most used sliders"
 msgstr "Escoger entre los sliders más utilizados"
 
 # @ fusion-core
-#: fusion-slider/class-fusion-slider.php:237
+#: fusion-slider/class-fusion-slider.php:238
 msgid "Export / Import"
 msgstr "Exportar / Importar"
 
-#: fusion-slider/class-fusion-slider.php:651
+#: fusion-slider/class-fusion-slider.php:656
 msgid "No file to import."
 msgstr "No hay archivo para importar"
 
-#: fusion-slider/class-fusion-slider.php:707
+#: fusion-slider/class-fusion-slider.php:712
 #: fusion-slider/templates/clone-button-after-title.php:14
 msgid "Clone this slide"
 msgstr "Clonar este slide"
 
-#: fusion-slider/class-fusion-slider.php:707
-#: fusion-slider/class-fusion-slider.php:727
+#: fusion-slider/class-fusion-slider.php:712
+#: fusion-slider/class-fusion-slider.php:732
 msgid "Clone"
 msgstr "Clonar"
 
-#: fusion-slider/class-fusion-slider.php:727
+#: fusion-slider/class-fusion-slider.php:732
 #: fusion-slider/templates/clone-button-edit-form.php:12
 #: fusion-slider/templates/clone-button-edit-form.php:13
 msgid "Clone this slider"
 msgstr "Clonar este slider"
 
-#: fusion-slider/class-fusion-slider.php:778
-#: fusion-slider/class-fusion-slider.php:898
+#: fusion-slider/class-fusion-slider.php:783
+#: fusion-slider/class-fusion-slider.php:903
 msgid "%s ( Cloned )"
 msgstr "%s ( clonado )"
 
-#: fusion-slider/class-fusion-slider.php:848
+#: fusion-slider/class-fusion-slider.php:853
 msgid "No slide to clone."
 msgstr "No hay slide para clonar."
 
-#: fusion-slider/class-fusion-slider.php:868
+#: fusion-slider/class-fusion-slider.php:873
 msgid "Cloninig failed. Post not found. ID: %s"
 msgstr "El clonado ha fallado. No se ha encontrado la entrada. ID: %s"
 
@@ -281,17 +281,17 @@ msgstr ""
 
 # @ fusion-core
 #: fusion-slider/templates/add-new-meta-fields.php:17
-#: fusion-slider/templates/add-new-meta-fields.php:66
+#: fusion-slider/templates/add-new-meta-fields.php:69
 #: fusion-slider/templates/edit-meta-fields.php:17
-#: fusion-slider/templates/edit-meta-fields.php:78
+#: fusion-slider/templates/edit-meta-fields.php:81
 msgid "Width"
 msgstr "Ancho"
 
 # @ fusion-core
 #: fusion-slider/templates/add-new-meta-fields.php:21
-#: fusion-slider/templates/add-new-meta-fields.php:70
+#: fusion-slider/templates/add-new-meta-fields.php:73
 #: fusion-slider/templates/edit-meta-fields.php:21
-#: fusion-slider/templates/edit-meta-fields.php:82
+#: fusion-slider/templates/edit-meta-fields.php:85
 msgid "Height"
 msgstr "Alto"
 
@@ -324,42 +324,59 @@ msgstr "Marcar esta opción si deseas el  alto y el ancho a pantalla completa."
 
 #: fusion-slider/templates/add-new-meta-fields.php:36
 #: fusion-slider/templates/edit-meta-fields.php:41
-msgid "Scroll Down Indicator"
-msgstr ""
-
-#: fusion-slider/templates/add-new-meta-fields.php:39
-#: fusion-slider/templates/edit-meta-fields.php:45
-msgid ""
-"Check this option to display a scroll down indicator icon at the bottom of "
-"the slider."
-msgstr ""
-
-#: fusion-slider/templates/add-new-meta-fields.php:42
-#: fusion-slider/templates/edit-meta-fields.php:49
-msgid "Scroll Down Indicator Color"
-msgstr ""
-
-#: fusion-slider/templates/add-new-meta-fields.php:44
-#: fusion-slider/templates/edit-meta-fields.php:52
-msgid "Default: %s"
-msgstr ""
-
-#: fusion-slider/templates/add-new-meta-fields.php:45
-#: fusion-slider/templates/edit-meta-fields.php:53
-msgid ""
-"Select a color for the scroll down indicator icon. Hex color code, ex: #fff. "
-"%s"
+msgid "Slider Indicator"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:50
-#: fusion-slider/templates/edit-meta-fields.php:57
+# @ Avada
+#: fusion-slider/templates/add-new-meta-fields.php:38
+#: fusion-slider/templates/edit-meta-fields.php:44
+#: shortcodes/fusion-portfolio.php:1326 shortcodes/fusion-portfolio.php:1722
+#: shortcodes/fusion-portfolio.php:1879
+msgid "None"
+msgstr "Ninguno"
+
+#: fusion-slider/templates/add-new-meta-fields.php:39
+#: fusion-slider/templates/edit-meta-fields.php:45
+msgid "Scroll Down Indicator"
+msgstr ""
+
+#: fusion-slider/templates/add-new-meta-fields.php:40
+#: fusion-slider/templates/edit-meta-fields.php:46
+msgid "Pagination Circles"
+msgstr ""
+
+#: fusion-slider/templates/add-new-meta-fields.php:42
+#: fusion-slider/templates/edit-meta-fields.php:48
+msgid ""
+"Choose do you want to display paginatin circler or scroll down indicator."
+msgstr ""
+
+#: fusion-slider/templates/add-new-meta-fields.php:45
+#: fusion-slider/templates/edit-meta-fields.php:52
+msgid "Slider Indicator Color"
+msgstr ""
+
+#: fusion-slider/templates/add-new-meta-fields.php:47
+#: fusion-slider/templates/edit-meta-fields.php:55
+msgid "Default: %s"
+msgstr ""
+
+#: fusion-slider/templates/add-new-meta-fields.php:48
+#: fusion-slider/templates/edit-meta-fields.php:56
+msgid ""
+"Select a color for the slider indicator icon. Hex color code, ex: #fff. %s"
+msgstr ""
+
+# @ fusion-core
+#: fusion-slider/templates/add-new-meta-fields.php:53
+#: fusion-slider/templates/edit-meta-fields.php:60
 msgid "Parallax Scrolling Effect"
 msgstr "Efecto de desplazamiento Parallax"
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:53
-#: fusion-slider/templates/edit-meta-fields.php:61
+#: fusion-slider/templates/add-new-meta-fields.php:56
+#: fusion-slider/templates/edit-meta-fields.php:64
 msgid ""
 "Check this box to have a parallax scrolling effect, this ONLY works when "
 "assigning the slider in page options. It does not work when using a slider "
@@ -375,147 +392,135 @@ msgstr ""
 "en consecuencia."
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:56
-#: fusion-slider/templates/edit-meta-fields.php:65
+#: fusion-slider/templates/add-new-meta-fields.php:59
+#: fusion-slider/templates/edit-meta-fields.php:68
 msgid "Display Navigation Arrows"
 msgstr "Mostrar flechas de navegación"
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:59
-#: fusion-slider/templates/edit-meta-fields.php:69
+#: fusion-slider/templates/add-new-meta-fields.php:62
+#: fusion-slider/templates/edit-meta-fields.php:72
 msgid "Check this box to display the navigation arrows."
 msgstr "Marcar para mostrar las flechas de navegación."
 
-#: fusion-slider/templates/add-new-meta-fields.php:62
-#: fusion-slider/templates/edit-meta-fields.php:73
+#: fusion-slider/templates/add-new-meta-fields.php:65
+#: fusion-slider/templates/edit-meta-fields.php:76
 msgid "Navigation Box Size"
 msgstr "Tamaño de la caja de navegación"
 
-#: fusion-slider/templates/add-new-meta-fields.php:63
+#: fusion-slider/templates/add-new-meta-fields.php:66
 msgid "Enter a pixel value for width and height, ex: 40px"
 msgstr ""
 "Introduce un valor en píxeles para el ancho y alto, por ejemplo: 1000px"
 
-#: fusion-slider/templates/add-new-meta-fields.php:74
-#: fusion-slider/templates/edit-meta-fields.php:87
+#: fusion-slider/templates/add-new-meta-fields.php:77
+#: fusion-slider/templates/edit-meta-fields.php:90
 msgid "Navigation Arrow Size"
 msgstr "Tamaño de las flechas de Navegación"
 
-#: fusion-slider/templates/add-new-meta-fields.php:76
-#: fusion-slider/templates/edit-meta-fields.php:90
+#: fusion-slider/templates/add-new-meta-fields.php:79
+#: fusion-slider/templates/edit-meta-fields.php:93
 msgid "Enter a pixel value for the arrow size, ex: 14px"
 msgstr ""
 "Introduzce un valor en píxeles para el tamaño de la flecha, por ejemplo: 14px"
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:79
-#: fusion-slider/templates/edit-meta-fields.php:94
-msgid "Display Pagination Circles"
-msgstr "Mostrar paginación en Círculos"
-
-# @ fusion-core
 #: fusion-slider/templates/add-new-meta-fields.php:82
-#: fusion-slider/templates/edit-meta-fields.php:98
-msgid "Check this box to display the pagination circles."
-msgstr "Marque esta casilla para mostrar círculos en la paginación."
-
-# @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:85
-#: fusion-slider/templates/edit-meta-fields.php:102
+#: fusion-slider/templates/edit-meta-fields.php:97
 msgid "Autoplay"
 msgstr "Reproducción automática"
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:88
-#: fusion-slider/templates/edit-meta-fields.php:106
+#: fusion-slider/templates/add-new-meta-fields.php:85
+#: fusion-slider/templates/edit-meta-fields.php:101
 msgid "Check this box to autoplay the slides."
 msgstr "Marque esta casilla para reproducir automáticamente los slides."
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:91
-#: fusion-slider/templates/edit-meta-fields.php:110
+#: fusion-slider/templates/add-new-meta-fields.php:88
+#: fusion-slider/templates/edit-meta-fields.php:105
 msgid "Slide Loop"
 msgstr "Repetir Slide"
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:94
-#: fusion-slider/templates/edit-meta-fields.php:114
+#: fusion-slider/templates/add-new-meta-fields.php:91
+#: fusion-slider/templates/edit-meta-fields.php:109
 msgid "Check this box to have the slider loop infinitely."
 msgstr ""
 "Marca la casilla para que la presentación (Slider) tenga un bucle infinito."
 
-#: fusion-slider/templates/add-new-meta-fields.php:97
-#: fusion-slider/templates/edit-meta-fields.php:118
+#: fusion-slider/templates/add-new-meta-fields.php:94
+#: fusion-slider/templates/edit-meta-fields.php:113
 #: shortcodes/fusion-faq.php:664 shortcodes/fusion-portfolio.php:1919
 msgid "Order By"
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:99
-#: fusion-slider/templates/edit-meta-fields.php:121
+#: fusion-slider/templates/add-new-meta-fields.php:96
+#: fusion-slider/templates/edit-meta-fields.php:116
 #: shortcodes/fusion-faq.php:669 shortcodes/fusion-portfolio.php:1924
 msgid "Date"
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:100
-#: fusion-slider/templates/edit-meta-fields.php:122
+#: fusion-slider/templates/add-new-meta-fields.php:97
+#: fusion-slider/templates/edit-meta-fields.php:117
 msgid "ID"
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:101
-#: fusion-slider/templates/edit-meta-fields.php:123
+#: fusion-slider/templates/add-new-meta-fields.php:98
+#: fusion-slider/templates/edit-meta-fields.php:118
 msgid "Title"
 msgstr "Título"
 
-#: fusion-slider/templates/add-new-meta-fields.php:102
-#: fusion-slider/templates/edit-meta-fields.php:124
+#: fusion-slider/templates/add-new-meta-fields.php:99
+#: fusion-slider/templates/edit-meta-fields.php:119
 msgid "Modified"
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:103
-#: fusion-slider/templates/edit-meta-fields.php:125
+#: fusion-slider/templates/add-new-meta-fields.php:100
+#: fusion-slider/templates/edit-meta-fields.php:120
 #: shortcodes/fusion-faq.php:676 shortcodes/fusion-portfolio.php:1931
 msgid "Random"
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:105
-#: fusion-slider/templates/edit-meta-fields.php:127
+#: fusion-slider/templates/add-new-meta-fields.php:102
+#: fusion-slider/templates/edit-meta-fields.php:122
 msgid "Defines how the slides should be ordered."
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:108
-#: fusion-slider/templates/edit-meta-fields.php:131
+#: fusion-slider/templates/add-new-meta-fields.php:105
+#: fusion-slider/templates/edit-meta-fields.php:126
 #: shortcodes/fusion-faq.php:681 shortcodes/fusion-portfolio.php:1936
 msgid "Order"
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:110
-#: fusion-slider/templates/edit-meta-fields.php:134
+#: fusion-slider/templates/add-new-meta-fields.php:107
+#: fusion-slider/templates/edit-meta-fields.php:129
 #: shortcodes/fusion-faq.php:686 shortcodes/fusion-portfolio.php:1941
 msgid "Descending"
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:111
-#: fusion-slider/templates/edit-meta-fields.php:135
+#: fusion-slider/templates/add-new-meta-fields.php:108
+#: fusion-slider/templates/edit-meta-fields.php:130
 #: shortcodes/fusion-faq.php:687 shortcodes/fusion-portfolio.php:1942
 msgid "Ascending"
 msgstr ""
 
-#: fusion-slider/templates/add-new-meta-fields.php:113
-#: fusion-slider/templates/edit-meta-fields.php:137
+#: fusion-slider/templates/add-new-meta-fields.php:110
+#: fusion-slider/templates/edit-meta-fields.php:132
 msgid "Defines the sorting order of the slides."
 msgstr ""
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:116
-#: fusion-slider/templates/edit-meta-fields.php:141
+#: fusion-slider/templates/add-new-meta-fields.php:113
+#: fusion-slider/templates/edit-meta-fields.php:136
 #: shortcodes/fusion-portfolio.php:2132 shortcodes/fusion-portfolio.php:2147
 #: shortcodes/fusion-portfolio.php:2165 shortcodes/fusion-portfolio.php:2186
 msgid "Animation"
 msgstr "Animación"
 
-#: fusion-slider/templates/add-new-meta-fields.php:121
-#: fusion-slider/templates/edit-meta-fields.php:147
+#: fusion-slider/templates/add-new-meta-fields.php:118
+#: fusion-slider/templates/edit-meta-fields.php:142
 msgid ""
 "The type of animation when slides rotate.<br/>Please Note: Fade effect does "
 "not work in IE."
@@ -524,26 +529,26 @@ msgstr ""
 "fundido no funciona en IE."
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:124
-#: fusion-slider/templates/edit-meta-fields.php:151
+#: fusion-slider/templates/add-new-meta-fields.php:121
+#: fusion-slider/templates/edit-meta-fields.php:146
 msgid "Slideshow Speed"
 msgstr "Velocidad de la presentación"
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:126
-#: fusion-slider/templates/edit-meta-fields.php:154
+#: fusion-slider/templates/add-new-meta-fields.php:123
+#: fusion-slider/templates/edit-meta-fields.php:149
 msgid "Controls the speed of the slideshow. 1000 = 1 second."
 msgstr "Controla la velocidad de la presentación. 1000 = 1 segundo."
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:129
-#: fusion-slider/templates/edit-meta-fields.php:158
+#: fusion-slider/templates/add-new-meta-fields.php:126
+#: fusion-slider/templates/edit-meta-fields.php:153
 msgid "Animation Speed"
 msgstr "Velocidad de la animación"
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:131
-#: fusion-slider/templates/edit-meta-fields.php:161
+#: fusion-slider/templates/add-new-meta-fields.php:128
+#: fusion-slider/templates/edit-meta-fields.php:156
 msgid ""
 "Controls the speed of the slide transition from slide to slide. 1000 = 1 "
 "second."
@@ -551,26 +556,26 @@ msgstr ""
 "Controla la velocidad de la transición de slide a slide 1000 = 1 segundo."
 
 # @ fusion-core
-#: fusion-slider/templates/add-new-meta-fields.php:134
-#: fusion-slider/templates/edit-meta-fields.php:165
+#: fusion-slider/templates/add-new-meta-fields.php:131
+#: fusion-slider/templates/edit-meta-fields.php:160
 msgid "Responsive Typography Sensitivity"
 msgstr "Sensibilidad de la Tipografía en diseño responsivo"
 
-#: fusion-slider/templates/add-new-meta-fields.php:136
-#: fusion-slider/templates/edit-meta-fields.php:168
+#: fusion-slider/templates/add-new-meta-fields.php:133
+#: fusion-slider/templates/edit-meta-fields.php:163
 msgid ""
 "Values below 1 decrease resizing, values above 1 increase sizing. ex: .6"
 msgstr ""
 "Valores inferiores a 1 disminuyen el tamaño y valores superiores a 1 lo "
 "aumentan"
 
-#: fusion-slider/templates/add-new-meta-fields.php:139
-#: fusion-slider/templates/edit-meta-fields.php:172
+#: fusion-slider/templates/add-new-meta-fields.php:136
+#: fusion-slider/templates/edit-meta-fields.php:167
 msgid "Minimum Font Size Factor"
 msgstr "Factor mínimo para el tamaño de fuente"
 
-#: fusion-slider/templates/add-new-meta-fields.php:141
-#: fusion-slider/templates/edit-meta-fields.php:175
+#: fusion-slider/templates/add-new-meta-fields.php:138
+#: fusion-slider/templates/edit-meta-fields.php:170
 msgid ""
 "Minimum font factor is used to determine minimum distance between headings "
 "and body type by a multiplying value. ex: 1.5"
@@ -588,7 +593,7 @@ msgstr ""
 "Controla el ancho del contenido, en píxeles, por ejemplo: 850 px. Dejar en "
 "blanco para el ancho por defecto."
 
-#: fusion-slider/templates/edit-meta-fields.php:75
+#: fusion-slider/templates/edit-meta-fields.php:78
 msgid ""
 "Enter a pixel for height. Width accepts pixel and percentage values., ex: "
 "40px"
@@ -616,7 +621,7 @@ msgstr "Exportar todos los Sliders"
 msgid "Choose a file from your computer:"
 msgstr "Elige un archivo de tu ordenador:"
 
-#: fusion-slider/templates/slider.php:30 shortcodes/fusion-fusionslider.php:147
+#: fusion-slider/templates/slider.php:47 shortcodes/fusion-fusionslider.php:168
 msgid "Loading..."
 msgstr "Cargando..."
 
@@ -976,12 +981,12 @@ msgstr ""
 msgid "Controls the alignment of FAQ icon."
 msgstr ""
 
-#: shortcodes/fusion-faq.php:852 shortcodes/fusion-fusionslider.php:498
+#: shortcodes/fusion-faq.php:852 shortcodes/fusion-fusionslider.php:519
 #: shortcodes/fusion-portfolio.php:2197
 msgid "Element Visibility"
 msgstr "Visibilidad del elemento"
 
-#: shortcodes/fusion-faq.php:856 shortcodes/fusion-fusionslider.php:502
+#: shortcodes/fusion-faq.php:856 shortcodes/fusion-fusionslider.php:523
 #: shortcodes/fusion-portfolio.php:2201
 msgid ""
 "Choose to show or hide the element on small, medium or large screens. You "
@@ -991,13 +996,13 @@ msgstr ""
 "o grandes. Puedes elegir más de una a la vez."
 
 # @ fusion-core
-#: shortcodes/fusion-faq.php:860 shortcodes/fusion-fusionslider.php:506
+#: shortcodes/fusion-faq.php:860 shortcodes/fusion-fusionslider.php:527
 #: shortcodes/fusion-portfolio.php:2205
 msgid "CSS Class"
 msgstr "Clase CSS"
 
 # @ fusion-core
-#: shortcodes/fusion-faq.php:861 shortcodes/fusion-fusionslider.php:509
+#: shortcodes/fusion-faq.php:861 shortcodes/fusion-fusionslider.php:530
 #: shortcodes/fusion-portfolio.php:2206
 msgid "Add a class to the wrapping HTML element."
 msgstr "Agregar una clase a la envoltura del  elemento HTML."
@@ -1009,23 +1014,23 @@ msgid "General"
 msgstr "General"
 
 # @ fusion-core
-#: shortcodes/fusion-faq.php:868 shortcodes/fusion-fusionslider.php:513
+#: shortcodes/fusion-faq.php:868 shortcodes/fusion-fusionslider.php:534
 #: shortcodes/fusion-portfolio.php:2213
 msgid "CSS ID"
 msgstr "CSS ID"
 
 # @ fusion-core
-#: shortcodes/fusion-faq.php:869 shortcodes/fusion-fusionslider.php:516
+#: shortcodes/fusion-faq.php:869 shortcodes/fusion-fusionslider.php:537
 #: shortcodes/fusion-portfolio.php:2214
 msgid "Add an ID to the wrapping HTML element."
 msgstr "Agregar un ID a la envoltura del  elemento HTML."
 
 # @ fusion-core
-#: shortcodes/fusion-fusionslider.php:490
+#: shortcodes/fusion-fusionslider.php:511
 msgid "Slider Name"
 msgstr "Nombre del Slider"
 
-#: shortcodes/fusion-fusionslider.php:491
+#: shortcodes/fusion-fusionslider.php:512
 msgid ""
 "Select the slider you want to use.  The options will appear as the slider "
 "name next to the number of slides in brackets."
@@ -1171,13 +1176,6 @@ msgstr "Sólo título"
 #: shortcodes/fusion-portfolio.php:1325 shortcodes/fusion-portfolio.php:1721
 msgid "Only Categories"
 msgstr "Sólo Categorías"
-
-# @ fusion-core
-# @ Avada
-#: shortcodes/fusion-portfolio.php:1326 shortcodes/fusion-portfolio.php:1722
-#: shortcodes/fusion-portfolio.php:1879
-msgid "None"
-msgstr "Ninguno"
 
 #: shortcodes/fusion-portfolio.php:1330 shortcodes/fusion-portfolio.php:1735
 msgid "Portfolio Text Alignment"
@@ -1725,33 +1723,33 @@ msgstr "Siguiente"
 msgid "Project Description"
 msgstr "Descripción del proyecto"
 
-#: templates/single-avada_portfolio.php:172
+#: templates/single-avada_portfolio.php:173
 msgid "Project Details"
 msgstr "Detalles del Proyecto"
 
-#: templates/single-avada_portfolio.php:180
+#: templates/single-avada_portfolio.php:181
 msgid "Skills Needed:"
 msgstr "Habilidades necesarias:"
 
 # @ Avada
-#: templates/single-avada_portfolio.php:193
+#: templates/single-avada_portfolio.php:194
 msgid "Categories:"
 msgstr "Categorías:"
 
 # @ Avada
-#: templates/single-avada_portfolio.php:206
+#: templates/single-avada_portfolio.php:207
 msgid "Tags:"
 msgstr "Etiquetas:"
 
-#: templates/single-avada_portfolio.php:225
+#: templates/single-avada_portfolio.php:226
 msgid "Project URL:"
 msgstr "URL del proyecto:"
 
-#: templates/single-avada_portfolio.php:242
+#: templates/single-avada_portfolio.php:243
 msgid "Copyright:"
 msgstr "Copyright:"
 
-#: templates/single-avada_portfolio.php:253
+#: templates/single-avada_portfolio.php:254
 msgid "By:"
 msgstr "Por:"
 
@@ -1862,6 +1860,14 @@ msgstr "Grupos"
 msgctxt "Taxonomy Singular Name"
 msgid "Group"
 msgstr "Grupo"
+
+# @ fusion-core
+#~ msgid "Display Pagination Circles"
+#~ msgstr "Mostrar paginación en Círculos"
+
+# @ fusion-core
+#~ msgid "Check this box to display the pagination circles."
+#~ msgstr "Marque esta casilla para mostrar círculos en la paginación."
 
 #~ msgid "Content Display"
 #~ msgstr "Contenido a mostrar"
