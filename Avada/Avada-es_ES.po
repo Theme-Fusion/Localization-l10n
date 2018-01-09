@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-04-17 10:44:37+00:00\n"
-"PO-Revision-Date: 2017-04-06 22:36+0200\n"
+"PO-Revision-Date: 2018-01-09 11:55+0100\n"
 "Last-Translator: Nilo Velez <nilovelez@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
 "language/es_ES/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.3\n"
 
 # @ Avada
 #: 404.php:20
@@ -46,7 +46,7 @@ msgstr "¿No encuentra lo que necesita? ¡Inténtelo con una nueva búsqueda!"
 #: bbpress/form-search.php:14 includes/class-avada-layout-bbpress.php:141
 #: search.php:35
 msgid "Search for:"
-msgstr "Buscar"
+msgstr "Buscar:"
 
 # @ Avada
 #: bbpress/form-search.php:17 includes/class-avada-layout-bbpress.php:144
@@ -56,27 +56,27 @@ msgstr "Buscar en el foro..."
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
 msgid "In reply to: "
-msgstr "En respuesta a:"
+msgstr "En respuesta a: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
 msgid "Topic: "
-msgstr "Tipo"
+msgstr "Tema: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:49
 msgid "in group forum "
-msgstr "Buscar..."
+msgstr "en el foro del grupo "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:53
 msgid "in forum "
-msgstr "Buscar..."
+msgstr "en foro "
 
 # @ bbpress
 #: bbpress/loop-single-reply.php:44
 msgid "in reply to: "
-msgstr "- Responder"
+msgstr "en respuesta a: "
 
 # @ Avada
 #: comments.php:31
@@ -234,7 +234,7 @@ msgid ""
 "a moment."
 msgstr ""
 "Nuestro sitio está actualmente en mantenimiento programado. Por favor, "
-"inténtelo de nuevo más tarde"
+"inténtelo de nuevo más tarde."
 
 #: functions.php:635
 msgid ""
@@ -242,7 +242,7 @@ msgid ""
 "update finishes"
 msgstr ""
 "Avada se está actualizando. La web será accesible una vez finalizada la "
-"actualización."
+"actualización"
 
 #: functions.php:646
 msgid ""
@@ -427,7 +427,6 @@ msgid "How Do I Import The Avada Demos?"
 msgstr "¿Cómo importo las Demos de Avada?"
 
 #: includes/admin-screens/faq.php:80
-#, fuzzy
 msgid ""
 "Avada Demos can be fully imported with the same setup you see on our live "
 "demos; or you can import single pages through Fusion Builder. To import a "
@@ -454,7 +453,6 @@ msgid "Where Can I Find More Information About How To Use Avada?"
 msgstr "¿Dónde puedo encontrar más información sobre cómo utilizar Avada?"
 
 #: includes/admin-screens/faq.php:90
-#, fuzzy
 msgid ""
 "Avada has a complete set of documentation and growing video tutorial "
 "library. Both are stored on our company site in the support center, see the "
@@ -477,7 +475,6 @@ msgid "What Are The Requirements For Using Avada?"
 msgstr "¿Cuáles son los requisitos para usar Avada?"
 
 #: includes/admin-screens/faq.php:104
-#, fuzzy
 msgid ""
 "Avada's requirements can be found in our support center at the link below."
 msgstr ""
@@ -605,7 +602,6 @@ msgstr ""
 "Sigue las siguientes instrucciones exactamente en el orden que te indicamos."
 
 #: includes/admin-screens/support.php:20
-#, fuzzy
 msgid ""
 "Avada comes with 6 months of free support for every license you purchase. "
 "Support can be <a %1$s>extended through subscriptions</a> via ThemeForest. "
@@ -764,7 +760,7 @@ msgstr "Versiones de Avada"
 
 #: includes/admin-screens/system-status.php:43
 msgid "Current Version:"
-msgstr "Versión actual"
+msgstr "Versión actual:"
 
 #: includes/admin-screens/system-status.php:48
 msgid "Previous Versions:"
@@ -842,7 +838,7 @@ msgid ""
 "conversion."
 msgstr ""
 "Eliminar las copias de seguridad de la migración de shortcodes creados "
-"durante la conversión a Avada 5.0"
+"durante la conversión a Avada 5.0."
 
 #: includes/admin-screens/system-status.php:205
 msgid "Remove Backups"
@@ -858,7 +854,7 @@ msgstr "Entorno WordPress"
 # @ Avada
 #: includes/admin-screens/system-status.php:227
 msgid "Home URL:"
-msgstr "URL de la imagen"
+msgstr "URL de la imagen:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:228
@@ -868,7 +864,7 @@ msgstr "La URL de la página principal de tu sitio."
 
 #: includes/admin-screens/system-status.php:232
 msgid "Site URL:"
-msgstr "URL del sitio"
+msgstr "URL del sitio:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:233
@@ -878,7 +874,7 @@ msgstr "La URL raíz de tu sitio."
 
 #: includes/admin-screens/system-status.php:237
 msgid "WP Version:"
-msgstr "Versión de Wordpress"
+msgstr "Versión de WordPress:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:238
@@ -888,7 +884,7 @@ msgstr "La versión de WordPress instalada en tu sitio."
 
 #: includes/admin-screens/system-status.php:242
 msgid "WP Multisite:"
-msgstr "WP Multisitio"
+msgstr "WP Multisitio:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:243
@@ -960,7 +956,7 @@ msgstr "Entorno del servidor"
 # @ Avada
 #: includes/admin-screens/system-status.php:307
 msgid "Server Info:"
-msgstr "Información de la cabecera"
+msgstr "Información del servidor:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:308
@@ -1035,8 +1031,7 @@ msgid ""
 "content, the required time is <strong>300</strong>."
 msgstr ""
 "El límite de memoria actual es suficiente, pero si necesitas importar el "
-"contenido de la demo clásica, es necesario como mínimo <strong>300 segundos."
-"</strong>"
+"contenido de la demo clásica, es necesario como mínimo <strong>300</strong>."
 
 #: includes/admin-screens/system-status.php:360
 msgid "PHP Max Input Vars:"
@@ -1069,7 +1064,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:395
 msgid "SUHOSIN Installed:"
-msgstr "No se ha instalado"
+msgstr "SUHOSIN instalado:"
 
 #: includes/admin-screens/system-status.php:396
 msgid ""
@@ -1090,7 +1085,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:402
 msgid "Suhosin Post Max Vars:"
-msgstr "Mostrar Meta entradas"
+msgstr "Suhosin Post Max Vars:"
 
 #: includes/admin-screens/system-status.php:437
 msgid "Suhosin Request Max Vars:"
@@ -1131,7 +1126,7 @@ msgid ""
 "export zip files specifically for sliders."
 msgstr ""
 "ZipArchive se requiere para importar demos. Se utilizan para importar y "
-"exportar archivos zip específicamente para sliders"
+"exportar archivos zip específicamente para sliders."
 
 #: includes/admin-screens/system-status.php:493
 msgid "MySQL Version:"
@@ -1181,7 +1176,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:520
 msgid "WP Remote Post:"
-msgstr "Artículos relacionados"
+msgstr "Publicación Remota WP:"
 
 #: includes/admin-screens/system-status.php:529
 msgid "GD Library:"
@@ -1268,7 +1263,6 @@ msgid "Welcome To Avada"
 msgstr "Bienvenido a Avada"
 
 #: includes/admin-screens/welcome.php:28
-#, fuzzy
 msgid ""
 "In 2012 we set out to make the perfect theme and Avada was born. Since then "
 "it has been the #1 selling theme with an ever growing user base of nearly "
@@ -1371,8 +1365,7 @@ msgstr "Carrito"
 
 # @ Avada
 #: includes/avada-functions.php:556 includes/avada-functions.php:587
-#: includes/avada-functions.php:592
-#: includes/lib/inc/templates/rollover.php:214
+#: includes/avada-functions.php:592 includes/lib/inc/templates/rollover.php:214
 #: templates/wc-top-user-container.php:39
 msgid "View Cart"
 msgstr "Ver carrito"
@@ -1663,14 +1656,12 @@ msgid "Permalinks"
 msgstr "Enlaces permanentes"
 
 #: includes/class-avada-admin.php:540
-#, fuzzy
 msgid ""
 "We're sorry but the demo data could not be imported. We were unable to find "
 "import file."
 msgstr ""
-"Lo sentimos, pero no se han podido importar los datos de las demos. "
-"Probablemente debido a una configuración con pocos recursos PHP en el "
-"servidor. Hay dos posibles soluciones."
+"Lo sentimos, pero no se han podido importar los datos de los demos. No "
+"pudimos encontrar el archivo de importación."
 
 #: includes/class-avada-admin.php:543
 msgid ""
@@ -2171,14 +2162,13 @@ msgid "Go to Top"
 msgstr "Ir a Arriba"
 
 # @ Avada
-#: includes/class-avada-scripts.php:598
-#: templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:598 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "Detalles"
 
 #: includes/class-avada-scripts.php:601
 msgid "Not all fields have been filled in correctly."
-msgstr "No se han rellenado correctamente todos los campos"
+msgstr "No se han rellenado correctamente todos los campos."
 
 #: includes/class-avada-sermon-manager.php:54
 msgid "Date: %s"
@@ -2187,11 +2177,11 @@ msgstr "Fecha %s"
 #: includes/class-avada-sermon-manager.php:64
 #: includes/class-avada-sermon-manager.php:66
 msgid "Bible Text: "
-msgstr "Texto padre:"
+msgstr "Texto Bíblico:"
 
 #: includes/class-avada-sermon-manager.php:70
 msgid "Series: "
-msgstr "Series:"
+msgstr "Serie: "
 
 #: includes/class-avada-sermon-manager.php:102
 msgid "Topics: "
@@ -2261,7 +2251,6 @@ msgstr ""
 "%s para completar el registro."
 
 #: includes/class-fusion-builder-filters.php:209
-#, fuzzy
 msgid ""
 "It looks like the %s folder in your WordPress installation is not writable. "
 "Please make sure to change the file/folder permissions to allow downloading "
@@ -2688,7 +2677,7 @@ msgid ""
 "and renaming did not work."
 msgstr ""
 "El paquete de plugin remoto no contiene una carpeta con el slug necesario y "
-"renombrarlo no ha funcionado"
+"renombrarlo no ha funcionado."
 
 #: includes/class-tgm-plugin-activation.php:1061
 #: includes/class-tgm-plugin-activation.php:1064
@@ -2795,7 +2784,7 @@ msgstr "Version mínima requerida:"
 # @ woocommerce
 #: includes/class-tgm-plugin-activation.php:2656
 msgid "Available version:"
-msgstr "Versión disponible"
+msgstr "Versión disponible:"
 
 #: includes/class-tgm-plugin-activation.php:2679
 msgid "No plugins to install, update or activate."
@@ -3126,7 +3115,7 @@ msgid ""
 "to restore your setings."
 msgstr ""
 "Copiar el contenido del archivo JSON y pegarlo debajo. A continuación, haga "
-"clic en \"Importar\" para restaurar la configuración"
+"clic en \"Importar\" para restaurar la configuración."
 
 #: includes/lib/inc/class-fusion-fusionredux.php:1258
 msgid "Media fields using remote URLs were detected in your theme options:"
@@ -3151,12 +3140,9 @@ msgstr ""
 "Fusión Patcher: De momento no hay parches disponibles para %1$s versión %2$s"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:291
-#, fuzzy
 msgid ""
 "Fusion Patcher: The following patches are available for %1$s version %2$s"
-msgstr ""
-"Fusión Patcher: Los siguientes parches están disponibles para %1$s versión "
-"%2$s"
+msgstr "Fusion Patcher: Parches disponibles para %1$s versión %2$s"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:297
 msgid ""
@@ -3188,7 +3174,7 @@ msgstr "Fecha de Emisión"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:401
 msgid "Patch Applied"
-msgstr "parche Aplicado"
+msgstr "Parche Aplicado"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:403
 msgid "Apply Patch"
@@ -3263,8 +3249,7 @@ msgstr "¡Felicidades! El producto ha sido registrado."
 #: includes/lib/inc/class-fusion-product-registration.php:444
 msgid "Please enter your Envato token to complete registration."
 msgstr ""
-"Por favor, introduce tu token personal de Envato para completar el registro "
-"de Avada"
+"Por favor, introduce tu token personal de Envato para completar el registro."
 
 #: includes/lib/inc/class-fusion-product-registration.php:454
 msgid ""
@@ -3293,6 +3278,7 @@ msgstr ""
 msgid ""
 "Invalid token, or corresponding Envato account does not have %s purchased."
 msgstr ""
+"Token inválido, o en la cuenta Envato correspondiente no se ha comprado %s."
 
 #: includes/lib/inc/class-fusion-product-registration.php:517
 msgid ""
@@ -3340,7 +3326,7 @@ msgid ""
 msgstr ""
 "Se carga una nueva página con un número en una caja. Copiar el número de "
 "token, vuelve a esta página de registro, pégalo en el siguiente campo y haz "
-"clic en el botón <strong>Enviar.</strong>"
+"clic en el botón <strong>Enviar</strong>."
 
 #: includes/lib/inc/class-fusion-product-registration.php:533
 msgid ""
@@ -3362,7 +3348,7 @@ msgstr "Cargando el grupo de entradas siguientes..."
 # @ Avada
 #: includes/lib/inc/class-fusion-scripts.php:648
 msgid "All items displayed."
-msgstr "Se muestran todos los items"
+msgstr "Se muestran todos los items."
 
 #: includes/lib/inc/class-fusion-settings.php:387
 msgid "Link & Zoom"
@@ -3396,7 +3382,7 @@ msgstr "Sin iconos"
 #: includes/lib/inc/class-fusion-settings.php:456
 #: includes/lib/inc/class-fusion-settings.php:466
 msgid "  Default currently set to %s."
-msgstr "Actualmente la opción predeterminada se establece en%s."
+msgstr " Actualmente la opción predeterminada se establece en %s."
 
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:429
@@ -3508,12 +3494,12 @@ msgstr "No"
 
 #: includes/lib/inc/class-fusion-settings.php:453
 msgid "none"
-msgstr "Ninguno"
+msgstr "ninguno"
 
 #: includes/lib/inc/class-fusion-settings.php:462
 msgid ""
 "  Global sidebar is currently active and will override selection with %s."
-msgstr "La Barra lateral global está activada y anulará la selección con%s."
+msgstr " La Barra lateral global está activada y anulará la selección con %s."
 
 #: includes/lib/inc/class-fusion-settings.php:470
 msgid ""
@@ -3528,7 +3514,7 @@ msgstr "Opciones de elemento"
 
 #: includes/lib/inc/class-fusion-settings.php:475
 msgid "  Leave empty for default value of %s."
-msgstr "Deje en blanco para el valor predeterminado de %s."
+msgstr "  Deje en blanco para el valor predeterminado de %s."
 
 #: includes/lib/inc/class-fusion-settings.php:477
 msgid ""
@@ -3792,7 +3778,7 @@ msgstr "Espacio entre palabras"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:459
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:460
 msgid "Letter Spacing"
-msgstr "Separación entre letras:"
+msgstr "Espacio entre letras"
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:452
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:453
@@ -3911,7 +3897,7 @@ msgstr "Cirílico Extendido"
 
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:103
 msgid "Cyrillic"
-msgstr "cirílico"
+msgstr "Cirílico"
 
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:104
 msgid "Latin Extended"
@@ -3955,7 +3941,7 @@ msgstr "Tamil"
 
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:114
 msgid "Telugu"
-msgstr "telugu"
+msgstr "Telugu"
 
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:115
 msgid "Thai"
@@ -3981,27 +3967,23 @@ msgstr "Buscar para opcion(s)"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/enqueue.php:456
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/extension_customizer.php:686
-#, fuzzy
 msgid "You have changes that are not saved. Would you like to save them now?"
-msgstr "Usted tiene cambios sin guardar. ¿Desea guardarlos ahora?"
+msgstr "Tienes cambios sin guardar. ¿Deseas guardarlos ahora?"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/enqueue.php:464
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/extension_customizer.php:687
-#, fuzzy
 msgid "Are you sure? Resetting will lose all custom values."
 msgstr ""
-"¿Está seguro? Restablecimiento perderá todos los valores personalizados."
+"¿Estás seguro? Al restablecer perderás todos los valores personalizados."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/enqueue.php:472
-#, fuzzy
 msgid "Are you sure? Resetting will lose all custom values in this section."
 msgstr ""
-"¿Estás seguro? Al aceptar perderás todos los valores personalizados en esta "
-"sección."
+"¿Estás seguro? Al restablecer perderás todos los valores personalizados de "
+"esta sección."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/enqueue.php:480
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/extension_customizer.php:688
-#, fuzzy
 msgid ""
 "Your current options will be replaced with the values of this preset. Would "
 "you like to proceed?"
@@ -4019,7 +4001,6 @@ msgstr ""
 "Se ha producido un error al guardar. Aquí está el resultado de tu acción:"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/enqueue.php:499
-#, fuzzy
 msgid ""
 "There was a problem with your action. Please try again or reload the page."
 msgstr ""
@@ -4042,7 +4023,6 @@ msgid "All Defaults Restored!"
 msgstr "¡Todos los Valores Predeterminados han sido Restaurados!"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:170
-#, fuzzy
 msgid "Section Defaults Restored!"
 msgstr ""
 "¡Todos los valores predeterminados de esta sección, han sido restaurados!"
@@ -4072,7 +4052,6 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:220
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:220
-#, fuzzy
 msgid "Options panel created using %1$s"
 msgstr "Panel de opciones creado usando %1$s"
 
@@ -4102,7 +4081,7 @@ msgstr "Deshabilitar"
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1762
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:1762
 msgid "moving the mouse over"
-msgstr "Mover el ratón por encima"
+msgstr "mover el ratón por encima"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1764
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:1764
@@ -4167,17 +4146,15 @@ msgstr "Defecto"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2782
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:2782
-#, fuzzy
 msgid "Invalid security credential.  Please reload the page and try again."
 msgstr ""
-"Credencial de seguridad no válida. Vuelva a cargar la página e inténtelo de "
+"Credencial de seguridad no válida. Vuelva a cargar la página e inténtalo de "
 "nuevo."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2791
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:2791
-#, fuzzy
 msgid "Invalid user capability.  Please reload the page and try again."
-msgstr "Usuario sin autoridad. Vuelva a cargar la página e inténtelo de nuevo."
+msgstr "Usuario sin autoridad. Vuelve a cargar la página e inténtalo de nuevo."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2871
 #: includes/lib/inc/redux/fusionredux-framework/FusionReduxCore/framework.php:2871
@@ -4207,7 +4184,6 @@ msgid "Dismiss"
 msgstr "Descartar"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_cdn.php:77
-#, fuzzy
 msgid ""
 "Please wait a few minutes, then try refreshing the page. Unable to load some "
 "remotely hosted scripts."
@@ -4227,11 +4203,10 @@ msgid "FusionRedux Framework Warning"
 msgstr "Advertencia de FusionRedux Framework"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_cdn.php:84
-#, fuzzy
 msgid "%s CDN unavailable.  Some controls may not render properly."
 msgstr ""
-"%s CDN no disponible.  Es posible que algunos controladores no funcionen de "
-"forma adecuada."
+"%s CDN no disponible.  Es posible que algunos controles no se muestren "
+"correctamente."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_cdn.php:116
 #, fuzzy
@@ -4292,9 +4267,8 @@ msgstr ""
 "Has hecho cambios que no han sido guardados. Te gustaría guardarlos ahora?"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/extension_customizer.php:722
-#, fuzzy
 msgid "Are you sure?  Resetting will lose all custom values."
-msgstr "Estás seguro? Se perderán todos los valores predeterminados."
+msgstr "¿Estás seguro? Se perderán todos los valores personalizado."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/extension_customizer.php:723
 #, fuzzy
@@ -4306,9 +4280,8 @@ msgstr ""
 "¿Quieres continuar?"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_panel.php:89
-#, fuzzy
 msgid "Press return or enter to open this panel"
-msgstr "Presionar Regresar o Enter para abrir este panel"
+msgstr "Presiona Return o Enter para abrir este panel"
 
 #. translators: %s is the site/panel title in the Customizer
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_panel.php:114
@@ -4416,7 +4389,6 @@ msgid "Options Object"
 msgstr "Objeto de opciones"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/options_object/options_object/field_options_object.php:107
-#, fuzzy
 msgid "Show Object in Javascript Console Object"
 msgstr "Mostrar Objeto en la Consola de Javascript"
 
@@ -4558,7 +4530,6 @@ msgid "Off"
 msgstr "Desactivado"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:15
-#, fuzzy
 msgid ""
 "<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
 "submitting to WordPress.org Theme Repository, it is <strong>strongly</"
@@ -4571,7 +4542,6 @@ msgstr ""
 "su tema podría ser rechazado por el FusionRedux."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:24
-#, fuzzy
 msgid ""
 "<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
 "<strong> %s </strong>, or your theme will be rejected by WP.org theme "
@@ -4585,7 +4555,6 @@ msgid "Optional"
 msgstr "Opcional"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:40
-#, fuzzy
 msgid ""
 "<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
 "arguments MUST be used for WP.org submissions, or you will be rejected "
@@ -4640,7 +4609,6 @@ msgid "Help improve Our Panel"
 msgstr "Ayuda a mejorar nuestro panel"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:130
-#, fuzzy
 msgid ""
 "Please helps us improve our panel by allowing us to gather anonymous usage "
 "stats so we know which configurations, plugins and themes to test to ensure "
@@ -4817,7 +4785,7 @@ msgstr "Debes proporcionar una dirección URL válida para esta opción."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:2
 msgid "Welcome to FusionRedux Framework %s"
-msgstr ""
+msgstr "Bienvenido a FusionRedux Framework %s"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:5
 msgid ""
@@ -4854,7 +4822,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:2
 msgid "FusionRedux Framework - A Community Effort"
-msgstr ""
+msgstr "FusionRedux Framework - Un esfuerzo comunitario"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:5
 msgid ""
@@ -4884,7 +4852,6 @@ msgid ""
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/extensions.php:89
-#, fuzzy
 msgid ""
 "While some are built specificially for developers, extensions such as Custom "
 "Fonts are sure to make any user happy."
@@ -4937,10 +4904,9 @@ msgid ""
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:120
-#, fuzzy
 msgid "To allow data saving, make <code>%s</code> writable."
 msgstr ""
-"Para permitir guardar datos, por favor haz modificable <code>%s</code>. "
+"Para permitir guardar datos, por favor haz modificable <code>%s</code>."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:126
 msgid "WP Content URL"
@@ -4963,12 +4929,11 @@ msgid "Permalink Structure"
 msgstr "Estructura de enlaces permanentes"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:165
-#, fuzzy
 msgid ""
 "The current permalink structure as defined in Wordpress Settings->Permalinks."
 msgstr ""
-"La estructura actual de enlaces permanentes ha sido definida en Wordpress "
-"Ajustes->Enlaces Permanentes."
+"La estructura actual de enlaces permanentes, definida en Wordpress Ajustes-"
+">Enlaces Permanentes."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:174
 msgid "Front Page Display"
@@ -5194,7 +5159,7 @@ msgstr "Instancia de FusionRedux: "
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:579
 msgid "The opt_name argument for this instance of FusionRedux."
-msgstr "El agumento opt_name de esta instancia de FusionRedux"
+msgstr "El agumento opt_name de esta instancia de FusionRedux."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:587
 msgid "The global_variable argument for this instance of FusionRedux."
@@ -5336,7 +5301,7 @@ msgstr "La URL de los desarrolladores del tema padre."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:2
 msgid "FusionRedux Framework - Support"
-msgstr ""
+msgstr "FusionRedux Framework - Soporte"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:4
 msgid ""
@@ -5460,7 +5425,7 @@ msgstr "Bienvenido a FusionRedux Framework"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:175
 msgid "FusionRedux Framework Changelog"
-msgstr ""
+msgstr "Registro de cambios de FusionRedux Framework"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:183
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:416
@@ -5561,7 +5526,7 @@ msgstr "Ampliar"
 
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:312
 msgid "FusionRedux Framework has an embedded demo."
-msgstr "FusionRedux Framework include una demo"
+msgstr "FusionRedux Framework include una demo."
 
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:312
 msgid "Click here to activate the sample config file."
@@ -5749,7 +5714,7 @@ msgstr ""
 # @ Avada
 #: includes/mega-menus.php:146
 msgid "Mega Menu Number of Columns"
-msgstr "Número de columnas del \"Mega Menu\""
+msgstr "Número de columnas del Mega Menu"
 
 #: includes/mega-menus.php:147
 msgid "Select the number of columns you want to use."
@@ -5767,7 +5732,7 @@ msgstr "Ancho de columna del Mega Menú"
 
 #: includes/mega-menus.php:164
 msgid "Set the width of the column. In percentage, ex 60%."
-msgstr ""
+msgstr "Elige el ancho de la columna. En porcentaje, ej 60%."
 
 #: includes/mega-menus.php:172
 msgid "Mega Menu Column Title"
@@ -5780,7 +5745,7 @@ msgstr "Desactívalo para ocultar el título de la columna."
 # @ Avada
 #: includes/mega-menus.php:185
 msgid "Mega Menu Widget Area"
-msgstr "Área del Widget \"Mega Menu\""
+msgstr "Área del Widget Mega Menu"
 
 #: includes/mega-menus.php:186
 msgid "Select a widget area to be used as the content for the column."
@@ -5844,8 +5809,8 @@ msgstr "Fondo"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:297
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:19
-#: includes/options/blog.php:47 includes/options/page_title_bar.php:27
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:19 includes/options/blog.php:47
+#: includes/options/page_title_bar.php:27
 #: includes/options/page_title_bar.php:34
 #: includes/options/page_title_bar.php:40
 msgid "Page Title Bar"
@@ -5858,7 +5823,7 @@ msgstr "Portafolio"
 
 #: includes/metaboxes/metaboxes.php:708
 msgid "Browse"
-msgstr "Examinar..."
+msgstr "Examinar"
 
 # @ Avada
 #: includes/metaboxes/options/options_es.php:18
@@ -5982,7 +5947,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:71
 msgid "Video Aspect Ratio"
-msgstr "Ratio aspecto del video:"
+msgstr "Relación de aspecto de video"
 
 #: includes/metaboxes/options/options_slide.php:72
 msgid ""
@@ -6380,20 +6345,19 @@ msgid "Adjust the button shortcode parameters for the second button."
 msgstr "Ajuste los parámetros del shortcode  botón para el segundo botón."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:19
-#: includes/options/layout.php:40 includes/options/layout.php:46
+#: includes/metaboxes/tabs/tab_background.php:19 includes/options/layout.php:40
+#: includes/options/layout.php:46
 msgid "Layout"
 msgstr "Formato"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:22
-#: includes/options/layout.php:53
+#: includes/metaboxes/tabs/tab_background.php:22 includes/options/layout.php:53
 msgid "Wide"
 msgstr "Ancho ampliado (Wide)"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:23
-#: includes/options/layout.php:52 includes/options/portfolio.php:185
+#: includes/metaboxes/tabs/tab_background.php:23 includes/options/layout.php:52
+#: includes/options/portfolio.php:185
 msgid "Boxed"
 msgstr "En caja (Boxed)"
 
@@ -7150,8 +7114,7 @@ msgstr ""
 "lateral 2, se mostrará en el lado opuesto."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:77
-#: includes/options/sidebars.php:76
+#: includes/metaboxes/tabs/tab_sidebars.php:77 includes/options/sidebars.php:76
 msgid "Sidebar Background Color"
 msgstr "Color de fondo de la barra lateral"
 
@@ -9052,7 +9015,7 @@ msgstr "Controla el ancho del sidebar 2 cuando hay dos barras laterales"
 
 #: includes/options/events_calendar.php:176
 msgid "Events Single Post Sidebar Styling"
-msgstr ""
+msgstr "Estilo de la barra lateral de páginas individuales de los eventos"
 
 #: includes/options/events_calendar.php:182
 msgid "Events Sidebar Background Color"
@@ -10426,7 +10389,6 @@ msgid "Boxed Mode Top/Bottom Offset"
 msgstr ""
 
 #: includes/options/layout.php:68
-#, fuzzy
 msgid "Controls the top/bottom offset of the boxed background."
 msgstr "Controla el desplazamiento superior / inferior del fondo en caja."
 
@@ -10517,7 +10479,6 @@ msgid "Turn on to enable the lightbox throughout the theme."
 msgstr "Activa para habilitar el lightbox en todo el tema."
 
 #: includes/options/lightbox.php:40
-#, fuzzy
 msgid "Lightbox For Featured Images On Single Post Pages"
 msgstr "Lightbox en las imágenes destacadas de las entradas individuales"
 
@@ -10901,12 +10862,10 @@ msgid "Arrow"
 msgstr "Flecha"
 
 #: includes/options/menu.php:99
-#, fuzzy
 msgid "Main Menu Highlight Background Color"
-msgstr "Menú principal Resaltar Color de fondo"
+msgstr "Color de fondo del resalte del Menú principal"
 
 #: includes/options/menu.php:100
-#, fuzzy
 msgid "Controls the background color of main menu highlight."
 msgstr "Controla el color de fondo del resaltado del menú principal."
 
@@ -11763,11 +11722,13 @@ msgstr "Activar para mostrar las categorías en la ruta de navegación"
 
 #: includes/options/page_title_bar.php:536
 msgid "Post Type Archives on Breadcrumbs"
-msgstr ""
+msgstr "Archivos de los post types en migas de pan"
 
 #: includes/options/page_title_bar.php:537
 msgid "Turn on to display post type archives in the breadcrumbs path."
 msgstr ""
+"Actívalo para mostrar los archivos de los post types en la ruta de migas de "
+"pan."
 
 #: includes/options/portfolio.php:34
 msgid "General Portfolio"
@@ -14933,7 +14894,7 @@ msgstr "Solicitar"
 
 #: templates/wc-cart-shipping-calc.php:24
 msgid "Calculate shipping"
-msgstr ""
+msgstr "Calcular gastos de envío"
 
 # @ woocommerce
 #: templates/wc-cart-shipping-calc.php:31
@@ -15027,7 +14988,7 @@ msgstr "Aplicar Cupón"
 
 #: templates/wc-proceed-to-checkout.php:15 woocommerce/cart/cart.php:141
 msgid "Update cart"
-msgstr ""
+msgstr "Actualizar carrito"
 
 #: templates/wc-product-loop-outofstock-flash.php:19
 msgid "Out of stock"
@@ -15053,7 +15014,7 @@ msgstr "Hola"
 
 #: templates/wc-view-order.php:18
 msgid "Order details"
-msgstr ""
+msgstr "Detalles del pedido"
 
 # @ woocommerce
 #: templates/wc-view-order.php:23 woocommerce/cart/cart.php:36
@@ -15083,7 +15044,7 @@ msgstr "Teléfono:"
 
 #: templates/wc-view-order.php:164
 msgid "Billing address"
-msgstr ""
+msgstr "Dirección de facturación"
 
 # @ woocommerce
 #: templates/wc-view-order.php:170 templates/wc-view-order.php:187
@@ -15092,7 +15053,7 @@ msgstr "N/A"
 
 #: templates/wc-view-order.php:182
 msgid "Shipping address"
-msgstr ""
+msgstr "Dirección de envío"
 
 #: tribe-events/day/single-event.php:70 tribe-events/list/single-event.php:69
 #: tribe-events/pro/map/single-event.php:69
@@ -15227,7 +15188,7 @@ msgstr "Gracias. Hemos recibido tu pedido."
 
 #: woocommerce/checkout/thankyou.php:49
 msgid "Order number:"
-msgstr ""
+msgstr "Número de pedido:"
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:54
@@ -15244,7 +15205,7 @@ msgstr "Total:"
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:65
 msgid "Payment method:"
-msgstr "Revisar &amp; Pagar"
+msgstr "Forma de pago:"
 
 #: woocommerce/compatibility/2.6/cart/cart.php:121
 msgid "Coupon"
@@ -15253,7 +15214,7 @@ msgstr "Cupón"
 # @ woocommerce
 #: woocommerce/compatibility/2.6/cart/cart.php:127
 msgid "Update Cart"
-msgstr "Ver proyecto"
+msgstr "Actualizar Carrito"
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/checkout/thankyou.php:25
@@ -15289,7 +15250,7 @@ msgstr "Forma de pago:"
 #: woocommerce/single-product/add-to-cart/variable.php:36
 msgid "This product is currently out of stock and unavailable."
 msgstr ""
-"En este momento no hay existencias de este servicio ni está disponible."
+"En este momento no hay existencias de este producto ni está disponible."
 
 # @ woocommerce
 #: woocommerce/compatibility/2.6/single-product/add-to-cart/variable.php:55
@@ -15300,7 +15261,7 @@ msgstr "Limpiar Selección"
 # @ woocommerce
 #: woocommerce/compatibility/2.6/single-product/tabs/description.php:14
 msgid "Product Description"
-msgstr "Producto"
+msgstr "Descripción del producto"
 
 #: woocommerce/single-product/tabs/additional-information.php:25
 msgid "Additional information"
@@ -15325,7 +15286,7 @@ msgstr ""
 # @ Avada
 #. Author of the plugin/theme
 msgid "ThemeFusion"
-msgstr "Opciones del tema"
+msgstr "ThemeFusion"
 
 #. Author URI of the plugin/theme
 msgid "http://themeforest.net/user/ThemeFusion"
@@ -15333,7 +15294,7 @@ msgstr "http://themeforest.net/user/ThemeFusion"
 
 #. Template Name of the plugin/theme
 msgid "100% Width"
-msgstr "100% Ancho"
+msgstr "Ancho 100%"
 
 #. Template Name of the plugin/theme
 msgid "Blank Page"
