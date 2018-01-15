@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2017-12-19 07:47:53+00:00\n"
+"POT-Creation-Date: 2018-01-15 10:53:19+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:06+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: English (British)\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: grunt-wp-i18n1.0.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: fusion-builder.php:378
+#: fusion-builder.php:379
 msgid "Go to the Avada plugin installation page"
 msgstr "Go to the Avada plugin installation page"
 
-#: fusion-builder.php:595
+#: fusion-builder.php:596
 msgid "Fusion Builder Settings"
 msgstr "Fusion Builder Settings"
 
-#: fusion-builder.php:1368 fusion-builder.php:1372
+#: fusion-builder.php:1382 fusion-builder.php:1386
 msgid "Use Default Editor"
 msgstr "Use Default Editor"
 
-#: fusion-builder.php:1368 fusion-builder.php:1372
+#: fusion-builder.php:1382 fusion-builder.php:1386
 msgid "Use Fusion Builder"
 msgstr "Use Fusion Builder"
 
@@ -35,12 +35,12 @@ msgstr "Use Fusion Builder"
 msgid "Fusion Builder"
 msgstr "Fusion Builder"
 
-#: fusion-builder.php:2045 inc/fusion-builder-admin.php:79
+#: fusion-builder.php:2059 inc/fusion-builder-admin.php:79
 #: inc/fusion-builder-admin.php:242
 msgid "Settings"
 msgstr "Settings"
 
-#: fusion-builder.php:2100 fusion-builder.php:2101
+#: fusion-builder.php:2114 fusion-builder.php:2115
 msgid "Fusion Patcher"
 msgstr "Fusion Patcher"
 
@@ -2378,7 +2378,7 @@ msgstr "Please apply patch #%s first."
 msgid "Patch cannot be currently aplied."
 msgstr "Patch cannot be currently aplied."
 
-#: inc/lib/inc/class-fusion-patcher-client.php:104
+#: inc/lib/inc/class-fusion-patcher-client.php:105
 msgid ""
 "The ThemeFusion patches server could not be reached. Please contact your "
 "host to unblock the \"https://updates.theme-fusion.com/\" domain."
@@ -2398,12 +2398,12 @@ msgstr ""
 msgid "Patch empty."
 msgstr "Patch empty."
 
-#: inc/lib/inc/class-fusion-patcher-filesystem.php:156
+#: inc/lib/inc/class-fusion-patcher-filesystem.php:158
 msgid "Invalid Patch target."
 msgstr "Invalid Patch target."
 
 #. translators: Links.
-#: inc/lib/inc/class-fusion-patcher-filesystem.php:183
+#: inc/lib/inc/class-fusion-patcher-filesystem.php:185
 msgid ""
 "The patch could not be applied because of your specific server permissions. "
 "You have two options to remedy this. 1. <a %1$s>Download this zip file</a> "
@@ -2423,20 +2423,20 @@ msgstr ""
 "experts can apply the fix for you. Once the fix is applied, click the "
 "\"Dismiss Notices\" button so this message is removed."
 
-#: inc/lib/inc/class-fusion-product-registration.php:266
+#: inc/lib/inc/class-fusion-product-registration.php:280
 msgid "Token"
 msgstr "Token"
 
-#: inc/lib/inc/class-fusion-product-registration.php:444
+#: inc/lib/inc/class-fusion-product-registration.php:458
 msgid "Congratulations! Your product is registered now."
 msgstr "Congratulations! Your product is registered now."
 
-#: inc/lib/inc/class-fusion-product-registration.php:446
+#: inc/lib/inc/class-fusion-product-registration.php:460
 msgid "Please enter your Envato token to complete registration."
 msgstr "Please enter your Envato token to complete registration."
 
 #. translators: The product name and whether it's a theme or plugin.
-#: inc/lib/inc/class-fusion-product-registration.php:458
+#: inc/lib/inc/class-fusion-product-registration.php:472
 msgid ""
 "The %1$s %2$s is bundled in %3$s and no registration is required for it. "
 "Updates will be provided from %3$s. If however you have purchased %1$s "
@@ -2448,11 +2448,11 @@ msgstr ""
 "separately and wish to enter a registration token for it in order to receive "
 "%2$s updates regardless of %3$s, please check this checkbox."
 
-#: inc/lib/inc/class-fusion-product-registration.php:498
+#: inc/lib/inc/class-fusion-product-registration.php:512
 msgid "Submit"
 msgstr "Submit"
 
-#: inc/lib/inc/class-fusion-product-registration.php:504
+#: inc/lib/inc/class-fusion-product-registration.php:518
 msgid ""
 "Registration could not be completed because the value entered above is a "
 "purchase code. A token key is needed to register. Please read the directions "
@@ -2463,48 +2463,48 @@ msgstr ""
 "below to find out how to create a token key to complete registration."
 
 #. translators: The product name for the license.
-#: inc/lib/inc/class-fusion-product-registration.php:507
-msgid ""
-"Invalid token, or corresponding Envato account does not have %s purchased."
-msgstr ""
-"Invalid token, or corresponding Envato account does not have %s purchased."
-
 #: inc/lib/inc/class-fusion-product-registration.php:521
 msgid ""
-"Token does not have the necessary permissions. Please create a new token and "
-"make sure the following permissions are enabled for it: <strong>View Your "
-"Envato Account Username</strong>, <strong>Download Your Purchased Items</"
-"strong>, <strong>List Purchases You've Made</strong>, <strong>Verify "
-"Purchases You've Made</strong>."
+"Invalid token, or corresponding Envato account does not have %s purchased."
 msgstr ""
-"Token does not have the necessary permissions. Please create a new token and "
-"make sure the following permissions are enabled for it: <strong>View Your "
-"Envato Account Username</strong>, <strong>Download Your Purchased Items</"
-"strong>, <strong>List Purchases You've Made</strong>, <strong>Verify "
-"Purchases You've Made</strong>."
-
-#: inc/lib/inc/class-fusion-product-registration.php:531
-msgid "Instructions For Generating A Token"
-msgstr "Instructions For Generating A Token"
-
-#: inc/lib/inc/class-fusion-product-registration.php:534
-msgid ""
-"Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal Token</"
-"a> link. <strong>IMPORTANT:</strong> You must be logged into the same "
-"Themeforest account that purchased %2$s. If you are logged in already, look "
-"in the top menu bar to ensure it is the right account. If you are not logged "
-"in, you will be directed to login then directed back to the Create A Token "
-"Page."
-msgstr ""
-"Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal Token</"
-"a> link. <strong>IMPORTANT:</strong> You must be logged into the same "
-"Themeforest account that purchased %2$s. If you are logged in already, look "
-"in the top menu bar to ensure it is the right account. If you are not logged "
-"in, you will be directed to login then directed back to the Create A Token "
-"Page."
+"Invalid token, or corresponding Envato account does not have %s purchased."
 
 #: inc/lib/inc/class-fusion-product-registration.php:535
 msgid ""
+"Token does not have the necessary permissions. Please create a new token and "
+"make sure the following permissions are enabled for it: <strong>View Your "
+"Envato Account Username</strong>, <strong>Download Your Purchased Items</"
+"strong>, <strong>List Purchases You've Made</strong>, <strong>Verify "
+"Purchases You've Made</strong>."
+msgstr ""
+"Token does not have the necessary permissions. Please create a new token and "
+"make sure the following permissions are enabled for it: <strong>View Your "
+"Envato Account Username</strong>, <strong>Download Your Purchased Items</"
+"strong>, <strong>List Purchases You've Made</strong>, <strong>Verify "
+"Purchases You've Made</strong>."
+
+#: inc/lib/inc/class-fusion-product-registration.php:545
+msgid "Instructions For Generating A Token"
+msgstr "Instructions For Generating A Token"
+
+#: inc/lib/inc/class-fusion-product-registration.php:548
+msgid ""
+"Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal Token</"
+"a> link. <strong>IMPORTANT:</strong> You must be logged into the same "
+"Themeforest account that purchased %2$s. If you are logged in already, look "
+"in the top menu bar to ensure it is the right account. If you are not logged "
+"in, you will be directed to login then directed back to the Create A Token "
+"Page."
+msgstr ""
+"Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal Token</"
+"a> link. <strong>IMPORTANT:</strong> You must be logged into the same "
+"Themeforest account that purchased %2$s. If you are logged in already, look "
+"in the top menu bar to ensure it is the right account. If you are not logged "
+"in, you will be directed to login then directed back to the Create A Token "
+"Page."
+
+#: inc/lib/inc/class-fusion-product-registration.php:549
+msgid ""
 "Enter a name for your token, then check the boxes for <strong>View Your "
 "Envato Account Username, Download Your Purchased Items, List Purchases "
 "You've Made</strong> and <strong>Verify Purchases You've Made</strong> from "
@@ -2517,7 +2517,7 @@ msgstr ""
 "the permissions needed section. Check the box to agree to the terms and "
 "conditions, then click the <strong>Create Token button</strong>"
 
-#: inc/lib/inc/class-fusion-product-registration.php:536
+#: inc/lib/inc/class-fusion-product-registration.php:550
 msgid ""
 "A new page will load with a token number in a box. Copy the token number "
 "then come back to this registration page and paste it into the field below "
@@ -2527,7 +2527,7 @@ msgstr ""
 "then come back to this registration page and paste it into the field below "
 "and click the <strong>Submit</strong> button."
 
-#: inc/lib/inc/class-fusion-product-registration.php:537
+#: inc/lib/inc/class-fusion-product-registration.php:551
 msgid ""
 "You will see a green check mark for success, or a failure message if "
 "something went wrong. If it failed, please make sure you followed the steps "
@@ -2539,11 +2539,11 @@ msgstr ""
 "above correctly. You can also view our <a %s>documentation post</a> for "
 "various fallback methods."
 
-#: inc/lib/inc/class-fusion-scripts.php:656
+#: inc/lib/inc/class-fusion-scripts.php:657
 msgid "Loading the next set of posts..."
 msgstr "Loading the next set of posts..."
 
-#: inc/lib/inc/class-fusion-scripts.php:657
+#: inc/lib/inc/class-fusion-scripts.php:658
 msgid "All items displayed."
 msgstr "All items displayed."
 
@@ -2626,11 +2626,11 @@ msgstr "Using default value."
 msgid "Pages:"
 msgstr "Pages:"
 
-#: inc/lib/inc/functions.php:837 shortcodes/fusion-blog.php:568
+#: inc/lib/inc/functions.php:844 shortcodes/fusion-blog.php:568
 msgid "Previous"
 msgstr "Previous"
 
-#: inc/lib/inc/functions.php:861 shortcodes/fusion-blog.php:592
+#: inc/lib/inc/functions.php:868 shortcodes/fusion-blog.php:592
 msgid "Next"
 msgstr "Next"
 

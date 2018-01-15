@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2017-12-19 07:47:53+00:00\n"
+"POT-Creation-Date: 2018-01-15 10:53:19+00:00\n"
 "PO-Revision-Date: 2017-03-20 23:57-0300\n"
 "Last-Translator: Aristeides <aristath@aristeidiss-mbp>\n"
 "Language-Team: Brazilian Portuguese\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Poedit 1.8.12\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: fusion-builder.php:378
+#: fusion-builder.php:379
 msgid "Go to the Avada plugin installation page"
 msgstr "Vá para a página de instalação de plugins do  Avada"
 
-#: fusion-builder.php:595
+#: fusion-builder.php:596
 msgid "Fusion Builder Settings"
 msgstr "Configurações do Fusion Builder"
 
-#: fusion-builder.php:1368 fusion-builder.php:1372
+#: fusion-builder.php:1382 fusion-builder.php:1386
 msgid "Use Default Editor"
 msgstr "Usar o Editor Padrão"
 
-#: fusion-builder.php:1368 fusion-builder.php:1372
+#: fusion-builder.php:1382 fusion-builder.php:1386
 msgid "Use Fusion Builder"
 msgstr "Usar Fusion Builder"
 
@@ -35,13 +35,13 @@ msgstr "Usar Fusion Builder"
 msgid "Fusion Builder"
 msgstr "Fusion Builder"
 
-#: fusion-builder.php:2045 inc/fusion-builder-admin.php:79
+#: fusion-builder.php:2059 inc/fusion-builder-admin.php:79
 #: inc/fusion-builder-admin.php:242
 #, fuzzy
 msgid "Settings"
 msgstr "Configurações"
 
-#: fusion-builder.php:2100 fusion-builder.php:2101
+#: fusion-builder.php:2114 fusion-builder.php:2115
 msgid "Fusion Patcher"
 msgstr "Fusion Patcher"
 
@@ -2426,7 +2426,7 @@ msgstr "Por favor, aplique o patch #%s primeiro."
 msgid "Patch cannot be currently aplied."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-patcher-client.php:104
+#: inc/lib/inc/class-fusion-patcher-client.php:105
 msgid ""
 "The ThemeFusion patches server could not be reached. Please contact your "
 "host to unblock the \"https://updates.theme-fusion.com/\" domain."
@@ -2442,13 +2442,13 @@ msgstr ""
 msgid "Patch empty."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-patcher-filesystem.php:156
+#: inc/lib/inc/class-fusion-patcher-filesystem.php:158
 #, fuzzy
 msgid "Invalid Patch target."
 msgstr "Destino de patch inválido."
 
 #. translators: Links.
-#: inc/lib/inc/class-fusion-patcher-filesystem.php:183
+#: inc/lib/inc/class-fusion-patcher-filesystem.php:185
 msgid ""
 "The patch could not be applied because of your specific server permissions. "
 "You have two options to remedy this. 1. <a %1$s>Download this zip file</a> "
@@ -2460,23 +2460,23 @@ msgid ""
 "\"Dismiss Notices\" button so this message is removed."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:266
+#: inc/lib/inc/class-fusion-product-registration.php:280
 #, fuzzy
 msgid "Token"
 msgstr "Token"
 
-#: inc/lib/inc/class-fusion-product-registration.php:444
+#: inc/lib/inc/class-fusion-product-registration.php:458
 #, fuzzy
 msgid "Congratulations! Your product is registered now."
 msgstr "Parabéns! Seu produto está registrado agora."
 
-#: inc/lib/inc/class-fusion-product-registration.php:446
+#: inc/lib/inc/class-fusion-product-registration.php:460
 #, fuzzy
 msgid "Please enter your Envato token to complete registration."
 msgstr "Insira seu token Envato para concluir o registro."
 
 #. translators: The product name and whether it's a theme or plugin.
-#: inc/lib/inc/class-fusion-product-registration.php:458
+#: inc/lib/inc/class-fusion-product-registration.php:472
 msgid ""
 "The %1$s %2$s is bundled in %3$s and no registration is required for it. "
 "Updates will be provided from %3$s. If however you have purchased %1$s "
@@ -2484,12 +2484,12 @@ msgid ""
 "%2$s updates regardless of %3$s, please check this checkbox."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:498
+#: inc/lib/inc/class-fusion-product-registration.php:512
 #, fuzzy
 msgid "Submit"
 msgstr "Enviar"
 
-#: inc/lib/inc/class-fusion-product-registration.php:504
+#: inc/lib/inc/class-fusion-product-registration.php:518
 msgid ""
 "Registration could not be completed because the value entered above is a "
 "purchase code. A token key is needed to register. Please read the directions "
@@ -2497,12 +2497,12 @@ msgid ""
 msgstr ""
 
 #. translators: The product name for the license.
-#: inc/lib/inc/class-fusion-product-registration.php:507
+#: inc/lib/inc/class-fusion-product-registration.php:521
 msgid ""
 "Invalid token, or corresponding Envato account does not have %s purchased."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:521
+#: inc/lib/inc/class-fusion-product-registration.php:535
 msgid ""
 "Token does not have the necessary permissions. Please create a new token and "
 "make sure the following permissions are enabled for it: <strong>View Your "
@@ -2511,12 +2511,12 @@ msgid ""
 "Purchases You've Made</strong>."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:531
+#: inc/lib/inc/class-fusion-product-registration.php:545
 #, fuzzy
 msgid "Instructions For Generating A Token"
 msgstr "Instruções para gerar um token"
 
-#: inc/lib/inc/class-fusion-product-registration.php:534
+#: inc/lib/inc/class-fusion-product-registration.php:548
 msgid ""
 "Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal Token</"
 "a> link. <strong>IMPORTANT:</strong> You must be logged into the same "
@@ -2526,7 +2526,7 @@ msgid ""
 "Page."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-product-registration.php:535
+#: inc/lib/inc/class-fusion-product-registration.php:549
 #, fuzzy
 msgid ""
 "Enter a name for your token, then check the boxes for <strong>View Your "
@@ -2542,7 +2542,7 @@ msgstr ""
 "Marque a caixa para concordar com os termos e condições e, em seguida, "
 "clique no botão <strong> Criar Token </ strong>"
 
-#: inc/lib/inc/class-fusion-product-registration.php:536
+#: inc/lib/inc/class-fusion-product-registration.php:550
 #, fuzzy
 msgid ""
 "A new page will load with a token number in a box. Copy the token number "
@@ -2553,7 +2553,7 @@ msgstr ""
 "número do token e volte para esta página de registro e cole-o no campo "
 "abaixo e clique no botão <strong> Enviar </ strong>."
 
-#: inc/lib/inc/class-fusion-product-registration.php:537
+#: inc/lib/inc/class-fusion-product-registration.php:551
 msgid ""
 "You will see a green check mark for success, or a failure message if "
 "something went wrong. If it failed, please make sure you followed the steps "
@@ -2561,12 +2561,12 @@ msgid ""
 "various fallback methods."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:656
+#: inc/lib/inc/class-fusion-scripts.php:657
 #, fuzzy
 msgid "Loading the next set of posts..."
 msgstr "Carregando as próximas postagens..."
 
-#: inc/lib/inc/class-fusion-scripts.php:657
+#: inc/lib/inc/class-fusion-scripts.php:658
 #, fuzzy
 msgid "All items displayed."
 msgstr "Todos os itens exibidos."
@@ -2657,12 +2657,12 @@ msgstr ""
 msgid "Pages:"
 msgstr "Páginas:"
 
-#: inc/lib/inc/functions.php:837 shortcodes/fusion-blog.php:568
+#: inc/lib/inc/functions.php:844 shortcodes/fusion-blog.php:568
 #, fuzzy
 msgid "Previous"
 msgstr "Anterior"
 
-#: inc/lib/inc/functions.php:861 shortcodes/fusion-blog.php:592
+#: inc/lib/inc/functions.php:868 shortcodes/fusion-blog.php:592
 #, fuzzy
 msgid "Next"
 msgstr "Próximo"

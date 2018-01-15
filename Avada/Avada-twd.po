@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2017-12-19 07:46:04+00:00\n"
+"POT-Creation-Date: 2018-01-15 10:51:45+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:27+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Language twd\n"
@@ -30,12 +30,12 @@ msgstr ""
 msgid "Can't find what you need? Take a moment and do a search below!"
 msgstr ""
 
-#: bbpress/form-search.php:14 includes/class-avada-layout-bbpress.php:139
+#: bbpress/form-search.php:14 includes/class-avada-layout-bbpress.php:140
 #: search.php:35
 msgid "Search for:"
 msgstr ""
 
-#: bbpress/form-search.php:17 includes/class-avada-layout-bbpress.php:142
+#: bbpress/form-search.php:17 includes/class-avada-layout-bbpress.php:143
 msgid "Search the Forum..."
 msgstr ""
 
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:63 contact.php:74 includes/class-avada-contact.php:127
+#: comments.php:63 contact.php:74 includes/class-avada-contact.php:125
 msgid "Name (required)"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: comments.php:64 contact.php:75 includes/class-avada-contact.php:154
+#: comments.php:64 contact.php:75 includes/class-avada-contact.php:150
 msgid "Email (required)"
 msgstr ""
 
@@ -153,7 +153,7 @@ msgid ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
 msgstr ""
 
-#: contact.php:69 contact.php:81 includes/class-avada-contact.php:176
+#: contact.php:69 contact.php:81 includes/class-avada-contact.php:170
 msgid "Message"
 msgstr ""
 
@@ -166,8 +166,8 @@ msgid "Submit Form"
 msgstr ""
 
 #: functions.php:220 functions.php:221 includes/admin-screens/demos.php:116
-#: includes/class-avada-admin.php:272 includes/class-avada-admin.php:543
-#: includes/class-avada-admin.php:546
+#: includes/class-avada-admin.php:287 includes/class-avada-admin.php:558
+#: includes/class-avada-admin.php:561
 #: includes/class-avada-megamenu-framework.php:183
 msgid "Theme Options"
 msgstr ""
@@ -184,30 +184,30 @@ msgstr ""
 msgid "Sucessfully imported demo data!"
 msgstr ""
 
-#: functions.php:656 functions.php:657
+#: functions.php:653 functions.php:654
 msgid "Fusion Patcher"
 msgstr ""
 
-#: functions.php:672
+#: functions.php:670
 msgid ""
 "Our site is currently undergoing scheduled maintenance. Please try again in "
 "a moment."
 msgstr ""
 
-#: functions.php:676
+#: functions.php:674
 msgid ""
 "Currently updating the Avada Theme. Your site will be accessible once the "
 "update finishes"
 msgstr ""
 
 #. translators: The "follow this link" link.
-#: functions.php:688
+#: functions.php:686
 msgid ""
 "The Fusion-Core plugin needs to be updated before your site can exit "
 "maintenance mode. Please %s to update the plugin."
 msgstr ""
 
-#: functions.php:688
+#: functions.php:686
 msgid "follow this link"
 msgstr ""
 
@@ -226,9 +226,10 @@ msgid ""
 "successful import. Settings that need attention will be listed in red. %2$s."
 msgstr ""
 
-#: includes/admin-screens/demos.php:33 includes/class-avada-admin.php:271
-#: includes/class-avada-admin.php:542 includes/class-avada-admin.php:651
-#: includes/class-avada-admin.php:663 includes/class-avada-admin.php:692
+#: includes/admin-screens/demos.php:33 includes/admin-screens/plugins.php:75
+#: includes/class-avada-admin.php:286 includes/class-avada-admin.php:557
+#: includes/class-avada-admin.php:666 includes/class-avada-admin.php:678
+#: includes/class-avada-admin.php:707
 msgid "System Status"
 msgstr ""
 
@@ -288,22 +289,22 @@ msgid "All"
 msgstr ""
 
 #: includes/admin-screens/demos.php:202 includes/admin-screens/demos.php:334
-#: includes/class-avada-admin.php:1286
+#: includes/class-avada-admin.php:1297
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:125
 #: includes/metaboxes/tabs/tab_avada_page_options.php:77
 #: includes/options/colors.php:155 includes/options/colors.php:204
 msgid "Import"
 msgstr ""
 
-#: includes/admin-screens/demos.php:202 includes/class-avada-admin.php:1283
+#: includes/admin-screens/demos.php:202 includes/class-avada-admin.php:1294
 msgid "Modify"
 msgstr ""
 
-#: includes/admin-screens/demos.php:205 includes/class-avada-admin.php:1284
+#: includes/admin-screens/demos.php:205 includes/class-avada-admin.php:1295
 msgid "Full Import"
 msgstr ""
 
-#: includes/admin-screens/demos.php:207 includes/class-avada-admin.php:1285
+#: includes/admin-screens/demos.php:207 includes/class-avada-admin.php:1296
 msgid "Partial Import"
 msgstr ""
 
@@ -323,18 +324,18 @@ msgstr ""
 msgid "The Following Plugins Are Required To Import Content"
 msgstr ""
 
-#: includes/admin-screens/demos.php:262 includes/class-avada-admin.php:962
+#: includes/admin-screens/demos.php:262 includes/class-avada-admin.php:977
 #: includes/class-avada-tgm-plugin-activation.php:2854
 msgid "Install"
 msgstr ""
 
-#: includes/admin-screens/demos.php:265 includes/class-avada-admin.php:1307
+#: includes/admin-screens/demos.php:265 includes/class-avada-admin.php:1318
 #: includes/class-avada-tgm-plugin-activation.php:2458
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:100
 msgid "Active"
 msgstr ""
 
-#: includes/admin-screens/demos.php:268 includes/class-avada-admin.php:980
+#: includes/admin-screens/demos.php:268 includes/class-avada-admin.php:995
 #: includes/class-avada-tgm-plugin-activation.php:2863
 msgid "Activate"
 msgstr ""
@@ -375,10 +376,10 @@ msgid "Done"
 msgstr ""
 
 #: includes/admin-screens/demos.php:357 includes/admin-screens/faq.php:150
-#: includes/admin-screens/plugins.php:164
+#: includes/admin-screens/plugins.php:184
 #: includes/admin-screens/registration.php:42
 #: includes/admin-screens/support.php:61
-#: includes/admin-screens/system-status.php:643
+#: includes/admin-screens/system-status.php:648
 #: includes/admin-screens/welcome.php:40
 msgid ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
@@ -401,7 +402,7 @@ msgid ""
 msgstr ""
 
 #: includes/admin-screens/demos.php:373 includes/admin-screens/faq.php:33
-#: includes/admin-screens/plugins.php:63 includes/class-avada-admin.php:265
+#: includes/admin-screens/plugins.php:63 includes/class-avada-admin.php:280
 #: includes/class-fusion-builder-filters.php:166
 msgid "Product Registration"
 msgstr ""
@@ -603,30 +604,35 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:49
 msgid ""
-"Slider Revolution & Layer Slider are premium plugins that can be installed "
-"once your <a %1$s>product is registered</a>."
+"Convert Plus, ACF Pro, Slider Revolution & Layer Slider are premium plugins "
+"that can be installed once your <a %1$s>product is registered</a>."
 msgstr ""
 
 #: includes/admin-screens/plugins.php:51
-msgid "Slider Revolution & Layer Slider are premium plugins included in Avada."
+msgid ""
+"Convert Plus, ACF Pro, Slider Revolution & Layer Slider are premium plugins "
+"included in Avada."
 msgstr ""
 
 #: includes/admin-screens/plugins.php:54
 msgid ""
 "Fusion Core and Fusion Builder are required to use Avada. Fusion Builder can "
 "only be installed after Fusion Core is updated to version 3.0 or higher. "
-"%1$s The other plugins below offer design integration with Avada. You can "
-"manage the plugins from this tab. <a href=\"%2$s\" target=\"_blank\"> "
-"Subscribe to our newsletter</a> to be notified about new products coming in "
-"the future!"
+"%1$s Before updating premium plugins, please always make sure Avada is on "
+"the latest available version. The other plugins below offer design "
+"integration with Avada. You can manage the plugins from this tab. <a href="
+"\"%2$s\" target=\"_blank\"> Subscribe to our newsletter</a> to be notified "
+"about new products coming in the future!"
 msgstr ""
 
 #: includes/admin-screens/plugins.php:56
 msgid ""
-"Fusion Core and Fusion Builder are required to use Avada. %1$s The other "
-"plugins below offer design integration with Avada. You can manage the "
-"plugins from this tab. <a href=\"%2$s\" target=\"_blank\">Subscribe to our "
-"newsletter</a> to be notified about new products coming in the future!"
+"Fusion Core and Fusion Builder are required to use Avada. %1$s Before "
+"updating premium plugins, please always make sure Avada is on the latest "
+"available version. The other plugins below offer design integration with "
+"Avada. You can manage the plugins from this tab. <a href=\"%2$s\" target="
+"\"_blank\">Subscribe to our newsletter</a> to be notified about new products "
+"coming in the future!"
 msgstr ""
 
 #: includes/admin-screens/plugins.php:62
@@ -638,36 +644,62 @@ msgstr ""
 #: includes/admin-screens/plugins.php:63
 msgid ""
 "Please visit the %s page and enter a valid token to install or update the "
-"premium plugins; Slider Revolution and Layer Slider."
+"premium plugins: Convert Plus, ACF Pro, Slider Revolution & Layer Slider."
 msgstr ""
 
-#: includes/admin-screens/plugins.php:110
+#: includes/admin-screens/plugins.php:69
+msgid "The Plugin Server Could Not Be Reached"
+msgstr ""
+
+#. translators: %1$s = System Status text & link. %2$s: Plugin Installation
+#. text & link. %3$s: Support Dashboard text & link.
+#: includes/admin-screens/plugins.php:74
+msgid ""
+"Please check on the %1$s page if wp_remote_get() is working. For more "
+"information you can check our documentation of the %2$s. If the issue "
+"persists, you can also get the plugins through our alternate method directly "
+"from the %3$s."
+msgstr ""
+
+#: includes/admin-screens/plugins.php:76
+msgid "Plugin Installation"
+msgstr ""
+
+#: includes/admin-screens/plugins.php:77
+msgid "Support Dashboard"
+msgstr ""
+
+#: includes/admin-screens/plugins.php:128
 msgid "New Version Available: %s"
 msgstr ""
 
-#: includes/admin-screens/plugins.php:115
+#: includes/admin-screens/plugins.php:133
 msgid "Active: %s"
 msgstr ""
 
-#: includes/admin-screens/plugins.php:121
+#: includes/admin-screens/plugins.php:139
 msgid "v%1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
 msgstr ""
 
-#: includes/admin-screens/plugins.php:123
+#: includes/admin-screens/plugins.php:141
 msgid "Available Version: %s"
 msgstr ""
 
-#: includes/admin-screens/plugins.php:132
+#: includes/admin-screens/plugins.php:150
 msgid "v%1$s | %2$s"
 msgstr ""
 
-#: includes/admin-screens/plugins.php:149
+#: includes/admin-screens/plugins.php:167
 #: includes/class-avada-tgm-plugin-activation.php:2410
 msgid "Required"
 msgstr ""
 
-#: includes/admin-screens/plugins.php:154
+#: includes/admin-screens/plugins.php:172
 msgid "Premium"
+msgstr ""
+
+#: includes/admin-screens/plugins.php:181
+msgid "Error "
 msgstr ""
 
 #: includes/admin-screens/registration.php:20
@@ -855,7 +887,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:141
 #: includes/admin-screens/system-status.php:160
-#: includes/class-avada-admin.php:670
+#: includes/class-avada-admin.php:685
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:297
 msgid "Learn More"
 msgstr ""
@@ -1036,63 +1068,63 @@ msgstr ""
 msgid "PHP Version could not be detected."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:365
-msgid "%1$s. WordPress recomendation: 7.2 or above. See %2$s for details."
-msgstr ""
-
-#: includes/admin-screens/system-status.php:374
-msgid "PHP Post Max Size:"
-msgstr ""
-
-#: includes/admin-screens/system-status.php:375
-msgid "The largest file size that can be contained in one post."
+#: includes/admin-screens/system-status.php:366
+msgid "%1$s. WordPress recommendation: %2$s or above. See %3$s for details."
 msgstr ""
 
 #: includes/admin-screens/system-status.php:379
-msgid "PHP Time Limit:"
+msgid "PHP Post Max Size:"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:380
+msgid "The largest file size that can be contained in one post."
+msgstr ""
+
+#: includes/admin-screens/system-status.php:384
+msgid "PHP Time Limit:"
+msgstr ""
+
+#: includes/admin-screens/system-status.php:385
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:366
 msgid ""
 "The amount of time (in seconds) that your site will spend on a single "
 "operation before timing out (to avoid server lockups)"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:386
+#: includes/admin-screens/system-status.php:391
 msgid ""
 "%1$s - We recommend setting max execution time to at least 180.<br />See: <a "
 "href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing max "
 "execution to PHP</a>"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:394
+#: includes/admin-screens/system-status.php:399
 msgid "PHP Max Input Vars:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:395
-#: includes/admin-screens/system-status.php:438
-#: includes/admin-screens/system-status.php:473
+#: includes/admin-screens/system-status.php:400
+#: includes/admin-screens/system-status.php:443
+#: includes/admin-screens/system-status.php:478
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:371
 msgid ""
 "The maximum number of variables your server can use for a single function to "
 "avoid overloads."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:421
-#: includes/admin-screens/system-status.php:464
-#: includes/admin-screens/system-status.php:499
+#: includes/admin-screens/system-status.php:426
+#: includes/admin-screens/system-status.php:469
+#: includes/admin-screens/system-status.php:504
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
 "POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" rel="
 "\"noopener noreferrer\">Increasing max input vars limit.</a>"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:429
+#: includes/admin-screens/system-status.php:434
 msgid "SUHOSIN Installed:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:431
+#: includes/admin-screens/system-status.php:436
 msgid ""
 "Suhosin is an advanced protection system for PHP installations. It was "
 "designed to protect your servers on the one hand against a number of well "
@@ -1102,25 +1134,25 @@ msgid ""
 "data submission limits."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:437
+#: includes/admin-screens/system-status.php:442
 msgid "Suhosin Post Max Vars:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:472
+#: includes/admin-screens/system-status.php:477
 msgid "Suhosin Request Max Vars:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:507
+#: includes/admin-screens/system-status.php:512
 msgid "Suhosin Post Max Value Length:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:508
+#: includes/admin-screens/system-status.php:513
 msgid ""
 "Defines the maximum length of a variable that is registered through a POST "
 "request."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:515
+#: includes/admin-screens/system-status.php:520
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
 "prohibit the Theme Options data from being saved to your database. See: <a "
@@ -1128,114 +1160,114 @@ msgid ""
 "Configuration Info</a>."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:525
+#: includes/admin-screens/system-status.php:530
 msgid "ZipArchive:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:526
+#: includes/admin-screens/system-status.php:531
 msgid ""
 "ZipArchive is required for importing demos. They are used to import and "
 "export zip files specifically for sliders."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:530
+#: includes/admin-screens/system-status.php:535
 msgid "MySQL Version:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:531
+#: includes/admin-screens/system-status.php:536
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:400
 msgid "The version of MySQL installed on your hosting server."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:538
-msgid "Max Upload Size:"
-msgstr ""
-
-#: includes/admin-screens/system-status.php:539
-msgid ""
-"The largest file size that can be uploaded to your WordPress installation."
-msgstr ""
-
 #: includes/admin-screens/system-status.php:543
-msgid "DOMDocument:"
+msgid "Max Upload Size:"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:544
 msgid ""
-"DOMDocument is required for the Fusion Builder plugin to properly function."
+"The largest file size that can be uploaded to your WordPress installation."
 msgstr ""
 
 #: includes/admin-screens/system-status.php:548
-msgid "WP Remote Get:"
+msgid "DOMDocument:"
 msgstr ""
 
 #: includes/admin-screens/system-status.php:549
-#: includes/admin-screens/system-status.php:562
+msgid ""
+"DOMDocument is required for the Fusion Builder plugin to properly function."
+msgstr ""
+
+#: includes/admin-screens/system-status.php:553
+msgid "WP Remote Get:"
+msgstr ""
+
+#: includes/admin-screens/system-status.php:554
+#: includes/admin-screens/system-status.php:567
 msgid ""
 "Avada uses this method to communicate with different APIs, e.g. Google, "
 "Twitter, Facebook."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:561
+#: includes/admin-screens/system-status.php:566
 msgid "WP Remote Post:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:574
+#: includes/admin-screens/system-status.php:579
 msgid "GD Library:"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:575
+#: includes/admin-screens/system-status.php:580
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:578
+#: includes/admin-screens/system-status.php:583
 #: includes/class-avada-tgm-plugin-activation.php:2452
 msgid "Not Installed"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:580
+#: includes/admin-screens/system-status.php:585
 msgid "Installed"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:593
-#: includes/admin-screens/system-status.php:604
+#: includes/admin-screens/system-status.php:598
+#: includes/admin-screens/system-status.php:609
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:531
 msgid "Active Plugins"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:621
+#: includes/admin-screens/system-status.php:626
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:546
 msgid "Visit plugin homepage"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:632
+#: includes/admin-screens/system-status.php:637
 msgid "by %s"
 msgstr ""
 
-#: includes/admin-screens/system-status.php:651
+#: includes/admin-screens/system-status.php:656
 msgid ""
 "Warning: By clicking OK, all changes made to your theme options after "
 "installing Avada 4.0 will be lost. Your Theme Options will be reset to the "
 "values from %s and then converted again to 4.0."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:664
+#: includes/admin-screens/system-status.php:669
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can restart the conversion of your page contents to the "
 "new Fusion Builder format."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:673
+#: includes/admin-screens/system-status.php:678
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can start the conversion reversion of your page contents "
 "to the old Fusion Builder format."
 msgstr ""
 
-#: includes/admin-screens/system-status.php:682
+#: includes/admin-screens/system-status.php:687
 msgid ""
 "Warning: This is a non-reversable process. By clicking OK, all backups "
 "created during the 5.0 shortcode-conversion process will be removed from "
@@ -1351,7 +1383,7 @@ msgstr ""
 msgid "Checkout"
 msgstr ""
 
-#: includes/avada-functions.php:658 templates/header-3.php:44
+#: includes/avada-functions.php:658 templates/header-v6.php:44
 #: templates/menu-mobile-flyout.php:38 templates/menu-mobile-modern.php:32
 msgid "Toggle Sliding Bar"
 msgstr ""
@@ -1361,43 +1393,43 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: includes/avada-functions.php:914 includes/avada-functions.php:935
+#: includes/avada-functions.php:906 includes/avada-functions.php:927
 msgid "This Slider Is Assigned Via Fusion Page Options"
 msgstr ""
 
 #. translators: The slider ID.
-#: includes/avada-functions.php:916
+#: includes/avada-functions.php:908
 msgid "Slider ID: %s"
 msgstr ""
 
-#: includes/avada-functions.php:917
+#: includes/avada-functions.php:909
 msgid "Edit slider"
 msgstr ""
 
-#: includes/avada-functions.php:918
+#: includes/avada-functions.php:910
 msgid "Edit Slider"
 msgstr ""
 
-#: includes/avada-functions.php:921 includes/avada-functions.php:922
+#: includes/avada-functions.php:913 includes/avada-functions.php:914
 msgid "Edit Slides"
 msgstr ""
 
-#: includes/avada-functions.php:925 includes/avada-functions.php:926
-#: includes/avada-functions.php:940
+#: includes/avada-functions.php:917 includes/avada-functions.php:918
+#: includes/avada-functions.php:932
 msgid "Remove Slider"
 msgstr ""
 
 #. translators: The slider.
-#: includes/avada-functions.php:937
+#: includes/avada-functions.php:929
 msgid "Slider \"%s\" cannot be found"
 msgstr ""
 
-#: includes/avada-functions.php:938 includes/avada-functions.php:939
+#: includes/avada-functions.php:930 includes/avada-functions.php:931
 msgid "Learn How To Import Sliders"
 msgstr ""
 
-#: includes/avada-functions.php:1558 includes/avada-functions.php:1586
-#: includes/avada-functions.php:1592 includes/avada-functions.php:1609
+#: includes/avada-functions.php:1548 includes/avada-functions.php:1576
+#: includes/avada-functions.php:1582 includes/avada-functions.php:1599
 #: includes/metaboxes/tabs/tab_sliders.php:31
 #: includes/metaboxes/tabs/tab_sliders.php:68
 #: includes/metaboxes/tabs/tab_sliders.php:86
@@ -1405,33 +1437,30 @@ msgstr ""
 msgid "Select a slider"
 msgstr ""
 
-#: includes/avada-tgm.php:250
+#: includes/avada-tgm.php:78
 msgid "Install/Update Required Plugins"
 msgstr ""
 
-#: includes/avada-tgm.php:251
-#: includes/class-avada-tgm-plugin-activation.php:341
+#: includes/avada-tgm.php:79 includes/class-avada-tgm-plugin-activation.php:341
 msgid "Install Plugins"
 msgstr ""
 
 #. translators: %s: plugin name.
-#: includes/avada-tgm.php:252
-#: includes/class-avada-tgm-plugin-activation.php:343
+#: includes/avada-tgm.php:80 includes/class-avada-tgm-plugin-activation.php:343
 msgid "Installing Plugin: %s"
 msgstr ""
 
-#: includes/avada-tgm.php:253
-#: includes/class-avada-tgm-plugin-activation.php:346
+#: includes/avada-tgm.php:81 includes/class-avada-tgm-plugin-activation.php:346
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: includes/avada-tgm.php:254
+#: includes/avada-tgm.php:82
 msgid "Avada requires the following plugin installed: %1$s."
 msgid_plural "Avada requires the following plugins installed: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:257
+#: includes/avada-tgm.php:85
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -1443,13 +1472,13 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:258
+#: includes/avada-tgm.php:86
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:261
+#: includes/avada-tgm.php:89
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -1461,7 +1490,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:262
+#: includes/avada-tgm.php:90
 msgid ""
 "The following plugin needs to be updated to ensure maximum compatibility "
 "with Avada: %1$s"
@@ -1471,7 +1500,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:263
+#: includes/avada-tgm.php:91
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -1483,30 +1512,28 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:264
+#: includes/avada-tgm.php:92
 msgid "Go Install Plugin"
 msgid_plural "Go Install Plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:265
+#: includes/avada-tgm.php:93
 msgid "Go Activate Plugin"
 msgid_plural "Go Activate Plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/avada-tgm.php:266
-#: includes/class-avada-tgm-plugin-activation.php:389
+#: includes/avada-tgm.php:94 includes/class-avada-tgm-plugin-activation.php:389
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
-#: includes/avada-tgm.php:267
-#: includes/class-avada-tgm-plugin-activation.php:391
+#: includes/avada-tgm.php:95 includes/class-avada-tgm-plugin-activation.php:391
 #: includes/class-avada-tgm-plugin-activation.php:3296
 msgid "Plugin activated successfully."
 msgstr ""
 
-#: includes/avada-tgm.php:268
+#: includes/avada-tgm.php:96
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
@@ -1521,8 +1548,8 @@ msgid ""
 "the page template which will eventually be removed."
 msgstr ""
 
-#: includes/class-avada-admin.php:156 includes/class-avada-admin.php:191
-#: includes/class-avada-admin.php:200
+#: includes/class-avada-admin.php:171 includes/class-avada-admin.php:206
+#: includes/class-avada-admin.php:215
 msgid "ThemeFusion News"
 msgstr ""
 
@@ -1530,117 +1557,117 @@ msgstr ""
 msgid "Avada"
 msgstr ""
 
-#: includes/class-avada-admin.php:268 includes/class-avada-admin.php:536
-#: includes/class-avada-admin.php:687
+#: includes/class-avada-admin.php:283 includes/class-avada-admin.php:551
+#: includes/class-avada-admin.php:702
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:320
 msgid "Support"
 msgstr ""
 
-#: includes/class-avada-admin.php:269 includes/class-avada-admin.php:540
-#: includes/class-avada-admin.php:690
+#: includes/class-avada-admin.php:284 includes/class-avada-admin.php:555
+#: includes/class-avada-admin.php:705
 msgid "Demos"
 msgstr ""
 
-#: includes/class-avada-admin.php:270 includes/class-avada-admin.php:541
-#: includes/class-avada-admin.php:691
+#: includes/class-avada-admin.php:285 includes/class-avada-admin.php:556
+#: includes/class-avada-admin.php:706
 msgid "Plugins"
 msgstr ""
 
-#: includes/class-avada-admin.php:275
+#: includes/class-avada-admin.php:290
 msgid "Fusion Patcher %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:339 includes/class-avada-admin.php:684
+#: includes/class-avada-admin.php:354 includes/class-avada-admin.php:699
 msgid "Welcome"
 msgstr ""
 
-#: includes/class-avada-admin.php:535 includes/class-avada-admin.php:686
+#: includes/class-avada-admin.php:550 includes/class-avada-admin.php:701
 msgid "Registration"
 msgstr ""
 
-#: includes/class-avada-admin.php:539 includes/class-avada-admin.php:689
+#: includes/class-avada-admin.php:554 includes/class-avada-admin.php:704
 #: includes/metaboxes/metaboxes.php:283
 msgid "FAQ"
 msgstr ""
 
-#: includes/class-avada-admin.php:644
+#: includes/class-avada-admin.php:659
 msgid "Welcome to Avada!"
 msgstr ""
 
-#: includes/class-avada-admin.php:648 includes/class-avada-admin.php:660
+#: includes/class-avada-admin.php:663 includes/class-avada-admin.php:675
 msgid ""
 "We're sorry but the demo data could not be imported. It is most likely due "
 "to low PHP configurations on your server. There are two possible solutions."
 msgstr ""
 
-#: includes/class-avada-admin.php:650 includes/class-avada-admin.php:662
-#: includes/class-avada-admin.php:669
+#: includes/class-avada-admin.php:665 includes/class-avada-admin.php:677
+#: includes/class-avada-admin.php:684
 msgid "Solution 1:"
 msgstr ""
 
-#: includes/class-avada-admin.php:650 includes/class-avada-admin.php:662
-#: includes/class-avada-admin.php:669
+#: includes/class-avada-admin.php:665 includes/class-avada-admin.php:677
+#: includes/class-avada-admin.php:684
 msgid "Import the demo using an alternate method."
 msgstr ""
 
-#: includes/class-avada-admin.php:650 includes/class-avada-admin.php:662
-#: includes/class-avada-admin.php:669
+#: includes/class-avada-admin.php:665 includes/class-avada-admin.php:677
+#: includes/class-avada-admin.php:684
 msgid "Alternate Method"
 msgstr ""
 
-#: includes/class-avada-admin.php:651 includes/class-avada-admin.php:663
-#: includes/class-avada-admin.php:670
+#: includes/class-avada-admin.php:666 includes/class-avada-admin.php:678
+#: includes/class-avada-admin.php:685
 msgid "Solution 2:"
 msgstr ""
 
-#: includes/class-avada-admin.php:651 includes/class-avada-admin.php:663
+#: includes/class-avada-admin.php:666 includes/class-avada-admin.php:678
 msgid ""
 "Fix the PHP configurations in the System Status that are reported in %1$s, "
 "then use the %2$s, then reimport."
 msgstr ""
 
-#: includes/class-avada-admin.php:651 includes/class-avada-admin.php:663
+#: includes/class-avada-admin.php:666 includes/class-avada-admin.php:678
 msgid "RED"
 msgstr ""
 
-#: includes/class-avada-admin.php:651 includes/class-avada-admin.php:663
+#: includes/class-avada-admin.php:666 includes/class-avada-admin.php:678
 msgid "Reset WordPress Plugin"
 msgstr ""
 
-#: includes/class-avada-admin.php:655
+#: includes/class-avada-admin.php:670
 msgid ""
 "Demo data successfully imported. Install and run %s plugin once if you would "
 "like images generated to the specific theme sizes. This is not needed if you "
 "upload your own images because WP does it automatically."
 msgstr ""
 
-#: includes/class-avada-admin.php:655 includes/options/advanced.php:92
+#: includes/class-avada-admin.php:670 includes/options/advanced.php:92
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: includes/class-avada-admin.php:656
+#: includes/class-avada-admin.php:671
 msgid ""
 "Please visit the %s page and change your permalinks structure to \"Post Name"
 "\" so that content links work properly."
 msgstr ""
 
-#: includes/class-avada-admin.php:656
+#: includes/class-avada-admin.php:671
 msgid "Permalinks"
 msgstr ""
 
-#: includes/class-avada-admin.php:667
+#: includes/class-avada-admin.php:682
 msgid ""
 "We're sorry but the demo data could not be imported. We were unable to find "
 "import file."
 msgstr ""
 
-#: includes/class-avada-admin.php:670
+#: includes/class-avada-admin.php:685
 msgid ""
 "Make sure WordPress directory permissions are correct and uploads directory "
 "is writable."
 msgstr ""
 
-#: includes/class-avada-admin.php:675
+#: includes/class-avada-admin.php:690
 msgid ""
 "Avada is now installed and ready to use! Get ready to build something "
 "beautiful. Please <a href=\"%1$s\" target=\"%2$s\">register your purchase</"
@@ -1649,7 +1676,7 @@ msgid ""
 "receive product support. We hope you enjoy it!"
 msgstr ""
 
-#: includes/class-avada-admin.php:677
+#: includes/class-avada-admin.php:692
 msgid ""
 "Avada is now installed and ready to use! Get ready to build something "
 "beautiful. Through your registration on the Envato hosted platform, you can "
@@ -1659,79 +1686,79 @@ msgid ""
 "support team. We hope you enjoy it!"
 msgstr ""
 
-#: includes/class-avada-admin.php:682
+#: includes/class-avada-admin.php:697
 #: includes/class-avada-tgm-plugin-activation.php:2690
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:715
 msgid "Version"
 msgstr ""
 
-#: includes/class-avada-admin.php:929
+#: includes/class-avada-admin.php:944
 msgid "Please update Fusion Core to latest version."
 msgstr ""
 
-#: includes/class-avada-admin.php:962
+#: includes/class-avada-admin.php:977
 msgid "Install %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:980
+#: includes/class-avada-admin.php:995
 msgid "Activate %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1003
+#: includes/class-avada-admin.php:1018
 msgid "Update %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1003
+#: includes/class-avada-admin.php:1018
 #: includes/class-avada-tgm-plugin-activation.php:2860
 #: includes/options/colors.php:146 includes/options/colors.php:174
 msgid "Update"
 msgstr ""
 
-#: includes/class-avada-admin.php:1018
+#: includes/class-avada-admin.php:1033
 msgid "Deactivate %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1018
+#: includes/class-avada-admin.php:1033
 msgid "Deactivate"
 msgstr ""
 
-#: includes/class-avada-admin.php:1040
+#: includes/class-avada-admin.php:1055
 msgid "Fusion Builder will be installable, once Fusion Core plugin is updated."
 msgstr ""
 
-#: includes/class-avada-admin.php:1040
+#: includes/class-avada-admin.php:1055
 msgid "Fusion Builder"
 msgstr ""
 
-#: includes/class-avada-admin.php:1059
+#: includes/class-avada-admin.php:1074
 msgid "Manage Plugins Below"
 msgstr ""
 
-#: includes/class-avada-admin.php:1064
+#: includes/class-avada-admin.php:1079
 msgid "Go Manage Plugins"
 msgstr ""
 
-#: includes/class-avada-admin.php:1081
+#: includes/class-avada-admin.php:1096
 msgid "Avada portfolio category base"
 msgstr ""
 
-#: includes/class-avada-admin.php:1092
+#: includes/class-avada-admin.php:1107
 msgid "Avada portfolio skill base"
 msgstr ""
 
-#: includes/class-avada-admin.php:1103
+#: includes/class-avada-admin.php:1118
 msgid "Avada portfolio tag base"
 msgstr ""
 
-#: includes/class-avada-admin.php:1282
+#: includes/class-avada-admin.php:1293
 msgid "Content"
 msgstr ""
 
-#: includes/class-avada-admin.php:1287
+#: includes/class-avada-admin.php:1298
 msgid "Download"
 msgstr ""
 
-#: includes/class-avada-admin.php:1288
+#: includes/class-avada-admin.php:1299
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1745,7 +1772,7 @@ msgid ""
 "as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1289 includes/class-avada-admin.php:1297
+#: includes/class-avada-admin.php:1300 includes/class-avada-admin.php:1308
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1758,7 +1785,7 @@ msgid ""
 "must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1290
+#: includes/class-avada-admin.php:1301
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1772,7 +1799,7 @@ msgid ""
 "Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1291
+#: includes/class-avada-admin.php:1302
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1786,7 +1813,7 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1292
+#: includes/class-avada-admin.php:1303
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1801,7 +1828,7 @@ msgid ""
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1293
+#: includes/class-avada-admin.php:1304
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1815,7 +1842,7 @@ msgid ""
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1294
+#: includes/class-avada-admin.php:1305
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1829,7 +1856,7 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1295
+#: includes/class-avada-admin.php:1306
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1842,7 +1869,7 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1296
+#: includes/class-avada-admin.php:1307
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -1856,98 +1883,98 @@ msgid ""
 "Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1298
+#: includes/class-avada-admin.php:1309
 msgid "Currently Processing: %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1299
+#: includes/class-avada-admin.php:1310
 msgid "Currently Removing: %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1300
+#: includes/class-avada-admin.php:1311
 #: includes/lib/inc/importer/class-wxr-importer.php:505
 msgid "The file does not exist"
 msgstr ""
 
-#: includes/class-avada-admin.php:1301
+#: includes/class-avada-admin.php:1312
 msgid ""
 "Demo server couldn't be reached. Please check for wp_remote_get on the <a "
 "href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr ""
 
-#: includes/class-avada-admin.php:1302
+#: includes/class-avada-admin.php:1313
 msgid ""
 "Demo import failed. Please check for PHP limits in red on the <a href=\"%s\" "
 "target=\"_blank\">System Status</a> page. Change those to the recommended "
 "value and try again."
 msgstr ""
 
-#: includes/class-avada-admin.php:1303
+#: includes/class-avada-admin.php:1314
 msgid ""
 "Removing demo content will remove ALL previously imported demo content from "
 "this demo and restore your site to the previous state it was in before this "
 "demo content was imported."
 msgstr ""
 
-#: includes/class-avada-admin.php:1304
+#: includes/class-avada-admin.php:1315
 msgid ""
-"ERROR:\\n\\nFusion Builder Plugin can only be installed and activated if "
-"Fusion Core plugin is at version 3.0 or higher. Your version of Fusion Core "
-"is %s. Please update Fusion Core first."
+"Fusion Builder Plugin can only be installed and activated if Fusion Core "
+"plugin is at version 3.0 or higher. Please update Fusion Core first."
 msgstr ""
 
-#: includes/class-avada-admin.php:1305
+#: includes/class-avada-admin.php:1316
 msgid ""
-"ERROR:\\n\\nThis plugin can only be installed or updated, after you have "
-"successfully completed the Avada product registration on the \"Product "
-"Registration\" tab."
+"This plugin can only be installed or updated, after you have successfully "
+"completed the Avada product registration on the <a href=\"%s\" target="
+"\"_blank\">Product Registration</a> tab."
 msgstr ""
 
-#: includes/class-avada-admin.php:1306
+#: includes/class-avada-admin.php:1317
 msgid "Plugin install failed. Please try Again."
 msgstr ""
 
-#: includes/class-avada-admin.php:1343
+#: includes/class-avada-admin.php:1354
 msgid "Fusion Taxonomy Options"
 msgstr ""
 
-#: includes/class-avada-admin.php:1351
+#: includes/class-avada-admin.php:1362
 #: includes/metaboxes/tabs/tab_sliders.php:21
 msgid "No Slider"
 msgstr ""
 
-#: includes/class-avada-admin.php:1352
+#: includes/class-avada-admin.php:1363
 msgid "LayerSlider"
 msgstr ""
 
-#: includes/class-avada-admin.php:1353 includes/options/advanced.php:194
+#: includes/class-avada-admin.php:1364
+#: includes/metaboxes/tabs/tab_sliders.php:23 includes/options/advanced.php:194
 msgid "Fusion Slider"
 msgstr ""
 
-#: includes/class-avada-admin.php:1354
+#: includes/class-avada-admin.php:1365
 msgid "Slider Revolution"
 msgstr ""
 
-#: includes/class-avada-admin.php:1355 includes/options/advanced.php:201
+#: includes/class-avada-admin.php:1366 includes/options/advanced.php:201
 #: includes/options/elastic_slider.php:27
 msgid "Elastic Slider"
 msgstr ""
 
-#: includes/class-avada-admin.php:1358
+#: includes/class-avada-admin.php:1369
 msgid "Slider Type "
 msgstr ""
 
-#: includes/class-avada-admin.php:1361
+#: includes/class-avada-admin.php:1372
 #: includes/metaboxes/tabs/tab_sliders.php:27
 msgid "Select the type of slider that displays."
 msgstr ""
 
-#: includes/class-avada-admin.php:1369
+#: includes/class-avada-admin.php:1380
 msgid "Select LayerSlider "
 msgstr ""
 
-#: includes/class-avada-admin.php:1372 includes/class-avada-admin.php:1390
-#: includes/class-avada-admin.php:1408 includes/class-avada-admin.php:1426
+#: includes/class-avada-admin.php:1383 includes/class-avada-admin.php:1401
+#: includes/class-avada-admin.php:1419 includes/class-avada-admin.php:1437
 #: includes/metaboxes/tabs/tab_sliders.php:57
 #: includes/metaboxes/tabs/tab_sliders.php:74
 #: includes/metaboxes/tabs/tab_sliders.php:103
@@ -1955,21 +1982,21 @@ msgstr ""
 msgid "Select the unique name of the slider."
 msgstr ""
 
-#: includes/class-avada-admin.php:1387
+#: includes/class-avada-admin.php:1398
 msgid "Select Fusion Slider "
 msgstr ""
 
-#: includes/class-avada-admin.php:1405
+#: includes/class-avada-admin.php:1416
 #: includes/metaboxes/tabs/tab_sliders.php:101
 msgid "Select Slider Revolution Slider"
 msgstr ""
 
-#: includes/class-avada-admin.php:1423
+#: includes/class-avada-admin.php:1434
 #: includes/metaboxes/tabs/tab_sliders.php:124
 msgid "Select Elastic Slider"
 msgstr ""
 
-#: includes/class-avada-admin.php:1440
+#: includes/class-avada-admin.php:1451
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1900
 #: includes/metaboxes/tabs/tab_background.php:21
 #: includes/metaboxes/tabs/tab_footer.php:21
@@ -2012,99 +2039,99 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: includes/class-avada-admin.php:1441
+#: includes/class-avada-admin.php:1452
 #: includes/metaboxes/tabs/tab_sliders.php:141 includes/options/contact.php:67
 #: includes/options/header.php:89
 msgid "Below"
 msgstr ""
 
-#: includes/class-avada-admin.php:1442
+#: includes/class-avada-admin.php:1453
 #: includes/metaboxes/tabs/tab_sliders.php:142 includes/options/blog.php:404
 #: includes/options/contact.php:66 includes/options/header.php:90
 msgid "Above"
 msgstr ""
 
-#: includes/class-avada-admin.php:1445
+#: includes/class-avada-admin.php:1456
 #: includes/metaboxes/tabs/tab_sliders.php:138 includes/options/header.php:83
 msgid "Slider Position"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
-#: includes/class-avada-admin.php:1449
+#: includes/class-avada-admin.php:1460
 #: includes/metaboxes/tabs/tab_sliders.php:144
 msgid ""
 "Select if the slider shows below or above the header. Only works for top "
 "header position. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1463
+#: includes/class-avada-admin.php:1474
 msgid "Page Content Top Padding"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
-#: includes/class-avada-admin.php:1465 includes/class-avada-admin.php:1474
+#: includes/class-avada-admin.php:1476 includes/class-avada-admin.php:1485
 #: includes/metaboxes/tabs/tab_page.php:25
 msgid "In pixels ex: 20px. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1472
+#: includes/class-avada-admin.php:1483
 msgid "Page Content Bottom Padding"
 msgstr ""
 
-#: includes/class-avada-admin.php:1481 includes/options/header.php:542
+#: includes/class-avada-admin.php:1492 includes/options/header.php:542
 msgid "Header Background Color"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
-#: includes/class-avada-admin.php:1484
+#: includes/class-avada-admin.php:1495
 #: includes/metaboxes/tabs/tab_header.php:55
 msgid ""
 "Controls the background color for the header. Hex code or rgba value, ex: "
 "#000. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1491
+#: includes/class-avada-admin.php:1502
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:241
 msgid "Page Title Bar Background"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
-#: includes/class-avada-admin.php:1493
+#: includes/class-avada-admin.php:1504
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:242
 msgid "Select an image to use for the page title bar background. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1500
+#: includes/class-avada-admin.php:1511
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:255
 msgid "Page Title Bar Background Retina"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
-#: includes/class-avada-admin.php:1502
+#: includes/class-avada-admin.php:1513
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:256
 msgid "Select an image to use for retina devices. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1516
+#: includes/class-avada-admin.php:1527
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:182
 #: includes/options/page_title_bar.php:89
 msgid "Page Title Bar Height"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
-#: includes/class-avada-admin.php:1518
+#: includes/class-avada-admin.php:1529
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:183
 msgid "Set the height of the page title bar. In pixels ex: 100px. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1525
+#: includes/class-avada-admin.php:1536
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:189
 #: includes/options/page_title_bar.php:103
 msgid "Page Title Bar Mobile Height"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
-#: includes/class-avada-admin.php:1527
+#: includes/class-avada-admin.php:1538
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:190
 msgid "Set the height of the page title bar on mobile. In pixels ex: 100px. %s"
 msgstr ""
@@ -2146,7 +2173,7 @@ msgid "Spacing Options"
 msgstr ""
 
 #: includes/class-avada-avadaredux-migration.php:168
-#: includes/class-avada-avadaredux.php:360 includes/options/typography.php:266
+#: includes/class-avada-avadaredux.php:352 includes/options/typography.php:266
 #: includes/options/typography.php:277
 msgid "Custom Fonts"
 msgstr ""
@@ -2160,23 +2187,23 @@ msgstr ""
 msgid "Other Options"
 msgstr ""
 
-#: includes/class-avada-avadaredux.php:153
+#: includes/class-avada-avadaredux.php:152
 msgid "Are you sure you want to delete all Fusion caches?"
 msgstr ""
 
-#: includes/class-avada-avadaredux.php:154
+#: includes/class-avada-avadaredux.php:153
 msgid "All Fusion caches have been reset."
 msgstr ""
 
-#: includes/class-avada-avadaredux.php:306
+#: includes/class-avada-avadaredux.php:298
 msgid "Avada Options have moved!"
 msgstr ""
 
-#: includes/class-avada-avadaredux.php:306
+#: includes/class-avada-avadaredux.php:298
 msgid "Avada Options"
 msgstr ""
 
-#: includes/class-avada-avadaredux.php:327
+#: includes/class-avada-avadaredux.php:319
 msgid ""
 "Theme options have changed, redirecting you to the new page in %s seconds."
 msgstr ""
@@ -2197,53 +2224,53 @@ msgstr ""
 msgid "404 - Page not Found"
 msgstr ""
 
-#: includes/class-avada-contact.php:225
+#: includes/class-avada-contact.php:218
 msgid "Name: %s"
 msgstr ""
 
-#: includes/class-avada-contact.php:226
+#: includes/class-avada-contact.php:219
 msgid "Email: %s"
 msgstr ""
 
-#: includes/class-avada-contact.php:227
+#: includes/class-avada-contact.php:220
 msgid "Subject: %s"
 msgstr ""
 
-#: includes/class-avada-contact.php:228
+#: includes/class-avada-contact.php:221
 msgid "Comments: %s"
 msgstr ""
 
 #. translators: image size.
-#: includes/class-avada-init.php:241 includes/class-avada-init.php:243
-#: includes/class-avada-init.php:245 includes/class-avada-init.php:247
-#: includes/class-avada-init.php:249
+#: includes/class-avada-init.php:244 includes/class-avada-init.php:246
+#: includes/class-avada-init.php:248 includes/class-avada-init.php:250
+#: includes/class-avada-init.php:252
 msgid "Avada Grid %s"
 msgstr ""
 
-#: includes/class-avada-layout-bbpress.php:102
+#: includes/class-avada-layout-bbpress.php:103
 msgid "Post count: %s"
 msgstr ""
 
-#: includes/class-avada-layout-bbpress.php:135 search.php:29
+#: includes/class-avada-layout-bbpress.php:136 search.php:29
 msgid "Need a new search?"
 msgstr ""
 
-#: includes/class-avada-layout-bbpress.php:136 search.php:31
+#: includes/class-avada-layout-bbpress.php:137 search.php:31
 msgid "If you didn't find what you were looking for, try a new search!"
-msgstr ""
-
-#: includes/class-avada-layout-bbpress.php:221
-#: includes/class-avada-layout-bbpress.php:246
-#: includes/class-avada-layout-bbpress.php:268
-#: includes/class-avada-woocommerce.php:370 includes/lib/inc/functions.php:837
-#: single-wpfc_sermon.php:22 single.php:22
-msgid "Previous"
 msgstr ""
 
 #: includes/class-avada-layout-bbpress.php:222
 #: includes/class-avada-layout-bbpress.php:247
 #: includes/class-avada-layout-bbpress.php:269
-#: includes/class-avada-woocommerce.php:371 includes/lib/inc/functions.php:861
+#: includes/class-avada-woocommerce.php:370 includes/lib/inc/functions.php:844
+#: single-wpfc_sermon.php:22 single.php:22
+msgid "Previous"
+msgstr ""
+
+#: includes/class-avada-layout-bbpress.php:223
+#: includes/class-avada-layout-bbpress.php:248
+#: includes/class-avada-layout-bbpress.php:270
+#: includes/class-avada-woocommerce.php:371 includes/lib/inc/functions.php:868
 #: single-wpfc_sermon.php:23 single.php:23
 msgid "Next"
 msgstr ""
@@ -3176,7 +3203,7 @@ msgstr ""
 #: includes/options/social_media.php:230 includes/options/social_media.php:407
 #: includes/widget/class-fusion-widget-menu.php:182
 #: includes/widget/class-fusion-widget-social-links.php:597
-#: includes/widget/class-fusion-widget-vertical-menu.php:317
+#: includes/widget/class-fusion-widget-vertical-menu.php:327
 msgid "Left"
 msgstr ""
 
@@ -3201,7 +3228,7 @@ msgstr ""
 #: includes/options/social_media.php:405
 #: includes/widget/class-fusion-widget-menu.php:184
 #: includes/widget/class-fusion-widget-social-links.php:595
-#: includes/widget/class-fusion-widget-vertical-menu.php:318
+#: includes/widget/class-fusion-widget-vertical-menu.php:328
 msgid "Right"
 msgstr ""
 
@@ -3550,12 +3577,12 @@ msgstr ""
 msgid "Yearly Archives: %s"
 msgstr ""
 
-#: includes/custom_functions.php:372 includes/custom_functions.php:375
-#: includes/widget/class-fusion-widget-vertical-menu.php:118
+#: includes/custom_functions.php:374 includes/custom_functions.php:377
+#: includes/widget/class-fusion-widget-vertical-menu.php:128
 msgid "Back to Parent Page"
 msgstr ""
 
-#: includes/dynamic_css.php:7863
+#: includes/dynamic_css.php:7896
 msgid "Please enter correct details for this required field."
 msgstr ""
 
@@ -3783,7 +3810,7 @@ msgstr ""
 msgid "Patch cannot be currently aplied."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-client.php:104
+#: includes/lib/inc/class-fusion-patcher-client.php:105
 msgid ""
 "The ThemeFusion patches server could not be reached. Please contact your "
 "host to unblock the \"https://updates.theme-fusion.com/\" domain."
@@ -3799,12 +3826,12 @@ msgstr ""
 msgid "Patch empty."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:156
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:158
 msgid "Invalid Patch target."
 msgstr ""
 
 #. translators: Links.
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:183
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:185
 msgid ""
 "The patch could not be applied because of your specific server permissions. "
 "You have two options to remedy this. 1. <a %1$s>Download this zip file</a> "
@@ -3816,20 +3843,20 @@ msgid ""
 "\"Dismiss Notices\" button so this message is removed."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:266
+#: includes/lib/inc/class-fusion-product-registration.php:280
 msgid "Token"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:444
+#: includes/lib/inc/class-fusion-product-registration.php:458
 msgid "Congratulations! Your product is registered now."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:446
+#: includes/lib/inc/class-fusion-product-registration.php:460
 msgid "Please enter your Envato token to complete registration."
 msgstr ""
 
 #. translators: The product name and whether it's a theme or plugin.
-#: includes/lib/inc/class-fusion-product-registration.php:458
+#: includes/lib/inc/class-fusion-product-registration.php:472
 msgid ""
 "The %1$s %2$s is bundled in %3$s and no registration is required for it. "
 "Updates will be provided from %3$s. If however you have purchased %1$s "
@@ -3837,11 +3864,11 @@ msgid ""
 "%2$s updates regardless of %3$s, please check this checkbox."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:498
+#: includes/lib/inc/class-fusion-product-registration.php:512
 msgid "Submit"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:504
+#: includes/lib/inc/class-fusion-product-registration.php:518
 msgid ""
 "Registration could not be completed because the value entered above is a "
 "purchase code. A token key is needed to register. Please read the directions "
@@ -3849,12 +3876,12 @@ msgid ""
 msgstr ""
 
 #. translators: The product name for the license.
-#: includes/lib/inc/class-fusion-product-registration.php:507
+#: includes/lib/inc/class-fusion-product-registration.php:521
 msgid ""
 "Invalid token, or corresponding Envato account does not have %s purchased."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:521
+#: includes/lib/inc/class-fusion-product-registration.php:535
 msgid ""
 "Token does not have the necessary permissions. Please create a new token and "
 "make sure the following permissions are enabled for it: <strong>View Your "
@@ -3863,11 +3890,11 @@ msgid ""
 "Purchases You've Made</strong>."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:531
+#: includes/lib/inc/class-fusion-product-registration.php:545
 msgid "Instructions For Generating A Token"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:534
+#: includes/lib/inc/class-fusion-product-registration.php:548
 msgid ""
 "Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal Token</"
 "a> link. <strong>IMPORTANT:</strong> You must be logged into the same "
@@ -3877,7 +3904,7 @@ msgid ""
 "Page."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:535
+#: includes/lib/inc/class-fusion-product-registration.php:549
 msgid ""
 "Enter a name for your token, then check the boxes for <strong>View Your "
 "Envato Account Username, Download Your Purchased Items, List Purchases "
@@ -3886,14 +3913,14 @@ msgid ""
 "conditions, then click the <strong>Create Token button</strong>"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:536
+#: includes/lib/inc/class-fusion-product-registration.php:550
 msgid ""
 "A new page will load with a token number in a box. Copy the token number "
 "then come back to this registration page and paste it into the field below "
 "and click the <strong>Submit</strong> button."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-product-registration.php:537
+#: includes/lib/inc/class-fusion-product-registration.php:551
 msgid ""
 "You will see a green check mark for success, or a failure message if "
 "something went wrong. If it failed, please make sure you followed the steps "
@@ -3901,11 +3928,11 @@ msgid ""
 "various fallback methods."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:656
+#: includes/lib/inc/class-fusion-scripts.php:657
 msgid "Loading the next set of posts..."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:657
+#: includes/lib/inc/class-fusion-scripts.php:658
 msgid "All items displayed."
 msgstr ""
 
@@ -5022,7 +5049,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:92
 #: includes/options/extra.php:46
-#: includes/widget/class-fusion-widget-vertical-menu.php:309
+#: includes/widget/class-fusion-widget-vertical-menu.php:319
 msgid "Hover"
 msgstr ""
 
@@ -8933,7 +8960,7 @@ msgid ""
 msgstr ""
 
 #: includes/options/extra.php:47
-#: includes/widget/class-fusion-widget-vertical-menu.php:310
+#: includes/widget/class-fusion-widget-vertical-menu.php:320
 msgid "Click"
 msgstr ""
 
@@ -13285,7 +13312,7 @@ msgstr ""
 #: includes/widget/class-fusion-widget-recent-works.php:137
 #: includes/widget/class-fusion-widget-social-links.php:541
 #: includes/widget/class-fusion-widget-tweets.php:249
-#: includes/widget/class-fusion-widget-vertical-menu.php:266
+#: includes/widget/class-fusion-widget-vertical-menu.php:276
 msgid "Title:"
 msgstr ""
 
@@ -13386,13 +13413,13 @@ msgid "Default key is: %s"
 msgstr ""
 
 #: includes/widget/class-fusion-widget-menu.php:169
-#: includes/widget/class-fusion-widget-vertical-menu.php:280
+#: includes/widget/class-fusion-widget-vertical-menu.php:290
 msgid "Select Menu:"
 msgstr ""
 
 #: includes/widget/class-fusion-widget-menu.php:171
-#: includes/widget/class-fusion-widget-vertical-menu.php:282
-#: includes/widget/class-fusion-widget-vertical-menu.php:294
+#: includes/widget/class-fusion-widget-vertical-menu.php:292
+#: includes/widget/class-fusion-widget-vertical-menu.php:304
 msgid "Select"
 msgstr ""
 
@@ -13417,7 +13444,7 @@ msgid "Separator Text:"
 msgstr ""
 
 #: includes/widget/class-fusion-widget-menu.php:204
-#: includes/widget/class-fusion-widget-vertical-menu.php:323
+#: includes/widget/class-fusion-widget-vertical-menu.php:333
 msgid "Font Size:"
 msgstr ""
 
@@ -13625,7 +13652,7 @@ msgid "Link Color (leave empty for Theme default link color):"
 msgstr ""
 
 #: includes/widget/class-fusion-widget-tweets.php:326
-#: includes/widget/class-fusion-widget-vertical-menu.php:328
+#: includes/widget/class-fusion-widget-vertical-menu.php:338
 msgid "Border Color:"
 msgstr ""
 
@@ -13649,33 +13676,33 @@ msgstr ""
 msgid "Tweets by %s"
 msgstr ""
 
-#: includes/widget/class-fusion-widget-vertical-menu.php:271
+#: includes/widget/class-fusion-widget-vertical-menu.php:281
 msgid "Menu Type:"
 msgstr ""
 
-#: includes/widget/class-fusion-widget-vertical-menu.php:273
+#: includes/widget/class-fusion-widget-vertical-menu.php:283
 msgid "Custom Menu"
 msgstr ""
 
-#: includes/widget/class-fusion-widget-vertical-menu.php:274
+#: includes/widget/class-fusion-widget-vertical-menu.php:284
 msgid "Vertical Menu"
 msgstr ""
 
-#: includes/widget/class-fusion-widget-vertical-menu.php:276
+#: includes/widget/class-fusion-widget-vertical-menu.php:286
 msgid ""
 "Choose if a custom menu or the classic side navigation (vertical menu "
 "option) should be displayed."
 msgstr ""
 
-#: includes/widget/class-fusion-widget-vertical-menu.php:292
+#: includes/widget/class-fusion-widget-vertical-menu.php:302
 msgid "Parent Page:"
 msgstr ""
 
-#: includes/widget/class-fusion-widget-vertical-menu.php:307
+#: includes/widget/class-fusion-widget-vertical-menu.php:317
 msgid "Behavior:"
 msgstr ""
 
-#: includes/widget/class-fusion-widget-vertical-menu.php:315
+#: includes/widget/class-fusion-widget-vertical-menu.php:325
 msgid "Layout:"
 msgstr ""
 
@@ -13759,15 +13786,15 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: templates/header-3.php:39 templates/menu-mobile-flyout.php:33
+#: templates/header-v6.php:39 templates/menu-mobile-flyout.php:33
 msgid "Toggle Shopping Cart"
 msgstr ""
 
-#: templates/header-3.php:57 templates/menu-mobile-flyout.php:51
+#: templates/header-v6.php:57 templates/menu-mobile-flyout.php:51
 msgid "Toggle Search"
 msgstr ""
 
-#: templates/header-3.php:61 templates/menu-mobile-flyout.php:57
+#: templates/header-v6.php:61 templates/menu-mobile-flyout.php:57
 msgid "Toggle Menu"
 msgstr ""
 
@@ -13974,7 +14001,7 @@ msgstr ""
 msgid "Shipping address"
 msgstr ""
 
-#: tribe-events/day/single-event.php:70 tribe-events/list/single-event.php:69
+#: tribe-events/day/single-event.php:70 tribe-events/list/single-event.php:73
 #: tribe-events/pro/map/single-event.php:69
 msgid "Find out more"
 msgstr ""
