@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2018-04-16 09:10:10+00:00\n"
+"POT-Creation-Date: 2018-04-19 12:32:08+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:27+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Language arq\n"
@@ -756,8 +756,8 @@ msgstr ""
 #: inc/helpers.php:145 inc/options/rollover.php:40
 #: shortcodes/fusion-content-boxes.php:1624
 #: shortcodes/fusion-content-boxes.php:1971
-#: shortcodes/fusion-image-before-after.php:501
-#: shortcodes/fusion-image-before-after.php:758
+#: shortcodes/fusion-image-before-after.php:503
+#: shortcodes/fusion-image-before-after.php:760
 msgid "Fade"
 msgstr ""
 
@@ -777,8 +777,8 @@ msgstr ""
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:68
 #: shortcodes/fusion-content-boxes.php:1625
 #: shortcodes/fusion-content-boxes.php:1972
-#: shortcodes/fusion-image-before-after.php:500
-#: shortcodes/fusion-image-before-after.php:757
+#: shortcodes/fusion-image-before-after.php:502
+#: shortcodes/fusion-image-before-after.php:759
 #: shortcodes/fusion-slider.php:418
 msgid "Slide"
 msgstr ""
@@ -822,12 +822,12 @@ msgstr ""
 #: shortcodes/fusion-gallery.php:426 shortcodes/fusion-gallery.php:510
 #: shortcodes/fusion-gallery.php:522 shortcodes/fusion-gallery.php:606
 #: shortcodes/fusion-gallery.php:631
-#: shortcodes/fusion-image-before-after.php:756
-#: shortcodes/fusion-image-before-after.php:894
-#: shortcodes/fusion-image-before-after.php:952
-#: shortcodes/fusion-image-before-after.php:1033
-#: shortcodes/fusion-image-before-after.php:1052
-#: shortcodes/fusion-image-before-after.php:1120
+#: shortcodes/fusion-image-before-after.php:758
+#: shortcodes/fusion-image-before-after.php:896
+#: shortcodes/fusion-image-before-after.php:954
+#: shortcodes/fusion-image-before-after.php:1035
+#: shortcodes/fusion-image-before-after.php:1054
+#: shortcodes/fusion-image-before-after.php:1122
 #: shortcodes/fusion-image.php:755 shortcodes/fusion-person.php:766
 #: shortcodes/fusion-person.php:847 shortcodes/fusion-person.php:859
 #: shortcodes/fusion-person.php:885 shortcodes/fusion-person.php:930
@@ -1809,74 +1809,82 @@ msgid ""
 msgstr ""
 
 #: inc/helpers.php:963
-msgid "Add Value Column"
+msgid ""
+"<strong>IMPORTANT:</strong> If you are using a <span>Bar or Horizontal Bar "
+"Chart</span>, the table interface below and available options will change "
+"depending on the number of datasets added. This setup is needed in order to "
+"ensure maximum flexibility for your chart styling."
 msgstr ""
 
 #: inc/helpers.php:964
+msgid "Add Value Column"
+msgstr ""
+
+#: inc/helpers.php:965
 msgid "Add Data Set"
 msgstr ""
 
-#: inc/helpers.php:1034 inc/lib/inc/class-fusion-data.php:143
+#: inc/helpers.php:1035 inc/lib/inc/class-fusion-data.php:143
 #: shortcodes/fusion-person.php:1130 shortcodes/fusion-sharingbox.php:94
 #: shortcodes/fusion-social-links.php:714
 msgid "Email Address"
 msgstr ""
 
-#: inc/helpers.php:1371 inc/options/elements.php:92
+#: inc/helpers.php:1372 inc/options/elements.php:92
 msgid "Small Screen"
 msgstr ""
 
-#: inc/helpers.php:1372 inc/options/elements.php:103
+#: inc/helpers.php:1373 inc/options/elements.php:103
 msgid "Medium Screen"
 msgstr ""
 
-#: inc/helpers.php:1373 inc/options/elements.php:114
+#: inc/helpers.php:1374 inc/options/elements.php:114
 msgid "Large Screen"
 msgstr ""
 
-#: inc/helpers.php:1500
+#: inc/helpers.php:1501
 msgid "Please add %s for them to display here."
 msgstr ""
 
-#: inc/helpers.php:1567
+#: inc/helpers.php:1568
 msgid ""
 "Note: The visual editor, which is necesarry for Fusion Builder to work, has "
 "been disabled in your profile settings."
 msgstr ""
 
-#: inc/helpers.php:1567
+#: inc/helpers.php:1568
 msgid "Go to Profile"
 msgstr ""
 
-#: inc/helpers.php:1567
+#: inc/helpers.php:1568
 msgid "Hide Notice"
 msgstr ""
 
 #. translators: The author.
-#: inc/helpers.php:3540 inc/helpers.php:3542 inc/lib/inc/functions.php:162
+#: inc/helpers.php:3541 inc/helpers.php:3543 inc/lib/inc/functions.php:162
 #: inc/lib/inc/functions.php:165
 msgid "By %s"
 msgstr ""
 
 #. translators: The categories list.
-#: inc/helpers.php:3568 inc/lib/inc/functions.php:192
+#: inc/helpers.php:3569 inc/lib/inc/functions.php:192
 msgid "Categories: %s"
 msgstr ""
 
 #. translators: The tags list.
-#: inc/helpers.php:3580 inc/lib/inc/functions.php:205
+#: inc/helpers.php:3581 inc/lib/inc/functions.php:205
 msgid "Tags: %s"
 msgstr ""
 
-#: inc/helpers.php:3587 inc/lib/inc/functions.php:212
+#: inc/helpers.php:3588 inc/lib/inc/functions.php:212
 msgid "0 Comments"
 msgstr ""
 
-#: inc/helpers.php:3587 inc/lib/inc/functions.php:212
+#: inc/helpers.php:3588 inc/lib/inc/functions.php:212
 msgid "1 Comment"
 msgstr ""
 
-#: inc/helpers.php:3587 inc/lib/inc/functions.php:212
+#: inc/helpers.php:3588 inc/lib/inc/functions.php:212
 msgid "% Comments"
 msgstr ""
 
@@ -2764,7 +2772,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2146
 #: shortcodes/fusion-content-boxes.php:2621
 #: shortcodes/fusion-flip-boxes.php:1119 shortcodes/fusion-fontawesome.php:484
-#: shortcodes/fusion-image-before-after.php:1080
+#: shortcodes/fusion-image-before-after.php:1082
 #: shortcodes/fusion-image.php:715 shortcodes/fusion-person.php:607
 #: shortcodes/fusion-person.php:848 shortcodes/fusion-person.php:931
 #: shortcodes/fusion-popover.php:208 shortcodes/fusion-popover.php:327
@@ -2792,7 +2800,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2622
 #: shortcodes/fusion-flip-boxes.php:1120 shortcodes/fusion-fontawesome.php:443
 #: shortcodes/fusion-fontawesome.php:485
-#: shortcodes/fusion-image-before-after.php:1081
+#: shortcodes/fusion-image-before-after.php:1083
 #: shortcodes/fusion-image.php:612 shortcodes/fusion-image.php:716
 #: shortcodes/fusion-person.php:597 shortcodes/fusion-person.php:769
 #: shortcodes/fusion-person.php:934 shortcodes/fusion-popover.php:209
@@ -2821,7 +2829,7 @@ msgstr ""
 #: shortcodes/fusion-column.php:1053 shortcodes/fusion-content-boxes.php:2148
 #: shortcodes/fusion-content-boxes.php:2623
 #: shortcodes/fusion-flip-boxes.php:1121 shortcodes/fusion-fontawesome.php:486
-#: shortcodes/fusion-image-before-after.php:1082
+#: shortcodes/fusion-image-before-after.php:1084
 #: shortcodes/fusion-image.php:717 shortcodes/fusion-person.php:608
 #: shortcodes/fusion-person.php:849 shortcodes/fusion-person.php:932
 #: shortcodes/fusion-popover.php:210 shortcodes/fusion-popover.php:328
@@ -2848,7 +2856,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2624
 #: shortcodes/fusion-flip-boxes.php:1122 shortcodes/fusion-fontawesome.php:442
 #: shortcodes/fusion-fontawesome.php:487
-#: shortcodes/fusion-image-before-after.php:1083
+#: shortcodes/fusion-image-before-after.php:1085
 #: shortcodes/fusion-image.php:611 shortcodes/fusion-image.php:718
 #: shortcodes/fusion-person.php:595 shortcodes/fusion-person.php:767
 #: shortcodes/fusion-person.php:933 shortcodes/fusion-popover.php:211
@@ -3520,8 +3528,8 @@ msgid "Regular"
 msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:92
-#: shortcodes/fusion-image-before-after.php:662
-#: shortcodes/fusion-image-before-after.php:1055
+#: shortcodes/fusion-image-before-after.php:664
+#: shortcodes/fusion-image-before-after.php:1057
 #: shortcodes/fusion-popover.php:315 shortcodes/fusion-tooltip.php:183
 msgid "Hover"
 msgstr ""
@@ -4762,7 +4770,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:597
 #: shortcodes/fusion-counters-circle.php:324
 #: shortcodes/fusion-flip-boxes.php:1156 shortcodes/fusion-fontawesome.php:530
-#: shortcodes/fusion-image-before-after.php:1117
+#: shortcodes/fusion-image-before-after.php:1119
 #: shortcodes/fusion-image.php:752 shortcodes/fusion-recent-posts.php:920
 #: shortcodes/fusion-tagline.php:779
 msgid "Controls when the animation should start."
@@ -4775,7 +4783,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:601
 #: shortcodes/fusion-counters-circle.php:328
 #: shortcodes/fusion-flip-boxes.php:1160 shortcodes/fusion-fontawesome.php:534
-#: shortcodes/fusion-image-before-after.php:1121
+#: shortcodes/fusion-image-before-after.php:1123
 #: shortcodes/fusion-image.php:756 shortcodes/fusion-recent-posts.php:924
 #: shortcodes/fusion-tagline.php:783
 msgid "Top of element hits bottom of viewport"
@@ -4788,7 +4796,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:602
 #: shortcodes/fusion-counters-circle.php:329
 #: shortcodes/fusion-flip-boxes.php:1161 shortcodes/fusion-fontawesome.php:535
-#: shortcodes/fusion-image-before-after.php:1122
+#: shortcodes/fusion-image-before-after.php:1124
 #: shortcodes/fusion-image.php:757 shortcodes/fusion-recent-posts.php:925
 #: shortcodes/fusion-tagline.php:784
 msgid "Top of element hits middle of viewport"
@@ -4801,7 +4809,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:603
 #: shortcodes/fusion-counters-circle.php:330
 #: shortcodes/fusion-flip-boxes.php:1162 shortcodes/fusion-fontawesome.php:536
-#: shortcodes/fusion-image-before-after.php:1123
+#: shortcodes/fusion-image-before-after.php:1125
 #: shortcodes/fusion-image.php:758 shortcodes/fusion-recent-posts.php:926
 #: shortcodes/fusion-tagline.php:785
 msgid "Bottom of element enters viewport"
@@ -5293,8 +5301,8 @@ msgstr ""
 msgid "Normal"
 msgstr ""
 
-#: inc/options/lightbox.php:132 shortcodes/fusion-image-before-after.php:566
-#: shortcodes/fusion-image-before-after.php:956
+#: inc/options/lightbox.php:132 shortcodes/fusion-image-before-after.php:568
+#: shortcodes/fusion-image-before-after.php:958
 msgid "Arrows"
 msgstr ""
 
@@ -5958,7 +5966,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2068
 #: shortcodes/fusion-content-boxes.php:2608
 #: shortcodes/fusion-flip-boxes.php:1106 shortcodes/fusion-fontawesome.php:471
-#: shortcodes/fusion-image-before-after.php:1067
+#: shortcodes/fusion-image-before-after.php:1069
 #: shortcodes/fusion-image.php:702 shortcodes/fusion-recent-posts.php:870
 #: shortcodes/fusion-tagline.php:720
 msgid "Animation Type"
@@ -5969,7 +5977,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2069
 #: shortcodes/fusion-content-boxes.php:2609
 #: shortcodes/fusion-flip-boxes.php:1107 shortcodes/fusion-fontawesome.php:472
-#: shortcodes/fusion-image-before-after.php:1068
+#: shortcodes/fusion-image-before-after.php:1070
 #: shortcodes/fusion-image.php:703 shortcodes/fusion-recent-posts.php:871
 #: shortcodes/fusion-tagline.php:721
 msgid "Select the type of animation to use on the element."
@@ -5992,10 +6000,10 @@ msgstr ""
 #: shortcodes/fusion-flip-boxes.php:1144 shortcodes/fusion-flip-boxes.php:1165
 #: shortcodes/fusion-fontawesome.php:476 shortcodes/fusion-fontawesome.php:491
 #: shortcodes/fusion-fontawesome.php:518 shortcodes/fusion-fontawesome.php:539
-#: shortcodes/fusion-image-before-after.php:1072
-#: shortcodes/fusion-image-before-after.php:1087
-#: shortcodes/fusion-image-before-after.php:1105
-#: shortcodes/fusion-image-before-after.php:1126
+#: shortcodes/fusion-image-before-after.php:1074
+#: shortcodes/fusion-image-before-after.php:1089
+#: shortcodes/fusion-image-before-after.php:1107
+#: shortcodes/fusion-image-before-after.php:1128
 #: shortcodes/fusion-image.php:707 shortcodes/fusion-image.php:722
 #: shortcodes/fusion-image.php:740 shortcodes/fusion-image.php:761
 #: shortcodes/fusion-recent-posts.php:875
@@ -6012,7 +6020,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2142
 #: shortcodes/fusion-content-boxes.php:2617
 #: shortcodes/fusion-flip-boxes.php:1115 shortcodes/fusion-fontawesome.php:480
-#: shortcodes/fusion-image-before-after.php:1076
+#: shortcodes/fusion-image-before-after.php:1078
 #: shortcodes/fusion-image.php:711 shortcodes/fusion-recent-posts.php:879
 #: shortcodes/fusion-tagline.php:729
 msgid "Direction of Animation"
@@ -6023,7 +6031,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2143
 #: shortcodes/fusion-content-boxes.php:2618
 #: shortcodes/fusion-flip-boxes.php:1116 shortcodes/fusion-fontawesome.php:481
-#: shortcodes/fusion-image-before-after.php:1077
+#: shortcodes/fusion-image-before-after.php:1079
 #: shortcodes/fusion-image.php:712 shortcodes/fusion-recent-posts.php:880
 #: shortcodes/fusion-tagline.php:730
 msgid "Select the incoming direction for the animation."
@@ -6034,7 +6042,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2150
 #: shortcodes/fusion-content-boxes.php:2625
 #: shortcodes/fusion-flip-boxes.php:1123 shortcodes/fusion-fontawesome.php:488
-#: shortcodes/fusion-image-before-after.php:1084
+#: shortcodes/fusion-image-before-after.php:1086
 #: shortcodes/fusion-image.php:719 shortcodes/fusion-recent-posts.php:887
 #: shortcodes/fusion-tagline.php:737
 msgid "Static"
@@ -6045,7 +6053,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2173
 #: shortcodes/fusion-content-boxes.php:2644
 #: shortcodes/fusion-flip-boxes.php:1137 shortcodes/fusion-fontawesome.php:502
-#: shortcodes/fusion-image-before-after.php:1098
+#: shortcodes/fusion-image-before-after.php:1100
 #: shortcodes/fusion-image.php:733 shortcodes/fusion-recent-posts.php:901
 #: shortcodes/fusion-tagline.php:751
 msgid "Speed of Animation"
@@ -6056,7 +6064,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2174
 #: shortcodes/fusion-content-boxes.php:2645
 #: shortcodes/fusion-flip-boxes.php:1138 shortcodes/fusion-fontawesome.php:503
-#: shortcodes/fusion-image-before-after.php:1099
+#: shortcodes/fusion-image-before-after.php:1101
 #: shortcodes/fusion-image.php:734 shortcodes/fusion-recent-posts.php:902
 #: shortcodes/fusion-tagline.php:752
 msgid "Type in speed of animation in seconds (0.1 - 1)."
@@ -6069,7 +6077,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:596
 #: shortcodes/fusion-counters-circle.php:323
 #: shortcodes/fusion-flip-boxes.php:1155 shortcodes/fusion-fontawesome.php:529
-#: shortcodes/fusion-image-before-after.php:1116
+#: shortcodes/fusion-image-before-after.php:1118
 #: shortcodes/fusion-image.php:751 shortcodes/fusion-recent-posts.php:919
 #: shortcodes/fusion-tagline.php:778
 msgid "Offset of Animation"
@@ -6082,7 +6090,7 @@ msgstr ""
 #: shortcodes/fusion-counters-circle.php:336 shortcodes/fusion-events.php:315
 #: shortcodes/fusion-flip-boxes.php:774 shortcodes/fusion-fontawesome.php:449
 #: shortcodes/fusion-gallery.php:647 shortcodes/fusion-google-map.php:668
-#: shortcodes/fusion-image-before-after.php:1137
+#: shortcodes/fusion-image-before-after.php:1139
 #: shortcodes/fusion-image-carousel.php:527 shortcodes/fusion-image.php:772
 #: shortcodes/fusion-person.php:1170 shortcodes/fusion-post-slider.php:570
 #: shortcodes/fusion-pricing-table.php:691 shortcodes/fusion-progress.php:511
@@ -6110,7 +6118,7 @@ msgstr ""
 #: shortcodes/fusion-counters-circle.php:340 shortcodes/fusion-events.php:319
 #: shortcodes/fusion-flip-boxes.php:778 shortcodes/fusion-fontawesome.php:453
 #: shortcodes/fusion-gallery.php:651 shortcodes/fusion-google-map.php:672
-#: shortcodes/fusion-image-before-after.php:1141
+#: shortcodes/fusion-image-before-after.php:1143
 #: shortcodes/fusion-image-carousel.php:531 shortcodes/fusion-image.php:776
 #: shortcodes/fusion-person.php:1174 shortcodes/fusion-post-slider.php:574
 #: shortcodes/fusion-pricing-table.php:695 shortcodes/fusion-progress.php:515
@@ -6143,7 +6151,7 @@ msgstr ""
 #: shortcodes/fusion-events.php:323 shortcodes/fusion-flip-boxes.php:782
 #: shortcodes/fusion-fontawesome.php:457 shortcodes/fusion-gallery.php:655
 #: shortcodes/fusion-google-map.php:676 shortcodes/fusion-highlight.php:152
-#: shortcodes/fusion-image-before-after.php:1145
+#: shortcodes/fusion-image-before-after.php:1147
 #: shortcodes/fusion-image-carousel.php:535 shortcodes/fusion-image.php:780
 #: shortcodes/fusion-lightbox.php:142 shortcodes/fusion-menu-anchor.php:123
 #: shortcodes/fusion-modal.php:464 shortcodes/fusion-modal.php:510
@@ -6178,7 +6186,7 @@ msgstr ""
 #: shortcodes/fusion-events.php:324 shortcodes/fusion-flip-boxes.php:783
 #: shortcodes/fusion-fontawesome.php:460 shortcodes/fusion-gallery.php:656
 #: shortcodes/fusion-google-map.php:677 shortcodes/fusion-highlight.php:155
-#: shortcodes/fusion-image-before-after.php:1148
+#: shortcodes/fusion-image-before-after.php:1150
 #: shortcodes/fusion-image-carousel.php:536 shortcodes/fusion-image.php:781
 #: shortcodes/fusion-lightbox.php:145 shortcodes/fusion-menu-anchor.php:126
 #: shortcodes/fusion-modal.php:465 shortcodes/fusion-modal.php:513
@@ -6213,7 +6221,7 @@ msgstr ""
 #: shortcodes/fusion-events.php:330 shortcodes/fusion-flip-boxes.php:789
 #: shortcodes/fusion-fontawesome.php:464 shortcodes/fusion-gallery.php:663
 #: shortcodes/fusion-google-map.php:684 shortcodes/fusion-highlight.php:159
-#: shortcodes/fusion-image-before-after.php:1152
+#: shortcodes/fusion-image-before-after.php:1154
 #: shortcodes/fusion-image-carousel.php:543 shortcodes/fusion-image.php:788
 #: shortcodes/fusion-lightbox.php:149 shortcodes/fusion-modal.php:472
 #: shortcodes/fusion-modal.php:517 shortcodes/fusion-one-page-link.php:140
@@ -6246,7 +6254,7 @@ msgstr ""
 #: shortcodes/fusion-events.php:331 shortcodes/fusion-flip-boxes.php:790
 #: shortcodes/fusion-fontawesome.php:467 shortcodes/fusion-gallery.php:664
 #: shortcodes/fusion-google-map.php:685 shortcodes/fusion-highlight.php:162
-#: shortcodes/fusion-image-before-after.php:1155
+#: shortcodes/fusion-image-before-after.php:1157
 #: shortcodes/fusion-image-carousel.php:544 shortcodes/fusion-image.php:789
 #: shortcodes/fusion-lightbox.php:152 shortcodes/fusion-modal.php:473
 #: shortcodes/fusion-modal.php:520 shortcodes/fusion-one-page-link.php:143
@@ -7226,7 +7234,7 @@ msgid "Stepped"
 msgstr ""
 
 #: shortcodes/fusion-chart.php:636
-msgid "Chart fill"
+msgid "Chart Fill"
 msgstr ""
 
 #: shortcodes/fusion-chart.php:637
@@ -8350,8 +8358,8 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2297
 #: shortcodes/fusion-flip-boxes.php:708 shortcodes/fusion-flip-boxes.php:1017
 #: shortcodes/fusion-fontawesome.php:338
-#: shortcodes/fusion-image-before-after.php:642
-#: shortcodes/fusion-image-before-after.php:1034 shortcodes/fusion-tabs.php:741
+#: shortcodes/fusion-image-before-after.php:644
+#: shortcodes/fusion-image-before-after.php:1036 shortcodes/fusion-tabs.php:741
 msgid "Horizontal"
 msgstr ""
 
@@ -8359,8 +8367,8 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2298
 #: shortcodes/fusion-flip-boxes.php:709 shortcodes/fusion-flip-boxes.php:1018
 #: shortcodes/fusion-fontawesome.php:339
-#: shortcodes/fusion-image-before-after.php:643
-#: shortcodes/fusion-image-before-after.php:1035 shortcodes/fusion-tabs.php:742
+#: shortcodes/fusion-image-before-after.php:645
+#: shortcodes/fusion-image-before-after.php:1037 shortcodes/fusion-tabs.php:742
 msgid "Vertical"
 msgstr ""
 
@@ -9953,234 +9961,234 @@ msgstr ""
 msgid "Enter some text to highlight."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:488
+#: shortcodes/fusion-image-before-after.php:490
 msgid " Image Before & After Element"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:494
-#: shortcodes/fusion-image-before-after.php:751
+#: shortcodes/fusion-image-before-after.php:496
+#: shortcodes/fusion-image-before-after.php:753
 msgid "Effect Type"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:495
+#: shortcodes/fusion-image-before-after.php:497
 msgid ""
 "Select which type of effect your before and after image uses. \"Slide\" "
 "provides a handle to move back and forth while \"Fade\" changes the image on "
 "mouse hover."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:506
-#: shortcodes/fusion-image-before-after.php:815
+#: shortcodes/fusion-image-before-after.php:508
+#: shortcodes/fusion-image-before-after.php:817
 msgid "Label Font Size"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:507
+#: shortcodes/fusion-image-before-after.php:509
 msgid ""
 "Controls the font size of the label text. Note: font family is controlled by "
 "body font in theme options."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:524
-#: shortcodes/fusion-image-before-after.php:855
+#: shortcodes/fusion-image-before-after.php:526
+#: shortcodes/fusion-image-before-after.php:857
 msgid "Label Accent Color"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:525
-#: shortcodes/fusion-image-before-after.php:856
+#: shortcodes/fusion-image-before-after.php:527
+#: shortcodes/fusion-image-before-after.php:858
 msgid ""
 "Controls the color of the label background and text. Text takes 100% of this "
 "color, background takes a % of it."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:538
-#: shortcodes/fusion-image-before-after.php:890
+#: shortcodes/fusion-image-before-after.php:540
+#: shortcodes/fusion-image-before-after.php:892
 msgid "Label Placement"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:539
-#: shortcodes/fusion-image-before-after.php:891
+#: shortcodes/fusion-image-before-after.php:541
+#: shortcodes/fusion-image-before-after.php:893
 msgid ""
 "Choose if labels are on top of the image and centered, on top of the image "
 "up & down or outside of the image up & down."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:544
-#: shortcodes/fusion-image-before-after.php:895
+#: shortcodes/fusion-image-before-after.php:546
+#: shortcodes/fusion-image-before-after.php:897
 msgid "Image Centered"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:545
-#: shortcodes/fusion-image-before-after.php:896
+#: shortcodes/fusion-image-before-after.php:547
+#: shortcodes/fusion-image-before-after.php:898
 msgid "Image Up & Down"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:546
-#: shortcodes/fusion-image-before-after.php:897
+#: shortcodes/fusion-image-before-after.php:548
+#: shortcodes/fusion-image-before-after.php:899
 msgid "Outside Image Up & Down"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:557
-#: shortcodes/fusion-image-before-after.php:948
+#: shortcodes/fusion-image-before-after.php:559
+#: shortcodes/fusion-image-before-after.php:950
 msgid "Handle Design Style"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:558
-#: shortcodes/fusion-image-before-after.php:949
+#: shortcodes/fusion-image-before-after.php:560
+#: shortcodes/fusion-image-before-after.php:951
 msgid ""
 "Controls the design of the handle used to change the before and after image."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:563
-#: shortcodes/fusion-image-before-after.php:953
+#: shortcodes/fusion-image-before-after.php:565
+#: shortcodes/fusion-image-before-after.php:955
 msgid "Circle With Arrows"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:564
-#: shortcodes/fusion-image-before-after.php:954
+#: shortcodes/fusion-image-before-after.php:566
+#: shortcodes/fusion-image-before-after.php:956
 msgid "Square With Arrows"
-msgstr ""
-
-#: shortcodes/fusion-image-before-after.php:565
-#: shortcodes/fusion-image-before-after.php:955
-msgid "Rectangle With Arrows"
 msgstr ""
 
 #: shortcodes/fusion-image-before-after.php:567
 #: shortcodes/fusion-image-before-after.php:957
+msgid "Rectangle With Arrows"
+msgstr ""
+
+#: shortcodes/fusion-image-before-after.php:569
+#: shortcodes/fusion-image-before-after.php:959
 msgid "Diamond"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:568
-#: shortcodes/fusion-image-before-after.php:958
+#: shortcodes/fusion-image-before-after.php:570
+#: shortcodes/fusion-image-before-after.php:960
 msgid "Single Circle"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:579
-#: shortcodes/fusion-image-before-after.php:970
+#: shortcodes/fusion-image-before-after.php:581
+#: shortcodes/fusion-image-before-after.php:972
 msgid "Handle Color"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:580
-#: shortcodes/fusion-image-before-after.php:971
+#: shortcodes/fusion-image-before-after.php:582
+#: shortcodes/fusion-image-before-after.php:973
 msgid ""
 "Controls the color of the before and after image handle line and arrows. ex: "
 "#ffffff."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:593
-#: shortcodes/fusion-image-before-after.php:985
+#: shortcodes/fusion-image-before-after.php:595
+#: shortcodes/fusion-image-before-after.php:987
 msgid "Handle Background Color"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:594
-#: shortcodes/fusion-image-before-after.php:986
+#: shortcodes/fusion-image-before-after.php:596
+#: shortcodes/fusion-image-before-after.php:988
 msgid ""
 "Controls the background color of the before and after image handle switch. "
 "ex: #000000."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:617
-#: shortcodes/fusion-image-before-after.php:1010
+#: shortcodes/fusion-image-before-after.php:619
+#: shortcodes/fusion-image-before-after.php:1012
 msgid "Handle Offset"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:618
-#: shortcodes/fusion-image-before-after.php:1011
+#: shortcodes/fusion-image-before-after.php:620
+#: shortcodes/fusion-image-before-after.php:1013
 msgid ""
 "Controls where the handle will be positioned on page load allowing you to "
 "control how much of each image displays by default. In percentage."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:636
-#: shortcodes/fusion-image-before-after.php:1028
+#: shortcodes/fusion-image-before-after.php:638
+#: shortcodes/fusion-image-before-after.php:1030
 msgid "Handle Orientation"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:637
-#: shortcodes/fusion-image-before-after.php:1029
+#: shortcodes/fusion-image-before-after.php:639
+#: shortcodes/fusion-image-before-after.php:1031
 msgid "Controls the position of the before and after image handle."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:654
-#: shortcodes/fusion-image-before-after.php:1047
+#: shortcodes/fusion-image-before-after.php:656
+#: shortcodes/fusion-image-before-after.php:1049
 msgid "Handle Movement Control"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:655
-#: shortcodes/fusion-image-before-after.php:1048
+#: shortcodes/fusion-image-before-after.php:657
+#: shortcodes/fusion-image-before-after.php:1050
 msgid ""
 "Controls how the viewer interacts with the image handler. The image handle "
 "can use Drag & Click, Drag Only, or Hover."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:660
-#: shortcodes/fusion-image-before-after.php:1053
+#: shortcodes/fusion-image-before-after.php:662
+#: shortcodes/fusion-image-before-after.php:1055
 msgid "Drag & Click"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:661
-#: shortcodes/fusion-image-before-after.php:1054
+#: shortcodes/fusion-image-before-after.php:663
+#: shortcodes/fusion-image-before-after.php:1056
 msgid "Drag Only"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:673
-#: shortcodes/fusion-image-before-after.php:929
+#: shortcodes/fusion-image-before-after.php:675
+#: shortcodes/fusion-image-before-after.php:931
 msgid "Image Fade Transition Speed"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:674
-#: shortcodes/fusion-image-before-after.php:930
+#: shortcodes/fusion-image-before-after.php:676
+#: shortcodes/fusion-image-before-after.php:932
 msgid "Controls the speed of the fade transition on mouse hover. In seconds."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:743
+#: shortcodes/fusion-image-before-after.php:745
 msgid "Image Before & After"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:752
+#: shortcodes/fusion-image-before-after.php:754
 msgid ""
 "Select which type of effect your before and after image uses. “Slide” "
 "provides a handle to move back and forth while “Fade” changes the image on "
 "mouse hover."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:763
+#: shortcodes/fusion-image-before-after.php:765
 msgid "Before Image"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:764
+#: shortcodes/fusion-image-before-after.php:766
 msgid "Upload a before image to display."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:770
+#: shortcodes/fusion-image-before-after.php:772
 msgid "Before Image Label"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:771
+#: shortcodes/fusion-image-before-after.php:773
 msgid ""
 "Add text that will be displayed as a label on the before image when hovered. "
 "If left empty, no label will show."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:789
+#: shortcodes/fusion-image-before-after.php:791
 msgid "After Image"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:790
+#: shortcodes/fusion-image-before-after.php:792
 msgid "Upload an after image to display."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:796
+#: shortcodes/fusion-image-before-after.php:798
 msgid "After Image Label"
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:797
+#: shortcodes/fusion-image-before-after.php:799
 msgid ""
 "Add text that will be displayed as a label on the after image when hovered. "
 "If left empty, no label will show."
 msgstr ""
 
-#: shortcodes/fusion-image-before-after.php:816
+#: shortcodes/fusion-image-before-after.php:818
 msgid ""
 "Controls the font size of the label text. In Pixels. Note: font family is "
 "controlled by body font in theme options."
