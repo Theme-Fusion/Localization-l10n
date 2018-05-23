@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2018-05-22 10:34:55+00:00\n"
+"POT-Creation-Date: 2018-05-23 07:12:54+00:00\n"
 "PO-Revision-Date: 2017-04-06 22:36+0200\n"
 "Last-Translator: Nilo Velez <nilovelez@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
@@ -100,7 +100,7 @@ msgid "Comments are closed."
 msgstr "No se permiten comentarios."
 
 # @ Avada
-#: comments.php:65 contact.php:80 includes/class-avada-contact.php:137
+#: comments.php:65 contact.php:75 includes/class-avada-contact.php:137
 msgid "Name (required)"
 msgstr "Nombre (requerido)"
 
@@ -112,7 +112,7 @@ msgid "Name"
 msgstr "Nombre"
 
 # @ Avada
-#: comments.php:66 contact.php:81 includes/class-avada-contact.php:162
+#: comments.php:66 contact.php:76 includes/class-avada-contact.php:162
 msgid "Email (required)"
 msgstr "Correo electrónico (requerido)"
 
@@ -174,7 +174,7 @@ msgstr "Cerrar sesión"
 msgid "Post Comment"
 msgstr "Publicar comentario"
 
-#: contact.php:38 contact.php:40
+#: contact.php:33 contact.php:35
 msgid ""
 "Form email address is not set in Theme Options. Please fill in a valid "
 "address to make contact form work."
@@ -183,21 +183,21 @@ msgstr ""
 "una dirección de email para el formulario en el panel de configuración."
 
 # @ Avada
-#: contact.php:47
+#: contact.php:42
 msgid ""
 "Please check if you've filled all the fields with valid information. Thank "
 "you."
 msgstr ""
 "Por favor, compruebe si ha rellenado todos los campos correctamente. Gracias."
 
-#: contact.php:49
+#: contact.php:44
 msgid ""
 "Please check if you've filled all the fields with valid information and that "
 "the data privacy terms confirmation box is checked. Thank you."
 msgstr ""
 
 #. translators: The name from the contact form.
-#: contact.php:63 contact.php:66
+#: contact.php:58 contact.php:61
 msgid ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
 msgstr ""
@@ -205,17 +205,17 @@ msgstr ""
 "electrónico fue enviado correctamente!"
 
 # @ Avada
-#: contact.php:75 contact.php:87 includes/class-avada-contact.php:182
+#: contact.php:70 contact.php:82 includes/class-avada-contact.php:182
 msgid "Message"
 msgstr "Mensaje"
 
 # @ Avada
-#: contact.php:82
+#: contact.php:77
 msgid "Subject"
 msgstr "Asunto"
 
 # @ Avada
-#: contact.php:115
+#: contact.php:110
 msgid "Submit Form"
 msgstr "Enviar formulario"
 
@@ -3447,52 +3447,52 @@ msgstr "Importar / Exportar"
 msgid "Custom page options %d "
 msgstr ""
 
-#: includes/class-avada-privacy-embeds.php:156
+#: includes/class-avada-privacy-embeds.php:157
 msgid "YouTube"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-privacy-embeds.php:160
+#: includes/class-avada-privacy-embeds.php:161
 #: includes/metaboxes/options/options_slide.php:28
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: includes/class-avada-privacy-embeds.php:164
+#: includes/class-avada-privacy-embeds.php:165
 msgid "SoundCloud"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-privacy-embeds.php:168
+#: includes/class-avada-privacy-embeds.php:169
 #: includes/options/social_media.php:498 includes/options/social_media.php:500
 msgid "Facebook"
 msgstr "Facebook"
 
 # @ Avada
-#: includes/class-avada-privacy-embeds.php:172
+#: includes/class-avada-privacy-embeds.php:173
 msgid "Flickr"
 msgstr "Flickr"
 
 # @ Avada
-#: includes/class-avada-privacy-embeds.php:176
+#: includes/class-avada-privacy-embeds.php:177
 #: includes/options/social_media.php:506 includes/options/social_media.php:508
 msgid "Twitter"
 msgstr "Twitter"
 
-#: includes/class-avada-privacy-embeds.php:183
+#: includes/class-avada-privacy-embeds.php:184
 msgid "Google Maps"
 msgstr ""
 
 #. translators: The placeholder label (embed-type).
-#: includes/class-avada-privacy-embeds.php:648
+#: includes/class-avada-privacy-embeds.php:649
 msgid "For privacy reasons %s needs your permission to be loaded."
 msgstr ""
 
 #. translators: The link to the privacy page (embed-type).
-#: includes/class-avada-privacy-embeds.php:653
+#: includes/class-avada-privacy-embeds.php:654
 msgid "  For more details, please see our %s."
 msgstr ""
 
-#: includes/class-avada-privacy-embeds.php:659
+#: includes/class-avada-privacy-embeds.php:660
 msgid "I Accept"
 msgstr ""
 
@@ -4548,7 +4548,7 @@ msgid "Back to Parent Page"
 msgstr "Volver a la página principal"
 
 # @ Avada
-#: includes/dynamic_css.php:8162
+#: includes/dynamic_css.php:8163
 msgid "Please enter correct details for this required field."
 msgstr ""
 "Por favor, introduzca los datos correctamente para este campo (obligatorio)."
@@ -15774,18 +15774,10 @@ msgid ""
 "gallery size you select for this option. <strong>Important:</strong> When "
 "this option is changed, you may need to adjust the Single Product Image size "
 "setting in WooCommerce Settings to make sure that one is larger and also "
-"regenerate thumbnails. <a href=\"http://theme-fusion.com/avada-doc/"
-"woocommerce-single-product-gallery/\" target=\"_blank\">See this post for "
-"more information.</a><br/>"
+"regenerate thumbnails. <a href=\"https://theme-fusion.com/documentation/"
+"avada/woocommerce-single-product-gallery/\" target=\"_blank\">See this post "
+"for more information.</a><br/>"
 msgstr ""
-"Controla el tamaño de la galería de imágenes en la página de producto "
-"individual. Para que funcione la característica zoom de imagen, las imágenes "
-"que cargue deberían ser mayores que el tamaño de la galería que elija en "
-"esta opción. <strong>Importante:</strong> Al cambiar esta opción, necesita "
-"ajustar el ajuste Tamaño de Imagen en Producto Individual de los ajustes "
-"WooCommerce para asegurarse que sea mayor y que se regeneran las miniaturas. "
-"<a href=\"http://theme-fusion.com/avada-doc/woocommerce-single-product-"
-"gallery/\" target=\"_blank\">Vea este post para más información.</a><br/>"
 
 #: includes/options/woocommerce.php:111
 msgid "WooCommerce Product Gallery Thumbnails Columns"
@@ -15813,15 +15805,10 @@ msgstr "Zoom de galería de productos de WooCommerce"
 msgid ""
 "Turn on to enable the WooCommerce gallery zoom feature. Important: Every "
 "product image you use must be larger than the gallery container for zoom to "
-"work correctly.<br/><a href=\"http://theme-fusion.com/avada-doc/woocommerce-"
-"single-product-gallery/\" target=\"_blank\">See this post for more "
-"information.</a>"
+"work correctly.<br/><a href=\"https://theme-fusion.com/documentation/avada/"
+"woocommerce-single-product-gallery/\" target=\"_blank\">See this post for "
+"more information.</a>"
 msgstr ""
-"Activar para activar la función de zoom WooCommerce Galería. Importante: "
-"Cada imagen del producto que utilice debe ser mayor que el contenedor de la "
-"galería de zoom trabajar correctamente.<br><a href=\"http://theme-fusion.com/"
-"avada-doc/woocommerce-single-product-gallery/\" target=\"_blank\">Ver este "
-"post para más información.</a>"
 
 #: includes/options/woocommerce.php:130
 msgid "WooCommerce Shop Page Ordering Boxes"
@@ -17442,6 +17429,39 @@ msgstr "Inicio"
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
 msgstr "hace %s"
+
+#~ msgid ""
+#~ "Controls the size of the single product page image gallery. For the image "
+#~ "gallery zoom feature to work, the images you upload must be larger than "
+#~ "the gallery size you select for this option. <strong>Important:</strong> "
+#~ "When this option is changed, you may need to adjust the Single Product "
+#~ "Image size setting in WooCommerce Settings to make sure that one is "
+#~ "larger and also regenerate thumbnails. <a href=\"http://theme-fusion.com/"
+#~ "avada-doc/woocommerce-single-product-gallery/\" target=\"_blank\">See "
+#~ "this post for more information.</a><br/>"
+#~ msgstr ""
+#~ "Controla el tamaño de la galería de imágenes en la página de producto "
+#~ "individual. Para que funcione la característica zoom de imagen, las "
+#~ "imágenes que cargue deberían ser mayores que el tamaño de la galería que "
+#~ "elija en esta opción. <strong>Importante:</strong> Al cambiar esta "
+#~ "opción, necesita ajustar el ajuste Tamaño de Imagen en Producto "
+#~ "Individual de los ajustes WooCommerce para asegurarse que sea mayor y que "
+#~ "se regeneran las miniaturas. <a href=\"http://theme-fusion.com/avada-doc/"
+#~ "woocommerce-single-product-gallery/\" target=\"_blank\">Vea este post "
+#~ "para más información.</a><br/>"
+
+#~ msgid ""
+#~ "Turn on to enable the WooCommerce gallery zoom feature. Important: Every "
+#~ "product image you use must be larger than the gallery container for zoom "
+#~ "to work correctly.<br/><a href=\"http://theme-fusion.com/avada-doc/"
+#~ "woocommerce-single-product-gallery/\" target=\"_blank\">See this post for "
+#~ "more information.</a>"
+#~ msgstr ""
+#~ "Activar para activar la función de zoom WooCommerce Galería. Importante: "
+#~ "Cada imagen del producto que utilice debe ser mayor que el contenedor de "
+#~ "la galería de zoom trabajar correctamente.<br><a href=\"http://theme-"
+#~ "fusion.com/avada-doc/woocommerce-single-product-gallery/\" target=\"_blank"
+#~ "\">Ver este post para más información.</a>"
 
 # @ Avada
 #~ msgid "You Have %d Items In Your Cart"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2018-05-22 10:34:55+00:00\n"
+"POT-Creation-Date: 2018-05-23 07:12:54+00:00\n"
 "PO-Revision-Date: 2016-03-07 15:00-0000\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/avada/"
@@ -97,7 +97,7 @@ msgid "Comments are closed."
 msgstr "評論已關閉"
 
 # @ Avada
-#: comments.php:65 contact.php:80 includes/class-avada-contact.php:137
+#: comments.php:65 contact.php:75 includes/class-avada-contact.php:137
 msgid "Name (required)"
 msgstr "暱稱（必填）"
 
@@ -109,7 +109,7 @@ msgid "Name"
 msgstr "名稱"
 
 # @ Avada
-#: comments.php:66 contact.php:81 includes/class-avada-contact.php:162
+#: comments.php:66 contact.php:76 includes/class-avada-contact.php:162
 msgid "Email (required)"
 msgstr "Email (必填)"
 
@@ -171,43 +171,43 @@ msgstr "登出此帳戶"
 msgid "Post Comment"
 msgstr "發表評論"
 
-#: contact.php:38 contact.php:40
+#: contact.php:33 contact.php:35
 msgid ""
 "Form email address is not set in Theme Options. Please fill in a valid "
 "address to make contact form work."
 msgstr ""
 
 # @ Avada
-#: contact.php:47
+#: contact.php:42
 msgid ""
 "Please check if you've filled all the fields with valid information. Thank "
 "you."
 msgstr "請檢查是否在必填欄目內填入有效資訊，謝謝"
 
-#: contact.php:49
+#: contact.php:44
 msgid ""
 "Please check if you've filled all the fields with valid information and that "
 "the data privacy terms confirmation box is checked. Thank you."
 msgstr ""
 
 #. translators: The name from the contact form.
-#: contact.php:63 contact.php:66
+#: contact.php:58 contact.php:61
 msgid ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
 msgstr ""
 
 # @ Avada
-#: contact.php:75 contact.php:87 includes/class-avada-contact.php:182
+#: contact.php:70 contact.php:82 includes/class-avada-contact.php:182
 msgid "Message"
 msgstr "消息"
 
 # @ Avada
-#: contact.php:82
+#: contact.php:77
 msgid "Subject"
 msgstr "主題"
 
 # @ Avada
-#: contact.php:115
+#: contact.php:110
 msgid "Submit Form"
 msgstr "提交表單"
 
@@ -3054,52 +3054,52 @@ msgstr ""
 msgid "Custom page options %d "
 msgstr ""
 
-#: includes/class-avada-privacy-embeds.php:156
+#: includes/class-avada-privacy-embeds.php:157
 msgid "YouTube"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-privacy-embeds.php:160
+#: includes/class-avada-privacy-embeds.php:161
 #: includes/metaboxes/options/options_slide.php:28
 #, fuzzy
 msgid "Vimeo"
 msgstr "選中該複選框來禁用VIMEO API的腳本。"
 
-#: includes/class-avada-privacy-embeds.php:164
+#: includes/class-avada-privacy-embeds.php:165
 msgid "SoundCloud"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-privacy-embeds.php:168
+#: includes/class-avada-privacy-embeds.php:169
 #: includes/options/social_media.php:498 includes/options/social_media.php:500
 msgid "Facebook"
 msgstr ""
 
-#: includes/class-avada-privacy-embeds.php:172
+#: includes/class-avada-privacy-embeds.php:173
 msgid "Flickr"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-privacy-embeds.php:176
+#: includes/class-avada-privacy-embeds.php:177
 #: includes/options/social_media.php:506 includes/options/social_media.php:508
 msgid "Twitter"
 msgstr ""
 
-#: includes/class-avada-privacy-embeds.php:183
+#: includes/class-avada-privacy-embeds.php:184
 msgid "Google Maps"
 msgstr ""
 
 #. translators: The placeholder label (embed-type).
-#: includes/class-avada-privacy-embeds.php:648
+#: includes/class-avada-privacy-embeds.php:649
 msgid "For privacy reasons %s needs your permission to be loaded."
 msgstr ""
 
 #. translators: The link to the privacy page (embed-type).
-#: includes/class-avada-privacy-embeds.php:653
+#: includes/class-avada-privacy-embeds.php:654
 msgid "  For more details, please see our %s."
 msgstr ""
 
-#: includes/class-avada-privacy-embeds.php:659
+#: includes/class-avada-privacy-embeds.php:660
 msgid "I Accept"
 msgstr ""
 
@@ -4067,7 +4067,7 @@ msgid "Back to Parent Page"
 msgstr "返回父頁"
 
 # @ Avada
-#: includes/dynamic_css.php:8162
+#: includes/dynamic_css.php:8163
 msgid "Please enter correct details for this required field."
 msgstr "請在必填欄位輸入正確的資訊"
 
@@ -14242,9 +14242,9 @@ msgid ""
 "gallery size you select for this option. <strong>Important:</strong> When "
 "this option is changed, you may need to adjust the Single Product Image size "
 "setting in WooCommerce Settings to make sure that one is larger and also "
-"regenerate thumbnails. <a href=\"http://theme-fusion.com/avada-doc/"
-"woocommerce-single-product-gallery/\" target=\"_blank\">See this post for "
-"more information.</a><br/>"
+"regenerate thumbnails. <a href=\"https://theme-fusion.com/documentation/"
+"avada/woocommerce-single-product-gallery/\" target=\"_blank\">See this post "
+"for more information.</a><br/>"
 msgstr ""
 
 #: includes/options/woocommerce.php:111
@@ -14268,9 +14268,9 @@ msgstr ""
 msgid ""
 "Turn on to enable the WooCommerce gallery zoom feature. Important: Every "
 "product image you use must be larger than the gallery container for zoom to "
-"work correctly.<br/><a href=\"http://theme-fusion.com/avada-doc/woocommerce-"
-"single-product-gallery/\" target=\"_blank\">See this post for more "
-"information.</a>"
+"work correctly.<br/><a href=\"https://theme-fusion.com/documentation/avada/"
+"woocommerce-single-product-gallery/\" target=\"_blank\">See this post for "
+"more information.</a>"
 msgstr ""
 
 #: includes/options/woocommerce.php:130
