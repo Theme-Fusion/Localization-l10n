@@ -23,13 +23,14 @@
 # Simon
 # Steve Brattig
 # TangoKilo77
+# wassereimer
 msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2018-05-25 08:25:29+00:00\n"
-"PO-Revision-Date: 2017-04-23 00:07+0200\n"
-"Last-Translator: Schmitz <schmitz.dennis@gmail.com>\n"
+"PO-Revision-Date: 2018-05-25 15:20+0200\n"
+"Last-Translator: wassereimer <wassereimer@wassereimer.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/avada/"
 "language/de_DE/)\n"
 "Language: de_DE\n"
@@ -37,7 +38,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 # @ Avada
@@ -108,8 +109,8 @@ msgstr "Ein Kommentar"
 #: comments.php:32
 msgid "% Comment"
 msgid_plural "% Comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "% Kommentar"
+msgstr[1] "% Kommentare"
 
 # @ Avada
 #: comments.php:51
@@ -155,6 +156,8 @@ msgstr "URL"
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
+"Meinen Namen, E-Mail und Website in diesem Browser speichern, bis ich wieder "
+"kommentiere."
 
 #: comments.php:72
 msgid "Comment"
@@ -351,7 +354,7 @@ msgstr "Produkte"
 
 #: includes/admin-screens/demos.php:96
 msgid "Events"
-msgstr ""
+msgstr "Veranstaltungen"
 
 # @ bbpress
 #: includes/admin-screens/demos.php:102
@@ -360,7 +363,7 @@ msgstr "Rahmenfarbe des bbPress Forums"
 
 #: includes/admin-screens/demos.php:108
 msgid "Images"
-msgstr ""
+msgstr "Bilder"
 
 # @ Avada
 #: includes/admin-screens/demos.php:113 includes/metaboxes/metaboxes.php:277
@@ -389,7 +392,7 @@ msgstr "Importieren"
 
 #: includes/admin-screens/demos.php:203 includes/class-avada-admin.php:1317
 msgid "Modify"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: includes/admin-screens/demos.php:206 includes/class-avada-admin.php:1318
 msgid "Full Import"
@@ -410,7 +413,7 @@ msgstr "Neu"
 
 #: includes/admin-screens/demos.php:242
 msgid "Live Preview"
-msgstr ""
+msgstr "Live Vorschau"
 
 #: includes/admin-screens/demos.php:250
 msgid "The Following Plugins Are Required To Import Content"
@@ -449,7 +452,7 @@ msgstr ""
 
 #: includes/admin-screens/demos.php:322
 msgid "Uninstall"
-msgstr ""
+msgstr "Deinstallieren"
 
 # @ Avada
 #: includes/admin-screens/demos.php:339
@@ -486,7 +489,7 @@ msgstr ""
 #: includes/admin-screens/demos.php:363
 #: includes/metaboxes/tabs/tab_avada_page_options.php:120
 msgid "Warning "
-msgstr ""
+msgstr "Warnung"
 
 #: includes/admin-screens/demos.php:373
 msgid "Avada Demos Can Only Be Imported With A Valid Token Registration"
@@ -823,7 +826,7 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:194
 msgid "Error "
-msgstr ""
+msgstr "Fehler"
 
 # @ Avada
 #: includes/admin-screens/registration.php:20
@@ -1114,7 +1117,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:276
 msgid "WP Content Path:"
-msgstr ""
+msgstr "WP Content Pfad:"
 
 #: includes/admin-screens/system-status.php:277
 msgid "System path of your wp-content directory."
@@ -1129,7 +1132,7 @@ msgstr "N/A"
 
 #: includes/admin-screens/system-status.php:281
 msgid "WP Path:"
-msgstr ""
+msgstr "WP Pfad:"
 
 #: includes/admin-screens/system-status.php:282
 msgid "System path of your WP root directory."
@@ -1137,7 +1140,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:286
 msgid "WP Version:"
-msgstr ""
+msgstr "WP Version:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:287
@@ -1176,7 +1179,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:324
 msgid "WP Debug Mode:"
-msgstr ""
+msgstr "WP Debug Modus:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:325
@@ -1218,7 +1221,7 @@ msgstr "Unbekannt"
 
 #: includes/admin-screens/system-status.php:356
 msgid "PHP Version:"
-msgstr ""
+msgstr "PHP Version:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:357
@@ -1394,13 +1397,15 @@ msgstr "WP Remote Post:"
 
 #: includes/admin-screens/system-status.php:592
 msgid "GD Library:"
-msgstr ""
+msgstr "GD Bibliothek:"
 
 #: includes/admin-screens/system-status.php:593
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
 msgstr ""
+"Avada benutzt diese Bibliothek um Bilder zu verkleinern und die "
+"Seitenladezeiten zu beschleunigen"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:596
@@ -1986,7 +1991,7 @@ msgstr ""
 
 #: includes/class-avada-admin.php:1316
 msgid "Content"
-msgstr ""
+msgstr "Inhalt"
 
 #: includes/class-avada-admin.php:1321
 msgid "Download"
@@ -2130,7 +2135,7 @@ msgstr ""
 #: includes/class-avada-admin.php:1336
 #: includes/lib/inc/importer/class-wxr-importer.php:505
 msgid "The file does not exist"
-msgstr ""
+msgstr "Die Datei existiert nicht"
 
 #. translators: URL.
 #: includes/class-avada-admin.php:1338
@@ -2513,12 +2518,12 @@ msgstr ""
 #. translators: The subject.
 #: includes/class-avada-contact.php:252
 msgid "Subject: %s"
-msgstr ""
+msgstr "Betreff: %s"
 
 #. translators: The comments.
 #: includes/class-avada-contact.php:254
 msgid "Message: %s"
-msgstr ""
+msgstr "Nachricht: %s"
 
 #. translators: The data privacy terms.
 #: includes/class-avada-contact.php:258
@@ -2530,7 +2535,7 @@ msgstr ""
 #: includes/class-avada-eventscalendar.php:267
 #: includes/class-avada-woocommerce.php:1352
 msgid "NOTE"
-msgstr ""
+msgstr "HINWEIS"
 
 #. translators: EC Customizer notice.
 #: includes/class-avada-eventscalendar.php:205
@@ -3079,16 +3084,16 @@ msgstr ""
 
 #: includes/class-avada-page-options.php:80
 msgid "Nothing found"
-msgstr ""
+msgstr "Nichts gefunden"
 
 #: includes/class-avada-page-options.php:81
 msgid "Nothing found in Trash"
-msgstr ""
+msgstr "Nichts im Papierkorb gefunden"
 
 #: includes/class-avada-page-options.php:113
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/extension_import_export.php:120
 msgid "Import / Export"
-msgstr ""
+msgstr "Importieren / Exportieren"
 
 #. translators: Number.
 #: includes/class-avada-page-options.php:298
@@ -3097,7 +3102,7 @@ msgstr ""
 
 #: includes/class-avada-privacy-embeds.php:157
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 # @ Avada
 #: includes/class-avada-privacy-embeds.php:161
@@ -3107,7 +3112,7 @@ msgstr "Vimeo"
 
 #: includes/class-avada-privacy-embeds.php:165
 msgid "SoundCloud"
-msgstr ""
+msgstr "SoundCloud"
 
 # @ Avada
 #: includes/class-avada-privacy-embeds.php:169
@@ -3128,7 +3133,7 @@ msgstr "Twitter"
 
 #: includes/class-avada-privacy-embeds.php:184
 msgid "Google Maps"
-msgstr ""
+msgstr "Google Maps"
 
 #. translators: The placeholder label (embed-type).
 #: includes/class-avada-privacy-embeds.php:649
@@ -3142,7 +3147,7 @@ msgstr ""
 
 #: includes/class-avada-privacy-embeds.php:660
 msgid "I Accept"
-msgstr ""
+msgstr "Akzeptieren"
 
 # @ Avada
 #: includes/class-avada-scripts.php:515
@@ -3193,7 +3198,7 @@ msgstr ""
 #: includes/class-avada-taxonomy-meta.php:594
 #: includes/class-avada-taxonomy-meta.php:599
 msgid "Remove Image"
-msgstr ""
+msgstr "Bild entfernen"
 
 # @ Avada
 #. translators: %1$s: Comment date. %2$s: Comment time.
@@ -3229,25 +3234,23 @@ msgstr "Aktualisiere Plugin: %s"
 # @ Avada
 #. translators: 1: plugin name(s).
 #: includes/class-avada-tgm-plugin-activation.php:376
-#, fuzzy
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
-msgstr[0] "Installation des Plugins: %s"
-msgstr[1] "Installation des Plugins: %s"
+msgstr[0] "Beginne Installation des Plugins"
+msgstr[1] "Beginne Installation der Plugins"
 
 #: includes/class-avada-tgm-plugin-activation.php:380
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Beginne Aktualisierung des Plugins"
+msgstr[1] "Beginne Aktualisierung der Plugins"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:384
-#, fuzzy
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
-msgstr[0] "Die Plugin Aktivierung ist fehlgeschlagen."
-msgstr[1] "Die Plugin Aktivierung ist fehlgeschlagen."
+msgstr[0] "Beginne Aktivierung des Plugins"
+msgstr[1] "Beginne Aktivierung der Plugins"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
@@ -3302,9 +3305,8 @@ msgstr ""
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:639
-#, fuzzy
 msgid "Update Required"
-msgstr "Aktualisierung notwendig"
+msgstr "Aktualisierung erforderlich"
 
 #: includes/class-avada-tgm-plugin-activation.php:1050
 msgid ""
@@ -3346,9 +3348,8 @@ msgstr "WordPress Quelle"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:2430
-#, fuzzy
 msgid "External Source"
-msgstr "Externer Link"
+msgstr "Externe Quelle"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:2433
@@ -3366,15 +3367,13 @@ msgstr "Benötigtes Update nicht verfügbar"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:2465
-#, fuzzy
 msgid "Requires Update"
-msgstr "Benötigt Update"
+msgstr "Erfordert Aktualisierung"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:2468
-#, fuzzy
 msgid "Update recommended"
-msgstr "Update empfohlen"
+msgstr "Aktualisierung empfohlen"
 
 # @ Avada
 #. translators: 1: number of plugins.
@@ -3405,7 +3404,6 @@ msgstr[1] ""
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:2625
-#, fuzzy
 msgid "Installed version:"
 msgstr "Installierte Version:"
 
@@ -3451,7 +3449,7 @@ msgstr "Installiere %2$s"
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-avada-tgm-plugin-activation.php:2743
 msgid "Update %2$s"
-msgstr ""
+msgstr "Aktualisiere %2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-avada-tgm-plugin-activation.php:2749
@@ -3494,9 +3492,8 @@ msgstr "Die Plugin Aktivierung ist fehlgeschlagen."
 # @ Avada
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: includes/class-avada-tgm-plugin-activation.php:3633
-#, fuzzy
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr "Installation des Plugins %1$s (%2$d/%3$d)"
+msgstr "Aktualisierung des Plugins %1$s (%2$d/%3$d)"
 
 # @ Avada
 #. translators: 1: plugin name, 2: error message.
@@ -3646,19 +3643,18 @@ msgstr "Keine"
 
 #: includes/class-avada-widget-style.php:93
 msgid "Solid"
-msgstr ""
+msgstr "Durchgehend"
 
 #: includes/class-avada-widget-style.php:94
 msgid "Dotted"
-msgstr ""
+msgstr "Gepunktet"
 
 #: includes/class-avada-widget-style.php:95
 msgid "Dashed"
-msgstr ""
+msgstr "Gestrichelt"
 
 # @ Avada
 #: includes/class-avada-widget-style.php:100
-#, fuzzy
 msgid "Border Color"
 msgstr "Rahmenfarbe"
 
@@ -3772,7 +3768,6 @@ msgstr "Übersichts-Bereich"
 # @ Avada
 #. translators: Number.
 #: includes/class-avada-woocommerce.php:1166
-#, fuzzy
 msgid "You Have %d Item In Your Cart"
 msgid_plural "You Have %d Items In Your Cart"
 msgstr[0] "Du hast %d Artikel im Warenkorb"
@@ -4351,7 +4346,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:315
 msgid "Patch #"
-msgstr ""
+msgstr "Patch #"
 
 # @ Avada
 # @ woocommerce
@@ -4372,11 +4367,11 @@ msgstr "Datums Fehler"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:404
 msgid "Patch Applied"
-msgstr ""
+msgstr "Patch angewendet"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:406
 msgid "Apply Patch"
-msgstr ""
+msgstr "Patch anwenden"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:410
 msgid "Dismiss Notices"
@@ -4405,11 +4400,11 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-patcher-filesystem.php:122
 msgid "Patch empty."
-msgstr ""
+msgstr "Patch leer."
 
 #: includes/lib/inc/class-fusion-patcher-filesystem.php:158
 msgid "Invalid Patch target."
-msgstr ""
+msgstr "Ungültiges Ziel vom Patch."
 
 #. translators: Links.
 #: includes/lib/inc/class-fusion-patcher-filesystem.php:185
@@ -4427,15 +4422,15 @@ msgstr ""
 #: includes/lib/inc/class-fusion-privacy.php:161
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:332
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP Version"
 
 #: includes/lib/inc/class-fusion-privacy.php:165
 msgid "Server Software"
-msgstr ""
+msgstr "Server Software"
 
 #: includes/lib/inc/class-fusion-privacy.php:169
 msgid "WordPress Version"
-msgstr ""
+msgstr "WordPress Version"
 
 #: includes/lib/inc/class-fusion-privacy.php:173
 msgid "Encrypted Site URL"
@@ -4729,7 +4724,7 @@ msgstr "Nein"
 #. translators: The value.
 #: includes/lib/inc/class-fusion-settings.php:445
 msgid "  Current value set to %s."
-msgstr ""
+msgstr "Aktueller Wert auf %s gesetzt."
 
 #: includes/lib/inc/class-fusion-settings.php:462
 msgid "none"
@@ -4820,30 +4815,26 @@ msgstr ""
 # @ wordpress-importer
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:312
 #: includes/lib/inc/importer/class-wxr-importer.php:1807
-#, fuzzy
 msgid "Remote file is incorrect size"
-msgstr "Datei hat unkorrekte Grösse"
+msgstr "Die Remote-Datei hat die falsche Größe"
 
 # @ wordpress-importer
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:317
 #: includes/lib/inc/importer/class-wxr-importer.php:1812
-#, fuzzy
 msgid "Zero size file downloaded"
-msgstr "Null Grösse Datei heruntergeladen"
+msgstr "Null-Größen-Datei heruntergeladen"
 
 # @ wordpress-importer
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:323
 #: includes/lib/inc/importer/class-wxr-importer.php:1818
-#, fuzzy
 msgid "Remote file is too large, limit is %s"
-msgstr "Datei ist zu gross, das Limit ist %s"
+msgstr "Remote-Datei ist zu groß, das Limit ist %s"
 
 # @ wordpress-importer
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:513
 #: includes/lib/inc/importer/class-wxr-importer.php:1712
-#, fuzzy
 msgid "Failed to import %s %s"
-msgstr "Import fehlgeschlagen von %s %s"
+msgstr "Import von %s %s fehlgeschlagen"
 
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:537
 #: includes/lib/inc/importer/class-wxr-importer.php:902
@@ -4858,9 +4849,8 @@ msgstr ""
 
 # @ wordpress-importer
 #: includes/lib/inc/importer/class-logger-html.php:17
-#, fuzzy
 msgid "Sorry, there has been an error."
-msgstr "Sorry, ein Fehler trat auf."
+msgstr "Entschuldigung, es ist ein Fehler aufgetreten."
 
 #: includes/lib/inc/importer/class-wxr-importer.php:130
 msgid "Could not open the file for parsing"
@@ -4904,7 +4894,6 @@ msgstr ""
 
 # @ wordpress-importer
 #: includes/lib/inc/importer/class-wxr-importer.php:1051
-#, fuzzy
 msgid "Invalid file type"
 msgstr "Ungültiger Dateityp"
 
@@ -5026,12 +5015,12 @@ msgstr "Unten"
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:225
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:231
 msgid "Font Family"
-msgstr ""
+msgstr "Schriftart"
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:226
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:232
 msgid "Font family"
-msgstr ""
+msgstr "Schriftart"
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:252
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:253
@@ -5045,7 +5034,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:273
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:281
 msgid "Font style"
-msgstr ""
+msgstr "Schriftstil"
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:268
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:274
@@ -5055,7 +5044,7 @@ msgstr ""
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:275
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:281
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:309
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:321
@@ -5665,7 +5654,7 @@ msgstr "Zu"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:245
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:246
 msgid "Units"
-msgstr ""
+msgstr "Einheiten"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/gallery/field_gallery.php:73
 msgid "Add/Edit Gallery"
@@ -5742,7 +5731,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:38
 msgid "Optional"
-msgstr ""
+msgstr "Optional"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:40
 msgid ""
@@ -6067,7 +6056,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:126
 msgid "WP Content URL"
-msgstr ""
+msgstr "WP Content Pfad:"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:129
 msgid "The location of Wordpress's content URL."
@@ -6075,11 +6064,11 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:137
 msgid "WP Version"
-msgstr ""
+msgstr "WP Version"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:148
 msgid "WP Multisite"
-msgstr ""
+msgstr "WP Multisite"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:162
 msgid "Permalink Structure"
@@ -6134,7 +6123,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:240
 msgid "WP Debug Mode"
-msgstr ""
+msgstr "WP Debug Modus"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:255
 msgid "Language"
@@ -6142,11 +6131,11 @@ msgstr "Sprache"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:270
 msgid "Browser"
-msgstr ""
+msgstr "Browser"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:277
 msgid "Browser Info"
-msgstr ""
+msgstr "Browser Information"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:280
 msgid "Information about web browser current in use."
@@ -6885,9 +6874,8 @@ msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:73
-#, fuzzy
 msgid "Video Aspect Ratio"
-msgstr "Video Optionen"
+msgstr "Video-Seitenverhältnis"
 
 #: includes/metaboxes/options/options_slide.php:74
 msgid ""
@@ -6992,63 +6980,54 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:154
 #: includes/metaboxes/options/options_slide.php:226
-#, fuzzy
 msgid "Single Solid"
-msgstr "Einfach durchgezogen"
+msgstr "Einfach durchgehend"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:155
 #: includes/metaboxes/options/options_slide.php:227
-#, fuzzy
 msgid "Single Dashed"
 msgstr "Einfach gestrichelt"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:156
 #: includes/metaboxes/options/options_slide.php:228
-#, fuzzy
 msgid "Single Dotted"
 msgstr "Einfach gepunktet"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:157
 #: includes/metaboxes/options/options_slide.php:229
-#, fuzzy
 msgid "Double Solid"
-msgstr "Doppelt durchgezogen"
+msgstr "Doppelt durchgehend"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:158
 #: includes/metaboxes/options/options_slide.php:230
-#, fuzzy
 msgid "Double Dashed"
 msgstr "Doppelt gestrichelt"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:159
 #: includes/metaboxes/options/options_slide.php:231
-#, fuzzy
 msgid "Double Dotted"
 msgstr "Doppelt gepunktet"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:160
 #: includes/metaboxes/options/options_slide.php:232
-#, fuzzy
 msgid "Underline Solid"
-msgstr "Unterstrichen durchgezogen"
+msgstr "Unterstrichen durchgehend"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:161
 #: includes/metaboxes/options/options_slide.php:233
-#, fuzzy
 msgid "Underline Dashed"
 msgstr "Unterstrichen gestrichelt"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:162
 #: includes/metaboxes/options/options_slide.php:234
-#, fuzzy
 msgid "Underline Dotted"
 msgstr "Unterstrichen gepunktet"
 
@@ -7931,9 +7910,8 @@ msgstr "Copyright URL"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:129
-#, fuzzy
 msgid "The URL the copyright text links to."
-msgstr "Ziel-URL des Copyright Textes."
+msgstr "Die URL zu dem der Copyright-Text verlinkt ist."
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:134
@@ -9214,7 +9192,6 @@ msgstr ""
 #: includes/options/colors.php:46 includes/options/contact.php:131
 #: includes/options/lightbox.php:78
 #: includes/widget/class-fusion-widget-tweets.php:315
-#, fuzzy
 msgid "Light"
 msgstr "Hell"
 
@@ -9881,11 +9858,11 @@ msgstr ""
 #: includes/widget/class-fusion-widget-ad-125-125.php:197
 #: includes/widget/class-fusion-widget-ad-125-125.php:216
 msgid "Zoom In"
-msgstr ""
+msgstr "Hineinzoomen"
 
 #: includes/options/events_calendar.php:110
 msgid "Zoom Out"
-msgstr ""
+msgstr "Rauszoomen"
 
 #: includes/options/events_calendar.php:111
 #: includes/widget/class-fusion-widget-ad-125-125.php:161
@@ -10489,11 +10466,11 @@ msgstr ""
 
 #: includes/options/extra.php:532
 msgid "Search Form"
-msgstr ""
+msgstr "Suchfeld"
 
 #: includes/options/extra.php:538
 msgid "Search Form Design"
-msgstr ""
+msgstr "Suchfeld Design"
 
 #: includes/options/extra.php:539
 msgid "Controls the design of the search forms."
@@ -10503,12 +10480,12 @@ msgstr ""
 #: includes/options/woocommerce.php:316
 #: includes/widget/class-fusion-widget-tabs.php:295
 msgid "Classic"
-msgstr ""
+msgstr "Klassisch"
 
 #: includes/options/extra.php:545 includes/options/woocommerce.php:317
 #: includes/widget/class-fusion-widget-tabs.php:296
 msgid "Clean"
-msgstr ""
+msgstr "Sauber"
 
 #: includes/options/extra.php:551
 msgid "Grid / Masonry"
@@ -10583,7 +10560,7 @@ msgstr ""
 
 #: includes/options/extra.php:590
 msgid "Shadow"
-msgstr ""
+msgstr "Schatten"
 
 #: includes/options/extra.php:594
 msgid "Grid Separator Color"
@@ -10823,7 +10800,7 @@ msgstr ""
 
 #: includes/options/footer.php:323
 msgid "Footer Padding"
-msgstr ""
+msgstr "Fußzeile Innenabstand"
 
 #: includes/options/footer.php:324
 msgid "Controls the top/right/bottom/left padding for the footer."
@@ -11025,7 +11002,7 @@ msgstr ""
 
 #: includes/options/header.php:109 includes/options/header.php:150
 msgid "Navigation"
-msgstr ""
+msgstr "Navigation"
 
 #: includes/options/header.php:110 includes/options/header.php:151
 #: includes/options/header.php:193
@@ -11243,7 +11220,7 @@ msgstr ""
 
 #: includes/options/header.php:675
 msgid "Sticky Header on Tablets"
-msgstr ""
+msgstr "Fixierte Kopfzeile auf Tablets"
 
 #: includes/options/header.php:676
 msgid "Turn on to enable a sticky header when scrolling on tablets."
@@ -11251,7 +11228,7 @@ msgstr ""
 
 #: includes/options/header.php:694
 msgid "Sticky Header on Mobiles"
-msgstr ""
+msgstr "Fixierte Kopfzeile auf Mobilgeräten"
 
 #: includes/options/header.php:695
 msgid "Turn on to enable a sticky header when scrolling on mobiles."
@@ -11259,7 +11236,7 @@ msgstr ""
 
 #: includes/options/header.php:713
 msgid "Sticky Header Animation"
-msgstr ""
+msgstr "Fixierte Kopfzeile Animation"
 
 #: includes/options/header.php:714
 msgid ""
@@ -12555,7 +12532,7 @@ msgstr ""
 
 #: includes/options/page_title_bar.php:461
 msgid "Search Box"
-msgstr ""
+msgstr "Suchfeld"
 
 # @ Avada
 #: includes/options/page_title_bar.php:473
@@ -12753,11 +12730,11 @@ msgstr ""
 
 #: includes/options/portfolio.php:208
 msgid "Only Title"
-msgstr ""
+msgstr "Nur Titel"
 
 #: includes/options/portfolio.php:209
 msgid "Only Categories"
-msgstr ""
+msgstr "Nur Kategorien"
 
 #: includes/options/portfolio.php:214
 msgid "Portfolio Archive Text Alignment"
@@ -12827,7 +12804,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:308
 msgid "First Featured Image"
-msgstr ""
+msgstr "Erstes bevorzugtes Bild"
 
 #: includes/options/portfolio.php:309
 msgid "Turn on to display the 1st featured image on single portfolio posts."
@@ -12898,7 +12875,7 @@ msgstr ""
 
 #: includes/options/responsive.php:29
 msgid "Responsive"
-msgstr ""
+msgstr "Responsive"
 
 # @ Avada
 #: includes/options/responsive.php:35
@@ -13062,9 +13039,8 @@ msgstr ""
 
 # @ Avada
 #: includes/options/search_page.php:90
-#, fuzzy
 msgid "Search Field Position"
-msgstr "Seitenleisten-Suche Position"
+msgstr "Suchefeld Position"
 
 #: includes/options/search_page.php:91
 msgid "Controls the position of the search bar on the search results page."
@@ -14769,7 +14745,6 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:223
 #: includes/widget/class-fusion-widget-social-links.php:501
-#, fuzzy
 msgid "Link Target:"
 msgstr "Link-Ziel:"
 
@@ -15241,7 +15216,6 @@ msgstr ""
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:254
-#, fuzzy
 msgid "Widget Style:"
 msgstr "Widget Stil:"
 
@@ -15255,7 +15229,6 @@ msgid "Twitter Style"
 msgstr "Twitter Stil"
 
 #: includes/widget/class-fusion-widget-tweets.php:258
-#, fuzzy
 msgid "Avada Style"
 msgstr "Avada Stil"
 
@@ -15313,19 +15286,16 @@ msgstr ""
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:326
 #: includes/widget/class-fusion-widget-vertical-menu.php:342
-#, fuzzy
 msgid "Border Color:"
 msgstr "Rahmenfarbe:"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:332
-#, fuzzy
 msgid "Show Header"
 msgstr "Zeige Kopfzeile"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:337
-#, fuzzy
 msgid "Show Footer"
 msgstr "Zeige Fusszeile"
 
@@ -15688,7 +15658,7 @@ msgstr "Kunden Details"
 
 #: templates/wc-view-order.php:123
 msgid "Note:"
-msgstr ""
+msgstr "Notiz:"
 
 #: templates/wc-view-order.php:136
 msgid "Billing address"
@@ -15754,9 +15724,8 @@ msgstr ""
 
 # @ Avada
 #: tribe-events/single-event.php:83
-#, fuzzy
 msgid "%s Navigation"
-msgstr "Navigationsbeschriftung"
+msgstr "%s Navigation"
 
 #: tribe-events/widgets/list-widget.php:65
 msgid "View All %s"
