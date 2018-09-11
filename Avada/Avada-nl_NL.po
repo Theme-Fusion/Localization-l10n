@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2018-07-31 09:34:31+00:00\n"
-"PO-Revision-Date: 2018-08-07 15:43+0200\n"
+"PO-Revision-Date: 2018-09-11 12:59+0200\n"
 "Last-Translator: ACJ\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/avada/"
 "language/nl_NL/)\n"
@@ -57,7 +57,7 @@ msgstr "Kunt u het niet vinden? Hieronder kunt u deze website doorzoeken!"
 #: bbpress/form-search.php:13 includes/class-avada-layout-bbpress.php:140
 #: searchform.php:17
 msgid "Search for:"
-msgstr "Zoeken..."
+msgstr "Zoeken naar:"
 
 # @ Avada
 #: bbpress/form-search.php:16 includes/class-avada-layout-bbpress.php:143
@@ -67,27 +67,27 @@ msgstr "Zoeken op het Forum..."
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
 msgid "In reply to: "
-msgstr "- Antwoorden"
+msgstr "Antwoord op:"
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
 msgid "Topic: "
-msgstr "%1$s op %2$s"
+msgstr "Onderwerp:"
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:49
 msgid "in group forum "
-msgstr "Zoek ..."
+msgstr "in groepforum"
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:53
 msgid "in forum "
-msgstr "Zoek ..."
+msgstr "in forum"
 
 # @ bbpress
 #: bbpress/loop-single-reply.php:44
 msgid "in reply to: "
-msgstr "- Antwoorden"
+msgstr "antwoord op:"
 
 # @ Avada
 #: comments.php:32
@@ -149,6 +149,8 @@ msgstr "URL"
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
+"Bewaar mijn naam, e-mailadres en website in deze browser voor de volgende keer "
+"dat ik reageer."
 
 #: comments.php:72
 msgid "Comment"
@@ -235,7 +237,7 @@ msgstr "Formulier verzenden"
 #: includes/class-avada-admin.php:636
 #: includes/class-avada-megamenu-framework.php:184
 msgid "Theme Options"
-msgstr "Thema opties"
+msgstr "Themaopties"
 
 #. translators: Link to WordPress requirements page.
 #: functions.php:378
@@ -244,11 +246,14 @@ msgid ""
 "performance and security we strongly encourage you to update your system soon. "
 "Avada will require PHP 5.3 or higher when Avada 6.0 is released."
 msgstr ""
+"Uw server gebruikt een oudere versie van PHP, lager dan versie 5.3. Voor "
+"optimale performance en beveiliging raden we aan uw systeem snel te updaten. "
+"Avada zal PHP 5.3 of hoger vereisen op het moment dat Avada 6.0 uitkomt."
 
 # @ Avada
 #: functions.php:384
 msgid "Sucessfully imported demo data!"
-msgstr "Demo gegevens met succes geïmporteerd!"
+msgstr "Demogegevens met succes geïmporteerd!"
 
 #: functions.php:578 functions.php:579
 msgid "Fusion Patcher"
@@ -6272,11 +6277,11 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:412
 msgid "The default timezone for your server."
-msgstr ""
+msgstr "De standaardtijdzone van uw server."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:416
 msgid "Default timezone is %s - it should be UTC"
-msgstr ""
+msgstr "Standaardtijdzone is %s - zou UTC moeten zijn"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:428
 msgid "Used when communicating with remote services with PHP."
@@ -6301,11 +6306,13 @@ msgid ""
 "wp_remote_post() failed. Many advanced features may not function. Contact your "
 "hosting provider."
 msgstr ""
+"wp_remote_post() werkt niet. Veel geavanceerde onderdelen werken mogelijk "
+"niet. Neem contact op met uw hostingprovider."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:482
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:497
 msgid "Error: %s"
-msgstr ""
+msgstr "Fout: %s"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:489
 msgid "Remote Get"
@@ -6403,11 +6410,11 @@ msgstr "Thema"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:711
 msgid "The name of the current active theme."
-msgstr ""
+msgstr "De naam van het actieve thema."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:716
 msgid "The installed version of the current active theme."
-msgstr ""
+msgstr "De geïnstalleerde versie van het actieve thema."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:722
 msgid "is available"
@@ -6506,7 +6513,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:56
 msgid "What type of user are you?"
-msgstr ""
+msgstr "Wat voor type gebruiker bent u?"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:63
 msgid "User"
@@ -6576,7 +6583,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:183
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:416
 msgid "Get Support"
-msgstr ""
+msgstr "Krijg ondersteuning"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:200
 msgid "The people that develop FusionRedux Framework"
@@ -6588,11 +6595,11 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:308
 msgid "What's New"
-msgstr ""
+msgstr "Wat is er nieuw"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:311
 msgid "Extensions"
-msgstr ""
+msgstr "Uitbreidingen"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
 msgid "Changelog"
@@ -6604,7 +6611,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:483
 msgid "View %s"
-msgstr ""
+msgstr "Bekijk %s"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/footer.tpl.php:57
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header_stickybar.tpl.php:21
@@ -6646,7 +6653,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header.tpl.php:31
 msgid "and"
-msgstr ""
+msgstr "en"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header.tpl.php:34
 msgid "This has been automatically enabled because"
@@ -6685,11 +6692,11 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:421
 msgid "Deactivate Demo Mode"
-msgstr ""
+msgstr "Deactiveer demomodus"
 
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:423
 msgid "Activate Demo Mode"
-msgstr ""
+msgstr "Activeer demomodus"
 
 #: includes/lib/inc/redux/panel_templates/header_stickybar.tpl.php:20
 msgid "Expand Options"
@@ -6917,9 +6924,8 @@ msgstr ""
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:73
-#, fuzzy
 msgid "Video Aspect Ratio"
-msgstr "Video-opties:"
+msgstr "Videoverhoudingen"
 
 #: includes/metaboxes/options/options_slide.php:74
 msgid ""
@@ -7097,11 +7103,11 @@ msgstr ""
 #: includes/metaboxes/options/options_slide.php:264
 #: includes/metaboxes/options/options_slide.php:281
 msgid "Default: %s"
-msgstr ""
+msgstr "Standaard: %s"
 
 #: includes/metaboxes/options/options_slide.php:170
 msgid "Title Size"
-msgstr ""
+msgstr "Titelgrootte"
 
 #: includes/metaboxes/options/options_slide.php:172
 #: includes/metaboxes/options/options_slide.php:244
@@ -7189,7 +7195,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:218
 msgid "Caption Area"
-msgstr "Toon Bijschrift"
+msgstr "Onderschriftvlak"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:219
@@ -7208,7 +7214,7 @@ msgstr ""
 
 #: includes/metaboxes/options/options_slide.php:242
 msgid "Caption Size"
-msgstr ""
+msgstr "Grootte onderschrift"
 
 #. translators: default value.
 #: includes/metaboxes/options/options_slide.php:252
@@ -7244,7 +7250,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:273
 msgid "Caption Background"
-msgstr "Achtergrondbijschrift"
+msgstr "Achtergrond bijschrift"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:278
@@ -7324,7 +7330,7 @@ msgstr "Pas de variabelen aan van de shortcode voor knop van de eerste knop."
 #: includes/metaboxes/options/options_slide.php:320
 #: includes/metaboxes/options/options_slide.php:326
 msgid "Button Text"
-msgstr ""
+msgstr "Knoptekst"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:324
@@ -7359,7 +7365,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_avada_page_options.php:43
 msgid "Manage Page Options"
-msgstr ""
+msgstr "Manage paginaopties"
 
 #: includes/metaboxes/tabs/tab_avada_page_options.php:44
 msgid "Select a set of saved Page Options, then choose to import or delete them."
@@ -7372,7 +7378,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_avada_page_options.php:85
 #: includes/metaboxes/tabs/tab_avada_page_options.php:91
 msgid "Export Page Options"
-msgstr ""
+msgstr "Exporteer paginaopties"
 
 #: includes/metaboxes/tabs/tab_avada_page_options.php:86
 msgid ""
@@ -7383,7 +7389,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_avada_page_options.php:98
 #: includes/metaboxes/tabs/tab_avada_page_options.php:109
 msgid "Import Page Options"
-msgstr ""
+msgstr "Importeer paginaopties"
 
 #: includes/metaboxes/tabs/tab_avada_page_options.php:99
 msgid "Click Import to select a set of Page Options (json file) to be used."
@@ -7414,7 +7420,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_background.php:40
 #: includes/options/background.php:120
 msgid "Background Color For Page"
-msgstr ""
+msgstr "Achtergrondkleur voor pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_background.php:42
@@ -7427,7 +7433,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_background.php:50
 #: includes/options/background.php:42
 msgid "Background Image For Page"
-msgstr ""
+msgstr "Achtergrondafbeelding voor pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_background.php:52
@@ -7672,13 +7678,13 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:43 includes/options/blog.php:52
 #: includes/options/blog.php:65 includes/options/page_title_bar.php:47
 msgid "Show Bar and Content"
-msgstr "Reacties Weergeven"
+msgstr "Toon balk en content"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:44 includes/options/blog.php:53
 #: includes/options/blog.php:66 includes/options/page_title_bar.php:48
 msgid "Show Content Only"
-msgstr "Reacties Weergeven"
+msgstr "Toon alleen content"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:48
@@ -7711,7 +7717,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:84
 #: includes/options/page_title_bar.php:54
 msgid "Page Title Bar Text"
-msgstr "Tekst balk van de paginatitel"
+msgstr "Tekst van paginatitelbalk"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:91
@@ -7785,7 +7791,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:167
 #: includes/options/page_title_bar.php:199
 msgid "Page Title Font Color"
-msgstr "Kleur lettertype paginatitel"
+msgstr "Kleur paginatitel"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:169
@@ -7796,7 +7802,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:177
 #: includes/options/page_title_bar.php:75
 msgid "100% Page Title Width"
-msgstr "Pagina Titel Lettertype Kleur"
+msgstr "100% paginatitelbreedte"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:184
@@ -8109,7 +8115,7 @@ msgstr "Zijbalk 2"
 
 #: includes/metaboxes/tabs/tab_sidebars.php:109 includes/options/sidebars.php:77
 msgid "Both"
-msgstr ""
+msgstr "Beide"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_sidebars.php:112
@@ -8162,7 +8168,7 @@ msgstr "Selecteer Fusion Slider"
 
 #: includes/metaboxes/tabs/tab_sliders.php:155
 msgid "Disable Avada Styles For Slider Revolution"
-msgstr ""
+msgstr "Deactiveer Avada-stijlen voor Slider Revolution"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_sliders.php:162
@@ -8186,7 +8192,7 @@ msgstr "Geavanceerd"
 
 #: includes/options/advanced.php:43
 msgid "Code Fields (Tracking etc.)"
-msgstr ""
+msgstr "Codevelden (tracking, etc.)"
 
 # @ Avada
 #: includes/options/advanced.php:49
@@ -8202,7 +8208,7 @@ msgstr ""
 # @ Avada
 #: includes/options/advanced.php:61
 msgid "Space before &lt;/head&gt;"
-msgstr "Spatie voor &lt;/kop&gt;"
+msgstr "Ruimte voor &lt;/kop&gt;"
 
 #: includes/options/advanced.php:62
 msgid ""
@@ -8273,7 +8279,7 @@ msgstr ""
 
 #: includes/options/advanced.php:127 includes/options/menu.php:1787
 msgid "Mega Menu"
-msgstr ""
+msgstr "Megamenu"
 
 #: includes/options/advanced.php:128
 msgid "Turn on to enable Avada's mega menu."
@@ -8301,7 +8307,7 @@ msgstr ""
 
 #: includes/options/advanced.php:148
 msgid "CSS Animations"
-msgstr ""
+msgstr "CSS-animaties"
 
 #: includes/options/advanced.php:149
 msgid "Turn on to enable CSS animations on elements."
@@ -8309,7 +8315,7 @@ msgstr ""
 
 #: includes/options/advanced.php:155
 msgid "CSS Animations on Mobiles"
-msgstr ""
+msgstr "CSS-animaties op mobiel"
 
 #: includes/options/advanced.php:156
 msgid "Turn on to enable CSS animations on mobiles."
@@ -8541,7 +8547,7 @@ msgstr ""
 #: includes/options/background.php:88 includes/options/background.php:233
 #: includes/options/footer.php:210 includes/options/header.php:437
 msgid "Repeat All"
-msgstr "Herhaal"
+msgstr "Herhaal alle"
 
 #: includes/options/background.php:89 includes/options/background.php:234
 #: includes/options/footer.php:211 includes/options/header.php:438
@@ -8743,7 +8749,7 @@ msgstr ""
 #: includes/options/blog.php:114 includes/options/blog.php:131
 #: includes/options/search_page.php:44
 msgid "Timeline"
-msgstr ""
+msgstr "Tijdlijn"
 
 #: includes/options/blog.php:115 includes/options/blog.php:132
 #: includes/options/portfolio.php:48
@@ -8772,7 +8778,7 @@ msgstr ""
 #: includes/options/blog.php:143 includes/options/extra.php:421
 #: includes/options/portfolio.php:258
 msgid "Pagination"
-msgstr ""
+msgstr "Paginering"
 
 #: includes/options/blog.php:144 includes/options/portfolio.php:259
 msgid "Infinite Scroll"
@@ -8795,7 +8801,7 @@ msgstr ""
 
 #: includes/options/blog.php:157
 msgid "Number of Columns"
-msgstr ""
+msgstr "Aantal kolommen"
 
 #: includes/options/blog.php:158
 msgid ""
@@ -8820,7 +8826,7 @@ msgstr ""
 #: includes/options/blog.php:228 includes/options/portfolio.php:94
 #: includes/options/woocommerce.php:339
 msgid "Equal Heights"
-msgstr ""
+msgstr "Gelijke hoogtes"
 
 #: includes/options/blog.php:229
 msgid "Turn on to display grid boxes to equal heights per row."
@@ -8874,7 +8880,7 @@ msgstr "Volledige inhoud"
 #: includes/options/blog.php:355 includes/options/portfolio.php:150
 #: includes/options/portfolio.php:162
 msgid "No Text"
-msgstr ""
+msgstr "Geen tekst"
 
 # @ Avada
 #: includes/options/blog.php:359
@@ -8948,7 +8954,7 @@ msgstr "Blog enkel bericht"
 #: includes/options/blog.php:423 includes/options/portfolio.php:340
 #: includes/options/woocommerce.php:332
 msgid "100% Width Page"
-msgstr ""
+msgstr "100% paginabreedte"
 
 #: includes/options/blog.php:424
 msgid ""
@@ -8966,7 +8972,7 @@ msgstr ""
 
 #: includes/options/blog.php:437 includes/options/portfolio.php:294
 msgid "Previous/Next Pagination"
-msgstr ""
+msgstr "Vorige/volgende paginering"
 
 #: includes/options/blog.php:438
 msgid ""
@@ -8990,19 +8996,19 @@ msgstr ""
 
 #: includes/options/blog.php:456
 msgid "Meta Data Position"
-msgstr ""
+msgstr "Metadatapositie"
 
 #: includes/options/blog.php:457
 msgid "Choose where the meta data is positioned."
-msgstr ""
+msgstr "Kies waar de metadata wordt gepositioneerd."
 
 #: includes/options/blog.php:462
 msgid "Below Article"
-msgstr ""
+msgstr "Onder artikel"
 
 #: includes/options/blog.php:463
 msgid "Below Title"
-msgstr ""
+msgstr "Onder titel"
 
 # @ Avada
 #: includes/options/blog.php:474
@@ -9133,7 +9139,7 @@ msgstr ""
 
 #: includes/options/colors.php:27
 msgid "Colors"
-msgstr ""
+msgstr "Kleuren"
 
 #: includes/options/colors.php:34
 msgid ""
@@ -9160,15 +9166,14 @@ msgstr ""
 #: includes/options/colors.php:46 includes/options/contact.php:131
 #: includes/options/lightbox.php:78
 #: includes/widget/class-fusion-widget-tweets.php:315
-#, fuzzy
 msgid "Light"
-msgstr "Rechts"
+msgstr "Licht"
 
 #: includes/options/colors.php:51 includes/options/contact.php:132
 #: includes/options/lightbox.php:79
 #: includes/widget/class-fusion-widget-tweets.php:316
 msgid "Dark"
-msgstr ""
+msgstr "Donker"
 
 # @ Avada
 #: includes/options/colors.php:58
@@ -9186,43 +9191,43 @@ msgstr ""
 
 #: includes/options/colors.php:65
 msgid "Red"
-msgstr ""
+msgstr "Rood"
 
 #: includes/options/colors.php:70
 msgid "Light Red"
-msgstr ""
+msgstr "Lichtrood"
 
 #: includes/options/colors.php:75
 msgid "Blue"
-msgstr ""
+msgstr "Blauw"
 
 #: includes/options/colors.php:80
 msgid "Light Blue"
-msgstr ""
+msgstr "Lichtblauw"
 
 #: includes/options/colors.php:85
 msgid "Green"
-msgstr ""
+msgstr "Groen"
 
 #: includes/options/colors.php:90
 msgid "Dark Green"
-msgstr ""
+msgstr "Donkergroen"
 
 #: includes/options/colors.php:95
 msgid "Orange"
-msgstr ""
+msgstr "Oranje"
 
 #: includes/options/colors.php:100
 msgid "Pink"
-msgstr ""
+msgstr "Roze"
 
 #: includes/options/colors.php:105
 msgid "Brown"
-msgstr ""
+msgstr "Bruin"
 
 #: includes/options/colors.php:110
 msgid "Light Grey"
-msgstr ""
+msgstr "Lichtgrijs"
 
 # @ Avada
 #: includes/options/colors.php:122
@@ -9235,7 +9240,7 @@ msgstr ""
 
 #: includes/options/colors.php:161
 msgid "Export"
-msgstr ""
+msgstr "Exporteer"
 
 #: includes/options/colors.php:165
 msgid ""
@@ -9257,7 +9262,7 @@ msgstr ""
 
 #: includes/options/colors.php:186
 msgid "Cancel Selection"
-msgstr ""
+msgstr "Selectie ongedaan maken"
 
 #: includes/options/colors.php:194
 msgid ""
@@ -9276,7 +9281,7 @@ msgstr ""
 
 #: includes/options/contact.php:32 includes/options/contact.php:39
 msgid "Contact Form"
-msgstr ""
+msgstr "Contactformulier"
 
 #: includes/options/contact.php:47
 msgid ""
@@ -9330,11 +9335,13 @@ msgid ""
 "ReCaptcha is not compatible with the PHP version you're using. Please update "
 "your server to at least PHP 5.3"
 msgstr ""
+"ReCaptcha is niet compatible with de PHP-versie die u gebruikt. Minimaal PHP "
+"5.3 vereisd"
 
 # @ Avada
 #: includes/options/contact.php:107
 msgid "ReCaptcha Site Key"
-msgstr "ReCaptcha Kleurschema"
+msgstr "ReCaptcha site-sleutel"
 
 #. translators: "our docs" link.
 #: includes/options/contact.php:109
@@ -9348,7 +9355,7 @@ msgstr ""
 # @ Avada
 #: includes/options/contact.php:116
 msgid "ReCaptcha Secret Key"
-msgstr "ReCaptcha Kleurschema"
+msgstr "ReCaptcha geheime sleutel"
 
 #. translators: "our docs" link.
 #: includes/options/contact.php:118
@@ -9358,7 +9365,7 @@ msgstr ""
 # @ Avada
 #: includes/options/contact.php:125
 msgid "ReCaptcha Color Scheme"
-msgstr "Kleurenschema ReCaptcha"
+msgstr "ReCaptcha kleurschema"
 
 #: includes/options/contact.php:126
 msgid "Controls the recaptcha color scheme."
@@ -9421,7 +9428,7 @@ msgstr ""
 
 #: includes/options/contact.php:202
 msgid "Address"
-msgstr ""
+msgstr "Adres"
 
 #: includes/options/contact.php:203
 msgid ""
@@ -9479,7 +9486,7 @@ msgstr ""
 
 #: includes/options/contact.php:282
 msgid "Google Map Dimensions"
-msgstr ""
+msgstr "Afmetingen Google Maps"
 
 #: includes/options/contact.php:283
 msgid ""
@@ -9519,7 +9526,7 @@ msgstr ""
 # @ Avada
 #: includes/options/contact.php:356
 msgid "Address Pin Animation"
-msgstr "Animatie"
+msgstr ""
 
 #: includes/options/contact.php:357
 msgid "Turn on to enable address pin animation."
@@ -9617,11 +9624,11 @@ msgstr ""
 
 #: includes/options/contact.php:547
 msgid "Default Infobox"
-msgstr ""
+msgstr "Standaard infobox"
 
 #: includes/options/contact.php:548
 msgid "Custom Infobox"
-msgstr ""
+msgstr "Custom infobox"
 
 # @ Avada
 #: includes/options/contact.php:570
@@ -9810,9 +9817,8 @@ msgstr ""
 
 # @ Avada
 #: includes/options/events_calendar.php:71
-#, fuzzy
 msgid "Controls the background color for the events calendar filter bar."
-msgstr "Bepaalt de achtergrondkleur van de zijbalk."
+msgstr "Bepaalt de achtergrondkleur van de filterbalk van de kalender."
 
 #: includes/options/events_calendar.php:77
 msgid "Event Filter Bar Text Color"
@@ -9876,11 +9882,11 @@ msgstr ""
 #: includes/widget/class-fusion-widget-ad-125-125.php:197
 #: includes/widget/class-fusion-widget-ad-125-125.php:216
 msgid "Zoom In"
-msgstr ""
+msgstr "Zoom in"
 
 #: includes/options/events_calendar.php:127
 msgid "Zoom Out"
-msgstr ""
+msgstr "Zoom uit"
 
 #: includes/options/events_calendar.php:128
 #: includes/widget/class-fusion-widget-ad-125-125.php:161
@@ -10054,7 +10060,7 @@ msgstr ""
 #: includes/options/extra.php:47
 #: includes/widget/class-fusion-widget-vertical-menu.php:324
 msgid "Click"
-msgstr ""
+msgstr "Klik"
 
 # @ Avada
 #: includes/options/extra.php:51
@@ -10079,11 +10085,11 @@ msgstr ""
 
 #: includes/options/extra.php:64
 msgid "Words"
-msgstr ""
+msgstr "Woorden"
 
 #: includes/options/extra.php:65
 msgid "Characters"
-msgstr ""
+msgstr "Tekens"
 
 #: includes/options/extra.php:69
 msgid "Excerpt [...] Display"
@@ -10115,11 +10121,11 @@ msgstr ""
 
 #: includes/options/extra.php:96
 msgid "Square"
-msgstr ""
+msgstr "Vierkant"
 
 #: includes/options/extra.php:97 includes/options/sliding_bar.php:249
 msgid "Circle"
-msgstr ""
+msgstr "Cirkel"
 
 #: includes/options/extra.php:101
 msgid "Comments on Pages"
@@ -10157,12 +10163,12 @@ msgstr ""
 # @ Avada
 #: includes/options/extra.php:131
 msgid "Related Posts / Projects"
-msgstr "Verwante projecten"
+msgstr "Verwante berichten/projecten"
 
 # @ Avada
 #: includes/options/extra.php:137
 msgid "Related Posts / Projects Layout"
-msgstr "Verwante projecten"
+msgstr "Verwante berichten/projecten layout"
 
 #: includes/options/extra.php:138
 msgid "Controls the layout style for related posts and related projects."
@@ -10170,11 +10176,11 @@ msgstr ""
 
 #: includes/options/extra.php:143
 msgid "Title on rollover"
-msgstr ""
+msgstr "Titel bij muisover"
 
 #: includes/options/extra.php:144
 msgid "Title below image"
-msgstr ""
+msgstr "Titel onder afbeelding"
 
 # @ Avada
 #: includes/options/extra.php:148
@@ -10305,7 +10311,7 @@ msgstr ""
 
 #: includes/options/extra.php:268
 msgid "Center Vertical"
-msgstr ""
+msgstr "Centreer verticaal"
 
 #: includes/options/extra.php:279
 msgid "Image Rollover Icon Font Size"
@@ -10432,9 +10438,8 @@ msgstr ""
 
 # @ Avada
 #: includes/options/extra.php:472
-#, fuzzy
 msgid "Form Input and Select Height"
-msgstr "Lijnhoogte lettertype"
+msgstr "Hoogte invoervelden"
 
 #: includes/options/extra.php:473
 msgid "Controls the height of all search, form input and select fields."
@@ -10496,11 +10501,11 @@ msgstr ""
 
 #: includes/options/extra.php:539
 msgid "Search Form"
-msgstr ""
+msgstr "Zoekformulier"
 
 #: includes/options/extra.php:545
 msgid "Search Form Design"
-msgstr ""
+msgstr "Ontwerp zoekformulier"
 
 #: includes/options/extra.php:546
 msgid "Controls the design of the search forms."
@@ -10510,12 +10515,12 @@ msgstr ""
 #: includes/options/woocommerce.php:308
 #: includes/widget/class-fusion-widget-tabs.php:295
 msgid "Classic"
-msgstr ""
+msgstr "Klassiek"
 
 #: includes/options/extra.php:552 includes/options/woocommerce.php:309
 #: includes/widget/class-fusion-widget-tabs.php:296
 msgid "Clean"
-msgstr ""
+msgstr "Clean"
 
 #: includes/options/extra.php:558
 msgid "Grid / Masonry"
@@ -10562,7 +10567,7 @@ msgstr ""
 
 #: includes/options/extra.php:590
 msgid "No Style"
-msgstr ""
+msgstr "Geen stijl"
 
 #: includes/options/extra.php:591
 msgid "Single Border Solid"
@@ -10590,7 +10595,7 @@ msgstr ""
 
 #: includes/options/extra.php:597
 msgid "Shadow"
-msgstr ""
+msgstr "Schaduw"
 
 #: includes/options/extra.php:601
 msgid "Grid Separator Color"
@@ -10640,7 +10645,7 @@ msgstr ""
 
 #: includes/options/footer.php:35
 msgid "Footer Content"
-msgstr ""
+msgstr "Voettekstcontent"
 
 # @ Avada
 #: includes/options/footer.php:41
@@ -10691,7 +10696,7 @@ msgstr ""
 # @ Avada
 #: includes/options/footer.php:97
 msgid "Sticky Footer"
-msgstr "Voettekst"
+msgstr ""
 
 #: includes/options/footer.php:98
 msgid ""
@@ -10724,7 +10729,7 @@ msgstr ""
 
 #: includes/options/footer.php:114
 msgid "Center Copyright Content"
-msgstr ""
+msgstr "Centreer auteursrecht"
 
 #: includes/options/footer.php:115
 msgid "Turn on to center the copyright bar content."
@@ -10905,7 +10910,7 @@ msgstr ""
 
 #: includes/options/footer.php:457
 msgid "Ridge"
-msgstr ""
+msgstr "Richel"
 
 # @ Avada
 #: includes/options/footer.php:474
