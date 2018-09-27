@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion White Label Branding 1.0\n"
 "Report-Msgid-Bugs-To: https://theme-fusion.com/support/\n"
-"POT-Creation-Date: 2018-07-09 10:20:53+00:00\n"
+"POT-Creation-Date: 2018-09-27 12:23:41+00:00\n"
 "PO-Revision-Date: 2018-06-02 00:29+0200\n"
 "Last-Translator: Marco Cocciu <marcococciu@cocciu.cc>\n"
 "Language-Team: Italian\n"
@@ -15,18 +15,18 @@ msgstr ""
 "X-Generator: Poedit 2.0.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: fusion-white-label-branding.php:199 fusion-white-label-branding.php:200
+msgid "Fusion Patcher"
+msgstr ""
+
 #. translators: URL
 #: inc/admin-screens/faq.php:16
 msgid ""
 "These are general Frequently Asked Questions to help you get started. For "
 "detailed documentation please <a href=\"%1$s\" target=\"_blank\">click here</"
-"a> or of you require support please visit our <a href=\"%2$s\" target="
+"a> or if you require support please visit our <a href=\"%2$s\" target="
 "\"_blank\">online support center</a>."
 msgstr ""
-"Queste sono domande frequenti di carattere generale per aiutarti a iniziare. "
-"Per una documentazione dettagliata, ti preghiamo di <a href=\"%1$s\" target="
-"\"_blank\"> fare clic qui </a> oppure se hai bisogno di assistenza visita il "
-"nostro <a href=\"%2$s\" target=\"_blank\"> centro di supporto online </a>."
 
 #: inc/admin-screens/faq.php:21
 msgid "What Is The Fusion White Label Branding?"
@@ -37,12 +37,8 @@ msgstr "Cos'è il Fusion White Label Branding?"
 msgid ""
 "Fusion White Label Branding is an add-on for %1$s that allows you to alter "
 "the default %1$s branding, WordPress menus, user access, %2$s settings and "
-"the default WordPress log in screen, to make it your own."
+"the default WordPress login screen, to make it your own."
 msgstr ""
-"Fusion White Label Branding è un componente aggiuntivo per %1$s che ti "
-"consente di modificare il marchio predefinito %1$s, i menu di WordPress, "
-"l'accesso utente, le impostazioni di %2$s e lo schermo di accesso WordPress "
-"predefinito, per renderlo personale."
 
 #: inc/admin-screens/faq.php:32
 msgid "How Do I Get Support For The Fusion White Label Branding?"
@@ -51,16 +47,11 @@ msgstr "Come ottengo supporto per Fusion White Label Branding?"
 #. translators: %1$s: Avada, %2$s: URL, %3$s: _blank.
 #: inc/admin-screens/faq.php:37
 msgid ""
-"Fusion White Label Branding is an add-on that is purpose built for the %1$s "
+"Fusion White Label Branding is an add-on that is purpose-built for the %1$s "
 "WordPress theme, version 5.4 and newer. For detailed documentation please <a "
-"href=\"%2$s\" target=\"%3$s\">click here</a> or of you require support "
+"href=\"%2$s\" target=\"%3$s\">click here</a> or if you require support "
 "please visit our online support center."
 msgstr ""
-"Fusion White Label Branding è un componente aggiuntivo creato appositamente "
-"per il tema WordPress %1$s, versione 5.4 e successive. Per una "
-"documentazione dettagliata, ti preghiamo di <a href=\"%2$s\" target=\"%3$s"
-"\"> fare clic qui </a> o se hai bisogno di assistenza visita il nostro "
-"centro di supporto online."
 
 #: inc/admin-screens/faq.php:43
 msgid "Can I Use Fusion White Label Branding To Re-brand Other Themes?"
@@ -69,11 +60,9 @@ msgstr "Posso utilizzare Fusion White Label Branding per rinnovare altri Temi?"
 #. translators: Avada
 #: inc/admin-screens/faq.php:48
 msgid ""
-"Unfortunately that is not possible. The Fusion White Label Branding add-on "
-"is purpose built for the %s WordPress theme only."
+"Unfortunately, that is not possible. The Fusion White Label Branding add-on "
+"is purpose-built for the %s WordPress theme only."
 msgstr ""
-"Sfortunatamente non è possibile. Il componente aggiuntivo Fusion White Label "
-"Branding è creato appositamente per il tema WordPress %s."
 
 #. translators: Avada
 #: inc/admin-screens/faq.php:55
@@ -94,6 +83,49 @@ msgstr ""
 "per %1$s 5.4 o più recenti. Vari aspetti del componente aggiuntivo non "
 "funzioneranno come previsto con le versioni precedenti di %1$s."
 
+#. translators: URL
+#: inc/admin-screens/import-export.php:16
+msgid ""
+"Here, you can export your settings to a JSON file and can import them to "
+"another site. You can simply export the settings for individual sections or "
+"all sections at once. <a href=\"%s\" target=\"_blank\">Click here</a> to "
+"read the documentation about Fusion White Label Branding plugin."
+msgstr ""
+
+#: inc/admin-screens/import-export.php:21
+#: inc/admin-screens/import-export.php:67
+msgid "Export Settings"
+msgstr ""
+
+#: inc/admin-screens/import-export.php:22
+msgid ""
+"Select individual sections to export settings for that section or select "
+"\"All\" to export all sections at once."
+msgstr ""
+
+#: inc/admin-screens/import-export.php:27
+msgid "All Sections"
+msgstr ""
+
+#: inc/admin-screens/import-export.php:28 inc/fusion-branding-admin.php:1423
+msgid "WordPress Admin"
+msgstr "Amministratore Wordpress"
+
+#: inc/admin-screens/import-export.php:47 inc/fusion-branding-admin.php:1442
+msgid "WordPress Login Screen"
+msgstr "Schermata di Accesso Wordpress"
+
+#: inc/admin-screens/import-export.php:73
+#: inc/admin-screens/import-export.php:80
+msgid "Import Settings"
+msgstr ""
+
+#: inc/admin-screens/import-export.php:74
+msgid ""
+"Upload the exported settings file here and click the button to import the "
+"settings."
+msgstr ""
+
 #. translators: %1$s: Avada, %2$s: link, %3%s: link
 #: inc/admin-screens/support.php:18
 msgid ""
@@ -103,20 +135,10 @@ msgid ""
 "All support for Fusion White Label Branding is handled via the the support "
 "center on our company site. To access it, you must first setup an account by "
 "<a %3$s>following these steps</a>. If you purchased using Envato's guest "
-"checkout please view this link to create an Envato account before receiving "
-"item support. Below are all the resources we offer in our support center and "
-"community."
+"checkout <a href=\"%4$s\" target=\"_blank\">please view this link</a> to "
+"create an Envato account before receiving item support. Below are all the "
+"resources we offer in our support center and community."
 msgstr ""
-"Fusion White Label Branding è in bundle con %1$s ed è quindi coperto dai 6 "
-"mesi di supporto gratuito per ogni licenza di tema acquistata. Il supporto "
-"per i temi può essere <a %2$s> esteso tramite gli abbonamenti</a> tramite "
-"ThemeForest. Tutto il supporto per Fusion White Label Branding viene gestito "
-"tramite il centro di supporto sul sito della nostra azienda. Per accedervi, "
-"devi prima configurare un account <a %3$s> seguendo questi passaggi</a>. Se "
-"l'acquisto è stato effettuato come ospite di Envato, si prega di "
-"visualizzare questo link per creare un account Envato prima di ricevere "
-"l'assistenza per i prodotti. Di seguito sono elencate tutte le risorse che "
-"offriamo nel nostro centro di supporto e comunità."
 
 #: inc/admin-screens/support.php:19
 msgid "Create A Support Account"
@@ -210,9 +232,9 @@ msgstr ""
 "reciproci disposti ad aiutarsi l'un l'altro per Fusion White Label Branding! "
 "Vieni, condividi e aiuta a far crescere la comunità!"
 
-#: inc/fusion-branding-admin.php:139 inc/fusion-branding-admin.php:192
-#: inc/fusion-branding-admin.php:1308 inc/options/wordpress-admin.php:104
-#: inc/options/wordpress-admin.php:137
+#: inc/fusion-branding-admin.php:148 inc/fusion-branding-admin.php:201
+#: inc/fusion-branding-admin.php:1406 inc/options/wordpress-admin.php:105
+#: inc/options/wordpress-admin.php:138
 msgid "Settings"
 msgstr "Impostazioni"
 
@@ -220,35 +242,44 @@ msgstr "Impostazioni"
 msgid "Fusion White Label Branding"
 msgstr "Fusion White Label Branding"
 
-#: inc/fusion-branding-admin.php:189
+#: inc/fusion-branding-admin.php:198
 msgid "Fusion Branding"
 msgstr "Fusion Branding"
 
-#: inc/fusion-branding-admin.php:190 inc/fusion-branding-admin.php:1307
+#: inc/fusion-branding-admin.php:199 inc/fusion-branding-admin.php:1405
 #: inc/options/avada.php:79 inc/options/fusion-builder.php:46
 msgid "Support"
 msgstr "Supporto"
 
-#: inc/fusion-branding-admin.php:191 inc/fusion-branding-admin.php:1306
-#: inc/options/avada.php:80 inc/options/fusion-builder.php:47
+#: inc/fusion-branding-admin.php:200 inc/fusion-branding-admin.php:1404
+#: inc/options/avada.php:80 inc/options/avada.php:140
+#: inc/options/fusion-builder.php:47
 msgid "FAQ"
 msgstr "Domanda Frequente"
 
-#: inc/fusion-branding-admin.php:192
+#: inc/fusion-branding-admin.php:201
 msgid "Branding Settings"
 msgstr "Impostazioni Branding"
 
-#: inc/fusion-branding-admin.php:213 inc/fusion-branding-admin.php:1305
+#: inc/fusion-branding-admin.php:202 inc/fusion-branding-admin.php:1407
+msgid "Import / Export"
+msgstr ""
+
+#: inc/fusion-branding-admin.php:224 inc/fusion-branding-admin.php:1403
 #: inc/options/avada.php:77 inc/options/fusion-builder.php:45
 msgid "Welcome"
 msgstr "Benvenuto"
 
-#: inc/fusion-branding-admin.php:562 inc/options/wordpress-admin.php:95
-#: inc/options/wordpress-admin.php:128
+#: inc/fusion-branding-admin.php:503
+msgid "Avada"
+msgstr ""
+
+#: inc/fusion-branding-admin.php:645 inc/options/wordpress-admin.php:96
+#: inc/options/wordpress-admin.php:129
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: inc/fusion-branding-admin.php:1273
+#: inc/fusion-branding-admin.php:1371
 msgid ""
 "Thank you for choosing Fusion White Label Branding. We are honored and are "
 "fully dedicated to making your experience perfect."
@@ -256,12 +287,12 @@ msgstr ""
 "Grazie per aver scelto Fusion White Label Branding. Siamo onorati e "
 "completamente dedicati a rendere perfetta la tua esperienza."
 
-#: inc/fusion-branding-admin.php:1288
+#: inc/fusion-branding-admin.php:1386
 msgid "Welcome to Fusion White Label Branding!"
 msgstr "Benvenuto/a in Fusion White Label Brandind!"
 
 #. translators: Avada
-#: inc/fusion-branding-admin.php:1292
+#: inc/fusion-branding-admin.php:1390
 msgid ""
 "Fusion White Label Branding is now installed and ready to use! You can brand "
 "%1$s and the constituent functionality with your own custom branding through "
@@ -277,33 +308,25 @@ msgstr ""
 "successive."
 
 #. translators: The version number.
-#: inc/fusion-branding-admin.php:1299
+#: inc/fusion-branding-admin.php:1397
 msgid "Version %s"
 msgstr "Versione %s"
-
-#: inc/fusion-branding-admin.php:1324
-msgid "WordPress Admin"
-msgstr "Amministratore Wordpress"
-
-#: inc/fusion-branding-admin.php:1343
-msgid "WordPress Login Screen"
-msgstr "Schermata di Accesso Wordpress"
 
 #. translators: The taxonomy (slide-page) name.
 #. translators: The taxonomy (skills) name.
 #. translators: The taxonomy name.
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1414 inc/fusion-branding-admin.php:1438
-#: inc/fusion-branding-admin.php:1454 inc/fusion-branding-admin.php:1470
-#: inc/fusion-branding-admin.php:1496
+#: inc/fusion-branding-admin.php:1514 inc/fusion-branding-admin.php:1541
+#: inc/fusion-branding-admin.php:1560 inc/fusion-branding-admin.php:1579
+#: inc/fusion-branding-admin.php:1612
 msgid "View %s"
 msgstr "Visualizza %s"
 
 #. translators: The taxonomy (slide-page) name.
 #. translators: The taxonomy (skills) name.
 #. translators: The taxonomy name.
-#: inc/fusion-branding-admin.php:1416 inc/fusion-branding-admin.php:1440
-#: inc/fusion-branding-admin.php:1456 inc/fusion-branding-admin.php:1472
+#: inc/fusion-branding-admin.php:1517 inc/fusion-branding-admin.php:1544
+#: inc/fusion-branding-admin.php:1563 inc/fusion-branding-admin.php:1582
 msgid "Add New %s"
 msgstr "Aggiungi Nuovo %s"
 
@@ -311,39 +334,39 @@ msgstr "Aggiungi Nuovo %s"
 #. translators: The taxonomy (skills) name.
 #. translators: The taxonomy name.
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1418 inc/fusion-branding-admin.php:1442
-#: inc/fusion-branding-admin.php:1458 inc/fusion-branding-admin.php:1474
-#: inc/fusion-branding-admin.php:1491
+#: inc/fusion-branding-admin.php:1520 inc/fusion-branding-admin.php:1547
+#: inc/fusion-branding-admin.php:1566 inc/fusion-branding-admin.php:1585
+#: inc/fusion-branding-admin.php:1605
 msgid "Edit %s"
 msgstr "Modifica %s"
 
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1487 inc/fusion-branding-admin.php:1489
+#: inc/fusion-branding-admin.php:1599 inc/fusion-branding-admin.php:1602
 msgid "Add %s"
 msgstr "Aggiungi %s"
 
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1494
+#: inc/fusion-branding-admin.php:1609
 msgid "All %s"
 msgstr "Tutti %s"
 
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1498
+#: inc/fusion-branding-admin.php:1615
 msgid "Search %s"
 msgstr "Cerca %s"
 
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1500
+#: inc/fusion-branding-admin.php:1618
 msgid "No %s found"
 msgstr "Nessun %s trovato"
 
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1502
+#: inc/fusion-branding-admin.php:1621
 msgid "No %s found in Trash"
 msgstr "Nessun %s trovato nel cestino"
 
 #. translators: The post-type name.
-#: inc/fusion-branding-admin.php:1508 inc/fusion-branding-admin.php:1510
+#: inc/fusion-branding-admin.php:1629 inc/fusion-branding-admin.php:1632
 msgid "%s Categories"
 msgstr "%s Categorie"
 
@@ -357,9 +380,7 @@ msgstr "%s Impostazioni Branding"
 
 #. translators: Avada
 #. translators: Fusion Builder
-#. translators: Fusion Slider
 #: inc/options/avada.php:21 inc/options/fusion-builder.php:21
-#: inc/options/fusion-slider.php:22
 msgid "These settings will change items in %s admin pages."
 msgstr ""
 "Queste impostazioni cambieranno gli elementi nelle pagine di amministrazione "
@@ -378,8 +399,8 @@ msgstr "%s Etichetta"
 #. translators: Avada
 #. translators: Fusion Builder
 #: inc/options/avada.php:30 inc/options/fusion-builder.php:30
-msgid "Replaces all instances of \"%s\""
-msgstr "Sostituisce tutte le istanze di \"%s\""
+msgid "Replaces all instances of \"%s\"."
+msgstr "Sostituisce tutte le istanze di \"%s\"."
 
 #: inc/options/avada.php:38
 msgid "Theme Options Menu Label"
@@ -396,26 +417,24 @@ msgstr "Rimuovi %s Menu Barra di Amministrazione"
 
 #. translators: Avada
 #: inc/options/avada.php:50
-msgid "Remove the %s menu item from admin bar on frontend."
+msgid "Removes the %s menu item from admin bar on frontend."
 msgstr ""
-"Rimuovi la voce di menu %s dalla barra di amministrazione sul frontend."
 
 #: inc/options/avada.php:62 inc/options/login-screen.php:167
-#: inc/options/wordpress-admin.php:39 inc/options/wordpress-admin.php:60
-#: inc/options/wordpress-admin.php:81 inc/options/wordpress-admin.php:292
+#: inc/options/wordpress-admin.php:40 inc/options/wordpress-admin.php:61
+#: inc/options/wordpress-admin.php:82 inc/options/wordpress-admin.php:294
 msgid "Yes"
 msgstr "Si"
 
 #: inc/options/avada.php:63 inc/options/login-screen.php:168
-#: inc/options/wordpress-admin.php:40 inc/options/wordpress-admin.php:61
-#: inc/options/wordpress-admin.php:82 inc/options/wordpress-admin.php:293
+#: inc/options/wordpress-admin.php:41 inc/options/wordpress-admin.php:62
+#: inc/options/wordpress-admin.php:83 inc/options/wordpress-admin.php:295
 msgid "No"
 msgstr "No"
 
-#: inc/options/avada.php:70 inc/options/fusion-builder.php:38
-#: inc/options/fusion-slider.php:121
-msgid "Remove Sub-menus"
-msgstr "Rimuovi Sottomenu"
+#: inc/options/avada.php:70
+msgid "Remove Sub-Menus"
+msgstr ""
 
 #. translators: Avada
 #. translators: Fusion Builder
@@ -434,8 +453,8 @@ msgstr "Registrazione"
 msgid "Demos"
 msgstr "Demo"
 
-#: inc/options/avada.php:82 inc/options/wordpress-admin.php:101
-#: inc/options/wordpress-admin.php:134
+#: inc/options/avada.php:82 inc/options/wordpress-admin.php:102
+#: inc/options/wordpress-admin.php:135
 msgid "Plugins"
 msgstr "Plugins"
 
@@ -448,90 +467,96 @@ msgid "Patcher"
 msgstr "Patcher"
 
 #. translators: Avada
-#: inc/options/avada.php:106
+#: inc/options/avada.php:103
 msgid "Rename %s Post Type Menus"
 msgstr "Rinomina i menu dei tipi di post di %s"
 
 #. translators: Avada
-#: inc/options/avada.php:108
-msgid "Rename the admin menu labels for %s post types."
+#: inc/options/avada.php:105
+msgid "Renames the admin menu labels for %s post types."
 msgstr ""
-"Rinominare le etichette del menu di amministrazione per i tipi di post di %s."
 
-#: inc/options/avada.php:113
+#: inc/options/avada.php:110
 msgid "FAQs"
 msgstr "Domande Frequenti"
 
-#: inc/options/avada.php:114
+#: inc/options/avada.php:111 inc/options/avada.php:139
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: inc/options/avada.php:115
+#: inc/options/avada.php:112
 msgid "Skills"
 msgstr "Competenze"
 
-#: inc/options/avada.php:116
+#: inc/options/avada.php:113
 msgid "Tags"
 msgstr "Tag"
 
+#: inc/options/avada.php:132
+msgid "Remove Post Type Menus"
+msgstr ""
+
+#. translators: Avada
+#: inc/options/avada.php:134
+msgid "Removes the selected admin menus for post types registered for \"%s\"."
+msgstr ""
+
+#: inc/options/avada.php:141
+msgid "Elastic Slider"
+msgstr ""
+
 #. translators: Avada.
 #. translators: Fusion Builder
-#: inc/options/avada.php:139 inc/options/avada.php:163
+#: inc/options/avada.php:163 inc/options/avada.php:187
 #: inc/options/fusion-builder.php:67 inc/options/fusion-builder.php:85
 msgid "%s Logo Image"
 msgstr "%s Immagine Logo"
 
 #. translators: Avada.
-#: inc/options/avada.php:145
+#: inc/options/avada.php:169
 msgid ""
-"Controls the logo image on %s admin pages and replaces ThemeFusion logo. <br/"
-"><strong>Full size of the box:</strong> 150px wide x 130px high."
+"Controls the logo image on %s admin pages and replaces the ThemeFusion logo. "
+"<br/><strong>Full size of the box:</strong> 150px wide x 130px high."
 msgstr ""
-"Controlla l'immagine del logo su %s pagine di amministrazione e sostituisce "
-"il logo ThemeFusion. <br/> <strong> Dimensioni della scatola: </ strong> 150 "
-"px di larghezza x 130 px di altezza."
 
-#: inc/options/avada.php:163 inc/options/fusion-builder.php:85
+#: inc/options/avada.php:187 inc/options/fusion-builder.php:85
 #: inc/options/login-screen.php:74
 msgid "Use Logo"
 msgstr "Utilizza il Logo"
 
-#: inc/options/avada.php:163 inc/options/fusion-builder.php:85
+#: inc/options/avada.php:187 inc/options/fusion-builder.php:85
 msgid "Upload Logo Image"
 msgstr "Carica Immagine Logo"
 
-#: inc/options/avada.php:164 inc/options/avada.php:227
-#: inc/options/avada.php:262 inc/options/fusion-builder.php:86
+#: inc/options/avada.php:188 inc/options/avada.php:251
+#: inc/options/avada.php:297 inc/options/fusion-builder.php:86
 #: inc/options/fusion-builder.php:141 inc/options/fusion-slider.php:70
 #: inc/options/login-screen.php:51 inc/options/login-screen.php:75
 msgid "Remove Image"
 msgstr "Rimuovi Immagine"
 
-#: inc/options/avada.php:171 inc/options/fusion-builder.php:93
+#: inc/options/avada.php:195 inc/options/fusion-builder.php:93
 msgid "Version Number Text"
 msgstr "Numero di Versione Testo"
 
 #. translators: Avada
-#. translators: Fusion Builder
-#: inc/options/avada.php:173 inc/options/fusion-builder.php:95
-msgid "Replaces text in version number box under logo on %s admin screens."
+#: inc/options/avada.php:197
+msgid "Replaces version number text beneath the logo on %s admin screens."
 msgstr ""
-"Sostituisce il testo nella casella del numero di versione sotto il logo "
-"nelle schermate di %s admin."
 
-#: inc/options/avada.php:181 inc/options/fusion-builder.php:103
+#: inc/options/avada.php:205 inc/options/fusion-builder.php:103
 msgid "Version Number Box Background"
 msgstr "Sfondo della Casella del Numero di Versione"
 
-#: inc/options/avada.php:182 inc/options/fusion-builder.php:104
+#: inc/options/avada.php:206 inc/options/fusion-builder.php:104
 msgid "Controls the background color of the version number box."
 msgstr "Controlla il colore di sfondo della casella del numero di versione."
 
-#: inc/options/avada.php:190 inc/options/fusion-builder.php:112
+#: inc/options/avada.php:214 inc/options/fusion-builder.php:112
 msgid "Version Number Text Color"
 msgstr "Colore del Testo del Numero di Versione"
 
-#: inc/options/avada.php:191 inc/options/fusion-builder.php:113
+#: inc/options/avada.php:215 inc/options/fusion-builder.php:113
 msgid "Controls the text color of the version number."
 msgstr "Controlla il colore del testo del numero di versione."
 
@@ -540,60 +565,111 @@ msgstr "Controlla il colore del testo del numero di versione."
 #. translators: Fusion White Label Branding.
 #. translators: Fusion Builder
 #. translators: Fusion Slider
-#: inc/options/avada.php:202 inc/options/avada.php:226
-#: inc/options/avada.php:237 inc/options/avada.php:261
+#: inc/options/avada.php:226 inc/options/avada.php:250
+#: inc/options/avada.php:272 inc/options/avada.php:296
 #: inc/options/fusion-builder.php:122 inc/options/fusion-slider.php:51
 msgid "%s Menu Icon Image"
 msgstr "%s Menu Icona Immagine"
 
 #. translators: Avada.
 #. translators: Fusion White Label Branding.
-#: inc/options/avada.php:208 inc/options/avada.php:243
+#: inc/options/avada.php:232 inc/options/avada.php:278
 msgid ""
-"Controls the menu icon image on %s admin menu and replaces ThemeFusion logo. "
-"<br/><strong>Recommended size:</strong> 20px wide x 20px high."
+"Controls the menu icon image on %s admin menu and replaces the ThemeFusion "
+"logo. <br/><strong>Recommended size:</strong> 20px wide x 20px high."
 msgstr ""
-"Controlla l'immagine dell'icona del menu sul menu di amministrazione %s e "
-"sostituisce il logo ThemeFusion. <br/> <strong> Dimensioni consigliate: </ "
-"strong> 20px wide x 20px high."
 
-#: inc/options/avada.php:226 inc/options/avada.php:261
+#: inc/options/avada.php:250 inc/options/avada.php:296
 msgid "Use Menu Icon"
 msgstr "Usa lIciona del Menu"
 
-#: inc/options/avada.php:226 inc/options/avada.php:261
+#: inc/options/avada.php:250 inc/options/avada.php:296
 msgid "Upload Menu Icon Image"
 msgstr "Carica Icona"
 
+#. Translators: Avada.
+#. Translators: Fusion White Label Branding.
+#. Translators: Fusion Builder.
+#. Translators: Fusion Slider.
+#: inc/options/avada.php:259 inc/options/avada.php:305
+#: inc/options/fusion-builder.php:149 inc/options/fusion-slider.php:78
+msgid "Dashicon Name for %s Menu Icon"
+msgstr "Nome Dashicon per l'icona del menu %s"
+
+#. translators: Fusion
+#: inc/options/avada.php:261
+msgid ""
+"Replaces the image icon and default icon for %1$s logo in admin menu. <a "
+"target=\"_blank\" href=\"%2$s\">Click Here</a> to see all dashicons."
+msgstr ""
+
+#. translators: Fusion White Label Branding
+#: inc/options/avada.php:307
+msgid ""
+"Replaces the image icon and default icon of the %1$s logo in admin menu.<br/"
+"> <a target=\"_blank\" href=\"%2$s\">Click Here</a> to see all dashicons."
+msgstr ""
+
 #. translators: Avada
 #. translators: Fusion Builder
-#: inc/options/avada.php:270 inc/options/fusion-builder.php:149
+#: inc/options/avada.php:316 inc/options/fusion-builder.php:160
 msgid "%s Welcome Screen"
 msgstr "%s Schermata di benvenuto"
 
 #. translators: Avada
-#. translators: Fusion Builder
-#: inc/options/avada.php:272 inc/options/fusion-builder.php:151
-msgid "Controls the content displayed on %s welcome screen"
-msgstr "Controlla il contenuto visualizzato sulla schermata di benvenuto di %s"
+#: inc/options/avada.php:318
+msgid "Controls the content visible on the %s welcome screen."
+msgstr ""
 
-#: inc/options/avada.php:276 inc/options/fusion-builder.php:155
+#: inc/options/avada.php:322 inc/options/fusion-builder.php:166
 msgid "Welcome screen title."
 msgstr "Titolo della schermata di benvenuto."
 
-#: inc/options/avada.php:279 inc/options/fusion-builder.php:158
+#: inc/options/avada.php:325 inc/options/fusion-builder.php:169
 msgid "Welcome screen about text."
 msgstr "Schermata di benvenuto sul testo."
 
-#: inc/options/avada.php:290 inc/options/fusion-builder.php:169
+#: inc/options/avada.php:336 inc/options/fusion-builder.php:180
 msgid "Welcome screen content."
 msgstr "Contenuto della schermata di benvenuto."
 
-#: inc/options/avada.php:297 inc/options/fusion-builder.php:176
+#: inc/options/avada.php:343 inc/options/fusion-builder.php:187
 #: inc/options/fusion-slider.php:152 inc/options/login-screen.php:177
-#: inc/options/wordpress-admin.php:302
+#: inc/options/wordpress-admin.php:304
 msgid "Save Settings"
 msgstr "Salva Impostazioni"
+
+#: inc/options/avada.php:344 inc/options/fusion-builder.php:188
+#: inc/options/fusion-slider.php:153 inc/options/login-screen.php:178
+#: inc/options/wordpress-admin.php:305
+msgid ""
+"Are you sure, you want to reset these settings?\\n\\nThis action can not be "
+"undone."
+msgstr ""
+
+#: inc/options/avada.php:344 inc/options/fusion-builder.php:188
+#: inc/options/fusion-slider.php:153 inc/options/login-screen.php:178
+#: inc/options/wordpress-admin.php:305
+msgid "Reset Section"
+msgstr ""
+
+#: inc/options/avada.php:345 inc/options/fusion-builder.php:189
+#: inc/options/fusion-slider.php:154 inc/options/login-screen.php:179
+#: inc/options/wordpress-admin.php:306
+msgid ""
+"Are you sure, you want to reset all settings?\\n\\nThis action can not be "
+"undone."
+msgstr ""
+
+#: inc/options/avada.php:345 inc/options/fusion-builder.php:189
+#: inc/options/fusion-slider.php:154 inc/options/login-screen.php:179
+#: inc/options/wordpress-admin.php:306
+msgid "Reset All"
+msgstr ""
+
+#: inc/options/fusion-builder.php:38 inc/options/fusion-slider.php:121
+msgid "Remove Sub-menus"
+msgstr "Rimuovi Sottomenu"
 
 #: inc/options/fusion-builder.php:48
 msgid "Add-ons"
@@ -611,14 +687,17 @@ msgstr ""
 "della casella: </ strong> 150 px di larghezza x 130 px di altezza."
 
 #. translators: Fusion Builder
+#: inc/options/fusion-builder.php:95
+msgid "Replaces the version number text beneath the logo on %s admin screens."
+msgstr ""
+
+#. translators: Fusion Builder
 #. translators: Fusion Slider
 #: inc/options/fusion-builder.php:124 inc/options/fusion-slider.php:53
 msgid ""
-"Controls the icon image of %s on admin menu. <strong>Recommended size:</"
-"strong> 20px wide x 20px high."
+"Controls the %s icon in the admin menu. <strong>Recommended size:</strong> "
+"20px wide x 20px high."
 msgstr ""
-"Controlla l'immagine dell'icona di %s nel menu di amministrazione. <strong> "
-"Dimensioni consigliate: </ strong> 20px wide x 20px high."
 
 #. translators: Fusion Builder
 #. translators: Fusion Slider
@@ -634,25 +713,27 @@ msgstr "Usa Icona"
 msgid "Upload Icon Image"
 msgstr "Carica Immagine Icona"
 
+#. translators: Fusion
+#: inc/options/fusion-builder.php:151 inc/options/fusion-slider.php:80
+msgid ""
+"Replaces the image icon and default icon of the %1$s logo in admin menu. <a "
+"target=\"_blank\" href=\"%2$s\">Click Here</a> to see all dashicons."
+msgstr ""
+
+#. translators: Fusion Builder
+#: inc/options/fusion-builder.php:162
+msgid "Controls the content visible on %s welcome screen."
+msgstr ""
+
+#. translators: Fusion Slider
+#: inc/options/fusion-slider.php:22
+msgid "These settings will change items in the %s admin pages."
+msgstr ""
+
 #. translators: Fusion Slider
 #: inc/options/fusion-slider.php:31 inc/options/fusion-slider.php:42
-msgid "Replaces all instances of \"%s\"."
-msgstr "Sostituisce tutte le istanze di \"%s\"."
-
-#. Translators: Fusion Slider.
-#: inc/options/fusion-slider.php:78
-msgid "Dashicon Name for %s Menu Icon"
-msgstr "Nome Dashicon per l'icona del menu %s"
-
-#. translators: Fusion
-#: inc/options/fusion-slider.php:80
-msgid ""
-"Replaces image icon and default icon for %1$s logo in admin menu. <a target="
-"\"_blank\" href=\"%2$s\">Click Here</a> to see all dashicons."
+msgid "Replaces all instances of the \"%s\"."
 msgstr ""
-"Sostituisce l'icona dell'immagine e l'icona predefinita per il logo %1$s nel "
-"menu di amministrazione. <a target=\"_blank\" href=\"%2$s\"> Fai clic qui </"
-"a> per vedere tutti i dashicons."
 
 #. translators: Fusion Slider
 #: inc/options/fusion-slider.php:91 inc/options/fusion-slider.php:102
@@ -677,10 +758,8 @@ msgid "WordPress Login Screen Branding Settings"
 msgstr "Impostazioni di branding dello schermo di login di WordPress"
 
 #: inc/options/login-screen.php:19
-msgid "These settings will change items in WordPress login area."
+msgid "These settings will change items in the WordPress login area."
 msgstr ""
-"Queste impostazioni cambieranno gli elementi nell'area di accesso di "
-"WordPress."
 
 #: inc/options/login-screen.php:25
 msgid "Background Color"
@@ -805,213 +884,296 @@ msgstr "Rimuovi il collegamento Password Dimenticata"
 msgid "Remove the lost password link from login page."
 msgstr "Rimuovi il collegamento della password persa dalla pagina di accesso."
 
-#: inc/options/wordpress-admin.php:18
+#: inc/options/wordpress-admin.php:19
 msgid "WordPress Admin Branding Settings"
 msgstr "Impostazioni Branding Amministrazione WordPress"
 
-#: inc/options/wordpress-admin.php:20
-msgid "These settings will change items in WordPress admin area."
+#: inc/options/wordpress-admin.php:21
+msgid "These settings will change items in the WordPress admin area."
 msgstr ""
-"Queste impostazioni cambieranno gli elementi nell'area amministrazione di "
-"WordPress."
 
-#: inc/options/wordpress-admin.php:26
+#: inc/options/wordpress-admin.php:27
 msgid "Remove WordPress Logo"
 msgstr "Rimuovi il logo WordPress"
 
-#: inc/options/wordpress-admin.php:27
-msgid "Remove the WordPress logo from admin bar."
-msgstr "Rimuovi il logo di WordPress dalla barra di amministrazione."
+#: inc/options/wordpress-admin.php:28
+msgid "Removes the WordPress logo from admin bar."
+msgstr ""
 
-#: inc/options/wordpress-admin.php:47
+#: inc/options/wordpress-admin.php:48
 msgid "Remove Screen Options"
 msgstr "Rimuovi le Opzioni Schermo"
 
-#: inc/options/wordpress-admin.php:48
+#: inc/options/wordpress-admin.php:49
 msgid "Removes the Screen Options tab."
 msgstr "Rimuove la scheda Opzioni schermo."
 
-#: inc/options/wordpress-admin.php:68
+#: inc/options/wordpress-admin.php:69
 msgid "Remove Help Tab"
 msgstr "Rimuovi la Scheda Guida"
 
-#: inc/options/wordpress-admin.php:69
+#: inc/options/wordpress-admin.php:70
 msgid "Removes the help tab."
 msgstr "Rimuove la scheda della guida."
 
-#: inc/options/wordpress-admin.php:89
+#: inc/options/wordpress-admin.php:90
 msgid "Hide Admin Menus"
 msgstr "Nascondi i Menu di Amministrazione"
 
-#: inc/options/wordpress-admin.php:90
+#: inc/options/wordpress-admin.php:91
 msgid "Removes the selected menus from admin menu."
 msgstr "Rimuove i menu selezionati dal menu di amministrazione."
 
-#: inc/options/wordpress-admin.php:96 inc/options/wordpress-admin.php:129
+#: inc/options/wordpress-admin.php:97 inc/options/wordpress-admin.php:130
 msgid "Posts"
 msgstr "Post"
 
-#: inc/options/wordpress-admin.php:97 inc/options/wordpress-admin.php:130
+#: inc/options/wordpress-admin.php:98 inc/options/wordpress-admin.php:131
 msgid "Media"
 msgstr "Media"
 
-#: inc/options/wordpress-admin.php:98 inc/options/wordpress-admin.php:131
+#: inc/options/wordpress-admin.php:99 inc/options/wordpress-admin.php:132
 msgid "Pages"
 msgstr "Pagine"
 
-#: inc/options/wordpress-admin.php:99 inc/options/wordpress-admin.php:132
+#: inc/options/wordpress-admin.php:100 inc/options/wordpress-admin.php:133
 msgid "Comments"
 msgstr "Commenti"
 
-#: inc/options/wordpress-admin.php:100 inc/options/wordpress-admin.php:133
+#: inc/options/wordpress-admin.php:101 inc/options/wordpress-admin.php:134
 msgid "Appearance"
 msgstr "Aspetto"
 
-#: inc/options/wordpress-admin.php:102 inc/options/wordpress-admin.php:135
+#: inc/options/wordpress-admin.php:103 inc/options/wordpress-admin.php:136
 msgid "Users"
 msgstr "Utenti"
 
-#: inc/options/wordpress-admin.php:103 inc/options/wordpress-admin.php:136
+#: inc/options/wordpress-admin.php:104 inc/options/wordpress-admin.php:137
 msgid "Tools"
 msgstr "Strumenti"
 
-#: inc/options/wordpress-admin.php:122
+#: inc/options/wordpress-admin.php:123
 msgid "Rename Admin Menus"
 msgstr "Rinomina i Menu di Amministrazione"
 
-#: inc/options/wordpress-admin.php:123
-msgid "Rename the admin menu labels."
-msgstr "Rinomina le etichette di menu amministrazione."
+#: inc/options/wordpress-admin.php:124
+msgid "Renames the admin menu labels."
+msgstr ""
 
-#: inc/options/wordpress-admin.php:156
+#: inc/options/wordpress-admin.php:157
 msgid "Admin Footer Text"
 msgstr "Testo Piè di pagina Amministrazione"
 
-#: inc/options/wordpress-admin.php:157
+#: inc/options/wordpress-admin.php:158
 msgid "Controls the text to be displayed in footer area of WordPress admin."
 msgstr ""
 "Controlla il testo da visualizzare nell'area di piè di pagina di "
 "amministrazione di WordPress."
 
-#: inc/options/wordpress-admin.php:161
+#: inc/options/wordpress-admin.php:162
 msgid "Controls the footer text on left."
 msgstr "Controlla il testo del piè di pagina a sinistra."
 
-#: inc/options/wordpress-admin.php:164
+#: inc/options/wordpress-admin.php:165
 msgid "Controls the version number text."
 msgstr "Controlla il testo del numero di versione."
 
-#: inc/options/wordpress-admin.php:168
+#: inc/options/wordpress-admin.php:169
 msgid "Dashboard Panels"
 msgstr "Pannelli della Dashboard"
 
-#: inc/options/wordpress-admin.php:169
-msgid ""
-"These settings will change related stuff on the WordPress Dashboard Page."
+#: inc/options/wordpress-admin.php:170
+msgid "These settings will change related items on the WordPress Dashboard."
 msgstr ""
-"Queste impostazioni cambieranno le cose correlate nella pagina Dashboard di "
-"WordPress."
 
-#: inc/options/wordpress-admin.php:173
+#: inc/options/wordpress-admin.php:174
 msgid "Hide Dashboard Widgets"
 msgstr "Nascondi Widget Dashboard"
 
-#: inc/options/wordpress-admin.php:174
-msgid "Hide dashboard widgets."
-msgstr "Nascondi widget dashboard."
+#: inc/options/wordpress-admin.php:175
+msgid "Hides the selected widgets from the dashboard."
+msgstr ""
 
-#: inc/options/wordpress-admin.php:179
+#: inc/options/wordpress-admin.php:180
 msgid "Quick Draft"
 msgstr "Bozza Rapida"
 
-#: inc/options/wordpress-admin.php:180
+#: inc/options/wordpress-admin.php:181
 msgid "Recent Comments"
 msgstr "Commenti Recenti"
 
-#: inc/options/wordpress-admin.php:181
+#: inc/options/wordpress-admin.php:182
 msgid "At a Glance"
 msgstr "A Prima Vista"
 
-#: inc/options/wordpress-admin.php:182
+#: inc/options/wordpress-admin.php:183
 msgid "Activity"
 msgstr "Attività"
 
-#: inc/options/wordpress-admin.php:183
+#: inc/options/wordpress-admin.php:184
 msgid "WordPress Events and News"
 msgstr "News ed Eventi di WordPress"
 
-#: inc/options/wordpress-admin.php:184
+#: inc/options/wordpress-admin.php:185
 msgid "ThemeFusion News"
 msgstr "Novità ThemeFusion"
 
-#: inc/options/wordpress-admin.php:202
+#: inc/options/wordpress-admin.php:186
+msgid "Gutenberg Panel"
+msgstr ""
+
+#: inc/options/wordpress-admin.php:204
 msgid "Custom Welcome Panel"
 msgstr "Pannello di Benvenuto Personalizzato"
 
-#: inc/options/wordpress-admin.php:203
+#: inc/options/wordpress-admin.php:205
 msgid ""
-"Add a custom welcome panel on the dashboard. HTML markup along with core WP "
-"classes can be used to customize the layout further."
+"This option adds a custom welcome panel to the dashboard. HTML markup along "
+"with core WP classes can be used to customize the layout further."
 msgstr ""
-"Aggiungi un pannello di benvenuto personalizzato nella dashboard. È "
-"possibile utilizzare il markup HTML insieme alle classi WP principali per "
-"personalizzare ulteriormente il layout."
 
-#: inc/options/wordpress-admin.php:207
+#: inc/options/wordpress-admin.php:209
 msgid "Custom welcome panel title."
 msgstr "Titolo del pannello di benvenuto personalizzato."
 
-#: inc/options/wordpress-admin.php:218
+#: inc/options/wordpress-admin.php:220
 msgid "Custom welcome panel content."
 msgstr "Contenuto del pannello di benvenuto personalizzato."
 
-#: inc/options/wordpress-admin.php:222
+#: inc/options/wordpress-admin.php:224
 msgid "Visibility Settings"
 msgstr "Impostazioni di Visibilità"
 
-#: inc/options/wordpress-admin.php:223
-msgid ""
-"These settings allow you to control which user roles are allowed to see and "
-"use these options."
+#: inc/options/wordpress-admin.php:225
+msgid "Control which options certain user roles are can view and access."
 msgstr ""
-"Queste impostazioni consentono di controllare quali ruoli utente sono "
-"autorizzati a vedere e utilizzare queste opzioni."
 
-#: inc/options/wordpress-admin.php:227
+#: inc/options/wordpress-admin.php:229
 msgid "User Role Visibility"
 msgstr "Visibilità Ruolo Utente"
 
-#: inc/options/wordpress-admin.php:228
-msgid ""
-"Select which user roles will have capability to see the white label options."
+#: inc/options/wordpress-admin.php:230
+msgid "Grant access to the white label options for selected user roles."
 msgstr ""
-"Seleziona quali ruoli utente avranno la possibilità di vedere le opzioni "
-"dell'etichetta bianca."
 
-#: inc/options/wordpress-admin.php:256
+#: inc/options/wordpress-admin.php:258
 msgid "Custom CSS for Admin Pages"
 msgstr "CSS personalizzato per pagine di Amministrazione"
 
-#: inc/options/wordpress-admin.php:257
-msgid "Applies the custom CSS on all admin pages for better styling."
+#: inc/options/wordpress-admin.php:259
+msgid "Add your own custom CSS to style admin pages."
 msgstr ""
-"Applica il CSS personalizzato su tutte le pagine di amministrazione per uno "
-"stile migliore."
 
-#: inc/options/wordpress-admin.php:279
+#: inc/options/wordpress-admin.php:281
 msgid "Apply Changes to Administrators"
 msgstr "Applica modifiche agli Amministratori"
 
-#: inc/options/wordpress-admin.php:280
+#: inc/options/wordpress-admin.php:282
 msgid ""
-"Controls whether to apply branding changes for adminstrator user role or not."
+"Controls whether branding changes should be applied to the adminstrator user "
+"role."
 msgstr ""
-"Controlla se applicare le modifiche al branding per il ruolo utente "
-"amministratore o meno."
+
+#. translators: The product name and its version.
+#: inc/patcher/class-fusion-patcher-admin-screen.php:292
+msgid ""
+"Fusion Patcher: Currently there are no patches available for %1$s version "
+"%2$s"
+msgstr ""
+
+#. translators: The product name and its version.
+#: inc/patcher/class-fusion-patcher-admin-screen.php:295
+msgid ""
+"Fusion Patcher: The following patches are available for %1$s version %2$s"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:297
+msgid "Learn More"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:301
+msgid ""
+"The status column displays if a patch was applied. However, a patch can be "
+"reapplied if necessary."
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:317
+msgid "Patch #"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:320
+msgid "Product"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:322
+msgid "Issue Date"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:325
+msgid "Description"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:326
+msgid "Status"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:406
+msgid "Patch Applied"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:408
+msgid "Apply Patch"
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:412
+msgid "Dismiss Notices"
+msgstr ""
+
+#. translators: The patch-ID.
+#: inc/patcher/class-fusion-patcher-admin-screen.php:420
+msgid "Please apply patch #%s first."
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-admin-screen.php:422
+msgid "Patch cannot be currently aplied."
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-client.php:106
+msgid ""
+"The ThemeFusion patches server could not be reached. Please contact your "
+"host to unblock the \"https://updates.theme-fusion.com/\" domain."
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-filesystem.php:106
+msgid ""
+"The Avada patch contents cannot be retrieved. Please contact your host to "
+"unblock the \"https://gist.github.com/\" domain."
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-filesystem.php:122
+msgid "Patch empty."
+msgstr ""
+
+#: inc/patcher/class-fusion-patcher-filesystem.php:158
+msgid "Invalid Patch target."
+msgstr ""
+
+#. translators: Links.
+#: inc/patcher/class-fusion-patcher-filesystem.php:186
+msgid ""
+"The patch could not be applied because of your specific server permissions. "
+"You have two options to remedy this. 1. <a %1$s>Download this zip file</a> "
+"which contains the files needed to fix this issue. Simply extract the zip "
+"file, and replace the files it contains with the same files on your server. "
+"DO NOT REPLACE THE ENTIRE FOLDER. 2. <a %2$s>Contact our support center</a>, "
+"submit a ticket and include your FTP credentials so one of our support "
+"experts can apply the fix for you. Once the fix is applied, click the "
+"\"Dismiss Notices\" button so this message is removed."
+msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://www.theme-fusion.com"
-msgstr "http://www.theme-fusion.com"
+msgid "https://theme-fusion.com"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid "White Label Branding plugin for ThemeFusion Products."
@@ -1020,3 +1182,181 @@ msgstr "White Label Branding plugin per prodotti ThemeFusion."
 #. Author of the plugin/theme
 msgid "ThemeFusion"
 msgstr "Theme Fusion"
+
+#~ msgid ""
+#~ "These are general Frequently Asked Questions to help you get started. For "
+#~ "detailed documentation please <a href=\"%1$s\" target=\"_blank\">click "
+#~ "here</a> or of you require support please visit our <a href=\"%2$s\" "
+#~ "target=\"_blank\">online support center</a>."
+#~ msgstr ""
+#~ "Queste sono domande frequenti di carattere generale per aiutarti a "
+#~ "iniziare. Per una documentazione dettagliata, ti preghiamo di <a href="
+#~ "\"%1$s\" target=\"_blank\"> fare clic qui </a> oppure se hai bisogno di "
+#~ "assistenza visita il nostro <a href=\"%2$s\" target=\"_blank\"> centro di "
+#~ "supporto online </a>."
+
+#~ msgid ""
+#~ "Fusion White Label Branding is an add-on for %1$s that allows you to "
+#~ "alter the default %1$s branding, WordPress menus, user access, %2$s "
+#~ "settings and the default WordPress log in screen, to make it your own."
+#~ msgstr ""
+#~ "Fusion White Label Branding è un componente aggiuntivo per %1$s che ti "
+#~ "consente di modificare il marchio predefinito %1$s, i menu di WordPress, "
+#~ "l'accesso utente, le impostazioni di %2$s e lo schermo di accesso "
+#~ "WordPress predefinito, per renderlo personale."
+
+#~ msgid ""
+#~ "Fusion White Label Branding is an add-on that is purpose built for the "
+#~ "%1$s WordPress theme, version 5.4 and newer. For detailed documentation "
+#~ "please <a href=\"%2$s\" target=\"%3$s\">click here</a> or of you require "
+#~ "support please visit our online support center."
+#~ msgstr ""
+#~ "Fusion White Label Branding è un componente aggiuntivo creato "
+#~ "appositamente per il tema WordPress %1$s, versione 5.4 e successive. Per "
+#~ "una documentazione dettagliata, ti preghiamo di <a href=\"%2$s\" target="
+#~ "\"%3$s\"> fare clic qui </a> o se hai bisogno di assistenza visita il "
+#~ "nostro centro di supporto online."
+
+#~ msgid ""
+#~ "Unfortunately that is not possible. The Fusion White Label Branding add-"
+#~ "on is purpose built for the %s WordPress theme only."
+#~ msgstr ""
+#~ "Sfortunatamente non è possibile. Il componente aggiuntivo Fusion White "
+#~ "Label Branding è creato appositamente per il tema WordPress %s."
+
+#~ msgid ""
+#~ "Fusion White Label Branding is bundled with %1$s and is therefore covered "
+#~ "by the 6 months of free support for every theme license you purchase. "
+#~ "Theme support can be <a %2$s>extended through subscriptions</a> via "
+#~ "ThemeForest. All support for Fusion White Label Branding is handled via "
+#~ "the the support center on our company site. To access it, you must first "
+#~ "setup an account by <a %3$s>following these steps</a>. If you purchased "
+#~ "using Envato's guest checkout please view this link to create an Envato "
+#~ "account before receiving item support. Below are all the resources we "
+#~ "offer in our support center and community."
+#~ msgstr ""
+#~ "Fusion White Label Branding è in bundle con %1$s ed è quindi coperto dai "
+#~ "6 mesi di supporto gratuito per ogni licenza di tema acquistata. Il "
+#~ "supporto per i temi può essere <a %2$s> esteso tramite gli abbonamenti</"
+#~ "a> tramite ThemeForest. Tutto il supporto per Fusion White Label Branding "
+#~ "viene gestito tramite il centro di supporto sul sito della nostra "
+#~ "azienda. Per accedervi, devi prima configurare un account <a %3$s> "
+#~ "seguendo questi passaggi</a>. Se l'acquisto è stato effettuato come "
+#~ "ospite di Envato, si prega di visualizzare questo link per creare un "
+#~ "account Envato prima di ricevere l'assistenza per i prodotti. Di seguito "
+#~ "sono elencate tutte le risorse che offriamo nel nostro centro di supporto "
+#~ "e comunità."
+
+#~ msgid "Replaces all instances of \"%s\""
+#~ msgstr "Sostituisce tutte le istanze di \"%s\""
+
+#~ msgid "Remove the %s menu item from admin bar on frontend."
+#~ msgstr ""
+#~ "Rimuovi la voce di menu %s dalla barra di amministrazione sul frontend."
+
+#~ msgid "Rename the admin menu labels for %s post types."
+#~ msgstr ""
+#~ "Rinominare le etichette del menu di amministrazione per i tipi di post di "
+#~ "%s."
+
+#~ msgid ""
+#~ "Controls the logo image on %s admin pages and replaces ThemeFusion logo. "
+#~ "<br/><strong>Full size of the box:</strong> 150px wide x 130px high."
+#~ msgstr ""
+#~ "Controlla l'immagine del logo su %s pagine di amministrazione e "
+#~ "sostituisce il logo ThemeFusion. <br/> <strong> Dimensioni della scatola: "
+#~ "</ strong> 150 px di larghezza x 130 px di altezza."
+
+#~ msgid "Replaces text in version number box under logo on %s admin screens."
+#~ msgstr ""
+#~ "Sostituisce il testo nella casella del numero di versione sotto il logo "
+#~ "nelle schermate di %s admin."
+
+#~ msgid ""
+#~ "Controls the menu icon image on %s admin menu and replaces ThemeFusion "
+#~ "logo. <br/><strong>Recommended size:</strong> 20px wide x 20px high."
+#~ msgstr ""
+#~ "Controlla l'immagine dell'icona del menu sul menu di amministrazione %s e "
+#~ "sostituisce il logo ThemeFusion. <br/> <strong> Dimensioni consigliate: "
+#~ "</ strong> 20px wide x 20px high."
+
+#~ msgid "Controls the content displayed on %s welcome screen"
+#~ msgstr ""
+#~ "Controlla il contenuto visualizzato sulla schermata di benvenuto di %s"
+
+#~ msgid ""
+#~ "Controls the icon image of %s on admin menu. <strong>Recommended size:</"
+#~ "strong> 20px wide x 20px high."
+#~ msgstr ""
+#~ "Controlla l'immagine dell'icona di %s nel menu di amministrazione. "
+#~ "<strong> Dimensioni consigliate: </ strong> 20px wide x 20px high."
+
+#~ msgid ""
+#~ "Replaces image icon and default icon for %1$s logo in admin menu. <a "
+#~ "target=\"_blank\" href=\"%2$s\">Click Here</a> to see all dashicons."
+#~ msgstr ""
+#~ "Sostituisce l'icona dell'immagine e l'icona predefinita per il logo %1$s "
+#~ "nel menu di amministrazione. <a target=\"_blank\" href=\"%2$s\"> Fai clic "
+#~ "qui </a> per vedere tutti i dashicons."
+
+#~ msgid "These settings will change items in WordPress login area."
+#~ msgstr ""
+#~ "Queste impostazioni cambieranno gli elementi nell'area di accesso di "
+#~ "WordPress."
+
+#~ msgid "These settings will change items in WordPress admin area."
+#~ msgstr ""
+#~ "Queste impostazioni cambieranno gli elementi nell'area amministrazione di "
+#~ "WordPress."
+
+#~ msgid "Remove the WordPress logo from admin bar."
+#~ msgstr "Rimuovi il logo di WordPress dalla barra di amministrazione."
+
+#~ msgid "Rename the admin menu labels."
+#~ msgstr "Rinomina le etichette di menu amministrazione."
+
+#~ msgid ""
+#~ "These settings will change related stuff on the WordPress Dashboard Page."
+#~ msgstr ""
+#~ "Queste impostazioni cambieranno le cose correlate nella pagina Dashboard "
+#~ "di WordPress."
+
+#~ msgid "Hide dashboard widgets."
+#~ msgstr "Nascondi widget dashboard."
+
+#~ msgid ""
+#~ "Add a custom welcome panel on the dashboard. HTML markup along with core "
+#~ "WP classes can be used to customize the layout further."
+#~ msgstr ""
+#~ "Aggiungi un pannello di benvenuto personalizzato nella dashboard. È "
+#~ "possibile utilizzare il markup HTML insieme alle classi WP principali per "
+#~ "personalizzare ulteriormente il layout."
+
+#~ msgid ""
+#~ "These settings allow you to control which user roles are allowed to see "
+#~ "and use these options."
+#~ msgstr ""
+#~ "Queste impostazioni consentono di controllare quali ruoli utente sono "
+#~ "autorizzati a vedere e utilizzare queste opzioni."
+
+#~ msgid ""
+#~ "Select which user roles will have capability to see the white label "
+#~ "options."
+#~ msgstr ""
+#~ "Seleziona quali ruoli utente avranno la possibilità di vedere le opzioni "
+#~ "dell'etichetta bianca."
+
+#~ msgid "Applies the custom CSS on all admin pages for better styling."
+#~ msgstr ""
+#~ "Applica il CSS personalizzato su tutte le pagine di amministrazione per "
+#~ "uno stile migliore."
+
+#~ msgid ""
+#~ "Controls whether to apply branding changes for adminstrator user role or "
+#~ "not."
+#~ msgstr ""
+#~ "Controlla se applicare le modifiche al branding per il ruolo utente "
+#~ "amministratore o meno."
+
+#~ msgid "http://www.theme-fusion.com"
+#~ msgstr "http://www.theme-fusion.com"
