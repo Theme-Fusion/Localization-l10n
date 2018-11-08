@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2018-10-17 14:37:03+00:00\n"
+"POT-Creation-Date: 2018-11-08 09:52:18+00:00\n"
 "PO-Revision-Date: 2018-02-01 23:47-0500\n"
 "Last-Translator: Robin Lavoie. Québec libre! <robinlavoie@icloud.com>\n"
 "Language-Team: French\n"
@@ -1721,6 +1721,22 @@ msgstr "Le diaporama \"%s\" est introuvable"
 msgid "Learn How To Import Sliders"
 msgstr "Apprendre comment importer des diaporamas"
 
+#: includes/avada-functions.php:1314 includes/options/menu.php:50
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: includes/avada-functions.php:1329
+msgid "Main Menu Sticky"
+msgstr ""
+
+#: includes/avada-functions.php:1471
+msgid "Secondary Mobile Menu"
+msgstr ""
+
+#: includes/avada-functions.php:1474
+msgid "Secondary Menu"
+msgstr ""
+
 #: includes/avada-functions.php:1559 includes/avada-functions.php:1587
 #: includes/avada-functions.php:1593 includes/avada-functions.php:1610
 #: includes/metaboxes/tabs/tab_sliders.php:31
@@ -2486,7 +2502,7 @@ msgid "Select Elastic Slider"
 msgstr "Sélectionner Elastic Slider"
 
 #: includes/class-avada-admin.php:1577
-#: includes/lib/inc/class-fusion-images.php:880
+#: includes/lib/inc/class-fusion-images.php:887
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1900
 #: includes/metaboxes/tabs/tab_background.php:21
 #: includes/metaboxes/tabs/tab_background.php:67
@@ -2788,7 +2804,7 @@ msgstr ""
 #: includes/class-avada-eventscalendar.php:216
 #: includes/class-avada-eventscalendar.php:248
 #: includes/class-avada-eventscalendar.php:280
-#: includes/class-avada-woocommerce.php:1361
+#: includes/class-avada-woocommerce.php:1378
 msgid "NOTE"
 msgstr ""
 
@@ -2844,7 +2860,7 @@ msgstr ""
 #: includes/class-avada-layout-bbpress.php:222
 #: includes/class-avada-layout-bbpress.php:247
 #: includes/class-avada-layout-bbpress.php:269
-#: includes/class-avada-woocommerce.php:379 includes/lib/inc/functions.php:886
+#: includes/class-avada-woocommerce.php:396 includes/lib/inc/functions.php:886
 #: single-wpfc_sermon.php:22 single.php:21
 msgid "Previous"
 msgstr "Précédent"
@@ -2852,7 +2868,7 @@ msgstr "Précédent"
 #: includes/class-avada-layout-bbpress.php:223
 #: includes/class-avada-layout-bbpress.php:248
 #: includes/class-avada-layout-bbpress.php:270
-#: includes/class-avada-woocommerce.php:380 includes/lib/inc/functions.php:932
+#: includes/class-avada-woocommerce.php:397 includes/lib/inc/functions.php:932
 #: single-wpfc_sermon.php:23 single.php:22
 msgid "Next"
 msgstr "Suivant"
@@ -4030,25 +4046,25 @@ msgstr "Options du widget Avada"
 msgid "These options apply to the widget container, not the actual widget."
 msgstr "Ces options s’appliquent au conteneur de widget, pas au widget actuel."
 
-#: includes/class-avada-woocommerce.php:633
+#: includes/class-avada-woocommerce.php:650
 msgid "Dashboard"
 msgstr "Tableau de Bord"
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1175
+#: includes/class-avada-woocommerce.php:1192
 #, fuzzy
 msgid "You Have %d Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] "Vous avez %d article dans votre pannier"
 msgstr[1] "Vous avez %d article dans votre pannier"
 
-#: includes/class-avada-woocommerce.php:1301
-#: includes/class-avada-woocommerce.php:1319
+#: includes/class-avada-woocommerce.php:1318
+#: includes/class-avada-woocommerce.php:1336
 msgid "Continue"
 msgstr "Continuez"
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1363
+#: includes/class-avada-woocommerce.php:1380
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -4453,7 +4469,7 @@ msgstr "Archives annuelles: %s"
 msgid "Back to Parent Page"
 msgstr "Retourner à la page parent"
 
-#: includes/dynamic_css.php:5310
+#: includes/dynamic_css.php:5316
 msgid "Please enter correct details for this required field."
 msgstr "Merci de renseigner correctement ce champ obligatoire."
 
@@ -4651,27 +4667,27 @@ msgstr ""
 msgid "Dismiss Message"
 msgstr "Ignorer ce message"
 
-#: includes/lib/inc/class-fusion-images.php:877
+#: includes/lib/inc/class-fusion-images.php:884
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:881
+#: includes/lib/inc/class-fusion-images.php:888
 msgid "1x1"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:882
+#: includes/lib/inc/class-fusion-images.php:889
 msgid "Landscape"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:883
+#: includes/lib/inc/class-fusion-images.php:890
 msgid "Portrait"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:884
+#: includes/lib/inc/class-fusion-images.php:891
 msgid "2x2"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:886
+#: includes/lib/inc/class-fusion-images.php:893
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -10219,10 +10235,9 @@ msgstr "Zoom de carte avec roulette de défilement"
 #: includes/options/contact.php:397
 msgid ""
 "Turn on to use the mouse scrollwheel to zoom the google map. Use Cmd/Ctrl "
-"key + scroll to zoom."
+"key + scroll to zoom. If set to off, cooperative gesture handling will be "
+"enabled."
 msgstr ""
-"Activez pour utiliser la molette de défilement de la souris pour zoomer sur "
-"la carte google."
 
 #: includes/options/contact.php:416
 msgid "Map Scale"
@@ -12648,10 +12663,6 @@ msgstr " Pour faire correspondre la hauteur du logo à %s."
 #: includes/options/menu.php:44
 msgid "Menu"
 msgstr "Menu"
-
-#: includes/options/menu.php:50
-msgid "Main Menu"
-msgstr "Menu principal"
 
 #: includes/options/menu.php:57
 msgid "Main Menu Height"
@@ -16315,7 +16326,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-author.php:252
 #: includes/widget/class-fusion-widget-contact-info.php:152
-#: includes/widget/class-fusion-widget-facebook-page.php:199
+#: includes/widget/class-fusion-widget-facebook-page.php:204
 #: includes/widget/class-fusion-widget-flickr.php:173
 #: includes/widget/class-fusion-widget-recent-works.php:138
 #: includes/widget/class-fusion-widget-social-links.php:497
@@ -16447,11 +16458,11 @@ msgstr "Ajoute le support pour l’extension de la page Facebook."
 msgid "Avada: Facebook Page Plugin"
 msgstr ""
 
-#: includes/widget/class-fusion-widget-facebook-page.php:181
+#: includes/widget/class-fusion-widget-facebook-page.php:186
 msgid "Find us on Facebook"
 msgstr "Retrouvez-nous sur Facebook"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:196
+#: includes/widget/class-fusion-widget-facebook-page.php:201
 msgid ""
 "IMPORTANT: Please create a Facebook App and use its ID for features like "
 "sharing."
@@ -16459,43 +16470,43 @@ msgstr ""
 "IMPORTANT : veuillez créer une App Facebook et utilisez son identifiant pour "
 "les fonctionnalités telles que le partage."
 
-#: includes/widget/class-fusion-widget-facebook-page.php:196
+#: includes/widget/class-fusion-widget-facebook-page.php:201
 msgid "See Instructions."
 msgstr "Voir les instructions."
 
-#: includes/widget/class-fusion-widget-facebook-page.php:204
+#: includes/widget/class-fusion-widget-facebook-page.php:209
 msgid "Facebook Page URL:"
 msgstr "URL de la page Facebook :"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:209
+#: includes/widget/class-fusion-widget-facebook-page.php:214
 msgid "Facebook App ID:"
 msgstr "ID de Facebook App:"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:214
+#: includes/widget/class-fusion-widget-facebook-page.php:219
 msgid "Width (has to be between 180 and 500):"
 msgstr "Largeur (doit être comprise entre 180 et 500):"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:220
+#: includes/widget/class-fusion-widget-facebook-page.php:225
 msgid "Show Friends Faces"
 msgstr "Afficher les visages des amis"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:225
+#: includes/widget/class-fusion-widget-facebook-page.php:230
 msgid "Show Timeline Tab"
 msgstr "Afficher la chronologie"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:230
+#: includes/widget/class-fusion-widget-facebook-page.php:235
 msgid "Show Events Tab"
 msgstr "Afficher les événements"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:235
+#: includes/widget/class-fusion-widget-facebook-page.php:240
 msgid "Show Messages Tab"
 msgstr "Afficher l’onglet des messages"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:240
+#: includes/widget/class-fusion-widget-facebook-page.php:245
 msgid "Show Cover Photo"
 msgstr "Afficher l'image de couverture"
 
-#: includes/widget/class-fusion-widget-facebook-page.php:245
+#: includes/widget/class-fusion-widget-facebook-page.php:250
 msgid "Use Small Header"
 msgstr "Utiliser une petite en-tête"
 
@@ -16996,6 +17007,14 @@ msgstr "Rechercher une ressource"
 msgid "Toggle Menu"
 msgstr "Afficher/masquer le menu"
 
+#: templates/menu-mobile-main.php:33
+msgid "Main Menu Mobile"
+msgstr ""
+
+#: templates/menu-mobile-main.php:36
+msgid "Main Menu Mobile Sticky"
+msgstr ""
+
 #: templates/menu-mobile-modern.php:23
 msgid "Toggle mobile menu"
 msgstr "Afficher/masquer le menu en mode mobile"
@@ -17466,6 +17485,13 @@ msgstr "Accueil"
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
 msgstr "il y a %s"
+
+#~ msgid ""
+#~ "Turn on to use the mouse scrollwheel to zoom the google map. Use Cmd/Ctrl "
+#~ "key + scroll to zoom."
+#~ msgstr ""
+#~ "Activez pour utiliser la molette de défilement de la souris pour zoomer "
+#~ "sur la carte google."
 
 #~ msgid "Rich Snippets Publish Date"
 #~ msgstr "Date de publication des extraits riches"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2018-10-22 09:03:10+00:00\n"
+"POT-Creation-Date: 2018-11-08 09:55:20+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:06+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Serbian\n"
@@ -54,7 +54,7 @@ msgid "Edit With Default Editor"
 msgstr ""
 
 #: fusion-builder.php:1477 fusion-builder.php:1481
-#: inc/class-fusion-builder-gutenberg.php:80
+#: inc/class-fusion-builder-gutenberg.php:108
 msgid "Edit With Fusion Builder"
 msgstr ""
 
@@ -663,13 +663,32 @@ msgstr ""
 msgid "Add-on Elements"
 msgstr ""
 
+#: inc/class-fusion-builder-gutenberg.php:165
+msgid "Add New"
+msgstr ""
+
+#: inc/class-fusion-builder-gutenberg.php:165
+msgid "Toggle editor selection menu"
+msgstr ""
+
+#: inc/class-fusion-builder-gutenberg.php:165
+#: inc/class-fusion-builder-gutenberg.php:283
+msgid "Gutenberg Editor"
+msgstr ""
+
+#: inc/class-fusion-builder-gutenberg.php:165
+#: inc/class-fusion-builder-gutenberg.php:295
+msgid "Classic Editor"
+msgstr ""
+
 #. translators: %s: post title
-#: inc/class-fusion-builder-gutenberg.php:141
+#: inc/class-fusion-builder-gutenberg.php:279
 msgid "Edit &#8220;%s&#8221; in the Gutenberg editor"
 msgstr ""
 
-#: inc/class-fusion-builder-gutenberg.php:145
-msgid "Gutenberg Editor"
+#. translators: %s: post title
+#: inc/class-fusion-builder-gutenberg.php:291
+msgid "Edit &#8220;%s&#8221; in the Classic editor"
 msgstr ""
 
 #: inc/class-fusion-builder-library-table.php:42
@@ -887,8 +906,8 @@ msgstr ""
 #: shortcodes/fusion-flip-boxes.php:714 shortcodes/fusion-flip-boxes.php:726
 #: shortcodes/fusion-flip-boxes.php:1031 shortcodes/fusion-flip-boxes.php:1051
 #: shortcodes/fusion-fontawesome.php:340 shortcodes/fusion-fontawesome.php:352
-#: shortcodes/fusion-gallery.php:469 shortcodes/fusion-gallery.php:482
-#: shortcodes/fusion-gallery.php:677 shortcodes/fusion-gallery.php:702
+#: shortcodes/fusion-gallery.php:480 shortcodes/fusion-gallery.php:493
+#: shortcodes/fusion-gallery.php:688 shortcodes/fusion-gallery.php:713
 #: shortcodes/fusion-image-carousel.php:438 shortcodes/fusion-image.php:481
 #: shortcodes/fusion-image.php:628 shortcodes/fusion-image.php:678
 #: shortcodes/fusion-person.php:597 shortcodes/fusion-person.php:800
@@ -941,7 +960,7 @@ msgid "Zoom"
 msgstr ""
 
 #: inc/helpers.php:226 inc/helpers.php:266
-#: inc/lib/inc/class-fusion-images.php:880
+#: inc/lib/inc/class-fusion-images.php:887
 #: inc/lib/inc/redux/framework/FusionReduxCore/framework.php:1900
 #: shortcodes/fusion-alert.php:517 shortcodes/fusion-alert.php:530
 #: shortcodes/fusion-alert.php:542 shortcodes/fusion-alert.php:554
@@ -973,9 +992,9 @@ msgstr ""
 #: shortcodes/fusion-events.php:669 shortcodes/fusion-flip-boxes.php:971
 #: shortcodes/fusion-flip-boxes.php:1030 shortcodes/fusion-flip-boxes.php:1050
 #: shortcodes/fusion-flip-boxes.php:1071 shortcodes/fusion-flip-boxes.php:1182
-#: shortcodes/fusion-fontawesome.php:536 shortcodes/fusion-gallery.php:468
-#: shortcodes/fusion-gallery.php:580 shortcodes/fusion-gallery.php:592
-#: shortcodes/fusion-gallery.php:676 shortcodes/fusion-gallery.php:701
+#: shortcodes/fusion-fontawesome.php:536 shortcodes/fusion-gallery.php:479
+#: shortcodes/fusion-gallery.php:591 shortcodes/fusion-gallery.php:603
+#: shortcodes/fusion-gallery.php:687 shortcodes/fusion-gallery.php:712
 #: shortcodes/fusion-google-map.php:636
 #: shortcodes/fusion-image-before-after.php:775
 #: shortcodes/fusion-image-before-after.php:929
@@ -1641,7 +1660,7 @@ msgstr ""
 #: shortcodes/fusion-flip-boxes.php:687 shortcodes/fusion-flip-boxes.php:739
 #: shortcodes/fusion-flip-boxes.php:972 shortcodes/fusion-flip-boxes.php:1072
 #: shortcodes/fusion-fontawesome.php:365 shortcodes/fusion-fontawesome.php:390
-#: shortcodes/fusion-gallery.php:690 shortcodes/fusion-google-map.php:746
+#: shortcodes/fusion-gallery.php:701 shortcodes/fusion-google-map.php:746
 #: shortcodes/fusion-google-map.php:769 shortcodes/fusion-google-map.php:792
 #: shortcodes/fusion-google-map.php:815 shortcodes/fusion-google-map.php:838
 #: shortcodes/fusion-highlight.php:141 shortcodes/fusion-image-carousel.php:451
@@ -1728,7 +1747,7 @@ msgstr ""
 #: shortcodes/fusion-flip-boxes.php:688 shortcodes/fusion-flip-boxes.php:740
 #: shortcodes/fusion-flip-boxes.php:973 shortcodes/fusion-flip-boxes.php:1073
 #: shortcodes/fusion-fontawesome.php:366 shortcodes/fusion-fontawesome.php:391
-#: shortcodes/fusion-gallery.php:691 shortcodes/fusion-google-map.php:747
+#: shortcodes/fusion-gallery.php:702 shortcodes/fusion-google-map.php:747
 #: shortcodes/fusion-google-map.php:770 shortcodes/fusion-google-map.php:793
 #: shortcodes/fusion-google-map.php:816 shortcodes/fusion-google-map.php:839
 #: shortcodes/fusion-highlight.php:140 shortcodes/fusion-image-carousel.php:452
@@ -1897,6 +1916,7 @@ msgstr ""
 #: shortcodes/fusion-syntax-highlighter.php:420
 #: shortcodes/fusion-syntax-highlighter.php:691 shortcodes/fusion-tabs.php:773
 #: shortcodes/fusion-tagline.php:455 shortcodes/fusion-testimonials.php:682
+#: shortcodes/fusion-widget-area.php:269
 msgid "Background Color"
 msgstr ""
 
@@ -2410,7 +2430,7 @@ msgstr ""
 
 #: inc/lib/inc/class-fusion-fusionredux.php:501
 #: shortcodes/fusion-column-inner.php:612 shortcodes/fusion-flip-boxes.php:913
-#: shortcodes/fusion-gallery.php:719 shortcodes/fusion-image.php:688
+#: shortcodes/fusion-gallery.php:730 shortcodes/fusion-image.php:688
 #: shortcodes/fusion-person.php:860 shortcodes/fusion-progress.php:435
 #: shortcodes/fusion-section-separator.php:672
 #: shortcodes/fusion-tagline.php:493
@@ -2468,27 +2488,27 @@ msgstr ""
 msgid "Dismiss Message"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:877
+#: inc/lib/inc/class-fusion-images.php:884
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:881
+#: inc/lib/inc/class-fusion-images.php:888
 msgid "1x1"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:882
+#: inc/lib/inc/class-fusion-images.php:889
 msgid "Landscape"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:883
+#: inc/lib/inc/class-fusion-images.php:890
 msgid "Portrait"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:884
+#: inc/lib/inc/class-fusion-images.php:891
 msgid "2x2"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:886
+#: inc/lib/inc/class-fusion-images.php:893
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -4939,7 +4959,7 @@ msgstr ""
 msgid "Sanitized value and saved as %1$s instead of %2$s."
 msgstr ""
 
-#: inc/lib/inc/templates/rollover.php:150 shortcodes/fusion-gallery.php:559
+#: inc/lib/inc/templates/rollover.php:150 shortcodes/fusion-gallery.php:570
 msgid "Gallery"
 msgstr ""
 
@@ -5170,24 +5190,24 @@ msgid "Controls the hover type for event featured images."
 msgstr ""
 
 #: inc/options/globals.php:63 shortcodes/fusion-column-inner.php:498
-#: shortcodes/fusion-column.php:956 shortcodes/fusion-gallery.php:470
-#: shortcodes/fusion-gallery.php:678 shortcodes/fusion-image-carousel.php:439
+#: shortcodes/fusion-column.php:956 shortcodes/fusion-gallery.php:481
+#: shortcodes/fusion-gallery.php:689 shortcodes/fusion-image-carousel.php:439
 #: shortcodes/fusion-image.php:679 shortcodes/fusion-person.php:916
 #: shortcodes/fusion-recent-posts.php:694 shortcodes/fusion-slider.php:363
 msgid "Zoom In"
 msgstr ""
 
 #: inc/options/globals.php:64 shortcodes/fusion-column-inner.php:499
-#: shortcodes/fusion-column.php:957 shortcodes/fusion-gallery.php:471
-#: shortcodes/fusion-gallery.php:679 shortcodes/fusion-image-carousel.php:440
+#: shortcodes/fusion-column.php:957 shortcodes/fusion-gallery.php:482
+#: shortcodes/fusion-gallery.php:690 shortcodes/fusion-image-carousel.php:440
 #: shortcodes/fusion-image.php:680 shortcodes/fusion-person.php:917
 #: shortcodes/fusion-recent-posts.php:695 shortcodes/fusion-slider.php:364
 msgid "Zoom Out"
 msgstr ""
 
 #: inc/options/globals.php:65 shortcodes/fusion-column-inner.php:500
-#: shortcodes/fusion-column.php:958 shortcodes/fusion-gallery.php:472
-#: shortcodes/fusion-gallery.php:680 shortcodes/fusion-image-carousel.php:441
+#: shortcodes/fusion-column.php:958 shortcodes/fusion-gallery.php:483
+#: shortcodes/fusion-gallery.php:691 shortcodes/fusion-image-carousel.php:441
 #: shortcodes/fusion-image.php:681 shortcodes/fusion-person.php:918
 #: shortcodes/fusion-recent-posts.php:696 shortcodes/fusion-slider.php:365
 msgid "Lift Up"
@@ -6183,8 +6203,8 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:625
 #: shortcodes/fusion-counters-box.php:633
 #: shortcodes/fusion-counters-circle.php:352
-#: shortcodes/fusion-counters-circle.php:360 shortcodes/fusion-gallery.php:770
-#: shortcodes/fusion-gallery.php:778 shortcodes/fusion-google-map.php:1089
+#: shortcodes/fusion-counters-circle.php:360 shortcodes/fusion-gallery.php:781
+#: shortcodes/fusion-gallery.php:789 shortcodes/fusion-google-map.php:1089
 #: shortcodes/fusion-google-map.php:1097
 #: shortcodes/fusion-image-carousel.php:541
 #: shortcodes/fusion-image-carousel.php:549 shortcodes/fusion-image.php:913
@@ -6417,7 +6437,7 @@ msgstr ""
 #: shortcodes/fusion-countdown.php:745 shortcodes/fusion-counters-box.php:613
 #: shortcodes/fusion-counters-circle.php:340 shortcodes/fusion-events.php:696
 #: shortcodes/fusion-flip-boxes.php:789 shortcodes/fusion-fontawesome.php:452
-#: shortcodes/fusion-gallery.php:758 shortcodes/fusion-google-map.php:1077
+#: shortcodes/fusion-gallery.php:769 shortcodes/fusion-google-map.php:1077
 #: shortcodes/fusion-image-before-after.php:1172
 #: shortcodes/fusion-image-carousel.php:529 shortcodes/fusion-image.php:901
 #: shortcodes/fusion-person.php:1286 shortcodes/fusion-post-slider.php:572
@@ -6446,7 +6466,7 @@ msgstr ""
 #: shortcodes/fusion-countdown.php:749 shortcodes/fusion-counters-box.php:614
 #: shortcodes/fusion-counters-circle.php:344 shortcodes/fusion-events.php:700
 #: shortcodes/fusion-flip-boxes.php:793 shortcodes/fusion-fontawesome.php:456
-#: shortcodes/fusion-gallery.php:762 shortcodes/fusion-google-map.php:1081
+#: shortcodes/fusion-gallery.php:773 shortcodes/fusion-google-map.php:1081
 #: shortcodes/fusion-image-before-after.php:1176
 #: shortcodes/fusion-image-carousel.php:533 shortcodes/fusion-image.php:905
 #: shortcodes/fusion-person.php:1290 shortcodes/fusion-post-slider.php:576
@@ -6479,7 +6499,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:621
 #: shortcodes/fusion-counters-circle.php:348 shortcodes/fusion-dropcap.php:219
 #: shortcodes/fusion-events.php:704 shortcodes/fusion-flip-boxes.php:797
-#: shortcodes/fusion-fontawesome.php:460 shortcodes/fusion-gallery.php:766
+#: shortcodes/fusion-fontawesome.php:460 shortcodes/fusion-gallery.php:777
 #: shortcodes/fusion-google-map.php:1085 shortcodes/fusion-highlight.php:154
 #: shortcodes/fusion-image-before-after.php:1180
 #: shortcodes/fusion-image-carousel.php:537 shortcodes/fusion-image.php:909
@@ -6514,7 +6534,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:622
 #: shortcodes/fusion-counters-circle.php:349 shortcodes/fusion-dropcap.php:222
 #: shortcodes/fusion-events.php:705 shortcodes/fusion-flip-boxes.php:798
-#: shortcodes/fusion-fontawesome.php:463 shortcodes/fusion-gallery.php:767
+#: shortcodes/fusion-fontawesome.php:463 shortcodes/fusion-gallery.php:778
 #: shortcodes/fusion-google-map.php:1086 shortcodes/fusion-highlight.php:157
 #: shortcodes/fusion-image-before-after.php:1183
 #: shortcodes/fusion-image-carousel.php:538 shortcodes/fusion-image.php:910
@@ -6549,7 +6569,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:629
 #: shortcodes/fusion-counters-circle.php:356 shortcodes/fusion-dropcap.php:226
 #: shortcodes/fusion-events.php:711 shortcodes/fusion-flip-boxes.php:804
-#: shortcodes/fusion-fontawesome.php:467 shortcodes/fusion-gallery.php:774
+#: shortcodes/fusion-fontawesome.php:467 shortcodes/fusion-gallery.php:785
 #: shortcodes/fusion-google-map.php:1093 shortcodes/fusion-highlight.php:161
 #: shortcodes/fusion-image-before-after.php:1187
 #: shortcodes/fusion-image-carousel.php:545 shortcodes/fusion-image.php:917
@@ -6584,7 +6604,7 @@ msgstr ""
 #: shortcodes/fusion-counters-box.php:630
 #: shortcodes/fusion-counters-circle.php:357 shortcodes/fusion-dropcap.php:229
 #: shortcodes/fusion-events.php:712 shortcodes/fusion-flip-boxes.php:805
-#: shortcodes/fusion-fontawesome.php:470 shortcodes/fusion-gallery.php:775
+#: shortcodes/fusion-fontawesome.php:470 shortcodes/fusion-gallery.php:786
 #: shortcodes/fusion-google-map.php:1094 shortcodes/fusion-highlight.php:164
 #: shortcodes/fusion-image-before-after.php:1190
 #: shortcodes/fusion-image-carousel.php:546 shortcodes/fusion-image.php:918
@@ -6634,7 +6654,7 @@ msgstr ""
 #: shortcodes/fusion-blog.php:1840 shortcodes/fusion-blog.php:2054
 #: shortcodes/fusion-content-boxes.php:1788
 #: shortcodes/fusion-counters-box.php:526 shortcodes/fusion-flip-boxes.php:658
-#: shortcodes/fusion-gallery.php:442 shortcodes/fusion-gallery.php:607
+#: shortcodes/fusion-gallery.php:453 shortcodes/fusion-gallery.php:618
 #: shortcodes/fusion-recent-posts.php:702 shortcodes/fusion-table.php:164
 msgid "Number of Columns"
 msgstr ""
@@ -6648,7 +6668,7 @@ msgstr ""
 #: shortcodes/fusion-blog.php:1852 shortcodes/fusion-blog.php:2092
 #: shortcodes/fusion-column-inner.php:472 shortcodes/fusion-column.php:805
 #: shortcodes/fusion-events.php:412 shortcodes/fusion-events.php:600
-#: shortcodes/fusion-gallery.php:451 shortcodes/fusion-gallery.php:618
+#: shortcodes/fusion-gallery.php:462 shortcodes/fusion-gallery.php:629
 #: shortcodes/fusion-image-carousel.php:468 shortcodes/fusion-text.php:178
 #: shortcodes/fusion-text.php:311
 #: shortcodes/fusion-woo-featured-products-slider.php:373
@@ -6748,8 +6768,8 @@ msgstr ""
 msgid "Medium Alternate"
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2047 shortcodes/fusion-gallery.php:435
-#: shortcodes/fusion-gallery.php:581
+#: shortcodes/fusion-blog.php:2047 shortcodes/fusion-gallery.php:446
+#: shortcodes/fusion-gallery.php:592
 msgid "Grid"
 msgstr ""
 
@@ -6757,13 +6777,13 @@ msgstr ""
 msgid "Timeline"
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2049 shortcodes/fusion-gallery.php:436
-#: shortcodes/fusion-gallery.php:582
+#: shortcodes/fusion-blog.php:2049 shortcodes/fusion-gallery.php:447
+#: shortcodes/fusion-gallery.php:593
 msgid "Masonry"
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2055 shortcodes/fusion-gallery.php:443
-#: shortcodes/fusion-gallery.php:608
+#: shortcodes/fusion-blog.php:2055 shortcodes/fusion-gallery.php:454
+#: shortcodes/fusion-gallery.php:619
 msgid ""
 "Set the number of columns per row. <strong>IMPORTANT:</strong> Masonry "
 "layout does not work with 1 column."
@@ -6773,11 +6793,11 @@ msgstr ""
 msgid "Controls the column spacing for blog posts."
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2135 shortcodes/fusion-gallery.php:636
+#: shortcodes/fusion-blog.php:2135 shortcodes/fusion-gallery.php:647
 msgid "Masonry Image Aspect Ratio"
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2136 shortcodes/fusion-gallery.php:637
+#: shortcodes/fusion-blog.php:2136 shortcodes/fusion-gallery.php:648
 msgid ""
 "Set the ratio to decide when an image should become landscape (ratio being "
 "width : height) and portrait (ratio being height : width). <strong>IMPORTANT:"
@@ -6785,11 +6805,11 @@ msgid ""
 "auto calculated ratios like in versions prior to Avada 5.5."
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2153 shortcodes/fusion-gallery.php:654
+#: shortcodes/fusion-blog.php:2153 shortcodes/fusion-gallery.php:665
 msgid "Masonry 2x2 Width"
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2154 shortcodes/fusion-gallery.php:655
+#: shortcodes/fusion-blog.php:2154 shortcodes/fusion-gallery.php:666
 msgid ""
 "This option decides when a square 1x1 image should become 2x2. This will not "
 "apply to images that highly favor landscape or portrait layouts. "
@@ -7831,7 +7851,7 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:492 shortcodes/fusion-column.php:950
-#: shortcodes/fusion-gallery.php:464 shortcodes/fusion-gallery.php:672
+#: shortcodes/fusion-gallery.php:475 shortcodes/fusion-gallery.php:683
 #: shortcodes/fusion-image-carousel.php:434 shortcodes/fusion-image.php:674
 #: shortcodes/fusion-person.php:911 shortcodes/fusion-recent-posts.php:689
 #: shortcodes/fusion-slider.php:358
@@ -9875,8 +9895,8 @@ msgid ""
 "default 4% column spacing."
 msgstr ""
 
-#: shortcodes/fusion-events.php:611 shortcodes/fusion-gallery.php:420
-#: shortcodes/fusion-gallery.php:588 shortcodes/fusion-image-carousel.php:423
+#: shortcodes/fusion-events.php:611 shortcodes/fusion-gallery.php:431
+#: shortcodes/fusion-gallery.php:599 shortcodes/fusion-image-carousel.php:423
 #: shortcodes/fusion-woo-featured-products-slider.php:330
 #: shortcodes/fusion-woo-product-slider.php:362
 msgid "Picture Size"
@@ -9892,8 +9912,8 @@ msgstr ""
 msgid "Cover"
 msgstr ""
 
-#: shortcodes/fusion-events.php:616 shortcodes/fusion-gallery.php:425
-#: shortcodes/fusion-gallery.php:594 shortcodes/fusion-image-carousel.php:428
+#: shortcodes/fusion-events.php:616 shortcodes/fusion-gallery.php:436
+#: shortcodes/fusion-gallery.php:605 shortcodes/fusion-image-carousel.php:428
 #: shortcodes/fusion-woo-featured-products-slider.php:335
 #: shortcodes/fusion-woo-product-slider.php:367
 msgid "Auto"
@@ -10186,121 +10206,121 @@ msgstr ""
 msgid "Select the icon's alignment."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:414
+#: shortcodes/fusion-gallery.php:425
 msgid "Gallery Element"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:421
+#: shortcodes/fusion-gallery.php:432
 msgid ""
 "Fixed = width and height will be fixed<br/>Auto = width and height will "
 "adjust to the image."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:424 shortcodes/fusion-gallery.php:593
+#: shortcodes/fusion-gallery.php:435 shortcodes/fusion-gallery.php:604
 #: shortcodes/fusion-image-carousel.php:427
 #: shortcodes/fusion-woo-featured-products-slider.php:334
 #: shortcodes/fusion-woo-product-slider.php:366
 msgid "Fixed"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:431 shortcodes/fusion-gallery.php:576
+#: shortcodes/fusion-gallery.php:442 shortcodes/fusion-gallery.php:587
 msgid "Gallery Layout"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:432 shortcodes/fusion-gallery.php:577
+#: shortcodes/fusion-gallery.php:443 shortcodes/fusion-gallery.php:588
 msgid "Select the gallery layout type."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:452 shortcodes/fusion-gallery.php:619
+#: shortcodes/fusion-gallery.php:463 shortcodes/fusion-gallery.php:630
 msgid "Controls the column spacing for gallery images."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:465 shortcodes/fusion-gallery.php:673
+#: shortcodes/fusion-gallery.php:476 shortcodes/fusion-gallery.php:684
 #: shortcodes/fusion-image-carousel.php:435 shortcodes/fusion-image.php:675
 #: shortcodes/fusion-person.php:912 shortcodes/fusion-recent-posts.php:690
 #: shortcodes/fusion-slider.php:359
 msgid "Select the hover effect type."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:478 shortcodes/fusion-gallery.php:697
+#: shortcodes/fusion-gallery.php:489 shortcodes/fusion-gallery.php:708
 msgid "Lightbox Content"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:483 shortcodes/fusion-gallery.php:703
+#: shortcodes/fusion-gallery.php:494 shortcodes/fusion-gallery.php:714
 msgid "Titles"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:484 shortcodes/fusion-gallery.php:704
+#: shortcodes/fusion-gallery.php:495 shortcodes/fusion-gallery.php:715
 msgid "Captions"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:485
+#: shortcodes/fusion-gallery.php:496
 msgid "Titles & Captions"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:487 shortcodes/fusion-gallery.php:707
+#: shortcodes/fusion-gallery.php:498 shortcodes/fusion-gallery.php:718
 msgid "Choose if titles and captions will display in the lightbox."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:490 shortcodes/fusion-gallery.php:718
+#: shortcodes/fusion-gallery.php:501 shortcodes/fusion-gallery.php:729
 msgid "Gallery Image Border Size"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:491 shortcodes/fusion-image.php:527
+#: shortcodes/fusion-gallery.php:502 shortcodes/fusion-image.php:527
 msgid "Controls the border size of the image."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:502 shortcodes/fusion-gallery.php:729
+#: shortcodes/fusion-gallery.php:513 shortcodes/fusion-gallery.php:740
 msgid "Gallery Image Border Color"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:503 shortcodes/fusion-image.php:539
+#: shortcodes/fusion-gallery.php:514 shortcodes/fusion-image.php:539
 msgid "Controls the border color of the image."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:509 shortcodes/fusion-gallery.php:744
+#: shortcodes/fusion-gallery.php:520 shortcodes/fusion-gallery.php:755
 msgid "Gallery Image Border Radius"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:510
+#: shortcodes/fusion-gallery.php:521
 msgid "Controls the border radius of the gallery images."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:568
+#: shortcodes/fusion-gallery.php:579
 msgid "Gallery Images"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:569
+#: shortcodes/fusion-gallery.php:580
 msgid "Upload or select images from media library."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:589
+#: shortcodes/fusion-gallery.php:600
 msgid ""
 "Fixed = width and height will be fixed.<br/>Auto = width and height will "
 "adjust to the image.<br/>"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:686 shortcodes/fusion-image-carousel.php:518
+#: shortcodes/fusion-gallery.php:697 shortcodes/fusion-image-carousel.php:518
 #: shortcodes/fusion-image.php:740
 msgid "Image lightbox"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:687 shortcodes/fusion-image-carousel.php:519
+#: shortcodes/fusion-gallery.php:698 shortcodes/fusion-image-carousel.php:519
 #: shortcodes/fusion-image.php:741 shortcodes/fusion-slider.php:494
 msgid ""
 "Show image in lightbox. Lightbox must be enabled in Theme Options or the "
 "image will open up in the same tab by itself."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:705
+#: shortcodes/fusion-gallery.php:716
 msgid "Titles and Captions"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:730
+#: shortcodes/fusion-gallery.php:741
 msgid "Choose the border color. "
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:745
+#: shortcodes/fusion-gallery.php:756
 msgid ""
 "Controls the gallery image border radius. In pixels (px), ex: 1px, or \"round"
 "\". "
@@ -10430,7 +10450,7 @@ msgstr ""
 #: shortcodes/fusion-google-map.php:743
 msgid ""
 "Enable zooming using a mouse's scroll wheel. Use Cmd/Ctrl key + scroll to "
-"zoom."
+"zoom. If set to off, cooperative gesture handling will be enabled."
 msgstr ""
 
 #: shortcodes/fusion-google-map.php:765
@@ -14396,10 +14416,6 @@ msgstr ""
 
 #: shortcodes/fusion-widget-area.php:254
 msgid "Controls the size of widget titles. In pixels ex: 18px."
-msgstr ""
-
-#: shortcodes/fusion-widget-area.php:269
-msgid "Backgound Color"
 msgstr ""
 
 #: shortcodes/fusion-widget-area.php:270
