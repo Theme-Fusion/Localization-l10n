@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2018-11-08 13:11:33+00:00\n"
+"POT-Creation-Date: 2019-01-18 13:10:33+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:01+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: English (British)\n"
@@ -78,7 +78,7 @@ msgstr[1] ""
 msgid "Comments are closed."
 msgstr "Comments are closed."
 
-#: comments.php:65 contact.php:75 includes/class-avada-contact.php:137
+#: comments.php:65 contact.php:69 includes/class-avada-contact.php:169
 msgid "Name (required)"
 msgstr "Name (required)"
 
@@ -88,7 +88,7 @@ msgstr "Name (required)"
 msgid "Name"
 msgstr "Name"
 
-#: comments.php:66 contact.php:76 includes/class-avada-contact.php:162
+#: comments.php:66 contact.php:70 includes/class-avada-contact.php:196
 msgid "Email (required)"
 msgstr "Email (required)"
 
@@ -151,36 +151,22 @@ msgstr ""
 "Form email address is not set in Theme Options. Please fill in a valid "
 "address to make contact form work."
 
-#: contact.php:42
-msgid ""
-"Please check if you've filled all the fields with valid information. Thank "
-"you."
-msgstr ""
-"Please check if you've filled all the fields with valid information. Thank "
-"you."
-
-#: contact.php:44
-msgid ""
-"Please check if you've filled all the fields with valid information and that "
-"the data privacy terms confirmation box is checked. Thank you."
-msgstr ""
-
 #. translators: The name from the contact form.
-#: contact.php:58 contact.php:61
+#: contact.php:52 contact.php:55
 msgid ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
 msgstr ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
 
-#: contact.php:70 contact.php:82 includes/class-avada-contact.php:182
+#: contact.php:64 contact.php:76 includes/class-avada-contact.php:217
 msgid "Message"
 msgstr "Message"
 
-#: contact.php:77
+#: contact.php:71
 msgid "Subject"
 msgstr "Subject"
 
-#: contact.php:110
+#: contact.php:113
 msgid "Submit Form"
 msgstr "Submit Form"
 
@@ -309,7 +295,7 @@ msgstr ""
 msgid "Forum"
 msgstr ""
 
-#: includes/admin-screens/demos.php:120
+#: includes/admin-screens/demos.php:120 includes/class-avada-pwa.php:153
 msgid "Images"
 msgstr ""
 
@@ -329,22 +315,22 @@ msgid "All"
 msgstr "All"
 
 #: includes/admin-screens/demos.php:215 includes/admin-screens/demos.php:347
-#: includes/class-avada-admin.php:1418
+#: includes/class-avada-admin.php:1426
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:125
 #: includes/metaboxes/tabs/tab_avada_page_options.php:77
 #: includes/options/colors.php:156 includes/options/colors.php:205
 msgid "Import"
 msgstr "Import"
 
-#: includes/admin-screens/demos.php:215 includes/class-avada-admin.php:1415
+#: includes/admin-screens/demos.php:215 includes/class-avada-admin.php:1423
 msgid "Modify"
 msgstr ""
 
-#: includes/admin-screens/demos.php:218 includes/class-avada-admin.php:1416
+#: includes/admin-screens/demos.php:218 includes/class-avada-admin.php:1424
 msgid "Full Import"
 msgstr ""
 
-#: includes/admin-screens/demos.php:220 includes/class-avada-admin.php:1417
+#: includes/admin-screens/demos.php:220 includes/class-avada-admin.php:1425
 msgid "Partial Import"
 msgstr ""
 
@@ -364,18 +350,18 @@ msgstr ""
 msgid "The Following Plugins Are Required To Import Content"
 msgstr ""
 
-#: includes/admin-screens/demos.php:275 includes/class-avada-admin.php:1095
+#: includes/admin-screens/demos.php:275 includes/class-avada-admin.php:1103
 #: includes/class-avada-tgm-plugin-activation.php:2852
 msgid "Install"
 msgstr "Install"
 
-#: includes/admin-screens/demos.php:278 includes/class-avada-admin.php:1444
+#: includes/admin-screens/demos.php:278 includes/class-avada-admin.php:1452
 #: includes/class-avada-tgm-plugin-activation.php:2456
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:100
 msgid "Active"
 msgstr "Active"
 
-#: includes/admin-screens/demos.php:281 includes/class-avada-admin.php:1114
+#: includes/admin-screens/demos.php:281 includes/class-avada-admin.php:1122
 #: includes/class-avada-tgm-plugin-activation.php:2861
 msgid "Activate"
 msgstr "Activate"
@@ -822,12 +808,9 @@ msgstr ""
 #: includes/admin-screens/registration.php:28
 msgid ""
 "Thank you for choosing Avada! Your product must be registered to receive the "
-"Avada demos, auto theme updates and included premium plugins. The "
-"instructions below in toggle format must be followed exactly."
+"Avada demos, auto theme updates and included premium plugins. Please follow "
+"the instructions below to create a valid token."
 msgstr ""
-"Thank you for choosing Avada! Your product must be registered to receive the "
-"Avada demos, auto theme updates and included premium plugins. The "
-"instructions below in toggle format must be followed exactly."
 
 #. translators: link attributes.
 #: includes/admin-screens/support.php:22
@@ -854,23 +837,16 @@ msgstr ""
 msgid "Create A Support Account"
 msgstr "Create A Support Account"
 
-#: includes/admin-screens/support.php:29
-msgid "Submit A Ticket"
-msgstr "Submit A Ticket"
+#: includes/admin-screens/support.php:29 includes/admin-screens/support.php:31
+msgid "Starter Guide"
+msgstr ""
 
 #: includes/admin-screens/support.php:30
 msgid ""
-"We offer excellent support through our advanced ticket system. Make sure to "
-"register your purchase first to access our support services and other "
-"resources."
+"We understand that it can be a daunting process getting started with "
+"WordPress. In light of this, we have prepared a starter pack for you, which "
+"includes all you need to know."
 msgstr ""
-"We offer excellent support through our advanced ticket system. Make sure to "
-"register your purchase first to access our support services and other "
-"resources."
-
-#: includes/admin-screens/support.php:31
-msgid "Submit a ticket"
-msgstr "Submit a ticket"
 
 #: includes/admin-screens/support.php:34 includes/admin-screens/support.php:36
 msgid "Documentation"
@@ -886,19 +862,23 @@ msgstr ""
 "online documentaiton is an incredible resource for learning the ins and outs "
 "of using Avada."
 
-#: includes/admin-screens/support.php:39 includes/admin-screens/support.php:41
-msgid "Knowledgebase"
-msgstr "Knowledgebase"
+#: includes/admin-screens/support.php:39
+msgid "Submit A Ticket"
+msgstr "Submit A Ticket"
 
 #: includes/admin-screens/support.php:40
 msgid ""
-"Our knowledgebase contains additional content that is not inside of our "
-"documentation. This information is more specific and unique to various "
-"versions or aspects of Avada."
+"We offer excellent support through our advanced ticket system. Make sure to "
+"register your purchase first to access our support services and other "
+"resources."
 msgstr ""
-"Our knowledgebase contains additional content that is not inside of our "
-"documentation. This information is more specific and unique to various "
-"versions or aspects of Avada."
+"We offer excellent support through our advanced ticket system. Make sure to "
+"register your purchase first to access our support services and other "
+"resources."
+
+#: includes/admin-screens/support.php:41
+msgid "Submit a ticket"
+msgstr "Submit a ticket"
 
 #: includes/admin-screens/support.php:44
 msgid "Video Tutorials"
@@ -907,12 +887,9 @@ msgstr "Video Tutorials"
 #: includes/admin-screens/support.php:45
 msgid ""
 "Nothing is better than watching a video to learn. We have a growing library "
-"of high-definititon, narrated video tutorials to help teach you the "
-"different aspects of using Avada."
+"of narrated HD video tutorials to help teach you the different aspects of "
+"using Avada."
 msgstr ""
-"Nothing is better than watching a video to learn. We have a growing library "
-"of high-definititon, narrated video tutorials to help teach you the "
-"different aspects of using Avada."
 
 #: includes/admin-screens/support.php:46
 msgid "Watch Videos"
@@ -938,13 +915,9 @@ msgstr "Facebook Group"
 
 #: includes/admin-screens/support.php:55
 msgid ""
-"We have an amazing Facebook Group! Come and share with other Avada users and "
-"help grow our community. Please note, ThemeFusion does not provide support "
-"here."
+"We have an amazing Facebook Group! Share with other Avada users and help "
+"grow our community. Please note, ThemeFusion does not provide support here."
 msgstr ""
-"We have an amazing Facebook Group! Come and share with other Avada users and "
-"help grow our community. Please note, ThemeFusion does not provide support "
-"here."
 
 #: includes/admin-screens/system-status.php:24
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:48
@@ -1117,8 +1090,8 @@ msgid "System path of your wp-content directory."
 msgstr ""
 
 #: includes/admin-screens/system-status.php:279
-#: includes/admin-screens/system-status.php:284 templates/wc-view-order.php:142
-#: templates/wc-view-order.php:155
+#: includes/admin-screens/system-status.php:284 templates/wc-view-order.php:143
+#: templates/wc-view-order.php:156
 msgid "N/A"
 msgstr "N/A"
 
@@ -1920,7 +1893,7 @@ msgstr ""
 "like images generated to the specific theme sizes. This is not needed if you "
 "upload your own images because WP does it automatically."
 
-#: includes/class-avada-admin.php:751 includes/options/advanced.php:102
+#: includes/class-avada-admin.php:751 includes/options/advanced.php:94
 msgid "Regenerate Thumbnails"
 msgstr "Regenerate Thumbnails"
 
@@ -1985,94 +1958,94 @@ msgstr ""
 msgid "Version"
 msgstr "Version"
 
-#: includes/class-avada-admin.php:1061
+#: includes/class-avada-admin.php:1069
 msgid "Please update Fusion Core to latest version."
 msgstr ""
 
 #. translators: Plugin name.
-#: includes/class-avada-admin.php:1095
+#: includes/class-avada-admin.php:1103
 msgid "Install %s"
 msgstr "Install %s"
 
 #. translators: Plugin Name.
-#: includes/class-avada-admin.php:1114
+#: includes/class-avada-admin.php:1122
 msgid "Activate %s"
 msgstr "Activate %s"
 
 #. translators: Plugin Name.
-#: includes/class-avada-admin.php:1138
+#: includes/class-avada-admin.php:1146
 msgid "Update %s"
 msgstr "Update %s"
 
-#: includes/class-avada-admin.php:1138
+#: includes/class-avada-admin.php:1146
 #: includes/class-avada-tgm-plugin-activation.php:2858
 #: includes/options/colors.php:147 includes/options/colors.php:175
 msgid "Update"
 msgstr "Update"
 
 #. translators: Plugin name.
-#: includes/class-avada-admin.php:1154
+#: includes/class-avada-admin.php:1162
 msgid "Deactivate %s"
 msgstr "Deactivate %s"
 
-#: includes/class-avada-admin.php:1154
+#: includes/class-avada-admin.php:1162
 msgid "Deactivate"
 msgstr "Deactivate"
 
-#: includes/class-avada-admin.php:1176
+#: includes/class-avada-admin.php:1184
 msgid "Fusion Builder will be installable, once Fusion Core plugin is updated."
 msgstr ""
 "Fusion Builder will be installable, once Fusion Core plugin is updated."
 
-#: includes/class-avada-admin.php:1176
+#: includes/class-avada-admin.php:1184
 msgid "Fusion Builder"
 msgstr "Fusion Builder"
 
-#: includes/class-avada-admin.php:1195
+#: includes/class-avada-admin.php:1203
 msgid "Manage Plugins Below"
 msgstr "Manage Plugins Below"
 
-#: includes/class-avada-admin.php:1200
+#: includes/class-avada-admin.php:1208
 msgid "Go Manage Plugins"
 msgstr "Go Manage Plugins"
 
-#: includes/class-avada-admin.php:1217
+#: includes/class-avada-admin.php:1225
 msgid "Avada portfolio category base"
 msgstr "Avada portfolio category base"
 
-#: includes/class-avada-admin.php:1228
+#: includes/class-avada-admin.php:1236
 msgid "Avada portfolio skill base"
 msgstr "Avada portfolio skill base"
 
-#: includes/class-avada-admin.php:1239
+#: includes/class-avada-admin.php:1247
 msgid "Avada portfolio tag base"
 msgstr "Avada portfolio tag base"
 
-#: includes/class-avada-admin.php:1414
+#: includes/class-avada-admin.php:1422
 #: includes/metaboxes/tabs/tab_sidebars.php:107
 #: includes/options/sidebars.php:74
 msgid "Content"
 msgstr ""
 
-#: includes/class-avada-admin.php:1419
+#: includes/class-avada-admin.php:1427
 msgid "Download"
 msgstr ""
 
-#: includes/class-avada-admin.php:1420
+#: includes/class-avada-admin.php:1428
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
 "<strong>Clicking this option will replace your current theme options and "
 "widgets.</strong> It can also take a minute to complete.<br /><br /"
 ">REQUIREMENTS:<br /><br />• Memory Limit of 256 MB and max execution time "
-"(php time limit) of 300 seconds.<br /><br />• Revolution Slider and "
+"(php time limit) of 300 seconds.<br /><br />• Slider Revolution and "
 "LayerSlider must be activated for sliders to import.<br /><br />• Fusion "
 "Core must be activated for Fusion Slider, portfolio and FAQs to be imported."
 "<br /><br />• Fusion Builder must be activated for page content to display "
 "as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1421 includes/class-avada-admin.php:1429
+#: includes/class-avada-admin.php:1429 includes/class-avada-admin.php:1437
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -2085,7 +2058,7 @@ msgid ""
 "must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1422
+#: includes/class-avada-admin.php:1430
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -2099,7 +2072,7 @@ msgid ""
 "Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1423
+#: includes/class-avada-admin.php:1431
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -2113,14 +2086,14 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1424
+#: includes/class-avada-admin.php:1432
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
 "<strong>Clicking this option will replace your current theme options and "
 "widgets.</strong> It can also take a minute to complete.<br /><br /> "
 "REQUIREMENTS:<br /><br />• Memory Limit of 128 MB and max execution time "
-"(php time limit) of 180 seconds.<br /><br />• Revolution Slider must be "
+"(php time limit) of 180 seconds.<br /><br />• Slider Revolution must be "
 "activated for sliders to import.<br /><br />• Fusion Core must be activated "
 "for Fusion Slider, portfolio and FAQs to be imported.<br /><br />• "
 "WooCommerce must be activated for all shop data to import.<br /><br />• "
@@ -2128,21 +2101,21 @@ msgid ""
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1425
+#: includes/class-avada-admin.php:1433
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
 "<strong>Clicking this option will replace your current theme options and "
 "widgets.</strong> It can also take a minute to complete.<br /><br /> "
 "REQUIREMENTS:<br /><br />• Memory Limit of 128 MB and max execution time "
-"(php time limit) of 180 seconds.<br /><br />• Revolution Slider must be "
+"(php time limit) of 180 seconds.<br /><br />• Slider Revolution must be "
 "activated for sliders to import.<br /><br />• Fusion Core must be activated "
 "for Fusion Slider, portfolio and FAQs to be imported.<br /><br />• "
 "WooCommerce must be activated for all shop data to import.<br /><br />• "
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1426
+#: includes/class-avada-admin.php:1434
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -2156,7 +2129,7 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1427
+#: includes/class-avada-admin.php:1435
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
@@ -2169,14 +2142,14 @@ msgid ""
 "be activated for page content to display as intended."
 msgstr ""
 
-#: includes/class-avada-admin.php:1428
+#: includes/class-avada-admin.php:1436
 msgid ""
 "Importing demo content will give you sliders, pages, posts, theme options, "
 "widgets, sidebars and other settings. This will replicate the live demo. "
 "<strong>Clicking this option will replace your current theme options and "
 "widgets.</strong> It can also take a minute to complete.<br /><br /> "
 "REQUIREMENTS:<br /><br />• Memory Limit of 128 MB and max execution time "
-"(php time limit) of 180 seconds.<br /><br />• Revolution Slider must be "
+"(php time limit) of 180 seconds.<br /><br />• Slider Revolution must be "
 "activated for sliders to import.<br /><br />• Contact Form 7 plugin must be "
 "activated for the form to import.<br /><br />• Fusion Core must be activated "
 "for Fusion Slider, portfolio and FAQs to be imported. <br /><br />• Fusion "
@@ -2184,102 +2157,102 @@ msgid ""
 msgstr ""
 
 #. translators: The current step label.
-#: includes/class-avada-admin.php:1431
+#: includes/class-avada-admin.php:1439
 msgid "Currently Processing: %s"
 msgstr ""
 
 #. translators: The current step label.
-#: includes/class-avada-admin.php:1433
+#: includes/class-avada-admin.php:1441
 msgid "Currently Removing: %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1434
+#: includes/class-avada-admin.php:1442
 #: includes/lib/inc/importer/class-wxr-importer.php:505
 msgid "The file does not exist"
 msgstr ""
 
 #. translators: URL.
-#: includes/class-avada-admin.php:1436
+#: includes/class-avada-admin.php:1444
 msgid ""
 "Demo server couldn't be reached. Please check for wp_remote_get on the <a "
 "href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr ""
 
 #. translators: URL.
-#: includes/class-avada-admin.php:1438
+#: includes/class-avada-admin.php:1446
 msgid ""
 "Demo import failed. Please check for PHP limits in red on the <a href=\"%s\" "
 "target=\"_blank\">System Status</a> page. Change those to the recommended "
 "value and try again."
 msgstr ""
 
-#: includes/class-avada-admin.php:1439
+#: includes/class-avada-admin.php:1447
 msgid ""
 "Removing demo content will remove ALL previously imported demo content from "
 "this demo and restore your site to the previous state it was in before this "
 "demo content was imported."
 msgstr ""
 
-#: includes/class-avada-admin.php:1440
+#: includes/class-avada-admin.php:1448
 msgid ""
 "Fusion Builder Plugin can only be installed and activated if Fusion Core "
 "plugin is at version 3.0 or higher. Please update Fusion Core first."
 msgstr ""
 
 #. translators: URL.
-#: includes/class-avada-admin.php:1442
+#: includes/class-avada-admin.php:1450
 msgid ""
 "This plugin can only be installed or updated, after you have successfully "
 "completed the Avada product registration on the <a href=\"%s\" target="
 "\"_blank\">Product Registration</a> tab."
 msgstr ""
 
-#: includes/class-avada-admin.php:1443
+#: includes/class-avada-admin.php:1451
 msgid "Plugin install failed. Please try Again."
 msgstr ""
 
-#: includes/class-avada-admin.php:1480
+#: includes/class-avada-admin.php:1488
 msgid "Fusion Taxonomy Options"
 msgstr ""
 
-#: includes/class-avada-admin.php:1488
+#: includes/class-avada-admin.php:1496
 #: includes/metaboxes/tabs/tab_sliders.php:21
 msgid "No Slider"
 msgstr "No Slider"
 
-#: includes/class-avada-admin.php:1489
+#: includes/class-avada-admin.php:1497
 msgid "LayerSlider"
 msgstr ""
 
-#: includes/class-avada-admin.php:1490
-#: includes/metaboxes/tabs/tab_sliders.php:23 includes/options/advanced.php:204
+#: includes/class-avada-admin.php:1498
+#: includes/metaboxes/tabs/tab_sliders.php:23 includes/options/advanced.php:196
 msgid "Fusion Slider"
 msgstr "Fusion Slider"
 
-#: includes/class-avada-admin.php:1491
+#: includes/class-avada-admin.php:1499
 msgid "Slider Revolution"
 msgstr ""
 
-#: includes/class-avada-admin.php:1492 includes/options/advanced.php:211
+#: includes/class-avada-admin.php:1500 includes/options/advanced.php:203
 #: includes/options/elastic_slider.php:27
 msgid "Elastic Slider"
 msgstr "Elastic Slider"
 
-#: includes/class-avada-admin.php:1495
+#: includes/class-avada-admin.php:1503
 msgid "Slider Type "
 msgstr ""
 
-#: includes/class-avada-admin.php:1498
+#: includes/class-avada-admin.php:1506
 #: includes/metaboxes/tabs/tab_sliders.php:27
 msgid "Select the type of slider that displays."
 msgstr "Select the type of slider that displays."
 
-#: includes/class-avada-admin.php:1506
+#: includes/class-avada-admin.php:1514
 msgid "Select LayerSlider "
 msgstr ""
 
-#: includes/class-avada-admin.php:1509 includes/class-avada-admin.php:1527
-#: includes/class-avada-admin.php:1545 includes/class-avada-admin.php:1563
+#: includes/class-avada-admin.php:1517 includes/class-avada-admin.php:1535
+#: includes/class-avada-admin.php:1553 includes/class-avada-admin.php:1571
 #: includes/metaboxes/tabs/tab_sliders.php:54
 #: includes/metaboxes/tabs/tab_sliders.php:71
 #: includes/metaboxes/tabs/tab_sliders.php:100
@@ -2287,22 +2260,22 @@ msgstr ""
 msgid "Select the unique name of the slider."
 msgstr "Select the unique name of the slider."
 
-#: includes/class-avada-admin.php:1524
+#: includes/class-avada-admin.php:1532
 msgid "Select Fusion Slider "
 msgstr ""
 
-#: includes/class-avada-admin.php:1542
+#: includes/class-avada-admin.php:1550
 #: includes/metaboxes/tabs/tab_sliders.php:98
 msgid "Select Slider Revolution Slider"
 msgstr "Select Slider Revolution Slider"
 
-#: includes/class-avada-admin.php:1560
+#: includes/class-avada-admin.php:1568
 #: includes/metaboxes/tabs/tab_sliders.php:121
 msgid "Select Elastic Slider"
 msgstr "Select Elastic Slider"
 
-#: includes/class-avada-admin.php:1577
-#: includes/lib/inc/class-fusion-images.php:887
+#: includes/class-avada-admin.php:1585
+#: includes/lib/inc/class-fusion-images.php:946
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1900
 #: includes/metaboxes/tabs/tab_background.php:21
 #: includes/metaboxes/tabs/tab_background.php:67
@@ -2349,100 +2322,100 @@ msgstr "Select Elastic Slider"
 msgid "Default"
 msgstr "Default"
 
-#: includes/class-avada-admin.php:1578
+#: includes/class-avada-admin.php:1586
 #: includes/metaboxes/tabs/tab_sliders.php:138 includes/options/contact.php:67
 #: includes/options/events_calendar.php:58 includes/options/header.php:89
 msgid "Below"
 msgstr "Below"
 
-#: includes/class-avada-admin.php:1579
+#: includes/class-avada-admin.php:1587
 #: includes/metaboxes/tabs/tab_sliders.php:139 includes/options/blog.php:451
 #: includes/options/contact.php:66 includes/options/events_calendar.php:57
 #: includes/options/header.php:90
 msgid "Above"
 msgstr "Above"
 
-#: includes/class-avada-admin.php:1582
+#: includes/class-avada-admin.php:1590
 #: includes/metaboxes/tabs/tab_sliders.php:135 includes/options/header.php:83
 msgid "Slider Position"
 msgstr "Slider Position"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1586
+#: includes/class-avada-admin.php:1594
 #: includes/metaboxes/tabs/tab_sliders.php:142
 msgid ""
 "Select if the slider shows below or above the header. Only works for top "
 "header position. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1600
+#: includes/class-avada-admin.php:1608
 msgid "Page Content Top Padding"
 msgstr ""
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1602 includes/class-avada-admin.php:1611
+#: includes/class-avada-admin.php:1610 includes/class-avada-admin.php:1619
 #: includes/metaboxes/tabs/tab_page.php:26
 msgid "In pixels ex: 20px. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1609
+#: includes/class-avada-admin.php:1617
 msgid "Page Content Bottom Padding"
 msgstr ""
 
-#: includes/class-avada-admin.php:1618 includes/options/header.php:542
+#: includes/class-avada-admin.php:1626 includes/options/header.php:542
 msgid "Header Background Color"
 msgstr "Header Background Color"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1621
+#: includes/class-avada-admin.php:1629
 #: includes/metaboxes/tabs/tab_header.php:53
 msgid ""
 "Controls the background color for the header. Hex code or rgba value, ex: "
 "#000. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1628
-#: includes/metaboxes/tabs/tab_header.php:67 includes/options/menu.php:1487
+#: includes/class-avada-admin.php:1636
+#: includes/metaboxes/tabs/tab_header.php:67 includes/options/menu.php:1517
 msgid "Mobile Header Background Color"
 msgstr "Mobile Header Background Color"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1631
+#: includes/class-avada-admin.php:1639
 #: includes/metaboxes/tabs/tab_header.php:69
 msgid ""
 "Controls the background color for the header on mobile devices. Hex code or "
 "rgba value, ex: #000. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1638
+#: includes/class-avada-admin.php:1646
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:264
 msgid "Page Title Bar Background"
 msgstr "Page Title Bar Background"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1640
+#: includes/class-avada-admin.php:1648
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:266
 msgid "Select an image to use for the page title bar background. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1647
+#: includes/class-avada-admin.php:1655
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:279
 msgid "Page Title Bar Background Retina"
 msgstr "Page Title Bar Background Retina"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1649
+#: includes/class-avada-admin.php:1657
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:281
 msgid "Select an image to use for retina devices. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1663
+#: includes/class-avada-admin.php:1671
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:201
 #: includes/options/page_title_bar.php:89
 msgid "Page Title Bar Height"
@@ -2450,7 +2423,7 @@ msgstr "Page Title Bar Height"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1665
+#: includes/class-avada-admin.php:1673
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:203
 msgid ""
 "Controls the height of the page title bar on desktop. Enter value including "
@@ -2458,7 +2431,7 @@ msgid ""
 "87px. %s"
 msgstr ""
 
-#: includes/class-avada-admin.php:1672
+#: includes/class-avada-admin.php:1680
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:209
 #: includes/options/page_title_bar.php:103
 msgid "Page Title Bar Mobile Height"
@@ -2466,7 +2439,7 @@ msgstr "Page Title Bar Mobile Height"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
-#: includes/class-avada-admin.php:1674
+#: includes/class-avada-admin.php:1682
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:211
 msgid ""
 "Controls the height of the page title bar on mobile. Enter value including "
@@ -2565,39 +2538,64 @@ msgstr "Search:"
 msgid "404 - Page not Found"
 msgstr "404 - Page not Found"
 
-#: includes/class-avada-contact.php:237
+#: includes/class-avada-contact.php:154
+msgid ""
+"Please check if you've filled all the fields with valid information. Thank "
+"you."
+msgstr ""
+"Please check if you've filled all the fields with valid information. Thank "
+"you."
+
+#: includes/class-avada-contact.php:156
+msgid ""
+"Please check if you've filled all the fields with valid information and that "
+"the data privacy terms confirmation box is checked. Thank you."
+msgstr ""
+
+#: includes/class-avada-contact.php:271
+msgid ""
+"Sorry, ReCaptcha could not verify that you are a human. Please try again."
+msgstr ""
+
+#: includes/class-avada-contact.php:273
+msgid ""
+"ReCaptcha configuration error. Please check the Theme Option settings and "
+"your Recaptcha account settings."
+msgstr ""
+
+#: includes/class-avada-contact.php:290
 msgid "confirmed"
 msgstr ""
 
 #. translators: The name.
-#: includes/class-avada-contact.php:248
+#: includes/class-avada-contact.php:301
 msgid "Name: %s"
 msgstr ""
 
 #. translators: The email.
-#: includes/class-avada-contact.php:250
+#: includes/class-avada-contact.php:303
 msgid "Email: %s"
 msgstr ""
 
 #. translators: The subject.
-#: includes/class-avada-contact.php:252
+#: includes/class-avada-contact.php:305
 msgid "Subject: %s"
 msgstr ""
 
 #. translators: The comments.
-#: includes/class-avada-contact.php:254
+#: includes/class-avada-contact.php:307
 msgid "Message: %s"
 msgstr ""
 
 #. translators: The data privacy terms.
-#: includes/class-avada-contact.php:258
+#: includes/class-avada-contact.php:311
 msgid "Data Privacy Terms: %s"
 msgstr ""
 
 #: includes/class-avada-eventscalendar.php:216
 #: includes/class-avada-eventscalendar.php:248
 #: includes/class-avada-eventscalendar.php:280
-#: includes/class-avada-woocommerce.php:1378
+#: includes/class-avada-woocommerce.php:1372
 msgid "NOTE"
 msgstr ""
 
@@ -2842,8 +2840,9 @@ msgstr "Mega Menu Thumbnail"
 
 #: includes/class-avada-megamenu-framework.php:272
 msgid ""
-"Select an image to use as a thumbnail for the menu item. The size of the "
-"thumbnail can be controlled in Theme Options > Menu > Main Menu Icons."
+"Select an image to use as a thumbnail for the menu item. For top-level "
+"items, the size of the thumbnail can be controlled in Theme Options > Menu > "
+"Main Menu Icons."
 msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:296
@@ -3143,7 +3142,7 @@ msgid "Import / Export"
 msgstr "Import / Export"
 
 #. translators: Number.
-#: includes/class-avada-page-options.php:295
+#: includes/class-avada-page-options.php:297
 msgid "Custom page options %d "
 msgstr ""
 
@@ -3196,31 +3195,43 @@ msgstr ""
 msgid "I Accept"
 msgstr ""
 
-#: includes/class-avada-scripts.php:551
+#: includes/class-avada-pwa.php:167
+msgid "Fonts"
+msgstr ""
+
+#: includes/class-avada-pwa.php:181
+msgid "Scripts"
+msgstr ""
+
+#: includes/class-avada-pwa.php:195
+msgid "Styles"
+msgstr ""
+
+#: includes/class-avada-scripts.php:564
 msgid "Go to..."
 msgstr "Go to..."
 
-#: includes/class-avada-scripts.php:552
+#: includes/class-avada-scripts.php:565
 msgid "Shopping Cart"
 msgstr "Shopping Cart"
 
-#: includes/class-avada-scripts.php:553
+#: includes/class-avada-scripts.php:566
 msgid "Open Sub Menu"
 msgstr ""
 
-#: includes/class-avada-scripts.php:554
+#: includes/class-avada-scripts.php:567
 msgid "Close Sub Menu"
 msgstr ""
 
-#: includes/class-avada-scripts.php:571
+#: includes/class-avada-scripts.php:584
 msgid "Go to Top"
 msgstr "Go to Top"
 
-#: includes/class-avada-scripts.php:652 templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:665 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "Details"
 
-#: includes/class-avada-scripts.php:655
+#: includes/class-avada-scripts.php:668
 msgid "Not all fields have been filled in correctly."
 msgstr "Not all fields have been filled in correctly."
 
@@ -3363,7 +3374,7 @@ msgid "All plugins installed and activated successfully. %1$s"
 msgstr "All plugins installed and activated successfully. %1$s"
 
 #: includes/class-avada-tgm-plugin-activation.php:398
-#: includes/class-avada-upgrade.php:356
+#: includes/class-avada-upgrade.php:357
 msgid "Dismiss this notice"
 msgstr "Dismiss this notice"
 
@@ -3624,7 +3635,7 @@ msgstr "All installations have been completed."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Installing Plugin %1$s (%2$d/%3$d)"
 
-#: includes/class-avada-upgrade.php:355
+#: includes/class-avada-upgrade.php:356
 msgid "View Changelog"
 msgstr "View Changelog"
 
@@ -3689,7 +3700,8 @@ msgstr ""
 msgid "None"
 msgstr "None"
 
-#: includes/class-avada-widget-style.php:97 includes/options/footer.php:452
+#: includes/class-avada-widget-style.php:97 includes/options/advanced.php:219
+#: includes/options/footer.php:452
 msgid "Solid"
 msgstr ""
 
@@ -3734,8 +3746,8 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_sidebars.php:86 includes/options/blog.php:307
 #: includes/options/extra.php:263 includes/options/header.php:55
 #: includes/options/logo.php:48 includes/options/menu.php:539
-#: includes/options/menu.php:794 includes/options/menu.php:1773
-#: includes/options/menu.php:1953 includes/options/page_title_bar.php:265
+#: includes/options/menu.php:794 includes/options/menu.php:1803
+#: includes/options/menu.php:1983 includes/options/page_title_bar.php:265
 #: includes/options/portfolio.php:220 includes/options/sidebars.php:174
 #: includes/options/sidebars.php:217 includes/options/sidebars.php:293
 #: includes/options/sidebars.php:361 includes/options/sidebars.php:408
@@ -3760,7 +3772,7 @@ msgstr "Left"
 #: includes/options/extra.php:264 includes/options/header.php:56
 #: includes/options/lightbox.php:101 includes/options/logo.php:50
 #: includes/options/menu.php:541 includes/options/menu.php:795
-#: includes/options/menu.php:1775 includes/options/menu.php:1951
+#: includes/options/menu.php:1805 includes/options/menu.php:1981
 #: includes/options/page_title_bar.php:267 includes/options/portfolio.php:222
 #: includes/options/sidebars.php:175 includes/options/sidebars.php:218
 #: includes/options/sidebars.php:294 includes/options/sidebars.php:362
@@ -3780,7 +3792,7 @@ msgstr "Right"
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:116
 #: includes/options/blog.php:308 includes/options/elastic_slider.php:71
 #: includes/options/logo.php:49 includes/options/menu.php:540
-#: includes/options/menu.php:1774 includes/options/page_title_bar.php:266
+#: includes/options/menu.php:1804 includes/options/page_title_bar.php:266
 #: includes/options/portfolio.php:221 includes/options/sliding_bar.php:215
 #: includes/widget/class-fusion-widget-menu.php:183
 msgid "Center"
@@ -3810,19 +3822,19 @@ msgid "Dashboard"
 msgstr "Dashboard"
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1192
+#: includes/class-avada-woocommerce.php:1186
 msgid "You Have %d Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] "You Have %d Item In Your Cart"
 msgstr[1] "You Have %d Item In Your Cart"
 
-#: includes/class-avada-woocommerce.php:1318
-#: includes/class-avada-woocommerce.php:1336
+#: includes/class-avada-woocommerce.php:1312
+#: includes/class-avada-woocommerce.php:1330
 msgid "Continue"
 msgstr "Continue"
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1380
+#: includes/class-avada-woocommerce.php:1374
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -4215,7 +4227,7 @@ msgstr "Yearly Archives: %s"
 msgid "Back to Parent Page"
 msgstr "Back to Parent Page"
 
-#: includes/dynamic_css.php:5316
+#: includes/dynamic_css.php:5358
 msgid "Please enter correct details for this required field."
 msgstr "Please enter correct details for this required field."
 
@@ -4338,50 +4350,50 @@ msgstr "%1$s In pixels, ex: %2$s."
 msgid "%1$s Enter values including any valid CSS unit, ex: %2$s."
 msgstr "%1$s Enter values including any valid CSS unit, ex: %2$s."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:501
+#: includes/lib/inc/class-fusion-fusionredux.php:502
 msgid "In pixels."
 msgstr "In pixels."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:727
+#: includes/lib/inc/class-fusion-fusionredux.php:728
 #: includes/metaboxes/metaboxes.php:286
 msgid "Page"
 msgstr "Page"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:729
+#: includes/lib/inc/class-fusion-fusionredux.php:730
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:415
 msgid "Builder"
 msgstr "Builder"
 
 #. translators: The option type.
-#: includes/lib/inc/class-fusion-fusionredux.php:733
+#: includes/lib/inc/class-fusion-fusionredux.php:734
 msgid ""
 "This is a dependent option that always stays visible because other %s "
 "Options can utilize it."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-fusionredux.php:779
+#: includes/lib/inc/class-fusion-fusionredux.php:780
 msgid "Theme Skin"
 msgstr "Theme Skin"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:780
+#: includes/lib/inc/class-fusion-fusionredux.php:781
 msgid "Color Scheme"
 msgstr "Color Scheme"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1189
+#: includes/lib/inc/class-fusion-fusionredux.php:1190
 msgid ""
 "Are you sure? This will reset all saved options to the default Avada Classic "
 "theme options. This does not reset them to any other demo that you may have "
 "imported."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1199
+#: includes/lib/inc/class-fusion-fusionredux.php:1200
 msgid ""
 "Are you sure? This will reset all saved options to the default Avada Classic "
 "theme options for this section. This does not reset them to any other demo "
 "that you may have imported."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1209
+#: includes/lib/inc/class-fusion-fusionredux.php:1210
 msgid ""
 "Copy the contents of the json file and paste it below. Then click \"Import\" "
 "to restore your setings."
@@ -4389,40 +4401,40 @@ msgstr ""
 "Copy the contents of the json file and paste it below. Then click \"Import\" "
 "to restore your setings."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1283
+#: includes/lib/inc/class-fusion-fusionredux.php:1284
 msgid "Media fields using remote URLs were detected in your theme options:"
 msgstr "Media fields using remote URLs were detected in your theme options:"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1289
+#: includes/lib/inc/class-fusion-fusionredux.php:1290
 msgid "Please replace them with locally-imported files from your media-library"
 msgstr ""
 "Please replace them with locally-imported files from your media-library"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1295
+#: includes/lib/inc/class-fusion-fusionredux.php:1296
 msgid "Dismiss Message"
 msgstr "Dismiss Message"
 
-#: includes/lib/inc/class-fusion-images.php:884
+#: includes/lib/inc/class-fusion-images.php:943
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:888
+#: includes/lib/inc/class-fusion-images.php:947
 msgid "1x1"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:889
+#: includes/lib/inc/class-fusion-images.php:948
 msgid "Landscape"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:890
+#: includes/lib/inc/class-fusion-images.php:949
 msgid "Portrait"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:891
+#: includes/lib/inc/class-fusion-images.php:950
 msgid "2x2"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:893
+#: includes/lib/inc/class-fusion-images.php:952
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -4701,31 +4713,31 @@ msgstr ""
 msgid "documentation post"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:681
+#: includes/lib/inc/class-fusion-scripts.php:691
 msgid "Loading the next set of posts..."
 msgstr "Loading the next set of posts..."
 
-#: includes/lib/inc/class-fusion-scripts.php:682
+#: includes/lib/inc/class-fusion-scripts.php:692
 msgid "All items displayed."
 msgstr "All items displayed."
 
-#: includes/lib/inc/class-fusion-settings.php:390
+#: includes/lib/inc/class-fusion-settings.php:389
 msgid "Link & Zoom"
 msgstr "Link & Zoom"
 
-#: includes/lib/inc/class-fusion-settings.php:393
+#: includes/lib/inc/class-fusion-settings.php:392
 #: includes/metaboxes/tabs/tab_portfolio_post.php:144
 #: includes/metaboxes/tabs/tab_post.php:70
 msgid "Link"
 msgstr "Link"
 
-#: includes/lib/inc/class-fusion-settings.php:396
+#: includes/lib/inc/class-fusion-settings.php:395
 #: includes/metaboxes/tabs/tab_portfolio_post.php:145
 #: includes/metaboxes/tabs/tab_post.php:71
 msgid "Zoom"
 msgstr "Zoom"
 
-#: includes/lib/inc/class-fusion-settings.php:399
+#: includes/lib/inc/class-fusion-settings.php:398
 #: includes/metaboxes/tabs/tab_portfolio_post.php:146
 #: includes/metaboxes/tabs/tab_post.php:72
 msgid "No Icons"
@@ -4734,17 +4746,17 @@ msgstr "No Icons"
 #. translators: The value.
 #. translators: The default value.
 #. translators: The default value.
-#: includes/lib/inc/class-fusion-settings.php:435
-#: includes/lib/inc/class-fusion-settings.php:442
-#: includes/lib/inc/class-fusion-settings.php:449
-#: includes/lib/inc/class-fusion-settings.php:457
-#: includes/lib/inc/class-fusion-settings.php:470
-#: includes/lib/inc/class-fusion-settings.php:482
-#: includes/lib/inc/class-fusion-settings.php:490
+#: includes/lib/inc/class-fusion-settings.php:434
+#: includes/lib/inc/class-fusion-settings.php:441
+#: includes/lib/inc/class-fusion-settings.php:448
+#: includes/lib/inc/class-fusion-settings.php:456
+#: includes/lib/inc/class-fusion-settings.php:469
+#: includes/lib/inc/class-fusion-settings.php:481
+#: includes/lib/inc/class-fusion-settings.php:489
 msgid "  Default currently set to %s."
 msgstr "  Default currently set to %s."
 
-#: includes/lib/inc/class-fusion-settings.php:439
+#: includes/lib/inc/class-fusion-settings.php:438
 #: includes/metaboxes/tabs/tab_page.php:70
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:87
 #: includes/metaboxes/tabs/tab_portfolio_post.php:175
@@ -4759,7 +4771,7 @@ msgstr "  Default currently set to %s."
 msgid "Show"
 msgstr "Show"
 
-#: includes/lib/inc/class-fusion-settings.php:439
+#: includes/lib/inc/class-fusion-settings.php:438
 #: includes/metaboxes/tabs/tab_page.php:71
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:45
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:88
@@ -4772,13 +4784,13 @@ msgstr "Show"
 #: includes/metaboxes/tabs/tab_post.php:138
 #: includes/metaboxes/tabs/tab_post.php:150
 #: includes/metaboxes/tabs/tab_post.php:162 includes/options/blog.php:54
-#: includes/options/blog.php:67 includes/options/page_title_bar.php:49
-#: includes/options/search_page.php:98
+#: includes/options/blog.php:67 includes/options/contact.php:185
+#: includes/options/page_title_bar.php:49 includes/options/search_page.php:98
 msgid "Hide"
 msgstr "Hide"
 
-#: includes/lib/inc/class-fusion-settings.php:446
-#: includes/lib/inc/class-fusion-settings.php:454
+#: includes/lib/inc/class-fusion-settings.php:445
+#: includes/lib/inc/class-fusion-settings.php:453
 #: includes/metaboxes/options/options_slide.php:94
 #: includes/metaboxes/options/options_slide.php:103
 #: includes/metaboxes/options/options_slide.php:112
@@ -4814,8 +4826,8 @@ msgstr "Hide"
 msgid "Yes"
 msgstr "Yes"
 
-#: includes/lib/inc/class-fusion-settings.php:446
-#: includes/lib/inc/class-fusion-settings.php:454
+#: includes/lib/inc/class-fusion-settings.php:445
+#: includes/lib/inc/class-fusion-settings.php:453
 #: includes/metaboxes/options/options_slide.php:95
 #: includes/metaboxes/options/options_slide.php:104
 #: includes/metaboxes/options/options_slide.php:113
@@ -4854,50 +4866,50 @@ msgid "No"
 msgstr "No"
 
 #. translators: The value.
-#: includes/lib/inc/class-fusion-settings.php:449
+#: includes/lib/inc/class-fusion-settings.php:448
 msgid "  Current value set to %s."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-settings.php:466
+#: includes/lib/inc/class-fusion-settings.php:465
 msgid "none"
 msgstr "none"
 
 #. translators: The value.
-#: includes/lib/inc/class-fusion-settings.php:477
+#: includes/lib/inc/class-fusion-settings.php:476
 msgid ""
 "  Global sidebar is currently active and will override selection with %s."
 msgstr ""
 "  Global sidebar is currently active and will override selection with %s."
 
 #. translators: The element and its value.
-#: includes/lib/inc/class-fusion-settings.php:495
+#: includes/lib/inc/class-fusion-settings.php:494
 msgid ""
 "  Leave empty for value set in parent options. If that is also empty, the "
 "%1$s value of %2$s will be used."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-settings.php:495
-#: includes/lib/inc/class-fusion-settings.php:504
+#: includes/lib/inc/class-fusion-settings.php:494
+#: includes/lib/inc/class-fusion-settings.php:503
 msgid "Element Options"
 msgstr "Element Options"
 
 #. translators: The default value.
-#: includes/lib/inc/class-fusion-settings.php:501
+#: includes/lib/inc/class-fusion-settings.php:500
 msgid "  Leave empty for default value of %s."
 msgstr "  Leave empty for default value of %s."
 
 #. translators: %1$s is the link. %2$s is the link text.
-#: includes/lib/inc/class-fusion-settings.php:504
+#: includes/lib/inc/class-fusion-settings.php:503
 msgid ""
 "  Currently no default selected. Can be set globally from the <a %1$s>%2$s</"
 "a>."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-settings.php:521
+#: includes/lib/inc/class-fusion-settings.php:520
 msgid "Reset to default."
 msgstr "Reset to default."
 
-#: includes/lib/inc/class-fusion-settings.php:521
+#: includes/lib/inc/class-fusion-settings.php:520
 msgid "Using default value."
 msgstr "Using default value."
 
@@ -5116,7 +5128,7 @@ msgstr "Height"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:138
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:215
 #: includes/options/extra.php:266 includes/options/header.php:54
-#: includes/options/menu.php:797 includes/options/menu.php:1950
+#: includes/options/menu.php:797 includes/options/menu.php:1980
 #: includes/options/sliding_bar.php:74 includes/options/social_media.php:104
 #: includes/options/social_media.php:228 includes/options/social_media.php:405
 #: includes/widget/class-fusion-widget-social-links.php:550
@@ -5128,7 +5140,7 @@ msgstr "Top"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:152
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:229
 #: includes/options/extra.php:265 includes/options/lightbox.php:102
-#: includes/options/menu.php:796 includes/options/menu.php:1952
+#: includes/options/menu.php:796 includes/options/menu.php:1982
 #: includes/options/sliding_bar.php:76 includes/options/social_media.php:106
 #: includes/options/social_media.php:230 includes/options/social_media.php:407
 #: includes/widget/class-fusion-widget-social-links.php:552
@@ -5824,6 +5836,7 @@ msgid "Clear Gallery"
 msgstr "Clear Gallery"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:88
+#: includes/options/advanced.php:218
 msgid "Regular"
 msgstr "Regular"
 
@@ -5846,7 +5859,7 @@ msgstr "Add More"
 msgid "Select an item"
 msgstr "Select an item"
 
-#: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/select/field_select.php:134
+#: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/select/field_select.php:138
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/select_image/field_select_image.php:144
 msgid "No items of this type were found."
 msgstr "No items of this type were found."
@@ -6346,6 +6359,7 @@ msgid "Language"
 msgstr "Language"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:270
+#: includes/options/performance.php:235
 msgid "Browser"
 msgstr "Browser"
 
@@ -7078,40 +7092,37 @@ msgid "Vimeo Video ID"
 msgstr "Vimeo Video ID"
 
 #: includes/metaboxes/options/options_slide.php:53
-msgid "Video WebM Upload"
-msgstr "Video WebM Upload"
-
-#: includes/metaboxes/options/options_slide.php:54
-msgid ""
-"Video must be in a 16:9 aspect ratio. Add your WebM video file. WebM and MP4 "
-"format must be included to render your video with cross browser "
-"compatibility. OGV is optional."
-msgstr ""
-"Video must be in a 16:9 aspect ratio. Add your WebM video file. WebM and MP4 "
-"format must be included to render your video with cross browser "
-"compatibility. OGV is optional."
-
-#: includes/metaboxes/options/options_slide.php:58
 msgid "Video MP4 Upload"
 msgstr "Video MP4 Upload"
 
+#: includes/metaboxes/options/options_slide.php:54
+msgid ""
+"Add your MP4 video file. This format must be included to render your video "
+"with cross-browser compatibility. WebM and OGV are optional. Using videos in "
+"a 16:9 aspect ratio is recommended."
+msgstr ""
+
+#: includes/metaboxes/options/options_slide.php:58
+msgid "Video WebM Upload"
+msgstr "Video WebM Upload"
+
 #: includes/metaboxes/options/options_slide.php:59
 msgid ""
-"Video must be in a 16:9 aspect ratio. Add your MP4 video file. MP4 and WebM "
-"format must be included to render your video with cross browser "
-"compatibility. OGV is optional."
+"Add your WebM video file. This is optional, only MP4 is required to render "
+"your video with cross-browser compatibility. Using videos in a 16:9 aspect "
+"ratio is recommended."
 msgstr ""
-"Video must be in a 16:9 aspect ratio. Add your MP4 video file. MP4 and WebM "
-"format must be included to render your video with cross browser "
-"compatibility. OGV is optional."
 
 #: includes/metaboxes/options/options_slide.php:63
 msgid "Video OGV Upload"
 msgstr "Video OGV Upload"
 
 #: includes/metaboxes/options/options_slide.php:64
-msgid "Add your OGV video file. This is optional."
-msgstr "Add your OGV video file. This is optional."
+msgid ""
+"Add your OGV video file. This is optional, only MP4 is required to render "
+"your video with cross-browser compatibility. Using videos in a 16:9 aspect "
+"ratio is recommended."
+msgstr ""
 
 #: includes/metaboxes/options/options_slide.php:68
 msgid "Video Preview Image"
@@ -7193,13 +7204,10 @@ msgstr "Hide Video Controls"
 
 #: includes/metaboxes/options/options_slide.php:124
 msgid ""
-"If this is set to yes, then autoplay must be enabled for the video to work.  "
-"In order to ensure the controls are always fully visible, the Video Display "
-"Mode should be set to \"contain\"."
+"If this is set to yes, autoplay must be enabled, otherwise the video can't "
+"play. For YouTube and Vimeo videos, in order to ensure the controls are "
+"always fully visible, the Video Display Mode should be set to \"contain\"."
 msgstr ""
-"If this is set to yes, then autoplay must be enabled for the video to work.  "
-"In order to ensure the controls are always fully visible, the Video Display "
-"Mode should be set to \"contain\"."
 
 #: includes/metaboxes/options/options_slide.php:130
 msgid "Slider Content Settings:"
@@ -8295,19 +8303,19 @@ msgstr "Slider Fallback Image"
 msgid "This image will override the slider on mobile devices."
 msgstr "This image will override the slider on mobile devices."
 
-#: includes/options/advanced.php:36
+#: includes/options/advanced.php:28
 msgid "Advanced"
 msgstr "Advanced"
 
-#: includes/options/advanced.php:43
+#: includes/options/advanced.php:35
 msgid "Code Fields (Tracking etc.)"
 msgstr "Code Fields (Tracking etc.)"
 
-#: includes/options/advanced.php:49
+#: includes/options/advanced.php:41
 msgid "Tracking Code"
 msgstr "Tracking Code"
 
-#: includes/options/advanced.php:50
+#: includes/options/advanced.php:42
 msgid ""
 "Paste your tracking code here. This will be added into the header template "
 "of your theme. Place code inside &lt;script&gt; tags."
@@ -8315,11 +8323,11 @@ msgstr ""
 "Paste your tracking code here. This will be added into the header template "
 "of your theme. Place code inside &lt;script&gt; tags."
 
-#: includes/options/advanced.php:61
+#: includes/options/advanced.php:53
 msgid "Space before &lt;/head&gt;"
 msgstr "Space before &lt;/head&gt;"
 
-#: includes/options/advanced.php:62
+#: includes/options/advanced.php:54
 msgid ""
 "Only accepts javascript code wrapped with &lt;script&gt; tags and HTML "
 "markup that is valid inside the &lt;/head&gt; tag."
@@ -8327,11 +8335,11 @@ msgstr ""
 "Only accepts javascript code wrapped with &lt;script&gt; tags and HTML "
 "markup that is valid inside the &lt;/head&gt; tag."
 
-#: includes/options/advanced.php:73
+#: includes/options/advanced.php:65
 msgid "Space before &lt;/body&gt;"
 msgstr "Space before &lt;/body&gt;"
 
-#: includes/options/advanced.php:74
+#: includes/options/advanced.php:66
 msgid ""
 "Only accepts javascript code, wrapped with &lt;script&gt; tags and valid "
 "HTML markup inside the &lt;/body&gt; tag."
@@ -8339,15 +8347,15 @@ msgstr ""
 "Only accepts javascript code, wrapped with &lt;script&gt; tags and valid "
 "HTML markup inside the &lt;/body&gt; tag."
 
-#: includes/options/advanced.php:87
+#: includes/options/advanced.php:79
 msgid "Theme Features"
 msgstr "Theme Features"
 
-#: includes/options/advanced.php:93
+#: includes/options/advanced.php:85
 msgid "Avada's Option Network Dependencies"
 msgstr "Avada's Option Network Dependencies"
 
-#: includes/options/advanced.php:94
+#: includes/options/advanced.php:86
 msgid ""
 "Avada's Option Network consists of Fusion Theme Options, Page Options, "
 "Builder options and each of them have dependent options ON by default. This "
@@ -8363,12 +8371,12 @@ msgstr ""
 "this option off, and all dependencies will be disabled (requires save & "
 "refresh)."
 
-#: includes/options/advanced.php:100
+#: includes/options/advanced.php:92
 msgid "WordPress jpeg Quality"
 msgstr "WordPress jpeg Quality"
 
 #. translators: "Regenerate Thumbnails" plugin link.
-#: includes/options/advanced.php:102
+#: includes/options/advanced.php:94
 msgid ""
 "Controls the quality of the generated image sizes for every uploaded image. "
 "Ranges between 0 and 100 percent. Higher values lead to better image "
@@ -8380,11 +8388,11 @@ msgstr ""
 "qualities but also higher file sizes. NOTE: After changing this value, "
 "please install and run the %s plugin once."
 
-#: includes/options/advanced.php:113
+#: includes/options/advanced.php:105
 msgid "Smooth Scrolling"
 msgstr "Smooth Scrolling"
 
-#: includes/options/advanced.php:114
+#: includes/options/advanced.php:106
 msgid ""
 "Turn on to enable smooth scrolling. This will replace default browser "
 "scrollbar with a dark scrollbar."
@@ -8392,41 +8400,39 @@ msgstr ""
 "Turn on to enable smooth scrolling. This will replace default browser "
 "scrollbar with a dark scrollbar."
 
-#: includes/options/advanced.php:120
+#: includes/options/advanced.php:112
 msgid "Code Block Encoding"
 msgstr "Code Block Encoding"
 
-#: includes/options/advanced.php:121
+#: includes/options/advanced.php:113
 msgid ""
 "Turn on to enable encoding in the Fusion Builder code block and syntax "
 "highlighting elements."
 msgstr ""
 
-#: includes/options/advanced.php:127 includes/options/menu.php:1815
+#: includes/options/advanced.php:119 includes/options/menu.php:1845
 msgid "Mega Menu"
 msgstr "Mega Menu"
 
-#: includes/options/advanced.php:128
+#: includes/options/advanced.php:120
 msgid "Turn on to enable Avada's mega menu."
 msgstr "Turn on to enable Avada's mega menu."
 
-#: includes/options/advanced.php:134
-msgid "Avada Styles For Revolution Slider"
-msgstr "Avada Styles For Revolution Slider"
+#: includes/options/advanced.php:126
+msgid "Avada Styles For Slider Revolution"
+msgstr ""
 
-#: includes/options/advanced.php:135
+#: includes/options/advanced.php:127
 msgid ""
-"Turn on to enable the Avada styles and use the default Revolution Slider "
+"Turn on to enable the Avada styles and use the default Slider Revolution "
 "styles."
 msgstr ""
-"Turn on to enable the Avada styles and use the default Revolution Slider "
-"styles."
 
-#: includes/options/advanced.php:141
+#: includes/options/advanced.php:133
 msgid "Avada Dropdown Styles"
 msgstr "Avada Dropdown Styles"
 
-#: includes/options/advanced.php:142
+#: includes/options/advanced.php:134
 msgid ""
 "Turn on to enable the Avada styles for dropdown/select fields site wide. "
 "This should be done if you experience any issues with 3rd party plugin "
@@ -8436,59 +8442,59 @@ msgstr ""
 "This should be done if you experience any issues with 3rd party plugin "
 "dropdowns."
 
-#: includes/options/advanced.php:148
+#: includes/options/advanced.php:140
 msgid "CSS Animations"
 msgstr "CSS Animations"
 
-#: includes/options/advanced.php:149
+#: includes/options/advanced.php:141
 msgid "Turn on to enable CSS animations on elements."
 msgstr "Turn on to enable CSS animations on elements."
 
-#: includes/options/advanced.php:155
+#: includes/options/advanced.php:147
 msgid "CSS Animations on Mobiles"
 msgstr "CSS Animations on Mobiles"
 
-#: includes/options/advanced.php:156
+#: includes/options/advanced.php:148
 msgid "Turn on to enable CSS animations on mobiles."
 msgstr "Turn on to enable CSS animations on mobiles."
 
-#: includes/options/advanced.php:162
+#: includes/options/advanced.php:154
 msgid "CSS Image Hover Animations on Mobiles"
 msgstr "CSS Image Hover Animations on Mobiles"
 
-#: includes/options/advanced.php:163
+#: includes/options/advanced.php:155
 msgid "Turn on to enable CSS image hover animations on mobiles."
 msgstr "Turn on to enable CSS image hover animations on mobiles."
 
-#: includes/options/advanced.php:169
+#: includes/options/advanced.php:161
 msgid "Youtube API Scripts"
 msgstr "Youtube API Scripts"
 
-#: includes/options/advanced.php:170
+#: includes/options/advanced.php:162
 msgid "Turn on to enable Youtube API scripts."
 msgstr "Turn on to enable Youtube API scripts."
 
-#: includes/options/advanced.php:176
+#: includes/options/advanced.php:168
 msgid "Vimeo API Scripts"
 msgstr "Vimeo API Scripts"
 
-#: includes/options/advanced.php:177
+#: includes/options/advanced.php:169
 msgid "Turn on to enable Vimeo API scripts."
 msgstr "Turn on to enable Vimeo API scripts."
 
-#: includes/options/advanced.php:183
+#: includes/options/advanced.php:175
 msgid "Google Map Scripts"
 msgstr "Google Map Scripts"
 
-#: includes/options/advanced.php:184
+#: includes/options/advanced.php:176
 msgid "Turn on to enable google map."
 msgstr "Turn on to enable google map."
 
-#: includes/options/advanced.php:190
+#: includes/options/advanced.php:182
 msgid "ToTop Script"
 msgstr "ToTop Script"
 
-#: includes/options/advanced.php:191
+#: includes/options/advanced.php:183
 msgid ""
 "Turn on to enable the ToTop script which adds the scrolling to top "
 "functionality."
@@ -8496,45 +8502,74 @@ msgstr ""
 "Turn on to enable the ToTop script which adds the scrolling to top "
 "functionality."
 
-#: includes/options/advanced.php:197
+#: includes/options/advanced.php:189
 msgid "ToTop Script on mobile"
 msgstr "ToTop Script on mobile"
 
-#: includes/options/advanced.php:198
+#: includes/options/advanced.php:190
 msgid "Turn on to enable the ToTop script on mobile devices."
 msgstr "Turn on to enable the ToTop script on mobile devices."
 
-#: includes/options/advanced.php:205
+#: includes/options/advanced.php:197
 msgid "Turn on to enable the fusion slider."
 msgstr "Turn on to enable the fusion slider."
 
-#: includes/options/advanced.php:212
+#: includes/options/advanced.php:204
 msgid "Turn on to enable the elastic slider."
 msgstr "Turn on to enable the elastic slider."
 
-#: includes/options/advanced.php:218
+#: includes/options/advanced.php:210
 msgid "FontAwesome"
 msgstr "FontAwesome"
 
-#: includes/options/advanced.php:219
-msgid "Turn on to enable font awesome icons."
-msgstr "Turn on to enable font awesome icons."
+#: includes/options/advanced.php:211
+msgid ""
+"Choose which Font Awesome icon subsets you want to load. Note that Light "
+"subset can only be used if Font Awesome Pro is enabled."
+msgstr ""
+
+#: includes/options/advanced.php:217
+msgid "Brands"
+msgstr ""
+
+#: includes/options/advanced.php:220 includes/options/colors.php:46
+#: includes/options/contact.php:143 includes/options/lightbox.php:78
+#: includes/widget/class-fusion-widget-tweets.php:311
+msgid "Light"
+msgstr "Light"
+
+#: includes/options/advanced.php:224
+msgid "FontAwesome v4 Compatibility"
+msgstr ""
 
 #: includes/options/advanced.php:225
+msgid "Turn on to enable support for FontAwesome 4 icon code format."
+msgstr ""
+
+#: includes/options/advanced.php:231
+msgid "FontAwesome Pro"
+msgstr ""
+
+#. translators: %1$s = license text & link. %2$s: whitelist text & link.
+#: includes/options/advanced.php:233
+msgid "Font Awesome Pro %1$s is required and you need to %2$s your domain."
+msgstr ""
+
+#: includes/options/advanced.php:239
 msgid "CSS Outlines"
 msgstr ""
 
-#: includes/options/advanced.php:226
+#: includes/options/advanced.php:240
 msgid ""
 "Turn on to enable browser specific CSS element outlines used to improve "
 "accessibility."
 msgstr ""
 
-#: includes/options/advanced.php:232
+#: includes/options/advanced.php:246
 msgid "Open Graph Meta Tags"
 msgstr "Open Graph Meta Tags"
 
-#: includes/options/advanced.php:233
+#: includes/options/advanced.php:247
 msgid ""
 "Turn on to enable open graph meta tags which are mainly used when sharing "
 "pages on social networking sites like Facebook. <strong>IMPORTANT:</strong> "
@@ -8542,156 +8577,40 @@ msgid ""
 "of this, and if you want to use that, this option should be disabled."
 msgstr ""
 
-#: includes/options/advanced.php:239
+#: includes/options/advanced.php:253
 msgid "Rich Snippets"
 msgstr "Rich Snippets"
 
-#: includes/options/advanced.php:240
+#: includes/options/advanced.php:254
 msgid ""
 "Turn on to enable rich snippets data site wide. If set to \"On\", you can "
 "also control individual items below. If set to \"Off\" all items will be "
 "disabled."
 msgstr ""
 
-#: includes/options/advanced.php:246
+#: includes/options/advanced.php:260
 msgid "Rich Snippets Title"
 msgstr ""
 
-#: includes/options/advanced.php:247
+#: includes/options/advanced.php:261
 msgid "Turn on to enable title rich snippet data site wide."
 msgstr ""
 
-#: includes/options/advanced.php:260
+#: includes/options/advanced.php:274
 msgid "Rich Snippets Author Info"
 msgstr ""
 
-#: includes/options/advanced.php:261
+#: includes/options/advanced.php:275
 msgid "Turn on to enable author rich snippet data site wide."
 msgstr ""
 
-#: includes/options/advanced.php:274
+#: includes/options/advanced.php:288
 msgid "Rich Snippets Last Update Date"
 msgstr ""
 
-#: includes/options/advanced.php:275
+#: includes/options/advanced.php:289
 msgid "Turn on to enable udate date rich snippet data site wide."
 msgstr ""
-
-#: includes/options/advanced.php:290
-msgid "Dynamic CSS & JS"
-msgstr "Dynamic CSS & JS"
-
-#: includes/options/advanced.php:296
-msgid "CSS Compiling method"
-msgstr "CSS Compiling method"
-
-#: includes/options/advanced.php:297
-msgid ""
-"Select \"File\" mode to compile the dynamic CSS to files (a separate file "
-"will be created for each of your pages & posts inside of the uploads/fusion-"
-"styles folder), \"Database\" mode to cache the CSS in your database, or "
-"select \"Disabled\" to disable."
-msgstr ""
-"Select \"File\" mode to compile the dynamic CSS to files (a separate file "
-"will be created for each of your pages & posts inside of the uploads/fusion-"
-"styles folder), \"Database\" mode to cache the CSS in your database, or "
-"select \"Disabled\" to disable."
-
-#: includes/options/advanced.php:302
-msgid "File"
-msgstr "File"
-
-#: includes/options/advanced.php:303
-msgid "Database"
-msgstr "Database"
-
-#: includes/options/advanced.php:304 includes/options/blog.php:452
-msgid "Disabled"
-msgstr "Disabled"
-
-#: includes/options/advanced.php:308
-msgid "Load Media-Queries Files Asynchronously"
-msgstr ""
-
-#: includes/options/advanced.php:309
-msgid ""
-"When enabled, the CSS media-queries will be enqueued separately and then "
-"loaded asynchronously, improving performance on mobile and desktop."
-msgstr ""
-
-#: includes/options/advanced.php:315
-msgid "Cache Server IP"
-msgstr "Cache Server IP"
-
-#: includes/options/advanced.php:316
-msgid ""
-"For unique cases where you are using cloud flare and a cache server, ex: "
-"varnish cache. Enter your cache server IP to clear the theme options dynamic "
-"CSS cache. Consult with your server admin for help."
-msgstr ""
-"For unique cases where you are using cloud flare and a cache server, ex: "
-"varnish cache. Enter your cache server IP to clear the theme options dynamic "
-"CSS cache. Consult with your server admin for help."
-
-#: includes/options/advanced.php:323
-msgid ""
-"<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
-"exist or access is restricted."
-msgstr ""
-"<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
-"exist or access is restricted."
-
-#: includes/options/advanced.php:328
-msgid "Enable JS Compiler"
-msgstr "Enable JS Compiler"
-
-#: includes/options/advanced.php:329
-msgid ""
-"We have detected that your server supports HTTP/2. We recommend you leave "
-"the compiler disabled as that will improve performance of your site by "
-"allowing multiple JS files to be downloaded simultaneously."
-msgstr ""
-"We have detected that your server supports HTTP/2. We recommend you leave "
-"the compiler disabled as that will improve performance of your site by "
-"allowing multiple JS files to be downloaded simultaneously."
-
-#: includes/options/advanced.php:329
-msgid ""
-"By default all the javascript files are combined. Disabling the JS compiler "
-"will load non-combined javascript files. This will have an impact on the "
-"performance of your site."
-msgstr ""
-"By default all the javascript files are combined. Disabling the JS compiler "
-"will load non-combined javascript files. This will have an impact on the "
-"performance of your site."
-
-#: includes/options/advanced.php:335 includes/options/advanced.php:341
-msgid "Reset Fusion Caches"
-msgstr "Reset Fusion Caches"
-
-#. translators: %1$s: <code>uploads/fusion-styles</code>. %2$s:
-#. <code>uploads/fusion-scripts</code>.
-#: includes/options/advanced.php:337
-msgid ""
-"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
-"%1$s and %2$s folders. When resetting the caches on the main site of a "
-"multisite installation, caches for all sub-sites will be reset. IMPORTANT "
-"NOTE: On large multisite installations with a low PHP timeout setting, bulk-"
-"resetting the caches may timeout."
-msgstr ""
-"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
-"%1$s and %2$s folders. When resetting the caches on the main site of a "
-"multisite installation, caches for all sub-sites will be reset. IMPORTANT "
-"NOTE: On large multisite installations with a low PHP timeout setting, bulk-"
-"resetting the caches may timeout."
-
-#: includes/options/advanced.php:337
-msgid ""
-"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
-"%1$s and %2$s folders."
-msgstr ""
-"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
-"%1$s and %2$s folders."
 
 #: includes/options/background.php:35
 msgid "Page Background"
@@ -9167,6 +9086,10 @@ msgstr ""
 msgid "Below "
 msgstr "Below "
 
+#: includes/options/blog.php:452 includes/options/performance.php:93
+msgid "Disabled"
+msgstr "Disabled"
+
 #: includes/options/blog.php:456
 msgid "Meta Data Position"
 msgstr ""
@@ -9347,13 +9270,7 @@ msgstr ""
 "light and a page is still dark, edit the page and look at each container "
 "background settings, along with Fusion Page Options."
 
-#: includes/options/colors.php:46 includes/options/contact.php:131
-#: includes/options/lightbox.php:78
-#: includes/widget/class-fusion-widget-tweets.php:311
-msgid "Light"
-msgstr "Light"
-
-#: includes/options/colors.php:51 includes/options/contact.php:132
+#: includes/options/colors.php:51 includes/options/contact.php:144
 #: includes/options/lightbox.php:79
 #: includes/widget/class-fusion-widget-tweets.php:312
 msgid "Dark"
@@ -9542,40 +9459,91 @@ msgstr ""
 "your server to at least PHP 5.3"
 
 #: includes/options/contact.php:107
+msgid "ReCaptcha Version"
+msgstr ""
+
+#: includes/options/contact.php:108
+msgid ""
+"Set the ReCaptcha version you want to use and make sure your keys below "
+"match the set version."
+msgstr ""
+
+#: includes/options/contact.php:113
+msgid "V2"
+msgstr ""
+
+#: includes/options/contact.php:114
+msgid "V3"
+msgstr ""
+
+#: includes/options/contact.php:119
 msgid "ReCaptcha Site Key"
 msgstr "ReCaptcha Site Key"
 
 #. translators: "our docs" link.
-#: includes/options/contact.php:109
+#: includes/options/contact.php:121
 msgid "Follow the steps in %s to get the site key."
 msgstr "Follow the steps in %s to get the site key."
 
-#: includes/options/contact.php:109 includes/options/contact.php:118
+#: includes/options/contact.php:121 includes/options/contact.php:130
 msgid "our docs"
 msgstr "our docs"
 
-#: includes/options/contact.php:116
+#: includes/options/contact.php:128
 msgid "ReCaptcha Secret Key"
 msgstr "ReCaptcha Secret Key"
 
 #. translators: "our docs" link.
-#: includes/options/contact.php:118
+#: includes/options/contact.php:130
 msgid "Follow the steps in %s to get the secret key."
 msgstr "Follow the steps in %s to get the secret key."
 
-#: includes/options/contact.php:125
+#: includes/options/contact.php:137
 msgid "ReCaptcha Color Scheme"
 msgstr "ReCaptcha Color Scheme"
 
-#: includes/options/contact.php:126
+#: includes/options/contact.php:138
 msgid "Controls the recaptcha color scheme."
 msgstr "Controls the recaptcha color scheme."
 
-#: includes/options/contact.php:139 includes/options/contact.php:142
+#: includes/options/contact.php:156
+msgid "ReCaptcha Security Score"
+msgstr ""
+
+#: includes/options/contact.php:157
+msgid ""
+"Set a threshold score that must be met by the ReCaptcha response. The higher "
+"the score the harder it becomes for bots, but also false positives increase."
+msgstr ""
+
+#: includes/options/contact.php:176
+msgid "ReCaptcha Badge Position"
+msgstr ""
+
+#: includes/options/contact.php:177
+msgid ""
+"Set where and if the ReCaptcha badge should be displayed. <strong>NOTE:</"
+"strong> Google's Terms and Privacy information needs to be displayed on the "
+"contact form."
+msgstr ""
+
+#: includes/options/contact.php:182
+msgid "Inline"
+msgstr ""
+
+#: includes/options/contact.php:183
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/options/contact.php:184
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/options/contact.php:199 includes/options/contact.php:202
 msgid "Google Map"
 msgstr "Google Map"
 
-#: includes/options/contact.php:148 includes/options/contact.php:466
+#: includes/options/contact.php:208 includes/options/contact.php:526
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Google Maps Script is disabled in Advanced "
 "> Theme Features section. Please enable it to see the options."
@@ -9583,7 +9551,7 @@ msgstr ""
 "<strong>IMPORTANT NOTE:</strong> Google Maps Script is disabled in Advanced "
 "> Theme Features section. Please enable it to see the options."
 
-#: includes/options/contact.php:161
+#: includes/options/contact.php:221
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab are for the google "
 "map that displays on the \"Contact\" page template. The only option that "
@@ -9593,12 +9561,12 @@ msgstr ""
 "map that displays on the \"Contact\" page template. The only option that "
 "controls the Fusion Builder google map element is the Google Maps API Key."
 
-#: includes/options/contact.php:173
+#: includes/options/contact.php:233
 msgid "Google Maps API Key"
 msgstr "Google Maps API Key"
 
 #. translators: "the Google docs" link.
-#: includes/options/contact.php:175
+#: includes/options/contact.php:235
 msgid ""
 "Follow the steps in %s to get the API key. This key applies to both the "
 "contact page map and Fusion Builder google map element."
@@ -9606,16 +9574,16 @@ msgstr ""
 "Follow the steps in %s to get the API key. This key applies to both the "
 "contact page map and Fusion Builder google map element."
 
-#: includes/options/contact.php:175
+#: includes/options/contact.php:235
 msgid "the Google docs"
 msgstr "the Google docs"
 
-#: includes/options/contact.php:189
+#: includes/options/contact.php:249
 msgid "Google API Type"
 msgstr ""
 
 #. translators: "the Google Maps Users Guide" link.
-#: includes/options/contact.php:191
+#: includes/options/contact.php:251
 msgid ""
 "Select the Google API type that should be used to load your map. The "
 "JavaScript API allows for more options and custom styling, but could be "
@@ -9624,46 +9592,46 @@ msgid ""
 "<a href=\"%s\" target=\"_blank\">Google Maps Users Guide</a>."
 msgstr ""
 
-#: includes/options/contact.php:196
+#: includes/options/contact.php:256
 msgid "JS API"
 msgstr ""
 
-#: includes/options/contact.php:197
+#: includes/options/contact.php:257
 msgid "Embed API"
 msgstr ""
 
-#: includes/options/contact.php:202
+#: includes/options/contact.php:262
 msgid "Address"
 msgstr ""
 
-#: includes/options/contact.php:203
+#: includes/options/contact.php:263
 msgid ""
 "Add the address of the location you wish to display. Address example: 775 "
 "New York Ave, Brooklyn, Kings, New York 11203. If the location is off, "
 "please try to use long/lat coordinates. ex: 12.381068,-1.492711."
 msgstr ""
 
-#: includes/options/contact.php:217
+#: includes/options/contact.php:277
 msgid "Map Type"
 msgstr ""
 
-#: includes/options/contact.php:218
+#: includes/options/contact.php:278
 msgid "Select the type of google map to display."
 msgstr ""
 
-#: includes/options/contact.php:224 includes/options/contact.php:263
+#: includes/options/contact.php:284 includes/options/contact.php:323
 msgid "Roadmap"
 msgstr "Roadmap"
 
-#: includes/options/contact.php:225 includes/options/contact.php:264
+#: includes/options/contact.php:285 includes/options/contact.php:324
 msgid "Satellite"
 msgstr "Satellite"
 
-#: includes/options/contact.php:236
+#: includes/options/contact.php:296
 msgid "Google Map Address"
 msgstr "Google Map Address"
 
-#: includes/options/contact.php:237
+#: includes/options/contact.php:297
 msgid ""
 "Add the address to the location you wish to display. Single address example: "
 "775 New York Ave, Brooklyn, Kings, New York 11203. If the location is off, "
@@ -9677,37 +9645,37 @@ msgstr ""
 "latlng=12.381068,-1.492711. For multiple addresses, separate addresses by "
 "using the | symbol. ex: Address 1|Address 2|Address 3."
 
-#: includes/options/contact.php:256
+#: includes/options/contact.php:316
 msgid "Google Map Type"
 msgstr "Google Map Type"
 
-#: includes/options/contact.php:257
+#: includes/options/contact.php:317
 msgid "Controls the type of google map that displays."
 msgstr "Controls the type of google map that displays."
 
-#: includes/options/contact.php:265
+#: includes/options/contact.php:325
 msgid "Hybrid"
 msgstr "Hybrid"
 
-#: includes/options/contact.php:266
+#: includes/options/contact.php:326
 msgid "Terrain"
 msgstr "Terrain"
 
-#: includes/options/contact.php:282
+#: includes/options/contact.php:342
 msgid "Google Map Dimensions"
 msgstr "Google Map Dimensions"
 
-#: includes/options/contact.php:283
+#: includes/options/contact.php:343
 msgid ""
 "Controls the width and height of the google map. NOTE: height does not "
 "accept percentage value."
 msgstr ""
 
-#: includes/options/contact.php:301
+#: includes/options/contact.php:361
 msgid "Google Map Top Margin"
 msgstr "Google Map Top Margin"
 
-#: includes/options/contact.php:302
+#: includes/options/contact.php:362
 msgid ""
 "This is only applied to google maps that are not 100% width. It controls the "
 "distance to menu/page title."
@@ -9715,37 +9683,37 @@ msgstr ""
 "This is only applied to google maps that are not 100% width. It controls the "
 "distance to menu/page title."
 
-#: includes/options/contact.php:316
+#: includes/options/contact.php:376
 msgid "Map Zoom Level"
 msgstr "Map Zoom Level"
 
-#: includes/options/contact.php:317
+#: includes/options/contact.php:377
 msgid ""
-"Controls the zoom level of the google map. Higher number is more zoomed in."
+"Choose the zoom level for the map. 0 corresponds to a map of the earth fully "
+"zoomed out, and larger zoom levels zoom in at a higher resolution."
 msgstr ""
-"Controls the zoom level of the google map. Higher number is more zoomed in."
 
-#: includes/options/contact.php:336
+#: includes/options/contact.php:396
 msgid "Address Pin"
 msgstr "Address Pin"
 
-#: includes/options/contact.php:337
+#: includes/options/contact.php:397
 msgid "Turn on to display the google map address pin."
 msgstr "Turn on to display the google map address pin."
 
-#: includes/options/contact.php:356
+#: includes/options/contact.php:416
 msgid "Address Pin Animation"
 msgstr "Address Pin Animation"
 
-#: includes/options/contact.php:357
-msgid "Turn on to enable address pin animation."
-msgstr "Turn on to enable address pin animation."
+#: includes/options/contact.php:417
+msgid "Turn on to enable address pin animation when the map first loads."
+msgstr ""
 
-#: includes/options/contact.php:376
+#: includes/options/contact.php:436
 msgid "Map Popup On Click"
 msgstr "Map Popup On Click"
 
-#: includes/options/contact.php:377
+#: includes/options/contact.php:437
 msgid ""
 "Turn on to require a click to display the popup graphic with address info "
 "for the pin on the map."
@@ -9753,40 +9721,38 @@ msgstr ""
 "Turn on to require a click to display the popup graphic with address info "
 "for the pin on the map."
 
-#: includes/options/contact.php:396
+#: includes/options/contact.php:456
 msgid "Map Zoom With Scrollwheel"
 msgstr "Map Zoom With Scrollwheel"
 
-#: includes/options/contact.php:397
+#: includes/options/contact.php:457
 msgid ""
-"Turn on to use the mouse scrollwheel to zoom the google map. Use Cmd/Ctrl "
-"key + scroll to zoom. If set to off, cooperative gesture handling will be "
-"enabled."
+"Turn on to enable zooming using the mouse scroll wheel. Use Cmd/Ctrl key + "
+"scroll to zoom. If set to no, zooming through two-finger movements "
+"(cooperative gesture handling) will be enabled."
 msgstr ""
 
-#: includes/options/contact.php:416
+#: includes/options/contact.php:476
 msgid "Map Scale"
 msgstr "Map Scale"
 
-#: includes/options/contact.php:417
+#: includes/options/contact.php:477
 msgid "Turn on to display the google map scale."
 msgstr "Turn on to display the google map scale."
 
-#: includes/options/contact.php:436
+#: includes/options/contact.php:496
 msgid "Map Zoom & Pan Control Icons"
 msgstr "Map Zoom & Pan Control Icons"
 
-#: includes/options/contact.php:437
-msgid ""
-"Turn on to display the google map zoom control icon and pan control icon."
+#: includes/options/contact.php:497
+msgid "Turn on to display the google map zoom control and pan control icons."
 msgstr ""
-"Turn on to display the google map zoom control icon and pan control icon."
 
-#: includes/options/contact.php:458
+#: includes/options/contact.php:518
 msgid "Google Map Styling"
 msgstr "Google Map Styling"
 
-#: includes/options/contact.php:479
+#: includes/options/contact.php:539
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab are only for the "
 "google map that displays on the \"Contact\" page template, they do not "
@@ -9794,11 +9760,11 @@ msgid ""
 "API type."
 msgstr ""
 
-#: includes/options/contact.php:491
+#: includes/options/contact.php:551
 msgid "Select the Map Styling"
 msgstr "Select the Map Styling"
 
-#: includes/options/contact.php:492
+#: includes/options/contact.php:552
 msgid ""
 "Controls the google map styles. Default is google style, Theme is our style, "
 "or choose Custom to select your own style options below."
@@ -9806,49 +9772,49 @@ msgstr ""
 "Controls the google map styles. Default is google style, Theme is our style, "
 "or choose Custom to select your own style options below."
 
-#: includes/options/contact.php:498
+#: includes/options/contact.php:558
 msgid "Default Styling"
 msgstr "Default Styling"
 
-#: includes/options/contact.php:499
+#: includes/options/contact.php:559
 msgid "Theme Styling"
 msgstr "Theme Styling"
 
-#: includes/options/contact.php:500
+#: includes/options/contact.php:560
 msgid "Custom Styling"
 msgstr "Custom Styling"
 
-#: includes/options/contact.php:516
+#: includes/options/contact.php:576
 msgid "Map Overlay Color"
 msgstr "Map Overlay Color"
 
-#: includes/options/contact.php:517
+#: includes/options/contact.php:577
 msgid ""
 "Custom styling setting only. Pick any overlaying color for the map besides "
 "pure black or white. Works best with \"roadmap\" type."
 msgstr ""
 
-#: includes/options/contact.php:541
+#: includes/options/contact.php:601
 msgid "Info Box Styling"
 msgstr "Info Box Styling"
 
-#: includes/options/contact.php:542
+#: includes/options/contact.php:602
 msgid "Custom styling setting only. Controls the styling of the info box."
 msgstr "Custom styling setting only. Controls the styling of the info box."
 
-#: includes/options/contact.php:547
+#: includes/options/contact.php:607
 msgid "Default Infobox"
 msgstr "Default Infobox"
 
-#: includes/options/contact.php:548
+#: includes/options/contact.php:608
 msgid "Custom Infobox"
 msgstr "Custom Infobox"
 
-#: includes/options/contact.php:570
+#: includes/options/contact.php:630
 msgid "Info Box Content"
 msgstr "Info Box Content"
 
-#: includes/options/contact.php:571
+#: includes/options/contact.php:631
 msgid ""
 "Custom styling setting only. Type in custom info box content to replace the "
 "default address string. For multiple addresses, separate info box contents "
@@ -9858,27 +9824,27 @@ msgstr ""
 "default address string. For multiple addresses, separate info box contents "
 "by using the | symbol. ex: InfoBox 1|InfoBox 2|InfoBox 3"
 
-#: includes/options/contact.php:595
+#: includes/options/contact.php:655
 msgid "Info Box Background Color"
 msgstr "Info Box Background Color"
 
-#: includes/options/contact.php:596
+#: includes/options/contact.php:656
 msgid "Custom styling setting only. Controls the info box background color."
 msgstr "Custom styling setting only. Controls the info box background color."
 
-#: includes/options/contact.php:625
+#: includes/options/contact.php:685
 msgid "Info Box Text Color"
 msgstr "Info Box Text Color"
 
-#: includes/options/contact.php:626
+#: includes/options/contact.php:686
 msgid "Custom styling setting only. Controls the info box text color."
 msgstr "Custom styling setting only. Controls the info box text color."
 
-#: includes/options/contact.php:655
+#: includes/options/contact.php:715
 msgid "Custom Marker Icon"
 msgstr "Custom Marker Icon"
 
-#: includes/options/contact.php:656
+#: includes/options/contact.php:716
 msgid ""
 "Custom styling setting only. Use full image urls for custom marker icons or "
 "input \"theme\" for our custom marker. For multiple addresses, separate "
@@ -10751,7 +10717,7 @@ msgstr ""
 msgid "Controls the design of the search forms."
 msgstr ""
 
-#: includes/options/extra.php:575 includes/options/menu.php:1301
+#: includes/options/extra.php:575 includes/options/menu.php:1331
 #: includes/options/woocommerce.php:308
 #: includes/widget/class-fusion-widget-tabs.php:295
 msgid "Classic"
@@ -12380,11 +12346,19 @@ msgstr "Flyout Menu Direction"
 msgid "Controls the direction the flyout menu starts from."
 msgstr "Controls the direction the flyout menu starts from."
 
-#: includes/options/menu.php:820
+#: includes/options/menu.php:818
+msgid "Flyout Menu Item Padding"
+msgstr ""
+
+#: includes/options/menu.php:819
+msgid "Controls the padding between flayout menu items."
+msgstr ""
+
+#: includes/options/menu.php:850
 msgid "Secondary Top Menu"
 msgstr "Secondary Top Menu"
 
-#: includes/options/menu.php:827
+#: includes/options/menu.php:857
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Secondary Top Menu Options are only "
 "available when using Header Layouts #2-5. Your current Header Layout does "
@@ -12394,95 +12368,95 @@ msgstr ""
 "available when using Header Layouts #2-5. Your current Header Layout does "
 "not utilize the secondary top menu."
 
-#: includes/options/menu.php:859
+#: includes/options/menu.php:889
 msgid "Secondary Menu Dropdown Width"
 msgstr "Secondary Menu Dropdown Width"
 
-#: includes/options/menu.php:860
+#: includes/options/menu.php:890
 msgid "Controls the width of the secondary menu dropdown."
 msgstr "Controls the width of the secondary menu dropdown."
 
-#: includes/options/menu.php:899
+#: includes/options/menu.php:929
 msgid "Secondary Menu Divider Color"
 msgstr "Secondary Menu Divider Color"
 
-#: includes/options/menu.php:900
+#: includes/options/menu.php:930
 msgid "Controls the divider color of the first level secondary menu."
 msgstr "Controls the divider color of the first level secondary menu."
 
-#: includes/options/menu.php:934
+#: includes/options/menu.php:964
 msgid "Secondary Menu Dropdown Background Color"
 msgstr "Secondary Menu Dropdown Background Color"
 
-#: includes/options/menu.php:935
+#: includes/options/menu.php:965
 msgid "Controls the background color of the secondary menu dropdown."
 msgstr "Controls the background color of the secondary menu dropdown."
 
-#: includes/options/menu.php:969
+#: includes/options/menu.php:999
 msgid "Secondary Menu Dropdown Background Hover Color"
 msgstr "Secondary Menu Dropdown Background Hover Color"
 
-#: includes/options/menu.php:970
+#: includes/options/menu.php:1000
 msgid "Controls the background hover color of the secondary menu dropdown."
 msgstr "Controls the background hover color of the secondary menu dropdown."
 
-#: includes/options/menu.php:1004
+#: includes/options/menu.php:1034
 msgid "Secondary Menu Dropdown Separator Color"
 msgstr "Secondary Menu Dropdown Separator Color"
 
-#: includes/options/menu.php:1005
+#: includes/options/menu.php:1035
 msgid "Controls the color of the separators in the secondary menu dropdown."
 msgstr "Controls the color of the separators in the secondary menu dropdown."
 
-#: includes/options/menu.php:1040
+#: includes/options/menu.php:1070
 msgid "Secondary Top Menu Typography"
 msgstr "Secondary Top Menu Typography"
 
-#: includes/options/menu.php:1074
+#: includes/options/menu.php:1104
 msgid "Secondary Menu Font Size"
 msgstr "Secondary Menu Font Size"
 
-#: includes/options/menu.php:1075
+#: includes/options/menu.php:1105
 msgid "Controls the font size for secondary menu text."
 msgstr "Controls the font size for secondary menu text."
 
-#: includes/options/menu.php:1112
+#: includes/options/menu.php:1142
 msgid "Secondary Menu Line Height"
 msgstr "Secondary Menu Line Height"
 
-#: includes/options/menu.php:1113
+#: includes/options/menu.php:1143
 msgid "Controls the line height for secondary menu."
 msgstr "Controls the line height for secondary menu."
 
-#: includes/options/menu.php:1150
+#: includes/options/menu.php:1180
 msgid "Secondary Menu Font Color"
 msgstr "Secondary Menu Font Color"
 
-#: includes/options/menu.php:1151
+#: includes/options/menu.php:1181
 msgid "Controls the color for secondary menu text."
 msgstr "Controls the color for secondary menu text."
 
-#: includes/options/menu.php:1185
+#: includes/options/menu.php:1215
 msgid "Secondary Menu Dropdown Font Color"
 msgstr "Secondary Menu Dropdown Font Color"
 
-#: includes/options/menu.php:1186
+#: includes/options/menu.php:1216
 msgid "Controls the color for secondary menu dropdown text."
 msgstr "Controls the color for secondary menu dropdown text."
 
-#: includes/options/menu.php:1220
+#: includes/options/menu.php:1250
 msgid "Secondary Menu Dropdown Font Hover Color"
 msgstr "Secondary Menu Dropdown Font Hover Color"
 
-#: includes/options/menu.php:1221
+#: includes/options/menu.php:1251
 msgid "Controls the hover color for secondary menu dropdown text."
 msgstr "Controls the hover color for secondary menu dropdown text."
 
-#: includes/options/menu.php:1257
+#: includes/options/menu.php:1287
 msgid "Mobile Menu"
 msgstr "Mobile Menu"
 
-#: includes/options/menu.php:1264
+#: includes/options/menu.php:1294
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Please enable responsive mode. Mobile menus "
 "are only available when you're using the responsive mode. To enable it "
@@ -12494,7 +12468,7 @@ msgstr ""
 "please go to the \"Responsive\" section and set the \"Responsive Design\" "
 "option to ON."
 
-#: includes/options/menu.php:1277
+#: includes/options/menu.php:1307
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> \"Mobile Menu Search Icon/Field\" and "
 "\"Mobile Header Background Color\" are the only options available for your "
@@ -12503,84 +12477,84 @@ msgid ""
 "Menu and Main Menu tab. "
 msgstr ""
 
-#: includes/options/menu.php:1294
+#: includes/options/menu.php:1324
 msgid "Mobile Menu Design Style"
 msgstr "Mobile Menu Design Style"
 
-#: includes/options/menu.php:1295
+#: includes/options/menu.php:1325
 msgid ""
 "Controls the design of the mobile menu. Flyout design style only allows "
 "parent level menu items."
 msgstr ""
 
-#: includes/options/menu.php:1302
+#: includes/options/menu.php:1332
 msgid "Modern"
 msgstr "Modern"
 
-#: includes/options/menu.php:1303
+#: includes/options/menu.php:1333
 msgid "Flyout"
 msgstr ""
 
-#: includes/options/menu.php:1329
+#: includes/options/menu.php:1359
 msgid "Mobile Menu Icons Top Margin"
 msgstr "Mobile Menu Icons Top Margin"
 
-#: includes/options/menu.php:1330
+#: includes/options/menu.php:1360
 msgid ""
 "Controls the top margin for the icons in the modern and flyout mobile menu "
 "design."
 msgstr ""
 
-#: includes/options/menu.php:1374
+#: includes/options/menu.php:1404
 msgid "Mobile Menu Dropdown Item Height"
 msgstr "Mobile Menu Dropdown Item Height"
 
-#: includes/options/menu.php:1375
+#: includes/options/menu.php:1405
 msgid "Controls the height of each dropdown menu item."
 msgstr "Controls the height of each dropdown menu item."
 
-#: includes/options/menu.php:1419
+#: includes/options/menu.php:1449
 msgid "Mobile Menu Dropdown Slide Outs"
 msgstr "Mobile Menu Dropdown Slide Outs"
 
-#: includes/options/menu.php:1420
+#: includes/options/menu.php:1450
 msgid "Turn on to allow dropdown sections to slide out when tapped."
 msgstr "Turn on to allow dropdown sections to slide out when tapped."
 
-#: includes/options/menu.php:1459
+#: includes/options/menu.php:1489
 msgid "Display Mobile Menu Search Icon/Field"
 msgstr ""
 
-#: includes/options/menu.php:1460
+#: includes/options/menu.php:1490
 msgid "Turn on to display the search icon/field in the mobile menu."
 msgstr ""
 
-#: includes/options/menu.php:1473
+#: includes/options/menu.php:1503
 msgid "Mobile Menu Sub-Menu Indicator"
 msgstr ""
 
-#: includes/options/menu.php:1474
+#: includes/options/menu.php:1504
 msgid "Turn on to display the mobile menu sub-menu indicator: \"-\"."
 msgstr ""
 
-#: includes/options/menu.php:1488
+#: includes/options/menu.php:1518
 msgid "Controls the background color of the header on mobile devices."
 msgstr "Controls the background color of the header on mobile devices."
 
-#: includes/options/menu.php:1501
+#: includes/options/menu.php:1531
 msgid "Mobile Archive Header Background Color"
 msgstr ""
 
-#: includes/options/menu.php:1502
+#: includes/options/menu.php:1532
 msgid ""
 "Controls the background color of the archive page header on mobile devices."
 msgstr ""
 
-#: includes/options/menu.php:1515
+#: includes/options/menu.php:1545
 msgid "Mobile Menu Background Color"
 msgstr "Mobile Menu Background Color"
 
-#: includes/options/menu.php:1516
+#: includes/options/menu.php:1546
 msgid ""
 "Controls the background color of the mobile menu dropdown and classic mobile "
 "menu box."
@@ -12588,19 +12562,19 @@ msgstr ""
 "Controls the background color of the mobile menu dropdown and classic mobile "
 "menu box."
 
-#: includes/options/menu.php:1555
+#: includes/options/menu.php:1585
 msgid "Mobile Menu Background Hover Color"
 msgstr "Mobile Menu Background Hover Color"
 
-#: includes/options/menu.php:1556
+#: includes/options/menu.php:1586
 msgid "Controls the background hover color of the mobile menu dropdown."
 msgstr "Controls the background hover color of the mobile menu dropdown."
 
-#: includes/options/menu.php:1595
+#: includes/options/menu.php:1625
 msgid "Mobile Menu Border Color"
 msgstr "Mobile Menu Border Color"
 
-#: includes/options/menu.php:1596
+#: includes/options/menu.php:1626
 msgid ""
 "Controls the border and divider colors of the mobile menu dropdown and "
 "classic mobile menu box."
@@ -12608,41 +12582,41 @@ msgstr ""
 "Controls the border and divider colors of the mobile menu dropdown and "
 "classic mobile menu box."
 
-#: includes/options/menu.php:1635
+#: includes/options/menu.php:1665
 msgid "Mobile Menu Toggle Color"
 msgstr "Mobile Menu Toggle Color"
 
-#: includes/options/menu.php:1636
+#: includes/options/menu.php:1666
 msgid "Controls the color of the mobile menu toggle icon."
 msgstr "Controls the color of the mobile menu toggle icon."
 
-#: includes/options/menu.php:1675 includes/options/menu.php:1694
+#: includes/options/menu.php:1705 includes/options/menu.php:1724
 msgid "Mobile Menu Typography"
 msgstr "Mobile Menu Typography"
 
-#: includes/options/menu.php:1695
+#: includes/options/menu.php:1725
 msgid "These settings control the typography for mobile menu."
 msgstr ""
 
-#: includes/options/menu.php:1738
+#: includes/options/menu.php:1768
 msgid "Mobile Menu Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:1739
+#: includes/options/menu.php:1769
 msgid ""
 "Controls the hover color of the mobile menu item. Also, used to highlight "
 "current mobile menu item."
 msgstr ""
 
-#: includes/options/menu.php:1768
+#: includes/options/menu.php:1798
 msgid "Mobile Menu Text Align"
 msgstr "Mobile Menu Text Align"
 
-#: includes/options/menu.php:1769
+#: includes/options/menu.php:1799
 msgid "Controls the mobile menu text alignment."
 msgstr "Controls the mobile menu text alignment."
 
-#: includes/options/menu.php:1821
+#: includes/options/menu.php:1851
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Mega Menu Options are only available when "
 "using Header Layouts #1-5. Your current Header Layout #6 does not utilize "
@@ -12652,7 +12626,7 @@ msgstr ""
 "using Header Layouts #1-5. Your current Header Layout #6 does not utilize "
 "the mega menu."
 
-#: includes/options/menu.php:1834
+#: includes/options/menu.php:1864
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Mega Menu is disabled in Advanced > Theme "
 "Features section. Please enable it to see the options."
@@ -12660,43 +12634,43 @@ msgstr ""
 "<strong>IMPORTANT NOTE:</strong> Mega Menu is disabled in Advanced > Theme "
 "Features section. Please enable it to see the options."
 
-#: includes/options/menu.php:1846
+#: includes/options/menu.php:1876
 msgid "Mega Menu Max-Width"
 msgstr "Mega Menu Max-Width"
 
-#: includes/options/menu.php:1847
+#: includes/options/menu.php:1877
 msgid "Controls the max width of the mega menu."
 msgstr "Controls the max width of the mega menu."
 
-#: includes/options/menu.php:1870
+#: includes/options/menu.php:1900
 msgid "Mega Menu Column Title Size"
 msgstr "Mega Menu Column Title Size"
 
-#: includes/options/menu.php:1871
+#: includes/options/menu.php:1901
 msgid "Controls the font size for mega menu column titles."
 msgstr "Controls the font size for mega menu column titles."
 
-#: includes/options/menu.php:1889
+#: includes/options/menu.php:1919
 msgid "Mega Menu Dropdown Item Padding"
 msgstr "Mega Menu Dropdown Item Padding"
 
-#: includes/options/menu.php:1890
+#: includes/options/menu.php:1920
 msgid "Controls the top/bottom padding for mega menu dropdown items."
 msgstr "Controls the top/bottom padding for mega menu dropdown items."
 
-#: includes/options/menu.php:1913
+#: includes/options/menu.php:1943
 msgid "Mega Menu Item Divider"
 msgstr "Mega Menu Item Divider"
 
-#: includes/options/menu.php:1914
+#: includes/options/menu.php:1944
 msgid "Turn on to display a divider between mega menu dropdown items."
 msgstr "Turn on to display a divider between mega menu dropdown items."
 
-#: includes/options/menu.php:1934
+#: includes/options/menu.php:1964
 msgid "Main Menu Icons"
 msgstr "Main Menu Icons"
 
-#: includes/options/menu.php:1940
+#: includes/options/menu.php:1970
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Icons are available for both the main and "
 "dropdown menus. However, the options below only apply to the main menu. "
@@ -12710,49 +12684,47 @@ msgstr ""
 "font size and color. The icons themselves can be added to your menu items in "
 "the Appearance > Menus section."
 
-#: includes/options/menu.php:1945
+#: includes/options/menu.php:1975
 msgid "Main Menu Icon Position"
 msgstr "Main Menu Icon Position"
 
-#: includes/options/menu.php:1946
+#: includes/options/menu.php:1976
 msgid "Controls the main menu icon position."
 msgstr "Controls the main menu icon position."
 
-#: includes/options/menu.php:1958
+#: includes/options/menu.php:1988
 msgid "Main Menu Icon Size"
 msgstr "Main Menu Icon Size"
 
-#: includes/options/menu.php:1959
-msgid "Controls the size of the menu icon."
-msgstr "Controls the size of the menu icon."
+#: includes/options/menu.php:1989
+msgid "Controls the size of the top-level menu icons."
+msgstr ""
 
-#: includes/options/menu.php:1970
+#: includes/options/menu.php:2000
 msgid "Main Menu Icon Color"
 msgstr "Main Menu Icon Color"
 
-#: includes/options/menu.php:1971
-msgid "Controls the color of the main menu icon."
-msgstr "Controls the color of the main menu icon."
+#: includes/options/menu.php:2001
+msgid "Controls the color of the top-level main menu icons."
+msgstr ""
 
-#: includes/options/menu.php:1977
+#: includes/options/menu.php:2007
 msgid "Main Menu Icon Hover Color"
 msgstr "Main Menu Icon Hover Color"
 
-#: includes/options/menu.php:1978
-msgid "Controls the hover color of the main menu icon."
-msgstr "Controls the hover color of the main menu icon."
+#: includes/options/menu.php:2008
+msgid "Controls the hover color of the top-level main menu icons."
+msgstr ""
 
-#: includes/options/menu.php:1984
+#: includes/options/menu.php:2014
 msgid "Mega Menu Thumbnail Size"
 msgstr "Mega Menu Thumbnail Size"
 
-#: includes/options/menu.php:1985
+#: includes/options/menu.php:2015
 msgid ""
-"Controls the width and height of the mega menu thumbnail. Use \"auto\" for "
-"automatic resizing if you added either width or height."
+"Controls the width and height of the top-level mega menu thumbnails. Use "
+"\"auto\" for automatic resizing if you added either width or height."
 msgstr ""
-"Controls the width and height of the mega menu thumbnail. Use \"auto\" for "
-"automatic resizing if you added either width or height."
 
 #: includes/options/page_title_bar.php:43
 msgid "Controls how the page title bar displays."
@@ -12961,6 +12933,263 @@ msgstr "Post Type Archives on Breadcrumbs"
 #: includes/options/page_title_bar.php:594
 msgid "Turn on to display post type archives in the breadcrumbs path."
 msgstr "Turn on to display post type archives in the breadcrumbs path."
+
+#: includes/options/performance.php:54
+msgid "Performance"
+msgstr ""
+
+#: includes/options/performance.php:61
+msgid "Enable Lazy Loading"
+msgstr ""
+
+#: includes/options/performance.php:62
+msgid "Enable lazy loading for your website's images to improve performance."
+msgstr ""
+
+#: includes/options/performance.php:68
+msgid "Font Face Rendering"
+msgstr ""
+
+#: includes/options/performance.php:69
+msgid ""
+"Choose \"Swap\" for faster rendering with possible flash of unstyled text "
+"(FOUT) or \"Block\" for clean rendering but longer wait time until first "
+"paint."
+msgstr ""
+
+#: includes/options/performance.php:74
+msgid "Block"
+msgstr ""
+
+#: includes/options/performance.php:75
+msgid "Swap"
+msgstr ""
+
+#: includes/options/performance.php:79
+msgid "Dynamic CSS & JS"
+msgstr "Dynamic CSS & JS"
+
+#: includes/options/performance.php:85
+msgid "CSS Compiling method"
+msgstr "CSS Compiling method"
+
+#: includes/options/performance.php:86
+msgid ""
+"Select \"File\" mode to compile the dynamic CSS to files (a separate file "
+"will be created for each of your pages & posts inside of the uploads/fusion-"
+"styles folder), \"Database\" mode to cache the CSS in your database, or "
+"select \"Disabled\" to disable."
+msgstr ""
+"Select \"File\" mode to compile the dynamic CSS to files (a separate file "
+"will be created for each of your pages & posts inside of the uploads/fusion-"
+"styles folder), \"Database\" mode to cache the CSS in your database, or "
+"select \"Disabled\" to disable."
+
+#: includes/options/performance.php:91
+msgid "File"
+msgstr "File"
+
+#: includes/options/performance.php:92
+msgid "Database"
+msgstr "Database"
+
+#: includes/options/performance.php:97
+msgid "Load Media-Queries Files Asynchronously"
+msgstr ""
+
+#: includes/options/performance.php:98
+msgid ""
+"When enabled, the CSS media-queries will be enqueued separately and then "
+"loaded asynchronously, improving performance on mobile and desktop."
+msgstr ""
+
+#: includes/options/performance.php:104
+msgid "Cache Server IP"
+msgstr "Cache Server IP"
+
+#: includes/options/performance.php:105
+msgid ""
+"For unique cases where you are using cloud flare and a cache server, ex: "
+"varnish cache. Enter your cache server IP to clear the theme options dynamic "
+"CSS cache. Consult with your server admin for help."
+msgstr ""
+"For unique cases where you are using cloud flare and a cache server, ex: "
+"varnish cache. Enter your cache server IP to clear the theme options dynamic "
+"CSS cache. Consult with your server admin for help."
+
+#: includes/options/performance.php:112
+msgid ""
+"<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
+"exist or access is restricted."
+msgstr ""
+"<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
+"exist or access is restricted."
+
+#: includes/options/performance.php:117
+msgid "Enable JS Compiler"
+msgstr "Enable JS Compiler"
+
+#: includes/options/performance.php:118
+msgid ""
+"We have detected that your server supports HTTP/2. We recommend you leave "
+"the compiler disabled as that will improve performance of your site by "
+"allowing multiple JS files to be downloaded simultaneously."
+msgstr ""
+"We have detected that your server supports HTTP/2. We recommend you leave "
+"the compiler disabled as that will improve performance of your site by "
+"allowing multiple JS files to be downloaded simultaneously."
+
+#: includes/options/performance.php:118
+msgid ""
+"By default all the javascript files are combined. Disabling the JS compiler "
+"will load non-combined javascript files. This will have an impact on the "
+"performance of your site."
+msgstr ""
+"By default all the javascript files are combined. Disabling the JS compiler "
+"will load non-combined javascript files. This will have an impact on the "
+"performance of your site."
+
+#: includes/options/performance.php:124 includes/options/performance.php:130
+msgid "Reset Fusion Caches"
+msgstr "Reset Fusion Caches"
+
+#. translators: %1$s: <code>uploads/fusion-styles</code>. %2$s:
+#. <code>uploads/fusion-scripts</code>.
+#: includes/options/performance.php:126
+msgid ""
+"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
+"%1$s and %2$s folders. When resetting the caches on the main site of a "
+"multisite installation, caches for all sub-sites will be reset. IMPORTANT "
+"NOTE: On large multisite installations with a low PHP timeout setting, bulk-"
+"resetting the caches may timeout."
+msgstr ""
+"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
+"%1$s and %2$s folders. When resetting the caches on the main site of a "
+"multisite installation, caches for all sub-sites will be reset. IMPORTANT "
+"NOTE: On large multisite installations with a low PHP timeout setting, bulk-"
+"resetting the caches may timeout."
+
+#: includes/options/performance.php:126
+msgid ""
+"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
+"%1$s and %2$s folders."
+msgstr ""
+"Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
+"%1$s and %2$s folders."
+
+#: includes/options/performance.php:134
+msgid "Progressive Web App"
+msgstr ""
+
+#. translators: URL for the plugins page.
+#: includes/options/performance.php:143
+msgid ""
+"<strong>IMPORTANT NOTE:</strong> To use the Avada PWA feature you need to "
+"install and activate the latest version of the PWA plugin. Please <a href="
+"\"%s\">visit the Avada Plugins page</a> to install and activate the plugin "
+"and then refresh Theme Options to edit the options."
+msgstr ""
+
+#: includes/options/performance.php:151
+msgid ""
+"<strong>IMPORTANT NOTE:</strong> To use the Avada PWA feature your site must "
+"use SSL (HTTPS). For more information about the options in this section, "
+"please see our <a href=\"https://theme-fusion.com/documentation/avada/"
+"options/avada-progressive-web-app/\" target=\"_blank\">PWA documentation</a> "
+"page. To learn more about caching strategies and their use in general you "
+"can <a href=\"https://developers.google.com/web/tools/workbox/modules/"
+"workbox-strategies\" target=\"_blank\" rel=\"nofollow\">read this article</"
+"a>."
+msgstr ""
+
+#: includes/options/performance.php:156
+msgid "Enable Progressive Web App"
+msgstr ""
+
+#: includes/options/performance.php:157
+msgid ""
+"Enable this option if you want to enable the Progressive Web App feature and "
+"options on your website."
+msgstr ""
+
+#: includes/options/performance.php:163
+msgid "Cache-First strategy file types"
+msgstr ""
+
+#: includes/options/performance.php:164
+msgid ""
+"File types added in this list will be cached in the browser. Subsequent page "
+"requests will use the cached assets. Use this for static assets that don't "
+"change like images and fonts."
+msgstr ""
+
+#: includes/options/performance.php:179
+msgid "Network-First strategy file types"
+msgstr ""
+
+#: includes/options/performance.php:180
+msgid ""
+"File types added in this list will be cached in the browser. Subsequent page "
+"requests will first try to get a more recent version of these files from the "
+"network, and fallback to the cached files in case the network is "
+"unreachable. If your site's content gets updated often we recommend you can "
+"use this for your content."
+msgstr ""
+
+#: includes/options/performance.php:195
+msgid "Stale-While-Revalidating strategy file types"
+msgstr ""
+
+#: includes/options/performance.php:196
+msgid ""
+"Any file types added here will be served with a cache-first strategy, and "
+"after the page has been loaded the caches will be updated with more recent "
+"versions of the selected file types from the network. Use this for assets "
+"that may get updated but having their latest version is not critical."
+msgstr ""
+
+#: includes/options/performance.php:211
+msgid "App Splash Screen Logo"
+msgstr ""
+
+#: includes/options/performance.php:212
+msgid ""
+"Logo displayed for your website at 512px x 512px when installing as an app."
+msgstr ""
+
+#: includes/options/performance.php:226
+msgid "App Display Mode"
+msgstr ""
+
+#: includes/options/performance.php:227
+msgid ""
+"If the user installs your site as an app, select how the app will behave. "
+"For more information about these options please refer to <a href=\"https://"
+"developers.google.com/web/fundamentals/web-app-manifest/#display\">this "
+"document.</a>"
+msgstr ""
+
+#: includes/options/performance.php:232
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/options/performance.php:233
+msgid "Standalone"
+msgstr ""
+
+#: includes/options/performance.php:234
+msgid "Minimal UI"
+msgstr ""
+
+#: includes/options/performance.php:266
+msgid "App Theme Color"
+msgstr ""
+
+#: includes/options/performance.php:267
+msgid ""
+"Select a color that will be used for the header of your app, as well as the "
+"browser toolbar-color on mobile devices."
+msgstr ""
 
 #: includes/options/portfolio.php:34
 msgid "General Portfolio"
@@ -15237,29 +15466,29 @@ msgstr "WooCommerce Order Dropdown Background Color"
 msgid "Controls the background color of the WooCommerce order dropdowns."
 msgstr "Controls the background color of the WooCommerce order dropdowns."
 
-#: includes/options/woocommerce.php:391
+#: includes/options/woocommerce.php:378
 msgid "WooCommerce Order Dropdown Text Color"
 msgstr "WooCommerce Order Dropdown Text Color"
 
-#: includes/options/woocommerce.php:392
+#: includes/options/woocommerce.php:379
 msgid ""
 "Controls the color of the text and icons in the WooCommerce order dropdowns."
 msgstr ""
 "Controls the color of the text and icons in the WooCommerce order dropdowns."
 
-#: includes/options/woocommerce.php:411
+#: includes/options/woocommerce.php:385
 msgid "WooCommerce Order Dropdown Border Color"
 msgstr "WooCommerce Order Dropdown Border Color"
 
-#: includes/options/woocommerce.php:412
+#: includes/options/woocommerce.php:386
 msgid "Controls the border color in the WooCommerce order dropdowns."
 msgstr "Controls the border color in the WooCommerce order dropdowns."
 
-#: includes/options/woocommerce.php:431
+#: includes/options/woocommerce.php:392
 msgid "WooCommerce Cart Menu Background Color"
 msgstr "WooCommerce Cart Menu Background Color"
 
-#: includes/options/woocommerce.php:432
+#: includes/options/woocommerce.php:393
 msgid ""
 "Controls the bottom section background color of the WooCommerce cart "
 "dropdown."
@@ -15267,62 +15496,65 @@ msgstr ""
 "Controls the bottom section background color of the WooCommerce cart "
 "dropdown."
 
-#: includes/options/woocommerce.php:451
+#: includes/options/woocommerce.php:412
 msgid "WooCommerce Icon Font Size"
 msgstr "WooCommerce Icon Font Size"
 
-#: includes/options/woocommerce.php:452
+#: includes/options/woocommerce.php:413
 msgid "Controls the font size of the WooCommerce icons."
 msgstr "Controls the font size of the WooCommerce icons."
 
 #: includes/plugins/multiple_sidebars.php:165
-msgid "Widget Section already exists, please use a different name."
-msgstr "Widget Section already exists, please use a different name."
+msgid "Widget Area already exists, please use a different name."
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:234
-#: includes/plugins/multiple_sidebars.php:313
-msgid "No Widget Sections defined."
-msgstr "No Widget Sections defined."
+msgid "No Widget area defined."
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:237
-msgid "Sidebar does not exist."
-msgstr "Sidebar does not exist."
+msgid "Widget area does not exist."
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:271
 msgid "Are you sure you want to remove"
 msgstr "Are you sure you want to remove"
 
 #: includes/plugins/multiple_sidebars.php:271
-msgid "This will remove any widgets you have assigned to this widget section."
-msgstr "This will remove any widgets you have assigned to this widget section."
+msgid "This will remove any widgets you have assigned to this widget area."
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:279
-msgid "Widget Section Name:"
-msgstr "Widget Section Name:"
+msgid "Widget Area Name:"
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:290
-msgid "Widget Sections"
-msgstr "Widget Sections"
+msgid "Widget Areas"
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:295
-msgid "Widget Section Name"
-msgstr "Widget Section Name"
+msgid "Widget Area Name"
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:296
 msgid "CSS Class"
 msgstr "CSS Class"
 
 #: includes/plugins/multiple_sidebars.php:307
-msgid "Remove this Widget Section"
-msgstr "Remove this Widget Section"
+msgid "Remove This Widget Area"
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:307
 msgid "remove"
 msgstr "remove"
 
+#: includes/plugins/multiple_sidebars.php:313
+msgid "No Widget Areas defined."
+msgstr ""
+
 #: includes/plugins/multiple_sidebars.php:317
-msgid "Add New Widget Section"
-msgstr "Add New Widget Section"
+msgid "Add New Widget Area"
+msgstr ""
 
 #: includes/plugins/multiple_sidebars.php:413
 msgid "Select Sidebar 1:"
@@ -15566,7 +15798,7 @@ msgstr ""
 
 #: includes/widget/class-fusion-widget-contact-info.php:67
 #: includes/widget/class-fusion-widget-contact-info.php:160
-#: templates/wc-view-order.php:118
+#: templates/wc-view-order.php:119
 msgid "Phone:"
 msgstr "Phone:"
 
@@ -15582,7 +15814,7 @@ msgstr "Fax:"
 
 #: includes/widget/class-fusion-widget-contact-info.php:79
 #: includes/widget/class-fusion-widget-contact-info.php:172
-#: templates/wc-view-order.php:113 woocommerce/checkout/thankyou.php:60
+#: templates/wc-view-order.php:114 woocommerce/checkout/thankyou.php:60
 #: woocommerce/compatibility/3.2/checkout/thankyou.php:60
 msgid "Email:"
 msgstr "Email:"
@@ -16101,7 +16333,7 @@ msgid "Go to \"%s\""
 msgstr "Go to \"%s\""
 
 #. translators: The link.
-#: single-wpfc_sermon.php:127 single.php:134
+#: single-wpfc_sermon.php:127 single.php:139
 msgid "About the Author: %s"
 msgstr "About the Author: %s"
 
@@ -16131,15 +16363,15 @@ msgstr "About %s"
 msgid "Edit profile"
 msgstr "Edit profile"
 
-#: templates/blog-layout.php:342 templates/blog-layout.php:372
+#: templates/blog-layout.php:348 templates/blog-layout.php:378
 msgid "Read More"
 msgstr "Read More"
 
-#: templates/blog-layout.php:354
+#: templates/blog-layout.php:360
 msgid "Protected"
 msgstr "Protected"
 
-#: templates/blog-layout.php:412
+#: templates/blog-layout.php:418
 msgid "Load More Posts"
 msgstr "Load More Posts"
 
@@ -16217,14 +16449,14 @@ msgid "Have A Promotional Code?"
 msgstr "Have A Promotional Code?"
 
 #: templates/wc-cart-collaterals.php:23
-#: templates/wc-checkout-coupon-form.php:26 woocommerce/cart/cart.php:141
-#: woocommerce/compatibility/3.2/cart/cart.php:141
+#: templates/wc-checkout-coupon-form.php:26 woocommerce/cart/cart.php:143
+#: woocommerce/compatibility/3.2/cart/cart.php:143
 msgid "Coupon code"
 msgstr "Coupon code"
 
 #: templates/wc-cart-collaterals.php:24
-#: templates/wc-checkout-coupon-form.php:30 woocommerce/cart/cart.php:141
-#: woocommerce/compatibility/3.2/cart/cart.php:141
+#: templates/wc-checkout-coupon-form.php:30 woocommerce/cart/cart.php:143
+#: woocommerce/compatibility/3.2/cart/cart.php:143
 msgid "Apply coupon"
 msgstr "Apply coupon"
 
@@ -16267,9 +16499,9 @@ msgid "Date"
 msgstr "Date"
 
 #: templates/wc-catalog-ordering.php:52 templates/wc-catalog-ordering.php:101
-#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:86
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:88
 #: woocommerce/compatibility/3.2/cart/cart.php:35
-#: woocommerce/compatibility/3.2/cart/cart.php:86
+#: woocommerce/compatibility/3.2/cart/cart.php:88
 msgid "Price"
 msgstr "Price"
 
@@ -16322,8 +16554,8 @@ msgstr "View as grid"
 msgid "View as list"
 msgstr "View as list"
 
-#: templates/wc-proceed-to-checkout.php:15 woocommerce/cart/cart.php:146
-#: woocommerce/compatibility/3.2/cart/cart.php:146
+#: templates/wc-proceed-to-checkout.php:15 woocommerce/cart/cart.php:148
+#: woocommerce/compatibility/3.2/cart/cart.php:148
 msgid "Update cart"
 msgstr "Update cart"
 
@@ -16354,28 +16586,28 @@ msgid "Order details"
 msgstr "Order details"
 
 #: templates/wc-view-order.php:31 woocommerce/cart/cart.php:34
-#: woocommerce/cart/cart.php:108 woocommerce/checkout/review-order.php:27
-#: woocommerce/checkout/review-order.php:125
+#: woocommerce/cart/cart.php:110 woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/review-order.php:127
 #: woocommerce/compatibility/3.2/cart/cart.php:37
-#: woocommerce/compatibility/3.2/cart/cart.php:109
+#: woocommerce/compatibility/3.2/cart/cart.php:111
 #: woocommerce/compatibility/3.2/checkout/review-order.php:18
-#: woocommerce/compatibility/3.2/checkout/review-order.php:113
+#: woocommerce/compatibility/3.2/checkout/review-order.php:115
 msgid "Total"
 msgstr "Total"
 
-#: templates/wc-view-order.php:108
+#: templates/wc-view-order.php:109
 msgid "Customer details"
 msgstr "Customer details"
 
-#: templates/wc-view-order.php:123
+#: templates/wc-view-order.php:124
 msgid "Note:"
 msgstr ""
 
-#: templates/wc-view-order.php:136
+#: templates/wc-view-order.php:137
 msgid "Billing address"
 msgstr "Billing address"
 
-#: templates/wc-view-order.php:150
+#: templates/wc-view-order.php:151
 msgid "Shipping address"
 msgstr "Shipping address"
 
@@ -16439,23 +16671,23 @@ msgstr "%s Navigation"
 msgid "View All %s"
 msgstr "View All %s"
 
-#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:92
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:94
 #: woocommerce/compatibility/3.2/cart/cart.php:36
-#: woocommerce/compatibility/3.2/cart/cart.php:92
+#: woocommerce/compatibility/3.2/cart/cart.php:94
 msgid "Quantity"
 msgstr "Quantity"
 
-#: woocommerce/cart/cart.php:80 woocommerce/compatibility/3.2/cart/cart.php:80
+#: woocommerce/cart/cart.php:81 woocommerce/compatibility/3.2/cart/cart.php:81
 msgid "Available on backorder"
 msgstr "Available on backorder"
 
-#: woocommerce/cart/cart.php:121
-#: woocommerce/compatibility/3.2/cart/cart.php:121
+#: woocommerce/cart/cart.php:123
+#: woocommerce/compatibility/3.2/cart/cart.php:123
 msgid "Remove this item"
 msgstr "Remove this item"
 
-#: woocommerce/cart/cart.php:141
-#: woocommerce/compatibility/3.2/cart/cart.php:141
+#: woocommerce/cart/cart.php:143
+#: woocommerce/compatibility/3.2/cart/cart.php:143
 msgid "Coupon:"
 msgstr "Coupon:"
 
@@ -16469,8 +16701,8 @@ msgstr "Your order"
 msgid "Totals"
 msgstr "Totals"
 
-#: woocommerce/checkout/form-pay.php:109
-#: woocommerce/compatibility/3.2/checkout/form-pay.php:87
+#: woocommerce/checkout/form-pay.php:111
+#: woocommerce/compatibility/3.2/checkout/form-pay.php:89
 msgid ""
 "Sorry, it seems that there are no available payment methods for your "
 "location. Please contact us if you require assistance or wish to make "
@@ -16480,8 +16712,8 @@ msgstr ""
 "location. Please contact us if you require assistance or wish to make "
 "alternate arrangements."
 
-#: woocommerce/checkout/review-order.php:78
-#: woocommerce/compatibility/3.2/checkout/review-order.php:66
+#: woocommerce/checkout/review-order.php:80
+#: woocommerce/compatibility/3.2/checkout/review-order.php:68
 msgid "Subtotal"
 msgstr "Subtotal"
 
@@ -16636,6 +16868,148 @@ msgstr ""
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
 msgstr "%s ago"
+
+#~ msgid ""
+#~ "Thank you for choosing Avada! Your product must be registered to receive "
+#~ "the Avada demos, auto theme updates and included premium plugins. The "
+#~ "instructions below in toggle format must be followed exactly."
+#~ msgstr ""
+#~ "Thank you for choosing Avada! Your product must be registered to receive "
+#~ "the Avada demos, auto theme updates and included premium plugins. The "
+#~ "instructions below in toggle format must be followed exactly."
+
+#~ msgid "Knowledgebase"
+#~ msgstr "Knowledgebase"
+
+#~ msgid ""
+#~ "Our knowledgebase contains additional content that is not inside of our "
+#~ "documentation. This information is more specific and unique to various "
+#~ "versions or aspects of Avada."
+#~ msgstr ""
+#~ "Our knowledgebase contains additional content that is not inside of our "
+#~ "documentation. This information is more specific and unique to various "
+#~ "versions or aspects of Avada."
+
+#~ msgid ""
+#~ "Nothing is better than watching a video to learn. We have a growing "
+#~ "library of high-definititon, narrated video tutorials to help teach you "
+#~ "the different aspects of using Avada."
+#~ msgstr ""
+#~ "Nothing is better than watching a video to learn. We have a growing "
+#~ "library of high-definititon, narrated video tutorials to help teach you "
+#~ "the different aspects of using Avada."
+
+#~ msgid ""
+#~ "We have an amazing Facebook Group! Come and share with other Avada users "
+#~ "and help grow our community. Please note, ThemeFusion does not provide "
+#~ "support here."
+#~ msgstr ""
+#~ "We have an amazing Facebook Group! Come and share with other Avada users "
+#~ "and help grow our community. Please note, ThemeFusion does not provide "
+#~ "support here."
+
+#~ msgid ""
+#~ "Video must be in a 16:9 aspect ratio. Add your WebM video file. WebM and "
+#~ "MP4 format must be included to render your video with cross browser "
+#~ "compatibility. OGV is optional."
+#~ msgstr ""
+#~ "Video must be in a 16:9 aspect ratio. Add your WebM video file. WebM and "
+#~ "MP4 format must be included to render your video with cross browser "
+#~ "compatibility. OGV is optional."
+
+#~ msgid ""
+#~ "Video must be in a 16:9 aspect ratio. Add your MP4 video file. MP4 and "
+#~ "WebM format must be included to render your video with cross browser "
+#~ "compatibility. OGV is optional."
+#~ msgstr ""
+#~ "Video must be in a 16:9 aspect ratio. Add your MP4 video file. MP4 and "
+#~ "WebM format must be included to render your video with cross browser "
+#~ "compatibility. OGV is optional."
+
+#~ msgid "Add your OGV video file. This is optional."
+#~ msgstr "Add your OGV video file. This is optional."
+
+#~ msgid ""
+#~ "If this is set to yes, then autoplay must be enabled for the video to "
+#~ "work.  In order to ensure the controls are always fully visible, the "
+#~ "Video Display Mode should be set to \"contain\"."
+#~ msgstr ""
+#~ "If this is set to yes, then autoplay must be enabled for the video to "
+#~ "work.  In order to ensure the controls are always fully visible, the "
+#~ "Video Display Mode should be set to \"contain\"."
+
+#~ msgid "Avada Styles For Revolution Slider"
+#~ msgstr "Avada Styles For Revolution Slider"
+
+#~ msgid ""
+#~ "Turn on to enable the Avada styles and use the default Revolution Slider "
+#~ "styles."
+#~ msgstr ""
+#~ "Turn on to enable the Avada styles and use the default Revolution Slider "
+#~ "styles."
+
+#~ msgid "Turn on to enable font awesome icons."
+#~ msgstr "Turn on to enable font awesome icons."
+
+#~ msgid ""
+#~ "Controls the zoom level of the google map. Higher number is more zoomed "
+#~ "in."
+#~ msgstr ""
+#~ "Controls the zoom level of the google map. Higher number is more zoomed "
+#~ "in."
+
+#~ msgid "Turn on to enable address pin animation."
+#~ msgstr "Turn on to enable address pin animation."
+
+#~ msgid ""
+#~ "Turn on to display the google map zoom control icon and pan control icon."
+#~ msgstr ""
+#~ "Turn on to display the google map zoom control icon and pan control icon."
+
+#~ msgid "Controls the size of the menu icon."
+#~ msgstr "Controls the size of the menu icon."
+
+#~ msgid "Controls the color of the main menu icon."
+#~ msgstr "Controls the color of the main menu icon."
+
+#~ msgid "Controls the hover color of the main menu icon."
+#~ msgstr "Controls the hover color of the main menu icon."
+
+#~ msgid ""
+#~ "Controls the width and height of the mega menu thumbnail. Use \"auto\" "
+#~ "for automatic resizing if you added either width or height."
+#~ msgstr ""
+#~ "Controls the width and height of the mega menu thumbnail. Use \"auto\" "
+#~ "for automatic resizing if you added either width or height."
+
+#~ msgid "Widget Section already exists, please use a different name."
+#~ msgstr "Widget Section already exists, please use a different name."
+
+#~ msgid "No Widget Sections defined."
+#~ msgstr "No Widget Sections defined."
+
+#~ msgid "Sidebar does not exist."
+#~ msgstr "Sidebar does not exist."
+
+#~ msgid ""
+#~ "This will remove any widgets you have assigned to this widget section."
+#~ msgstr ""
+#~ "This will remove any widgets you have assigned to this widget section."
+
+#~ msgid "Widget Section Name:"
+#~ msgstr "Widget Section Name:"
+
+#~ msgid "Widget Sections"
+#~ msgstr "Widget Sections"
+
+#~ msgid "Widget Section Name"
+#~ msgstr "Widget Section Name"
+
+#~ msgid "Remove this Widget Section"
+#~ msgstr "Remove this Widget Section"
+
+#~ msgid "Add New Widget Section"
+#~ msgstr "Add New Widget Section"
 
 #~ msgid ""
 #~ "In 2012 we set out to make the perfect theme and Avada was born. Since "
