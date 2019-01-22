@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2019-01-21 13:28:06+00:00\n"
+"POT-Creation-Date: 2019-01-22 08:38:49+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:06+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Tibetan\n"
@@ -909,7 +909,7 @@ msgstr ""
 #: shortcodes/fusion-flip-boxes.php:1032 shortcodes/fusion-flip-boxes.php:1052
 #: shortcodes/fusion-fontawesome.php:340 shortcodes/fusion-fontawesome.php:352
 #: shortcodes/fusion-gallery.php:588 shortcodes/fusion-gallery.php:601
-#: shortcodes/fusion-gallery.php:806 shortcodes/fusion-gallery.php:831
+#: shortcodes/fusion-gallery.php:806 shortcodes/fusion-gallery.php:832
 #: shortcodes/fusion-image-carousel.php:473 shortcodes/fusion-image.php:483
 #: shortcodes/fusion-image.php:630 shortcodes/fusion-image.php:680
 #: shortcodes/fusion-person.php:599 shortcodes/fusion-person.php:802
@@ -996,7 +996,7 @@ msgstr ""
 #: shortcodes/fusion-flip-boxes.php:1072 shortcodes/fusion-flip-boxes.php:1183
 #: shortcodes/fusion-fontawesome.php:536 shortcodes/fusion-gallery.php:587
 #: shortcodes/fusion-gallery.php:709 shortcodes/fusion-gallery.php:721
-#: shortcodes/fusion-gallery.php:805 shortcodes/fusion-gallery.php:830
+#: shortcodes/fusion-gallery.php:805 shortcodes/fusion-gallery.php:831
 #: shortcodes/fusion-google-map.php:636
 #: shortcodes/fusion-image-before-after.php:779
 #: shortcodes/fusion-image-before-after.php:933
@@ -6839,7 +6839,7 @@ msgstr ""
 msgid "Masonry Image Aspect Ratio"
 msgstr ""
 
-#: shortcodes/fusion-blog.php:2142 shortcodes/fusion-gallery.php:766
+#: shortcodes/fusion-blog.php:2142
 msgid ""
 "Set the ratio to decide when an image should become landscape (ratio being "
 "width : height) and portrait (ratio being height : width). <strong>IMPORTANT:"
@@ -10304,11 +10304,11 @@ msgstr ""
 msgid "Lightbox Content"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:602 shortcodes/fusion-gallery.php:832
+#: shortcodes/fusion-gallery.php:602 shortcodes/fusion-gallery.php:833
 msgid "Titles"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:603 shortcodes/fusion-gallery.php:833
+#: shortcodes/fusion-gallery.php:603 shortcodes/fusion-gallery.php:834
 msgid "Captions"
 msgstr ""
 
@@ -10316,7 +10316,7 @@ msgstr ""
 msgid "Titles & Captions"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:606 shortcodes/fusion-gallery.php:836
+#: shortcodes/fusion-gallery.php:606
 msgid "Choose if titles and captions will display in the lightbox."
 msgstr ""
 
@@ -10363,19 +10363,34 @@ msgid ""
 "adjust to the image.<br/>"
 msgstr ""
 
+#: shortcodes/fusion-gallery.php:766
+msgid ""
+"Set the ratio above which an image should become landscape (ratio being "
+"width : height) and portrait (ratio being height : width). <strong>IMPORTANT:"
+"</strong> The value of \"1.0\" represents a special case, which will use the "
+"auto calculated ratios like in versions prior to Avada 5.5."
+msgstr ""
+
 #: shortcodes/fusion-gallery.php:815 shortcodes/fusion-image-carousel.php:553
 #: shortcodes/fusion-image.php:742
 msgid "Image lightbox"
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:816 shortcodes/fusion-image-carousel.php:554
-#: shortcodes/fusion-image.php:743 shortcodes/fusion-slider.php:525
+#: shortcodes/fusion-gallery.php:816
 msgid ""
-"Show image in lightbox. Lightbox must be enabled in Theme Options or the "
-"image will open up in the same tab by itself."
+"Show image in lightbox. <strong>IMPORTANT:</strong> Lightbox must be enabled "
+"in general Lightbox Theme Options or the image will open up in the same tab "
+"by itself."
 msgstr ""
 
-#: shortcodes/fusion-gallery.php:834
+#: shortcodes/fusion-gallery.php:827
+msgid ""
+"Choose if titles and captions will display in the lightbox. "
+"<strong>IMPORTANT:</strong> Lightbox titles and/or captions must be enabled "
+"in the general Lightbox Theme Optionsfor this option to work."
+msgstr ""
+
+#: shortcodes/fusion-gallery.php:835
 msgid "Titles and Captions"
 msgstr ""
 
@@ -11030,6 +11045,13 @@ msgstr ""
 
 #: shortcodes/fusion-image-carousel.php:543
 msgid "Choose to enable a border around the images."
+msgstr ""
+
+#: shortcodes/fusion-image-carousel.php:554 shortcodes/fusion-image.php:743
+#: shortcodes/fusion-slider.php:525
+msgid ""
+"Show image in lightbox. Lightbox must be enabled in Theme Options or the "
+"image will open up in the same tab by itself."
 msgstr ""
 
 #: shortcodes/fusion-image-carousel.php:638 shortcodes/fusion-image.php:789
