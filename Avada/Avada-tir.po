@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2019-02-21 12:57:33+00:00\n"
+"POT-Creation-Date: 2019-03-25 13:05:14+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:03+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Language tir\n"
@@ -31,7 +31,7 @@ msgid "Can't find what you need? Take a moment and do a search below!"
 msgstr ""
 
 #: bbpress/form-search.php:13 includes/class-avada-layout-bbpress.php:140
-#: searchform.php:17
+#: searchform.php:19
 msgid "Search for:"
 msgstr ""
 
@@ -73,72 +73,88 @@ msgid_plural "% Comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:51
+#: comments.php:46 includes/class-avada-layout-bbpress.php:222
+#: includes/class-avada-layout-bbpress.php:247
+#: includes/class-avada-layout-bbpress.php:269
+#: includes/class-avada-woocommerce.php:397 includes/lib/inc/functions.php:920
+#: single-wpfc_sermon.php:22 single.php:21
+msgid "Previous"
+msgstr ""
+
+#: comments.php:47 includes/class-avada-layout-bbpress.php:223
+#: includes/class-avada-layout-bbpress.php:248
+#: includes/class-avada-layout-bbpress.php:270
+#: includes/class-avada-woocommerce.php:398 includes/lib/inc/functions.php:966
+#: single-wpfc_sermon.php:23 single.php:22
+msgid "Next"
+msgstr ""
+
+#: comments.php:60
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:65 contact.php:69 includes/class-avada-contact.php:169
+#: comments.php:74 contact.php:69 includes/class-avada-contact.php:169
 msgid "Name (required)"
 msgstr ""
 
-#: comments.php:65
+#: comments.php:74
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:710
 #: templates/wc-catalog-ordering.php:61 templates/wc-catalog-ordering.php:97
 msgid "Name"
 msgstr ""
 
-#: comments.php:66 contact.php:70 includes/class-avada-contact.php:196
+#: comments.php:75 contact.php:70 includes/class-avada-contact.php:196
 msgid "Email (required)"
 msgstr ""
 
-#: comments.php:66 includes/options/social_media.php:571
+#: comments.php:75 includes/options/social_media.php:571
 #: includes/options/social_media.php:573
 msgid "Email"
 msgstr ""
 
-#: comments.php:67
+#: comments.php:76
 msgid "Website"
 msgstr ""
 
-#: comments.php:67 includes/class-avada-nav-walker-megamenu.php:169
+#: comments.php:76 includes/class-avada-nav-walker-megamenu.php:169
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:153
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:207
 msgid "URL"
 msgstr ""
 
-#: comments.php:68
+#: comments.php:77
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
 
-#: comments.php:72
+#: comments.php:81
 msgid "Comment"
 msgstr ""
 
-#: comments.php:72
+#: comments.php:81
 msgid "Comment..."
 msgstr ""
 
-#: comments.php:73 comments.php:74
+#: comments.php:82 comments.php:83
 msgid "Leave A Comment"
 msgstr ""
 
 #. translators: Opening and closing link tags.
-#: comments.php:78
+#: comments.php:87
 msgid "You must be %1$slogged in%2$s to post a comment."
 msgstr ""
 
 #. translators: %1$s: The username. %2$s and %3$s: Opening and closing link
 #. tags.
-#: comments.php:80
+#: comments.php:89
 msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
 msgstr ""
 
-#: comments.php:80
+#: comments.php:89
 msgid "Log out of this account"
 msgstr ""
 
-#: comments.php:84
+#: comments.php:93
 msgid "Post Comment"
 msgstr ""
 
@@ -257,11 +273,12 @@ msgstr ""
 msgid "All Demos"
 msgstr ""
 
-#: includes/admin-screens/demos.php:78
+#: includes/admin-screens/demos.php:78 includes/options/search.php:47
 msgid "Posts"
 msgstr ""
 
-#: includes/admin-screens/demos.php:84 includes/options/sidebars.php:139
+#: includes/admin-screens/demos.php:84 includes/options/search.php:48
+#: includes/options/sidebars.php:139
 msgid "Pages"
 msgstr ""
 
@@ -1403,129 +1420,130 @@ msgid ""
 "here: <a href=\"%s\" target=\"_blank\">Envato Hosted Support Policy</a>"
 msgstr ""
 
-#: includes/avada-functions.php:319 includes/options/blog.php:488
+#: includes/avada-functions.php:334 includes/options/blog.php:488
 msgid "Related Posts"
 msgstr ""
 
-#: includes/avada-functions.php:322 includes/options/portfolio.php:389
+#: includes/avada-functions.php:337 includes/options/portfolio.php:389
 msgid "Related Projects"
 msgstr ""
 
-#: includes/avada-functions.php:325
+#: includes/avada-functions.php:340
 msgid "Related Faqs"
 msgstr ""
 
-#: includes/avada-functions.php:414
+#: includes/avada-functions.php:420
 msgid "My Account"
 msgstr ""
 
-#: includes/avada-functions.php:432
+#: includes/avada-functions.php:452
 msgid "Login failed, please try again."
 msgstr ""
 
-#: includes/avada-functions.php:435
+#: includes/avada-functions.php:455
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/password/field_password.php:63
 msgid "Username"
 msgstr ""
 
-#: includes/avada-functions.php:436
+#: includes/avada-functions.php:456
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/password/field_password.php:62
 msgid "Password"
 msgstr ""
 
-#: includes/avada-functions.php:437
+#: includes/avada-functions.php:457
 msgid "Remember Me"
 msgstr ""
 
-#: includes/avada-functions.php:440
+#: includes/avada-functions.php:460
 msgid "Log In"
 msgstr ""
 
-#: includes/avada-functions.php:444
+#: includes/avada-functions.php:464
 msgid "Register"
 msgstr ""
 
 #. translators: Number of items.
-#: includes/avada-functions.php:513
+#: includes/avada-functions.php:533
 msgid "%s Item(s)"
 msgstr ""
 
-#: includes/avada-functions.php:515
+#: includes/avada-functions.php:535
 msgid "Cart"
 msgstr ""
 
-#: includes/avada-functions.php:522 includes/avada-functions.php:562
-#: includes/avada-functions.php:567 includes/lib/inc/templates/rollover.php:210
+#: includes/avada-functions.php:542 includes/avada-functions.php:582
+#: includes/avada-functions.php:587 includes/lib/inc/templates/rollover.php:210
 #: templates/wc-top-user-container.php:47
 msgid "View Cart"
 msgstr ""
 
-#: includes/avada-functions.php:563
+#: includes/avada-functions.php:583
 msgid "Checkout"
 msgstr ""
 
-#: includes/avada-functions.php:650 templates/header-v6.php:44
+#: includes/avada-functions.php:670 templates/header-v6.php:44
 #: templates/menu-mobile-flyout.php:38 templates/menu-mobile-modern.php:31
 msgid "Toggle Sliding Bar"
 msgstr ""
 
-#: includes/avada-functions.php:685 includes/options/header.php:190
+#: includes/avada-functions.php:705 includes/options/header.php:190
+#: includes/options/search.php:27
 msgid "Search"
 msgstr ""
 
-#: includes/avada-functions.php:889 includes/avada-functions.php:910
+#: includes/avada-functions.php:909 includes/avada-functions.php:930
 msgid "This Slider Is Assigned Via Fusion Page Options"
 msgstr ""
 
 #. translators: The slider ID.
-#: includes/avada-functions.php:891
+#: includes/avada-functions.php:911
 msgid "Slider ID: %s"
 msgstr ""
 
-#: includes/avada-functions.php:892
+#: includes/avada-functions.php:912
 msgid "Edit slider"
 msgstr ""
 
-#: includes/avada-functions.php:893
+#: includes/avada-functions.php:913
 msgid "Edit Slider"
 msgstr ""
 
-#: includes/avada-functions.php:896 includes/avada-functions.php:897
+#: includes/avada-functions.php:916 includes/avada-functions.php:917
 msgid "Edit Slides"
 msgstr ""
 
-#: includes/avada-functions.php:900 includes/avada-functions.php:901
-#: includes/avada-functions.php:915
+#: includes/avada-functions.php:920 includes/avada-functions.php:921
+#: includes/avada-functions.php:935
 msgid "Remove Slider"
 msgstr ""
 
 #. translators: The slider.
-#: includes/avada-functions.php:912
+#: includes/avada-functions.php:932
 msgid "Slider \"%s\" cannot be found"
 msgstr ""
 
-#: includes/avada-functions.php:913 includes/avada-functions.php:914
+#: includes/avada-functions.php:933 includes/avada-functions.php:934
 msgid "Learn How To Import Sliders"
 msgstr ""
 
-#: includes/avada-functions.php:1314 includes/options/menu.php:50
+#: includes/avada-functions.php:1338 includes/options/menu.php:50
 msgid "Main Menu"
 msgstr ""
 
-#: includes/avada-functions.php:1329
+#: includes/avada-functions.php:1353
 msgid "Main Menu Sticky"
 msgstr ""
 
-#: includes/avada-functions.php:1471
+#: includes/avada-functions.php:1495
 msgid "Secondary Mobile Menu"
 msgstr ""
 
-#: includes/avada-functions.php:1474
+#: includes/avada-functions.php:1498
 msgid "Secondary Menu"
 msgstr ""
 
-#: includes/avada-functions.php:1559 includes/avada-functions.php:1587
-#: includes/avada-functions.php:1593 includes/avada-functions.php:1610
+#: includes/avada-functions.php:1583 includes/avada-functions.php:1611
+#: includes/avada-functions.php:1617 includes/avada-functions.php:1634
 #: includes/metaboxes/tabs/tab_sliders.php:31
 #: includes/metaboxes/tabs/tab_sliders.php:65
 #: includes/metaboxes/tabs/tab_sliders.php:83
@@ -2221,7 +2239,7 @@ msgid ""
 msgstr ""
 
 #: includes/class-avada-admin.php:1636
-#: includes/metaboxes/tabs/tab_header.php:67 includes/options/menu.php:1522
+#: includes/metaboxes/tabs/tab_header.php:67 includes/options/menu.php:1588
 msgid "Mobile Header Background Color"
 msgstr ""
 
@@ -2435,7 +2453,7 @@ msgstr ""
 #: includes/class-avada-eventscalendar.php:216
 #: includes/class-avada-eventscalendar.php:248
 #: includes/class-avada-eventscalendar.php:280
-#: includes/class-avada-woocommerce.php:1372
+#: includes/class-avada-woocommerce.php:1373
 msgid "NOTE"
 msgstr ""
 
@@ -2467,9 +2485,9 @@ msgid ""
 msgstr ""
 
 #. translators: image size.
-#: includes/class-avada-init.php:228 includes/class-avada-init.php:230
-#: includes/class-avada-init.php:232 includes/class-avada-init.php:234
-#: includes/class-avada-init.php:236
+#: includes/class-avada-init.php:270 includes/class-avada-init.php:272
+#: includes/class-avada-init.php:274 includes/class-avada-init.php:276
+#: includes/class-avada-init.php:278
 msgid "Avada Grid %s"
 msgstr ""
 
@@ -2484,22 +2502,6 @@ msgstr ""
 
 #: includes/class-avada-layout-bbpress.php:137 search.php:32
 msgid "If you didn't find what you were looking for, try a new search!"
-msgstr ""
-
-#: includes/class-avada-layout-bbpress.php:222
-#: includes/class-avada-layout-bbpress.php:247
-#: includes/class-avada-layout-bbpress.php:269
-#: includes/class-avada-woocommerce.php:396 includes/lib/inc/functions.php:920
-#: single-wpfc_sermon.php:22 single.php:21
-msgid "Previous"
-msgstr ""
-
-#: includes/class-avada-layout-bbpress.php:223
-#: includes/class-avada-layout-bbpress.php:248
-#: includes/class-avada-layout-bbpress.php:270
-#: includes/class-avada-woocommerce.php:397 includes/lib/inc/functions.php:966
-#: single-wpfc_sermon.php:23 single.php:22
-msgid "Next"
 msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:117
@@ -2700,7 +2702,7 @@ msgid "Select the number of columns you want to use."
 msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:314
-#: includes/options/extra.php:192 includes/options/portfolio.php:59
+#: includes/options/extra.php:224 includes/options/portfolio.php:59
 msgid "Auto"
 msgstr ""
 
@@ -2734,17 +2736,17 @@ msgstr ""
 msgid "Select Widget Area"
 msgstr ""
 
-#: includes/class-avada-migrate.php:229
+#: includes/class-avada-migrate.php:238
 msgid "Avada Theme Option Migration"
 msgstr ""
 
-#: includes/class-avada-migrate.php:377
+#: includes/class-avada-migrate.php:386
 #: includes/class-fusion-builder-migrate.php:838
 msgid "Avada Logo"
 msgstr ""
 
 #. translators: Version number.
-#: includes/class-avada-migrate.php:388
+#: includes/class-avada-migrate.php:397
 msgid ""
 "We have an amazing new update in store for you! Avada %s includes our "
 "completely new Theme Options Panel and the brand new Fusion Builder. To "
@@ -2756,7 +2758,7 @@ msgid ""
 msgstr ""
 
 #. translators: Version number.
-#: includes/class-avada-migrate.php:391
+#: includes/class-avada-migrate.php:400
 msgid ""
 "We have an amazing new update in store for you! Avada %s includes our "
 "completely new Theme Options Panel and the brand new Fusion Builder. To "
@@ -2766,61 +2768,61 @@ msgid ""
 "Thank you for choosing Avada!"
 msgstr ""
 
-#: includes/class-avada-migrate.php:397
+#: includes/class-avada-migrate.php:406
 msgid "Updating Avada Database Entries"
 msgstr ""
 
 #. translators: Language label.
-#: includes/class-avada-migrate.php:401
+#: includes/class-avada-migrate.php:410
 msgid "Currently converting language: %s"
 msgstr ""
 
-#: includes/class-avada-migrate.php:404
+#: includes/class-avada-migrate.php:413
 msgid "Done!"
 msgstr ""
 
-#: includes/class-avada-migrate.php:406
+#: includes/class-avada-migrate.php:415
 msgid "Almost there..."
 msgstr ""
 
-#: includes/class-avada-migrate.php:408
+#: includes/class-avada-migrate.php:417
 msgid "Halfway there... Patience Padawan, Patience."
 msgstr ""
 
-#: includes/class-avada-migrate.php:410
+#: includes/class-avada-migrate.php:419
 msgid "This may take a few minutes, please wait."
 msgstr ""
 
 #. translators: %1$s, %2$s: Numbers.
-#: includes/class-avada-migrate.php:418
+#: includes/class-avada-migrate.php:427
 msgid "Converting language: %1$s of %2$s."
 msgstr ""
 
 #. translators: %1$s, %2$s: Numbers.
-#: includes/class-avada-migrate.php:424
+#: includes/class-avada-migrate.php:433
 msgid "Updating Avada Database options: step %1$s of %2$s."
 msgstr ""
 
-#: includes/class-avada-migrate.php:442
+#: includes/class-avada-migrate.php:451
 msgid ""
 "Congratulations, Theme Options database enrties were successfully converted."
 msgstr ""
 
-#: includes/class-avada-migrate.php:443
+#: includes/class-avada-migrate.php:452
 msgid "For best experience, please clear your browser cache once."
 msgstr ""
 
-#: includes/class-avada-migrate.php:444
+#: includes/class-avada-migrate.php:453
 msgid "Dynamic-CSS caches have been auto reset."
 msgstr ""
 
-#: includes/class-avada-migrate.php:451
+#: includes/class-avada-migrate.php:460
 msgid "Take Me To Shortcode Conversion"
 msgstr ""
 
 #. translators: (heart) icon.
 #. translators: Icon.
-#: includes/class-avada-migrate.php:457
+#: includes/class-avada-migrate.php:466
 #: includes/class-fusion-builder-migrate.php:867
 msgid "Created with %s"
 msgstr ""
@@ -3025,32 +3027,36 @@ msgstr ""
 msgid "Styles"
 msgstr ""
 
-#: includes/class-avada-scripts.php:587
+#: includes/class-avada-scripts.php:601
 msgid "Go to..."
 msgstr ""
 
-#: includes/class-avada-scripts.php:588
+#: includes/class-avada-scripts.php:602
 msgid "Shopping Cart"
 msgstr ""
 
-#: includes/class-avada-scripts.php:589
-msgid "Open Sub Menu"
+#: includes/class-avada-scripts.php:603
+msgid "Open Sub Menu Of"
 msgstr ""
 
-#: includes/class-avada-scripts.php:590
-msgid "Close Sub Menu"
+#: includes/class-avada-scripts.php:604
+msgid "Close Sub Menu Of"
 msgstr ""
 
-#: includes/class-avada-scripts.php:607
+#: includes/class-avada-scripts.php:621
 msgid "Go to Top"
 msgstr ""
 
-#: includes/class-avada-scripts.php:688 templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:704 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr ""
 
-#: includes/class-avada-scripts.php:691
+#: includes/class-avada-scripts.php:707
 msgid "Not all fields have been filled in correctly."
+msgstr ""
+
+#: includes/class-avada-scripts.php:767
+msgid "No search results match your query. Please try again"
 msgstr ""
 
 #. translators: the Date.
@@ -3117,19 +3123,19 @@ msgid "Remove Image"
 msgstr ""
 
 #. translators: %1$s: Comment date. %2$s: Comment time.
-#: includes/class-avada-template.php:471
+#: includes/class-avada-template.php:473
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: includes/class-avada-template.php:471
+#: includes/class-avada-template.php:473
 msgid " - Edit"
 msgstr ""
 
-#: includes/class-avada-template.php:477
+#: includes/class-avada-template.php:479
 msgid " - Reply"
 msgstr ""
 
-#: includes/class-avada-template.php:488
+#: includes/class-avada-template.php:490
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
@@ -3192,7 +3198,7 @@ msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: includes/class-avada-tgm-plugin-activation.php:398
-#: includes/class-avada-upgrade.php:358
+#: includes/class-avada-upgrade.php:360
 msgid "Dismiss this notice"
 msgstr ""
 
@@ -3441,7 +3447,7 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: includes/class-avada-upgrade.php:357
+#: includes/class-avada-upgrade.php:359
 msgid "View Changelog"
 msgstr ""
 
@@ -3493,7 +3499,7 @@ msgstr ""
 #: includes/metaboxes/options/options_slide.php:225
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:74
 #: includes/metaboxes/tabs/tab_sidebars.php:122 includes/options/footer.php:87
-#: includes/options/footer.php:451 includes/options/menu.php:381
+#: includes/options/footer.php:451 includes/options/menu.php:447
 #: includes/options/page_title_bar.php:478 includes/options/portfolio.php:210
 #: includes/options/sidebars.php:94 includes/options/social_media.php:108
 #: includes/options/social_media.php:232 includes/options/social_media.php:409
@@ -3550,17 +3556,17 @@ msgstr ""
 #: includes/metaboxes/options/options_slide.php:138
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:115
 #: includes/metaboxes/tabs/tab_sidebars.php:86 includes/options/blog.php:307
-#: includes/options/extra.php:263 includes/options/header.php:55
-#: includes/options/logo.php:48 includes/options/menu.php:539
-#: includes/options/menu.php:794 includes/options/menu.php:1808
-#: includes/options/menu.php:1988 includes/options/page_title_bar.php:265
-#: includes/options/portfolio.php:220 includes/options/sidebars.php:174
-#: includes/options/sidebars.php:217 includes/options/sidebars.php:293
-#: includes/options/sidebars.php:361 includes/options/sidebars.php:408
-#: includes/options/sidebars.php:484 includes/options/sidebars.php:527
-#: includes/options/sliding_bar.php:77 includes/options/sliding_bar.php:214
-#: includes/options/social_media.php:107 includes/options/social_media.php:231
-#: includes/options/social_media.php:408
+#: includes/options/extra.php:135 includes/options/extra.php:295
+#: includes/options/header.php:55 includes/options/logo.php:48
+#: includes/options/menu.php:605 includes/options/menu.php:860
+#: includes/options/menu.php:1874 includes/options/menu.php:2054
+#: includes/options/page_title_bar.php:265 includes/options/portfolio.php:220
+#: includes/options/sidebars.php:174 includes/options/sidebars.php:217
+#: includes/options/sidebars.php:293 includes/options/sidebars.php:361
+#: includes/options/sidebars.php:408 includes/options/sidebars.php:484
+#: includes/options/sidebars.php:527 includes/options/sliding_bar.php:77
+#: includes/options/sliding_bar.php:214 includes/options/social_media.php:107
+#: includes/options/social_media.php:231 includes/options/social_media.php:408
 #: includes/widget/class-fusion-widget-menu.php:182
 #: includes/widget/class-fusion-widget-social-links.php:553
 #: includes/widget/class-fusion-widget-vertical-menu.php:333
@@ -3575,17 +3581,18 @@ msgstr ""
 #: includes/metaboxes/options/options_slide.php:140
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:117
 #: includes/metaboxes/tabs/tab_sidebars.php:87 includes/options/blog.php:309
-#: includes/options/extra.php:264 includes/options/header.php:56
-#: includes/options/lightbox.php:101 includes/options/logo.php:50
-#: includes/options/menu.php:541 includes/options/menu.php:795
-#: includes/options/menu.php:1810 includes/options/menu.php:1986
-#: includes/options/page_title_bar.php:267 includes/options/portfolio.php:222
-#: includes/options/sidebars.php:175 includes/options/sidebars.php:218
-#: includes/options/sidebars.php:294 includes/options/sidebars.php:362
-#: includes/options/sidebars.php:409 includes/options/sidebars.php:485
-#: includes/options/sidebars.php:528 includes/options/sliding_bar.php:75
-#: includes/options/sliding_bar.php:216 includes/options/social_media.php:105
-#: includes/options/social_media.php:229 includes/options/social_media.php:406
+#: includes/options/extra.php:137 includes/options/extra.php:296
+#: includes/options/header.php:56 includes/options/lightbox.php:101
+#: includes/options/logo.php:50 includes/options/menu.php:607
+#: includes/options/menu.php:861 includes/options/menu.php:1876
+#: includes/options/menu.php:2052 includes/options/page_title_bar.php:267
+#: includes/options/portfolio.php:222 includes/options/sidebars.php:175
+#: includes/options/sidebars.php:218 includes/options/sidebars.php:294
+#: includes/options/sidebars.php:362 includes/options/sidebars.php:409
+#: includes/options/sidebars.php:485 includes/options/sidebars.php:528
+#: includes/options/sliding_bar.php:75 includes/options/sliding_bar.php:216
+#: includes/options/social_media.php:105 includes/options/social_media.php:229
+#: includes/options/social_media.php:406
 #: includes/widget/class-fusion-widget-menu.php:184
 #: includes/widget/class-fusion-widget-social-links.php:551
 #: includes/widget/class-fusion-widget-vertical-menu.php:334
@@ -3597,8 +3604,8 @@ msgstr ""
 #: includes/metaboxes/options/options_slide.php:139
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:116
 #: includes/options/blog.php:308 includes/options/elastic_slider.php:71
-#: includes/options/logo.php:49 includes/options/menu.php:540
-#: includes/options/menu.php:1809 includes/options/page_title_bar.php:266
+#: includes/options/logo.php:49 includes/options/menu.php:606
+#: includes/options/menu.php:1875 includes/options/page_title_bar.php:266
 #: includes/options/portfolio.php:221 includes/options/sliding_bar.php:215
 #: includes/widget/class-fusion-widget-menu.php:183
 msgid "Center"
@@ -3623,24 +3630,24 @@ msgstr ""
 msgid "These options apply to the widget container, not the actual widget."
 msgstr ""
 
-#: includes/class-avada-woocommerce.php:650
+#: includes/class-avada-woocommerce.php:651
 msgid "Dashboard"
 msgstr ""
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1186
+#: includes/class-avada-woocommerce.php:1187
 msgid "You Have %d Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-avada-woocommerce.php:1312
-#: includes/class-avada-woocommerce.php:1330
+#: includes/class-avada-woocommerce.php:1313
+#: includes/class-avada-woocommerce.php:1331
 msgid "Continue"
 msgstr ""
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1374
+#: includes/class-avada-woocommerce.php:1375
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -3974,7 +3981,7 @@ msgstr ""
 msgid "Back to Parent Page"
 msgstr ""
 
-#: includes/dynamic_css.php:5401
+#: includes/dynamic_css.php:5429
 msgid "Please enter correct details for this required field."
 msgstr ""
 
@@ -4423,11 +4430,11 @@ msgstr ""
 msgid "documentation post"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:670
+#: includes/lib/inc/class-fusion-scripts.php:668
 msgid "Loading the next set of posts..."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:671
+#: includes/lib/inc/class-fusion-scripts.php:669
 msgid "All items displayed."
 msgstr ""
 
@@ -4495,7 +4502,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_post.php:150
 #: includes/metaboxes/tabs/tab_post.php:162 includes/options/blog.php:54
 #: includes/options/blog.php:67 includes/options/contact.php:185
-#: includes/options/page_title_bar.php:49 includes/options/search_page.php:98
+#: includes/options/page_title_bar.php:49 includes/options/search.php:343
 msgid "Hide"
 msgstr ""
 
@@ -4836,8 +4843,8 @@ msgstr ""
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:453
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:138
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:215
-#: includes/options/extra.php:266 includes/options/header.php:54
-#: includes/options/menu.php:797 includes/options/menu.php:1985
+#: includes/options/extra.php:298 includes/options/header.php:54
+#: includes/options/menu.php:863 includes/options/menu.php:2051
 #: includes/options/sliding_bar.php:74 includes/options/social_media.php:104
 #: includes/options/social_media.php:228 includes/options/social_media.php:405
 #: includes/widget/class-fusion-widget-social-links.php:550
@@ -4848,8 +4855,8 @@ msgstr ""
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:462
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:152
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:229
-#: includes/options/extra.php:265 includes/options/lightbox.php:102
-#: includes/options/menu.php:796 includes/options/menu.php:1987
+#: includes/options/extra.php:297 includes/options/lightbox.php:102
+#: includes/options/menu.php:862 includes/options/menu.php:2053
 #: includes/options/sliding_bar.php:76 includes/options/social_media.php:106
 #: includes/options/social_media.php:230 includes/options/social_media.php:407
 #: includes/widget/class-fusion-widget-social-links.php:552
@@ -5530,6 +5537,7 @@ msgid "No items of this type were found."
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:68
+#: includes/options/menu.php:298
 msgid "Slide"
 msgstr ""
 
@@ -6561,7 +6569,7 @@ msgid "Sidebars"
 msgstr ""
 
 #: includes/metaboxes/metaboxes.php:291 includes/options/background.php:29
-#: includes/options/menu.php:89
+#: includes/options/menu.php:90
 msgid "Background"
 msgstr ""
 
@@ -7347,12 +7355,12 @@ msgid "Breadcrumbs/Search Bar"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:72
-#: includes/options/page_title_bar.php:453
 #: includes/options/page_title_bar.php:479
 msgid "Breadcrumbs"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:73
+#: includes/options/page_title_bar.php:480
 msgid "Search Bar"
 msgstr ""
 
@@ -7363,12 +7371,12 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:84
 #: includes/options/page_title_bar.php:54
-msgid "Page Title Bar Text"
+msgid "Page Title Bar Headings"
 msgstr ""
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:91
-msgid "Choose to show or hide the page title bar text. %s"
+msgid "Choose to show or hide the page title bar headings. %s"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:112
@@ -7385,24 +7393,27 @@ msgid ""
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:127
-msgid "Page Title Bar Custom Text"
+msgid "Page Title Bar Heading Custom Text"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:128
-msgid "Insert custom text for the page title bar."
+msgid "Insert custom text for the page title bar main heading."
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:135
-msgid "Page Title Bar Text Size"
+#: includes/options/page_title_bar.php:155
+msgid "Page Title Bar Heading Font Size"
 msgstr ""
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:137
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:171
 msgid "In pixels. %s"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:143
-msgid "Page Title Bar Line Height"
+#: includes/options/page_title_bar.php:177
+msgid "Page Title Bar Heading Line Height"
 msgstr ""
 
 #. translators: Additional description (defaults).
@@ -7411,52 +7422,49 @@ msgid "Valid CSS unit. %s"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:151
-msgid "Page Title Bar Custom Subheader Text"
-msgstr ""
-
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:152
-msgid "Insert custom subhead text for the page title bar."
-msgstr ""
-
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:159
-msgid "Page Title Bar Subhead Text Size"
-msgstr ""
-
-#. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:161
-msgid "In pixels, default is 10px. %s"
-msgstr ""
-
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:167
 #: includes/options/page_title_bar.php:199
-msgid "Page Title Font Color"
+msgid "Page Title Bar Heading Font Color"
 msgstr ""
 
 #. translators: Additional description (defaults).
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:153
+msgid "Controls the text color of the page title bar main heading. %s"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:161
+msgid "Page Title Bar Subheading Custom Text"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:162
+msgid "Insert custom text for the page title bar subheading."
+msgstr ""
+
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:169
-msgid "Controls the text color of the page title fonts. %s"
+#: includes/options/page_title_bar.php:218
+msgid "Page Title Bar Subheading Font Size"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:177
 #: includes/options/page_title_bar.php:240
-msgid "Page Title Subheader Font Color"
+msgid "Page Title Bar Subheading Font Color"
 msgstr ""
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:179
-msgid "Controls the text color of the page title subheader. %s"
+msgid "Controls the text color of the page title bar subheading. %s"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:187
 #: includes/options/page_title_bar.php:75
-msgid "100% Page Title Width"
+msgid "Page Title Bar 100% Width"
 msgstr ""
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:194
 msgid ""
-"Choose to set the page title content to 100&#37; of the browser width. "
-"Select \"No\" for site width. Only works with wide layout mode. %s"
+"Choose \"Yes\" to have the page title bar area display at 100&#37; width "
+"according to the viewport size. Select \"No\" to follow site width. Only "
+"works with wide layout mode. %s"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:238
@@ -7900,7 +7908,7 @@ msgid ""
 "highlighting elements."
 msgstr ""
 
-#: includes/options/advanced.php:119 includes/options/menu.php:1850
+#: includes/options/advanced.php:119 includes/options/menu.php:1916
 msgid "Mega Menu"
 msgstr ""
 
@@ -8225,9 +8233,10 @@ msgstr ""
 #: includes/options/blog.php:42
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab only control the "
-"assigned blog page in settings > reading, blog archives or the blog single "
-"post page, not the blog element. The only options on this tab that work with "
-"the blog element are the Date Format options and Load More Post Button Color."
+"assigned blog page in \"Settings > Reading\", blog archives or the blog "
+"single post page, not the blog element. The only options on this tab that "
+"work with the blog element are the Date Format options and Load More Post "
+"Button Color."
 msgstr ""
 
 #: includes/options/blog.php:47
@@ -8247,7 +8256,7 @@ msgstr ""
 #: includes/options/blog.php:61
 msgid ""
 "Controls how the page title bar displays on the assigned blog page in "
-"\"settings > reading\"."
+"\"Settings > Reading\"."
 msgstr ""
 
 #: includes/options/blog.php:73
@@ -8257,7 +8266,7 @@ msgstr ""
 #: includes/options/blog.php:74
 msgid ""
 "Controls the title text that displays in the page title bar only if your "
-"front page displays your latest post in \"settings > reading\"."
+"front page displays your latest post in \"Settings > Reading\"."
 msgstr ""
 
 #: includes/options/blog.php:88
@@ -8267,7 +8276,7 @@ msgstr ""
 #: includes/options/blog.php:89
 msgid ""
 "Controls the subtitle text that displays in the page title bar only if your "
-"front page displays your latest post in \"settings > reading\"."
+"front page displays your latest post in \"Settings > Reading\"."
 msgstr ""
 
 #: includes/options/blog.php:103
@@ -8280,35 +8289,35 @@ msgid ""
 msgstr ""
 
 #: includes/options/blog.php:109 includes/options/blog.php:126
-#: includes/options/search_page.php:39
+#: includes/options/search.php:181
 #: includes/widget/class-fusion-widget-author.php:266
 msgid "Large"
 msgstr ""
 
 #: includes/options/blog.php:110 includes/options/blog.php:127
-#: includes/options/search_page.php:40
+#: includes/options/search.php:182
 #: includes/widget/class-fusion-widget-author.php:265
 msgid "Medium"
 msgstr ""
 
 #: includes/options/blog.php:111 includes/options/blog.php:128
-#: includes/options/search_page.php:41
+#: includes/options/search.php:183
 msgid "Large Alternate"
 msgstr ""
 
 #: includes/options/blog.php:112 includes/options/blog.php:129
-#: includes/options/search_page.php:42
+#: includes/options/search.php:184
 msgid "Medium Alternate"
 msgstr ""
 
 #: includes/options/blog.php:113 includes/options/blog.php:130
-#: includes/options/portfolio.php:47 includes/options/search_page.php:43
+#: includes/options/portfolio.php:47 includes/options/search.php:185
 #: includes/options/woocommerce.php:262
 msgid "Grid"
 msgstr ""
 
 #: includes/options/blog.php:114 includes/options/blog.php:131
-#: includes/options/search_page.php:44
+#: includes/options/search.php:186
 msgid "Timeline"
 msgstr ""
 
@@ -8331,20 +8340,22 @@ msgstr ""
 
 #: includes/options/blog.php:138
 msgid ""
-"Controls the pagination type for the assigned blog page in \"settings > "
-"reading\" or blog archive pages."
+"Controls the pagination type for the assigned blog page in \"Settings > "
+"Reading\" or blog archive pages."
 msgstr ""
 
-#: includes/options/blog.php:143 includes/options/extra.php:421
-#: includes/options/portfolio.php:258
+#: includes/options/blog.php:143 includes/options/extra.php:453
+#: includes/options/portfolio.php:258 includes/options/search.php:208
 msgid "Pagination"
 msgstr ""
 
 #: includes/options/blog.php:144 includes/options/portfolio.php:259
+#: includes/options/search.php:209
 msgid "Infinite Scroll"
 msgstr ""
 
 #: includes/options/blog.php:145 includes/options/portfolio.php:260
+#: includes/options/search.php:210
 msgid "Load More Button"
 msgstr ""
 
@@ -8358,19 +8369,18 @@ msgid ""
 "Also works with the blog element."
 msgstr ""
 
-#: includes/options/blog.php:157
+#: includes/options/blog.php:157 includes/options/search.php:215
 msgid "Number of Columns"
 msgstr ""
 
 #: includes/options/blog.php:158
 msgid ""
-"Controls the amount of columns for grid and masonry layout when using it for "
-"the assigned blog page in \"Settings > Reading\" or blog archive pages or "
-"search results page. <strong>IMPORTANT:</strong> Masonry layout does not "
-"work with 1 column."
+"Controls the number of columns for grid and masonry layout when using it for "
+"the assigned blog page in \"Settings > Reading\" or blog archive pages. "
+"<strong>IMPORTANT:</strong> Masonry layout does not work with 1 column."
 msgstr ""
 
-#: includes/options/blog.php:192
+#: includes/options/blog.php:192 includes/options/search.php:240
 msgid "Column Spacing"
 msgstr ""
 
@@ -8378,7 +8388,7 @@ msgstr ""
 msgid ""
 "Controls the column spacing for blog posts for grid and masonry layout when "
 "using it for the assigned blog page in \"Settings > Reading\" or blog "
-"archive pages or search results page."
+"archive pages."
 msgstr ""
 
 #: includes/options/blog.php:228 includes/options/portfolio.php:94
@@ -8421,20 +8431,22 @@ msgstr ""
 #: includes/options/blog.php:348
 msgid ""
 "Controls if the blog content displays an excerpt or full content or is "
-"completely disabled for the assigned blog page in \"settings > reading\" or "
+"completely disabled for the assigned blog page in \"Settings > Reading\" or "
 "blog archive pages."
 msgstr ""
 
 #: includes/options/blog.php:353 includes/options/portfolio.php:163
+#: includes/options/search.php:272
 msgid "Excerpt"
 msgstr ""
 
 #: includes/options/blog.php:354 includes/options/portfolio.php:164
+#: includes/options/search.php:273
 msgid "Full Content"
 msgstr ""
 
 #: includes/options/blog.php:355 includes/options/portfolio.php:150
-#: includes/options/portfolio.php:162
+#: includes/options/portfolio.php:162 includes/options/search.php:274
 msgid "No Text"
 msgstr ""
 
@@ -8445,7 +8457,7 @@ msgstr ""
 #: includes/options/blog.php:360
 msgid ""
 "Controls the number of words in the post excerpts for the assigned blog page "
-"in \"settings > reading\" or blog archive pages."
+"in \"Settings > Reading\" or blog archive pages."
 msgstr ""
 
 #: includes/options/blog.php:378 includes/options/portfolio.php:194
@@ -8455,7 +8467,7 @@ msgstr ""
 #: includes/options/blog.php:379
 msgid ""
 "Turn on to strip HTML content from the excerpt for the assigned blog page in "
-"\"settings > reading\" or blog archive pages."
+"\"Settings > Reading\" or blog archive pages."
 msgstr ""
 
 #: includes/options/blog.php:385
@@ -8589,6 +8601,7 @@ msgid "Turn on to display related posts."
 msgstr ""
 
 #: includes/options/blog.php:495 includes/options/portfolio.php:368
+#: includes/options/search.php:329
 #: includes/widget/class-fusion-widget-tabs.php:87
 msgid "Comments"
 msgstr ""
@@ -8604,9 +8617,9 @@ msgstr ""
 #: includes/options/blog.php:513
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The on/off meta options on this tab only "
-"control the assigned blog page in settings > reading, or the blog archives, "
-"not the blog element. The only options on this tab that work with the blog "
-"element are the Meta Data Font Size and Date Format options."
+"control the assigned blog page in \"Settings > Reading\" or the blog "
+"archives, not the blog element. The only options on this tab that work with "
+"the blog element are the Meta Data Font Size and Date Format options."
 msgstr ""
 
 #: includes/options/blog.php:518
@@ -9018,9 +9031,10 @@ msgstr ""
 
 #: includes/options/contact.php:263
 msgid ""
-"Add the address of the location you wish to display. Address example: 775 "
-"New York Ave, Brooklyn, Kings, New York 11203. If the location is off, "
-"please try to use long/lat coordinates. ex: 12.381068,-1.492711."
+"Add the address of the location you wish to display. Leave empty, if you "
+"don't want to display a map on the contact page. Address example: 775 New "
+"York Ave, Brooklyn, Kings, New York 11203. If the location is off, please "
+"try to use long/lat coordinates. ex: 12.381068,-1.492711."
 msgstr ""
 
 #: includes/options/contact.php:277
@@ -9045,8 +9059,9 @@ msgstr ""
 
 #: includes/options/contact.php:297
 msgid ""
-"Add the address to the location you wish to display. Single address example: "
-"775 New York Ave, Brooklyn, Kings, New York 11203. If the location is off, "
+"Add the address to the location you wish to display. Leave empty, if you "
+"don't want to display a map on the contact page. Single address example: 775 "
+"New York Ave, Brooklyn, Kings, New York 11203. If the location is off, "
 "please try to use long/lat coordinates with latlng=. ex: "
 "latlng=12.381068,-1.492711. For multiple addresses, separate addresses by "
 "using the | symbol. ex: Address 1|Address 2|Address 3."
@@ -9750,384 +9765,434 @@ msgstr ""
 msgid "Turn on to allow social icons to open in a new window."
 msgstr ""
 
-#: includes/options/extra.php:131
-msgid "Related Posts / Projects"
+#: includes/options/extra.php:129
+msgid "ToTop Button Position"
 msgstr ""
 
-#: includes/options/extra.php:137
-msgid "Related Posts / Projects Layout"
+#: includes/options/extra.php:130
+msgid ""
+"Controls the position of the ToTop button. On mobiles also non-floating "
+"layouts will be floating."
+msgstr ""
+
+#: includes/options/extra.php:136
+msgid "Left Floating"
 msgstr ""
 
 #: includes/options/extra.php:138
-msgid "Controls the layout style for related posts and related projects."
+msgid "Right Floating"
+msgstr ""
+
+#: includes/options/extra.php:142
+msgid "ToTop Border Radius"
 msgstr ""
 
 #: includes/options/extra.php:143
+msgid ""
+"Controls the border radius of the ToTop button. For non-floating layouts the "
+"border radius will only apply to the upper corners."
+msgstr ""
+
+#: includes/options/extra.php:154
+msgid "ToTop Show on Scroll Down Only"
+msgstr ""
+
+#: includes/options/extra.php:155
+msgid ""
+"Turn on to show the ToTop button on scroll down only. Otherwise it will "
+"always show if the page is scrolled."
+msgstr ""
+
+#: includes/options/extra.php:163
+msgid "Related Posts / Projects"
+msgstr ""
+
+#: includes/options/extra.php:169
+msgid "Related Posts / Projects Layout"
+msgstr ""
+
+#: includes/options/extra.php:170
+msgid "Controls the layout style for related posts and related projects."
+msgstr ""
+
+#: includes/options/extra.php:175
 msgid "Title on rollover"
 msgstr ""
 
-#: includes/options/extra.php:144
+#: includes/options/extra.php:176
 msgid "Title below image"
 msgstr ""
 
-#: includes/options/extra.php:148
+#: includes/options/extra.php:180
 msgid "Number of Related Posts / Projects"
 msgstr ""
 
-#: includes/options/extra.php:149
+#: includes/options/extra.php:181
 msgid ""
 "Controls the number of related posts and projects that display on a single "
 "post."
 msgstr ""
 
-#: includes/options/extra.php:160
+#: includes/options/extra.php:192
 msgid "Related Posts / Projects Maximum Columns"
 msgstr ""
 
-#: includes/options/extra.php:161
+#: includes/options/extra.php:193
 msgid ""
 "Controls the number of columns for the related posts and projects layout."
 msgstr ""
 
-#: includes/options/extra.php:172
+#: includes/options/extra.php:204
 msgid "Related Posts / Projects Column Spacing"
 msgstr ""
 
-#: includes/options/extra.php:173
+#: includes/options/extra.php:205
 msgid ""
 "Controls the amount of spacing between columns for the related posts and "
 "projects."
 msgstr ""
 
-#: includes/options/extra.php:185
+#: includes/options/extra.php:217
 msgid "Related Posts / Projects Image Size"
 msgstr ""
 
-#: includes/options/extra.php:186
+#: includes/options/extra.php:218
 msgid ""
 "Controls if the featured image size is fixed (cropped) or auto (full image "
 "ratio) for related posts and projects. IMPORTANT: Fixed works best with a "
 "standard 940px site width. Auto works best with larger site widths."
 msgstr ""
 
-#: includes/options/extra.php:191 includes/options/portfolio.php:58
+#: includes/options/extra.php:223 includes/options/portfolio.php:58
 msgid "Fixed"
 msgstr ""
 
-#: includes/options/extra.php:196
+#: includes/options/extra.php:228
 msgid "Related Posts / Projects Autoplay"
 msgstr ""
 
-#: includes/options/extra.php:197
+#: includes/options/extra.php:229
 msgid "Turn on to autoplay the related posts and project carousel."
 msgstr ""
 
-#: includes/options/extra.php:203
+#: includes/options/extra.php:235
 msgid "Related Posts / Projects Speed"
 msgstr ""
 
-#: includes/options/extra.php:204
+#: includes/options/extra.php:236
 msgid ""
 "Controls the speed of related posts and project carousel. ex: 1000 = 1 "
 "second."
 msgstr ""
 
-#: includes/options/extra.php:215
+#: includes/options/extra.php:247
 msgid "Related Posts / Projects Show Navigation"
 msgstr ""
 
-#: includes/options/extra.php:216
+#: includes/options/extra.php:248
 msgid "Turn on to display navigation arrows on the carousel."
 msgstr ""
 
-#: includes/options/extra.php:222
+#: includes/options/extra.php:254
 msgid "Related Posts / Projects Mouse Scroll"
 msgstr ""
 
-#: includes/options/extra.php:223
+#: includes/options/extra.php:255
 msgid "Turn on to enable mouse drag control on the carousel."
 msgstr ""
 
-#: includes/options/extra.php:229
+#: includes/options/extra.php:261
 msgid "Related Posts / Projects Scroll Items"
 msgstr ""
 
-#: includes/options/extra.php:230
+#: includes/options/extra.php:262
 msgid ""
 "Controls the number of items that scroll at one time. Set to 0 to scroll the "
 "number of visible items."
 msgstr ""
 
-#: includes/options/extra.php:243
+#: includes/options/extra.php:275
 msgid "Featured Image Rollover"
 msgstr ""
 
-#: includes/options/extra.php:249
+#: includes/options/extra.php:281
 msgid "Image Rollover"
 msgstr ""
 
-#: includes/options/extra.php:250
+#: includes/options/extra.php:282
 msgid ""
 "Turn on to display the rollover graphic on blog and portfolio featured "
 "images."
 msgstr ""
 
-#: includes/options/extra.php:256
+#: includes/options/extra.php:288
 msgid "Image Rollover Direction"
 msgstr ""
 
-#: includes/options/extra.php:257
+#: includes/options/extra.php:289
 msgid "Controls the direction the rollover starts from."
 msgstr ""
 
-#: includes/options/extra.php:262 includes/options/menu.php:793
+#: includes/options/extra.php:294 includes/options/menu.php:297
+#: includes/options/menu.php:859
 msgid "Fade"
 msgstr ""
 
-#: includes/options/extra.php:267
+#: includes/options/extra.php:299
 msgid "Center Horizontal"
 msgstr ""
 
-#: includes/options/extra.php:268
+#: includes/options/extra.php:300
 msgid "Center Vertical"
 msgstr ""
 
-#: includes/options/extra.php:279
+#: includes/options/extra.php:311
 msgid "Image Rollover Icon Font Size"
 msgstr ""
 
-#: includes/options/extra.php:280
+#: includes/options/extra.php:312
 msgid "Controls the size of the rollover icons."
 msgstr ""
 
-#: includes/options/extra.php:293
+#: includes/options/extra.php:325
 msgid "Image Rollover Link Icon"
 msgstr ""
 
-#: includes/options/extra.php:294
+#: includes/options/extra.php:326
 msgid "Turn on to display the link icon in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:307
+#: includes/options/extra.php:339
 msgid "Image Rollover Zoom Icon"
 msgstr ""
 
-#: includes/options/extra.php:308
+#: includes/options/extra.php:340
 msgid "Turn on to display the zoom icon in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:321
+#: includes/options/extra.php:353
 msgid "Image Rollover Title"
 msgstr ""
 
-#: includes/options/extra.php:322
+#: includes/options/extra.php:354
 msgid "Turn on to display the post title in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:335
+#: includes/options/extra.php:367
 msgid "Image Rollover Categories"
 msgstr ""
 
-#: includes/options/extra.php:336
+#: includes/options/extra.php:368
 msgid "Turn on to display the post categories in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:349
+#: includes/options/extra.php:381
 msgid "Image Rollover Icon Circle"
 msgstr ""
 
-#: includes/options/extra.php:350
+#: includes/options/extra.php:382
 msgid "Turn on to display the icon background circle in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:363
+#: includes/options/extra.php:395
 msgid "Image Rollover Gradient Top Color"
 msgstr ""
 
-#: includes/options/extra.php:364
+#: includes/options/extra.php:396
 msgid "Controls the top color of the image rollover background."
 msgstr ""
 
-#: includes/options/extra.php:377
+#: includes/options/extra.php:409
 msgid "Image Rollover Gradient Bottom Color"
 msgstr ""
 
-#: includes/options/extra.php:378
+#: includes/options/extra.php:410
 msgid "Controls the bottom color of the image rollover background."
 msgstr ""
 
-#: includes/options/extra.php:391
+#: includes/options/extra.php:423
 msgid "Image Rollover Element Color"
 msgstr ""
 
-#: includes/options/extra.php:392
+#: includes/options/extra.php:424
 msgid ""
 "Controls the color of image rollover text and icon circular backgrounds."
 msgstr ""
 
-#: includes/options/extra.php:405
+#: includes/options/extra.php:437
 msgid "Image Rollover Icon Color"
 msgstr ""
 
-#: includes/options/extra.php:406
+#: includes/options/extra.php:438
 msgid "Controls the color of the icons in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:428
+#: includes/options/extra.php:460
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab apply to all "
 "pagination throughout the site, including the 3rd party plugins that Avada "
 "has design integration with."
 msgstr ""
 
-#: includes/options/extra.php:433
+#: includes/options/extra.php:466
+msgid "Pagination Sizing"
+msgstr ""
+
+#: includes/options/extra.php:467
+msgid "Set on which dimension the pagination box size should be based."
+msgstr ""
+
+#: includes/options/extra.php:471
+msgid "Width/Height Based"
+msgstr ""
+
+#: includes/options/extra.php:472
+msgid "Padding Based"
+msgstr ""
+
+#: includes/options/extra.php:476
+msgid "Pagination Box Width/Height"
+msgstr ""
+
+#: includes/options/extra.php:477
+msgid "Controls the width and height of the displayed page links."
+msgstr ""
+
+#: includes/options/extra.php:495
 msgid "Pagination Box Padding"
 msgstr ""
 
-#: includes/options/extra.php:434
-msgid "Controls the padding inside the pagination box."
+#: includes/options/extra.php:496
+msgid "Controls the padding inside the pagination boxes."
 msgstr ""
 
-#: includes/options/extra.php:444
+#: includes/options/extra.php:513
+msgid "Pagination Border Radius"
+msgstr ""
+
+#: includes/options/extra.php:514
+msgid ""
+"Controls the border radius of the displayed page links. Values of half the "
+"overall width or higher will yield circular links."
+msgstr ""
+
+#: includes/options/extra.php:525
 msgid "Pagination Text Display"
 msgstr ""
 
-#: includes/options/extra.php:445
+#: includes/options/extra.php:526
 msgid "Turn on to display the \"Previous/Next\" text."
 msgstr ""
 
-#: includes/options/extra.php:451
+#: includes/options/extra.php:532
 msgid "Pagination Font Size"
 msgstr ""
 
-#: includes/options/extra.php:452
+#: includes/options/extra.php:533
 msgid "Controls the size of the pagination text."
 msgstr ""
 
-#: includes/options/extra.php:458
+#: includes/options/extra.php:539
 msgid "Pagination Range"
 msgstr ""
 
-#: includes/options/extra.php:459
+#: includes/options/extra.php:540
 msgid ""
 "Controls the number of page links displayed left and right of current page."
 msgstr ""
 
-#: includes/options/extra.php:470
+#: includes/options/extra.php:551
 msgid "Pagination Start / End Range"
 msgstr ""
 
-#: includes/options/extra.php:471
+#: includes/options/extra.php:552
 msgid ""
 "Controls the number of page links displayed at the start and at the end of "
 "pagination."
 msgstr ""
 
-#: includes/options/extra.php:484
+#: includes/options/extra.php:565
 msgid "Forms Styling"
 msgstr ""
 
-#: includes/options/extra.php:491
+#: includes/options/extra.php:572
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab apply to all forms "
 "throughout the site, including the 3rd party plugins that Avada has design "
 "integration with."
 msgstr ""
 
-#: includes/options/extra.php:496
+#: includes/options/extra.php:577
 msgid "Form Input and Select Height"
 msgstr ""
 
-#: includes/options/extra.php:497
+#: includes/options/extra.php:578
 msgid "Controls the height of all search, form input and select fields."
 msgstr ""
 
-#: includes/options/extra.php:504
+#: includes/options/extra.php:585
 msgid "Form Background Color"
 msgstr ""
 
-#: includes/options/extra.php:505
+#: includes/options/extra.php:586
 msgid "Controls the background color of form fields."
 msgstr ""
 
-#: includes/options/extra.php:511
+#: includes/options/extra.php:592
 msgid "Form Font Size"
 msgstr ""
 
-#: includes/options/extra.php:512
+#: includes/options/extra.php:593
 msgid "Controls the size of the form text."
 msgstr ""
 
-#: includes/options/extra.php:518
+#: includes/options/extra.php:599
 msgid "Form Text Color"
 msgstr ""
 
-#: includes/options/extra.php:519
+#: includes/options/extra.php:600
 msgid "Controls the color of the form text."
 msgstr ""
 
-#: includes/options/extra.php:525
+#: includes/options/extra.php:606
 msgid "Form Border Size"
 msgstr ""
 
-#: includes/options/extra.php:526
+#: includes/options/extra.php:607
 msgid "Controls the border size of the form fields."
 msgstr ""
 
-#: includes/options/extra.php:537
+#: includes/options/extra.php:618
 msgid "Form Border Color"
 msgstr ""
 
-#: includes/options/extra.php:538
+#: includes/options/extra.php:619
 msgid "Controls the border color of the form fields."
 msgstr ""
 
-#: includes/options/extra.php:551
+#: includes/options/extra.php:632
 msgid "Form Border Color On Focus"
 msgstr ""
 
-#: includes/options/extra.php:552
+#: includes/options/extra.php:633
 msgid "Controls the border color of the form fields when they have focus."
 msgstr ""
 
-#: includes/options/extra.php:565
+#: includes/options/extra.php:646
 msgid "Form Border Radius"
 msgstr ""
 
-#: includes/options/extra.php:566
+#: includes/options/extra.php:647
 msgid ""
 "Controls the border radius of the form fields. Also works, if border size is "
 "set to 0."
 msgstr ""
 
-#: includes/options/extra.php:577
-msgid "Search Form"
-msgstr ""
-
-#: includes/options/extra.php:583
-msgid "Search Form Design"
-msgstr ""
-
-#: includes/options/extra.php:584
-msgid "Controls the design of the search forms."
-msgstr ""
-
-#: includes/options/extra.php:589 includes/options/menu.php:1331
-#: includes/options/woocommerce.php:296
-#: includes/widget/class-fusion-widget-tabs.php:295
-msgid "Classic"
-msgstr ""
-
-#: includes/options/extra.php:590 includes/options/woocommerce.php:297
-#: includes/widget/class-fusion-widget-tabs.php:296
-msgid "Clean"
-msgstr ""
-
-#: includes/options/extra.php:596
+#: includes/options/extra.php:660
 msgid "Grid / Masonry"
 msgstr ""
 
-#: includes/options/extra.php:603
+#: includes/options/extra.php:667
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> These are Grid Box Styling global options "
 "that apply to grid boxes throughout the site; blog grid and timeline, "
@@ -10135,80 +10200,80 @@ msgid ""
 "have options to override these."
 msgstr ""
 
-#: includes/options/extra.php:608
+#: includes/options/extra.php:672
 msgid "Grid Box Color"
 msgstr ""
 
-#: includes/options/extra.php:609
+#: includes/options/extra.php:673
 msgid "Controls the background color for the grid boxes."
 msgstr ""
 
-#: includes/options/extra.php:615
+#: includes/options/extra.php:679
 msgid "Grid Element Color"
 msgstr ""
 
-#: includes/options/extra.php:616
+#: includes/options/extra.php:680
 msgid ""
 "Controls the color of borders/date box/timeline dots and arrows for the grid "
 "boxes."
 msgstr ""
 
-#: includes/options/extra.php:622
+#: includes/options/extra.php:686
 msgid "Grid Separator Style"
 msgstr ""
 
-#: includes/options/extra.php:623
+#: includes/options/extra.php:687
 msgid ""
 "Controls the line style of grid separators. <strong>Note:</strong> For blog "
 "and portfolio grids at least one meta data field must be enabled and excerpt "
 "or full content must be shown in order that the separator will be displayed."
 msgstr ""
 
-#: includes/options/extra.php:628
+#: includes/options/extra.php:692
 msgid "No Style"
 msgstr ""
 
-#: includes/options/extra.php:629
+#: includes/options/extra.php:693
 msgid "Single Border Solid"
 msgstr ""
 
-#: includes/options/extra.php:630
+#: includes/options/extra.php:694
 msgid "Double Border Solid"
 msgstr ""
 
-#: includes/options/extra.php:631
+#: includes/options/extra.php:695
 msgid "Single Border Dashed"
 msgstr ""
 
-#: includes/options/extra.php:632
+#: includes/options/extra.php:696
 msgid "Double Border Dashed"
 msgstr ""
 
-#: includes/options/extra.php:633
+#: includes/options/extra.php:697
 msgid "Single Border Dotted"
 msgstr ""
 
-#: includes/options/extra.php:634
+#: includes/options/extra.php:698
 msgid "Double Border Dotted"
 msgstr ""
 
-#: includes/options/extra.php:635
+#: includes/options/extra.php:699
 msgid "Shadow"
 msgstr ""
 
-#: includes/options/extra.php:639
+#: includes/options/extra.php:703
 msgid "Grid Separator Color"
 msgstr ""
 
-#: includes/options/extra.php:640
+#: includes/options/extra.php:704
 msgid "Controls the line style color of grid separators."
 msgstr ""
 
-#: includes/options/extra.php:646
+#: includes/options/extra.php:710
 msgid "Masonry Options"
 msgstr ""
 
-#: includes/options/extra.php:653
+#: includes/options/extra.php:717
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> These are Masonry global options that apply "
 "to the Blog / Portfolio / Gallery elements in addition to Blog and Portfolio "
@@ -10216,11 +10281,11 @@ msgid ""
 "these."
 msgstr ""
 
-#: includes/options/extra.php:658
+#: includes/options/extra.php:722
 msgid "Masonry Image Aspect Ratio"
 msgstr ""
 
-#: includes/options/extra.php:659
+#: includes/options/extra.php:723
 msgid ""
 "Set the ratio to decide when an image should become landscape (ratio being "
 "width : height) and portrait (ratio being height : width). <strong>IMPORTANT:"
@@ -10228,11 +10293,11 @@ msgid ""
 "auto calculated ratios like in versions prior to Avada 5.5."
 msgstr ""
 
-#: includes/options/extra.php:670
+#: includes/options/extra.php:734
 msgid "Masonry 2x2 Width"
 msgstr ""
 
-#: includes/options/extra.php:671
+#: includes/options/extra.php:735
 msgid ""
 "This option decides when a square 1x1 image should become 2x2. This will not "
 "apply to images that highly favor landscape or portrait layouts. "
@@ -10894,34 +10959,44 @@ msgid "Menu + Logo Area"
 msgstr ""
 
 #: includes/options/header.php:785
-msgid "Sticky Header Background Color"
+msgid "Sticky Header Shadow"
 msgstr ""
 
 #: includes/options/header.php:786
-msgid "Controls the background color for the sticky header."
+msgid ""
+"Turn on to display a sticky header drop shadow. This option is incompatible "
+"with Internet Explorer versions older than IE11."
 msgstr ""
 
 #: includes/options/header.php:799
-msgid "Sticky Header Menu Font Color"
+msgid "Sticky Header Background Color"
 msgstr ""
 
 #: includes/options/header.php:800
-msgid "Controls the color for main menu text in the sticky header."
+msgid "Controls the background color for the sticky header."
 msgstr ""
 
 #: includes/options/header.php:813
-msgid "Sticky Header Menu Item Padding"
+msgid "Sticky Header Menu Font Color"
 msgstr ""
 
 #: includes/options/header.php:814
+msgid "Controls the color for main menu text in the sticky header."
+msgstr ""
+
+#: includes/options/header.php:827
+msgid "Sticky Header Menu Item Padding"
+msgstr ""
+
+#: includes/options/header.php:828
 msgid "Controls the space between each menu item in the sticky header."
 msgstr ""
 
-#: includes/options/header.php:837
+#: includes/options/header.php:851
 msgid "Sticky Header Navigation Font Size"
 msgstr ""
 
-#: includes/options/header.php:838
+#: includes/options/header.php:852
 msgid "Controls the font size of the menu items in the sticky header."
 msgstr ""
 
@@ -11385,7 +11460,8 @@ msgstr ""
 msgid ""
 "Controls the highlight style for main menu links and also affects the look "
 "of menu dropdowns. Arrow style cannot work with a transparent header "
-"background. <strong>Important:</strong> Arrow & Background style can require "
+"background. Bar highlights will display vertically on side header layouts. "
+"<strong>IMPORTANT:</strong> Arrow & Background style can require "
 "configuration of other options depending on desired effect."
 msgstr ""
 
@@ -11394,392 +11470,408 @@ msgid "See this post for more information"
 msgstr ""
 
 #: includes/options/menu.php:87
-msgid "Bar"
+msgid "Top Bar"
 msgstr ""
 
 #: includes/options/menu.php:88
+msgid "Bottom Bar"
+msgstr ""
+
+#: includes/options/menu.php:89
 msgid "Arrow"
 msgstr ""
 
-#: includes/options/menu.php:107
+#: includes/options/menu.php:91
+msgid "Color Only"
+msgstr ""
+
+#: includes/options/menu.php:109
 msgid "Main Menu Highlight Background Color"
 msgstr ""
 
-#: includes/options/menu.php:108
+#: includes/options/menu.php:110
 msgid "Controls the background color of main menu highlight."
 msgstr ""
 
-#: includes/options/menu.php:137
+#: includes/options/menu.php:139
 msgid "Main Menu Arrow Size"
 msgstr ""
 
-#: includes/options/menu.php:138
+#: includes/options/menu.php:140
 msgid "Controls the width and height of the main menu arrow."
 msgstr ""
 
-#: includes/options/menu.php:171
+#: includes/options/menu.php:173
 msgid "Main Menu Highlight Bar Size"
 msgstr ""
 
-#: includes/options/menu.php:172
+#: includes/options/menu.php:174
 msgid "Controls the size of the menu highlight bar."
 msgstr ""
 
-#: includes/options/menu.php:206
+#: includes/options/menu.php:228
 msgid "Main Menu Item Padding"
 msgstr ""
 
-#: includes/options/menu.php:207
+#: includes/options/menu.php:229
 msgid "Controls the right padding for menu text (left on RTL)."
 msgstr ""
 
-#: includes/options/menu.php:225
+#: includes/options/menu.php:247
 msgid "Main Menu Item Padding On Mobile"
 msgstr ""
 
-#: includes/options/menu.php:226
+#: includes/options/menu.php:248
 msgid ""
 "Controls the right padding for menu text (left on RTL) when the normal "
 "desktop menu is used on mobile devices."
 msgstr ""
 
-#: includes/options/menu.php:249
+#: includes/options/menu.php:271
 msgid "Main Menu Drop Shadow"
 msgstr ""
 
-#: includes/options/menu.php:250
+#: includes/options/menu.php:272
 msgid "Turn on to display a drop shadow on menu dropdowns."
 msgstr ""
 
-#: includes/options/menu.php:269
+#: includes/options/menu.php:291
+msgid "Main Menu Dropdown / Mega Menu Animation"
+msgstr ""
+
+#: includes/options/menu.php:292
+msgid "Controls the animation type for all sub-menus."
+msgstr ""
+
+#: includes/options/menu.php:315
 msgid "Main Menu Dropdown Top Border Size"
 msgstr ""
 
-#: includes/options/menu.php:270
+#: includes/options/menu.php:316
 msgid "Controls top border size of dropdown menus and mega menus."
 msgstr ""
 
-#: includes/options/menu.php:304
+#: includes/options/menu.php:370
 msgid "Main Menu Dropdown Width"
 msgstr ""
 
-#: includes/options/menu.php:305
+#: includes/options/menu.php:371
 msgid "Controls the width of the dropdown."
 msgstr ""
 
-#: includes/options/menu.php:329
+#: includes/options/menu.php:395
 msgid "Main Menu Dropdown Item Padding"
 msgstr ""
 
-#: includes/options/menu.php:330
+#: includes/options/menu.php:396
 msgid "Controls the top/bottom padding for dropdown menu items."
 msgstr ""
 
-#: includes/options/menu.php:354
+#: includes/options/menu.php:420
 msgid "Main Menu Dropdown Divider"
 msgstr ""
 
-#: includes/options/menu.php:355
+#: includes/options/menu.php:421
 msgid "Turn on to display a divider line on dropdown menu items."
 msgstr ""
 
-#: includes/options/menu.php:374
+#: includes/options/menu.php:440
 msgid "Main Menu Dropdown Indicator"
 msgstr ""
 
-#: includes/options/menu.php:375
+#: includes/options/menu.php:441
 msgid "Turn on to display arrow indicators next to parent level menu items."
 msgstr ""
 
-#: includes/options/menu.php:379
+#: includes/options/menu.php:445
 msgid "Parent"
 msgstr ""
 
-#: includes/options/menu.php:380
+#: includes/options/menu.php:446
 msgid "Parent + Child"
 msgstr ""
 
-#: includes/options/menu.php:399
+#: includes/options/menu.php:465
 msgid "Main Menu Search Icon"
 msgstr ""
 
-#: includes/options/menu.php:400
+#: includes/options/menu.php:466
 msgid "Turn on to display the search icon in the main menu."
 msgstr ""
 
-#: includes/options/menu.php:406
+#: includes/options/menu.php:472
 msgid "Main Menu Icon Circle Borders"
 msgstr ""
 
-#: includes/options/menu.php:407
+#: includes/options/menu.php:473
 msgid "Turn on to display a circle border on the cart and search icons."
 msgstr ""
 
-#: includes/options/menu.php:413
+#: includes/options/menu.php:479
 msgid "Menu Highlight Label Radius"
 msgstr ""
 
-#: includes/options/menu.php:414
+#: includes/options/menu.php:480
 msgid "Controls the border radius of all your menu highlight labels."
 msgstr ""
 
-#: includes/options/menu.php:420
+#: includes/options/menu.php:486
 msgid "Main Menu Dropdown Background Color"
 msgstr ""
 
-#: includes/options/menu.php:421
+#: includes/options/menu.php:487
 msgid "Controls the background color of the main menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:440
+#: includes/options/menu.php:506
 msgid "Main Menu Dropdown Background Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:441
+#: includes/options/menu.php:507
 msgid "Controls the background hover color of the main menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:460
+#: includes/options/menu.php:526
 msgid "Main Menu Dropdown Separator Color"
 msgstr ""
 
-#: includes/options/menu.php:461
+#: includes/options/menu.php:527
 msgid "Controls the color of the separators in the main menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:480
+#: includes/options/menu.php:546
 msgid "Main Menu Background Color For Header 4 & 5"
 msgstr ""
 
-#: includes/options/menu.php:481
+#: includes/options/menu.php:547
 msgid ""
 "Controls the background color of the main menu when using header 4 or 5."
 msgstr ""
 
-#: includes/options/menu.php:500
+#: includes/options/menu.php:566
 msgid "Main Menu Typography"
 msgstr ""
 
-#: includes/options/menu.php:507
+#: includes/options/menu.php:573
 msgid "Menus Typography"
 msgstr ""
 
-#: includes/options/menu.php:508
+#: includes/options/menu.php:574
 msgid "These settings control the typography for all menus."
 msgstr ""
 
-#: includes/options/menu.php:527
+#: includes/options/menu.php:593
 msgid "Main Menu Font Hover/Active Color"
 msgstr ""
 
-#: includes/options/menu.php:528
+#: includes/options/menu.php:594
 msgid ""
 "Controls the color for main menu text hover and active states, highlight bar "
 "and dropdown border."
 msgstr ""
 
-#: includes/options/menu.php:534
+#: includes/options/menu.php:600
 msgid "Main Menu Text Align"
 msgstr ""
 
-#: includes/options/menu.php:535
+#: includes/options/menu.php:601
 msgid ""
 "Controls the main menu text alignment for top headers 4-5 and side headers."
 msgstr ""
 
-#: includes/options/menu.php:564
+#: includes/options/menu.php:630
 msgid "Main Menu Dropdown Font Color"
 msgstr ""
 
-#: includes/options/menu.php:565
+#: includes/options/menu.php:631
 msgid "Controls the color for main menu dropdown text."
 msgstr ""
 
-#: includes/options/menu.php:584
+#: includes/options/menu.php:650
 msgid "Main Menu Dropdown Font Size"
 msgstr ""
 
-#: includes/options/menu.php:585
+#: includes/options/menu.php:651
 msgid "Controls the font size for main menu dropdown text."
 msgstr ""
 
-#: includes/options/menu.php:607
+#: includes/options/menu.php:673
 msgid "Side Navigation Font Size"
 msgstr ""
 
-#: includes/options/menu.php:608
+#: includes/options/menu.php:674
 msgid ""
 "Controls the font size for the menu text when using the side navigation page "
 "template."
 msgstr ""
 
-#: includes/options/menu.php:619
+#: includes/options/menu.php:685
 msgid "Flyout Menu"
 msgstr ""
 
-#: includes/options/menu.php:625
+#: includes/options/menu.php:691
 msgid ""
 "<strong>IMPORTANT NOTE:</strong>  Flyout Menu Options are only available "
 "when using Header Layout #6 or Mobile Flyout Menu. Your current setup does "
 "not utilize the flyout menu."
 msgstr ""
 
-#: includes/options/menu.php:653
+#: includes/options/menu.php:719
 msgid "Flyout Menu Icon Font Size"
 msgstr ""
 
-#: includes/options/menu.php:654
+#: includes/options/menu.php:720
 msgid "Controls the font size for the flyout menu icons."
 msgstr ""
 
-#: includes/options/menu.php:681
+#: includes/options/menu.php:747
 msgid "Flyout Menu Icon Padding"
 msgstr ""
 
-#: includes/options/menu.php:682
+#: includes/options/menu.php:748
 msgid "Controls the right padding for flyout menu icons (left on RTL)."
 msgstr ""
 
-#: includes/options/menu.php:711
+#: includes/options/menu.php:777
 msgid "Flyout Menu Icon Color"
 msgstr ""
 
-#: includes/options/menu.php:712
+#: includes/options/menu.php:778
 msgid "Controls the color of the flyout menu icons."
 msgstr ""
 
-#: includes/options/menu.php:736
+#: includes/options/menu.php:802
 msgid "Flyout Menu Icon Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:737
+#: includes/options/menu.php:803
 msgid "Controls the hover color of the flyout menu icons."
 msgstr ""
 
-#: includes/options/menu.php:761
+#: includes/options/menu.php:827
 msgid "Flyout Menu Background Color"
 msgstr ""
 
-#: includes/options/menu.php:762
+#: includes/options/menu.php:828
 msgid "Controls the background color of the flyout menu"
 msgstr ""
 
-#: includes/options/menu.php:786
+#: includes/options/menu.php:852
 msgid "Flyout Menu Direction"
 msgstr ""
 
-#: includes/options/menu.php:787
+#: includes/options/menu.php:853
 msgid "Controls the direction the flyout menu starts from."
 msgstr ""
 
-#: includes/options/menu.php:818
+#: includes/options/menu.php:884
 msgid "Flyout Menu Item Padding"
 msgstr ""
 
-#: includes/options/menu.php:819
+#: includes/options/menu.php:885
 msgid "Controls the padding between flyout menu items."
 msgstr ""
 
-#: includes/options/menu.php:850
+#: includes/options/menu.php:916
 msgid "Secondary Top Menu"
 msgstr ""
 
-#: includes/options/menu.php:857
+#: includes/options/menu.php:923
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Secondary Top Menu Options are only "
 "available when using Header Layouts #2-5. Your current Header Layout does "
 "not utilize the secondary top menu."
 msgstr ""
 
-#: includes/options/menu.php:889
+#: includes/options/menu.php:955
 msgid "Secondary Menu Dropdown Width"
 msgstr ""
 
-#: includes/options/menu.php:890
+#: includes/options/menu.php:956
 msgid "Controls the width of the secondary menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:929
+#: includes/options/menu.php:995
 msgid "Secondary Menu Divider Color"
 msgstr ""
 
-#: includes/options/menu.php:930
+#: includes/options/menu.php:996
 msgid "Controls the divider color of the first level secondary menu."
 msgstr ""
 
-#: includes/options/menu.php:964
+#: includes/options/menu.php:1030
 msgid "Secondary Menu Dropdown Background Color"
 msgstr ""
 
-#: includes/options/menu.php:965
+#: includes/options/menu.php:1031
 msgid "Controls the background color of the secondary menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:999
+#: includes/options/menu.php:1065
 msgid "Secondary Menu Dropdown Background Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:1000
+#: includes/options/menu.php:1066
 msgid "Controls the background hover color of the secondary menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:1034
+#: includes/options/menu.php:1100
 msgid "Secondary Menu Dropdown Separator Color"
 msgstr ""
 
-#: includes/options/menu.php:1035
+#: includes/options/menu.php:1101
 msgid "Controls the color of the separators in the secondary menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:1070
+#: includes/options/menu.php:1136
 msgid "Secondary Top Menu Typography"
 msgstr ""
 
-#: includes/options/menu.php:1104
+#: includes/options/menu.php:1170
 msgid "Secondary Menu Font Size"
 msgstr ""
 
-#: includes/options/menu.php:1105
+#: includes/options/menu.php:1171
 msgid "Controls the font size for secondary menu text."
 msgstr ""
 
-#: includes/options/menu.php:1142
+#: includes/options/menu.php:1208
 msgid "Secondary Menu Line Height"
 msgstr ""
 
-#: includes/options/menu.php:1143
+#: includes/options/menu.php:1209
 msgid "Controls the line height for secondary menu."
 msgstr ""
 
-#: includes/options/menu.php:1180
+#: includes/options/menu.php:1246
 msgid "Secondary Menu Font Color"
 msgstr ""
 
-#: includes/options/menu.php:1181
+#: includes/options/menu.php:1247
 msgid "Controls the color for secondary menu text."
 msgstr ""
 
-#: includes/options/menu.php:1215
+#: includes/options/menu.php:1281
 msgid "Secondary Menu Dropdown Font Color"
 msgstr ""
 
-#: includes/options/menu.php:1216
+#: includes/options/menu.php:1282
 msgid "Controls the color for secondary menu dropdown text."
 msgstr ""
 
-#: includes/options/menu.php:1250
+#: includes/options/menu.php:1316
 msgid "Secondary Menu Dropdown Font Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:1251
+#: includes/options/menu.php:1317
 msgid "Controls the hover color for secondary menu dropdown text."
 msgstr ""
 
-#: includes/options/menu.php:1287
+#: includes/options/menu.php:1353
 msgid "Mobile Menu"
 msgstr ""
 
-#: includes/options/menu.php:1294
+#: includes/options/menu.php:1360
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Please enable responsive mode. Mobile menus "
 "are only available when you're using the responsive mode. To enable it "
@@ -11787,7 +11879,7 @@ msgid ""
 "option to ON."
 msgstr ""
 
-#: includes/options/menu.php:1307
+#: includes/options/menu.php:1373
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Because of the design of your Header Layout "
 "#6, only a few options are available here. More options are available when "
@@ -11795,191 +11887,197 @@ msgid ""
 "are on the Flyout Menu and Main Menu tab."
 msgstr ""
 
-#: includes/options/menu.php:1324
+#: includes/options/menu.php:1390
 msgid "Mobile Menu Design Style"
 msgstr ""
 
-#: includes/options/menu.php:1325
+#: includes/options/menu.php:1391
 msgid ""
 "Controls the design of the mobile menu. Flyout design style only allows "
 "parent level menu items."
 msgstr ""
 
-#: includes/options/menu.php:1332
+#: includes/options/menu.php:1397 includes/options/search.php:69
+#: includes/options/woocommerce.php:296
+#: includes/widget/class-fusion-widget-tabs.php:295
+msgid "Classic"
+msgstr ""
+
+#: includes/options/menu.php:1398
 msgid "Modern"
 msgstr ""
 
-#: includes/options/menu.php:1333
+#: includes/options/menu.php:1399
 msgid "Flyout"
 msgstr ""
 
-#: includes/options/menu.php:1359
+#: includes/options/menu.php:1425
 msgid "Mobile Menu Icons Top Margin"
 msgstr ""
 
-#: includes/options/menu.php:1360
+#: includes/options/menu.php:1426
 msgid ""
 "Controls the top margin for the icons in the modern and flyout mobile menu "
 "design."
 msgstr ""
 
-#: includes/options/menu.php:1404
+#: includes/options/menu.php:1470
 msgid "Mobile Menu Dropdown Item Height"
 msgstr ""
 
-#: includes/options/menu.php:1405
+#: includes/options/menu.php:1471
 msgid "Controls the height of each dropdown menu item."
 msgstr ""
 
-#: includes/options/menu.php:1449
+#: includes/options/menu.php:1515
 msgid "Mobile Menu Dropdown Slide Outs"
 msgstr ""
 
-#: includes/options/menu.php:1450
+#: includes/options/menu.php:1516
 msgid "Turn on to allow dropdown sections to slide out when tapped."
 msgstr ""
 
-#: includes/options/menu.php:1489
+#: includes/options/menu.php:1555
 msgid "Display Mobile Menu Search Icon/Field"
 msgstr ""
 
-#: includes/options/menu.php:1490
+#: includes/options/menu.php:1556
 msgid "Turn on to display the search icon/field in the mobile menu."
 msgstr ""
 
-#: includes/options/menu.php:1503
+#: includes/options/menu.php:1569
 msgid "Mobile Menu Sub-Menu Indicator"
 msgstr ""
 
-#: includes/options/menu.php:1504
+#: includes/options/menu.php:1570
 msgid "Turn on to display the mobile menu sub-menu indicator: \"-\"."
 msgstr ""
 
-#: includes/options/menu.php:1523
+#: includes/options/menu.php:1589
 msgid "Controls the background color of the header on mobile devices."
 msgstr ""
 
-#: includes/options/menu.php:1536
+#: includes/options/menu.php:1602
 msgid "Mobile Archive Header Background Color"
 msgstr ""
 
-#: includes/options/menu.php:1537
+#: includes/options/menu.php:1603
 msgid ""
 "Controls the background color of the archive page header on mobile devices."
 msgstr ""
 
-#: includes/options/menu.php:1550
+#: includes/options/menu.php:1616
 msgid "Mobile Menu Background Color"
 msgstr ""
 
-#: includes/options/menu.php:1551
+#: includes/options/menu.php:1617
 msgid ""
 "Controls the background color of the mobile menu dropdown and classic mobile "
 "menu box."
 msgstr ""
 
-#: includes/options/menu.php:1590
+#: includes/options/menu.php:1656
 msgid "Mobile Menu Background Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:1591
+#: includes/options/menu.php:1657
 msgid "Controls the background hover color of the mobile menu dropdown."
 msgstr ""
 
-#: includes/options/menu.php:1630
+#: includes/options/menu.php:1696
 msgid "Mobile Menu Border Color"
 msgstr ""
 
-#: includes/options/menu.php:1631
+#: includes/options/menu.php:1697
 msgid ""
 "Controls the border and divider colors of the mobile menu dropdown and "
 "classic mobile menu box."
 msgstr ""
 
-#: includes/options/menu.php:1670
+#: includes/options/menu.php:1736
 msgid "Mobile Menu Toggle Color"
 msgstr ""
 
-#: includes/options/menu.php:1671
+#: includes/options/menu.php:1737
 msgid "Controls the color of the mobile menu toggle icon."
 msgstr ""
 
-#: includes/options/menu.php:1710 includes/options/menu.php:1729
+#: includes/options/menu.php:1776 includes/options/menu.php:1795
 msgid "Mobile Menu Typography"
 msgstr ""
 
-#: includes/options/menu.php:1730
+#: includes/options/menu.php:1796
 msgid "These settings control the typography for mobile menu."
 msgstr ""
 
-#: includes/options/menu.php:1773
+#: includes/options/menu.php:1839
 msgid "Mobile Menu Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:1774
+#: includes/options/menu.php:1840
 msgid ""
 "Controls the hover color of the mobile menu item. Also, used to highlight "
 "current mobile menu item."
 msgstr ""
 
-#: includes/options/menu.php:1803
+#: includes/options/menu.php:1869
 msgid "Mobile Menu Text Align"
 msgstr ""
 
-#: includes/options/menu.php:1804
+#: includes/options/menu.php:1870
 msgid "Controls the mobile menu text alignment."
 msgstr ""
 
-#: includes/options/menu.php:1856
+#: includes/options/menu.php:1922
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Mega Menu Options are only available when "
 "using Header Layouts #1-5. Your current Header Layout #6 does not utilize "
 "the mega menu."
 msgstr ""
 
-#: includes/options/menu.php:1869
+#: includes/options/menu.php:1935
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Mega Menu is disabled in Advanced > Theme "
 "Features section. Please enable it to see the options."
 msgstr ""
 
-#: includes/options/menu.php:1881
+#: includes/options/menu.php:1947
 msgid "Mega Menu Max-Width"
 msgstr ""
 
-#: includes/options/menu.php:1882
+#: includes/options/menu.php:1948
 msgid "Controls the max width of the mega menu."
 msgstr ""
 
-#: includes/options/menu.php:1905
+#: includes/options/menu.php:1971
 msgid "Mega Menu Column Title Size"
 msgstr ""
 
-#: includes/options/menu.php:1906
+#: includes/options/menu.php:1972
 msgid "Controls the font size for mega menu column titles."
 msgstr ""
 
-#: includes/options/menu.php:1924
+#: includes/options/menu.php:1990
 msgid "Mega Menu Dropdown Item Padding"
 msgstr ""
 
-#: includes/options/menu.php:1925
+#: includes/options/menu.php:1991
 msgid "Controls the top/bottom padding for mega menu dropdown items."
 msgstr ""
 
-#: includes/options/menu.php:1948
+#: includes/options/menu.php:2014
 msgid "Mega Menu Item Divider"
 msgstr ""
 
-#: includes/options/menu.php:1949
+#: includes/options/menu.php:2015
 msgid "Turn on to display a divider between mega menu dropdown items."
 msgstr ""
 
-#: includes/options/menu.php:1969
+#: includes/options/menu.php:2035
 msgid "Main Menu Icons"
 msgstr ""
 
-#: includes/options/menu.php:1975
+#: includes/options/menu.php:2041
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Icons are available for both the main and "
 "dropdown menus. However, the options below only apply to the main menu. "
@@ -11988,43 +12086,43 @@ msgid ""
 "the Appearance > Menus section."
 msgstr ""
 
-#: includes/options/menu.php:1980
+#: includes/options/menu.php:2046
 msgid "Main Menu Icon Position"
 msgstr ""
 
-#: includes/options/menu.php:1981
+#: includes/options/menu.php:2047
 msgid "Controls the main menu icon position."
 msgstr ""
 
-#: includes/options/menu.php:1993
+#: includes/options/menu.php:2059
 msgid "Main Menu Icon Size"
 msgstr ""
 
-#: includes/options/menu.php:1994
+#: includes/options/menu.php:2060
 msgid "Controls the size of the top-level menu icons."
 msgstr ""
 
-#: includes/options/menu.php:2005
+#: includes/options/menu.php:2071
 msgid "Main Menu Icon Color"
 msgstr ""
 
-#: includes/options/menu.php:2006
+#: includes/options/menu.php:2072
 msgid "Controls the color of the top-level main menu icons."
 msgstr ""
 
-#: includes/options/menu.php:2012
+#: includes/options/menu.php:2078
 msgid "Main Menu Icon Hover Color"
 msgstr ""
 
-#: includes/options/menu.php:2013
+#: includes/options/menu.php:2079
 msgid "Controls the hover color of the top-level main menu icons."
 msgstr ""
 
-#: includes/options/menu.php:2019
+#: includes/options/menu.php:2085
 msgid "Mega Menu Thumbnail Size"
 msgstr ""
 
-#: includes/options/menu.php:2020
+#: includes/options/menu.php:2086
 msgid ""
 "Controls the width and height of the top-level mega menu thumbnails. Use "
 "\"auto\" for automatic resizing if you added either width or height."
@@ -12035,7 +12133,7 @@ msgid "Controls how the page title bar displays."
 msgstr ""
 
 #: includes/options/page_title_bar.php:55
-msgid "Turn on to display the page title bar text."
+msgid "Turn on to display the page title bar headings."
 msgstr ""
 
 #: includes/options/page_title_bar.php:68
@@ -12044,8 +12142,8 @@ msgstr ""
 
 #: includes/options/page_title_bar.php:76
 msgid ""
-"Turn on to have the page title area display at 100% width according to the "
-"window size. Turn off to follow site width."
+"Turn on to have the page title bar area display at 100% width according to "
+"the viewport size. Turn off to follow site width."
 msgstr ""
 
 #: includes/options/page_title_bar.php:90
@@ -12064,36 +12162,24 @@ msgstr ""
 msgid "Controls the border colors of the page title bar."
 msgstr ""
 
-#: includes/options/page_title_bar.php:155
-msgid "Page Title Font Size"
-msgstr ""
-
 #: includes/options/page_title_bar.php:156
-msgid "Controls the font size for the page title heading."
-msgstr ""
-
-#: includes/options/page_title_bar.php:177
-msgid "Page Title Line Height"
+msgid "Controls the font size for the page title bar main heading."
 msgstr ""
 
 #: includes/options/page_title_bar.php:178
-msgid "Controls the line height for the page title heading."
+msgid "Controls the line height for the page title bar main heading."
 msgstr ""
 
 #: includes/options/page_title_bar.php:200
-msgid "Controls the text color of the page title fonts."
-msgstr ""
-
-#: includes/options/page_title_bar.php:218
-msgid "Page Title Subheader Font Size"
+msgid "Controls the text color of the page title bar main heading."
 msgstr ""
 
 #: includes/options/page_title_bar.php:219
-msgid "Controls the font size for the page title subheading."
+msgid "Controls the font size for the page titlebar subheading."
 msgstr ""
 
 #: includes/options/page_title_bar.php:241
-msgid "Controls the text color of the page title subheader."
+msgid "Controls the text color of the page title bar subheading."
 msgstr ""
 
 #: includes/options/page_title_bar.php:260
@@ -12142,24 +12228,24 @@ msgstr ""
 msgid "Turn on to have the page title text fade on scroll."
 msgstr ""
 
+#: includes/options/page_title_bar.php:453
+msgid "Breadcrumbs / Search Bar"
+msgstr ""
+
 #: includes/options/page_title_bar.php:460
 msgid ""
-"<strong>IMPORTANT NOTE:</strong>  The page title bar is set to \"Hide\". "
+"<strong>IMPORTANT NOTE:</strong> The page title bar is set to \"Hide\". "
 "However, there are breadcrumb options below that are still visible due to "
 "having a fusion page option dependency. Click the link in the option "
 "description to learn more. "
 msgstr ""
 
 #: includes/options/page_title_bar.php:472
-msgid "Breadcrumbs Content Display"
+msgid "Breadcrumbs / Search Bar Content Display"
 msgstr ""
 
 #: includes/options/page_title_bar.php:473
 msgid "Controls what displays in the breadcrumbs area. "
-msgstr ""
-
-#: includes/options/page_title_bar.php:480
-msgid "Search Box"
 msgstr ""
 
 #: includes/options/page_title_bar.php:492
@@ -12170,59 +12256,59 @@ msgstr ""
 msgid "Turn on to display breadcrumbs on mobile devices."
 msgstr ""
 
-#: includes/options/page_title_bar.php:506
+#: includes/options/page_title_bar.php:511
 msgid "Breadcrumbs Prefix"
 msgstr ""
 
-#: includes/options/page_title_bar.php:507
+#: includes/options/page_title_bar.php:512
 msgid "Controls the text before the breadcrumb menu."
 msgstr ""
 
-#: includes/options/page_title_bar.php:520
+#: includes/options/page_title_bar.php:530
 msgid "Breadcrumbs Separator"
 msgstr ""
 
-#: includes/options/page_title_bar.php:521
+#: includes/options/page_title_bar.php:531
 msgid "Controls the type of separator between each breadcrumb."
 msgstr ""
 
-#: includes/options/page_title_bar.php:534
+#: includes/options/page_title_bar.php:549
 msgid "Breadcrumbs Font Size"
 msgstr ""
 
-#: includes/options/page_title_bar.php:535
+#: includes/options/page_title_bar.php:550
 msgid "Controls the font size for the breadcrumbs text."
 msgstr ""
 
-#: includes/options/page_title_bar.php:551
+#: includes/options/page_title_bar.php:571
 msgid "Breadcrumbs Text Color"
 msgstr ""
 
-#: includes/options/page_title_bar.php:552
+#: includes/options/page_title_bar.php:572
 msgid "Controls the text color of the breadcrumbs font."
 msgstr ""
 
-#: includes/options/page_title_bar.php:565
+#: includes/options/page_title_bar.php:590
 msgid "Breadcrumbs Text Hover Color"
 msgstr ""
 
-#: includes/options/page_title_bar.php:566
+#: includes/options/page_title_bar.php:591
 msgid "Controls the text hover color of the breadcrumbs font."
 msgstr ""
 
-#: includes/options/page_title_bar.php:579
+#: includes/options/page_title_bar.php:609
 msgid "Post Categories on Breadcrumbs"
 msgstr ""
 
-#: includes/options/page_title_bar.php:580
+#: includes/options/page_title_bar.php:610
 msgid "Turn on to display the post categories in the breadcrumbs path."
 msgstr ""
 
-#: includes/options/page_title_bar.php:593
+#: includes/options/page_title_bar.php:628
 msgid "Post Type Archives on Breadcrumbs"
 msgstr ""
 
-#: includes/options/page_title_bar.php:594
+#: includes/options/page_title_bar.php:629
 msgid "Turn on to display post type archives in the breadcrumbs path."
 msgstr ""
 
@@ -12723,7 +12809,7 @@ msgstr ""
 msgid "Turn on to display comments on single portfolio posts."
 msgstr ""
 
-#: includes/options/portfolio.php:375
+#: includes/options/portfolio.php:375 includes/options/search.php:325
 #: includes/widget/class-fusion-widget-author.php:235
 msgid "Author"
 msgstr ""
@@ -13072,91 +13158,227 @@ msgid ""
 "headings and body font by a multiplying value."
 msgstr ""
 
-#: includes/options/search_page.php:27 includes/options/sidebars.php:332
-msgid "Search Page"
+#: includes/options/search.php:33
+msgid "Search Form"
 msgstr ""
 
-#: includes/options/search_page.php:33
-msgid "Search Results Layout"
-msgstr ""
-
-#: includes/options/search_page.php:34
-msgid "Controls the layout for the search results page."
-msgstr ""
-
-#: includes/options/search_page.php:48
+#: includes/options/search.php:40
 msgid "Search Results Content"
 msgstr ""
 
-#: includes/options/search_page.php:49
+#: includes/options/search.php:41
 msgid "Controls the type of content that displays in search results."
 msgstr ""
 
-#: includes/options/search_page.php:54
-msgid "All Post Types and Pages"
+#: includes/options/search.php:49
+msgid "Portfolio Items"
 msgstr ""
 
-#: includes/options/search_page.php:55
-msgid "All Post Types without Pages"
+#: includes/options/search.php:50
+msgid "FAQ Items"
 msgstr ""
 
-#: includes/options/search_page.php:56
-msgid "Only Pages"
+#: includes/options/search.php:51 includes/options/sidebars.php:368
+msgid "WooCommerce Products"
 msgstr ""
 
-#: includes/options/search_page.php:57
-msgid "Only Blog Posts"
-msgstr ""
-
-#: includes/options/search_page.php:58
-msgid "Only Portfolio Items"
-msgstr ""
-
-#: includes/options/search_page.php:59
-msgid "Only WooCommerce Products"
-msgstr ""
-
-#: includes/options/search_page.php:60
+#: includes/options/search.php:52
 msgid "Events Calendar Posts"
 msgstr ""
 
-#: includes/options/search_page.php:64
-msgid "Search Results Excerpt"
+#: includes/options/search.php:56
+msgid "Limit Search to Post Titles"
 msgstr ""
 
-#: includes/options/search_page.php:65
-msgid "Turn on to display the excerpt for search results."
+#: includes/options/search.php:57
+msgid "Turn on to limit the search to post titles only."
 msgstr ""
 
-#: includes/options/search_page.php:71
+#: includes/options/search.php:63
+msgid "Search Form Design"
+msgstr ""
+
+#: includes/options/search.php:64
+msgid "Controls the design of the search forms."
+msgstr ""
+
+#: includes/options/search.php:70 includes/options/woocommerce.php:297
+#: includes/widget/class-fusion-widget-tabs.php:296
+msgid "Clean"
+msgstr ""
+
+#: includes/options/search.php:74
+msgid "Enable Live Search"
+msgstr ""
+
+#: includes/options/search.php:75
+msgid ""
+"Turn on to enable live search results on menu search field and other fitting "
+"search forms."
+msgstr ""
+
+#: includes/options/search.php:81
+msgid "Live Search Minimal Character Count"
+msgstr ""
+
+#: includes/options/search.php:82
+msgid "Set the minimal character count to trigger the live search."
+msgstr ""
+
+#: includes/options/search.php:100
+msgid "Live Search Number of Posts"
+msgstr ""
+
+#: includes/options/search.php:101
+msgid ""
+"Controls the number of posts that should be displayed as search result "
+"suggestions."
+msgstr ""
+
+#: includes/options/search.php:119
+msgid "Live Search Results Container Height"
+msgstr ""
+
+#: includes/options/search.php:120
+msgid ""
+"Controls the height of the container in which the search results will be "
+"listed."
+msgstr ""
+
+#: includes/options/search.php:138
+msgid "Live Search Display Featured Image"
+msgstr ""
+
+#: includes/options/search.php:139
+msgid "Turn on to display the featured image of each live search result."
+msgstr ""
+
+#: includes/options/search.php:152
+msgid "Live Search Display Post Type"
+msgstr ""
+
+#: includes/options/search.php:153
+msgid "Turn on to display the post type of each live search result."
+msgstr ""
+
+#: includes/options/search.php:168 includes/options/sidebars.php:332
+msgid "Search Page"
+msgstr ""
+
+#: includes/options/search.php:175
+msgid "Search Results Layout"
+msgstr ""
+
+#: includes/options/search.php:176
+msgid "Controls the layout for the search results page."
+msgstr ""
+
+#: includes/options/search.php:190
 msgid "Number of Search Results Per Page"
 msgstr ""
 
-#: includes/options/search_page.php:72
+#: includes/options/search.php:191
 msgid "Controls the number of search results per page."
 msgstr ""
 
-#: includes/options/search_page.php:83
+#: includes/options/search.php:202
+msgid "Search Pagination Type"
+msgstr ""
+
+#: includes/options/search.php:203
+msgid "Controls the pagination type for the search results page."
+msgstr ""
+
+#: includes/options/search.php:216
+msgid ""
+"Controls the number of columns for grid and masonry layouts. "
+"<strong>IMPORTANT:</strong> Masonry layout does not work with 1 column."
+msgstr ""
+
+#: includes/options/search.php:241
+msgid "Controls the column spacing for search results."
+msgstr ""
+
+#: includes/options/search.php:266
+msgid "Search Content Display"
+msgstr ""
+
+#: includes/options/search.php:267
+msgid ""
+"Controls if the search results content displays as an excerpt or full "
+"content or is completely disabled."
+msgstr ""
+
+#: includes/options/search.php:278
+msgid "Search Excerpt Length"
+msgstr ""
+
+#: includes/options/search.php:279
+msgid ""
+"Controls the number of words (or characters) in the search results excerpts."
+msgstr ""
+
+#: includes/options/search.php:297
+msgid "Search Strip HTML from Excerpt"
+msgstr ""
+
+#: includes/options/search.php:298
+msgid ""
+"Turn on to strip HTML content from the excerpt for the search results page."
+msgstr ""
+
+#: includes/options/search.php:311
 msgid "Featured Images for Search Results"
 msgstr ""
 
-#: includes/options/search_page.php:84
+#: includes/options/search.php:312
 msgid "Turn on to display featured images for search results."
 msgstr ""
 
-#: includes/options/search_page.php:90
+#: includes/options/search.php:318
+msgid "Search Results Meta"
+msgstr ""
+
+#: includes/options/search.php:319
+msgid ""
+"Select the post meta data you want to be displayed in the individual search "
+"results."
+msgstr ""
+
+#: includes/options/search.php:326 templates/wc-catalog-ordering.php:48
+#: templates/wc-catalog-ordering.php:105
+msgid "Date"
+msgstr ""
+
+#: includes/options/search.php:327
+msgid "Categories"
+msgstr ""
+
+#: includes/options/search.php:328
+msgid "Tags"
+msgstr ""
+
+#: includes/options/search.php:330
+msgid "Read More Link"
+msgstr ""
+
+#: includes/options/search.php:331
+msgid "Post Type"
+msgstr ""
+
+#: includes/options/search.php:335
 msgid "Search Field Position"
 msgstr ""
 
-#: includes/options/search_page.php:91
+#: includes/options/search.php:336
 msgid "Controls the position of the search bar on the search results page."
 msgstr ""
 
-#: includes/options/search_page.php:96
+#: includes/options/search.php:341
 msgid "Above Results"
 msgstr ""
 
-#: includes/options/search_page.php:97
+#: includes/options/search.php:342
 msgid "Below Results"
 msgstr ""
 
@@ -13446,10 +13668,6 @@ msgstr ""
 msgid ""
 "Controls the position of sidebar 1 for the search results page. If sidebar 2 "
 "is selected, it will display on the opposite side."
-msgstr ""
-
-#: includes/options/sidebars.php:368
-msgid "WooCommerce Products"
 msgstr ""
 
 #: includes/options/sidebars.php:375
@@ -15465,7 +15683,7 @@ msgstr ""
 msgid "If you want to rephrase your query, here is your chance:"
 msgstr ""
 
-#: searchform.php:18
+#: searchform.php:21 searchform.php:23
 msgid "Search ..."
 msgstr ""
 
@@ -15507,15 +15725,19 @@ msgstr ""
 msgid "Edit profile"
 msgstr ""
 
-#: templates/blog-layout.php:348 templates/blog-layout.php:378
+#: templates/blog-layout.php:360 templates/blog-layout.php:390
 msgid "Read More"
 msgstr ""
 
-#: templates/blog-layout.php:360
+#: templates/blog-layout.php:372
 msgid "Protected"
 msgstr ""
 
-#: templates/blog-layout.php:418
+#: templates/blog-layout.php:431
+msgid "Load More Results"
+msgstr ""
+
+#: templates/blog-layout.php:431
 msgid "Load More Posts"
 msgstr ""
 
@@ -15636,10 +15858,6 @@ msgstr ""
 
 #: templates/wc-catalog-ordering.php:44 templates/wc-catalog-ordering.php:92
 msgid "Default Order"
-msgstr ""
-
-#: templates/wc-catalog-ordering.php:48 templates/wc-catalog-ordering.php:105
-msgid "Date"
 msgstr ""
 
 #: templates/wc-catalog-ordering.php:52 templates/wc-catalog-ordering.php:101
