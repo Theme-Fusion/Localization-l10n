@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2019-03-25 13:05:14+00:00\n"
+"POT-Creation-Date: 2019-05-01 11:37:28+00:00\n"
 "PO-Revision-Date: 2018-12-03 11:05+0000\n"
 "Last-Translator: Marco Cocciu <marco@cocciu.cc>\n"
 "Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/avada/"
@@ -104,7 +104,7 @@ msgstr[1] "% Commenti"
 #: comments.php:46 includes/class-avada-layout-bbpress.php:222
 #: includes/class-avada-layout-bbpress.php:247
 #: includes/class-avada-layout-bbpress.php:269
-#: includes/class-avada-woocommerce.php:397 includes/lib/inc/functions.php:920
+#: includes/class-avada-woocommerce.php:397 includes/lib/inc/functions.php:933
 #: single-wpfc_sermon.php:22 single.php:21
 msgid "Previous"
 msgstr "Precedente"
@@ -113,7 +113,7 @@ msgstr "Precedente"
 #: comments.php:47 includes/class-avada-layout-bbpress.php:223
 #: includes/class-avada-layout-bbpress.php:248
 #: includes/class-avada-layout-bbpress.php:270
-#: includes/class-avada-woocommerce.php:398 includes/lib/inc/functions.php:966
+#: includes/class-avada-woocommerce.php:398 includes/lib/inc/functions.php:979
 #: single-wpfc_sermon.php:23 single.php:22
 msgid "Next"
 msgstr "Prossimo"
@@ -124,79 +124,79 @@ msgid "Comments are closed."
 msgstr "I commenti sono chiusi."
 
 # @ Avada
-#: comments.php:74 contact.php:69 includes/class-avada-contact.php:169
+#: comments.php:69 contact.php:69 includes/class-avada-contact.php:169
 msgid "Name (required)"
 msgstr "Nome (obbligatorio)"
 
 # @ Avada
-#: comments.php:74
+#: comments.php:69
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:710
 #: templates/wc-catalog-ordering.php:61 templates/wc-catalog-ordering.php:97
 msgid "Name"
 msgstr "Nome"
 
 # @ Avada
-#: comments.php:75 contact.php:70 includes/class-avada-contact.php:196
+#: comments.php:70 contact.php:70 includes/class-avada-contact.php:196
 msgid "Email (required)"
 msgstr "Email (obbligatoria)"
 
 # @ Avada
-#: comments.php:75 includes/options/social_media.php:571
+#: comments.php:70 includes/options/social_media.php:571
 #: includes/options/social_media.php:573
 msgid "Email"
 msgstr "Email"
 
 # @ Avada
-#: comments.php:76
+#: comments.php:78
 msgid "Website"
 msgstr "Sito web"
 
 # @ Avada
-#: comments.php:76 includes/class-avada-nav-walker-megamenu.php:169
+#: comments.php:78 includes/class-avada-nav-walker-megamenu.php:169
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:153
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:207
 msgid "URL"
 msgstr "URL"
 
-#: comments.php:77
+#: comments.php:79
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
 "Salva il mio nome, email e sito web in questo browser per la prossima volta "
 "che commento."
 
-#: comments.php:81
+#: comments.php:83
 msgid "Comment"
 msgstr "Commento"
 
 # @ Avada
-#: comments.php:81
+#: comments.php:83
 msgid "Comment..."
 msgstr "Commento..."
 
 # @ Avada
-#: comments.php:82 comments.php:83
+#: comments.php:84 comments.php:85
 msgid "Leave A Comment"
 msgstr "Scrivi un commento"
 
 #. translators: Opening and closing link tags.
-#: comments.php:87
+#: comments.php:89
 msgid "You must be %1$slogged in%2$s to post a comment."
 msgstr "Devi %1$saccedere%2$s, per commentare."
 
 #. translators: %1$s: The username. %2$s and %3$s: Opening and closing link
 #. tags.
-#: comments.php:89
+#: comments.php:91
 msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
 msgstr "Hai effettuato l'accesso come %1$s. %2$sEsci &raquo;%3$s"
 
 # @ Avada
-#: comments.php:89
+#: comments.php:91
 msgid "Log out of this account"
 msgstr "Esci da questo account"
 
 # @ Avada
-#: comments.php:93
+#: comments.php:95
 msgid "Post Comment"
 msgstr "Scrivi commento"
 
@@ -346,12 +346,12 @@ msgid "All Demos"
 msgstr "Tutte le Demo"
 
 # @ bbpress
-#: includes/admin-screens/demos.php:78 includes/options/search.php:47
+#: includes/admin-screens/demos.php:78 includes/options/search.php:54
 msgid "Posts"
 msgstr "Notizie della stessa area tematica"
 
 # @ Avada
-#: includes/admin-screens/demos.php:84 includes/options/search.php:48
+#: includes/admin-screens/demos.php:84 includes/options/search.php:55
 #: includes/options/sidebars.php:139
 msgid "Pages"
 msgstr "Pagine"
@@ -1742,7 +1742,7 @@ msgid "Related Posts"
 msgstr "Post correlati"
 
 # @ Avada
-#: includes/avada-functions.php:337 includes/options/portfolio.php:389
+#: includes/avada-functions.php:337 includes/options/portfolio.php:382
 msgid "Related Projects"
 msgstr "Progetti correlati"
 
@@ -1808,71 +1808,71 @@ msgstr "Visualizza carrello"
 msgid "Checkout"
 msgstr "Acquisto"
 
-#: includes/avada-functions.php:670 templates/header-v6.php:44
-#: templates/menu-mobile-flyout.php:38 templates/menu-mobile-modern.php:31
+#: includes/avada-functions.php:701 templates/header-v6.php:30
+#: templates/menu-mobile-flyout.php:23 templates/menu-mobile-modern.php:31
 msgid "Toggle Sliding Bar"
 msgstr "Barra scorrevole di commutazione"
 
 # @ Avada
-#: includes/avada-functions.php:705 includes/options/header.php:190
+#: includes/avada-functions.php:736 includes/options/header.php:190
 #: includes/options/search.php:27
 msgid "Search"
 msgstr "Cerca"
 
-#: includes/avada-functions.php:909 includes/avada-functions.php:930
+#: includes/avada-functions.php:940 includes/avada-functions.php:961
 msgid "This Slider Is Assigned Via Fusion Page Options"
 msgstr "Questo slider è assegnato tramite Fusion Page Options"
 
 #. translators: The slider ID.
-#: includes/avada-functions.php:911
+#: includes/avada-functions.php:942
 msgid "Slider ID: %s"
 msgstr "Slider ID: %s"
 
-#: includes/avada-functions.php:912
+#: includes/avada-functions.php:943
 msgid "Edit slider"
 msgstr "Modifica slider"
 
-#: includes/avada-functions.php:913
+#: includes/avada-functions.php:944
 msgid "Edit Slider"
 msgstr "Modifica Slider"
 
-#: includes/avada-functions.php:916 includes/avada-functions.php:917
+#: includes/avada-functions.php:947 includes/avada-functions.php:948
 msgid "Edit Slides"
 msgstr "Aggiungi o Modifica Diapositive"
 
-#: includes/avada-functions.php:920 includes/avada-functions.php:921
-#: includes/avada-functions.php:935
+#: includes/avada-functions.php:951 includes/avada-functions.php:952
+#: includes/avada-functions.php:966
 msgid "Remove Slider"
 msgstr "Rimuovi Slider"
 
 #. translators: The slider.
-#: includes/avada-functions.php:932
+#: includes/avada-functions.php:963
 msgid "Slider \"%s\" cannot be found"
 msgstr "Slider \"%s\" non trovato"
 
-#: includes/avada-functions.php:933 includes/avada-functions.php:934
+#: includes/avada-functions.php:964 includes/avada-functions.php:965
 msgid "Learn How To Import Sliders"
 msgstr "Impara come importare gli Sliders"
 
-#: includes/avada-functions.php:1338 includes/options/menu.php:50
+#: includes/avada-functions.php:1370 includes/options/menu.php:50
 msgid "Main Menu"
 msgstr "Menu Principale"
 
-#: includes/avada-functions.php:1353
+#: includes/avada-functions.php:1385
 msgid "Main Menu Sticky"
 msgstr ""
 
-#: includes/avada-functions.php:1495
+#: includes/avada-functions.php:1527
 msgid "Secondary Mobile Menu"
 msgstr ""
 
-#: includes/avada-functions.php:1498
+#: includes/avada-functions.php:1530
 msgid "Secondary Menu"
 msgstr ""
 
 # @ Avada
-#: includes/avada-functions.php:1583 includes/avada-functions.php:1611
-#: includes/avada-functions.php:1617 includes/avada-functions.php:1634
+#: includes/avada-functions.php:1615 includes/avada-functions.php:1643
+#: includes/avada-functions.php:1649 includes/avada-functions.php:1666
 #: includes/metaboxes/tabs/tab_sliders.php:31
 #: includes/metaboxes/tabs/tab_sliders.php:65
 #: includes/metaboxes/tabs/tab_sliders.php:83
@@ -2558,7 +2558,7 @@ msgid "LayerSlider"
 msgstr "LayerSlider"
 
 #: includes/class-avada-admin.php:1498
-#: includes/metaboxes/tabs/tab_sliders.php:23 includes/options/advanced.php:196
+#: includes/metaboxes/tabs/tab_sliders.php:23 includes/options/advanced.php:195
 msgid "Fusion Slider"
 msgstr "Presentazione Fusion"
 
@@ -2567,7 +2567,7 @@ msgid "Slider Revolution"
 msgstr "Slider Revolution"
 
 # @ Avada
-#: includes/class-avada-admin.php:1500 includes/options/advanced.php:203
+#: includes/class-avada-admin.php:1500 includes/options/advanced.php:202
 #: includes/options/elastic_slider.php:27
 msgid "Elastic Slider"
 msgstr "Presentazione Elastica"
@@ -2637,20 +2637,22 @@ msgstr "Seleziona slider elastico"
 #: includes/metaboxes/tabs/tab_portfolio_post.php:33
 #: includes/metaboxes/tabs/tab_portfolio_post.php:45
 #: includes/metaboxes/tabs/tab_portfolio_post.php:57
-#: includes/metaboxes/tabs/tab_portfolio_post.php:69
-#: includes/metaboxes/tabs/tab_portfolio_post.php:142
-#: includes/metaboxes/tabs/tab_portfolio_post.php:162
+#: includes/metaboxes/tabs/tab_portfolio_post.php:106
+#: includes/metaboxes/tabs/tab_portfolio_post.php:118
+#: includes/metaboxes/tabs/tab_portfolio_post.php:154
 #: includes/metaboxes/tabs/tab_portfolio_post.php:174
 #: includes/metaboxes/tabs/tab_portfolio_post.php:186
 #: includes/metaboxes/tabs/tab_portfolio_post.php:198
-#: includes/metaboxes/tabs/tab_post.php:48
-#: includes/metaboxes/tabs/tab_post.php:68
-#: includes/metaboxes/tabs/tab_post.php:100
-#: includes/metaboxes/tabs/tab_post.php:112
-#: includes/metaboxes/tabs/tab_post.php:124
-#: includes/metaboxes/tabs/tab_post.php:136
-#: includes/metaboxes/tabs/tab_post.php:148
-#: includes/metaboxes/tabs/tab_post.php:160
+#: includes/metaboxes/tabs/tab_portfolio_post.php:210
+#: includes/metaboxes/tabs/tab_portfolio_post.php:222
+#: includes/metaboxes/tabs/tab_post.php:21
+#: includes/metaboxes/tabs/tab_post.php:66
+#: includes/metaboxes/tabs/tab_post.php:81
+#: includes/metaboxes/tabs/tab_post.php:113
+#: includes/metaboxes/tabs/tab_post.php:125
+#: includes/metaboxes/tabs/tab_post.php:137
+#: includes/metaboxes/tabs/tab_post.php:149
+#: includes/metaboxes/tabs/tab_post.php:161
 #: includes/metaboxes/tabs/tab_sidebars.php:85
 #: includes/metaboxes/tabs/tab_sidebars.php:121
 #: includes/metaboxes/tabs/tab_sliders.php:137
@@ -2960,15 +2962,15 @@ msgstr "Messaggio: %s"
 msgid "Data Privacy Terms: %s"
 msgstr "Termini di privacy dei dati: %s"
 
-#: includes/class-avada-eventscalendar.php:216
-#: includes/class-avada-eventscalendar.php:248
-#: includes/class-avada-eventscalendar.php:280
-#: includes/class-avada-woocommerce.php:1373
+#: includes/class-avada-eventscalendar.php:218
+#: includes/class-avada-eventscalendar.php:250
+#: includes/class-avada-eventscalendar.php:282
+#: includes/class-avada-woocommerce.php:1381
 msgid "NOTE"
 msgstr "NOTA"
 
 #. translators: EC Customizer notice.
-#: includes/class-avada-eventscalendar.php:218
+#: includes/class-avada-eventscalendar.php:220
 msgid ""
 "You can control the post title color from Avada theme options panel through "
 "the <a href=\"%1$s\" target=\"_blank\">Events Primary Color Overlay Text "
@@ -2982,7 +2984,7 @@ msgstr ""
 "calendario degli eventi&lt;/a&gt; a tema opzioni."
 
 #. translators: EC Customizer notice.
-#: includes/class-avada-eventscalendar.php:250
+#: includes/class-avada-eventscalendar.php:252
 msgid ""
 "You can control the photo background color from Avada theme options panel "
 "through the <a href=\"%1$s\" target=\"_blank\">Grid Box Color</a> setting. "
@@ -2996,7 +2998,7 @@ msgstr ""
 "opzioni."
 
 #. translators: EC Customizer notice.
-#: includes/class-avada-eventscalendar.php:282
+#: includes/class-avada-eventscalendar.php:284
 msgid ""
 "You can control the calendar highlight color from Avada theme options panel "
 "through the <a href=\"%1$s\" target=\"_blank\">Primary Color</a> setting. "
@@ -3010,9 +3012,9 @@ msgstr ""
 "nelle opzioni del tema."
 
 #. translators: image size.
-#: includes/class-avada-init.php:270 includes/class-avada-init.php:272
-#: includes/class-avada-init.php:274 includes/class-avada-init.php:276
-#: includes/class-avada-init.php:278
+#: includes/class-avada-init.php:272 includes/class-avada-init.php:274
+#: includes/class-avada-init.php:276 includes/class-avada-init.php:278
+#: includes/class-avada-init.php:280
 msgid "Avada Grid %s"
 msgstr "Vada griglia %s"
 
@@ -3095,11 +3097,9 @@ msgstr "Seleziona icona"
 
 #: includes/class-avada-megamenu-framework.php:150
 msgid ""
-"Select an icon for your menu item. Icon styles can be controlled in Theme "
-"Options > Menu > Main Menu Icons."
+"Select an icon for your menu item. For top-level menu items, icon styles can "
+"be controlled in Theme Options > Menu > Main Menu Icons."
 msgstr ""
-"Selezionare un'icona per la voce di menu. Gli stili delle icone possono "
-"essere controllati in opzioni tema > menu > icone menu principale."
 
 #: includes/class-avada-megamenu-framework.php:160
 msgid "Icon/Thumbnail Only"
@@ -3128,8 +3128,8 @@ msgstr "Abilita"
 #: includes/class-avada-megamenu-framework.php:303
 #: includes/class-avada-megamenu-framework.php:342
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:44
-#: includes/options/responsive.php:42 includes/options/responsive.php:133
-#: includes/options/responsive.php:150
+#: includes/options/advanced.php:191 includes/options/responsive.php:42
+#: includes/options/responsive.php:133 includes/options/responsive.php:150
 msgid "Off"
 msgstr "Disabilita"
 
@@ -3629,37 +3629,37 @@ msgid "Styles"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-scripts.php:601
+#: includes/class-avada-scripts.php:603
 msgid "Go to..."
 msgstr "Vai a..."
 
 # @ Avada
-#: includes/class-avada-scripts.php:602
+#: includes/class-avada-scripts.php:604
 msgid "Shopping Cart"
 msgstr "Carrello"
 
-#: includes/class-avada-scripts.php:603
+#: includes/class-avada-scripts.php:605
 msgid "Open Sub Menu Of"
 msgstr ""
 
-#: includes/class-avada-scripts.php:604
+#: includes/class-avada-scripts.php:606
 msgid "Close Sub Menu Of"
 msgstr ""
 
-#: includes/class-avada-scripts.php:621
+#: includes/class-avada-scripts.php:623
 msgid "Go to Top"
 msgstr "Torna in cima"
 
 # @ Avada
-#: includes/class-avada-scripts.php:704 templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:706 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "Dettagli"
 
-#: includes/class-avada-scripts.php:707
+#: includes/class-avada-scripts.php:709
 msgid "Not all fields have been filled in correctly."
 msgstr "Non tutti i campi sono stati compilati correttamente."
 
-#: includes/class-avada-scripts.php:767
+#: includes/class-avada-scripts.php:769
 msgid "No search results match your query. Please try again"
 msgstr ""
 
@@ -3731,22 +3731,22 @@ msgstr "Rimuovi Immagine"
 
 # @ Avada
 #. translators: %1$s: Comment date. %2$s: Comment time.
-#: includes/class-avada-template.php:473
+#: includes/class-avada-template.php:477
 msgid "%1$s at %2$s"
 msgstr "%1$s al %2$s"
 
 # @ Avada
-#: includes/class-avada-template.php:473
+#: includes/class-avada-template.php:477
 msgid " - Edit"
 msgstr " - Modifica"
 
 # @ Avada
-#: includes/class-avada-template.php:479
+#: includes/class-avada-template.php:483
 msgid " - Reply"
 msgstr " - Rispondi"
 
 # @ Avada
-#: includes/class-avada-template.php:490
+#: includes/class-avada-template.php:494
 msgid "Your comment is awaiting moderation."
 msgstr "Il tuo commento è in attesa di moderazione."
 
@@ -3821,7 +3821,7 @@ msgstr "Tutti i plugins installati ed attivati con successo. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:398
-#: includes/class-avada-upgrade.php:360
+#: includes/class-avada-upgrade.php:361
 msgid "Dismiss this notice"
 msgstr "Ignora questo avviso"
 
@@ -4120,7 +4120,7 @@ msgstr "Tutte le installazioni sono state completate."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Installazione del plugin %1$s (%2$d/%3$d)"
 
-#: includes/class-avada-upgrade.php:359
+#: includes/class-avada-upgrade.php:360
 msgid "View Changelog"
 msgstr "Vedi Changelog"
 
@@ -4190,7 +4190,7 @@ msgstr "Controlla lo stile del bordo per questo contenitore widget."
 msgid "None"
 msgstr "Nessuna"
 
-#: includes/class-avada-widget-style.php:97 includes/options/advanced.php:219
+#: includes/class-avada-widget-style.php:97 includes/options/advanced.php:218
 #: includes/options/footer.php:452
 msgid "Solid"
 msgstr "Solido"
@@ -4241,7 +4241,7 @@ msgstr "Eredita"
 #: includes/options/extra.php:135 includes/options/extra.php:295
 #: includes/options/header.php:55 includes/options/logo.php:48
 #: includes/options/menu.php:605 includes/options/menu.php:860
-#: includes/options/menu.php:1874 includes/options/menu.php:2054
+#: includes/options/menu.php:1874 includes/options/menu.php:2116
 #: includes/options/page_title_bar.php:265 includes/options/portfolio.php:220
 #: includes/options/sidebars.php:174 includes/options/sidebars.php:217
 #: includes/options/sidebars.php:293 includes/options/sidebars.php:361
@@ -4268,7 +4268,7 @@ msgstr "Sinistra"
 #: includes/options/header.php:56 includes/options/lightbox.php:101
 #: includes/options/logo.php:50 includes/options/menu.php:607
 #: includes/options/menu.php:861 includes/options/menu.php:1876
-#: includes/options/menu.php:2052 includes/options/page_title_bar.php:267
+#: includes/options/menu.php:2114 includes/options/page_title_bar.php:267
 #: includes/options/portfolio.php:222 includes/options/sidebars.php:175
 #: includes/options/sidebars.php:218 includes/options/sidebars.php:294
 #: includes/options/sidebars.php:362 includes/options/sidebars.php:409
@@ -4323,20 +4323,20 @@ msgstr "Bacheca"
 
 # @ Avada
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1187
+#: includes/class-avada-woocommerce.php:1195
 msgid "You Have %d Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] "Hai %d articolo nel tuo carrello"
 msgstr[1] "Hai %s articoli nel tuo carrello"
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:1313
-#: includes/class-avada-woocommerce.php:1331
+#: includes/class-avada-woocommerce.php:1321
+#: includes/class-avada-woocommerce.php:1339
 msgid "Continue"
 msgstr "Continua"
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1375
+#: includes/class-avada-woocommerce.php:1383
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -4746,7 +4746,7 @@ msgid "Back to Parent Page"
 msgstr "Indietro alla pagina principale"
 
 # @ Avada
-#: includes/dynamic_css.php:5429
+#: includes/dynamic_css.php:5438
 msgid "Please enter correct details for this required field."
 msgstr "Si prega di inserire i dati corretti per questo campo obbligatorio."
 
@@ -5155,16 +5155,16 @@ msgid ""
 msgstr ""
 "Non raccoglieremo mai dati riservati come IP, indirizzi e-mail o nomi utente."
 
-#: includes/lib/inc/class-fusion-product-registration.php:343
+#: includes/lib/inc/class-fusion-product-registration.php:346
 msgid "Congratulations! Thank you for registering your product."
 msgstr "Congratulazioni! Grazie per aver registrato il prodotto."
 
-#: includes/lib/inc/class-fusion-product-registration.php:345
+#: includes/lib/inc/class-fusion-product-registration.php:348
 msgid "Please enter your Envato token to complete registration."
 msgstr "Inserisci il tuo token Envato per completare la registrazione."
 
 #. translators: The product name and whether it's a theme or plugin.
-#: includes/lib/inc/class-fusion-product-registration.php:357
+#: includes/lib/inc/class-fusion-product-registration.php:360
 msgid ""
 "The %1$s %2$s is bundled in %3$s and no registration is required for it. "
 "Updates will be provided from %3$s. If however you have purchased %1$s "
@@ -5180,11 +5180,11 @@ msgstr ""
 # @ bbpress
 # @ Avada
 # @ wordpress-importer
-#: includes/lib/inc/class-fusion-product-registration.php:394
+#: includes/lib/inc/class-fusion-product-registration.php:397
 msgid "Submit"
 msgstr "Invia"
 
-#: includes/lib/inc/class-fusion-product-registration.php:400
+#: includes/lib/inc/class-fusion-product-registration.php:403
 msgid ""
 "Registration could not be completed because the value entered above is a "
 "purchase code. A token key is needed to register. Please read the directions "
@@ -5196,18 +5196,18 @@ msgstr ""
 "per completare la registrazione."
 
 #. translators: The server error code and the error message.
-#: includes/lib/inc/class-fusion-product-registration.php:405
+#: includes/lib/inc/class-fusion-product-registration.php:408
 msgid "Invalid token, the server responded with code %1$s.%2$s"
 msgstr ""
 
 #. translators: The product name for the license.
-#: includes/lib/inc/class-fusion-product-registration.php:408
+#: includes/lib/inc/class-fusion-product-registration.php:411
 msgid ""
 "Invalid token, or corresponding Envato account does not have %s purchased."
 msgstr ""
 "Il token non è valido o il corrispondente account Envato non ha acquistato%s."
 
-#: includes/lib/inc/class-fusion-product-registration.php:422
+#: includes/lib/inc/class-fusion-product-registration.php:425
 msgid ""
 "Token does not have the necessary permissions. Please create a new token and "
 "make sure the following permissions are enabled for it: <strong>View Your "
@@ -5221,12 +5221,12 @@ msgstr ""
 "tuoi articoli acquistati </strong>, <strong> elenco acquisti che hai fatto </"
 "strong>, <strong> Verifica Acquisti che hai fatto </strong>."
 
-#: includes/lib/inc/class-fusion-product-registration.php:432
+#: includes/lib/inc/class-fusion-product-registration.php:435
 msgid "Instructions For Generating A Token"
 msgstr "Istruzioni Per Generare Un Token"
 
 #. translators: "Generate A Personal Token" link.
-#: includes/lib/inc/class-fusion-product-registration.php:438
+#: includes/lib/inc/class-fusion-product-registration.php:441
 msgid ""
 "Click on this %1$s link. <strong>IMPORTANT:</strong> You must be logged into "
 "the same Themeforest account that purchased %2$s. If you are logged in "
@@ -5240,11 +5240,11 @@ msgstr ""
 "giusto. Se non hai effettuato l'accesso, verrai reindirizzato al login e poi "
 "tornerai alla pagina di creazione di un token."
 
-#: includes/lib/inc/class-fusion-product-registration.php:439
+#: includes/lib/inc/class-fusion-product-registration.php:442
 msgid "Generate A Personal Token"
 msgstr "Genera Un Token Personale"
 
-#: includes/lib/inc/class-fusion-product-registration.php:446
+#: includes/lib/inc/class-fusion-product-registration.php:449
 msgid ""
 "Enter a name for your token, then check the boxes for <strong>View Your "
 "Envato Account Username, Download Your Purchased Items, List Purchases "
@@ -5260,7 +5260,7 @@ msgstr ""
 "termini e le condizioni, quindi fai clic sul pulsante <strong>Crea Token</"
 "strong>"
 
-#: includes/lib/inc/class-fusion-product-registration.php:451
+#: includes/lib/inc/class-fusion-product-registration.php:454
 msgid ""
 "A new page will load with a token number in a box. Copy the token number "
 "then come back to this registration page and paste it into the field below "
@@ -5271,7 +5271,7 @@ msgstr ""
 "clicca sul pulsante <strong>Invia</strong>."
 
 #. translators: "documentation post" link.
-#: includes/lib/inc/class-fusion-product-registration.php:458
+#: includes/lib/inc/class-fusion-product-registration.php:461
 msgid ""
 "You will see a green check mark for success, or a failure message if "
 "something went wrong. If it failed, please make sure you followed the steps "
@@ -5282,7 +5282,7 @@ msgstr ""
 "seguito correttamente i passaggi sopra riportati. Puoi anche visualizzare il "
 "nostro %s per ulteriori informazioni."
 
-#: includes/lib/inc/class-fusion-product-registration.php:459
+#: includes/lib/inc/class-fusion-product-registration.php:462
 msgid "documentation post"
 msgstr "articolo"
 
@@ -5302,22 +5302,22 @@ msgstr "Link & Zoom"
 
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:392
-#: includes/metaboxes/tabs/tab_portfolio_post.php:144
-#: includes/metaboxes/tabs/tab_post.php:70
+#: includes/metaboxes/tabs/tab_portfolio_post.php:156
+#: includes/metaboxes/tabs/tab_post.php:83
 msgid "Link"
 msgstr "Link"
 
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:395
-#: includes/metaboxes/tabs/tab_portfolio_post.php:145
-#: includes/metaboxes/tabs/tab_post.php:71
+#: includes/metaboxes/tabs/tab_portfolio_post.php:157
+#: includes/metaboxes/tabs/tab_post.php:84
 msgid "Zoom"
 msgstr "Zoom"
 
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:398
-#: includes/metaboxes/tabs/tab_portfolio_post.php:146
-#: includes/metaboxes/tabs/tab_post.php:72
+#: includes/metaboxes/tabs/tab_portfolio_post.php:158
+#: includes/metaboxes/tabs/tab_post.php:85
 msgid "No Icons"
 msgstr "Nessuna icona"
 
@@ -5338,15 +5338,17 @@ msgstr " Impostazione predefinita attualmente impostata su %s."
 #: includes/lib/inc/class-fusion-settings.php:438
 #: includes/metaboxes/tabs/tab_page.php:70
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:87
-#: includes/metaboxes/tabs/tab_portfolio_post.php:175
+#: includes/metaboxes/tabs/tab_portfolio_post.php:22
 #: includes/metaboxes/tabs/tab_portfolio_post.php:187
 #: includes/metaboxes/tabs/tab_portfolio_post.php:199
-#: includes/metaboxes/tabs/tab_post.php:101
-#: includes/metaboxes/tabs/tab_post.php:113
-#: includes/metaboxes/tabs/tab_post.php:125
-#: includes/metaboxes/tabs/tab_post.php:137
-#: includes/metaboxes/tabs/tab_post.php:149
-#: includes/metaboxes/tabs/tab_post.php:161
+#: includes/metaboxes/tabs/tab_portfolio_post.php:211
+#: includes/metaboxes/tabs/tab_portfolio_post.php:223
+#: includes/metaboxes/tabs/tab_post.php:67
+#: includes/metaboxes/tabs/tab_post.php:114
+#: includes/metaboxes/tabs/tab_post.php:126
+#: includes/metaboxes/tabs/tab_post.php:138
+#: includes/metaboxes/tabs/tab_post.php:150
+#: includes/metaboxes/tabs/tab_post.php:162
 msgid "Show"
 msgstr "Mostra"
 
@@ -5355,17 +5357,19 @@ msgstr "Mostra"
 #: includes/metaboxes/tabs/tab_page.php:71
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:45
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:88
-#: includes/metaboxes/tabs/tab_portfolio_post.php:176
+#: includes/metaboxes/tabs/tab_portfolio_post.php:23
 #: includes/metaboxes/tabs/tab_portfolio_post.php:188
 #: includes/metaboxes/tabs/tab_portfolio_post.php:200
-#: includes/metaboxes/tabs/tab_post.php:102
-#: includes/metaboxes/tabs/tab_post.php:114
-#: includes/metaboxes/tabs/tab_post.php:126
-#: includes/metaboxes/tabs/tab_post.php:138
-#: includes/metaboxes/tabs/tab_post.php:150
-#: includes/metaboxes/tabs/tab_post.php:162 includes/options/blog.php:54
+#: includes/metaboxes/tabs/tab_portfolio_post.php:212
+#: includes/metaboxes/tabs/tab_portfolio_post.php:224
+#: includes/metaboxes/tabs/tab_post.php:68
+#: includes/metaboxes/tabs/tab_post.php:115
+#: includes/metaboxes/tabs/tab_post.php:127
+#: includes/metaboxes/tabs/tab_post.php:139
+#: includes/metaboxes/tabs/tab_post.php:151
+#: includes/metaboxes/tabs/tab_post.php:163 includes/options/blog.php:54
 #: includes/options/blog.php:67 includes/options/contact.php:185
-#: includes/options/page_title_bar.php:49 includes/options/search.php:343
+#: includes/options/page_title_bar.php:49 includes/options/search.php:357
 msgid "Hide"
 msgstr "Nascondi"
 
@@ -5393,13 +5397,13 @@ msgstr "Nascondi"
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:290
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:304
 #: includes/metaboxes/tabs/tab_portfolio_post.php:34
-#: includes/metaboxes/tabs/tab_portfolio_post.php:46
 #: includes/metaboxes/tabs/tab_portfolio_post.php:58
-#: includes/metaboxes/tabs/tab_portfolio_post.php:70
-#: includes/metaboxes/tabs/tab_portfolio_post.php:163
-#: includes/metaboxes/tabs/tab_post.php:21
-#: includes/metaboxes/tabs/tab_post.php:49
-#: includes/metaboxes/tabs/tab_post.php:88
+#: includes/metaboxes/tabs/tab_portfolio_post.php:107
+#: includes/metaboxes/tabs/tab_portfolio_post.php:119
+#: includes/metaboxes/tabs/tab_portfolio_post.php:175
+#: includes/metaboxes/tabs/tab_post.php:22
+#: includes/metaboxes/tabs/tab_post.php:33
+#: includes/metaboxes/tabs/tab_post.php:101
 #: includes/metaboxes/tabs/tab_sliders.php:158
 #: includes/widget/class-fusion-widget-social-links.php:528
 #: includes/widget/class-fusion-widget-social-links.php:562
@@ -5431,13 +5435,13 @@ msgstr "Sì"
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:289
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:303
 #: includes/metaboxes/tabs/tab_portfolio_post.php:35
-#: includes/metaboxes/tabs/tab_portfolio_post.php:47
 #: includes/metaboxes/tabs/tab_portfolio_post.php:59
-#: includes/metaboxes/tabs/tab_portfolio_post.php:71
-#: includes/metaboxes/tabs/tab_portfolio_post.php:164
-#: includes/metaboxes/tabs/tab_post.php:22
-#: includes/metaboxes/tabs/tab_post.php:50
-#: includes/metaboxes/tabs/tab_post.php:89
+#: includes/metaboxes/tabs/tab_portfolio_post.php:108
+#: includes/metaboxes/tabs/tab_portfolio_post.php:120
+#: includes/metaboxes/tabs/tab_portfolio_post.php:176
+#: includes/metaboxes/tabs/tab_post.php:23
+#: includes/metaboxes/tabs/tab_post.php:34
+#: includes/metaboxes/tabs/tab_post.php:102
 #: includes/metaboxes/tabs/tab_sliders.php:159
 #: includes/widget/class-fusion-widget-author.php:278
 #: includes/widget/class-fusion-widget-author.php:312
@@ -5501,36 +5505,36 @@ msgid "Using default value."
 msgstr "Usa valori di Default."
 
 #. translators: The author.
-#: includes/lib/inc/functions.php:182 includes/lib/inc/functions.php:185
+#: includes/lib/inc/functions.php:183 includes/lib/inc/functions.php:186
 msgid "By %s"
 msgstr "Di %s"
 
 #. translators: The categories list.
-#: includes/lib/inc/functions.php:212
+#: includes/lib/inc/functions.php:225
 msgid "Categories: %s"
 msgstr "Categorie: %s"
 
 #. translators: The tags list.
-#: includes/lib/inc/functions.php:225
+#: includes/lib/inc/functions.php:238
 msgid "Tags: %s"
 msgstr "Tag: %s"
 
 # @ Avada
-#: includes/lib/inc/functions.php:232 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:245 templates/related-posts.php:105
 msgid "0 Comments"
 msgstr "0 Commenti"
 
 # @ Avada
-#: includes/lib/inc/functions.php:232 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:245 templates/related-posts.php:105
 msgid "1 Comment"
 msgstr "1 Commento"
 
-#: includes/lib/inc/functions.php:232 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:245 templates/related-posts.php:105
 msgid "% Comments"
 msgstr "% Commenti"
 
 # @ Avada
-#: includes/lib/inc/functions.php:689
+#: includes/lib/inc/functions.php:702
 msgid "Pages:"
 msgstr "Pagine:"
 
@@ -5735,7 +5739,7 @@ msgstr "Altezza"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:138
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:215
 #: includes/options/extra.php:298 includes/options/header.php:54
-#: includes/options/menu.php:863 includes/options/menu.php:2051
+#: includes/options/menu.php:863 includes/options/menu.php:2113
 #: includes/options/sliding_bar.php:74 includes/options/social_media.php:104
 #: includes/options/social_media.php:228 includes/options/social_media.php:405
 #: includes/widget/class-fusion-widget-social-links.php:550
@@ -5747,7 +5751,7 @@ msgstr "Sopra"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:152
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/spacing/field_spacing.php:229
 #: includes/options/extra.php:297 includes/options/lightbox.php:102
-#: includes/options/menu.php:862 includes/options/menu.php:2053
+#: includes/options/menu.php:862 includes/options/menu.php:2115
 #: includes/options/sliding_bar.php:76 includes/options/social_media.php:106
 #: includes/options/social_media.php:230 includes/options/social_media.php:407
 #: includes/widget/class-fusion-widget-social-links.php:552
@@ -6467,7 +6471,7 @@ msgid "Clear Gallery"
 msgstr "Pulisci Galleria"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:88
-#: includes/options/advanced.php:218
+#: includes/options/advanced.php:217
 msgid "Regular"
 msgstr "Regolare"
 
@@ -8566,14 +8570,14 @@ msgstr "Padding Contenuto Pagina"
 # @ Avada
 #: includes/metaboxes/tabs/tab_page.php:32
 #: includes/metaboxes/tabs/tab_portfolio_post.php:31
-#: includes/metaboxes/tabs/tab_post.php:46
+#: includes/metaboxes/tabs/tab_post.php:19
 msgid "Use 100% Width Page"
 msgstr "Utilizza il 100% della larghezza di pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_page.php:39
 #: includes/metaboxes/tabs/tab_portfolio_post.php:38
-#: includes/metaboxes/tabs/tab_post.php:53
+#: includes/metaboxes/tabs/tab_post.php:26
 msgid "Choose to set this post to 100&#37; browser width. %s"
 msgstr ""
 "Scegliere di impostare questo post alla massima larghezza del browser . %s"
@@ -8598,8 +8602,8 @@ msgstr ""
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_page.php:53
-#: includes/metaboxes/tabs/tab_portfolio_post.php:67
-#: includes/metaboxes/tabs/tab_post.php:19
+#: includes/metaboxes/tabs/tab_portfolio_post.php:55
+#: includes/metaboxes/tabs/tab_post.php:31
 msgid "Disable First Featured Image"
 msgstr "Disabilita prima immagine in evidenza"
 
@@ -8610,15 +8614,15 @@ msgstr "Disabilita la prima immagine in evidenza sulla pagina."
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_page.php:67
-#: includes/metaboxes/tabs/tab_portfolio_post.php:184
-#: includes/metaboxes/tabs/tab_post.php:110
+#: includes/metaboxes/tabs/tab_portfolio_post.php:196
+#: includes/metaboxes/tabs/tab_post.php:123
 msgid "Show Social Share Box"
 msgstr "Mostra il riquadro della condivisione sui social"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_page.php:74
-#: includes/metaboxes/tabs/tab_portfolio_post.php:191
-#: includes/metaboxes/tabs/tab_post.php:117
+#: includes/metaboxes/tabs/tab_portfolio_post.php:203
+#: includes/metaboxes/tabs/tab_post.php:130
 msgid "Choose to show or hide the social share box. %s"
 msgstr ""
 "Scegliere di mostrare o nascondere la casella di condivisione sociale.  %s"
@@ -8808,62 +8812,53 @@ msgstr "Scegliete un effetto di parallasse per l'immagine di sfondo.  %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:19
+#: includes/metaboxes/tabs/tab_post.php:64
+msgid "Show Previous/Next Pagination"
+msgstr "Mostra la Precedente/Prossima Paginatura"
+
+#. translators: Additional description (defaults).
+#: includes/metaboxes/tabs/tab_portfolio_post.php:26
+#: includes/metaboxes/tabs/tab_post.php:71
+msgid "Choose to show or hide the post navigation. %s"
+msgstr "Scegli di mostrare o nascondere la navigazione post. %s"
+
+# @ Avada
+#: includes/metaboxes/tabs/tab_portfolio_post.php:43
 msgid "Width (Content Columns for Featured Image)"
 msgstr "Larghezza (Colonne Contenute per Immagini in Evidenza)"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:22
-#: includes/options/portfolio.php:328
+#: includes/metaboxes/tabs/tab_portfolio_post.php:46
+#: includes/options/portfolio.php:314
 msgid "Full Width"
 msgstr "Larghezza intera"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:23
-#: includes/options/portfolio.php:329
+#: includes/metaboxes/tabs/tab_portfolio_post.php:47
+#: includes/options/portfolio.php:315
 msgid "Half Width"
 msgstr "Metà larghezza"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_portfolio_post.php:26
+#: includes/metaboxes/tabs/tab_portfolio_post.php:50
 msgid "Choose if the featured image is full or half width. %s"
 msgstr ""
 "Scegli se l'immagine rappresentata debba essere di intera o mezza larghezza. "
 "%s"
 
-# @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:43
-msgid "Show Project Description Title"
-msgstr "Mostra titolo descrizione progetto"
-
-#. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_portfolio_post.php:50
-msgid "Choose to show or hide the project description title. %s"
-msgstr ""
-"Scegliere di mostrare o nascondere il titolo descrittivo del progetto. %s"
-
-# @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:55
-msgid "Show Project Details"
-msgstr "Mostra dettagli progetto"
-
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_portfolio_post.php:62
-msgid "Choose to show or hide the project details text. %s"
-msgstr "Scegliere di mostrare o nascondere il testo dettagli progetto.  %s"
-
-#. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_portfolio_post.php:74
 msgid "Disable the 1st featured image on single post pages. %s"
 msgstr "Disabilitare la prima immagine in vetrina su singole pagine post.  %s"
 
-#: includes/metaboxes/tabs/tab_portfolio_post.php:97
-#: includes/metaboxes/tabs/tab_post.php:33
+#: includes/metaboxes/tabs/tab_portfolio_post.php:85
+#: includes/metaboxes/tabs/tab_post.php:45
 msgid "Featured Image Dimensions"
 msgstr "Dimensioni dell'immagine"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:98
-#: includes/metaboxes/tabs/tab_post.php:34
+#: includes/metaboxes/tabs/tab_portfolio_post.php:86
+#: includes/metaboxes/tabs/tab_post.php:46
 msgid ""
 "In pixels or percentage, ex: 100% or 100px. Or Use \"auto\" for automatic "
 "resizing if you added either width or height."
@@ -8872,92 +8867,113 @@ msgstr ""
 "ridimensionare automaticamente se aggiungi larghezza o altezza."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:104
+#: includes/metaboxes/tabs/tab_portfolio_post.php:92
 #: includes/metaboxes/tabs/tab_post.php:58
 msgid "Video Embed Code"
 msgstr "Codice embed video"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:105
+#: includes/metaboxes/tabs/tab_portfolio_post.php:93
 #: includes/metaboxes/tabs/tab_post.php:59
 msgid "Insert Youtube or Vimeo embed code."
 msgstr "Inserisci il codice di incorporamento di YouTube o Vimeo."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:110
+#: includes/metaboxes/tabs/tab_portfolio_post.php:98
 msgid "Youtube/Vimeo Video URL for Lightbox"
 msgstr "URL video Youtube/Vimeo per Lightbox"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:111
+#: includes/metaboxes/tabs/tab_portfolio_post.php:99
 msgid "Insert the video URL that will show in the lightbox."
 msgstr "Inserisci l'URL del video che verrà mostrato nel lightbox."
 
 # @ Avada
+#: includes/metaboxes/tabs/tab_portfolio_post.php:104
+msgid "Show Project Description Title"
+msgstr "Mostra titolo descrizione progetto"
+
+#. translators: Additional description (defaults).
+#: includes/metaboxes/tabs/tab_portfolio_post.php:111
+msgid "Choose to show or hide the project description title. %s"
+msgstr ""
+"Scegliere di mostrare o nascondere il titolo descrittivo del progetto. %s"
+
+# @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:116
+msgid "Show Project Details"
+msgstr "Mostra dettagli progetto"
+
+#. translators: Additional description (defaults).
+#: includes/metaboxes/tabs/tab_portfolio_post.php:123
+msgid "Choose to show or hide the project details text. %s"
+msgstr "Scegliere di mostrare o nascondere il testo dettagli progetto.  %s"
+
+# @ Avada
+#: includes/metaboxes/tabs/tab_portfolio_post.php:128
 msgid "Project URL"
 msgstr "Sito del progetto"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:117
+#: includes/metaboxes/tabs/tab_portfolio_post.php:129
 msgid "The URL the project text links to."
 msgstr "L'URL del testo del progetto a cui sarà connesso."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:122
+#: includes/metaboxes/tabs/tab_portfolio_post.php:134
 msgid "Project URL Text"
 msgstr "URL testo progetto"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:123
+#: includes/metaboxes/tabs/tab_portfolio_post.php:135
 msgid "The custom project text that will link."
 msgstr "Il testo del progetto personalizzato che sarà collegato."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:128
+#: includes/metaboxes/tabs/tab_portfolio_post.php:140
 msgid "Copyright URL"
 msgstr "URL Copyright"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:129
+#: includes/metaboxes/tabs/tab_portfolio_post.php:141
 msgid "The URL the copyright text links to."
 msgstr "L'URL del testo di copyright a cui sarà connesso."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:134
+#: includes/metaboxes/tabs/tab_portfolio_post.php:146
 msgid "Copyright URL Text"
 msgstr "URL Testo Copyright"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:135
+#: includes/metaboxes/tabs/tab_portfolio_post.php:147
 msgid "The custom copyright text that will link."
 msgstr "Il testo di copyright personalizzato che sarà collegato."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:140
-#: includes/metaboxes/tabs/tab_post.php:66
+#: includes/metaboxes/tabs/tab_portfolio_post.php:152
+#: includes/metaboxes/tabs/tab_post.php:79
 msgid "Image Rollover Icons"
 msgstr "Icone per ribaltare le Immagini"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:143
-#: includes/metaboxes/tabs/tab_post.php:69
+#: includes/metaboxes/tabs/tab_portfolio_post.php:155
+#: includes/metaboxes/tabs/tab_post.php:82
 msgid "Link + Zoom"
 msgstr "Link + Zoom"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_portfolio_post.php:149
-#: includes/metaboxes/tabs/tab_post.php:75
+#: includes/metaboxes/tabs/tab_portfolio_post.php:161
+#: includes/metaboxes/tabs/tab_post.php:88
 msgid "Choose which icons display on this post. %s"
 msgstr "Scegli quali icone visualizzare in questo post. %s"
 
-#: includes/metaboxes/tabs/tab_portfolio_post.php:154
-#: includes/metaboxes/tabs/tab_post.php:80
+#: includes/metaboxes/tabs/tab_portfolio_post.php:166
+#: includes/metaboxes/tabs/tab_post.php:93
 msgid "Custom Link URL On Archives"
 msgstr "URL link personalizzato sugli archivi"
 
-#: includes/metaboxes/tabs/tab_portfolio_post.php:155
-#: includes/metaboxes/tabs/tab_post.php:81
+#: includes/metaboxes/tabs/tab_portfolio_post.php:167
+#: includes/metaboxes/tabs/tab_post.php:94
 msgid ""
 "Link URL that will be used on archives either for the rollover link icon or "
 "on the image if rollover icons are disabled. Leave blank for post URL."
@@ -8966,13 +8982,13 @@ msgstr ""
 "collegamento di rollover o sull'immagine se le icone di rollover sono "
 "disabilitate. Lasciare vuoto per URL post."
 
-#: includes/metaboxes/tabs/tab_portfolio_post.php:160
+#: includes/metaboxes/tabs/tab_portfolio_post.php:172
 #: includes/options/portfolio.php:361
 msgid "Open Portfolio Links In New Window"
 msgstr "Apri portfolio Links in una nuova finestra"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_portfolio_post.php:167
+#: includes/metaboxes/tabs/tab_portfolio_post.php:179
 msgid ""
 "Choose to open the single post page, project url and copyright url links in "
 "a new window. %s"
@@ -8980,83 +8996,83 @@ msgstr ""
 "Scegliere di aprire la singola pagina di post, l’URL del progetto e il link "
 "dell’URL di copyright in una nuova finestra. %s"
 
-#: includes/metaboxes/tabs/tab_portfolio_post.php:172
+# @ Avada
+#: includes/metaboxes/tabs/tab_portfolio_post.php:184
+msgid "Show Author"
+msgstr "Mostra autore"
+
+#. translators: Additional description (defaults).
+#: includes/metaboxes/tabs/tab_portfolio_post.php:191
+msgid "Choose to show or hide the author in the Project Details. %s"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_portfolio_post.php:208
 msgid "Show Related Projects"
 msgstr "Guarda i progetti correlati"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_portfolio_post.php:179
+#: includes/metaboxes/tabs/tab_portfolio_post.php:215
 msgid "Choose to show or hide related projects on this post. %s"
 msgstr ""
 "Scegli di mostrare o nascondere i progetti correlati in questo post. %s"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_portfolio_post.php:196
-#: includes/metaboxes/tabs/tab_post.php:122
-msgid "Show Previous/Next Pagination"
-msgstr "Mostra la Precedente/Prossima Paginatura"
+#: includes/metaboxes/tabs/tab_portfolio_post.php:220
+#: includes/metaboxes/tabs/tab_post.php:159
+msgid "Show Comments"
+msgstr "Mostra commenti"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_portfolio_post.php:203
-#: includes/metaboxes/tabs/tab_post.php:129
-msgid "Choose to show or hide the post navigation. %s"
-msgstr "Scegli di mostrare o nascondere la navigazione post. %s"
+#: includes/metaboxes/tabs/tab_portfolio_post.php:227
+#: includes/metaboxes/tabs/tab_post.php:166
+msgid "Choose to show or hide comments area. %s"
+msgstr "Scegliere di mostrare o nascondere l'area commenti.  %s"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_post.php:24
+#: includes/metaboxes/tabs/tab_post.php:36
 msgid "Disable the 1st featured image on single post pages."
 msgstr "Disabilita la prima immagine mostrata sulle singole pagine dei post."
 
-#: includes/metaboxes/tabs/tab_post.php:86
+#: includes/metaboxes/tabs/tab_post.php:99
 msgid "Open Blog Links In New Window"
 msgstr "Apri i collegamenti in una nuova finestra"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_post.php:91
+#: includes/metaboxes/tabs/tab_post.php:104
 msgid "Choose to open the single post page link in a new window."
 msgstr "Scegliere di aprire il link del singolo post in una nuova finestra."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_post.php:98
-msgid "Show Related Posts"
-msgstr "Mostra articoli correlati"
+#: includes/metaboxes/tabs/tab_post.php:111
+msgid "Show Post Meta"
+msgstr "Mostra il meta dei post"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_post.php:105
-msgid "Choose to show or hide related posts on this post. %s"
-msgstr ""
-"Scegli se mostrare o nascondere gli articoli correlati su questo post. %s"
+#: includes/metaboxes/tabs/tab_post.php:118
+msgid "Choose to show or hide the post meta. %s"
+msgstr "Scegliere di mostrare o nascondere il meta post.  %s"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_post.php:134
+#: includes/metaboxes/tabs/tab_post.php:135
 msgid "Show Author Info Box"
 msgstr "Mostra il riquadro di informazioni dell'autore"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_post.php:141
+#: includes/metaboxes/tabs/tab_post.php:142
 msgid "Choose to show or hide the author info box. %s"
 msgstr ""
 "Scegliere di mostrare o nascondere la casella di informazioni autore.  %s"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_post.php:146
-msgid "Show Post Meta"
-msgstr "Mostra il meta dei post"
+#: includes/metaboxes/tabs/tab_post.php:147
+msgid "Show Related Posts"
+msgstr "Mostra articoli correlati"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_post.php:153
-msgid "Choose to show or hide the post meta. %s"
-msgstr "Scegliere di mostrare o nascondere il meta post.  %s"
-
-# @ Avada
-#: includes/metaboxes/tabs/tab_post.php:158
-msgid "Show Comments"
-msgstr "Mostra commenti"
-
-#. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_post.php:165
-msgid "Choose to show or hide comments area. %s"
-msgstr "Scegliere di mostrare o nascondere l'area commenti.  %s"
+#: includes/metaboxes/tabs/tab_post.php:154
+msgid "Choose to show or hide related posts on this post. %s"
+msgstr ""
+"Scegli se mostrare o nascondere gli articoli correlati su questo post. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_sidebars.php:83
@@ -9400,75 +9416,79 @@ msgstr ""
 "Attivare per attivare lo script ToTop che aggiunge la funzionalità di "
 "scorrimento alla parte superiore."
 
+#: includes/options/advanced.php:188
+msgid "Desktop & Mobile"
+msgstr ""
+
 #: includes/options/advanced.php:189
-msgid "ToTop Script on mobile"
-msgstr "Script Torna su per cellulari"
+msgid "Desktop"
+msgstr ""
 
 #: includes/options/advanced.php:190
-msgid "Turn on to enable the ToTop script on mobile devices."
-msgstr "Attivare per abilitare lo script ToTop sui dispositivi mobili."
+msgid "Mobile"
+msgstr ""
 
-#: includes/options/advanced.php:197
+#: includes/options/advanced.php:196
 msgid "Turn on to enable the fusion slider."
 msgstr "Accendere per attivare il Fusion Slider."
 
-#: includes/options/advanced.php:204
+#: includes/options/advanced.php:203
 msgid "Turn on to enable the elastic slider."
 msgstr "Accendere per abilitare lo slide elastico."
 
-#: includes/options/advanced.php:210
+#: includes/options/advanced.php:209
 msgid "FontAwesome"
 msgstr "FontAwesome"
 
-#: includes/options/advanced.php:211
+#: includes/options/advanced.php:210
 msgid ""
 "Choose which Font Awesome icon subsets you want to load. Note that Light "
 "subset can only be used if Font Awesome Pro is enabled."
 msgstr ""
 
-#: includes/options/advanced.php:217
+#: includes/options/advanced.php:216
 msgid "Brands"
 msgstr ""
 
 # @ Avada
-#: includes/options/advanced.php:220 includes/options/colors.php:46
+#: includes/options/advanced.php:219 includes/options/colors.php:46
 #: includes/options/contact.php:143 includes/options/lightbox.php:78
 #: includes/widget/class-fusion-widget-tweets.php:311
 msgid "Light"
 msgstr "Chiaro"
 
-#: includes/options/advanced.php:224
+#: includes/options/advanced.php:223
 msgid "FontAwesome v4 Compatibility"
 msgstr ""
 
-#: includes/options/advanced.php:225
+#: includes/options/advanced.php:224
 msgid "Turn on to enable support for FontAwesome 4 icon code format."
 msgstr ""
 
-#: includes/options/advanced.php:231
+#: includes/options/advanced.php:230
 msgid "FontAwesome Pro"
 msgstr ""
 
 #. translators: %1$s = license text & link. %2$s: whitelist text & link.
-#: includes/options/advanced.php:233
+#: includes/options/advanced.php:232
 msgid "Font Awesome Pro %1$s is required and you need to %2$s your domain."
 msgstr ""
 
-#: includes/options/advanced.php:239
+#: includes/options/advanced.php:238
 msgid "CSS Outlines"
 msgstr ""
 
-#: includes/options/advanced.php:240
+#: includes/options/advanced.php:239
 msgid ""
 "Turn on to enable browser specific CSS element outlines used to improve "
 "accessibility."
 msgstr ""
 
-#: includes/options/advanced.php:246
+#: includes/options/advanced.php:245
 msgid "Open Graph Meta Tags"
 msgstr "Open Graph Meta Tag"
 
-#: includes/options/advanced.php:247
+#: includes/options/advanced.php:246
 msgid ""
 "Turn on to enable open graph meta tags which are mainly used when sharing "
 "pages on social networking sites like Facebook. <strong>IMPORTANT:</strong> "
@@ -9476,11 +9496,11 @@ msgid ""
 "of this, and if you want to use that, this option should be disabled."
 msgstr ""
 
-#: includes/options/advanced.php:253
+#: includes/options/advanced.php:252
 msgid "Rich Snippets"
 msgstr "Rich Snippets"
 
-#: includes/options/advanced.php:254
+#: includes/options/advanced.php:253
 msgid ""
 "Turn on to enable rich snippets data site wide. If set to \"On\", you can "
 "also control individual items below. If set to \"Off\" all items will be "
@@ -9490,27 +9510,27 @@ msgstr ""
 "impostato su \"on\", è anche possibile controllare i singoli elementi di "
 "seguito. Se impostato su \"off\" tutti gli elementi verranno disabilitati."
 
-#: includes/options/advanced.php:260
+#: includes/options/advanced.php:259
 msgid "Rich Snippets Title"
 msgstr "Titolo Rich snippet"
 
-#: includes/options/advanced.php:261
+#: includes/options/advanced.php:260
 msgid "Turn on to enable title rich snippet data site wide."
 msgstr "Attivare per abilitare il titolo Rich snippet di dati del sito Wide."
 
-#: includes/options/advanced.php:274
+#: includes/options/advanced.php:273
 msgid "Rich Snippets Author Info"
 msgstr "Rich snippet autore info"
 
-#: includes/options/advanced.php:275
+#: includes/options/advanced.php:274
 msgid "Turn on to enable author rich snippet data site wide."
 msgstr "Attiva per abilitare author rich snippet data."
 
-#: includes/options/advanced.php:288
+#: includes/options/advanced.php:287
 msgid "Rich Snippets Last Update Date"
 msgstr ""
 
-#: includes/options/advanced.php:289
+#: includes/options/advanced.php:288
 msgid "Turn on to enable udate date rich snippet data site wide."
 msgstr ""
 
@@ -9727,35 +9747,35 @@ msgstr ""
 "Controlla il layout per la pagina Blog assegnata in \"Settings > Reading\"."
 
 #: includes/options/blog.php:109 includes/options/blog.php:126
-#: includes/options/search.php:181
+#: includes/options/search.php:195
 #: includes/widget/class-fusion-widget-author.php:266
 msgid "Large"
 msgstr "Grande"
 
 #: includes/options/blog.php:110 includes/options/blog.php:127
-#: includes/options/search.php:182
+#: includes/options/search.php:196
 #: includes/widget/class-fusion-widget-author.php:265
 msgid "Medium"
 msgstr "Medio"
 
 #: includes/options/blog.php:111 includes/options/blog.php:128
-#: includes/options/search.php:183
+#: includes/options/search.php:197
 msgid "Large Alternate"
 msgstr "Largo Alternato"
 
 #: includes/options/blog.php:112 includes/options/blog.php:129
-#: includes/options/search.php:184
+#: includes/options/search.php:198
 msgid "Medium Alternate"
 msgstr "Medio alternativo"
 
 #: includes/options/blog.php:113 includes/options/blog.php:130
-#: includes/options/portfolio.php:47 includes/options/search.php:185
+#: includes/options/portfolio.php:47 includes/options/search.php:199
 #: includes/options/woocommerce.php:262
 msgid "Grid"
 msgstr "Griglia"
 
 #: includes/options/blog.php:114 includes/options/blog.php:131
-#: includes/options/search.php:186
+#: includes/options/search.php:200
 msgid "Timeline"
 msgstr "Timeline"
 
@@ -9784,17 +9804,17 @@ msgid ""
 msgstr ""
 
 #: includes/options/blog.php:143 includes/options/extra.php:453
-#: includes/options/portfolio.php:258 includes/options/search.php:208
+#: includes/options/portfolio.php:258 includes/options/search.php:222
 msgid "Pagination"
 msgstr "Paginazione"
 
 #: includes/options/blog.php:144 includes/options/portfolio.php:259
-#: includes/options/search.php:209
+#: includes/options/search.php:223
 msgid "Infinite Scroll"
 msgstr "Scorrimento infinito"
 
 #: includes/options/blog.php:145 includes/options/portfolio.php:260
-#: includes/options/search.php:210
+#: includes/options/search.php:224
 msgid "Load More Button"
 msgstr "Carica altri articoli"
 
@@ -9811,7 +9831,7 @@ msgstr ""
 "Seleziona il colore di sfondo del pulsante \"Leggi Tutto\" per il "
 "caricamento di ajax post. Funziona anche con l'elemento blog."
 
-#: includes/options/blog.php:157 includes/options/search.php:215
+#: includes/options/blog.php:157 includes/options/search.php:229
 msgid "Number of Columns"
 msgstr "Numero di colonne"
 
@@ -9823,7 +9843,7 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/options/blog.php:192 includes/options/search.php:240
+#: includes/options/blog.php:192 includes/options/search.php:254
 msgid "Column Spacing"
 msgstr "Spazio colonna"
 
@@ -9885,18 +9905,18 @@ msgstr ""
 
 # @ Avada
 #: includes/options/blog.php:353 includes/options/portfolio.php:163
-#: includes/options/search.php:272
+#: includes/options/search.php:286
 msgid "Excerpt"
 msgstr "Riassunto"
 
 # @ Avada
 #: includes/options/blog.php:354 includes/options/portfolio.php:164
-#: includes/options/search.php:273
+#: includes/options/search.php:287
 msgid "Full Content"
 msgstr "Tutti i contenuti"
 
 #: includes/options/blog.php:355 includes/options/portfolio.php:150
-#: includes/options/portfolio.php:162 includes/options/search.php:274
+#: includes/options/portfolio.php:162 includes/options/search.php:288
 msgid "No Text"
 msgstr "Senza testo"
 
@@ -9981,7 +10001,7 @@ msgstr ""
 msgid "Blog Single Post"
 msgstr "Blog a post singolo"
 
-#: includes/options/blog.php:423 includes/options/portfolio.php:340
+#: includes/options/blog.php:423 includes/options/portfolio.php:301
 #: includes/options/woocommerce.php:320
 msgid "100% Width Page"
 msgstr "100% Larghezza Pagina"
@@ -10055,31 +10075,31 @@ msgid "Below Title"
 msgstr "Sotto al Titolo"
 
 # @ Avada
-#: includes/options/blog.php:474
-msgid "Author Info Box"
-msgstr "Box Informazioni Autore"
-
-#: includes/options/blog.php:475
-msgid "Turn on to display the author info box below posts."
-msgstr "Attivare per visualizzare l'autore info box sotto i post."
-
-# @ Avada
-#: includes/options/blog.php:481 includes/options/portfolio.php:382
+#: includes/options/blog.php:474 includes/options/portfolio.php:375
 #: includes/options/social_media.php:358
 msgid "Social Sharing Box"
 msgstr "Casella condivisione social"
 
-#: includes/options/blog.php:482
+#: includes/options/blog.php:475
 msgid "Turn on to display the social sharing box."
 msgstr "Attivare per visualizzare la casella condivisione sociale."
+
+# @ Avada
+#: includes/options/blog.php:481
+msgid "Author Info Box"
+msgstr "Box Informazioni Autore"
+
+#: includes/options/blog.php:482
+msgid "Turn on to display the author info box below posts."
+msgstr "Attivare per visualizzare l'autore info box sotto i post."
 
 #: includes/options/blog.php:489
 msgid "Turn on to display related posts."
 msgstr "Attiva per visualizzare i post correlati."
 
 # @ Avada
-#: includes/options/blog.php:495 includes/options/portfolio.php:368
-#: includes/options/search.php:329
+#: includes/options/blog.php:495 includes/options/portfolio.php:389
+#: includes/options/search.php:343
 #: includes/widget/class-fusion-widget-tabs.php:87
 msgid "Comments"
 msgstr "Commenti"
@@ -10360,12 +10380,8 @@ msgstr "Modulo di Contatto"
 #: includes/options/contact.php:47
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab are only for the "
-"contact form that displays on the \"Contact\" page template except for the "
-"Google Map API Key."
+"contact form that displays on the \"Contact\" page template."
 msgstr ""
-"<strong> Nota importante: </strong> Le opzioni di questa scheda sono solo "
-"per il modulo di contatto che viene visualizzato sul modello di pagina "
-"\"Contact\" ad eccezione della chiave API di Google map."
 
 #: includes/options/contact.php:53
 msgid ""
@@ -11764,56 +11780,64 @@ msgid "Controls the padding inside the pagination boxes."
 msgstr ""
 
 #: includes/options/extra.php:513
-msgid "Pagination Border Radius"
+msgid "Pagination Border Width"
 msgstr ""
 
 #: includes/options/extra.php:514
+msgid "Controls the border width of the displayed page links. In Pixels."
+msgstr ""
+
+#: includes/options/extra.php:525
+msgid "Pagination Border Radius"
+msgstr ""
+
+#: includes/options/extra.php:526
 msgid ""
 "Controls the border radius of the displayed page links. Values of half the "
 "overall width or higher will yield circular links."
 msgstr ""
 
-#: includes/options/extra.php:525
+#: includes/options/extra.php:537
 msgid "Pagination Text Display"
 msgstr "Visualizzazione testo impaginazione"
 
-#: includes/options/extra.php:526
+#: includes/options/extra.php:538
 msgid "Turn on to display the \"Previous/Next\" text."
 msgstr "Accendere per visualizzare il testo \"precedente/successivo\"."
 
 # @ Avada
-#: includes/options/extra.php:532
+#: includes/options/extra.php:544
 msgid "Pagination Font Size"
 msgstr "Dimensione font d'impaginazione"
 
-#: includes/options/extra.php:533
+#: includes/options/extra.php:545
 msgid "Controls the size of the pagination text."
 msgstr "Controlla la dimensione del testo dell'impaginazione."
 
-#: includes/options/extra.php:539
+#: includes/options/extra.php:551
 msgid "Pagination Range"
 msgstr ""
 
-#: includes/options/extra.php:540
+#: includes/options/extra.php:552
 msgid ""
 "Controls the number of page links displayed left and right of current page."
 msgstr ""
 
-#: includes/options/extra.php:551
+#: includes/options/extra.php:563
 msgid "Pagination Start / End Range"
 msgstr ""
 
-#: includes/options/extra.php:552
+#: includes/options/extra.php:564
 msgid ""
 "Controls the number of page links displayed at the start and at the end of "
 "pagination."
 msgstr ""
 
-#: includes/options/extra.php:565
+#: includes/options/extra.php:577
 msgid "Forms Styling"
 msgstr "Stile del form"
 
-#: includes/options/extra.php:572
+#: includes/options/extra.php:584
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab apply to all forms "
 "throughout the site, including the 3rd party plugins that Avada has design "
@@ -11824,71 +11848,71 @@ msgstr ""
 "Avada ha l'integrazione con il design."
 
 # @ Avada
-#: includes/options/extra.php:577
+#: includes/options/extra.php:589
 msgid "Form Input and Select Height"
 msgstr "Modulo di immissione e selezione Altezza"
 
-#: includes/options/extra.php:578
+#: includes/options/extra.php:590
 msgid "Controls the height of all search, form input and select fields."
 msgstr "Controlla l'altezza di tutti i campi ricerca, input form e seleziona."
 
 # @ Avada
-#: includes/options/extra.php:585
+#: includes/options/extra.php:597
 msgid "Form Background Color"
 msgstr "Colore sfondo modulo"
 
 # @ Avada
-#: includes/options/extra.php:586
+#: includes/options/extra.php:598
 msgid "Controls the background color of form fields."
 msgstr "Gestisci il colore dello sfondo dei campi del modulo."
 
-#: includes/options/extra.php:592
+#: includes/options/extra.php:604
 msgid "Form Font Size"
 msgstr "Dimensione Font Modulo"
 
-#: includes/options/extra.php:593
+#: includes/options/extra.php:605
 msgid "Controls the size of the form text."
 msgstr "Controlla la dimensione del testo del form."
 
 # @ Avada
-#: includes/options/extra.php:599
+#: includes/options/extra.php:611
 msgid "Form Text Color"
 msgstr "Colore testo modello"
 
-#: includes/options/extra.php:600
+#: includes/options/extra.php:612
 msgid "Controls the color of the form text."
 msgstr "Controlla il colore del testo del form."
 
-#: includes/options/extra.php:606
+#: includes/options/extra.php:618
 msgid "Form Border Size"
 msgstr "Formato del bordo del modulo"
 
-#: includes/options/extra.php:607
+#: includes/options/extra.php:619
 msgid "Controls the border size of the form fields."
 msgstr "Controlla la dimensione del bordo dei campi del form."
 
 # @ Avada
-#: includes/options/extra.php:618
+#: includes/options/extra.php:630
 msgid "Form Border Color"
 msgstr "Colore bordo modulo"
 
-#: includes/options/extra.php:619
+#: includes/options/extra.php:631
 msgid "Controls the border color of the form fields."
 msgstr "Seleziona il colore del bordo dei campi modulo."
 
-#: includes/options/extra.php:632
+#: includes/options/extra.php:644
 msgid "Form Border Color On Focus"
 msgstr ""
 
-#: includes/options/extra.php:633
+#: includes/options/extra.php:645
 msgid "Controls the border color of the form fields when they have focus."
 msgstr ""
 
-#: includes/options/extra.php:646
+#: includes/options/extra.php:658
 msgid "Form Border Radius"
 msgstr "Border Radius per i forms"
 
-#: includes/options/extra.php:647
+#: includes/options/extra.php:659
 msgid ""
 "Controls the border radius of the form fields. Also works, if border size is "
 "set to 0."
@@ -11896,11 +11920,11 @@ msgstr ""
 "Controlla il raggio del bordo dei campi del modulo. Funziona anche, se la "
 "dimensione del bordo è impostata su 0."
 
-#: includes/options/extra.php:660
+#: includes/options/extra.php:672
 msgid "Grid / Masonry"
 msgstr "Griglia/Massoneria"
 
-#: includes/options/extra.php:667
+#: includes/options/extra.php:679
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> These are Grid Box Styling global options "
 "that apply to grid boxes throughout the site; blog grid and timeline, "
@@ -11913,20 +11937,20 @@ msgstr ""
 "portfolio elementi hanno anche opzioni per ignorare questi."
 
 # @ Avada
-#: includes/options/extra.php:672
+#: includes/options/extra.php:684
 msgid "Grid Box Color"
 msgstr "Colore casella griglia"
 
-#: includes/options/extra.php:673
+#: includes/options/extra.php:685
 msgid "Controls the background color for the grid boxes."
 msgstr "Seleziona il colore di sfondo delle caselle nella griglia."
 
 # @ Avada
-#: includes/options/extra.php:679
+#: includes/options/extra.php:691
 msgid "Grid Element Color"
 msgstr "Colore elemento griglia"
 
-#: includes/options/extra.php:680
+#: includes/options/extra.php:692
 msgid ""
 "Controls the color of borders/date box/timeline dots and arrows for the grid "
 "boxes."
@@ -11934,11 +11958,11 @@ msgstr ""
 "Consente di controllare il colore dei punti e delle frecce della casella/"
 "della sequenza temporale per le caselle della griglia."
 
-#: includes/options/extra.php:686
+#: includes/options/extra.php:698
 msgid "Grid Separator Style"
 msgstr "Stile separatore griglia"
 
-#: includes/options/extra.php:687
+#: includes/options/extra.php:699
 msgid ""
 "Controls the line style of grid separators. <strong>Note:</strong> For blog "
 "and portfolio grids at least one meta data field must be enabled and excerpt "
@@ -11949,51 +11973,51 @@ msgstr ""
 "almeno un campo meta-dati e visualizzare l'estratto o il contenuto completo "
 "in modo che il separatore venga visualizzato."
 
-#: includes/options/extra.php:692
+#: includes/options/extra.php:704
 msgid "No Style"
 msgstr "Nessuno Stile"
 
-#: includes/options/extra.php:693
+#: includes/options/extra.php:705
 msgid "Single Border Solid"
 msgstr "Singolo bordo solido"
 
-#: includes/options/extra.php:694
+#: includes/options/extra.php:706
 msgid "Double Border Solid"
 msgstr "Doppio bordo solido"
 
-#: includes/options/extra.php:695
+#: includes/options/extra.php:707
 msgid "Single Border Dashed"
 msgstr "Singolo bordo tratteggiato"
 
-#: includes/options/extra.php:696
+#: includes/options/extra.php:708
 msgid "Double Border Dashed"
 msgstr "Doppio bordo tratteggiato"
 
-#: includes/options/extra.php:697
+#: includes/options/extra.php:709
 msgid "Single Border Dotted"
 msgstr "Singolo bordo punteggiato"
 
-#: includes/options/extra.php:698
+#: includes/options/extra.php:710
 msgid "Double Border Dotted"
 msgstr "Doppio bordo punteggiato"
 
-#: includes/options/extra.php:699
+#: includes/options/extra.php:711
 msgid "Shadow"
 msgstr "Ombra"
 
-#: includes/options/extra.php:703
+#: includes/options/extra.php:715
 msgid "Grid Separator Color"
 msgstr "Colore separatore griglia"
 
-#: includes/options/extra.php:704
+#: includes/options/extra.php:716
 msgid "Controls the line style color of grid separators."
 msgstr "Controlla il colore dello stile di linea dei separatori di griglia."
 
-#: includes/options/extra.php:710
+#: includes/options/extra.php:722
 msgid "Masonry Options"
 msgstr "Opzioni di massoneria"
 
-#: includes/options/extra.php:717
+#: includes/options/extra.php:729
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> These are Masonry global options that apply "
 "to the Blog / Portfolio / Gallery elements in addition to Blog and Portfolio "
@@ -12005,11 +12029,11 @@ msgstr ""
 "Blog e archivi di portafoglio. Blog/Portfolio/Gallery elementi hanno anche "
 "opzioni per ignorare questi."
 
-#: includes/options/extra.php:722
+#: includes/options/extra.php:734
 msgid "Masonry Image Aspect Ratio"
 msgstr "Proporzioni Immagini Masonry"
 
-#: includes/options/extra.php:723
+#: includes/options/extra.php:735
 msgid ""
 "Set the ratio to decide when an image should become landscape (ratio being "
 "width : height) and portrait (ratio being height : width). <strong>IMPORTANT:"
@@ -12022,11 +12046,11 @@ msgstr ""
 "rappresenta un caso speciale, che utilizzerà i rapporti calcolati "
 "automaticamente come nelle versioni precedenti a Avada 5,5."
 
-#: includes/options/extra.php:734
+#: includes/options/extra.php:746
 msgid "Masonry 2x2 Width"
 msgstr "Mattonelle 2x2 Larghezza"
 
-#: includes/options/extra.php:735
+#: includes/options/extra.php:747
 msgid ""
 "This option decides when a square 1x1 image should become 2x2. This will not "
 "apply to images that highly favor landscape or portrait layouts. "
@@ -12898,7 +12922,8 @@ msgid "Controls the site layout."
 msgstr "Gestisci il layout del sito."
 
 # @ Avada
-#: includes/options/layout.php:57
+#: includes/options/layout.php:57 includes/options/menu.php:1953
+#: includes/options/menu.php:2006
 msgid "Site Width"
 msgstr "Larghezza Sito"
 
@@ -13890,7 +13915,7 @@ msgstr ""
 "Controlla la progettazione del menu mobile. Stile di progettazione del "
 "riquadro a comparsa consente solo voci di menu livello padre."
 
-#: includes/options/menu.php:1397 includes/options/search.php:69
+#: includes/options/menu.php:1397 includes/options/search.php:83
 #: includes/options/woocommerce.php:296
 #: includes/widget/class-fusion-widget-tabs.php:295
 msgid "Classic"
@@ -14059,49 +14084,73 @@ msgstr ""
 "Caratteristiche del tema. Si prega di consentirle di vedere le opzioni."
 
 # @ Avada
-#: includes/options/menu.php:1947
+#: includes/options/menu.php:1947 includes/options/menu.php:1971
 msgid "Mega Menu Max-Width"
 msgstr "Mega Menu Max-Width"
 
 #: includes/options/menu.php:1948
+msgid ""
+"Controls the max width of the mega menu. On boxed side header layouts, "
+"\"Viewport Width\" will match \"Site Width\"."
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "100% Width"
+msgstr "100% Larghezza"
+
+#: includes/options/menu.php:1955
+msgid "Custom Width"
+msgstr ""
+
+#: includes/options/menu.php:1972
 msgid "Controls the max width of the mega menu."
 msgstr "Controlla la larghezza massima del menu mega."
 
+#: includes/options/menu.php:2000
+msgid "Mega Menu Interior Content Width"
+msgstr ""
+
+#: includes/options/menu.php:2001
+msgid ""
+"For full width mega menus select if the interior menu content is contained "
+"to site width or 100% width."
+msgstr ""
+
 # @ Avada
-#: includes/options/menu.php:1971
+#: includes/options/menu.php:2033
 msgid "Mega Menu Column Title Size"
 msgstr "Dimensione titolo colonna mega menu"
 
-#: includes/options/menu.php:1972
+#: includes/options/menu.php:2034
 msgid "Controls the font size for mega menu column titles."
 msgstr ""
 "Controlla la dimensione del carattere per i titoli di colonna mega menu."
 
-#: includes/options/menu.php:1990
+#: includes/options/menu.php:2052
 msgid "Mega Menu Dropdown Item Padding"
 msgstr "Mega menu a discesa elemento Padding"
 
-#: includes/options/menu.php:1991
+#: includes/options/menu.php:2053
 msgid "Controls the top/bottom padding for mega menu dropdown items."
 msgstr ""
 "Controlla la spaziatura superiore/inferiore per gli elementi a discesa del "
 "menu mega."
 
 # @ Avada
-#: includes/options/menu.php:2014
+#: includes/options/menu.php:2076
 msgid "Mega Menu Item Divider"
 msgstr "Area per il widget del Mega Menu"
 
-#: includes/options/menu.php:2015
+#: includes/options/menu.php:2077
 msgid "Turn on to display a divider between mega menu dropdown items."
 msgstr ""
 "Attivare per visualizzare un divisore tra gli elementi a discesa mega menu."
 
-#: includes/options/menu.php:2035
+#: includes/options/menu.php:2097
 msgid "Main Menu Icons"
 msgstr "Icone del menu principale"
 
-#: includes/options/menu.php:2041
+#: includes/options/menu.php:2103
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Icons are available for both the main and "
 "dropdown menus. However, the options below only apply to the main menu. "
@@ -14116,43 +14165,43 @@ msgstr ""
 "icone stesse possono essere aggiunte alle voci di menu nella sezione aspetto "
 "> menu."
 
-#: includes/options/menu.php:2046
+#: includes/options/menu.php:2108
 msgid "Main Menu Icon Position"
 msgstr "Posizione dell'icona del menu principale"
 
-#: includes/options/menu.php:2047
+#: includes/options/menu.php:2109
 msgid "Controls the main menu icon position."
 msgstr "Controlla la posizione dell'icona del menu principale."
 
-#: includes/options/menu.php:2059
+#: includes/options/menu.php:2121
 msgid "Main Menu Icon Size"
 msgstr "Dimensione dell'icona del menu principale"
 
-#: includes/options/menu.php:2060
+#: includes/options/menu.php:2122
 msgid "Controls the size of the top-level menu icons."
 msgstr ""
 
-#: includes/options/menu.php:2071
+#: includes/options/menu.php:2133
 msgid "Main Menu Icon Color"
 msgstr "Colore principale dell'icona del menu"
 
-#: includes/options/menu.php:2072
+#: includes/options/menu.php:2134
 msgid "Controls the color of the top-level main menu icons."
 msgstr ""
 
-#: includes/options/menu.php:2078
+#: includes/options/menu.php:2140
 msgid "Main Menu Icon Hover Color"
 msgstr "Icona del menu principale colore hover"
 
-#: includes/options/menu.php:2079
+#: includes/options/menu.php:2141
 msgid "Controls the hover color of the top-level main menu icons."
 msgstr ""
 
-#: includes/options/menu.php:2085
+#: includes/options/menu.php:2147
 msgid "Mega Menu Thumbnail Size"
 msgstr "Mega menu Dimensioni miniature"
 
-#: includes/options/menu.php:2086
+#: includes/options/menu.php:2148
 msgid ""
 "Controls the width and height of the top-level mega menu thumbnails. Use "
 "\"auto\" for automatic resizing if you added either width or height."
@@ -14863,41 +14912,7 @@ msgstr ""
 "Attivare per visualizzare l'impaginazione post precedente/successiva per i "
 "singoli post di portafoglio."
 
-# @ Avada
-#: includes/options/portfolio.php:301
-msgid "Featured Image / Video on Single Post Page"
-msgstr "Immagini in evidenza / Video su pagine singole dei post"
-
 #: includes/options/portfolio.php:302
-msgid ""
-"Turn on to display featured images and videos on single portfolio posts."
-msgstr ""
-"Attivare per visualizzare le immagini in vetrina e video su singoli post "
-"portafoglio."
-
-#: includes/options/portfolio.php:308
-msgid "First Featured Image"
-msgstr "Prima immagine in evidenza"
-
-#: includes/options/portfolio.php:309
-msgid "Turn on to display the 1st featured image on single portfolio posts."
-msgstr ""
-"Accendere per visualizzare la prima immagine in vetrina su singoli post "
-"portafoglio."
-
-#: includes/options/portfolio.php:322
-msgid "Featured Image Column Size"
-msgstr "Dimensioni colonna immagine in vetrina"
-
-#: includes/options/portfolio.php:323
-msgid ""
-"Controls if the featured image is half or full width on single portfolio "
-"posts."
-msgstr ""
-"Seleziona se l'immagine di copertina è la metà o larghezza piena nei singoli "
-"post del portfolio."
-
-#: includes/options/portfolio.php:341
 msgid ""
 "Turn on to display portfolio posts at 100% browser width according to the "
 "window size. Turn off to follow site width."
@@ -14905,6 +14920,40 @@ msgstr ""
 "Accendere per visualizzare messaggi portfolio alla larghezza del browser "
 "100%secondo la dimensione della finestra. Spegnere a seguire la larghezza "
 "del sito."
+
+#: includes/options/portfolio.php:308
+msgid "Featured Image Column Size"
+msgstr "Dimensioni colonna immagine in vetrina"
+
+#: includes/options/portfolio.php:309
+msgid ""
+"Controls if the featured image is half or full width on single portfolio "
+"posts."
+msgstr ""
+"Seleziona se l'immagine di copertina è la metà o larghezza piena nei singoli "
+"post del portfolio."
+
+# @ Avada
+#: includes/options/portfolio.php:326
+msgid "Featured Image / Video on Single Post Page"
+msgstr "Immagini in evidenza / Video su pagine singole dei post"
+
+#: includes/options/portfolio.php:327
+msgid ""
+"Turn on to display featured images and videos on single portfolio posts."
+msgstr ""
+"Attivare per visualizzare le immagini in vetrina e video su singoli post "
+"portafoglio."
+
+#: includes/options/portfolio.php:333
+msgid "First Featured Image"
+msgstr "Prima immagine in evidenza"
+
+#: includes/options/portfolio.php:334
+msgid "Turn on to display the 1st featured image on single portfolio posts."
+msgstr ""
+"Accendere per visualizzare la prima immagine in vetrina su singoli post "
+"portafoglio."
 
 #: includes/options/portfolio.php:347
 msgid "Project Description Title"
@@ -14936,31 +14985,31 @@ msgid ""
 "a new window."
 msgstr ""
 
-#: includes/options/portfolio.php:369
-msgid "Turn on to display comments on single portfolio posts."
-msgstr "Attivare per visualizzare i commenti sui post portafoglio singolo."
-
-#: includes/options/portfolio.php:375 includes/options/search.php:325
+#: includes/options/portfolio.php:368 includes/options/search.php:339
 #: includes/widget/class-fusion-widget-author.php:235
 msgid "Author"
 msgstr "Autore"
 
-#: includes/options/portfolio.php:376
+#: includes/options/portfolio.php:369
 msgid "Turn on to display the author name on single portfolio posts."
 msgstr ""
 "Attivare per visualizzare il nome dell'autore su singoli post di portafoglio."
 
-#: includes/options/portfolio.php:383
+#: includes/options/portfolio.php:376
 msgid "Turn on to display the social sharing box on single portfolio posts."
 msgstr ""
 "Attivare per visualizzare la casella di condivisione sociale sui post "
 "portafoglio singolo."
 
-#: includes/options/portfolio.php:390
+#: includes/options/portfolio.php:383
 msgid "Turn on to display related projects on single portfolio posts."
 msgstr ""
 "Attivare per visualizzare i progetti correlati su singoli post di "
 "portafoglio."
+
+#: includes/options/portfolio.php:390
+msgid "Turn on to display comments on single portfolio posts."
+msgstr "Attivare per visualizzare i commenti sui post portafoglio singolo."
 
 #: includes/options/privacy.php:34
 msgid "Privacy"
@@ -15355,235 +15404,242 @@ msgstr ""
 msgid "Search Form"
 msgstr "Modulo di ricerca"
 
-# @ Avada
 #: includes/options/search.php:40
+msgid "Limit Search Results Post Types"
+msgstr ""
+
+#: includes/options/search.php:41
+msgid ""
+"Turn on to limit the search results to specific post types you can choose."
+msgstr ""
+
+# @ Avada
+#: includes/options/search.php:47
 msgid "Search Results Content"
 msgstr "Seleziona contenuto risultati"
 
-#: includes/options/search.php:41
+#: includes/options/search.php:48
 msgid "Controls the type of content that displays in search results."
 msgstr "Controlla il tipo di contenuto visualizzato nei risultati di ricerca."
 
-#: includes/options/search.php:49
+#: includes/options/search.php:56
 msgid "Portfolio Items"
 msgstr ""
 
-#: includes/options/search.php:50
+#: includes/options/search.php:57
 msgid "FAQ Items"
 msgstr ""
 
-#: includes/options/search.php:51 includes/options/sidebars.php:368
+#: includes/options/search.php:58 includes/options/sidebars.php:368
 msgid "WooCommerce Products"
 msgstr "Prodotti WooCommerce"
 
-#: includes/options/search.php:52
+#: includes/options/search.php:59
 msgid "Events Calendar Posts"
 msgstr "Eventi del calendario dell'articolo"
 
-#: includes/options/search.php:56
+#: includes/options/search.php:70
 msgid "Limit Search to Post Titles"
 msgstr ""
 
-#: includes/options/search.php:57
+#: includes/options/search.php:71
 msgid "Turn on to limit the search to post titles only."
 msgstr ""
 
-#: includes/options/search.php:63
+#: includes/options/search.php:77
 msgid "Search Form Design"
 msgstr "Modulo di ricerca design"
 
-#: includes/options/search.php:64
+#: includes/options/search.php:78
 msgid "Controls the design of the search forms."
 msgstr "Controlla la progettazione dei moduli di ricerca."
 
-#: includes/options/search.php:70 includes/options/woocommerce.php:297
+#: includes/options/search.php:84 includes/options/woocommerce.php:297
 #: includes/widget/class-fusion-widget-tabs.php:296
 msgid "Clean"
 msgstr "Pulisci"
 
-#: includes/options/search.php:74
+#: includes/options/search.php:88
 msgid "Enable Live Search"
 msgstr ""
 
-#: includes/options/search.php:75
+#: includes/options/search.php:89
 msgid ""
 "Turn on to enable live search results on menu search field and other fitting "
 "search forms."
 msgstr ""
 
-#: includes/options/search.php:81
+#: includes/options/search.php:95
 msgid "Live Search Minimal Character Count"
 msgstr ""
 
-#: includes/options/search.php:82
+#: includes/options/search.php:96
 msgid "Set the minimal character count to trigger the live search."
 msgstr ""
 
-#: includes/options/search.php:100
+#: includes/options/search.php:114
 msgid "Live Search Number of Posts"
 msgstr ""
 
-#: includes/options/search.php:101
+#: includes/options/search.php:115
 msgid ""
 "Controls the number of posts that should be displayed as search result "
 "suggestions."
 msgstr ""
 
-#: includes/options/search.php:119
+#: includes/options/search.php:133
 msgid "Live Search Results Container Height"
 msgstr ""
 
-#: includes/options/search.php:120
+#: includes/options/search.php:134
 msgid ""
 "Controls the height of the container in which the search results will be "
 "listed."
 msgstr ""
 
-#: includes/options/search.php:138
+#: includes/options/search.php:152
 msgid "Live Search Display Featured Image"
 msgstr ""
 
-#: includes/options/search.php:139
+#: includes/options/search.php:153
 msgid "Turn on to display the featured image of each live search result."
 msgstr ""
 
-#: includes/options/search.php:152
+#: includes/options/search.php:166
 msgid "Live Search Display Post Type"
 msgstr ""
 
-#: includes/options/search.php:153
+#: includes/options/search.php:167
 msgid "Turn on to display the post type of each live search result."
 msgstr ""
 
 # @ Avada
-#: includes/options/search.php:168 includes/options/sidebars.php:332
+#: includes/options/search.php:182 includes/options/sidebars.php:332
 msgid "Search Page"
 msgstr "Pagina di Ricerca"
 
 # @ Avada
-#: includes/options/search.php:175
+#: includes/options/search.php:189
 msgid "Search Results Layout"
 msgstr "Layout risultati di ricerca"
 
-#: includes/options/search.php:176
+#: includes/options/search.php:190
 msgid "Controls the layout for the search results page."
 msgstr "Controlla il layout della pagina dei risultati della ricerca."
 
 # @ Avada
-#: includes/options/search.php:190
+#: includes/options/search.php:204
 msgid "Number of Search Results Per Page"
 msgstr "Numero dei risultati di ricerca per pagina"
 
-#: includes/options/search.php:191
+#: includes/options/search.php:205
 msgid "Controls the number of search results per page."
 msgstr "Controlla il numero di risultati di ricerca per pagina."
 
-#: includes/options/search.php:202
+#: includes/options/search.php:216
 msgid "Search Pagination Type"
 msgstr ""
 
-#: includes/options/search.php:203
+#: includes/options/search.php:217
 msgid "Controls the pagination type for the search results page."
 msgstr ""
 
-#: includes/options/search.php:216
-msgid ""
-"Controls the number of columns for grid and masonry layouts. "
-"<strong>IMPORTANT:</strong> Masonry layout does not work with 1 column."
+#: includes/options/search.php:230
+msgid "Controls the number of columns for grid layouts."
 msgstr ""
 
-#: includes/options/search.php:241
+#: includes/options/search.php:255
 msgid "Controls the column spacing for search results."
 msgstr ""
 
-#: includes/options/search.php:266
+#: includes/options/search.php:280
 msgid "Search Content Display"
 msgstr ""
 
-#: includes/options/search.php:267
+#: includes/options/search.php:281
 msgid ""
 "Controls if the search results content displays as an excerpt or full "
 "content or is completely disabled."
 msgstr ""
 
-#: includes/options/search.php:278
+#: includes/options/search.php:292
 msgid "Search Excerpt Length"
 msgstr ""
 
-#: includes/options/search.php:279
+#: includes/options/search.php:293
 msgid ""
 "Controls the number of words (or characters) in the search results excerpts."
 msgstr ""
 
-#: includes/options/search.php:297
+#: includes/options/search.php:311
 msgid "Search Strip HTML from Excerpt"
 msgstr ""
 
-#: includes/options/search.php:298
+#: includes/options/search.php:312
 msgid ""
 "Turn on to strip HTML content from the excerpt for the search results page."
 msgstr ""
 
-#: includes/options/search.php:311
+#: includes/options/search.php:325
 msgid "Featured Images for Search Results"
 msgstr "Immagine in evidenza per i risultati di ricerca"
 
-#: includes/options/search.php:312
+#: includes/options/search.php:326
 msgid "Turn on to display featured images for search results."
 msgstr ""
 "Attivare per visualizzare le immagini in primo piano per i risultati di "
 "ricerca."
 
-#: includes/options/search.php:318
+#: includes/options/search.php:332
 msgid "Search Results Meta"
 msgstr ""
 
-#: includes/options/search.php:319
+#: includes/options/search.php:333
 msgid ""
 "Select the post meta data you want to be displayed in the individual search "
 "results."
 msgstr ""
 
 # @ Avada
-#: includes/options/search.php:326 templates/wc-catalog-ordering.php:48
+#: includes/options/search.php:340 templates/wc-catalog-ordering.php:48
 #: templates/wc-catalog-ordering.php:105
 msgid "Date"
 msgstr "Data"
 
 # @ Avada
-#: includes/options/search.php:327
+#: includes/options/search.php:341
 msgid "Categories"
 msgstr "Categorie"
 
 # @ Avada
-#: includes/options/search.php:328
+#: includes/options/search.php:342
 msgid "Tags"
 msgstr "Tag"
 
-#: includes/options/search.php:330
+#: includes/options/search.php:344
 msgid "Read More Link"
 msgstr ""
 
-#: includes/options/search.php:331
+#: includes/options/search.php:345
 msgid "Post Type"
 msgstr ""
 
 # @ Avada
-#: includes/options/search.php:335
+#: includes/options/search.php:349
 msgid "Search Field Position"
 msgstr "Posizione barra di ricerca"
 
-#: includes/options/search.php:336
+#: includes/options/search.php:350
 msgid "Controls the position of the search bar on the search results page."
 msgstr ""
 "Controlla la posizione della barra di ricerca nella pagina dei risultati di "
 "ricerca."
 
-#: includes/options/search.php:341
+#: includes/options/search.php:355
 msgid "Above Results"
 msgstr "Sopra i risultati"
 
-#: includes/options/search.php:342
+#: includes/options/search.php:356
 msgid "Below Results"
 msgstr "Sotto i risultati"
 
@@ -15675,37 +15731,37 @@ msgid "Controls the color of the sidebar widget heading text."
 msgstr "Controlla il colore del widget sidebar intestazione testo."
 
 #: includes/options/sidebars.php:145
-msgid "Activate Global Sidebar For Pages"
-msgstr "Attivare la barra laterale globale per le pagine"
-
-#: includes/options/sidebars.php:146
-msgid ""
-"Turn on if you want to use the same sidebars on all pages. This option "
-"overrides the page options."
-msgstr ""
-"Attivare se si desidera utilizzare le barre laterali stesso su tutte le "
-"pagine. Questa opzione sostituisce le opzioni della pagina."
-
-#: includes/options/sidebars.php:152
 msgid "Global Page Sidebar 1"
 msgstr "Pagina globale Sidebar 1"
 
 # @ Avada
-#: includes/options/sidebars.php:153
+#: includes/options/sidebars.php:146
 msgid "Select sidebar 1 that will display on all pages."
 msgstr "Selezionare la barra laterale 1 che verrà mostrata su tutte le pagine."
 
-#: includes/options/sidebars.php:160
+#: includes/options/sidebars.php:153
 msgid "Global Page Sidebar 2"
 msgstr "Pagina globale Sidebar 2"
 
-#: includes/options/sidebars.php:161
+#: includes/options/sidebars.php:154
 msgid ""
 "Select sidebar 2 that will display on all pages. Sidebar 2 can only be used "
 "if sidebar 1 is selected."
 msgstr ""
 "Selezionare Sidebar 2 che verrà visualizzata su tutte le pagine. Sidebar 2 "
 "può essere utilizzata solo se è selezionata la Sidebar 1."
+
+#: includes/options/sidebars.php:161
+msgid "Force Global Sidebars For Pages"
+msgstr ""
+
+#: includes/options/sidebars.php:162
+msgid ""
+"Turn on if you want to use the same sidebars on all pages. This option "
+"overrides the page options."
+msgstr ""
+"Attivare se si desidera utilizzare le barre laterali stesso su tutte le "
+"pagine. Questa opzione sostituisce le opzioni della pagina."
 
 #: includes/options/sidebars.php:168
 msgid "Global Page Sidebar Position"
@@ -15725,37 +15781,37 @@ msgid "Portfolio Posts"
 msgstr "Post portfolio"
 
 #: includes/options/sidebars.php:188
-msgid "Activate Global Sidebar For Portfolio Posts"
-msgstr "Attiva Global Sidebar per i post di portafoglio"
-
-#: includes/options/sidebars.php:189
-msgid ""
-"Turn on if you want to use the same sidebars on all portfolio posts. This "
-"option overrides the portfolio post options."
-msgstr ""
-"Accendere se si desidera utilizzare le barre laterali stesso su tutti i post "
-"portafoglio. Questa opzione sostituisce le opzioni di portfolio post."
-
-#: includes/options/sidebars.php:195
 msgid "Global Portfolio Post Sidebar 1"
 msgstr "Global portfolio post Sidebar 1"
 
-#: includes/options/sidebars.php:196
+#: includes/options/sidebars.php:189
 msgid "Select sidebar 1 that will display on all portfolio posts."
 msgstr ""
 "Selezionare Sidebar 1 che verrà visualizzato su tutti i post portafoglio."
 
-#: includes/options/sidebars.php:203
+#: includes/options/sidebars.php:196
 msgid "Global Portfolio Post Sidebar 2"
 msgstr "Global portfolio post Sidebar 2"
 
-#: includes/options/sidebars.php:204
+#: includes/options/sidebars.php:197
 msgid ""
 "Select sidebar 2 that will display on all portfolio posts. Sidebar 2 can "
 "only be used if sidebar 1 is selected."
 msgstr ""
 "Selezionare Sidebar 2 che verrà visualizzato su tutti i post portafoglio. "
 "Sidebar 2 può essere utilizzata solo se è selezionata la Sidebar 1."
+
+#: includes/options/sidebars.php:204
+msgid "Force Global Sidebars  For Portfolio Posts"
+msgstr ""
+
+#: includes/options/sidebars.php:205
+msgid ""
+"Turn on if you want to use the same sidebars on all portfolio posts. This "
+"option overrides the portfolio post options."
+msgstr ""
+"Accendere se si desidera utilizzare le barre laterali stesso su tutti i post "
+"portafoglio. Questa opzione sostituisce le opzioni di portfolio post."
 
 # @ Avada
 #: includes/options/sidebars.php:211
@@ -15817,36 +15873,36 @@ msgid "Blog Posts"
 msgstr "Post blog"
 
 #: includes/options/sidebars.php:264
-msgid "Activate Global Sidebar For Blog Posts"
-msgstr "Attiva Sidebar globale per i post del Blog"
-
-#: includes/options/sidebars.php:265
-msgid ""
-"Turn on if you want to use the same sidebars on all blog posts. This option "
-"overrides the blog post options."
-msgstr ""
-"Accendere se si desidera utilizzare le barre laterali stesso su tutti i post "
-"del Blog. Questa opzione sostituisce le opzioni post del Blog."
-
-#: includes/options/sidebars.php:271
 msgid "Global Blog Post Sidebar 1"
 msgstr "Global Blog post Sidebar 1"
 
-#: includes/options/sidebars.php:272
+#: includes/options/sidebars.php:265
 msgid "Select sidebar 1 that will display on all blog posts."
 msgstr "Selezionare Sidebar 1 che verrà visualizzato su tutti i post del Blog."
 
-#: includes/options/sidebars.php:279
+#: includes/options/sidebars.php:272
 msgid "Global Blog Post Sidebar 2"
 msgstr "Global Blog post Sidebar 2"
 
-#: includes/options/sidebars.php:280
+#: includes/options/sidebars.php:273
 msgid ""
 "Select sidebar 2 that will display on all blog posts. Sidebar 2 can only be "
 "used if sidebar 1 is selected."
 msgstr ""
 "Selezionare Sidebar 2 che verrà visualizzato su tutti i post del Blog. "
 "Sidebar 2 può essere utilizzata solo se è selezionata la Sidebar 1."
+
+#: includes/options/sidebars.php:280
+msgid "Force Global Sidebars For Blog Posts"
+msgstr ""
+
+#: includes/options/sidebars.php:281
+msgid ""
+"Turn on if you want to use the same sidebars on all blog posts. This option "
+"overrides the blog post options."
+msgstr ""
+"Accendere se si desidera utilizzare le barre laterali stesso su tutti i post "
+"del Blog. Questa opzione sostituisce le opzioni post del Blog."
 
 # @ Avada
 #: includes/options/sidebars.php:287
@@ -15942,37 +15998,37 @@ msgstr ""
 "ricerca. Se la sidebar 2 è selezionata, verrà visualizzata sul lato opposto."
 
 #: includes/options/sidebars.php:375
-msgid "Activate Global Sidebar For WooCommerce Products"
-msgstr "Attiva la barra laterale globale per i prodotti WooCommerce"
-
-#: includes/options/sidebars.php:376
-msgid ""
-"Turn on if you want to use the same sidebars on all WooCommerce products. "
-"This option overrides the WooCommerce post options."
-msgstr ""
-"Accendere se si desidera utilizzare le barre laterali stesso su tutti i "
-"prodotti WooCommerce. Questa opzione sostituisce le opzioni WooCommerce post."
-
-#: includes/options/sidebars.php:383
 msgid "Global WooCommerce Product Sidebar 1"
 msgstr "Global WooCommerce prodotto Sidebar 1"
 
-#: includes/options/sidebars.php:384
+#: includes/options/sidebars.php:376
 msgid "Select sidebar 1 that will display on all WooCommerce products."
 msgstr ""
 "Selezionare Sidebar 1 che verrà visualizzato su tutti i prodotti WooCommerce."
 
-#: includes/options/sidebars.php:392
+#: includes/options/sidebars.php:384
 msgid "Global WooCommerce Product Sidebar 2"
 msgstr "Global WooCommerce prodotto Sidebar 2"
 
-#: includes/options/sidebars.php:393
+#: includes/options/sidebars.php:385
 msgid ""
 "Select sidebar 2 that will display on all WooCommerce products. Sidebar 2 "
 "can only be used if sidebar 1 is selected."
 msgstr ""
 "Selezionare Sidebar 2 che visualizzerà su tutti i prodotti WooCommerce. "
 "Sidebar 2 può essere utilizzata solo se è selezionata la Sidebar 1."
+
+#: includes/options/sidebars.php:393
+msgid "Force Global Sidebars For WooCommerce Products"
+msgstr ""
+
+#: includes/options/sidebars.php:394
+msgid ""
+"Turn on if you want to use the same sidebars on all WooCommerce products. "
+"This option overrides the WooCommerce post options."
+msgstr ""
+"Accendere se si desidera utilizzare le barre laterali stesso su tutti i "
+"prodotti WooCommerce. Questa opzione sostituisce le opzioni WooCommerce post."
 
 #: includes/options/sidebars.php:401
 msgid "Global WooCommerce Sidebar Position"
@@ -16028,24 +16084,10 @@ msgstr ""
 "Sidebar 1."
 
 #: includes/options/sidebars.php:455
-msgid "Activate Global Sidebar For Events Calendar Posts"
-msgstr ""
-"Attivazione della barra laterale globale per i messaggi calendario eventi"
-
-#: includes/options/sidebars.php:456
-msgid ""
-"Turn on if you want to use the same sidebars on all Events Calendar posts. "
-"This option overrides the Events Calendar post options."
-msgstr ""
-"Attivare se si desidera utilizzare le barre laterali stesso su tutti i "
-"messaggi di calendario eventi. Questa opzione sostituisce le opzioni "
-"Calendario eventi post."
-
-#: includes/options/sidebars.php:462
 msgid "Global Events Calendar Sidebar 1"
 msgstr "Calendario eventi globali Sidebar 1"
 
-#: includes/options/sidebars.php:463
+#: includes/options/sidebars.php:456
 msgid ""
 "Select sidebar 1 that will display on all Events Calendar posts and archives "
 "pages."
@@ -16053,11 +16095,11 @@ msgstr ""
 "Selezionare Sidebar 1 che verrà visualizzato su tutti gli eventi calendario "
 "post e archivi pagine."
 
-#: includes/options/sidebars.php:470
+#: includes/options/sidebars.php:463
 msgid "Global Events Calendar Sidebar 2"
 msgstr "Calendario eventi globali Sidebar 2"
 
-#: includes/options/sidebars.php:471
+#: includes/options/sidebars.php:464
 msgid ""
 "Select sidebar 2 that will display on all all Events Calendar posts and "
 "archive pages. Sidebar 2 can only be used if sidebar 1 is selected."
@@ -16065,6 +16107,19 @@ msgstr ""
 "Selezionare Sidebar 2 che verrà visualizzato su tutti i messaggi di "
 "calendario eventi e pagine di archiviazione. Sidebar 2 può essere utilizzata "
 "solo se è selezionata la Sidebar 1."
+
+#: includes/options/sidebars.php:471
+msgid "Force Global Sidebars For Events Calendar Posts"
+msgstr ""
+
+#: includes/options/sidebars.php:472
+msgid ""
+"Turn on if you want to use the same sidebars on all Events Calendar posts. "
+"This option overrides the Events Calendar post options."
+msgstr ""
+"Attivare se si desidera utilizzare le barre laterali stesso su tutti i "
+"messaggi di calendario eventi. Questa opzione sostituisce le opzioni "
+"Calendario eventi post."
 
 #: includes/options/sidebars.php:478
 msgid "Global Events Calendar Sidebar Position "
@@ -16084,10 +16139,33 @@ msgid "bbPress/BuddyPress"
 msgstr "bbPress/BuddyPress"
 
 #: includes/options/sidebars.php:498
-msgid "Activate Global Sidebar For bbPress/BuddyPress"
-msgstr "Attiva Sidebar globale per bbPress/BuddyPress"
+msgid "Global bbPress/BuddyPress Sidebar 1"
+msgstr "Global bbPress/BuddyPress Sidebar 1"
 
 #: includes/options/sidebars.php:499
+msgid "Select sidebar 1 that will display on all bbPress/BuddyPress pages."
+msgstr ""
+"Selezionare Sidebar 1 che verrà visualizzato su tutte le pagine bbPress/"
+"BuddyPress."
+
+#: includes/options/sidebars.php:506
+msgid "Global bbPress/BuddyPress Sidebar 2"
+msgstr "Global bbPress/BuddyPress Sidebar 2"
+
+#: includes/options/sidebars.php:507
+msgid ""
+"Select sidebar 2 that will display on all bbPress/BuddyPress pages. Sidebar "
+"2 can only be used if sidebar 1 is selected."
+msgstr ""
+"Selezionare Sidebar 2 che verrà visualizzato su tutte le pagine bbPress/"
+"BuddyPress. Sidebar 2 può essere utilizzata solo se è selezionata la Sidebar "
+"1."
+
+#: includes/options/sidebars.php:514
+msgid "Force Global Sidebars For bbPress/BuddyPress"
+msgstr ""
+
+#: includes/options/sidebars.php:515
 msgid ""
 "Turn on if you want to use the same sidebars on all bbPress/BuddyPress "
 "pages. Forums index page, profile page and search page does not need this "
@@ -16097,29 +16175,6 @@ msgstr ""
 "pagine bbPress/BuddyPress. Forum pagina indice, Pagina profilo e pagina di "
 "ricerca non ha bisogno di questa opzione selezionata per visualizzare le "
 "barre laterali selezionate di seguito."
-
-#: includes/options/sidebars.php:505
-msgid "Global bbPress/BuddyPress Sidebar 1"
-msgstr "Global bbPress/BuddyPress Sidebar 1"
-
-#: includes/options/sidebars.php:506
-msgid "Select sidebar 1 that will display on all bbPress/BuddyPress pages."
-msgstr ""
-"Selezionare Sidebar 1 che verrà visualizzato su tutte le pagine bbPress/"
-"BuddyPress."
-
-#: includes/options/sidebars.php:513
-msgid "Global bbPress/BuddyPress Sidebar 2"
-msgstr "Global bbPress/BuddyPress Sidebar 2"
-
-#: includes/options/sidebars.php:514
-msgid ""
-"Select sidebar 2 that will display on all bbPress/BuddyPress pages. Sidebar "
-"2 can only be used if sidebar 1 is selected."
-msgstr ""
-"Selezionare Sidebar 2 che verrà visualizzato su tutte le pagine bbPress/"
-"BuddyPress. Sidebar 2 può essere utilizzata solo se è selezionata la Sidebar "
-"1."
 
 # @ Avada
 #: includes/options/sidebars.php:521
@@ -16470,8 +16525,8 @@ msgstr ""
 "di collegamento sociale o elemento Person."
 
 #: includes/options/social_media.php:45
-msgid "Social Media Links"
-msgstr "Links Social Media"
+msgid "Social Media Icons / Links"
+msgstr ""
 
 #: includes/options/social_media.php:46
 msgid ""
@@ -16508,10 +16563,9 @@ msgstr ""
 msgid "Upload your custom icon"
 msgstr "Carica la tua icona personalizzata"
 
-# @ Avada
 #: includes/options/social_media.php:83
-msgid "Header Social Icons"
-msgstr "Icone sociali d'intestazione"
+msgid "Header Social Icons Styling"
+msgstr ""
 
 #: includes/options/social_media.php:91
 msgid "Header Social Icon Font Size"
@@ -16604,8 +16658,8 @@ msgid "Controls the interior padding of the box."
 msgstr "Controlla la spaziatura interna della scatola."
 
 #: includes/options/social_media.php:193
-msgid "Footer Social Icons"
-msgstr "Icone Social del Footer"
+msgid "Footer Social Icons Styling"
+msgstr ""
 
 #: includes/options/social_media.php:201
 msgid "Display Social Icons In The Footer"
@@ -18315,15 +18369,11 @@ msgstr "Carica altri articoli"
 msgid "Loading..."
 msgstr "Caricamento..."
 
-#: templates/header-v6.php:39 templates/menu-mobile-flyout.php:33
-msgid "Toggle Shopping Cart"
-msgstr "Cavicchio carrello di acquisto"
-
-#: templates/header-v6.php:57 templates/menu-mobile-flyout.php:51
+#: templates/header-v6.php:43 templates/menu-mobile-flyout.php:36
 msgid "Toggle Search"
 msgstr "Attiva/Disattiva ricerca"
 
-#: templates/header-v6.php:61 templates/menu-mobile-flyout.php:57
+#: templates/header-v6.php:47 templates/menu-mobile-flyout.php:42
 msgid "Toggle Menu"
 msgstr "Attiva/disattiva menu"
 
@@ -18570,12 +18620,6 @@ msgstr "Indirizzo di spedizione"
 msgid "Find out more"
 msgstr "Scopri di più"
 
-#: tribe-events/month/single-day.php:41
-msgid "View 1 %1$s"
-msgid_plural "View All %2$s %3$s"
-msgstr[0] "Visualizza 1%1$s"
-msgstr[1] "Visualizza tutti%2$s %3$s"
-
 #: tribe-events/pro/photo/single-event.php:87
 msgid "Find Out More"
 msgstr "Scopri Di Più"
@@ -18769,10 +18813,6 @@ msgid "http://themeforest.net/user/ThemeFusion"
 msgstr "http://themeforest.net/user/ThemeFusion"
 
 #. Template Name of the plugin/theme
-msgid "100% Width"
-msgstr "100% Larghezza"
-
-#. Template Name of the plugin/theme
 msgid "Blank Page"
 msgstr "Pagina Vuota"
 
@@ -18842,6 +18882,65 @@ msgstr "Home"
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
 msgstr "%s fa"
+
+#~ msgid ""
+#~ "Select an icon for your menu item. Icon styles can be controlled in Theme "
+#~ "Options > Menu > Main Menu Icons."
+#~ msgstr ""
+#~ "Selezionare un'icona per la voce di menu. Gli stili delle icone possono "
+#~ "essere controllati in opzioni tema > menu > icone menu principale."
+
+#~ msgid "ToTop Script on mobile"
+#~ msgstr "Script Torna su per cellulari"
+
+#~ msgid "Turn on to enable the ToTop script on mobile devices."
+#~ msgstr "Attivare per abilitare lo script ToTop sui dispositivi mobili."
+
+#~ msgid ""
+#~ "<strong>IMPORTANT NOTE:</strong> The options on this tab are only for the "
+#~ "contact form that displays on the \"Contact\" page template except for "
+#~ "the Google Map API Key."
+#~ msgstr ""
+#~ "<strong> Nota importante: </strong> Le opzioni di questa scheda sono solo "
+#~ "per il modulo di contatto che viene visualizzato sul modello di pagina "
+#~ "\"Contact\" ad eccezione della chiave API di Google map."
+
+#~ msgid "Activate Global Sidebar For Pages"
+#~ msgstr "Attivare la barra laterale globale per le pagine"
+
+#~ msgid "Activate Global Sidebar For Portfolio Posts"
+#~ msgstr "Attiva Global Sidebar per i post di portafoglio"
+
+#~ msgid "Activate Global Sidebar For Blog Posts"
+#~ msgstr "Attiva Sidebar globale per i post del Blog"
+
+#~ msgid "Activate Global Sidebar For WooCommerce Products"
+#~ msgstr "Attiva la barra laterale globale per i prodotti WooCommerce"
+
+#~ msgid "Activate Global Sidebar For Events Calendar Posts"
+#~ msgstr ""
+#~ "Attivazione della barra laterale globale per i messaggi calendario eventi"
+
+#~ msgid "Activate Global Sidebar For bbPress/BuddyPress"
+#~ msgstr "Attiva Sidebar globale per bbPress/BuddyPress"
+
+#~ msgid "Social Media Links"
+#~ msgstr "Links Social Media"
+
+# @ Avada
+#~ msgid "Header Social Icons"
+#~ msgstr "Icone sociali d'intestazione"
+
+#~ msgid "Footer Social Icons"
+#~ msgstr "Icone Social del Footer"
+
+#~ msgid "Toggle Shopping Cart"
+#~ msgstr "Cavicchio carrello di acquisto"
+
+#~ msgid "View 1 %1$s"
+#~ msgid_plural "View All %2$s %3$s"
+#~ msgstr[0] "Visualizza 1%1$s"
+#~ msgstr[1] "Visualizza tutti%2$s %3$s"
 
 #~ msgid "Open Sub Menu"
 #~ msgstr "Apri sottomenu"
@@ -23872,10 +23971,6 @@ msgstr "%s fa"
 #~ msgstr ""
 #~ "Seleziona la casella per abilitare i commenti sugli elementi del "
 #~ "portfolio."
-
-# @ Avada
-#~ msgid "Show Author"
-#~ msgstr "Mostra autore"
 
 # @ Avada
 #~ msgid "Check the box to enable Author on portfolio items."
