@@ -2,6 +2,7 @@
 # WPML is a WordPress plugin that can turn any WordPress or WordPressMU site into a full featured multilingual content management system.
 # https://wpml.org
 # Translators:
+# Cristian Ganzetti
 # Bruce86
 # emanuele.bordoni
 # Emanuele
@@ -16,16 +17,15 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2019-05-01 11:37:28+00:00\n"
-"PO-Revision-Date: 2018-12-03 11:05+0000\n"
-"Last-Translator: Marco Cocciu <marco@cocciu.cc>\n"
-"Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/avada/"
-"language/it_IT/)\n"
+"PO-Revision-Date: 2019-07-28 14:01+0200\n"
+"Last-Translator: Cristian Ganzetti\n"
+"Language-Team: Italian (Italy)language/it_IT/)\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.2.3\n"
 
 # @ Avada
 #: 404.php:20
@@ -764,7 +764,7 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:141
 msgid "Requirements For Using Avada"
-msgstr " Requisiti per l'utilizzo di Avada"
+msgstr "Requisiti per l'utilizzo di Avada"
 
 #: includes/admin-screens/faq.php:148
 msgid "What Is The System Status Tab For?"
@@ -886,10 +886,10 @@ msgid ""
 "persists, you can also get the plugins through our alternate method directly "
 "from the %3$s."
 msgstr ""
-"Si prega di controllare la pagina%1$s se wp_remote_get () sta lavorando. Per "
-"maggiori informazioni potete consultare la nostra documentazione del%2$s. Se "
-"il problema persiste, è anche possibile ottenere i plugin tramite il nostro "
-"metodo alternativo direttamente dal%3$s."
+"Si prega di controllare la pagina %1$s se wp_remote_get() sta lavorando. Per "
+"maggiori informazioni potete consultare la nostra documentazione del %2$s. "
+"Se il problema persiste, è anche possibile ottenere i plugin tramite il "
+"nostro metodo alternativo direttamente dal %3$s."
 
 #: includes/admin-screens/plugins.php:84
 msgid "Plugin Installation"
@@ -962,6 +962,9 @@ msgid ""
 "Avada demos, auto theme updates and included premium plugins. Please follow "
 "the instructions below to create a valid token."
 msgstr ""
+"Grazie per aver scelto Avada! Il tuo prodotto è già registrato, quindi puoi "
+"accedere alle demo di Avada, agli aggiornamenti automatici dei temi e ai "
+"plugin premium inclusi."
 
 #. translators: link attributes.
 #: includes/admin-screens/support.php:22
@@ -991,7 +994,7 @@ msgstr "Crea un Account di Supporto"
 
 #: includes/admin-screens/support.php:29 includes/admin-screens/support.php:31
 msgid "Starter Guide"
-msgstr ""
+msgstr "Guida introduttiva"
 
 #: includes/admin-screens/support.php:30
 msgid ""
@@ -999,6 +1002,9 @@ msgid ""
 "WordPress. In light of this, we have prepared a starter pack for you, which "
 "includes all you need to know."
 msgstr ""
+"Comprendiamo che può essere un processo scoraggiante iniziare con WordPress. "
+"Alla luce di ciò, abbiamo preparato un pacchetto iniziale per te, che "
+"include tutto ciò che devi sapere."
 
 # @ Avada
 #: includes/admin-screens/support.php:34 includes/admin-screens/support.php:36
@@ -1046,6 +1052,9 @@ msgid ""
 "of narrated HD video tutorials to help teach you the different aspects of "
 "using Avada."
 msgstr ""
+"Niente è meglio che guardare un video per imparare. Abbiamo una libereria di "
+"video tutorial in HD per aiutarti nei differenti aspetti di utilizzo di "
+"Avada."
 
 # @ Avada
 #: includes/admin-screens/support.php:46
@@ -1076,6 +1085,9 @@ msgid ""
 "We have an amazing Facebook Group! Share with other Avada users and help "
 "grow our community. Please note, ThemeFusion does not provide support here."
 msgstr ""
+"Abbiamo un fantastico gruppo Facebook! Condividi con altri utenti Avada e "
+"aiuta a far crescere la nostra community. Nota: ThemeFusion non fornisce "
+"supporto qui."
 
 # @ Avada
 #: includes/admin-screens/system-status.php:24
@@ -1137,14 +1149,14 @@ msgid ""
 "needed. Please <a href=\"%s\" target=\"_blank\">contact our support team</a> "
 "through a ticket if you have any questions or need assistance."
 msgstr ""
-"<strong style = \"color: red;\"> IMPORTANTE: </ strong> L'aggiornamento ad "
-"Avada 4.0 e 5.0 richiede un processo di conversione per garantire che il tuo "
+"<strong style=\"color:red;\">IMPORTANTE:</strong> L'aggiornamento ad Avada "
+"4.0 e 5.0 richiede un processo di conversione per garantire che il tuo "
 "contenuto sia compatibile con la nuova versione. Questo è un processo "
 "automatico che si verifica dopo l'aggiornamento. In rari casi, potrebbe "
 "essere necessario rieseguire la conversione se si è verificato un problema "
 "durante il processo automatico. I controlli sottostanti ti consentono di "
-"farlo se necessario. Per favore <a href=\"%s\" target=\"_blank\"> contatta "
-"il nostro team di supporto </a> tramite un biglietto se hai domande o hai "
+"farlo se necessario. Per favore <a href=\"%s\" target=\"_blank\">contatta il "
+"nostro team di supporto</a> tramite un biglietto se hai domande o hai "
 "bisogno di assistenza."
 
 #. translators: Version Number.
@@ -1319,10 +1331,10 @@ msgid ""
 "how, see: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
 "\">Increasing memory allocated to PHP.</a>"
 msgstr ""
-"%s - Si consiglia di impostare la memoria ad almeno <strong> 128MB </ "
-"strong>. <br /> Definisci il limite di memoria nel file <strong>wp-config."
-"php </ strong>. Per ulteriori informazioni, vai su: <a href=\"%s\" target="
-"\"_blank\">Increasing memory allocated to PHP.</a>"
+"%s - Si consiglia di impostare la memoria ad almeno <strong>128MB</strong>. "
+"<br /> Definisci il limite di memoria nel file <strong>wp-config.php </"
+"strong>. Per ulteriori informazioni, vai su: <a href=\"%2$s\" target=\"_blank"
+"\" rel=\"noopener noreferrer\">Aumentare la memoria destinata al PHP.</a>"
 
 #: includes/admin-screens/system-status.php:325
 msgid "WP Debug Mode:"
@@ -1452,9 +1464,9 @@ msgid ""
 "POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" rel="
 "\"noopener noreferrer\">Increasing max input vars limit.</a>"
 msgstr ""
-"%1$s-valore consigliato:%2$s. < br/> limite massimo di input Vars tronca i "
-"dati postali, ad esempio i menu. Vedere: < a href = \"%3$s\" target = \"_ "
-"blank\" rel = \"noaprier noreferrer\" > aumento max input Vars limite. </a>"
+"%1$s-valore consigliato:%2$s. <br/> limite massimo di input Vars tronca i "
+"dati postali, ad esempio i menu. Vedere: <a href=\"%3$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">aumento max input Vars limite. </a>"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:445
@@ -1508,7 +1520,8 @@ msgid ""
 msgstr ""
 "%s - Valore consigliato:%s. <br /> Post Max Value Length limite di lunghezza "
 "può vietare il salvataggio dei dati da Opzioni del Tema al database. Vedere: "
-"<a href=\"%s\" target=\"_blank\"> Suhosin Configurazione Info </a>."
+"<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\"> Suhosin "
+"Configurazione Info </a>."
 
 # @ Avada
 #: includes/admin-screens/system-status.php:544
@@ -1687,6 +1700,11 @@ msgid ""
 "customers. We are thrilled you chose Avada and know it will change your "
 "outlook on what a WordPress theme can achieve."
 msgstr ""
+"Nel 2012 abbiamo deciso di creare il tema perfetto e nasce Avada. Da allora "
+"è stato il tema di vendita numero 1 con una base di utenti in costante "
+"crescita di oltre 450.000 clienti. Siamo entusiasti che tu abbia scelto "
+"Avada e sappiamo che cambierà la tua visione di ciò che può ottenere un tema "
+"WordPress."
 
 #: includes/admin-screens/welcome.php:26
 msgid "Powerful Customization Tools"
@@ -1733,8 +1751,8 @@ msgid ""
 msgstr ""
 "Envato Hosted offre pieno supporto per il vostro account ospitato, spazio "
 "Web e installare Wordpress. Inoltre, offrono il supporto per Avada come "
-"descritto qui: < a href = \" %s\" target = \"_ blank\" > Envato Hosted "
-"Support Policy </a>"
+"descritto qui: <a href=\"%s\" target=\"_blank\">Envato Hosted Support "
+"Policy</a>"
 
 # @ Avada
 #: includes/avada-functions.php:334 includes/options/blog.php:488
@@ -1860,15 +1878,15 @@ msgstr "Menu Principale"
 
 #: includes/avada-functions.php:1385
 msgid "Main Menu Sticky"
-msgstr ""
+msgstr "Menu principale scorrevole"
 
 #: includes/avada-functions.php:1527
 msgid "Secondary Mobile Menu"
-msgstr ""
+msgstr "Menu Mobile Secondario"
 
 #: includes/avada-functions.php:1530
 msgid "Secondary Menu"
-msgstr ""
+msgstr "Menu Secondario"
 
 # @ Avada
 #: includes/avada-functions.php:1615 includes/avada-functions.php:1643
@@ -1878,7 +1896,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_sliders.php:83
 #: includes/metaboxes/tabs/tab_sliders.php:111
 msgid "Select a slider"
-msgstr "Seleziona uno slider"
+msgstr "Seleziona una slider"
 
 #: includes/avada-tgm.php:72
 msgid "Install/Update Required Plugins"
@@ -2033,9 +2051,9 @@ msgid ""
 "the page template which will eventually be removed."
 msgstr ""
 "Il modello di pagina \"navigazione laterale\" sarà deprecato in una versione "
-"futura di Avada. Lo abbiamo sostituito con una soluzione migliore, il < a "
-"href = \" %s\" target = \"_ blank\" rel = \"noaprier noreferrer\" > Avada "
-"menu verticale widget </a>. Questo nuovo widget offre le stesse "
+"futura di Avada. Lo abbiamo sostituito con una soluzione migliore, il <a "
+"href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">menu Avada "
+"verticale su widget </a>. Questo nuovo widget offre le stesse "
 "caratteristiche ma con maggiore flessibilità. Funziona con il sistema di "
 "menu WP. Si prega di utilizzare questo nuovo metodo invece del modello di "
 "pagina che sarà eventualmente rimosso."
@@ -2210,10 +2228,9 @@ msgstr ""
 "Avada è ora installato e pronto all'uso! Preparatevi a costruire qualcosa di "
 "bello. Attraverso la vostra registrazione sulla piattaforma Hosted Envato, è "
 "ora possibile ottenere gli aggiornamenti automatici tema, importare demo "
-"Avada e installare plugin Premium. Estrarre il < a href = \" %s\" target = "
-"\"_ blank\" > Envato Hosted Support Policy </a> per informazioni su come "
-"ricevere supporto tramite il team di supporto Hosted Envato. Speriamo che vi "
-"piaccia!"
+"Avada e installare plugin Premium. Estrarre il <a href=\"%s\" target=\"_blank"
+"\">Envato Hosted Support Policy </a> per informazioni su come ricevere "
+"supporto tramite il team di supporto Hosted Envato. Speriamo che vi piaccia!"
 
 # @ Avada
 #: includes/class-avada-admin.php:782
@@ -2310,6 +2327,18 @@ msgid ""
 "<br /><br />• Fusion Builder must be activated for page content to display "
 "as intended."
 msgstr ""
+"L'importazione di contenuti dimostrativi ti offrirà dispositivi di "
+"scorrimento, pagine, post, opzioni di temi, widget, barre laterali e altre "
+"impostazioni. Questo replicherà la demo dal vivo. <strong> Fare clic su "
+"questa opzione sostituirà le opzioni ed i widget del tema corrente. </"
+"strong> Il completamento del processo può richiedere anche un minuto. <br /> "
+"<br /> REQUISITI: <br /> <br /> • Limite di memoria di 256 MB e tempo di "
+"esecuzione massimo (limite di tempo php) di 300 secondi. <br /> <br /> • "
+"Slider Revolution e LayerSlider devono essere attivati ​​per l'importazione "
+"dei cursori. <br /> <br /> • Fusion Core deve essere attivato per Fusion "
+"Slider, portfolio e FAQ da importare. <br /> <br /> • Fusion Builder deve "
+"essere attivato affinché il contenuto della pagina sia visualizzato come "
+"previsto."
 
 #: includes/class-avada-admin.php:1429 includes/class-avada-admin.php:1437
 msgid ""
@@ -2397,6 +2426,21 @@ msgid ""
 "Contact Form 7 plugin must be activated for the form to import.<br /><br />• "
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
+"L'importazione di contenuti dimostrativi ti offrirà dispositivi di "
+"scorrimento, pagine, post, opzioni di temi, widget, barre laterali e altre "
+"impostazioni. Questo replicherà la demo dal vivo. <strong> Fare clic su "
+"questa opzione sostituirà le opzioni e i widget del tema corrente. </strong> "
+"Il completamento del processo può richiedere anche un minuto. <br /> <br /> "
+"REQUISITI: <br /> <br /> • Limite di memoria di 128 MB e tempo di esecuzione "
+"massimo (limite di tempo php) di 180 secondi. <br /> <br /> • Per poter "
+"importare i cursori, è necessario attivare la funzione Slider Revolution. "
+"<br /> <br /> • Fusion Core deve essere attivato per Fusion Dispositivo di "
+"scorrimento, portfolio e domande frequenti da importare. <br /> <br /> • "
+"WooCommerce deve essere attivato per l'importazione di tutti i dati del "
+"negozio. <br /> <br /> • Il plug-in del modulo di contatto 7 deve essere "
+"attivato per l'importazione del modulo . <br /> <br /> • Fusion Builder deve "
+"essere attivato affinché il contenuto della pagina sia visualizzato come "
+"previsto."
 
 #: includes/class-avada-admin.php:1433
 msgid ""
@@ -2411,6 +2455,19 @@ msgid ""
 "WooCommerce must be activated for all shop data to import.<br /><br />• "
 "Fusion Builder must be activated for page content to display as intended."
 msgstr ""
+"L'importazione di contenuti dimostrativi ti offrirà dispositivi di "
+"scorrimento, pagine, post, opzioni di temi, widget, barre laterali e altre "
+"impostazioni. Questo replicherà la demo dal vivo. <strong> Fare clic su "
+"questa opzione sostituirà le opzioni e i widget del tema corrente. </strong> "
+"Il completamento del processo può richiedere anche un minuto. <br /> <br /> "
+"REQUISITI: <br /> <br /> • Limite di memoria di 128 MB e tempo di esecuzione "
+"massimo (limite di tempo php) di 180 secondi. <br /> <br /> • Per poter "
+"importare i cursori, è necessario attivare la funzione Slider Revolution. "
+"<br /> <br /> • Fusion Core deve essere attivato per Fusion Dispositivo di "
+"scorrimento, portfolio e domande frequenti da importare. <br /> <br /> • "
+"WooCommerce deve essere attivato per l'importazione di tutti i dati del "
+"negozio. <br /> <br /> • Fusion Builder deve essere attivato affinché il "
+"contenuto della pagina venga visualizzato come previsto ."
 
 #: includes/class-avada-admin.php:1434
 msgid ""
@@ -2472,6 +2529,19 @@ msgid ""
 "for Fusion Slider, portfolio and FAQs to be imported. <br /><br />• Fusion "
 "Builder must be activated for page content to display as intended."
 msgstr ""
+"L'importazione di contenuti dimostrativi ti offrirà dispositivi di "
+"scorrimento, pagine, post, opzioni di temi, widget, barre laterali e altre "
+"impostazioni. Questo replicherà la demo dal vivo. <strong> Fare clic su "
+"questa opzione sostituirà le opzioni e i widget del tema corrente. </strong> "
+"Il completamento del processo può richiedere anche un minuto. <br /> <br /> "
+"REQUISITI: <br /> <br /> • Limite di memoria di 128 MB e tempo di esecuzione "
+"massimo (limite di tempo php) di 180 secondi. <br /> <br /> • Per poter "
+"importare i cursori è necessario attivare la rivoluzione del cursore. <br /> "
+"<br /> • Il plug-in del modulo di contatto 7 deve essere attivato per "
+"importare il modulo. <br /> <br /> • Fusion Core deve essere attivato per "
+"poter importare il dispositivo di scorrimento Fusion, il portfolio e le "
+"domande frequenti. <br /> <br /> • Fusion Builder deve essere attivato "
+"affinché il contenuto della pagina sia visualizzato come previsto."
 
 #. translators: The current step label.
 #: includes/class-avada-admin.php:1439
@@ -2494,8 +2564,9 @@ msgid ""
 "Demo server couldn't be reached. Please check for wp_remote_get on the <a "
 "href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr ""
-"Impossibile raggiungere il server demo. Verifica per wp_remote_get nella "
-"pagina <a href=\"%s\" target=\"_blank\">Stato del sistema."
+"Impossibile raggiungere il server dimostrativo. Controlla wp_remote_get "
+"nella pagina <a href=\"%s\" target=\"_blank\"> Stato del sistema </a>. "
+"Riprova."
 
 #. translators: URL.
 #: includes/class-avada-admin.php:1446
@@ -2504,9 +2575,9 @@ msgid ""
 "target=\"_blank\">System Status</a> page. Change those to the recommended "
 "value and try again."
 msgstr ""
-"Importazione demo non riuscita. Controllare che i limiti PHP in rosso nella "
-"pagina Stato del sistema. Impostare le modifiche al valore consigliato e "
-"riprovare."
+"Importazione della demo non riuscita. Verifica i limiti di PHP in rosso "
+"nella pagina <a href=\"%s\" target=\"_blank\"> Stato del sistema </a>. "
+"Modificare quelli sul valore consigliato e riprovare."
 
 #: includes/class-avada-admin.php:1447
 msgid ""
@@ -2536,8 +2607,8 @@ msgid ""
 "\"_blank\">Product Registration</a> tab."
 msgstr ""
 "Questo plugin può essere installato o aggiornato solo dopo aver completato "
-"con successo la registrazione del prodotto Avada su < a href = \" %s\" "
-"target = \"_ blank\" > scheda registrazione prodotto </a>."
+"con successo la registrazione del prodotto Avada nella scheda <a href=\"%s\" "
+"target=\"_blank\">Registrazione del prodotto </a>."
 
 #: includes/class-avada-admin.php:1451
 msgid "Plugin install failed. Please try Again."
@@ -2723,8 +2794,8 @@ msgid ""
 "Controls the background color for the header. Hex code or rgba value, ex: "
 "#000. %s"
 msgstr ""
-"Seleziona il colore di sfondo dell'intestazione. Codice esadecimale o valore "
-"roba, es: #000"
+"Controlla il colore di sfondo per l'intestazione. Codice esadecimale o "
+"valore rgba, es: # 000. %s"
 
 # @ Avada
 #: includes/class-avada-admin.php:1636
@@ -2740,12 +2811,14 @@ msgid ""
 "Controls the background color for the header on mobile devices. Hex code or "
 "rgba value, ex: #000. %s"
 msgstr ""
+"Controlla il colore di sfondo per l'intestazione sui dispositivi mobili. "
+"Codice esadecimale o valore rgba, es: # 000. %s"
 
 # @ Avada
 #: includes/class-avada-admin.php:1646
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:264
 msgid "Page Title Bar Background"
-msgstr "Page Title Bar Background"
+msgstr "Sfondo della barra del titolo della pagina"
 
 #. translators: The "Fusion Theme Options" link.
 #. translators: Additional description (defaults).
@@ -2753,7 +2826,7 @@ msgstr "Page Title Bar Background"
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:266
 msgid "Select an image to use for the page title bar background. %s"
 msgstr ""
-"Selezionare un'immagine da utilizzare per la  barra del titolo della pagina. "
+"Selezionare un'immagine da utilizzare per la barra del titolo della pagina. "
 "%s"
 
 # @ Avada
@@ -2787,7 +2860,7 @@ msgid ""
 msgstr ""
 "Controlla l'altezza della barra del titolo della pagina sul desktop. "
 "Immettere il valore compreso qualsiasi unità CSS valido oltre%% che non "
-"funziona per barra del titolo della pagina, ex: 87px.  %s"
+"funziona per barra del titolo della pagina, ex: 87px. %s"
 
 # @ Avada
 #: includes/class-avada-admin.php:1680
@@ -2807,7 +2880,7 @@ msgid ""
 msgstr ""
 "Controlla l'altezza della barra del titolo della pagina sul cellulare. "
 "Immettere il valore compreso qualsiasi unità CSS valido oltre%% che non "
-"funziona per barra del titolo della pagina, ex: 70px.  %s"
+"funziona per barra del titolo della pagina, ex: 70px. %s"
 
 #: includes/class-avada-avadaredux-migration.php:130
 msgid "Preparing to run Upgrade"
@@ -2926,12 +2999,16 @@ msgstr ""
 msgid ""
 "Sorry, ReCaptcha could not verify that you are a human. Please try again."
 msgstr ""
+"Spiacenti, ReCaptcha non ha potuto verificare che sei un essere umano. Per "
+"favore, riprova."
 
 #: includes/class-avada-contact.php:282
 msgid ""
 "ReCaptcha configuration error. Please check the Theme Option settings and "
 "your Recaptcha account settings."
 msgstr ""
+"Errore di configurazione di ReCaptcha. Controlla le impostazioni delle "
+"Opzioni tema e le impostazioni del tuo account Recaptcha."
 
 #: includes/class-avada-contact.php:299
 msgid "confirmed"
@@ -2977,11 +3054,11 @@ msgid ""
 "Color</a> setting. Avada has additional <a href=\"%2$s\" target=\"_blank"
 "\">Event Calendar settings</a> in theme options."
 msgstr ""
-"È possibile controllare il colore del titolo post da Avada tema Pannello "
-"opzioni tramite l'impostazione di &lt;a href=\"%1$s\" target=\"_blank\"&gt;"
-"Colore di sovrapposizione testo colore primario di eventi&lt;/a&gt; . Vada "
-"ha ulteriori &lt;a href=\"%2$s\" target=\"_blank\"&gt;Impostazioni "
-"calendario degli eventi&lt;/a&gt; a tema opzioni."
+"Puoi controllare il colore del titolo del post dal pannello delle opzioni "
+"del tema Avada tramite l'impostazione <a href=\"%1$s\" target=\"_blank\"> "
+"Colore testo sovrapposizione colore primario eventi </a>. Avada ha ulteriori "
+"<a href=\"%2$s\" target=\"_blank\"> impostazioni del calendario degli eventi "
+"</a> nelle opzioni del tema."
 
 #. translators: EC Customizer notice.
 #: includes/class-avada-eventscalendar.php:252
@@ -2991,11 +3068,11 @@ msgid ""
 "Avada has additional <a href=\"%2$s\" target=\"_blank\">Event Calendar "
 "settings</a> in theme options."
 msgstr ""
-"È possibile controllare il colore di sfondo di foto da Avada tema Pannello "
-"opzioni tramite l'impostazione di &lt;a href=\"%1$s\" target=\"_blank\"&gt;"
-"Colore casella griglia&lt;/a&gt; . Vada ha ulteriori &lt;a href=\"%2$s\" "
-"target=\"_blank\"&gt;Impostazioni calendario degli eventi&lt;/a&gt; a tema "
-"opzioni."
+"Puoi controllare il colore di sfondo della foto dal pannello delle opzioni "
+"del tema Avada tramite l'impostazione <a href=\"%1$s\" target=\"_blank\"> "
+"Colore riquadro griglia </a>. Avada ha ulteriori <a href=\"%2$s\" target="
+"\"_blank\"> impostazioni del calendario degli eventi </a> nelle opzioni del "
+"tema."
 
 #. translators: EC Customizer notice.
 #: includes/class-avada-eventscalendar.php:284
@@ -3005,18 +3082,18 @@ msgid ""
 "Avada has additional <a href=\"%2$s\" target=\"_blank\">Event Calendar "
 "settings</a> in theme options."
 msgstr ""
-"È possibile controllare il colore di evidenziazione del calendario dal "
-"pannello delle opzioni del tema di Avada tramite l&#39;impostazione <a href="
-"\"%1$s\" target=\"_blank\">Colore primario</a> . Vada ha ulteriori <a href="
-"\"%2$s\" target=\"_blank\">impostazioni del calendario degli eventi</a> "
-"nelle opzioni del tema."
+"Puoi controllare il colore di evidenziazione del calendario dal pannello "
+"delle opzioni del tema Avada tramite l'impostazione <a href=\"%1$s\" target="
+"\"_blank\"> Colore primario </a>. Avada ha ulteriori <a href=\"%2$s\" target="
+"\"_blank\"> impostazioni del calendario degli eventi </a> nelle opzioni del "
+"tema."
 
 #. translators: image size.
 #: includes/class-avada-init.php:272 includes/class-avada-init.php:274
 #: includes/class-avada-init.php:276 includes/class-avada-init.php:278
 #: includes/class-avada-init.php:280
 msgid "Avada Grid %s"
-msgstr "Vada griglia %s"
+msgstr "Avada griglia %s"
 
 # @ Avada
 #. translators: Number.
@@ -3100,6 +3177,9 @@ msgid ""
 "Select an icon for your menu item. For top-level menu items, icon styles can "
 "be controlled in Theme Options > Menu > Main Menu Icons."
 msgstr ""
+"Seleziona un'icona per la tua voce di menu. Per le voci di menu di livello "
+"superiore, gli stili delle icone possono essere controllati in Opzioni tema> "
+"Menu> Icone menu principale."
 
 #: includes/class-avada-megamenu-framework.php:160
 msgid "Icon/Thumbnail Only"
@@ -3135,7 +3215,7 @@ msgstr "Disabilita"
 
 #: includes/class-avada-megamenu-framework.php:173
 msgid "Menu Highlight Label"
-msgstr "Menu:  Evidenziare l'etichetta"
+msgstr "Menu: Evidenziare l'etichetta"
 
 #: includes/class-avada-megamenu-framework.php:174
 msgid "Set the highlight label for menu item."
@@ -3152,8 +3232,8 @@ msgid ""
 "and modify the Menu Highlight Label Radius option."
 msgstr ""
 "Impostare il colore di evidenziazione dell'etichetta . Per impostare la "
-"luminosità del bordo, visitare%s e modificare l'opzione Rilievo di etichetta "
-"del menu Evidenzia."
+"luminosità del bordo, visitare %s e modificare l'opzione Rilievo di "
+"etichetta del menu Evidenzia."
 
 #: includes/class-avada-megamenu-framework.php:192
 msgid "Menu Highlight Label Text Color"
@@ -3165,7 +3245,7 @@ msgstr "Impostare il colore di evidenziazione del testo dell'etichetta ."
 
 #: includes/class-avada-megamenu-framework.php:201
 msgid "Menu Highlight Label Border Color"
-msgstr "Menu:  Evidenziare il colore del bordo dell’etichetta"
+msgstr "Menu: Evidenziare il colore del bordo dell’etichetta"
 
 #: includes/class-avada-megamenu-framework.php:202
 msgid "Set the highlight label border color."
@@ -3194,7 +3274,7 @@ msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:254
 msgid "Mega Menu / Flyout Menu Background Image"
-msgstr ""
+msgstr "Immagine di sfondo del menu Mega / menu a comparsa"
 
 #: includes/class-avada-megamenu-framework.php:255
 msgid ""
@@ -3206,6 +3286,14 @@ msgid ""
 "flyout menu, the image will be shown full screen when hovering the "
 "corresponding menu item."
 msgstr ""
+"Seleziona un'immagine per il mega menu o lo sfondo del menu a comparsa. <br /"
+"> <strong> Mega Menu: </strong> In caso di mega menu, se lasciato vuoto, "
+"verrà utilizzato il colore di sfondo del menu a discesa del menu principale. "
+"Ogni colonna del menu mega può avere una propria immagine di sfondo, oppure "
+"puoi avere un'immagine che si estende su tutta la larghezza del menu mega. "
+"<br /> <strong> Menu a comparsa: </strong> Se utilizzata nel menu a "
+"comparsa, l'immagine essere visualizzato a schermo intero quando si passa "
+"con il mouse sulla voce di menu corrispondente."
 
 # @ bbpress
 # @ Avada
@@ -3231,6 +3319,9 @@ msgid ""
 "items, the size of the thumbnail can be controlled in Theme Options > Menu > "
 "Main Menu Icons."
 msgstr ""
+"Seleziona un'immagine da utilizzare come anteprima per la voce di menu. Per "
+"gli elementi di livello superiore, la dimensione della miniatura può essere "
+"controllata in Opzioni tema> Menu> Icone menu principale."
 
 #: includes/class-avada-megamenu-framework.php:296
 msgid "Full Width Mega Menu"
@@ -3294,7 +3385,7 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:353
 msgid "Select Widget Area"
-msgstr "Sezionare l'area per il widget"
+msgstr "Sezionare area per il widget"
 
 #: includes/class-avada-migrate.php:238
 msgid "Avada Theme Option Migration"
@@ -3348,7 +3439,7 @@ msgstr "Aggiornamento delle voci di database Avada"
 #. translators: Language label.
 #: includes/class-avada-migrate.php:410
 msgid "Currently converting language: %s"
-msgstr "Attuale lingua di conversione:%s"
+msgstr "Attuale lingua di conversione: %s"
 
 #: includes/class-avada-migrate.php:413
 msgid "Done!"
@@ -3387,7 +3478,7 @@ msgstr "Per un corretto funzionamento, deseleziona la cache del browser."
 
 #: includes/class-avada-migrate.php:453
 msgid "Dynamic-CSS caches have been auto reset."
-msgstr "Dynamic-CSS cache sono stati auto reset."
+msgstr "Dynamic-CSS cache sono stati auto resettati."
 
 #: includes/class-avada-migrate.php:460
 msgid "Take Me To Shortcode Conversion"
@@ -3618,15 +3709,15 @@ msgstr "Ho letto la Privacy Policy ed accetto"
 
 #: includes/class-avada-pwa.php:184
 msgid "Fonts"
-msgstr ""
+msgstr "Fonts"
 
 #: includes/class-avada-pwa.php:198
 msgid "Scripts"
-msgstr ""
+msgstr "Scripts"
 
 #: includes/class-avada-pwa.php:212
 msgid "Styles"
-msgstr ""
+msgstr "Stili"
 
 # @ Avada
 #: includes/class-avada-scripts.php:603
@@ -3640,11 +3731,11 @@ msgstr "Carrello"
 
 #: includes/class-avada-scripts.php:605
 msgid "Open Sub Menu Of"
-msgstr ""
+msgstr "Apri il sotto menu di"
 
 #: includes/class-avada-scripts.php:606
 msgid "Close Sub Menu Of"
-msgstr ""
+msgstr "Chiudi il sotto Menu di"
 
 #: includes/class-avada-scripts.php:623
 msgid "Go to Top"
@@ -3662,6 +3753,8 @@ msgstr "Non tutti i campi sono stati compilati correttamente."
 #: includes/class-avada-scripts.php:769
 msgid "No search results match your query. Please try again"
 msgstr ""
+"Nessun risultato di ricerca corrisponde alla tua richiesta. Per favore, "
+"riprova"
 
 #. translators: the Date.
 #: includes/class-avada-sermon-manager.php:54
@@ -3700,16 +3793,21 @@ msgstr "API testata funziona correttamente."
 #: includes/class-avada-system-status.php:83
 msgid "Server responded with unauthorized response code: %1$s. %2$s"
 msgstr ""
+"Il server ha risposto con un codice di risposta non autorizzato: %1$s. % 2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:86
 msgid "Server responded with redirection response code: %1$s. %2$s"
 msgstr ""
+"Il server ha risposto con il codice di risposta al reindirizzamento: %1$s. "
+"%2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:89
 msgid "Error occured while checking API status. Response code: %1$s. %2$s"
 msgstr ""
+"Si è verificato un errore durante il controllo dello stato dell'API. Codice "
+"di risposta: %1$s. %2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:92
@@ -3717,12 +3815,16 @@ msgid ""
 "Internall server error occured while checking API status. Response code: "
 "%1$s. %2$s"
 msgstr ""
+"Si è verificato un errore del server interno durante il controllo dello "
+"stato dell'API. Codice di risposta: %1$s. %2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:95
 msgid ""
 "Something went wrong while checking API status. Response code: %1$s. %2$s"
 msgstr ""
+"Si è verificato un errore durante il controllo dello stato dell'API. Codice "
+"di risposta: %1$s. %2$s"
 
 #: includes/class-avada-taxonomy-meta.php:592
 #: includes/class-avada-taxonomy-meta.php:595
@@ -4342,9 +4444,9 @@ msgid ""
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
 "for the main shop page</a> from Avada theme options panel."
 msgstr ""
-"È possibile controllare < a href = \"%1$s\" target = \"_ blank\" > numero di "
-"prodotti per pagina </a> e < a href = \"%2$s\" target = \"_ blank\" > numero "
-"di colonne per la pagina principale del negozio </a> dal pannello Opzioni "
+"Puoi controllare il <a href=\"%1$s\" target=\"_blank\"> numero di prodotti "
+"per pagina </a> e il <a href=\"%2$s\" target=\"_blank\"> numero di colonne "
+"per la pagina principale del negozio </a> dal pannello delle opzioni del "
 "tema Avada."
 
 #. translators: "Product Registration" link.
@@ -4396,13 +4498,14 @@ msgid ""
 "import everything from a demo, you need to import the full demo on the Avada "
 "> Import Demos tab."
 msgstr ""
-"Con l’importazione di una singola pagina di prova riceverai solo il layout "
-"base. Non riceverai immagini demo, i Temi opzionali, i messaggi "
-"personalizzati o i cursori, così non ci saranno differenze di stile e di "
-"layout rispetto ai demo online. L’importazione di una singola pagina "
-"comprenderà il layout base, il modello di pagina, le opzioni di pagina e il "
-"segnaposto immagine. Se desideri importare tutto da una demo, è necessario "
-"importare la demo completa dalla scheda Avada> Importa Demo."
+"L'importazione di una singola pagina demo deve ricevere solo il layout "
+"scheletro. <strong> Non riceverai immagini dimostrative, opzioni di temi di "
+"fusione, tipi di post personalizzati o cursori, quindi ci saranno differenze "
+"di stile e layout rispetto alle demo online. </strong> Gli elementi che "
+"importano sono il layout del costruttore, il modello di pagina, opzioni "
+"della pagina di fusione e segnaposto immagine. Se desideri importare tutto "
+"da una demo, devi importare la demo completa nella scheda Avada> Importa "
+"demo."
 
 #: includes/class-fusion-builder-migrate.php:301
 msgid "Avada Shortcode Conversion"
@@ -4507,8 +4610,8 @@ msgid ""
 "you manually trigger the conversion at a later time through the WP admin "
 "area."
 msgstr ""
-"Se la conversione non viene eseguita, non sarà possibile utilizzare Avada%s "
-"a meno che non si attivi  manualmente la conversione in un secondo momento "
+"Se la conversione non viene eseguita, non sarà possibile utilizzare Avada %s "
+"a meno che non si attivi manualmente la conversione in un secondo momento "
 "attraverso l'area di amministrazione di WP."
 
 #. translators: Download link containing the "download Avada 4.0.3 here"
@@ -4556,7 +4659,7 @@ msgid ""
 "Avada."
 msgstr ""
 "Hai già convertito i codici shortcodes alla nuova struttura di Avada 5.0, ma "
-"hai scelto di tornare al loro stato precedente prima dell’installazione."
+"hai scelto di tornare al loro stato precedente prima dell’installazione. "
 "Questo processo non ti riporterà alla versione precedente di Avada."
 
 #. translators: "Avada 4.0.3" text string & link.
@@ -4598,8 +4701,8 @@ msgid ""
 "Currently scanning posts of post type \"%1$s\" (items %2$s to %3$s of %4$s "
 "total)."
 msgstr ""
-"Attualmente la scansione di post di tipo \"%1$s\" (articoli%2$s a%3$s di%4$s "
-"totale)."
+"Attualmente la scansione di post di tipo \"%1$s\" (articoli %2$s a %3$s di "
+"%4$s totali)."
 
 #. translators: Number.
 #: includes/class-fusion-builder-migrate.php:1192
@@ -4641,7 +4744,7 @@ msgstr ""
 #. translators: %1%s: post-type label. %2$s: Number.
 #: includes/class-fusion-builder-migrate.php:1279
 msgid "Scanning posts of post type \"%1$s\". Total posts: %2$s."
-msgstr "Scansione post di tipo \"%1$s\". Messaggi totali:%2$s."
+msgstr "Scansione post di tipo \"%1$s\". Messaggi totali: %2$s."
 
 #: includes/class-fusion-builder-migrate.php:1308
 msgid "Converting posts."
@@ -4839,7 +4942,7 @@ msgstr "Fusion Theme opzioni"
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:446
 msgid "%1$s Enter value including CSS unit (px, em, rem), ex: %2$s."
-msgstr "%1$s immettere il valore compreso l'unità CSS (px, em, REM), es:%2$s."
+msgstr "%1$s immettere il valore compreso l'unità CSS (px, em, REM), es: %2$s."
 
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:449
@@ -4848,7 +4951,7 @@ msgid ""
 "for inline columns, ex: %2$s."
 msgstr ""
 "%1$s immettere il valore incluso qualsiasi unità CSS valida oltre al%% che "
-"non funziona per le colonne inline, es:%2$s."
+"non funziona per le colonne inline, es: %2$s."
 
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:452
@@ -4857,12 +4960,12 @@ msgid ""
 "for page title bar, ex: %2$s."
 msgstr ""
 "%1$s immettere il valore incluso qualsiasi unità CSS valida oltre al%% che "
-"non funziona per la barra del titolo della pagina, es:%2$s."
+"non funziona per la barra del titolo della pagina, es: %2$s."
 
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:455
 msgid "%1$s Enter value including any valid CSS unit, ex: %2$s."
-msgstr "%1$s immettere il valore incluso qualsiasi unità CSS valida, es:%2$s."
+msgstr "%1$s immettere il valore incluso qualsiasi unità CSS valida, es: %2$s."
 
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:461
@@ -4932,8 +5035,8 @@ msgid ""
 "Copy the contents of the json file and paste it below. Then click \"Import\" "
 "to restore your setings."
 msgstr ""
-"Copia il contenuto del file son e incollalo di seguito. Quindi fare clic su "
-"&quot;Importa&quot; per ripristinare le impostazioni."
+"Copia il contenuto del file json e incollalo di seguito. Quindi fare clic su "
+"\"Importa\" per ripristinare le impostazioni."
 
 #: includes/lib/inc/class-fusion-fusionredux.php:1284
 msgid "Media fields using remote URLs were detected in your theme options:"
@@ -5003,7 +5106,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:321
 msgid "Patch #"
-msgstr "# Patch"
+msgstr "Patch #"
 
 # @ Avada
 # @ woocommerce
@@ -5041,24 +5144,23 @@ msgstr "Si prega di applicare prima la patch #%s."
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:426
 msgid "Patch cannot be currently aplied."
-msgstr "Patch non può essere attualmente aplied."
+msgstr "La patch non può essere attualmente applicata."
 
 #: includes/lib/inc/class-fusion-patcher-client.php:106
 msgid ""
 "The ThemeFusion patches server could not be reached. Please contact your "
 "host to unblock the \"https://updates.theme-fusion.com/\" domain."
 msgstr ""
-"Il server patch ThemeFusion non poteva essere raggiunto. Si prega di "
-"contattare il vostro ospite per sbloccare il  dominio”https://updates.theme-"
-"fusion.com/\"."
+"Impossibile raggiungere il server delle patch di ThemeFusion. Contatta "
+"l'host per sbloccare il dominio \"https://updates.theme-fusion.com/\"."
 
 #: includes/lib/inc/class-fusion-patcher-filesystem.php:106
 msgid ""
 "The Avada patch contents cannot be retrieved. Please contact your host to "
 "unblock the \"https://gist.github.com/\" domain."
 msgstr ""
-"Impossibile recuperare il contenuto della patch Avada. Si prega di "
-"contattare l'host per sbloccare il dominio \"https://GIST.github.com/\"."
+"Il contenuto della patch Avada non può essere recuperato. Contatta l'host "
+"per sbloccare il dominio \"https://gist.github.com/\"."
 
 #: includes/lib/inc/class-fusion-patcher-filesystem.php:122
 msgid "Patch empty."
@@ -5082,10 +5184,10 @@ msgid ""
 msgstr ""
 "La patch non può essere applicata a causa degli specifici permessi del "
 "vostro server. Hai due possibilità per ovviare a ciò. 1) Scarica questo zip "
-"file </a> che contiene  i file necessari alla riparazione. Scompatta lo zip "
+"file </a> che contiene i file necessari alla riparazione. Scompatta lo zip "
 "file e sostituisci i file presenti nel server con quelli estratti. NON "
 "SOSTITUIRE L’INTERA CARTELLA. 2) Contatta il centro di supporto</a>, apri un "
-"ticket che include le tue credenziali FTP così il nostro centro di supporto  "
+"ticket che include le tue credenziali FTP così il nostro centro di supporto "
 "potrà farlo per te. Una volta riparata la patch, clicca il pulsante ”Ignora "
 "questo avviso” così questo messaggio sarà rimosso."
 
@@ -5104,7 +5206,7 @@ msgstr "Versione WordPress"
 
 #: includes/lib/inc/class-fusion-privacy.php:172
 msgid "Avada Version"
-msgstr ""
+msgstr "Versione di Avada"
 
 #: includes/lib/inc/class-fusion-privacy.php:176
 msgid "Encrypted Site URL"
@@ -5171,10 +5273,10 @@ msgid ""
 "separately and wish to enter a registration token for it in order to receive "
 "%2$s updates regardless of %3$s, please check this checkbox."
 msgstr ""
-"Il%1$s %2$s è incluso in%3$s e non è necessaria alcuna registrazione. Gli "
-"aggiornamenti verranno forniti da%3$s. Se tuttavia avete acquistato%1$s "
+"Il %1$s %2$s è incluso in %3$s e non è necessaria alcuna registrazione. Gli "
+"aggiornamenti verranno forniti da %3$s. Se tuttavia avete acquistato %1$s "
 "separatamente e desiderate immettervi un token di registrazione per ricevere "
-"gli aggiornamenti di%2$s indipendentemente da%3$s, controllate questa "
+"gli aggiornamenti di %2$s indipendentemente da %3$s, controllate questa "
 "casella di controllo."
 
 # @ bbpress
@@ -5198,7 +5300,7 @@ msgstr ""
 #. translators: The server error code and the error message.
 #: includes/lib/inc/class-fusion-product-registration.php:408
 msgid "Invalid token, the server responded with code %1$s.%2$s"
-msgstr ""
+msgstr "Token non valido, il server ha risposto con il codice %1$s.%2$s"
 
 #. translators: The product name for the license.
 #: includes/lib/inc/class-fusion-product-registration.php:411
@@ -5289,7 +5391,7 @@ msgstr "articolo"
 # @ Avada
 #: includes/lib/inc/class-fusion-scripts.php:668
 msgid "Loading the next set of posts..."
-msgstr "Caricamento del successivo gruppo di post..."
+msgstr "Caricamento del successivo gruppo di articoli..."
 
 # @ Avada
 #: includes/lib/inc/class-fusion-scripts.php:669
@@ -5600,8 +5702,8 @@ msgid ""
 "This WXR file (version %s) is newer than the importer (version %s) and may "
 "not be supported. Please consider updating."
 msgstr ""
-"Questo file WXR (versione%s) è più recente dell’importatore (versione%s) e "
-"potrebbe non essere supportato. Si prega di considerare l’aggiornamento."
+"Questo file WXR (versione %s) è più recente dell'importatore (versione %s) e "
+"potrebbe non essere supportato. Si prega di considerare l'aggiornamento."
 
 #: includes/lib/inc/importer/class-wxr-importer.php:505
 msgid "%s, please try again."
@@ -5761,7 +5863,7 @@ msgstr "Sotto"
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:225
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:231
 msgid "Font Family"
-msgstr "Font Famiglia"
+msgstr "Font Family"
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:226
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/typography/field_typography.php:232
@@ -6255,9 +6357,9 @@ msgid ""
 "\" target=\"_blank\">FusionRedux Vendor Support</a> plugin/extension to "
 "bypass the our CDN and avoid this warning"
 msgstr ""
-"Se stai sviluppando offline, scarica e installa il plugin/l'estensione <a "
-"href=“%s” target=“_blank”>Redux Vendor Support</a> per bypassare il nostro "
-"CDN ed evitare questo avviso"
+"Se stai sviluppando offline, scarica e installa il plug-in / estensione <a "
+"href=\"%s\" target=\"_blank\"> FusionRedux Vendor Support </a> per bypassare "
+"la nostra CDN ed evitare questo avviso"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_cdn.php:84
 msgid "FusionRedux Framework Warning"
@@ -6275,9 +6377,10 @@ msgid ""
 "installed or not activated and thus, some controls may not render properly.  "
 "Please ensure that it is installed and <a href=\"%s\">activated</a>"
 msgstr ""
-"Il <a href=“%s”>plugin Vendor Support</a> (o estensione) non è installato o "
-"non è attivato e, quindi, alcuni controlli potrebbero non funzionare "
-"correttamente. Assicurati che sia installato e <a href=“%s”>attivato</a>"
+"Il <a href=\"%s\"> plug-in Supporto venditore </a> (o estensione) non è "
+"installato o non è attivato e pertanto alcuni controlli potrebbero non "
+"essere visualizzati correttamente. Assicurati che sia installato e <a href="
+"\"%s\"> attivato </a>"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php:31
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php:60
@@ -6541,7 +6644,7 @@ msgid ""
 "submission because of FusionRedux."
 msgstr ""
 "<span class=\"tc-lead tc-required\">ATTENZIONE</span> : DEVIi eliminare "
-"<strong>%s</strong> , o il tuo tema sarà respinto da WP.org a causa di "
+"<strong> %s</strong> , o il tuo tema sarà respinto da WP.org a causa di "
 "FusionRedux."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:38
@@ -6852,7 +6955,7 @@ msgid ""
 "FusionRedux</a>."
 msgstr ""
 "FusionRedux è creato da una comunità di sviluppatori in tutto il mondo. Vuoi "
-"avere anche il tuo nome elencato? < a href = \"% d\" target = \"_ blank\" > "
+"avere anche il tuo nome elencato? <a href=\"%d\" target=\"_blank\"> "
 "Contribuisci a FusionRedux </a>."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/extensions.php:73
@@ -7139,7 +7242,7 @@ msgid ""
 "wp_remote_post() failed. Many advanced features may not function. Contact "
 "your hosting provider."
 msgstr ""
-"wp_remote_post () non riuscito. Molte funzioni avanzate potrebbero non "
+"wp_remote_post() non riuscito. Molte funzioni avanzate potrebbero non "
 "funzionare. Contatta il tuo fornitore di hosting."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:482
@@ -7161,7 +7264,7 @@ msgid ""
 "wp_remote_get() failed. This is needed to get information from remote "
 "servers. Contact your hosting provider."
 msgstr ""
-"wp_remote_get () fallito. Questo è necessario per ottenere informazioni dai "
+"wp_remote_get() fallito. Questo è necessario per ottenere informazioni dai "
 "server remoti. Contatta il tuo fornitore di hosting."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:572
@@ -7454,11 +7557,11 @@ msgid ""
 "rated=\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge "
 "thank you from FusionRedux in advance!"
 msgstr ""
-"Se ti piace <strong>FusionRedux, per</strong> favore lasciati un rating <a "
-"href=\"https://wordpress.org/support/view/plugin-reviews/fusionredux-"
-"framework?filter=5#postform\" target=\"_blank\" class=\"fusionredux-rating-"
-"link\" data-rated=\"Thanks :)\">★★★★★</a> . Un enorme grazie da FusionRedux "
-"in anticipo!"
+"Se ti piace <strong> FusionRedux </strong>, lasciaci un <a href = \"https://"
+"wordpress.org/support/view/plugin-reviews/fusionredux-framework?"
+"filter=5#postform\" target = \"_ blank \"class =\" fusionredux-rating-link "
+"\"data-rated =\" Grazie :) \"> &#9733; &#9733; &#9733; &#9733; &#9733; </a>. "
+"Un grande grazie in anticipo da FusionRedux!"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:145
 msgid "Support hash could not be generated. Please try again later."
@@ -7649,7 +7752,7 @@ msgid ""
 "units are %3$s. Saved value \"%4$s\" and not \"%5$s.\"."
 msgstr ""
 "Impossibile trovare un'unità valida per%1$s, rientrando in \"%2$s\". Le "
-"unità valide sono%3$s. valore salvato \"%4$s\" e non \"%5$s.\"."
+"unità valide sono %3$s. valore salvato \"%4$s\" e non \"%5$s.\"."
 
 #. translators: %1$s: The value. %2$s: Fallback value. %3$s: A list of valid
 #. units. %4$s: Saved value. %5$s: User-entered value.
@@ -7665,7 +7768,7 @@ msgstr ""
 #: includes/lib/inc/redux/validation-functions.php:481
 #: includes/lib/inc/redux/validation-functions.php:516
 msgid "Sanitized value and saved as %1$s instead of %2$s."
-msgstr "Valore salvato come%1$s invece di%2$s."
+msgstr "Valore salvato come %1$s invece di %2$s."
 
 #: includes/lib/inc/templates/rollover.php:150
 msgid "Gallery"
@@ -7748,8 +7851,8 @@ msgid ""
 "in the \"Featured Image\" box on the right hand side."
 msgstr ""
 "Selezionare un'immagine o una sequenza video. Se si intende utilizzare "
-"un'immagine, selezionarla dal riquadro sul lato destro \"Immagini in evidenza"
-"\""
+"un'immagine, selezionarla \"Immagini in evidenza\" dal riquadro sul lato "
+"destro."
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:36
@@ -7765,7 +7868,7 @@ msgstr "ID Video Youtube"
 #: includes/metaboxes/options/options_slide.php:43
 #: includes/metaboxes/options/options_slide.php:49
 msgid "For example the Video ID for %1$s is %2$s"
-msgstr "Ad esempio, l'ID del video%1$s è%2$s"
+msgstr "Ad esempio, l'ID del video%1$s è %2$s"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:47
@@ -7783,6 +7886,9 @@ msgid ""
 "with cross-browser compatibility. WebM and OGV are optional. Using videos in "
 "a 16:9 aspect ratio is recommended."
 msgstr ""
+"Aggiungi il tuo file video MP4. Questo formato deve essere incluso per "
+"rendere il tuo video compatibile con più browser. WebM e OGV sono opzionali. "
+"Si consiglia di utilizzare video in formato 16: 9."
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:58
@@ -7795,6 +7901,9 @@ msgid ""
 "your video with cross-browser compatibility. Using videos in a 16:9 aspect "
 "ratio is recommended."
 msgstr ""
+"Aggiungi il tuo file video WebM. Questo è facoltativo, è necessario solo MP4 "
+"per eseguire il rendering del video con compatibilità cross-browser. Si "
+"consiglia di utilizzare video in formato 16: 9."
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:63
@@ -7807,6 +7916,9 @@ msgid ""
 "your video with cross-browser compatibility. Using videos in a 16:9 aspect "
 "ratio is recommended."
 msgstr ""
+"Aggiungi il tuo file video OGV. Questo è facoltativo, è necessario solo MP4 "
+"per eseguire il rendering del video con compatibilità cross-browser. Si "
+"consiglia di utilizzare video in formato 16: 9."
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:68
@@ -7904,6 +8016,11 @@ msgid ""
 "play. For YouTube and Vimeo videos, in order to ensure the controls are "
 "always fully visible, the Video Display Mode should be set to \"contain\"."
 msgstr ""
+"Se impostato su Sì, la riproduzione automatica deve essere abilitata, "
+"altrimenti il ​​video non può essere riprodotto. Per i video di YouTube e "
+"Vimeo, al fine di garantire che i controlli siano sempre completamente "
+"visibili, la Modalità di visualizzazione video deve essere impostata su "
+"\"contiene\"."
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:130
@@ -8104,8 +8221,8 @@ msgstr "Colore Sfondo dell'Intestazione"
 #: includes/metaboxes/options/options_slide.php:214
 msgid "Select a color for the heading background. Hex color code, ex: #000. %s"
 msgstr ""
-"Selezionare un colore per lo sfondo del titolo. Codice colore Hex, ex: # "
-"000. %s"
+"Selezionare un colore per lo sfondo del titolo. Codice colore Hex, ex: #000. "
+"%s"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:218
@@ -8371,7 +8488,7 @@ msgid ""
 "if one is uploaded. Hex code, ex: #000. %s"
 msgstr ""
 "Controlla il colore di sfondo della pagina. Quando il valore di colore è "
-"impostato su un valore inferiore a 100 &#37; opacità, il colore si "
+"impostato su un valore inferiore a 100&#37; opacità, il colore si "
 "sovrapporrà l'immagine di sfondo se uno è caricato. Heh codice, ex: #000. %s"
 
 #: includes/metaboxes/tabs/tab_background.php:50
@@ -8401,7 +8518,7 @@ msgstr "100% Immagine Sfondo"
 #: includes/metaboxes/tabs/tab_background.php:135
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:293
 msgid "Choose to have the background image display at 100&#37;. %s"
-msgstr "Scegliere di visualizzare l'immagine di sfondo al massimo. %s"
+msgstr "Scegli di visualizzare l'immagine di sfondo su 100&#37;. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_background.php:82
@@ -8449,8 +8566,8 @@ msgid ""
 "Controls the background color for the main content area. Hex code, ex: #000. "
 "%s"
 msgstr ""
-"Seleziona il colore di sfondo per l'area di contenuto principale. Codice "
-"esadecimale, es: #000"
+"Controlla il colore di sfondo per l'area del contenuto principale. Codice "
+"esadecimale, ad esempio: #000. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_background.php:113
@@ -8471,7 +8588,7 @@ msgstr "Mostra l'area a piè pagina"
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_footer.php:26
 msgid "Choose to show or hide the footer. %s"
-msgstr "Scegli di mostrare o nascondere il footer"
+msgstr "Scegli di mostrare o nascondere il footer. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_footer.php:31
@@ -8494,8 +8611,8 @@ msgid ""
 "Choose to set footer width to 100&#37; of the browser width. Select \"No\" "
 "for site width. %s"
 msgstr ""
-"Scegliere di impostare la larghezza del Footer al 100% della larghezza del "
-"browser. Selezionare \"No\" per la larghezza del sito. %s"
+"Scegli di impostare la larghezza del piè di pagina su 100&#37; della "
+"larghezza del browser. Seleziona \"No\" per la larghezza del sito. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:21
@@ -8510,7 +8627,7 @@ msgstr "Scegli di mostrare o nascondere l'intestazione."
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:31 includes/options/header.php:523
 msgid "100% Header Width"
-msgstr "Larghezza Intestazione 100%"
+msgstr "Larghezza 100% dell'Intestazione"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_header.php:38
@@ -8518,8 +8635,8 @@ msgid ""
 "Choose to set header width to 100&#37; of the browser width. Select \"No\" "
 "for site width. %s"
 msgstr ""
-"Scegliere di impostare la larghezza del Footer al 100% della larghezza del "
-"browser. Selezionare \"No\" per la larghezza del sito. %s"
+"Scegli di impostare la larghezza dell'intestazione su 100&#37; della "
+"larghezza del browser. Seleziona \"No\" per la larghezza del sito. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:83
@@ -8579,12 +8696,11 @@ msgstr "Utilizza il 100% della larghezza di pagina"
 #: includes/metaboxes/tabs/tab_portfolio_post.php:38
 #: includes/metaboxes/tabs/tab_post.php:26
 msgid "Choose to set this post to 100&#37; browser width. %s"
-msgstr ""
-"Scegliere di impostare questo post alla massima larghezza del browser . %s"
+msgstr "Scegli di impostare questo post su 100&#37; larghezza del browser. %s"
 
 #: includes/metaboxes/tabs/tab_page.php:45 includes/options/layout.php:142
 msgid "100% Width Padding"
-msgstr "Padding Larghezza 100%"
+msgstr "Padding 100% della Larghezza"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_page.php:47
@@ -8594,11 +8710,11 @@ msgid ""
 "does not affect Fusion Builder containers.  Enter value including any valid "
 "CSS unit, ex: 30px. %s"
 msgstr ""
-"Questa opzione controlla il riempimento sinistro e destro del contenuto "
-"della pagina quando utilizza la larghezza del sito al 100%, o la larghezza "
-"del modello della pagina al 100% o l'opzione di larghezza del post del 100%. "
-"Ciò non influisce sui contenitori di Fusion Builder. Inserisci il valore "
-"compreso qualsiasi unità CSS valida, es: 30px. %s"
+"Controlla il riempimento sinistro e destro per il contenuto della pagina "
+"quando si utilizza 100&#37; larghezza del sito, 100&#37; modello di pagina "
+"di larghezza o 100&#37; opzione post larghezza. Ciò non influisce sui "
+"contenitori Fusion Builder. Inserisci il valore includendo qualsiasi unità "
+"CSS valida, es: 30px. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_page.php:53
@@ -8672,12 +8788,14 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:84
 #: includes/options/page_title_bar.php:54
 msgid "Page Title Bar Headings"
-msgstr ""
+msgstr "Intestazioni della barra del titolo della pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:91
 msgid "Choose to show or hide the page title bar headings. %s"
 msgstr ""
+"Scegli di mostrare o nascondere le intestazioni della barra del titolo della "
+"pagina. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:112
@@ -8692,22 +8810,24 @@ msgid ""
 "be on opposite side for left / right alignment and below the title for "
 "center alignment. %s"
 msgstr ""
-"Scegliere l'allineamento del testo titolo e sottocapo. Il campo pangrattato/"
-"ricerca sarà sul lato opposto per l'allineamento a sinistra/destra e sotto "
-"il titolo per l'allineamento centrale.  %s"
+"Scegli il titolo e l'allineamento del testo del sottotitolo. Il campo "
+"breadcrumb / ricerca sarà sul lato opposto per l'allineamento sinistro / "
+"destro e sotto il titolo per l'allineamento centrale. %s"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:127
 msgid "Page Title Bar Heading Custom Text"
-msgstr ""
+msgstr "Intestazione della barra del titolo della pagina Testo personalizzato"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:128
 msgid "Insert custom text for the page title bar main heading."
 msgstr ""
+"Inserisci testo personalizzato per l'intestazione principale della barra del "
+"titolo della pagina."
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:135
 #: includes/options/page_title_bar.php:155
 msgid "Page Title Bar Heading Font Size"
-msgstr ""
+msgstr "Dimensione carattere intestazione barra titolo pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:137
@@ -8719,6 +8839,7 @@ msgstr "In pixel.  %s"
 #: includes/options/page_title_bar.php:177
 msgid "Page Title Bar Heading Line Height"
 msgstr ""
+"Altezza della linea di intestazione della barra del titolo della pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:145
@@ -8728,40 +8849,47 @@ msgstr "Valida unità CSS. %s"
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:151
 #: includes/options/page_title_bar.php:199
 msgid "Page Title Bar Heading Font Color"
-msgstr ""
+msgstr "Colore carattere intestazione barra titolo pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:153
 msgid "Controls the text color of the page title bar main heading. %s"
 msgstr ""
+"Controlla il colore del testo dell'intestazione principale della barra del "
+"titolo della pagina. %s"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:161
 msgid "Page Title Bar Subheading Custom Text"
-msgstr ""
+msgstr "Testo personalizzato per la barra titolo"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:162
 msgid "Insert custom text for the page title bar subheading."
 msgstr ""
+"Inserisci testo personalizzato per il sottotitolo della barra del titolo "
+"della pagina."
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:169
 #: includes/options/page_title_bar.php:218
 msgid "Page Title Bar Subheading Font Size"
-msgstr ""
+msgstr "Dimensione carattere sottotitolo barra titolo pagina"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:177
 #: includes/options/page_title_bar.php:240
 msgid "Page Title Bar Subheading Font Color"
 msgstr ""
+"Colore del carattere del sottotitolo della barra del titolo della pagina"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:179
 msgid "Controls the text color of the page title bar subheading. %s"
 msgstr ""
+"Controlla il colore del testo del sottotitolo della barra del titolo della "
+"pagina. %s"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:187
 #: includes/options/page_title_bar.php:75
 msgid "Page Title Bar 100% Width"
-msgstr ""
+msgstr "Barra del titolo della pagina al 100% di Larghezza"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:194
@@ -8770,6 +8898,10 @@ msgid ""
 "according to the viewport size. Select \"No\" to follow site width. Only "
 "works with wide layout mode. %s"
 msgstr ""
+"Scegli \"Sì\" per visualizzare l'area della barra del titolo della pagina su "
+"100&#37; larghezza in base alle dimensioni della finestra. Seleziona \"No\" "
+"per seguire la larghezza del sito. Funziona solo con la modalità layout "
+"ampio. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:238
@@ -8783,7 +8915,7 @@ msgid ""
 "Controls the background color of the page title bar. Hex code, ex: #000. %s"
 msgstr ""
 "Colore di sfondo della barra del titolo della pagina. Codice esadecimale, "
-"es: # 000. %s"
+"es: #000. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:254
@@ -8796,7 +8928,7 @@ msgstr "Colore dei bordi della barra del titolo della pagina"
 msgid "Controls the border color of the page title bar. Hex code, ex: #000. %s"
 msgstr ""
 "Colore del bordo della barra del titolo della pagina. Codice esadecimale, "
-"es: # 000. %s"
+"es: #000. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:300
@@ -9004,7 +9136,7 @@ msgstr "Mostra autore"
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_portfolio_post.php:191
 msgid "Choose to show or hide the author in the Project Details. %s"
-msgstr ""
+msgstr "Scegli di mostrare o nascondere l'autore nei Dettagli del progetto. %s"
 
 #: includes/metaboxes/tabs/tab_portfolio_post.php:208
 msgid "Show Related Projects"
@@ -9090,7 +9222,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_sidebars.php:105
 msgid "Responsive Sidebar Order"
-msgstr ""
+msgstr "Ordine responsivo della barra laterale"
 
 #: includes/metaboxes/tabs/tab_sidebars.php:108
 #: includes/metaboxes/tabs/tab_sidebars.php:123
@@ -9110,6 +9242,8 @@ msgid ""
 "Choose the order of sidebars and main content area on mobile layouts through "
 "drag & drop sorting. %s"
 msgstr ""
+"Scegli l'ordine delle barre laterali e l'area del contenuto principale nei "
+"layout mobili tramite l'ordinamento tramite trascinamento della selezione. %s"
 
 #: includes/metaboxes/tabs/tab_sidebars.php:119
 #: includes/options/sidebars.php:88
@@ -9146,7 +9280,7 @@ msgstr "Colore sfondo barra laterale"
 msgid "Controls the background color of the sidebar. Hex code, ex: #000. %s"
 msgstr ""
 "Seleziona il colore di sfondo della barra laterale. Codice esadecimale, es: "
-"#000"
+"#000. %s"
 
 #. translators: URL.
 #: includes/metaboxes/tabs/tab_sidebars.php:170
@@ -9156,10 +9290,10 @@ msgid ""
 "ability to choose individual sidebars. Turn off that option to assign unique "
 "sidebars."
 msgstr ""
-"&lt;strong&gt;Nota importante:&lt;/strong&gt; L'opzione di &lt;a href=\"%s\" "
-"target=\"_blank\"&gt;Attivare Oidebars globale&lt;/a&gt; è attivata che "
-"rimuove la possibilità di scegliere singole barre laterali. Disattivare "
-"questa opzione per assegnare le barre laterali uniche."
+"<strong> NOTA IMPORTANTE: </strong> è attivata l'opzione <a href=\"%s\" "
+"target=\"_blank\"> Attiva barre laterali globali </a> che rimuove la "
+"possibilità di scegliere singole barre laterali. Disattiva questa opzione "
+"per assegnare barre laterali univoche."
 
 #: includes/metaboxes/tabs/tab_sidebars.php:170
 msgid ""
@@ -9167,10 +9301,9 @@ msgid ""
 "turned on which removes the ability to choose individual sidebars. Turn off "
 "that option to assign unique sidebars."
 msgstr ""
-"&lt;strong&gt;Nota importante:&lt;/strong&gt; L'opzione di &lt;a href=\"%s\" "
-"target=\"_blank\"&gt;Attivare Oidebars globale&lt;/a&gt; è attivata che "
-"rimuove la possibilità di scegliere singole barre laterali. Disattivare "
-"questa opzione per assegnare le barre laterali uniche."
+"<strong> NOTA IMPORTANTE: </strong> è attivata l'opzione Attiva barre "
+"laterali globali che rimuove la possibilità di scegliere singole barre "
+"laterali. Disattiva questa opzione per assegnare barre laterali univoche."
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_sliders.php:19
@@ -9194,7 +9327,8 @@ msgstr "Disattiva gli stili di Avada per lo Slider Revolution"
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_sliders.php:162
 msgid "Choose to enable or disable Avada styles for Slider Revolution. %s"
-msgstr "Scegli se disabilitare lo Stile Avada per Revolution Slider"
+msgstr ""
+"Scegli di abilitare o disabilitare gli stili Avada per Slider Revolution. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_sliders.php:175
@@ -9225,9 +9359,9 @@ msgid ""
 "Paste your tracking code here. This will be added into the header template "
 "of your theme. Place code inside &lt;script&gt; tags."
 msgstr ""
-"Incollare qui il codice di tracciamento. Questo verrà aggiunto nel modello "
-"dell’intestazione del tuo tema. Inserire il codice all'interno del tag "
-"<script>."
+"Incolla qui il tuo codice di monitoraggio. Questo verrà aggiunto nel modello "
+"di intestazione del tema. Inserisci il codice all'interno di &lt; script&gt; "
+"tag."
 
 # @ Avada
 #: includes/options/advanced.php:53
@@ -9239,8 +9373,8 @@ msgid ""
 "Only accepts javascript code wrapped with &lt;script&gt; tags and HTML "
 "markup that is valid inside the &lt;/head&gt; tag."
 msgstr ""
-"Accetta solo il codice javascript con tag <script> e markup HTML valido "
-"all'interno del tag </ head>."
+"Accetta solo il codice javascript racchiuso con &lt; script&gt; tag e markup "
+"HTML validi all'interno di &lt; /head&gt; etichetta."
 
 # @ Avada
 #: includes/options/advanced.php:65
@@ -9252,8 +9386,8 @@ msgid ""
 "Only accepts javascript code, wrapped with &lt;script&gt; tags and valid "
 "HTML markup inside the &lt;/body&gt; tag."
 msgstr ""
-"Accetta solo il codice javascript, con tag <script> e un markup HTML valido "
-"all'interno del tag </ body>."
+"Accetta solo codice javascript, racchiuso con &lt;script&gt; tag e markup "
+"HTML valido all'interno di &lt;/body&gt; etichetta."
 
 #: includes/options/advanced.php:79
 msgid "Theme Features"
@@ -9292,11 +9426,11 @@ msgid ""
 "qualities but also higher file sizes. NOTE: After changing this value, "
 "please install and run the %s plugin once."
 msgstr ""
-"Controlla la qualità delle dimensioni dell'immagine per ogni immagine "
-"caricata. Range tra 0 e 100 percento. I valori più alti migliorano la "
-"qualità delle immagini, ma determinano anche file di dimensioni maggiori. "
-"NOTA: dopo aver modificato questo valore, installare ed eseguire una volta "
-"il plugin%s."
+"Controlla la qualità delle dimensioni delle immagini generate per ogni "
+"immagine caricata. Varia tra 0 e 100 percento. Valori più alti portano a "
+"migliori qualità dell'immagine ma anche a dimensioni dei file più elevate. "
+"NOTA: dopo aver modificato questo valore, installare ed eseguire il plug-in% "
+"s una volta."
 
 #: includes/options/advanced.php:105
 msgid "Smooth Scrolling"
@@ -9332,13 +9466,15 @@ msgstr "Selezionare per attivare il mega menu di Avada."
 
 #: includes/options/advanced.php:126
 msgid "Avada Styles For Slider Revolution"
-msgstr ""
+msgstr "Stili Avada per Slider Revolution"
 
 #: includes/options/advanced.php:127
 msgid ""
 "Turn on to enable the Avada styles and use the default Slider Revolution "
 "styles."
 msgstr ""
+"Attiva per abilitare gli stili Avada e usa gli stili Slider Revolution "
+"predefiniti."
 
 #: includes/options/advanced.php:133
 msgid "Avada Dropdown Styles"
@@ -9418,15 +9554,15 @@ msgstr ""
 
 #: includes/options/advanced.php:188
 msgid "Desktop & Mobile"
-msgstr ""
+msgstr "Desktop e dispositivi mobili"
 
 #: includes/options/advanced.php:189
 msgid "Desktop"
-msgstr ""
+msgstr "Desktop"
 
 #: includes/options/advanced.php:190
 msgid "Mobile"
-msgstr ""
+msgstr "Dispositivi mobili"
 
 #: includes/options/advanced.php:196
 msgid "Turn on to enable the fusion slider."
@@ -9445,10 +9581,13 @@ msgid ""
 "Choose which Font Awesome icon subsets you want to load. Note that Light "
 "subset can only be used if Font Awesome Pro is enabled."
 msgstr ""
+"Scegli quali sottoinsieme di icone Font Awesome vuoi caricare. Si noti che "
+"il sottoinsieme Light può essere utilizzato solo se Font Awesome Pro è "
+"abilitato."
 
 #: includes/options/advanced.php:216
 msgid "Brands"
-msgstr ""
+msgstr "Marche"
 
 # @ Avada
 #: includes/options/advanced.php:219 includes/options/colors.php:46
@@ -9459,30 +9598,34 @@ msgstr "Chiaro"
 
 #: includes/options/advanced.php:223
 msgid "FontAwesome v4 Compatibility"
-msgstr ""
+msgstr "Compatibilità FontAwesome v4"
 
 #: includes/options/advanced.php:224
 msgid "Turn on to enable support for FontAwesome 4 icon code format."
 msgstr ""
+"Attiva per abilitare il supporto per il formato codice icona FontAwesome 4."
 
 #: includes/options/advanced.php:230
 msgid "FontAwesome Pro"
-msgstr ""
+msgstr "FontAwesome Pro"
 
 #. translators: %1$s = license text & link. %2$s: whitelist text & link.
 #: includes/options/advanced.php:232
 msgid "Font Awesome Pro %1$s is required and you need to %2$s your domain."
 msgstr ""
+"È richiesto Font Awesome Pro%1$s ed è necessario%2$s per il tuo dominio."
 
 #: includes/options/advanced.php:238
 msgid "CSS Outlines"
-msgstr ""
+msgstr "CSS Outlines"
 
 #: includes/options/advanced.php:239
 msgid ""
 "Turn on to enable browser specific CSS element outlines used to improve "
 "accessibility."
 msgstr ""
+"Attiva per abilitare i contorni degli elementi CSS specifici del browser "
+"utilizzati per migliorare l'accessibilità."
 
 #: includes/options/advanced.php:245
 msgid "Open Graph Meta Tags"
@@ -9495,6 +9638,11 @@ msgid ""
 "Some optimization plugins, like e.g. Yoast SEO, add their own implementation "
 "of this, and if you want to use that, this option should be disabled."
 msgstr ""
+"Attiva per abilitare i meta tag a grafico aperto che vengono utilizzati "
+"principalmente quando condividi pagine su siti di social network come "
+"Facebook. <strong> IMPORTANTE: </strong> alcuni plugin di ottimizzazione, "
+"come ad es. Yoast SEO, aggiungi la propria implementazione di questo, e se "
+"vuoi usarlo, questa opzione dovrebbe essere disabilitata."
 
 #: includes/options/advanced.php:252
 msgid "Rich Snippets"
@@ -9506,9 +9654,9 @@ msgid ""
 "also control individual items below. If set to \"Off\" all items will be "
 "disabled."
 msgstr ""
-"Attivare per consentire Rich snippet di siti di dati di larghezza. Se "
-"impostato su \"on\", è anche possibile controllare i singoli elementi di "
-"seguito. Se impostato su \"off\" tutti gli elementi verranno disabilitati."
+"Attiva per abilitare i dati rich snippet in tutto il sito. Se impostato su "
+"\"Attivo\", puoi anche controllare i singoli elementi di seguito. Se "
+"impostato su \"Off\", tutte le voci saranno disabilitate."
 
 #: includes/options/advanced.php:259
 msgid "Rich Snippets Title"
@@ -9528,11 +9676,13 @@ msgstr "Attiva per abilitare author rich snippet data."
 
 #: includes/options/advanced.php:287
 msgid "Rich Snippets Last Update Date"
-msgstr ""
+msgstr "Data dell'ultimo aggiornamento dei rich snippet"
 
 #: includes/options/advanced.php:288
 msgid "Turn on to enable udate date rich snippet data site wide."
 msgstr ""
+"Attiva per abilitare il sito di dati rich snippet di data udate in tutto il "
+"sito."
 
 #: includes/options/background.php:35
 msgid "Page Background"
@@ -9690,6 +9840,11 @@ msgid ""
 "work with the blog element are the Date Format options and Load More Post "
 "Button Color."
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> le opzioni in questa scheda controllano "
+"solo la pagina del blog assegnata in \"Impostazioni> Lettura\", gli archivi "
+"del blog o la pagina del singolo post del blog, non l'elemento del blog. Le "
+"uniche opzioni in questa scheda che funzionano con l'elemento blog sono le "
+"opzioni Formato data e Carica altro colore pulsante post."
 
 #: includes/options/blog.php:47
 msgid "Blog Page Title Bar"
@@ -9712,6 +9867,8 @@ msgid ""
 "Controls how the page title bar displays on the assigned blog page in "
 "\"Settings > Reading\"."
 msgstr ""
+"Controlla la modalità di visualizzazione della barra del titolo della pagina "
+"nella pagina blog assegnata in \"Impostazioni> Lettura\"."
 
 # @ Avada
 #: includes/options/blog.php:73
@@ -9723,6 +9880,9 @@ msgid ""
 "Controls the title text that displays in the page title bar only if your "
 "front page displays your latest post in \"Settings > Reading\"."
 msgstr ""
+"Controlla il testo del titolo che viene visualizzato nella barra del titolo "
+"della pagina solo se la tua prima pagina mostra l'ultimo post in "
+"\"Impostazioni> Lettura\"."
 
 # @ Avada
 #: includes/options/blog.php:88
@@ -9734,6 +9894,9 @@ msgid ""
 "Controls the subtitle text that displays in the page title bar only if your "
 "front page displays your latest post in \"Settings > Reading\"."
 msgstr ""
+"Controlla il testo dei sottotitoli che viene visualizzato nella barra del "
+"titolo della pagina solo se la tua prima pagina mostra l'ultimo post in "
+"\"Impostazioni> Lettura\"."
 
 # @ Avada
 #: includes/options/blog.php:103
@@ -9744,7 +9907,7 @@ msgstr "Layout Blog"
 msgid ""
 "Controls the layout for the assigned blog page in \"Settings > Reading\"."
 msgstr ""
-"Controlla il layout per la pagina Blog assegnata in \"Settings > Reading\"."
+"Controlla il layout della pagina blog assegnata in \"Impostazioni> Lettura\"."
 
 #: includes/options/blog.php:109 includes/options/blog.php:126
 #: includes/options/search.php:195
@@ -9802,6 +9965,8 @@ msgid ""
 "Controls the pagination type for the assigned blog page in \"Settings > "
 "Reading\" or blog archive pages."
 msgstr ""
+"Controlla il tipo di impaginazione per la pagina blog assegnata in "
+"\"Impostazioni> Lettura\" o nelle pagine dell'archivio blog."
 
 #: includes/options/blog.php:143 includes/options/extra.php:453
 #: includes/options/portfolio.php:258 includes/options/search.php:222
@@ -9841,6 +10006,10 @@ msgid ""
 "the assigned blog page in \"Settings > Reading\" or blog archive pages. "
 "<strong>IMPORTANT:</strong> Masonry layout does not work with 1 column."
 msgstr ""
+"Controlla il numero di colonne per il layout della griglia e della muratura "
+"quando lo si utilizza per la pagina blog assegnata in \"Impostazioni> Lettura"
+"\" o nelle pagine dell'archivio blog. <strong> IMPORTANTE: </strong> il "
+"layout in muratura non funziona con 1 colonna."
 
 # @ Avada
 #: includes/options/blog.php:192 includes/options/search.php:254
@@ -9853,6 +10022,9 @@ msgid ""
 "using it for the assigned blog page in \"Settings > Reading\" or blog "
 "archive pages."
 msgstr ""
+"Controlla la spaziatura di colonna per i post di blog per il layout di "
+"griglia e muratura quando lo si utilizza per la pagina blog assegnata in "
+"\"Impostazioni> Lettura\" o pagine di archivio blog."
 
 #: includes/options/blog.php:228 includes/options/portfolio.php:94
 #: includes/options/woocommerce.php:327
@@ -9902,6 +10074,9 @@ msgid ""
 "completely disabled for the assigned blog page in \"Settings > Reading\" or "
 "blog archive pages."
 msgstr ""
+"Controlla se il contenuto del blog visualizza un estratto o il contenuto "
+"completo o è completamente disabilitato per la pagina del blog assegnata in "
+"\"Impostazioni> Lettura\" o nelle pagine di archivio del blog."
 
 # @ Avada
 #: includes/options/blog.php:353 includes/options/portfolio.php:163
@@ -9930,6 +10105,8 @@ msgid ""
 "Controls the number of words in the post excerpts for the assigned blog page "
 "in \"Settings > Reading\" or blog archive pages."
 msgstr ""
+"Controlla il numero di parole negli estratti di post per la pagina blog "
+"assegnata in \"Impostazioni> Lettura\" o nelle pagine dell'archivio blog."
 
 # @ Avada
 #: includes/options/blog.php:378 includes/options/portfolio.php:194
@@ -9941,6 +10118,8 @@ msgid ""
 "Turn on to strip HTML content from the excerpt for the assigned blog page in "
 "\"Settings > Reading\" or blog archive pages."
 msgstr ""
+"Attiva per rimuovere il contenuto HTML dall'estratto della pagina del blog "
+"assegnata in \"Impostazioni> Lettura\" o nelle pagine di archivio del blog."
 
 # @ Avada
 #: includes/options/blog.php:385
@@ -9964,9 +10143,9 @@ msgid ""
 "\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">Formatting Date and Time</a>"
 msgstr ""
-"Controlla il formato mese e anno per i layout alternativi di Blog. < a href "
-"= \"http://codex.wordpress.org/Formatting_Date_and_Time\" target = \"_ blank"
-"\" rel = \"noopener noreferrer\" > formattazione data e ora </a>"
+"Controlla il formato del mese e dell'anno per i layout alternativi del blog. "
+"<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\" target="
+"\"_blank\" rel=\"noopener noreferrer\"> Data e ora di formattazione </a>"
 
 #: includes/options/blog.php:399
 msgid "Blog Alternate Layout Day Format"
@@ -9978,9 +10157,9 @@ msgid ""
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">Formatting Date and Time</a>"
 msgstr ""
-"Controlla il formato del giorno per i layout alternativi di Blog. < a href = "
-"\"http://codex.wordpress.org/Formatting_Date_and_Time\" target = \"_ blank\" "
-"rel = \"noopener noreferrer\" > formattazione data e ora </a>"
+"Controlla il formato del giorno per i layout alternativi del blog. <a href="
+"\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
+"rel=\"noopener noreferrer\"> Data e ora di formattazione </a>"
 
 #: includes/options/blog.php:406
 msgid "Blog Timeline Layout Date Format"
@@ -9992,9 +10171,10 @@ msgid ""
 "\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">Formatting Date</a>"
 msgstr ""
-"Controlla il formato dell'etichetta della timeline per i layout di Blog "
-"Timeline. < a href = \"http://codex.wordpress.org/Formatting_Date_and_Time\" "
-"target = \"_ blank\" rel = \"noopener noreferrer\" > formattazione data </a>"
+"Controlla il formato dell'etichetta della sequenza temporale per i layout "
+"della sequenza temporale del blog. <a href=\"http://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener noreferrer\"> "
+"Data di formattazione </a>"
 
 # @ Avada
 #: includes/options/blog.php:415
@@ -10011,9 +10191,9 @@ msgid ""
 "Turn on to display blog posts at 100% browser width according to the window "
 "size. Turn off to follow site width."
 msgstr ""
-"Accendere per visualizzare messaggi del blog alla larghezza del browser "
-"100%secondo la dimensione della finestra. Spegnere a seguire la larghezza "
-"del sito."
+"Accendere per visualizzare messaggi del blog alla larghezza del browser 100% "
+"secondo la dimensione della finestra. Spegnere a seguire la larghezza del "
+"sito."
 
 #: includes/options/blog.php:430
 msgid "Featured Image / Video on Single Blog Post"
@@ -10120,6 +10300,11 @@ msgid ""
 "archives, not the blog element. The only options on this tab that work with "
 "the blog element are the Meta Data Font Size and Date Format options."
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> le meta opzioni on / off in questa "
+"scheda controllano solo la pagina blog assegnata in \"Impostazioni> Lettura"
+"\" o gli archivi blog, non l'elemento blog. Le uniche opzioni in questa "
+"scheda che funzionano con l'elemento blog sono le opzioni Dimensione "
+"carattere metadati e Formato data."
 
 # @ Avada
 #: includes/options/blog.php:518
@@ -10204,9 +10389,9 @@ msgid ""
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">Formatting Date and Time</a>"
 msgstr ""
-"Controlla il formato della data per i metadati di data.  < a href = \"http://"
-"codex.wordpress.org/Formatting_Date_and_Time\" target = \"_ blank\" rel = "
-"\"noopener noreferrer\" > formattazione data e ora </a>"
+"Controlla il formato della data per i metadati della data. <a href=\"http://"
+"codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel="
+"\"noopener noreferrer\"> Data e ora di formattazione </a>"
 
 #: includes/options/colors.php:27
 msgid "Colors"
@@ -10382,6 +10567,9 @@ msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab are only for the "
 "contact form that displays on the \"Contact\" page template."
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> le opzioni in questa scheda sono solo "
+"per il modulo di contatto che viene visualizzato nel modello di pagina "
+"\"Contatti\"."
 
 #: includes/options/contact.php:53
 msgid ""
@@ -10441,21 +10629,23 @@ msgstr ""
 
 #: includes/options/contact.php:107
 msgid "ReCaptcha Version"
-msgstr ""
+msgstr "Versione ReCaptcha"
 
 #: includes/options/contact.php:108
 msgid ""
 "Set the ReCaptcha version you want to use and make sure your keys below "
 "match the set version."
 msgstr ""
+"Impostare la versione di ReCaptcha che si desidera utilizzare e assicurarsi "
+"che le chiavi seguenti corrispondano alla versione impostata."
 
 #: includes/options/contact.php:113
 msgid "V2"
-msgstr ""
+msgstr "V2"
 
 #: includes/options/contact.php:114
 msgid "V3"
-msgstr ""
+msgstr "V3"
 
 # @ Avada
 #: includes/options/contact.php:119
@@ -10492,17 +10682,20 @@ msgstr "Controlla la combinazione di colori recaptcha."
 
 #: includes/options/contact.php:156
 msgid "ReCaptcha Security Score"
-msgstr ""
+msgstr "Punteggio di sicurezza ReCaptcha"
 
 #: includes/options/contact.php:157
 msgid ""
 "Set a threshold score that must be met by the ReCaptcha response. The higher "
 "the score the harder it becomes for bots, but also false positives increase."
 msgstr ""
+"Impostare un punteggio di soglia che deve essere soddisfatto dalla risposta "
+"ReCaptcha. Più alto è il punteggio, più diventa difficile per i robot, ma "
+"aumentano anche i falsi positivi."
 
 #: includes/options/contact.php:176
 msgid "ReCaptcha Badge Position"
-msgstr ""
+msgstr "Posizione del badge ReCaptcha"
 
 #: includes/options/contact.php:177
 msgid ""
@@ -10510,18 +10703,21 @@ msgid ""
 "strong> Google's Terms and Privacy information needs to be displayed on the "
 "contact form."
 msgstr ""
+"Imposta dove e se visualizzare il badge ReCaptcha. <strong> NOTA: </strong> "
+"i Termini e le informazioni sulla privacy di Google devono essere "
+"visualizzati nel modulo di contatto."
 
 #: includes/options/contact.php:182
 msgid "Inline"
-msgstr ""
+msgstr "Linea"
 
 #: includes/options/contact.php:183
 msgid "Bottom Left"
-msgstr ""
+msgstr "Basso a sinistra"
 
 #: includes/options/contact.php:184
 msgid "Bottom Right"
-msgstr ""
+msgstr "Basso a destra"
 
 # @ Avada
 #: includes/options/contact.php:199 includes/options/contact.php:202
@@ -10578,12 +10774,13 @@ msgid ""
 "used for free regardless of map loads. For more information please see the "
 "<a href=\"%s\" target=\"_blank\">Google Maps Users Guide</a>."
 msgstr ""
-"Seleziona il tipo di API Google che dovrebbe essere utilizzato per caricare "
-"la mappa. L'API JavaScript consente di più opzioni e styling personalizzato, "
-"ma potrebbe essere addebitato da Google a seconda dei carichi di mappa, "
-"mentre l'API Embed può essere utilizzato gratuitamente indipendentemente dai "
-"carichi di mappa. Per ulteriori informazioni, vedere < a href = \" %s\" "
-"target = \"_ blank\" > Google Maps Users Guide </a>."
+"Seleziona il tipo di API di Google da utilizzare per caricare la tua mappa. "
+"L'API JavaScript consente più opzioni e uno stile personalizzato, ma "
+"potrebbe essere addebitata da Google a seconda del caricamento della mappa, "
+"mentre l'API di incorporamento può essere utilizzata gratuitamente "
+"indipendentemente dal caricamento della mappa. Per ulteriori informazioni, "
+"consultare la <a href=\"%s\" target=\"_blank\"> Guida dell'utente di Google "
+"Maps </a>."
 
 #: includes/options/contact.php:256
 msgid "JS API"
@@ -10604,6 +10801,11 @@ msgid ""
 "York Ave, Brooklyn, Kings, New York 11203. If the location is off, please "
 "try to use long/lat coordinates. ex: 12.381068,-1.492711."
 msgstr ""
+"Aggiungi l'indirizzo della posizione che desideri visualizzare. Lasciare "
+"vuoto, se non si desidera visualizzare una mappa nella pagina dei contatti. "
+"Esempio di indirizzo: 775 New York Ave, Brooklyn, Kings, New York 11203. Se "
+"la posizione è disattivata, provare a utilizzare le coordinate long / lat. "
+"ex: 12.381068, -1.492711."
 
 #: includes/options/contact.php:277
 msgid "Map Type"
@@ -10635,6 +10837,13 @@ msgid ""
 "latlng=12.381068,-1.492711. For multiple addresses, separate addresses by "
 "using the | symbol. ex: Address 1|Address 2|Address 3."
 msgstr ""
+"Aggiungi l'indirizzo alla posizione che desideri visualizzare. Lasciare "
+"vuoto, se non si desidera visualizzare una mappa nella pagina dei contatti. "
+"Esempio di indirizzo singolo: 775 New York Ave, Brooklyn, Kings, New York "
+"11203. Se la posizione è disattivata, prova a utilizzare le coordinate "
+"long / lat con latlng =. es: latlng = 12.381068, -1.492711. Per più "
+"indirizzi, separare gli indirizzi usando | simbolo. es: indirizzo 1 | "
+"indirizzo 2 | indirizzo 3."
 
 # @ Avada
 #: includes/options/contact.php:316
@@ -10688,6 +10897,9 @@ msgid ""
 "Choose the zoom level for the map. 0 corresponds to a map of the earth fully "
 "zoomed out, and larger zoom levels zoom in at a higher resolution."
 msgstr ""
+"Scegli il livello di zoom per la mappa. 0 corrisponde a una mappa della "
+"terra completamente ridotta e livelli di zoom maggiori ingrandiscono a una "
+"risoluzione più elevata."
 
 #: includes/options/contact.php:396
 msgid "Address Pin"
@@ -10705,6 +10917,8 @@ msgstr "Indirizzo pin Animation"
 #: includes/options/contact.php:417
 msgid "Turn on to enable address pin animation when the map first loads."
 msgstr ""
+"Attiva per abilitare l'animazione del pin dell'indirizzo al primo "
+"caricamento della mappa."
 
 #: includes/options/contact.php:436
 msgid "Map Popup On Click"
@@ -10728,6 +10942,10 @@ msgid ""
 "scroll to zoom. If set to no, zooming through two-finger movements "
 "(cooperative gesture handling) will be enabled."
 msgstr ""
+"Attiva per abilitare lo zoom usando la rotellina del mouse. Utilizzare il "
+"tasto Cmd / Ctrl + scorrere per ingrandire. Se impostato su no, sarà "
+"attivato lo zoom attraverso i movimenti con due dita (gestione gestionale "
+"cooperativa)."
 
 #: includes/options/contact.php:476
 msgid "Map Scale"
@@ -10744,6 +10962,8 @@ msgstr "Mappa zoom & pan di controllo Icone"
 #: includes/options/contact.php:497
 msgid "Turn on to display the google map zoom control and pan control icons."
 msgstr ""
+"Attiva per visualizzare le icone di controllo zoom e controllo panoramica di "
+"google map."
 
 #: includes/options/contact.php:518
 msgid "Google Map Styling"
@@ -11154,11 +11374,11 @@ msgstr ""
 
 #: includes/options/events_calendar.php:165
 msgid "Events Single Post Meta Layout"
-msgstr ""
+msgstr "Meta layout singolo post eventi"
 
 #: includes/options/events_calendar.php:166
 msgid "Sets the layout of the single events meta data."
-msgstr ""
+msgstr "Imposta il layout dei metadati dei singoli eventi."
 
 # @ Avada
 #: includes/options/events_calendar.php:170
@@ -11167,7 +11387,7 @@ msgstr "Barra laterale"
 
 #: includes/options/events_calendar.php:171
 msgid "Below Content"
-msgstr ""
+msgstr "Sotto il contenuto"
 
 #: includes/options/events_calendar.php:176
 msgid "Events Single Sidebar Layout"
@@ -11209,96 +11429,118 @@ msgstr ""
 
 #: includes/options/events_calendar.php:212
 msgid "Events Single Post Sidebar / Meta Content Styling"
-msgstr ""
+msgstr "Eventi Barra laterale singolo post / Stile contenuto meta"
 
 #: includes/options/events_calendar.php:218
 msgid "Events Sidebar / Meta Content Background Color"
-msgstr ""
+msgstr "Barra laterale Eventi / Meta Colore di sfondo"
 
 #: includes/options/events_calendar.php:219
 msgid ""
 "Controls the background color of the single event post sidebar(s) / meta "
 "content."
 msgstr ""
+"Controlla il colore di sfondo della / e barra / e laterale / i del post di "
+"singolo evento."
 
 #: includes/options/events_calendar.php:225
 msgid "Events Sidebar / Meta Content Padding"
-msgstr ""
+msgstr "Riempimento sidebar eventi / meta contenuti"
 
 #: includes/options/events_calendar.php:226
 msgid ""
 "Controls the padding for the single event post sidebar(s) / meta content."
 msgstr ""
+"Controlla il riempimento per la sidebar (i) singola / e per i contenuti di "
+"un singolo evento."
 
 #: includes/options/events_calendar.php:233
 msgid "Events Sidebar Widget / Meta Content Heading Font Size"
 msgstr ""
+"Widget della barra laterale Eventi / Meta Contenuto Dimensione carattere "
+"carattere"
 
 #: includes/options/events_calendar.php:234
 msgid ""
 "Controls the size of the sidebar widget / meta content heading for single "
 "event posts."
 msgstr ""
+"Controlla la dimensione del widget della barra laterale / intestazione del "
+"contenuto meta per i singoli post di eventi."
 
 #: includes/options/events_calendar.php:240
 msgid "Events Sidebar Widget / Meta Content Title Background Color"
-msgstr ""
+msgstr "Eventi Barra laterale Widget / Meta Contenuto Colore sfondo"
 
 #: includes/options/events_calendar.php:241
 msgid ""
 "Controls the background color of the sidebar widget / meta content title for "
 "single event posts."
 msgstr ""
+"Controlla il colore di sfondo del widget della barra laterale / titolo del "
+"contenuto meta per i singoli post di eventi."
 
 #: includes/options/events_calendar.php:247
 msgid "Events Sidebar Widget / Meta Content Headings Color"
-msgstr ""
+msgstr "Colore Intestazione Widget / Meta contenuti Eventi Sidebar"
 
 #: includes/options/events_calendar.php:248
 msgid ""
 "Controls the color of the sidebar widget / meta content heading for single "
 "event posts."
 msgstr ""
+"Controlla il colore dell'intestazione del widget / meta-contenuto della "
+"barra laterale per i singoli post di eventi."
 
 #: includes/options/events_calendar.php:254
 msgid "Events Sidebar / Meta Content Text Font Size"
 msgstr ""
+"Dimensione del carattere del testo della barra laterale / meta del contenuto "
+"degli eventi"
 
 #: includes/options/events_calendar.php:255
 msgid ""
 "Controls the size of the text in the single event post sidebar / meta "
 "content."
 msgstr ""
+"Controlla la dimensione del testo nella barra laterale / meta content del "
+"singolo evento."
 
 #: includes/options/events_calendar.php:266
 msgid "Events Sidebar / Meta Content Text Color"
-msgstr ""
+msgstr "Colore del testo della barra laterale degli eventi / meta"
 
 #: includes/options/events_calendar.php:267
 msgid ""
 "Controls the color of the text in the single event post sidebar / meta "
 "content."
 msgstr ""
+"Controls the color of the text in the single event post sidebar / meta "
+"content."
 
 #: includes/options/events_calendar.php:273
 msgid "Events Sidebar / Meta Content Link Color"
-msgstr ""
+msgstr "Barra degli eventi / Colore link contenuto meta"
 
 #: includes/options/events_calendar.php:274
 msgid ""
 "Controls the color of the link text in the single event post sidebar / meta "
 "content."
 msgstr ""
+"Controls the color of the link text in the single event post sidebar / meta "
+"content."
 
 #: includes/options/events_calendar.php:280
 msgid "Events Sidebar / Meta Content Divider Color"
-msgstr ""
+msgstr "Barra degli eventi / Colore link contenuto meta"
 
 #: includes/options/events_calendar.php:281
 msgid ""
 "Controls the color of the dividers in the single event post sidebar / meta "
 "content."
 msgstr ""
+"Controlla il colore dei divisori nella barra laterale / meta content del "
+"singolo evento."
 
 # @ Avada
 #: includes/options/extra.php:27
@@ -11440,41 +11682,47 @@ msgstr ""
 
 #: includes/options/extra.php:129
 msgid "ToTop Button Position"
-msgstr ""
+msgstr "Posizione pulsante superiore"
 
 #: includes/options/extra.php:130
 msgid ""
 "Controls the position of the ToTop button. On mobiles also non-floating "
 "layouts will be floating."
 msgstr ""
+"Controlla la posizione del pulsante ToTop. Sui dispositivi mobili anche i "
+"layout non mobili saranno mobili."
 
 #: includes/options/extra.php:136
 msgid "Left Floating"
-msgstr ""
+msgstr "Galleggiante a sinistra"
 
 #: includes/options/extra.php:138
 msgid "Right Floating"
-msgstr ""
+msgstr "Galleggiante a destra"
 
 #: includes/options/extra.php:142
 msgid "ToTop Border Radius"
-msgstr ""
+msgstr "Radius pulsante superiore"
 
 #: includes/options/extra.php:143
 msgid ""
 "Controls the border radius of the ToTop button. For non-floating layouts the "
 "border radius will only apply to the upper corners."
 msgstr ""
+"Controlla il raggio del bordo del pulsante ToTop. Per i layout non mobili il "
+"raggio del bordo si applica solo agli angoli superiori."
 
 #: includes/options/extra.php:154
 msgid "ToTop Show on Scroll Down Only"
-msgstr ""
+msgstr "Mostra solo Scorri verso il basso"
 
 #: includes/options/extra.php:155
 msgid ""
 "Turn on to show the ToTop button on scroll down only. Otherwise it will "
 "always show if the page is scrolled."
 msgstr ""
+"Attiva per mostrare il pulsante ToTop solo scorrere verso il basso. "
+"Altrimenti mostrerà sempre se la pagina viene fatta scorrere."
 
 # @ Avada
 #: includes/options/extra.php:163
@@ -11749,27 +11997,30 @@ msgstr ""
 
 #: includes/options/extra.php:466
 msgid "Pagination Sizing"
-msgstr ""
+msgstr "Dimensionamento dell'impaginazione"
 
 #: includes/options/extra.php:467
 msgid "Set on which dimension the pagination box size should be based."
 msgstr ""
+"Impostare su quale dimensione deve essere basata la dimensione della casella "
+"di paginazione."
 
 #: includes/options/extra.php:471
 msgid "Width/Height Based"
-msgstr ""
+msgstr "Basato su larghezza / altezza"
 
 #: includes/options/extra.php:472
 msgid "Padding Based"
-msgstr ""
+msgstr "Imbottito"
 
 #: includes/options/extra.php:476
 msgid "Pagination Box Width/Height"
-msgstr ""
+msgstr "Larghezza / altezza della scatola di impaginazione"
 
 #: includes/options/extra.php:477
 msgid "Controls the width and height of the displayed page links."
 msgstr ""
+"Controlla la larghezza e l'altezza dei collegamenti alla pagina visualizzati."
 
 #: includes/options/extra.php:495
 msgid "Pagination Box Padding"
@@ -11777,25 +12028,30 @@ msgstr "Impaginazione scatola riempimento"
 
 #: includes/options/extra.php:496
 msgid "Controls the padding inside the pagination boxes."
-msgstr ""
+msgstr "Controlla l'imbottitura all'interno delle caselle di paginazione."
 
 #: includes/options/extra.php:513
 msgid "Pagination Border Width"
-msgstr ""
+msgstr "Larghezza bordo impaginazione"
 
 #: includes/options/extra.php:514
 msgid "Controls the border width of the displayed page links. In Pixels."
 msgstr ""
+"Controlla la larghezza del bordo dei collegamenti alla pagina visualizzati. "
+"In pixel."
 
 #: includes/options/extra.php:525
 msgid "Pagination Border Radius"
-msgstr ""
+msgstr "Raggio del bordo di impaginazione"
 
 #: includes/options/extra.php:526
 msgid ""
 "Controls the border radius of the displayed page links. Values of half the "
 "overall width or higher will yield circular links."
 msgstr ""
+"Controlla il raggio del bordo dei collegamenti alla pagina visualizzati. I "
+"valori della metà della larghezza complessiva o superiore produrranno "
+"collegamenti circolari."
 
 #: includes/options/extra.php:537
 msgid "Pagination Text Display"
@@ -11812,26 +12068,30 @@ msgstr "Dimensione font d'impaginazione"
 
 #: includes/options/extra.php:545
 msgid "Controls the size of the pagination text."
-msgstr "Controlla la dimensione del testo dell'impaginazione."
+msgstr "Controlla la dimensione del testo di impaginazione."
 
 #: includes/options/extra.php:551
 msgid "Pagination Range"
-msgstr ""
+msgstr "Gamma di impaginazione"
 
 #: includes/options/extra.php:552
 msgid ""
 "Controls the number of page links displayed left and right of current page."
 msgstr ""
+"Controlla il numero di collegamenti alla pagina visualizzati a sinistra ea "
+"destra della pagina corrente."
 
 #: includes/options/extra.php:563
 msgid "Pagination Start / End Range"
-msgstr ""
+msgstr "Intervallo inizio / fine impaginazione"
 
 #: includes/options/extra.php:564
 msgid ""
 "Controls the number of page links displayed at the start and at the end of "
 "pagination."
 msgstr ""
+"Controlla il numero di collegamenti alla pagina visualizzati all'inizio e "
+"alla fine dell'impaginazione."
 
 #: includes/options/extra.php:577
 msgid "Forms Styling"
@@ -11902,11 +12162,11 @@ msgstr "Seleziona il colore del bordo dei campi modulo."
 
 #: includes/options/extra.php:644
 msgid "Form Border Color On Focus"
-msgstr ""
+msgstr "Colore bordo forma a fuoco"
 
 #: includes/options/extra.php:645
 msgid "Controls the border color of the form fields when they have focus."
-msgstr ""
+msgstr "Controlla il colore del bordo dei campi del modulo quando sono attivi."
 
 #: includes/options/extra.php:658
 msgid "Form Border Radius"
@@ -12186,7 +12446,7 @@ msgstr ""
 #: includes/options/footer.php:132
 msgid "Copyright %1$s Avada | All Rights Reserved | Powered by %2$s | %3$s"
 msgstr ""
-"Copyright%1$s Avada | Tutti i diritti riservati | Alimentato da%2$s | %3$s"
+"Copyright%1$s Avada | Tutti i diritti riservati | Alimentato da %2$s | %3$s"
 
 #: includes/options/footer.php:146
 msgid "Footer Background Image"
@@ -12700,7 +12960,7 @@ msgstr "Larghezza intestazione per la posizione sinistra/destra"
 
 #: includes/options/header.php:480
 msgid "Controls the width of the left or right side header."
-msgstr ""
+msgstr "Controlla la larghezza dell'intestazione laterale sinistra o destra."
 
 #: includes/options/header.php:498
 msgid "Header Padding"
@@ -12872,13 +13132,16 @@ msgstr "Menu + Area per logo"
 
 #: includes/options/header.php:785
 msgid "Sticky Header Shadow"
-msgstr ""
+msgstr "Ombra dell'intestazione sticky"
 
 #: includes/options/header.php:786
 msgid ""
 "Turn on to display a sticky header drop shadow. This option is incompatible "
 "with Internet Explorer versions older than IE11."
 msgstr ""
+"Attiva per visualizzare un'ombra discendente dell'intestazione sticky. "
+"Questa opzione non è compatibile con le versioni di Internet Explorer "
+"precedenti a IE11."
 
 #: includes/options/header.php:799
 msgid "Sticky Header Background Color"
@@ -13004,6 +13267,9 @@ msgid ""
 "width, 100% width page template or 100% width post option. This does not "
 "affect Fusion Builder containers."
 msgstr ""
+"Controlla il riempimento sinistro e destro per il contenuto della pagina "
+"quando si utilizza l'opzione 100% larghezza sito, larghezza pagina 100% o "
+"larghezza post 100%. Ciò non influisce sui contenitori Fusion Builder."
 
 #: includes/options/layout.php:150
 msgid "Single Sidebar Layouts"
@@ -13437,6 +13703,13 @@ msgid ""
 "<strong>IMPORTANT:</strong> Arrow & Background style can require "
 "configuration of other options depending on desired effect."
 msgstr ""
+"Controlla lo stile di evidenziazione dei collegamenti al menu principale e "
+"influisce anche sull'aspetto dei menu a discesa. Lo stile freccia non può "
+"funzionare con uno sfondo di intestazione trasparente. I punti salienti "
+"della barra verranno visualizzati verticalmente sui layout dell'intestazione "
+"laterale. <strong> IMPORTANTE: </strong> lo stile Freccia e sfondo può "
+"richiedere la configurazione di altre opzioni a seconda dell'effetto "
+"desiderato."
 
 #: includes/options/menu.php:83
 msgid "See this post for more information"
@@ -13444,11 +13717,11 @@ msgstr "Vedi questo post per maggiori informazioni"
 
 #: includes/options/menu.php:87
 msgid "Top Bar"
-msgstr ""
+msgstr "Barra superiore"
 
 #: includes/options/menu.php:88
 msgid "Bottom Bar"
-msgstr ""
+msgstr "Barra Inferiore"
 
 #: includes/options/menu.php:89
 msgid "Arrow"
@@ -13456,7 +13729,7 @@ msgstr "Freccia"
 
 #: includes/options/menu.php:91
 msgid "Color Only"
-msgstr ""
+msgstr "Solo Colore"
 
 #: includes/options/menu.php:109
 msgid "Main Menu Highlight Background Color"
@@ -13514,11 +13787,11 @@ msgstr "Attiva per visualizzare un'ombreggiatura nei menu a discesa."
 
 #: includes/options/menu.php:291
 msgid "Main Menu Dropdown / Mega Menu Animation"
-msgstr ""
+msgstr "Menu principale menu a discesa / Mega menu animazione"
 
 #: includes/options/menu.php:292
 msgid "Controls the animation type for all sub-menus."
-msgstr ""
+msgstr "Controlla il tipo di animazione per tutti i sottomenu."
 
 #: includes/options/menu.php:315
 msgid "Main Menu Dropdown Top Border Size"
@@ -13598,6 +13871,8 @@ msgstr "Raggio Etichetta Evidenziazione Menu"
 #: includes/options/menu.php:480
 msgid "Controls the border radius of all your menu highlight labels."
 msgstr ""
+"Controlla il raggio del bordo di tutte le etichette di evidenziazione del "
+"menu."
 
 #: includes/options/menu.php:486
 msgid "Main Menu Dropdown Background Color"
@@ -13652,13 +13927,15 @@ msgstr "Queste impostazioni gestiscono la tipografia per tutti i menu."
 
 #: includes/options/menu.php:593
 msgid "Main Menu Font Hover/Active Color"
-msgstr ""
+msgstr "Menu principale Carattere al passaggio del mouse / Colore attivo"
 
 #: includes/options/menu.php:594
 msgid ""
 "Controls the color for main menu text hover and active states, highlight bar "
 "and dropdown border."
 msgstr ""
+"Controlla il colore per il passaggio del testo del menu principale e gli "
+"stati attivi, la barra di evidenziazione e il bordo a discesa."
 
 #: includes/options/menu.php:600
 msgid "Main Menu Text Align"
@@ -13756,7 +14033,7 @@ msgstr "Colore Sfondo Menu Hamburger"
 
 #: includes/options/menu.php:828
 msgid "Controls the background color of the flyout menu"
-msgstr "Seleziona il colore di sfondo del menu hamburger."
+msgstr "Seleziona il colore di sfondo del menu hamburger"
 
 #: includes/options/menu.php:852
 msgid "Flyout Menu Direction"
@@ -13768,11 +14045,11 @@ msgstr "Gestisci la direzione da cui parte il menu a hamburger."
 
 #: includes/options/menu.php:884
 msgid "Flyout Menu Item Padding"
-msgstr ""
+msgstr "Riempimento elemento menu a comparsa"
 
 #: includes/options/menu.php:885
 msgid "Controls the padding between flyout menu items."
-msgstr ""
+msgstr "Controlla il riempimento tra le voci del menu a comparsa."
 
 #: includes/options/menu.php:916
 msgid "Secondary Top Menu"
@@ -13892,7 +14169,7 @@ msgstr ""
 "<strong> Nota importante: </strong> Attivare la modalità reattiva. I menu "
 "mobili sono disponibili solo quando si utilizza la modalità reattiva. Per "
 "abilitarlo Vai alla sezione \"reattivo\" e impostare l'opzione \"design "
-"reattivo\" su on."
+"reattivo\" su ON."
 
 #: includes/options/menu.php:1373
 msgid ""
@@ -13901,6 +14178,11 @@ msgid ""
 "using Header Layouts #1-5 or 7. The rest of the options for Header Layout #6 "
 "are on the Flyout Menu and Main Menu tab."
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> a causa del design del layout "
+"dell'intestazione n. 6, qui sono disponibili solo alcune opzioni. Altre "
+"opzioni sono disponibili quando si utilizzano Layout intestazione n. 1-5 o "
+"7. Le altre opzioni per Layout intestazione n. 6 si trovano nel menu a "
+"comparsa e nella scheda Menu principale."
 
 # @ Avada
 #: includes/options/menu.php:1390
@@ -13927,7 +14209,7 @@ msgstr "Moderno"
 
 #: includes/options/menu.php:1399
 msgid "Flyout"
-msgstr "Flyout"
+msgstr "A comparsa"
 
 # @ Avada
 #: includes/options/menu.php:1425
@@ -13969,11 +14251,12 @@ msgstr "Attivare per visualizzare l'icona di ricerca/campo nel menu mobile."
 
 #: includes/options/menu.php:1569
 msgid "Mobile Menu Sub-Menu Indicator"
-msgstr ""
+msgstr "Indicatore del sottomenu del menu mobile"
 
 #: includes/options/menu.php:1570
 msgid "Turn on to display the mobile menu sub-menu indicator: \"-\"."
 msgstr ""
+"Attivare per visualizzare l'indicatore del sottomenu del menu mobile: \"-\"."
 
 # @ Avada
 #: includes/options/menu.php:1589
@@ -13983,12 +14266,14 @@ msgstr ""
 
 #: includes/options/menu.php:1602
 msgid "Mobile Archive Header Background Color"
-msgstr ""
+msgstr "Colore di sfondo dell'intestazione dell'archivio mobile"
 
 #: includes/options/menu.php:1603
 msgid ""
 "Controls the background color of the archive page header on mobile devices."
 msgstr ""
+"Controlla il colore di sfondo dell'intestazione della pagina di archivio sui "
+"dispositivi mobili."
 
 # @ Avada
 #: includes/options/menu.php:1616
@@ -14093,6 +14378,9 @@ msgid ""
 "Controls the max width of the mega menu. On boxed side header layouts, "
 "\"Viewport Width\" will match \"Site Width\"."
 msgstr ""
+"Controlla la larghezza massima del mega menu. Nei layout di intestazione "
+"laterale inscatolata, \"Larghezza finestra\" corrisponderà a \"Larghezza sito"
+"\"."
 
 #. Template Name of the plugin/theme
 msgid "100% Width"
@@ -14100,7 +14388,7 @@ msgstr "100% Larghezza"
 
 #: includes/options/menu.php:1955
 msgid "Custom Width"
-msgstr ""
+msgstr "Larghezza Personalizzata"
 
 #: includes/options/menu.php:1972
 msgid "Controls the max width of the mega menu."
@@ -14108,13 +14396,15 @@ msgstr "Controlla la larghezza massima del menu mega."
 
 #: includes/options/menu.php:2000
 msgid "Mega Menu Interior Content Width"
-msgstr ""
+msgstr "Menu Mega Larghezza contenuto interno"
 
 #: includes/options/menu.php:2001
 msgid ""
 "For full width mega menus select if the interior menu content is contained "
 "to site width or 100% width."
 msgstr ""
+"Per i mega menu a larghezza intera selezionare se il contenuto del menu "
+"interno è contenuto alla larghezza del sito o al 100%."
 
 # @ Avada
 #: includes/options/menu.php:2033
@@ -14179,7 +14469,7 @@ msgstr "Dimensione dell'icona del menu principale"
 
 #: includes/options/menu.php:2122
 msgid "Controls the size of the top-level menu icons."
-msgstr ""
+msgstr "Controlla la dimensione delle icone del menu di livello superiore."
 
 #: includes/options/menu.php:2133
 msgid "Main Menu Icon Color"
@@ -14188,6 +14478,7 @@ msgstr "Colore principale dell'icona del menu"
 #: includes/options/menu.php:2134
 msgid "Controls the color of the top-level main menu icons."
 msgstr ""
+"Controlla il colore delle icone del menu principale di livello superiore."
 
 #: includes/options/menu.php:2140
 msgid "Main Menu Icon Hover Color"
@@ -14196,6 +14487,8 @@ msgstr "Icona del menu principale colore hover"
 #: includes/options/menu.php:2141
 msgid "Controls the hover color of the top-level main menu icons."
 msgstr ""
+"Controlla il colore al passaggio del mouse delle icone del menu principale "
+"di livello superiore."
 
 #: includes/options/menu.php:2147
 msgid "Mega Menu Thumbnail Size"
@@ -14206,6 +14499,9 @@ msgid ""
 "Controls the width and height of the top-level mega menu thumbnails. Use "
 "\"auto\" for automatic resizing if you added either width or height."
 msgstr ""
+"Controlla la larghezza e l'altezza delle miniature del menu principale di "
+"livello superiore. Usa \"auto\" per il ridimensionamento automatico se hai "
+"aggiunto larghezza o altezza."
 
 #: includes/options/page_title_bar.php:43
 msgid "Controls how the page title bar displays."
@@ -14214,6 +14510,7 @@ msgstr "Seleziona come il titolo della pagina viene visualizzato."
 #: includes/options/page_title_bar.php:55
 msgid "Turn on to display the page title bar headings."
 msgstr ""
+"Attiva per visualizzare le intestazioni della barra del titolo della pagina."
 
 #: includes/options/page_title_bar.php:68
 msgid "Page Title Bar Styling"
@@ -14224,6 +14521,9 @@ msgid ""
 "Turn on to have the page title bar area display at 100% width according to "
 "the viewport size. Turn off to follow site width."
 msgstr ""
+"Attivare per visualizzare l'area della barra del titolo della pagina con una "
+"larghezza del 100% in base alle dimensioni della finestra. Disattiva per "
+"seguire la larghezza del sito."
 
 #: includes/options/page_title_bar.php:90
 msgid "Controls the height of the page title bar on desktop."
@@ -14244,22 +14544,32 @@ msgstr "Seleziona i colori del bordo della barra del titolo della pagina."
 #: includes/options/page_title_bar.php:156
 msgid "Controls the font size for the page title bar main heading."
 msgstr ""
+"Controlla la dimensione del carattere per l'intestazione principale della "
+"barra del titolo della pagina."
 
 #: includes/options/page_title_bar.php:178
 msgid "Controls the line height for the page title bar main heading."
 msgstr ""
+"Controlla l'altezza della linea per l'intestazione principale della barra "
+"del titolo della pagina."
 
 #: includes/options/page_title_bar.php:200
 msgid "Controls the text color of the page title bar main heading."
 msgstr ""
+"Controlla il colore del testo dell'intestazione principale della barra del "
+"titolo della pagina."
 
 #: includes/options/page_title_bar.php:219
 msgid "Controls the font size for the page titlebar subheading."
 msgstr ""
+"Controlla la dimensione del carattere per il sottotitolo della barra del "
+"titolo della pagina."
 
 #: includes/options/page_title_bar.php:241
 msgid "Controls the text color of the page title bar subheading."
 msgstr ""
+"Controlla il colore del testo del sottotitolo della barra del titolo della "
+"pagina."
 
 #: includes/options/page_title_bar.php:260
 msgid ""
@@ -14322,7 +14632,7 @@ msgstr "Attivare per avere il testo del titolo della pagina Fade su Scroll."
 
 #: includes/options/page_title_bar.php:453
 msgid "Breadcrumbs / Search Bar"
-msgstr ""
+msgstr "Breadcrumbs / Barra di Ricerca"
 
 #: includes/options/page_title_bar.php:460
 msgid ""
@@ -14331,10 +14641,15 @@ msgid ""
 "having a fusion page option dependency. Click the link in the option "
 "description to learn more. "
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> la barra del titolo della pagina è "
+"impostata su \"Nascondi\". Tuttavia, ci sono opzioni breadcrumb di seguito "
+"che sono ancora visibili a causa della dipendenza dall'opzione della pagina "
+"di fusione. Fare clic sul collegamento nella descrizione dell'opzione per "
+"saperne di più. "
 
 #: includes/options/page_title_bar.php:472
 msgid "Breadcrumbs / Search Bar Content Display"
-msgstr ""
+msgstr "Pangrattato / Visualizzazione contenuto barra di ricerca"
 
 #: includes/options/page_title_bar.php:473
 msgid "Controls what displays in the breadcrumbs area. "
@@ -14411,19 +14726,21 @@ msgstr ""
 
 #: includes/options/performance.php:54
 msgid "Performance"
-msgstr ""
+msgstr "Prestazioni"
 
 #: includes/options/performance.php:61
 msgid "Enable Lazy Loading"
-msgstr ""
+msgstr "Abilita caricamento lento"
 
 #: includes/options/performance.php:62
 msgid "Enable lazy loading for your website's images to improve performance."
 msgstr ""
+"Abilita il caricamento lento per le immagini del tuo sito Web per migliorare "
+"le prestazioni."
 
 #: includes/options/performance.php:68
 msgid "Font Face Rendering"
-msgstr ""
+msgstr "Rendering front-end dei font"
 
 #: includes/options/performance.php:69
 msgid ""
@@ -14431,24 +14748,29 @@ msgid ""
 "(FOUT) or \"Block\" for clean rendering but longer wait time until first "
 "paint."
 msgstr ""
+"Scegli \"Scambia\" per un rendering più veloce con possibile flash di testo "
+"non modificato (FOUT) o \"Blocco\" per un rendering pulito ma tempi di "
+"attesa più lunghi fino alla prima pittura."
 
 #: includes/options/performance.php:74
 msgid "Block"
-msgstr ""
+msgstr "Blocco"
 
 #: includes/options/performance.php:75
 msgid "Swap"
-msgstr ""
+msgstr "Scambiare"
 
 #: includes/options/performance.php:79
 msgid "Emojis script"
-msgstr ""
+msgstr "Script Emoji"
 
 #: includes/options/performance.php:80
 msgid ""
 "If you don't use emojis you can improve performance by removing WordPress' "
 "emojis script."
 msgstr ""
+"Se non usi gli emoji puoi migliorare le prestazioni rimuovendo lo script "
+"degli emoji di WordPress."
 
 #: includes/options/performance.php:90
 msgid "Dynamic CSS & JS"
@@ -14569,7 +14891,7 @@ msgstr ""
 
 #: includes/options/performance.php:145
 msgid "Progressive Web App"
-msgstr ""
+msgstr "App Web progressiva"
 
 #. translators: URL for the plugins page.
 #: includes/options/performance.php:154
@@ -14579,6 +14901,10 @@ msgid ""
 "\"%s\">visit the Avada Plugins page</a> to install and activate the plugin "
 "and then refresh Theme Options to edit the options."
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> per utilizzare la funzione Avada PWA è "
+"necessario installare e attivare l'ultima versione del plug-in PWA. <a href="
+"\"%s\"> visita la pagina Plugin Avada </a> per installare e attivare il plug-"
+"in, quindi aggiorna le Opzioni del tema per modificare le opzioni."
 
 #: includes/options/performance.php:162
 msgid ""
@@ -14591,20 +14917,31 @@ msgid ""
 "workbox-strategies\" target=\"_blank\" rel=\"nofollow\">read this article</"
 "a>."
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> per utilizzare la funzione PWA di Avada "
+"il tuo sito deve utilizzare SSL (HTTPS). Per ulteriori informazioni sulle "
+"opzioni in questa sezione, consultare la nostra <a href=\"https://theme-"
+"fusion.com/documentation/avada/options/avada-progressive-web-app/\" target="
+"\"_blank\"> PWA documentazione </a>. Per ulteriori informazioni sulle "
+"strategie di memorizzazione nella cache e sul loro utilizzo in generale, "
+"puoi <a href = \"https://developers.google.com/web/tools/workbox/modules/"
+"workbox-strategies\" target = \"_ blank\" rel = \"nofollow\" > leggi questo "
+"articolo </a>."
 
 #: includes/options/performance.php:167
 msgid "Enable Progressive Web App"
-msgstr ""
+msgstr "Abilita l'app Web progressiva"
 
 #: includes/options/performance.php:168
 msgid ""
 "Enable this option if you want to enable the Progressive Web App feature and "
 "options on your website."
 msgstr ""
+"Abilitare questa opzione se si desidera abilitare la funzione e le opzioni "
+"dell'app Web progressiva sul proprio sito Web."
 
 #: includes/options/performance.php:174
 msgid "Cache-First strategy file types"
-msgstr ""
+msgstr "Tipi di file di strategia Cache-First"
 
 #: includes/options/performance.php:175
 msgid ""
@@ -14612,10 +14949,14 @@ msgid ""
 "requests will use the cached assets. Use this for static assets that don't "
 "change like images and fonts."
 msgstr ""
+"I tipi di file aggiunti in questo elenco verranno memorizzati nella cache "
+"nel browser. Le richieste di pagine successive utilizzeranno le risorse "
+"memorizzate nella cache. Usalo per risorse statiche che non cambiano come "
+"immagini e caratteri."
 
 #: includes/options/performance.php:190
 msgid "Network-First strategy file types"
-msgstr ""
+msgstr "Tipi di file di strategia Network-First"
 
 #: includes/options/performance.php:191
 msgid ""
@@ -14625,10 +14966,16 @@ msgid ""
 "unreachable. If your site's content gets updated often we recommend you can "
 "use this for your content."
 msgstr ""
+"I tipi di file aggiunti in questo elenco verranno memorizzati nella cache "
+"nel browser. Le richieste di pagina successive tenteranno innanzitutto di "
+"ottenere una versione più recente di questi file dalla rete e di eseguire il "
+"fallback ai file memorizzati nella cache nel caso in cui la rete non sia "
+"raggiungibile. Se i contenuti del tuo sito vengono aggiornati spesso, ti "
+"consigliamo di utilizzarli per i tuoi contenuti."
 
 #: includes/options/performance.php:206
 msgid "Stale-While-Revalidating strategy file types"
-msgstr ""
+msgstr "Tipi di file di strategia obsoleti durante la convalida"
 
 #: includes/options/performance.php:207
 msgid ""
@@ -14637,20 +14984,27 @@ msgid ""
 "versions of the selected file types from the network. Use this for assets "
 "that may get updated but having their latest version is not critical."
 msgstr ""
+"Tutti i tipi di file aggiunti qui verranno offerti con una strategia cache-"
+"first e dopo che la pagina è stata caricata, le cache verranno aggiornate "
+"con le versioni più recenti dei tipi di file selezionati dalla rete. "
+"Utilizzalo per risorse che potrebbero essere aggiornate ma che non hanno una "
+"versione più recente."
 
 #: includes/options/performance.php:222
 msgid "App Splash Screen Logo"
-msgstr ""
+msgstr "Logo della schermata iniziale dell'app"
 
 #: includes/options/performance.php:223
 msgid ""
 "Logo displayed for your website at 512px x 512px when installing as an app. "
 "Logo image must be in PNG format."
 msgstr ""
+"Logo visualizzato per il tuo sito Web a 512 x 512 pixel durante "
+"l'installazione come app. L'immagine del logo deve essere in formato PNG."
 
 #: includes/options/performance.php:237
 msgid "App Display Mode"
-msgstr ""
+msgstr "Modalità di visualizzazione app"
 
 #: includes/options/performance.php:238
 msgid ""
@@ -14659,28 +15013,34 @@ msgid ""
 "developers.google.com/web/fundamentals/web-app-manifest/#display\" target="
 "\"_blank\">this document.</a>"
 msgstr ""
+"Se l'utente installa il tuo sito come app, seleziona come si comporterà "
+"l'app. Per ulteriori informazioni su queste opzioni, consultare <a href="
+"\"https://developers.google.com/web/fundamentals/web-app-manifest/#display\" "
+"target=\"_blank\"> questo documento. </a>"
 
 #: includes/options/performance.php:243
 msgid "Fullscreen"
-msgstr ""
+msgstr "Schermo Intero"
 
 #: includes/options/performance.php:244
 msgid "Standalone"
-msgstr ""
+msgstr "Indipendente"
 
 #: includes/options/performance.php:245
 msgid "Minimal UI"
-msgstr ""
+msgstr "UI minimale"
 
 #: includes/options/performance.php:277
 msgid "App Theme Color"
-msgstr ""
+msgstr "Colore del Tema dell'App"
 
 #: includes/options/performance.php:278
 msgid ""
 "Select a color that will be used for the header of your app, as well as the "
 "browser toolbar-color on mobile devices."
 msgstr ""
+"Seleziona un colore che verrà utilizzato per l'intestazione dell'app e il "
+"colore della barra degli strumenti del browser sui dispositivi mobili."
 
 #: includes/options/portfolio.php:34
 msgid "General Portfolio"
@@ -14705,11 +15065,11 @@ msgid ""
 "best with a standard 940px site width. Auto works best with larger site "
 "widths."
 msgstr ""
-"Seleziona se la dimensione dell'immagine di copertina è fissa (ritagliata) o "
-"automatica (immagine piena proporzionata) per gli elementi e le pagine di "
-"archivio del portfolio. IMPORTANTE: l'immagine fiss è migliore con una "
-"larghezza standard del sito a 940px. Auto funziona meglio con larghezze del "
-"sito più grandi."
+"Controlla se la dimensione dell'immagine in evidenza è fissa (ritagliata) o "
+"automatica (rapporto immagine intera) per le pagine di archivio del "
+"portfolio. <strong> IMPORTANTE: </strong> risolto funziona meglio con una "
+"larghezza del sito standard di 940 px. Auto funziona meglio con larghezze "
+"del sito maggiori."
 
 #: includes/options/portfolio.php:70
 msgid "Portfolio Archive Number of Columns"
@@ -14896,9 +15256,10 @@ msgid ""
 "break. This option changes the permalink when you use the permalink type as "
 "%postname%. Make sure to regenerate permalinks."
 msgstr ""
-"Il nome Slug non può essere lo stesso nome di un nome di pagina o il layout "
-"si romperà. Questa opzione modifica il permalink quando si utilizza il tipo "
-"di Permalink come% postname%. Assicurati di rigenerare Permalink."
+"Il nome dello slug non può avere lo stesso nome di un nome di pagina o il "
+"layout si interromperà. Questa opzione modifica il permalink quando si "
+"utilizza il tipo di permalink come% postname%. Assicurati di rigenerare i "
+"permalink."
 
 #: includes/options/portfolio.php:287
 msgid "Portfolio Single Post"
@@ -14984,6 +15345,8 @@ msgid ""
 "Turn on to open the single post page, project url and copyright url links in "
 "a new window."
 msgstr ""
+"Attiva per aprire la pagina del singolo post, i collegamenti URL progetto e "
+"URL copyright in una nuova finestra."
 
 #: includes/options/portfolio.php:368 includes/options/search.php:339
 #: includes/widget/class-fusion-widget-author.php:235
@@ -15036,7 +15399,7 @@ msgstr ""
 
 #: includes/options/privacy.php:47
 msgid "Google & FontAwesome Fonts Mode"
-msgstr ""
+msgstr "Google & FontAwesome Fonts Mode"
 
 #: includes/options/privacy.php:48
 msgid ""
@@ -15044,6 +15407,9 @@ msgid ""
 "will be downloaded to your server. Set to \"CDN\" to use the Google and "
 "FontAwesome CDNs."
 msgstr ""
+"Se impostato su \"Local\", i caratteri Google e FontAwesome impostati in "
+"Opzioni tema verranno scaricati sul server. Impostare su \"CDN\" per "
+"utilizzare i CDN di Google e FontAwesome."
 
 #: includes/options/privacy.php:52
 msgid "Local"
@@ -15406,12 +15772,14 @@ msgstr "Modulo di ricerca"
 
 #: includes/options/search.php:40
 msgid "Limit Search Results Post Types"
-msgstr ""
+msgstr "Limita i tipi di post dei risultati di ricerca"
 
 #: includes/options/search.php:41
 msgid ""
 "Turn on to limit the search results to specific post types you can choose."
 msgstr ""
+"Attiva per limitare i risultati della ricerca a tipi di post specifici che "
+"puoi scegliere."
 
 # @ Avada
 #: includes/options/search.php:47
@@ -15424,11 +15792,11 @@ msgstr "Controlla il tipo di contenuto visualizzato nei risultati di ricerca."
 
 #: includes/options/search.php:56
 msgid "Portfolio Items"
-msgstr ""
+msgstr "Elementi del portafoglio"
 
 #: includes/options/search.php:57
 msgid "FAQ Items"
-msgstr ""
+msgstr "Elementi delle FAQ"
 
 #: includes/options/search.php:58 includes/options/sidebars.php:368
 msgid "WooCommerce Products"
@@ -15440,11 +15808,11 @@ msgstr "Eventi del calendario dell'articolo"
 
 #: includes/options/search.php:70
 msgid "Limit Search to Post Titles"
-msgstr ""
+msgstr "Limita la ricerca ai titoli dei post"
 
 #: includes/options/search.php:71
 msgid "Turn on to limit the search to post titles only."
-msgstr ""
+msgstr "Attiva per limitare la ricerca ai soli post di titoli."
 
 #: includes/options/search.php:77
 msgid "Search Form Design"
@@ -15461,57 +15829,67 @@ msgstr "Pulisci"
 
 #: includes/options/search.php:88
 msgid "Enable Live Search"
-msgstr ""
+msgstr "Abilita ricerca dal vivo"
 
 #: includes/options/search.php:89
 msgid ""
 "Turn on to enable live search results on menu search field and other fitting "
 "search forms."
 msgstr ""
+"Attiva per abilitare i risultati della ricerca in tempo reale nel campo di "
+"ricerca dei menu e in altri moduli di ricerca adatti."
 
 #: includes/options/search.php:95
 msgid "Live Search Minimal Character Count"
-msgstr ""
+msgstr "Conteggio minimo dei caratteri di ricerca dal vivo"
 
 #: includes/options/search.php:96
 msgid "Set the minimal character count to trigger the live search."
 msgstr ""
+"Imposta il numero minimo di caratteri per attivare la ricerca dal vivo."
 
 #: includes/options/search.php:114
 msgid "Live Search Number of Posts"
-msgstr ""
+msgstr "Ricerca dal vivo Numero di post"
 
 #: includes/options/search.php:115
 msgid ""
 "Controls the number of posts that should be displayed as search result "
 "suggestions."
 msgstr ""
+"Controlla il numero di post che devono essere visualizzati come suggerimenti "
+"per i risultati di ricerca."
 
 #: includes/options/search.php:133
 msgid "Live Search Results Container Height"
-msgstr ""
+msgstr "Altezza contenitore risultati ricerca live"
 
 #: includes/options/search.php:134
 msgid ""
 "Controls the height of the container in which the search results will be "
 "listed."
 msgstr ""
+"Controlla l'altezza del contenitore in cui verranno elencati i risultati "
+"della ricerca."
 
 #: includes/options/search.php:152
 msgid "Live Search Display Featured Image"
-msgstr ""
+msgstr "Ricerca dal vivo Visualizza l'immagine in primo piano"
 
 #: includes/options/search.php:153
 msgid "Turn on to display the featured image of each live search result."
 msgstr ""
+"Attiva per visualizzare l'immagine in primo piano di ciascun risultato di "
+"ricerca live."
 
 #: includes/options/search.php:166
 msgid "Live Search Display Post Type"
-msgstr ""
+msgstr "Tipo di post display di ricerca dal vivo"
 
 #: includes/options/search.php:167
 msgid "Turn on to display the post type of each live search result."
 msgstr ""
+"Attiva per visualizzare il tipo di post di ciascun risultato di ricerca live."
 
 # @ Avada
 #: includes/options/search.php:182 includes/options/sidebars.php:332
@@ -15538,47 +15916,54 @@ msgstr "Controlla il numero di risultati di ricerca per pagina."
 
 #: includes/options/search.php:216
 msgid "Search Pagination Type"
-msgstr ""
+msgstr "Cerca il tipo di impaginazione"
 
 #: includes/options/search.php:217
 msgid "Controls the pagination type for the search results page."
 msgstr ""
+"Controlla il tipo di impaginazione per la pagina dei risultati della ricerca."
 
 #: includes/options/search.php:230
 msgid "Controls the number of columns for grid layouts."
-msgstr ""
+msgstr "Controlla il numero di colonne per i layout di griglia."
 
 #: includes/options/search.php:255
 msgid "Controls the column spacing for search results."
-msgstr ""
+msgstr "Controlla la spaziatura della colonna per i risultati della ricerca."
 
 #: includes/options/search.php:280
 msgid "Search Content Display"
-msgstr ""
+msgstr "Cerca visualizzazione contenuto"
 
 #: includes/options/search.php:281
 msgid ""
 "Controls if the search results content displays as an excerpt or full "
 "content or is completely disabled."
 msgstr ""
+"Controlla se il contenuto dei risultati della ricerca viene visualizzato "
+"come estratto o contenuto completo o è completamente disabilitato."
 
 #: includes/options/search.php:292
 msgid "Search Excerpt Length"
-msgstr ""
+msgstr "Cerca lunghezza estratto"
 
 #: includes/options/search.php:293
 msgid ""
 "Controls the number of words (or characters) in the search results excerpts."
 msgstr ""
+"Controlla il numero di parole (o caratteri) negli estratti dei risultati "
+"della ricerca."
 
 #: includes/options/search.php:311
 msgid "Search Strip HTML from Excerpt"
-msgstr ""
+msgstr "Cerca in HTML da estratto"
 
 #: includes/options/search.php:312
 msgid ""
 "Turn on to strip HTML content from the excerpt for the search results page."
 msgstr ""
+"Attiva per rimuovere il contenuto HTML dall'estratto della pagina dei "
+"risultati di ricerca."
 
 #: includes/options/search.php:325
 msgid "Featured Images for Search Results"
@@ -15592,13 +15977,15 @@ msgstr ""
 
 #: includes/options/search.php:332
 msgid "Search Results Meta"
-msgstr ""
+msgstr "Risultati della ricerca Meta"
 
 #: includes/options/search.php:333
 msgid ""
 "Select the post meta data you want to be displayed in the individual search "
 "results."
 msgstr ""
+"Seleziona i metadati post che desideri vengano visualizzati nei singoli "
+"risultati della ricerca."
 
 # @ Avada
 #: includes/options/search.php:340 templates/wc-catalog-ordering.php:48
@@ -15614,15 +16001,15 @@ msgstr "Categorie"
 # @ Avada
 #: includes/options/search.php:342
 msgid "Tags"
-msgstr "Tag"
+msgstr "Tags"
 
 #: includes/options/search.php:344
 msgid "Read More Link"
-msgstr ""
+msgstr "Ulteriori informazioni, collegamento"
 
 #: includes/options/search.php:345
 msgid "Post Type"
-msgstr ""
+msgstr "Tipo di articolo"
 
 # @ Avada
 #: includes/options/search.php:349
@@ -15654,9 +16041,9 @@ msgid ""
 "to Fusion Builder Elements options panel <a href=\"%s\" target=\"_blank"
 "\">here</a>."
 msgstr ""
-"<strong> Nota importante: </strong> Elementi del generatore di Fusion "
-"settigns vengono spostati nel pannello opzioni di Fusion Builder Elements < "
-"a href = \" %s\" target = \"_ blank\" > qui </a>."
+"<strong> NOTA IMPORTANTE: </strong> le impostazioni di Fusion Builder "
+"Elements vengono spostate nel pannello delle opzioni di Fusion Builder "
+"Elements <a href=\"%s\" target=\"_blank\"> qui </a>."
 
 #: includes/options/sidebars.php:62
 msgid "Sidebar Styling"
@@ -15664,13 +16051,15 @@ msgstr "Sidebar styling"
 
 #: includes/options/sidebars.php:69
 msgid "Sidebar Responsive Order"
-msgstr ""
+msgstr "Ordine responsivo della barra laterale"
 
 #: includes/options/sidebars.php:70
 msgid ""
 "Choose the order of sidebars and main content area on mobile layouts through "
 "drag & drop sorting."
 msgstr ""
+"Scegli l'ordine delle barre laterali e l'area del contenuto principale nei "
+"layout mobili tramite l'ordinamento tramite trascinamento della selezione."
 
 #: includes/options/sidebars.php:89
 msgid ""
@@ -15753,7 +16142,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:161
 msgid "Force Global Sidebars For Pages"
-msgstr ""
+msgstr "Forza barre laterali globali per le pagine"
 
 #: includes/options/sidebars.php:162
 msgid ""
@@ -15803,7 +16192,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:204
 msgid "Force Global Sidebars  For Portfolio Posts"
-msgstr ""
+msgstr "Forza barre laterali globali per post di portfolio"
 
 #: includes/options/sidebars.php:205
 msgid ""
@@ -15894,7 +16283,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:280
 msgid "Force Global Sidebars For Blog Posts"
-msgstr ""
+msgstr "Forza barre laterali globali per post di blog"
 
 #: includes/options/sidebars.php:281
 msgid ""
@@ -16020,7 +16409,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:393
 msgid "Force Global Sidebars For WooCommerce Products"
-msgstr ""
+msgstr "Forza barre laterali globali per i prodotti WooCommerce"
 
 #: includes/options/sidebars.php:394
 msgid ""
@@ -16110,7 +16499,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:471
 msgid "Force Global Sidebars For Events Calendar Posts"
-msgstr ""
+msgstr "Forza barre laterali globali per i post del calendario degli eventi"
 
 #: includes/options/sidebars.php:472
 msgid ""
@@ -16163,7 +16552,7 @@ msgstr ""
 
 #: includes/options/sidebars.php:514
 msgid "Force Global Sidebars For bbPress/BuddyPress"
-msgstr ""
+msgstr "Forza barre laterali globali per bbPress / BuddyPress"
 
 #: includes/options/sidebars.php:515
 msgid ""
@@ -16517,16 +16906,16 @@ msgid ""
 "up in the header and footer. These settings do not control the avada social "
 "widget, social link element or person element."
 msgstr ""
-"<strong> Nota importante: </strong> Questa scheda controlla le reti sociali "
-"che vengono visualizzate nell'intestazione e nel piè di pagina. Aggiungi la "
-"rete di tua scelta insieme al tuo URL univoco. Ogni rete che si desidera "
-"visualizzare deve essere aggiunto qui per mostrare in intestazione e piè di "
-"pagina. Queste impostazioni non controllano il Avada social widget, elemento "
-"di collegamento sociale o elemento Person."
+"<strong> NOTA IMPORTANTE: </strong> questa scheda controlla i social network "
+"visualizzati nell'intestazione e nel piè di pagina. Aggiungi la rete di tua "
+"scelta insieme al tuo URL univoco. Ogni rete che si desidera visualizzare "
+"deve essere aggiunta qui per essere visualizzata nell'intestazione e nel piè "
+"di pagina. Queste impostazioni non controllano il widget sociale di avada, "
+"l'elemento di collegamento sociale o l'elemento persona."
 
 #: includes/options/social_media.php:45
 msgid "Social Media Icons / Links"
-msgstr ""
+msgstr "Icone / collegamenti di social media"
 
 #: includes/options/social_media.php:46
 msgid ""
@@ -16557,7 +16946,7 @@ msgstr "Titolo icona personalizzata"
 
 #: includes/options/social_media.php:73
 msgid "Choose the image you want to use as icon"
-msgstr ""
+msgstr "Scegli l'immagine che desideri utilizzare come icona"
 
 #: includes/options/social_media.php:74
 msgid "Upload your custom icon"
@@ -16565,7 +16954,7 @@ msgstr "Carica la tua icona personalizzata"
 
 #: includes/options/social_media.php:83
 msgid "Header Social Icons Styling"
-msgstr ""
+msgstr "Header Social Icons Styling"
 
 #: includes/options/social_media.php:91
 msgid "Header Social Icon Font Size"
@@ -16659,7 +17048,7 @@ msgstr "Controlla la spaziatura interna della scatola."
 
 #: includes/options/social_media.php:193
 msgid "Footer Social Icons Styling"
-msgstr ""
+msgstr "Footer Social Icons Styling"
 
 #: includes/options/social_media.php:201
 msgid "Display Social Icons In The Footer"
@@ -16975,6 +17364,10 @@ msgid ""
 "and single posts.<br /><strong>IMPORTANT:</strong> On archive pages and in "
 "blog elements the linked post titles will use link color."
 msgstr ""
+"Queste impostazioni controllano la tipografia di tutti i titoli dei post, "
+"inclusi archivio e singoli post. <br /> <strong> IMPORTANTE: </strong> nelle "
+"pagine di archivio e negli elementi del blog i titoli dei post collegati "
+"utilizzeranno il colore del link."
 
 #: includes/options/typography.php:266
 msgid "Post Title Extras Typography"
@@ -16996,6 +17389,12 @@ msgid ""
 "will be able to select your new fonts - they will be available at the top of "
 "the fonts-list in the typography controls."
 msgstr ""
+"<strong> NOTA IMPORTANTE: </strong> carica i tuoi caratteri personalizzati "
+"di seguito. Dopo aver caricato un carattere personalizzato, <strong> dovrai "
+"salvare le opzioni e ricaricare questa pagina sul tuo browser </strong>. "
+"Dopo aver ricaricato la pagina sarai in grado di selezionare i tuoi nuovi "
+"caratteri: saranno disponibili nella parte superiore dell'elenco dei "
+"caratteri nei controlli di tipografia."
 
 #: includes/options/typography.php:301
 msgid ""
@@ -17112,9 +17511,9 @@ msgstr ""
 "cambiata, potrebbe essere necessario regolare l'impostazione delle "
 "dimensioni dell'immagine del singolo prodotto nelle impostazioni di "
 "WooCommerce per assicurarsi che una sia più grande e rigenerare anche le "
-"miniature. < a href = \"https://theme-fusion.com/documentation/avada/"
-"woocommerce-single-product-gallery/\" target = \"_ blank\" > Vedi questo "
-"post per ulteriori informazioni. </a> <br/>"
+"miniature.  <a href=\"https://theme-fusion.com/documentation/avada/"
+"woocommerce-single-product-gallery/\" target=\"_blank\"> Vedi questo post "
+"per ulteriori informazioni. </a> <br/>"
 
 #: includes/options/woocommerce.php:103
 msgid "WooCommerce Product Gallery Thumbnails Columns"
@@ -17147,11 +17546,12 @@ msgid ""
 "woocommerce-single-product-gallery/\" target=\"_blank\">See this post for "
 "more information.</a>"
 msgstr ""
-"Attivare la funzione WooCommerce Gallery zoom. Importante: ogni immagine del "
-"prodotto da utilizzare deve essere più grande del contenitore Galleria per "
-"lo zoom per funzionare correttamente. <br/> < a href = \"https://theme-"
-"fusion.com/documentation/avada/woocommerce-single-product-gallery/\" target "
-"= \"_ blank\" > Vedi questo post per ulteriori informazioni. </a>"
+"Attiva per abilitare la funzione di zoom della galleria WooCommerce. "
+"Importante: ogni immagine del prodotto che usi deve essere più grande del "
+"contenitore della galleria affinché lo zoom funzioni correttamente. <br/><a "
+"href=\"https://theme-fusion.com/documentation/avada/woocommerce-single-"
+"product-gallery/\" target=\"_blank\"> Vedi questo post per ulteriori "
+"informazioni. </a>"
 
 #: includes/options/woocommerce.php:122
 msgid "WooCommerce Shop Page Ordering Boxes"
@@ -17418,15 +17818,15 @@ msgstr "Controlla la dimensione del carattere delle icone WooCommerce."
 
 #: includes/plugins/multiple_sidebars.php:165
 msgid "Widget Area already exists, please use a different name."
-msgstr ""
+msgstr "L'area del widget esiste già, si prega di utilizzare un nome diverso."
 
 #: includes/plugins/multiple_sidebars.php:234
 msgid "No Widget area defined."
-msgstr ""
+msgstr "Nessuna area Widget definita."
 
 #: includes/plugins/multiple_sidebars.php:237
 msgid "Widget area does not exist."
-msgstr ""
+msgstr "L'area Widget non esiste."
 
 #: includes/plugins/multiple_sidebars.php:271
 msgid "Are you sure you want to remove"
@@ -17434,19 +17834,19 @@ msgstr "Sei sicuro di voler rimuovere"
 
 #: includes/plugins/multiple_sidebars.php:271
 msgid "This will remove any widgets you have assigned to this widget area."
-msgstr ""
+msgstr "Ciò rimuoverà tutti i widget assegnati a questa area widget."
 
 #: includes/plugins/multiple_sidebars.php:279
 msgid "Widget Area Name:"
-msgstr ""
+msgstr "Nome Area Widget:"
 
 #: includes/plugins/multiple_sidebars.php:290
 msgid "Widget Areas"
-msgstr ""
+msgstr "Area Widget"
 
 #: includes/plugins/multiple_sidebars.php:295
 msgid "Widget Area Name"
-msgstr ""
+msgstr "Nome area widget"
 
 #: includes/plugins/multiple_sidebars.php:296
 msgid "CSS Class"
@@ -17454,7 +17854,7 @@ msgstr "Classe CSS"
 
 #: includes/plugins/multiple_sidebars.php:307
 msgid "Remove This Widget Area"
-msgstr ""
+msgstr "Rimuovi questa area Widget"
 
 #: includes/plugins/multiple_sidebars.php:307
 msgid "remove"
@@ -17462,11 +17862,11 @@ msgstr "rimuovi"
 
 #: includes/plugins/multiple_sidebars.php:313
 msgid "No Widget Areas defined."
-msgstr ""
+msgstr "Nessuna area Widget definita."
 
 #: includes/plugins/multiple_sidebars.php:317
 msgid "Add New Widget Area"
-msgstr ""
+msgstr "Aggiungi nuova area widget"
 
 # @ Avada
 #: includes/plugins/multiple_sidebars.php:413
@@ -17541,11 +17941,11 @@ msgstr "Articolo successivo"
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:31
 msgid "Add 125x125 ads."
-msgstr ""
+msgstr "Aggiungi annunci 125x125."
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:37
 msgid "Avada: 125x125 Ads"
-msgstr ""
+msgstr "Avada: annunci 125x125"
 
 #. translators: Number.
 #: includes/widget/class-fusion-widget-ad-125-125.php:147
@@ -17604,11 +18004,11 @@ msgstr "_blank"
 
 #: includes/widget/class-fusion-widget-author.php:31
 msgid "Display author details."
-msgstr ""
+msgstr "Mostra i dettagli Autore."
 
 #: includes/widget/class-fusion-widget-author.php:37
 msgid "Avada: Author"
-msgstr ""
+msgstr "Avada: Autore"
 
 #: includes/widget/class-fusion-widget-author.php:125
 msgid "Posted by"
@@ -17636,7 +18036,7 @@ msgid ""
 "want to display a specific author please use the \"Custom Author\" field. "
 "Post date will on be displayed on single posts."
 msgstr ""
-"Importante: quando viene utilizzato su posti singoli, l'autore sarà tirato "
+"IMPORTANTE: quando viene utilizzato su posti singoli, l'autore sarà tirato "
 "automaticamente. Se si desidera visualizzare un autore specifico, utilizzare "
 "il campo \"autore personalizzato\". Data di post verrà visualizzato su "
 "singoli post."
@@ -17715,15 +18115,15 @@ msgstr "Data con etichetta"
 
 #: includes/widget/class-fusion-widget-author.php:311
 msgid "Date only"
-msgstr "Senza orario@info: whatsthis"
+msgstr "Solo Data"
 
 #: includes/widget/class-fusion-widget-contact-info.php:31
 msgid "Adds custom contact information."
-msgstr ""
+msgstr "Adds custom contact information."
 
 #: includes/widget/class-fusion-widget-contact-info.php:36
 msgid "Avada: Contact Info"
-msgstr ""
+msgstr "Avada: Informazioni di Contatto"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-contact-info.php:67
@@ -17769,7 +18169,7 @@ msgstr "Testo link email:"
 
 #: includes/widget/class-fusion-widget-contact-info.php:180
 msgid "Website URL (with HTTP(S)):"
-msgstr ""
+msgstr "URL del sito Web (con HTTP (S)):"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-contact-info.php:184
@@ -17782,18 +18182,18 @@ msgstr "Aggiunge il supporto per la pagina Facebook plugin."
 
 #: includes/widget/class-fusion-widget-facebook-page.php:37
 msgid "Avada: Facebook Page Plugin"
-msgstr ""
+msgstr "Avada: plug-in della pagina Facebook"
 
 #: includes/widget/class-fusion-widget-facebook-page.php:186
 msgid "Find us on Facebook"
-msgstr "Trovami su Facebool"
+msgstr "Trovami su Facebook"
 
 #: includes/widget/class-fusion-widget-facebook-page.php:201
 msgid ""
 "IMPORTANT: Please create a Facebook App and use its ID for features like "
 "sharing."
 msgstr ""
-"Importante: si prega di creare un'applicazione Facebook e utilizzare il suo "
+"IMPORTANTE: si prega di creare un'applicazione Facebook e utilizzare il suo "
 "ID per le caratteristiche come la condivisione."
 
 #: includes/widget/class-fusion-widget-facebook-page.php:201
@@ -17846,7 +18246,7 @@ msgstr "Le foto più recenti da Flickr."
 
 #: includes/widget/class-fusion-widget-flickr.php:37
 msgid "Avada: Flickr"
-msgstr ""
+msgstr "Avada: Flickr"
 
 #: includes/widget/class-fusion-widget-flickr.php:161
 msgid "Photos from Flickr"
@@ -17855,7 +18255,7 @@ msgstr "Foto da Flickr"
 #. translators: URL.
 #: includes/widget/class-fusion-widget-flickr.php:179
 msgid "Flickr ID (<a href=\"%s\">Get your flickr ID</a>):"
-msgstr "Flickr ID (< a href = \" %s\" > Ottieni il tuo Flickr ID </a>):"
+msgstr "ID Flickr (<a href=\"%s\"> Ottieni il tuo ID Flickr </a>):"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-flickr.php:184
@@ -17868,8 +18268,8 @@ msgid ""
 "API key (Use default or get your own from <a href=\"%s\">Flickr APP Garden</"
 "a>):"
 msgstr ""
-"Chiave API (utilizzare predefinito o ottenere il proprio da < a href = \" %s"
-"\" > Flickr app Garden </a>):"
+"Chiave API (usa il valore predefinito o ottieni il tuo da <a href=\"%s\"> "
+"APP Flickr Garden </a>):"
 
 #. translators: the default key.
 #: includes/widget/class-fusion-widget-flickr.php:193
@@ -17878,11 +18278,11 @@ msgstr "La chiave predefinita è: %s"
 
 #: includes/widget/class-fusion-widget-menu.php:31
 msgid "Adds a horizontal navigation"
-msgstr ""
+msgstr "Aggiunge una navigazione orizzontale"
 
 #: includes/widget/class-fusion-widget-menu.php:36
 msgid "Avada: Horizontal Menu"
-msgstr ""
+msgstr "Avada: Menu Orizzontale"
 
 #: includes/widget/class-fusion-widget-menu.php:169
 #: includes/widget/class-fusion-widget-vertical-menu.php:298
@@ -17922,11 +18322,11 @@ msgstr "Dimensioni testo:"
 
 #: includes/widget/class-fusion-widget-recent-works.php:31
 msgid "Recent works from the portfolio."
-msgstr ""
+msgstr "Opere recenti dal portfolio."
 
 #: includes/widget/class-fusion-widget-recent-works.php:37
 msgid "Avada: Recent Works"
-msgstr ""
+msgstr "Avada: opere recenti"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-recent-works.php:132
@@ -17940,11 +18340,11 @@ msgstr "Numero di elementi da mostrare:"
 
 #: includes/widget/class-fusion-widget-social-links.php:43
 msgid "Adds social media icons with custom links."
-msgstr ""
+msgstr "Adds social media icons with custom links."
 
 #: includes/widget/class-fusion-widget-social-links.php:49
 msgid "Avada: Social Links"
-msgstr ""
+msgstr "Avada: Social Links"
 
 #: includes/widget/class-fusion-widget-social-links.php:445
 msgid "Get Social"
@@ -18008,11 +18408,11 @@ msgstr "%s Link:"
 
 #: includes/widget/class-fusion-widget-tabs.php:31
 msgid "Popular posts, recent post and comments."
-msgstr ""
+msgstr "Post popolari, post recenti e commenti."
 
 #: includes/widget/class-fusion-widget-tabs.php:37
 msgid "Avada: Tabs"
-msgstr ""
+msgstr "Avada: Tabs"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:79
@@ -18039,7 +18439,7 @@ msgstr "%s dice:"
 #. translators: %1$s: comment author. %2$s: post-title.
 #: includes/widget/class-fusion-widget-tabs.php:214
 msgid "%1$s on %2$s"
-msgstr "%1$s al %2$s"
+msgstr "%1$s su %2$s"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tabs.php:220
@@ -18110,11 +18510,11 @@ msgstr "Mostra commenti"
 
 #: includes/widget/class-fusion-widget-tweets.php:31
 msgid "Adds your twitter timeline"
-msgstr ""
+msgstr "Aggiunge la sequenza temporale di Twitter"
 
 #: includes/widget/class-fusion-widget-tweets.php:37
 msgid "Avada: Twitter"
-msgstr ""
+msgstr "Avada: Twitter"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:171
@@ -18240,11 +18640,11 @@ msgstr "Tweets da %s"
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:31
 msgid "This widget replaces the Side Navigation Template."
-msgstr ""
+msgstr "Questo widget sostituisce il modello di navigazione laterale."
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:36
 msgid "Avada: Vertical Menu"
-msgstr ""
+msgstr "Avada: Menu Verticale"
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:289
 msgid "Menu Type:"
@@ -18357,7 +18757,7 @@ msgstr "Protetto"
 
 #: templates/blog-layout.php:431
 msgid "Load More Results"
-msgstr ""
+msgstr "Carica più risultati"
 
 # @ Avada
 #: templates/blog-layout.php:431
@@ -18379,11 +18779,11 @@ msgstr "Attiva/disattiva menu"
 
 #: templates/menu-mobile-main.php:33
 msgid "Main Menu Mobile"
-msgstr ""
+msgstr "Menu Mobile Principale"
 
 #: templates/menu-mobile-main.php:36
 msgid "Main Menu Mobile Sticky"
-msgstr ""
+msgstr "Menu Principale mobile, appeso"
 
 #: templates/menu-mobile-modern.php:23
 msgid "Toggle mobile menu"
@@ -18433,7 +18833,7 @@ msgstr "Informazioni aggiuntive"
 # @ Avada
 #: templates/wc-before-checkout-form.php:26
 msgid "Review &amp; Payment"
-msgstr "Rivedi i pagamenti"
+msgstr "Rivedi &amp; Pagamento"
 
 # @ Avada
 #: templates/wc-cart-collaterals.php:20
@@ -18515,7 +18915,7 @@ msgstr "Valutazione"
 
 #: templates/wc-catalog-ordering.php:64 templates/wc-catalog-ordering.php:86
 msgid "Relevance"
-msgstr ""
+msgstr "Rilevanza"
 
 #. translators: Name, Price, Date etc.
 #. translators: Relevance, Price, Date etc.
@@ -18572,7 +18972,7 @@ msgstr "Cerca..."
 #. link.
 #: templates/wc-top-user-container.php:22
 msgid "Hello %1$s (not %2$s? %3$s)"
-msgstr "Ciao%1$s (non sei %2$s? %3$s)"
+msgstr "Ciao %1$s (non sei %2$s? %3$s)"
 
 #: templates/wc-top-user-container.php:25
 msgid "Sign Out"
@@ -18828,7 +19228,7 @@ msgstr "Navigazione Laterale"
 #: includes/class-avada-page-options.php:71
 msgctxt "element type general name"
 msgid "Avada Page Options"
-msgstr "Opzioni Avada Pagina"
+msgstr "Opzioni Pagina Avada"
 
 #: includes/class-avada-page-options.php:72
 msgctxt "Item singular name"
