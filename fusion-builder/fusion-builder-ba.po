@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2019-08-08 13:20:49+00:00\n"
+"POT-Creation-Date: 2019-08-15 12:25:55+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:06+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Bashkir\n"
@@ -17,7 +17,7 @@ msgstr ""
 #: front-end/class-fusion-builder-front.php:877
 #: inc/lib/inc/fusion-app/templates/front-end-toolbar.php:63
 #: inc/lib/inc/fusion-app/templates/front-end-toolbar.php:65
-#: shortcodes/fusion-container.php:971
+#: shortcodes/fusion-container.php:973
 msgid "Draft"
 msgstr ""
 
@@ -56,17 +56,17 @@ msgid "Preview"
 msgstr ""
 
 #: front-end/class-fusion-builder-front.php:1390 inc/helpers.php:1763
-#: inc/lib/inc/functions.php:419 shortcodes/fusion-recent-posts.php:414
+#: inc/lib/inc/functions.php:420 shortcodes/fusion-recent-posts.php:414
 msgid "0 Comments"
 msgstr ""
 
 #: front-end/class-fusion-builder-front.php:1390 inc/helpers.php:1763
-#: inc/lib/inc/functions.php:419 shortcodes/fusion-recent-posts.php:414
+#: inc/lib/inc/functions.php:420 shortcodes/fusion-recent-posts.php:414
 msgid "1 Comment"
 msgstr ""
 
 #: front-end/class-fusion-builder-front.php:1390 inc/helpers.php:1763
-#: inc/lib/inc/functions.php:419 shortcodes/fusion-recent-posts.php:414
+#: inc/lib/inc/functions.php:420 shortcodes/fusion-recent-posts.php:414
 msgid "% Comments"
 msgstr ""
 
@@ -345,6 +345,10 @@ msgstr ""
 msgid "Custom CSS Panel"
 msgstr ""
 
+#: front-end/templates/front-end-shortcuts.php:172
+msgid "Exit Builder To Back-End"
+msgstr ""
+
 #: front-end/templates/front-end-toolbar.php:21
 #: inc/class-fusion-builder-admin.php:76 inc/class-fusion-builder-admin.php:291
 #: inc/layouts.php:216 inc/lib/inc/fusion-app/helpers.php:190
@@ -377,7 +381,7 @@ msgid "Load More Posts"
 msgstr ""
 
 #: front-end/templates/nested-row.php:20
-msgid "Nested Columns Options"
+msgid "Open Nested Columns"
 msgstr ""
 
 #: front-end/templates/nested-row.php:21
@@ -396,7 +400,7 @@ msgstr ""
 msgid "Next Page Separator"
 msgstr ""
 
-#: front-end/templates/next-page.php:21 inc/lib/inc/functions.php:882
+#: front-end/templates/next-page.php:21 inc/lib/inc/functions.php:883
 msgid "Pages:"
 msgstr ""
 
@@ -1126,7 +1130,7 @@ msgstr ""
 
 #: inc/class-fusion-builder-gutenberg.php:169
 #: inc/class-fusion-builder-gutenberg.php:348 inc/class-fusion-builder.php:1598
-#: inc/lib/inc/fusion-app/class-fusion-app.php:558
+#: inc/lib/inc/fusion-app/class-fusion-app.php:556
 msgid "Fusion Builder Live"
 msgstr ""
 
@@ -1181,8 +1185,8 @@ msgid "Date"
 msgstr ""
 
 #: inc/class-fusion-builder-library-table.php:209
-#: inc/lib/inc/fusion-app/helpers.php:205 shortcodes/fusion-container.php:647
-#: shortcodes/fusion-container.php:842
+#: inc/lib/inc/fusion-app/helpers.php:205 shortcodes/fusion-container.php:649
+#: shortcodes/fusion-container.php:844
 msgid "Container"
 msgstr ""
 
@@ -1213,7 +1217,7 @@ msgstr ""
 
 #: inc/class-fusion-builder-library-table.php:303
 #: inc/class-fusion-builder-library-table.php:432
-#: shortcodes/fusion-container.php:968
+#: shortcodes/fusion-container.php:970
 msgid "Published"
 msgstr ""
 
@@ -1354,9 +1358,9 @@ msgid "Zoom"
 msgstr ""
 
 #: inc/helpers.php:227 inc/helpers.php:265
-#: inc/lib/inc/class-fusion-images.php:956
-#: inc/lib/inc/fusion-app/class-fusion-app.php:898
-#: inc/lib/inc/fusion-app/class-fusion-app.php:986
+#: inc/lib/inc/class-fusion-images.php:972
+#: inc/lib/inc/fusion-app/class-fusion-app.php:896
+#: inc/lib/inc/fusion-app/class-fusion-app.php:984
 #: inc/lib/inc/fusion-app/helpers.php:461
 #: inc/lib/inc/redux/framework/FusionReduxCore/framework.php:1902
 #: shortcodes/fusion-alert.php:705 shortcodes/fusion-alert.php:718
@@ -1582,21 +1586,21 @@ msgid "Hide Notice"
 msgstr ""
 
 #. translators: The author.
-#: inc/helpers.php:1714 inc/helpers.php:1717 inc/lib/inc/functions.php:358
-#: inc/lib/inc/functions.php:361
+#: inc/helpers.php:1714 inc/helpers.php:1717 inc/lib/inc/functions.php:359
+#: inc/lib/inc/functions.php:362
 msgid "By %s"
 msgstr ""
 
 #. translators: The categories.
 #. translators: The categories list.
-#: inc/helpers.php:1743 inc/lib/inc/functions.php:399
+#: inc/helpers.php:1743 inc/lib/inc/functions.php:400
 msgid "Categories: %s"
 msgstr ""
 
 #. translators: The tags.
 #. translators: The tags list.
 #. Translators: List of tags.
-#: inc/helpers.php:1756 inc/lib/inc/functions.php:412
+#: inc/helpers.php:1756 inc/lib/inc/functions.php:413
 #: inc/lib/inc/fusion-app/helpers.php:496
 msgid "Tags: %s"
 msgstr ""
@@ -2038,27 +2042,27 @@ msgstr ""
 msgid "Dismiss Message"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:953
+#: inc/lib/inc/class-fusion-images.php:969
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:957
+#: inc/lib/inc/class-fusion-images.php:973
 msgid "1x1"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:958
+#: inc/lib/inc/class-fusion-images.php:974
 msgid "Landscape"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:959
+#: inc/lib/inc/class-fusion-images.php:975
 msgid "Portrait"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:960
+#: inc/lib/inc/class-fusion-images.php:976
 msgid "2x2"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:962
+#: inc/lib/inc/class-fusion-images.php:978
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -2369,10 +2373,10 @@ msgstr ""
 #: shortcodes/fusion-column-inner.php:605
 #: shortcodes/fusion-column-inner.php:786 shortcodes/fusion-column.php:758
 #: shortcodes/fusion-column.php:789 shortcodes/fusion-column.php:1012
-#: shortcodes/fusion-container.php:866 shortcodes/fusion-container.php:878
-#: shortcodes/fusion-container.php:899 shortcodes/fusion-container.php:916
-#: shortcodes/fusion-container.php:1098 shortcodes/fusion-container.php:1140
-#: shortcodes/fusion-container.php:1239 shortcodes/fusion-container.php:1274
+#: shortcodes/fusion-container.php:868 shortcodes/fusion-container.php:880
+#: shortcodes/fusion-container.php:901 shortcodes/fusion-container.php:918
+#: shortcodes/fusion-container.php:1100 shortcodes/fusion-container.php:1142
+#: shortcodes/fusion-container.php:1241 shortcodes/fusion-container.php:1276
 #: shortcodes/fusion-content-boxes.php:1918
 #: shortcodes/fusion-content-boxes.php:2115
 #: shortcodes/fusion-content-boxes.php:2135
@@ -2460,10 +2464,10 @@ msgstr ""
 #: shortcodes/fusion-column-inner.php:606
 #: shortcodes/fusion-column-inner.php:787 shortcodes/fusion-column.php:759
 #: shortcodes/fusion-column.php:790 shortcodes/fusion-column.php:1013
-#: shortcodes/fusion-container.php:867 shortcodes/fusion-container.php:879
-#: shortcodes/fusion-container.php:900 shortcodes/fusion-container.php:917
-#: shortcodes/fusion-container.php:1099 shortcodes/fusion-container.php:1141
-#: shortcodes/fusion-container.php:1240 shortcodes/fusion-container.php:1275
+#: shortcodes/fusion-container.php:869 shortcodes/fusion-container.php:881
+#: shortcodes/fusion-container.php:902 shortcodes/fusion-container.php:919
+#: shortcodes/fusion-container.php:1101 shortcodes/fusion-container.php:1143
+#: shortcodes/fusion-container.php:1242 shortcodes/fusion-container.php:1277
 #: shortcodes/fusion-content-boxes.php:1919
 #: shortcodes/fusion-content-boxes.php:2116
 #: shortcodes/fusion-content-boxes.php:2136
@@ -2598,143 +2602,143 @@ msgstr ""
 msgid "Search Controls"
 msgstr ""
 
-#: inc/lib/inc/functions.php:1113
+#: inc/lib/inc/functions.php:1114
 msgid "Previous"
 msgstr ""
 
-#: inc/lib/inc/functions.php:1159
+#: inc/lib/inc/functions.php:1160
 msgid "Next"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:428
+#: inc/lib/inc/fusion-app/class-fusion-app.php:426
 msgid "Page"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:897
-#: inc/lib/inc/fusion-app/class-fusion-app.php:985
+#: inc/lib/inc/fusion-app/class-fusion-app.php:895
+#: inc/lib/inc/fusion-app/class-fusion-app.php:983
 #: inc/lib/inc/fusion-app/helpers.php:476
 msgid "Clear"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:899
-#: inc/lib/inc/fusion-app/class-fusion-app.php:987
+#: inc/lib/inc/fusion-app/class-fusion-app.php:897
+#: inc/lib/inc/fusion-app/class-fusion-app.php:985
 msgid "Select Color"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:900
-#: inc/lib/inc/fusion-app/class-fusion-app.php:988
+#: inc/lib/inc/fusion-app/class-fusion-app.php:898
+#: inc/lib/inc/fusion-app/class-fusion-app.php:986
 msgid "Current Color"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1152
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1150
 msgid "You do not have permission to edit this post."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1192
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1190
 msgid "The page contents updated."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1199
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1197
 msgid "You do not have permission to edit this archive."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1234
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1232
 msgid "The archive details updated."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1323
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1324
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1321
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1322
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:73
 msgid "Ultra-Light 100"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1325
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1323
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:83
 msgid "Ultra-Light 100 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1326
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1324
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:74
 msgid "Light 200"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1327
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1325
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:89
 msgid "Light 200 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1328
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1326
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:75
 msgid "Book 300"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1329
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1327
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:84
 msgid "Book 300 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1330
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1331
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1328
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1329
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:70
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:76
 msgid "Normal 400"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1332
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1330
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:71
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:72
 msgid "Normal 400 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1333
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1331
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:77
 msgid "Medium 500"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1334
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1332
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:85
 msgid "Medium 500 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1335
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1336
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1333
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1334
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:78
 msgid "Semi-Bold 600"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1337
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1335
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:88
 msgid "Semi-Bold 600 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1338
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1336
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:79
 msgid "Bold 700"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1339
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1337
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:80
 msgid "Bold 700 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1340
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1341
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1338
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1339
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:86
 msgid "Extra-Bold 800"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1342
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1340
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:87
 msgid "Extra-Bold 800 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1343
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1344
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1341
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1342
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:81
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1345
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1343
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:82
 msgid "Ultra-Bold 900 Italic"
 msgstr ""
@@ -4921,7 +4925,7 @@ msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:141
 #: shortcodes/fusion-column-inner.php:677 shortcodes/fusion-column.php:884
-#: shortcodes/fusion-container.php:1073 shortcodes/fusion-countdown.php:710
+#: shortcodes/fusion-container.php:1075 shortcodes/fusion-countdown.php:710
 msgid "Background Repeat"
 msgstr ""
 
@@ -4943,7 +4947,7 @@ msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:223
 #: shortcodes/fusion-column-inner.php:651 shortcodes/fusion-column.php:858
-#: shortcodes/fusion-container.php:1047 shortcodes/fusion-countdown.php:683
+#: shortcodes/fusion-container.php:1049 shortcodes/fusion-countdown.php:683
 msgid "Background Position"
 msgstr ""
 
@@ -6222,7 +6226,7 @@ msgid "Brands"
 msgstr ""
 
 #: inc/options/advanced.php:271 shortcodes/fusion-column-inner.php:737
-#: shortcodes/fusion-column.php:963 shortcodes/fusion-container.php:1382
+#: shortcodes/fusion-column.php:963 shortcodes/fusion-container.php:1384
 #: shortcodes/fusion-syntax-highlighter.php:554
 #: shortcodes/fusion-syntax-highlighter.php:777 shortcodes/fusion-text.php:223
 #: shortcodes/fusion-text.php:333
@@ -7888,10 +7892,10 @@ msgstr ""
 #: shortcodes/fusion-column-inner.php:631 shortcodes/fusion-column.php:747
 #: shortcodes/fusion-column.php:756 shortcodes/fusion-column.php:787
 #: shortcodes/fusion-column.php:816 shortcodes/fusion-column.php:827
-#: shortcodes/fusion-container.php:857 shortcodes/fusion-container.php:870
-#: shortcodes/fusion-container.php:882 shortcodes/fusion-container.php:897
-#: shortcodes/fusion-container.php:920 shortcodes/fusion-container.php:938
-#: shortcodes/fusion-container.php:999 shortcodes/fusion-container.php:1013
+#: shortcodes/fusion-container.php:859 shortcodes/fusion-container.php:872
+#: shortcodes/fusion-container.php:884 shortcodes/fusion-container.php:899
+#: shortcodes/fusion-container.php:922 shortcodes/fusion-container.php:940
+#: shortcodes/fusion-container.php:1001 shortcodes/fusion-container.php:1015
 #: shortcodes/fusion-content-boxes.php:2558
 #: shortcodes/fusion-content-boxes.php:2566
 #: shortcodes/fusion-counters-box.php:793
@@ -8188,7 +8192,7 @@ msgstr ""
 #: shortcodes/fusion-alert.php:847 shortcodes/fusion-blog.php:2759
 #: shortcodes/fusion-button.php:1458 shortcodes/fusion-chart.php:841
 #: shortcodes/fusion-checklist.php:589 shortcodes/fusion-column-inner.php:619
-#: shortcodes/fusion-column.php:812 shortcodes/fusion-container.php:995
+#: shortcodes/fusion-column.php:812 shortcodes/fusion-container.php:997
 #: shortcodes/fusion-content-boxes.php:2554 shortcodes/fusion-countdown.php:859
 #: shortcodes/fusion-counters-box.php:789
 #: shortcodes/fusion-counters-circle.php:409 shortcodes/fusion-dropcap.php:248
@@ -8223,7 +8227,7 @@ msgstr ""
 #: shortcodes/fusion-alert.php:850 shortcodes/fusion-blog.php:2760
 #: shortcodes/fusion-button.php:1461 shortcodes/fusion-chart.php:842
 #: shortcodes/fusion-checklist.php:590 shortcodes/fusion-column-inner.php:620
-#: shortcodes/fusion-column.php:813 shortcodes/fusion-container.php:996
+#: shortcodes/fusion-column.php:813 shortcodes/fusion-container.php:998
 #: shortcodes/fusion-content-boxes.php:2555 shortcodes/fusion-countdown.php:860
 #: shortcodes/fusion-counters-box.php:790
 #: shortcodes/fusion-counters-circle.php:410 shortcodes/fusion-dropcap.php:251
@@ -8258,7 +8262,7 @@ msgstr ""
 #: shortcodes/fusion-alert.php:854 shortcodes/fusion-blog.php:2766
 #: shortcodes/fusion-button.php:1465 shortcodes/fusion-chart.php:848
 #: shortcodes/fusion-checklist.php:597 shortcodes/fusion-column-inner.php:627
-#: shortcodes/fusion-column.php:823 shortcodes/fusion-container.php:1009
+#: shortcodes/fusion-column.php:823 shortcodes/fusion-container.php:1011
 #: shortcodes/fusion-content-boxes.php:2562 shortcodes/fusion-countdown.php:866
 #: shortcodes/fusion-counters-box.php:797
 #: shortcodes/fusion-counters-circle.php:417 shortcodes/fusion-dropcap.php:255
@@ -8293,7 +8297,7 @@ msgstr ""
 #: shortcodes/fusion-alert.php:857 shortcodes/fusion-blog.php:2767
 #: shortcodes/fusion-button.php:1468 shortcodes/fusion-chart.php:849
 #: shortcodes/fusion-checklist.php:598 shortcodes/fusion-column-inner.php:628
-#: shortcodes/fusion-column.php:824 shortcodes/fusion-container.php:1010
+#: shortcodes/fusion-column.php:824 shortcodes/fusion-container.php:1012
 #: shortcodes/fusion-content-boxes.php:2563 shortcodes/fusion-countdown.php:867
 #: shortcodes/fusion-counters-box.php:798
 #: shortcodes/fusion-counters-circle.php:418 shortcodes/fusion-dropcap.php:258
@@ -9077,9 +9081,9 @@ msgstr ""
 #: shortcodes/fusion-column.php:1026 shortcodes/fusion-column.php:1044
 #: shortcodes/fusion-column.php:1062 shortcodes/fusion-column.php:1077
 #: shortcodes/fusion-column.php:1092 shortcodes/fusion-column.php:1117
-#: shortcodes/fusion-column.php:1129 shortcodes/fusion-container.php:1343
-#: shortcodes/fusion-container.php:1359 shortcodes/fusion-container.php:1387
-#: shortcodes/fusion-container.php:1414 shortcodes/fusion-container.php:1439
+#: shortcodes/fusion-column.php:1129 shortcodes/fusion-container.php:1345
+#: shortcodes/fusion-container.php:1361 shortcodes/fusion-container.php:1389
+#: shortcodes/fusion-container.php:1416 shortcodes/fusion-container.php:1441
 #: shortcodes/fusion-countdown.php:744 shortcodes/fusion-countdown.php:753
 #: shortcodes/fusion-countdown.php:770 shortcodes/fusion-countdown.php:787
 #: shortcodes/fusion-countdown.php:817 shortcodes/fusion-dropcap.php:219
@@ -9526,7 +9530,7 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:551 shortcodes/fusion-column.php:752
-#: shortcodes/fusion-container.php:893
+#: shortcodes/fusion-container.php:895
 msgid "Center Content"
 msgstr ""
 
@@ -9594,87 +9598,87 @@ msgid "Controls the background color."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:643 shortcodes/fusion-column.php:842
-#: shortcodes/fusion-container.php:1039 shortcodes/fusion-countdown.php:675
+#: shortcodes/fusion-container.php:1041 shortcodes/fusion-countdown.php:675
 msgid "Background Image"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:644 shortcodes/fusion-column.php:843
-#: shortcodes/fusion-container.php:1040 shortcodes/fusion-countdown.php:676
+#: shortcodes/fusion-container.php:1042 shortcodes/fusion-countdown.php:676
 msgid "Upload an image to display in the background."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:652 shortcodes/fusion-column.php:859
-#: shortcodes/fusion-container.php:1048
+#: shortcodes/fusion-container.php:1050
 msgid "Choose the postion of the background image."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:657 shortcodes/fusion-column.php:871
-#: shortcodes/fusion-container.php:1051 shortcodes/fusion-countdown.php:688
+#: shortcodes/fusion-container.php:1053 shortcodes/fusion-countdown.php:688
 msgid "Left Top"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:658 shortcodes/fusion-column.php:872
-#: shortcodes/fusion-container.php:1052 shortcodes/fusion-countdown.php:689
+#: shortcodes/fusion-container.php:1054 shortcodes/fusion-countdown.php:689
 msgid "Left Center"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:659 shortcodes/fusion-column.php:873
-#: shortcodes/fusion-container.php:1053 shortcodes/fusion-countdown.php:690
+#: shortcodes/fusion-container.php:1055 shortcodes/fusion-countdown.php:690
 msgid "Left Bottom"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:660 shortcodes/fusion-column.php:874
-#: shortcodes/fusion-container.php:1054 shortcodes/fusion-countdown.php:691
+#: shortcodes/fusion-container.php:1056 shortcodes/fusion-countdown.php:691
 msgid "Right Top"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:661 shortcodes/fusion-column.php:875
-#: shortcodes/fusion-container.php:1055 shortcodes/fusion-countdown.php:692
+#: shortcodes/fusion-container.php:1057 shortcodes/fusion-countdown.php:692
 msgid "Right Center"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:662 shortcodes/fusion-column.php:876
-#: shortcodes/fusion-container.php:1056 shortcodes/fusion-countdown.php:693
+#: shortcodes/fusion-container.php:1058 shortcodes/fusion-countdown.php:693
 msgid "Right Bottom"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:663 shortcodes/fusion-column.php:877
-#: shortcodes/fusion-container.php:1057 shortcodes/fusion-countdown.php:694
+#: shortcodes/fusion-container.php:1059 shortcodes/fusion-countdown.php:694
 msgid "Center Top"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:664 shortcodes/fusion-column.php:878
-#: shortcodes/fusion-container.php:1058 shortcodes/fusion-countdown.php:695
+#: shortcodes/fusion-container.php:1060 shortcodes/fusion-countdown.php:695
 msgid "Center Center"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:665 shortcodes/fusion-column.php:879
-#: shortcodes/fusion-container.php:1059 shortcodes/fusion-countdown.php:696
+#: shortcodes/fusion-container.php:1061 shortcodes/fusion-countdown.php:696
 msgid "Center Bottom"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:678 shortcodes/fusion-column.php:885
-#: shortcodes/fusion-container.php:1074 shortcodes/fusion-countdown.php:711
+#: shortcodes/fusion-container.php:1076 shortcodes/fusion-countdown.php:711
 msgid "Choose how the background image repeats."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:681 shortcodes/fusion-column.php:897
-#: shortcodes/fusion-container.php:1077 shortcodes/fusion-countdown.php:715
+#: shortcodes/fusion-container.php:1079 shortcodes/fusion-countdown.php:715
 msgid "No Repeat"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:682 shortcodes/fusion-column.php:898
-#: shortcodes/fusion-container.php:1078 shortcodes/fusion-countdown.php:716
+#: shortcodes/fusion-container.php:1080 shortcodes/fusion-countdown.php:716
 msgid "Repeat Vertically and Horizontally"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:683 shortcodes/fusion-column.php:899
-#: shortcodes/fusion-container.php:1079 shortcodes/fusion-countdown.php:717
+#: shortcodes/fusion-container.php:1081 shortcodes/fusion-countdown.php:717
 msgid "Repeat Horizontally"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:684 shortcodes/fusion-column.php:900
-#: shortcodes/fusion-container.php:1080 shortcodes/fusion-countdown.php:718
+#: shortcodes/fusion-container.php:1082 shortcodes/fusion-countdown.php:718
 msgid "Repeat Vertically"
 msgstr ""
 
@@ -9686,21 +9690,21 @@ msgid "Controls the border color."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:724 shortcodes/fusion-column.php:950
-#: shortcodes/fusion-container.php:1378
+#: shortcodes/fusion-container.php:1380
 #: shortcodes/fusion-syntax-highlighter.php:541
 #: shortcodes/fusion-syntax-highlighter.php:763
 msgid "Border Style"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:725 shortcodes/fusion-column.php:951
-#: shortcodes/fusion-container.php:1379
+#: shortcodes/fusion-container.php:1381
 #: shortcodes/fusion-syntax-highlighter.php:542
 #: shortcodes/fusion-syntax-highlighter.php:764
 msgid "Controls the border style."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:738 shortcodes/fusion-column.php:964
-#: shortcodes/fusion-container.php:1383
+#: shortcodes/fusion-container.php:1385
 #: shortcodes/fusion-syntax-highlighter.php:555
 #: shortcodes/fusion-syntax-highlighter.php:778 shortcodes/fusion-text.php:224
 #: shortcodes/fusion-text.php:334
@@ -9708,7 +9712,7 @@ msgid "Dashed"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:739 shortcodes/fusion-column.php:965
-#: shortcodes/fusion-container.php:1384
+#: shortcodes/fusion-container.php:1386
 #: shortcodes/fusion-syntax-highlighter.php:556
 #: shortcodes/fusion-syntax-highlighter.php:779 shortcodes/fusion-text.php:225
 #: shortcodes/fusion-text.php:335
@@ -9795,7 +9799,7 @@ msgid "Inner"
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:882 shortcodes/fusion-column.php:1108
-#: shortcodes/fusion-container.php:1430 shortcodes/fusion-widget-area.php:335
+#: shortcodes/fusion-container.php:1432 shortcodes/fusion-widget-area.php:335
 msgid "Padding"
 msgstr ""
 
@@ -9804,7 +9808,7 @@ msgid "In pixels (px), ex: 10px."
 msgstr ""
 
 #: shortcodes/fusion-column-inner.php:896 shortcodes/fusion-column.php:1122
-#: shortcodes/fusion-container.php:1406
+#: shortcodes/fusion-container.php:1408
 #: shortcodes/fusion-content-boxes.php:2536
 #: shortcodes/fusion-fontawesome.php:431 shortcodes/fusion-separator.php:498
 #: shortcodes/fusion-syntax-highlighter.php:826
@@ -9861,75 +9865,75 @@ msgstr ""
 msgid "Enter values including any valid CSS unit, ex: 4%."
 msgstr ""
 
-#: shortcodes/fusion-container.php:654
+#: shortcodes/fusion-container.php:656
 msgid "Container Padding for Default Template"
 msgstr ""
 
-#: shortcodes/fusion-container.php:655
+#: shortcodes/fusion-container.php:657
 msgid ""
 "Controls the top/right/bottom/left padding of the container element when "
 "using the Default page template. "
 msgstr ""
 
-#: shortcodes/fusion-container.php:674
+#: shortcodes/fusion-container.php:676
 msgid "Container Padding for 100% Width Template"
 msgstr ""
 
-#: shortcodes/fusion-container.php:675
+#: shortcodes/fusion-container.php:677
 msgid ""
 "Controls the top/right/bottom/left padding of the container element when "
 "using the 100% width page template."
 msgstr ""
 
-#: shortcodes/fusion-container.php:694 shortcodes/fusion-container.php:1023
+#: shortcodes/fusion-container.php:696 shortcodes/fusion-container.php:1025
 msgid "Container Background Color"
 msgstr ""
 
-#: shortcodes/fusion-container.php:695 shortcodes/fusion-container.php:1026
+#: shortcodes/fusion-container.php:697 shortcodes/fusion-container.php:1028
 msgid "Controls the background color of the container element."
 msgstr ""
 
-#: shortcodes/fusion-container.php:702 shortcodes/fusion-container.php:1336
+#: shortcodes/fusion-container.php:704 shortcodes/fusion-container.php:1338
 msgid "Container Border Size"
 msgstr ""
 
-#: shortcodes/fusion-container.php:703
+#: shortcodes/fusion-container.php:705
 msgid "Controls the top and bottom border size of the container element."
 msgstr ""
 
-#: shortcodes/fusion-container.php:715 shortcodes/fusion-container.php:1355
+#: shortcodes/fusion-container.php:717 shortcodes/fusion-container.php:1357
 msgid "Container Border Color"
 msgstr ""
 
-#: shortcodes/fusion-container.php:716 shortcodes/fusion-container.php:1356
+#: shortcodes/fusion-container.php:718 shortcodes/fusion-container.php:1358
 msgid "Controls the border color of the container element."
 msgstr ""
 
-#: shortcodes/fusion-container.php:723
+#: shortcodes/fusion-container.php:725
 msgid "Container 100% Height Navigation Background Color"
 msgstr ""
 
-#: shortcodes/fusion-container.php:724
+#: shortcodes/fusion-container.php:726
 msgid ""
 "Controls the background colors of the navigation area and name box when "
 "using 100% height containers."
 msgstr ""
 
-#: shortcodes/fusion-container.php:737
+#: shortcodes/fusion-container.php:739
 msgid "Container 100% Height Navigation Element Color"
 msgstr ""
 
-#: shortcodes/fusion-container.php:738
+#: shortcodes/fusion-container.php:740
 msgid ""
 "Controls the color of the navigation circles and text name when using 100% "
 "height containers."
 msgstr ""
 
-#: shortcodes/fusion-container.php:751
+#: shortcodes/fusion-container.php:753
 msgid "Container 100% Height On Mobile"
 msgstr ""
 
-#: shortcodes/fusion-container.php:752
+#: shortcodes/fusion-container.php:754
 msgid ""
 "Turn on to enable the 100% height containers on mobile. Please note, this "
 "feature only works when your containers have minimal content. If the "
@@ -9938,41 +9942,41 @@ msgid ""
 "on mobile."
 msgstr ""
 
-#: shortcodes/fusion-container.php:827 shortcodes/fusion-container.php:829
+#: shortcodes/fusion-container.php:829 shortcodes/fusion-container.php:831
 msgid "theme options"
 msgstr ""
 
-#: shortcodes/fusion-container.php:835
+#: shortcodes/fusion-container.php:837
 msgid " on default template. "
 msgstr ""
 
-#: shortcodes/fusion-container.php:837
+#: shortcodes/fusion-container.php:839
 msgid " on 100% width template."
 msgstr ""
 
-#: shortcodes/fusion-container.php:849
+#: shortcodes/fusion-container.php:851
 msgid "Interior Content Width"
 msgstr ""
 
-#: shortcodes/fusion-container.php:850
+#: shortcodes/fusion-container.php:852
 msgid ""
 "Select if the interior content is contained to site width or 100% width."
 msgstr ""
 
-#: shortcodes/fusion-container.php:853
+#: shortcodes/fusion-container.php:855
 msgid "100% Width"
 msgstr ""
 
-#: shortcodes/fusion-container.php:854
+#: shortcodes/fusion-container.php:856
 msgid "Site Width"
 msgstr ""
 
-#: shortcodes/fusion-container.php:861
+#: shortcodes/fusion-container.php:863
 msgid "100% Height"
 msgstr ""
 
 #. translators: URL.
-#: shortcodes/fusion-container.php:863
+#: shortcodes/fusion-container.php:865
 msgid ""
 "Select if the container should be fixed to 100%% height of the viewport. "
 "Larger content that is taller than the screen height will be cut off, this "
@@ -9981,55 +9985,55 @@ msgid ""
 "in %s while still being active on desktop."
 msgstr ""
 
-#: shortcodes/fusion-container.php:874
+#: shortcodes/fusion-container.php:876
 msgid "Enable 100% Height Scroll"
 msgstr ""
 
-#: shortcodes/fusion-container.php:875
+#: shortcodes/fusion-container.php:877
 msgid ""
 "Select to add this container to a collection of 100% height containers that "
 "share scrolling navigation. <strong>Important:</strong> When this option is "
 "used, the mobile visibility settings are disabled."
 msgstr ""
 
-#: shortcodes/fusion-container.php:894
+#: shortcodes/fusion-container.php:896
 msgid ""
 "Set to \"Yes\" to center the content vertically on 100% height containers."
 msgstr ""
 
-#: shortcodes/fusion-container.php:912
+#: shortcodes/fusion-container.php:914
 msgid "Set Columns to Equal Height"
 msgstr ""
 
-#: shortcodes/fusion-container.php:913
+#: shortcodes/fusion-container.php:915
 msgid ""
 "Select to set all columns that are used inside the container to have equal "
 "height."
 msgstr ""
 
-#: shortcodes/fusion-container.php:934
+#: shortcodes/fusion-container.php:936
 msgid "Name Of Menu Anchor"
 msgstr ""
 
-#: shortcodes/fusion-container.php:935 shortcodes/fusion-menu-anchor.php:128
+#: shortcodes/fusion-container.php:937 shortcodes/fusion-menu-anchor.php:128
 msgid "This name will be the id you will have to use in your one page menu."
 msgstr ""
 
-#: shortcodes/fusion-container.php:942
+#: shortcodes/fusion-container.php:944
 msgid "Container Visibility"
 msgstr ""
 
-#: shortcodes/fusion-container.php:946
+#: shortcodes/fusion-container.php:948
 msgid ""
 "Choose to show or hide the section on small, medium or large screens. You "
 "can choose more than one at a time."
 msgstr ""
 
-#: shortcodes/fusion-container.php:963
+#: shortcodes/fusion-container.php:965
 msgid "Container Publishing Status"
 msgstr ""
 
-#: shortcodes/fusion-container.php:964
+#: shortcodes/fusion-container.php:966
 msgid ""
 "Controls the publishing status of the container.  If draft is selected the "
 "container will only be visible to logged in users with the capability to "
@@ -10037,87 +10041,87 @@ msgid ""
 "will be in draft mode when not published."
 msgstr ""
 
-#: shortcodes/fusion-container.php:969
+#: shortcodes/fusion-container.php:971
 msgid "Published Until"
 msgstr ""
 
-#: shortcodes/fusion-container.php:970
+#: shortcodes/fusion-container.php:972
 msgid "Publish After"
 msgstr ""
 
-#: shortcodes/fusion-container.php:976
+#: shortcodes/fusion-container.php:978
 msgid "Container Publishing Date"
 msgstr ""
 
-#: shortcodes/fusion-container.php:977
+#: shortcodes/fusion-container.php:979
 msgid ""
 "Controls when the container should be published.  Can be before a date or "
 "after a date.  Use SQL time format: YYYY-MM-DD HH:MM:SS. E.g: 2016-05-10 "
 "12:30:00.  Timezone of site is used."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1027 shortcodes/fusion-container.php:1043
-#: shortcodes/fusion-container.php:1062 shortcodes/fusion-container.php:1083
-#: shortcodes/fusion-container.php:1102 shortcodes/fusion-container.php:1125
-#: shortcodes/fusion-container.php:1144 shortcodes/fusion-container.php:1162
-#: shortcodes/fusion-container.php:1177 shortcodes/fusion-container.php:1185
-#: shortcodes/fusion-container.php:1193 shortcodes/fusion-container.php:1201
-#: shortcodes/fusion-container.php:1209 shortcodes/fusion-container.php:1243
-#: shortcodes/fusion-container.php:1278 shortcodes/fusion-container.php:1309
+#: shortcodes/fusion-container.php:1029 shortcodes/fusion-container.php:1045
+#: shortcodes/fusion-container.php:1064 shortcodes/fusion-container.php:1085
+#: shortcodes/fusion-container.php:1104 shortcodes/fusion-container.php:1127
+#: shortcodes/fusion-container.php:1146 shortcodes/fusion-container.php:1164
+#: shortcodes/fusion-container.php:1179 shortcodes/fusion-container.php:1187
+#: shortcodes/fusion-container.php:1195 shortcodes/fusion-container.php:1203
+#: shortcodes/fusion-container.php:1211 shortcodes/fusion-container.php:1245
+#: shortcodes/fusion-container.php:1280 shortcodes/fusion-container.php:1311
 #: shortcodes/fusion-countdown.php:671 shortcodes/fusion-countdown.php:679
 #: shortcodes/fusion-countdown.php:699 shortcodes/fusion-countdown.php:721
 msgid "Background"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1094
+#: shortcodes/fusion-container.php:1096
 msgid "Fading Animation"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1095
+#: shortcodes/fusion-container.php:1097
 msgid ""
 "Choose to have the background image fade and blur on scroll. WARNING: Only "
 "works for images."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1113
+#: shortcodes/fusion-container.php:1115
 msgid "Background Parallax"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1114
+#: shortcodes/fusion-container.php:1116
 msgid ""
 "Choose how the background image scrolls and responds. This does not work for "
 "videos and must be set to \"No Parallax\" for the video to show."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1117
+#: shortcodes/fusion-container.php:1119
 msgid "No Parallax (no effects)"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1118
+#: shortcodes/fusion-container.php:1120
 msgid "Fixed (fixed on desktop, non-fixed on mobile)"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1119
+#: shortcodes/fusion-container.php:1121
 msgid "Up (moves up on desktop and mobile)"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1120
+#: shortcodes/fusion-container.php:1122
 msgid "Down (moves down on desktop and mobile)"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1121
+#: shortcodes/fusion-container.php:1123
 msgid "Left (moves left on desktop and mobile)"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1122
+#: shortcodes/fusion-container.php:1124
 msgid "Right (moves right on desktop and mobile)"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1136
+#: shortcodes/fusion-container.php:1138
 msgid "Enable Parallax on Mobile"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1137
+#: shortcodes/fusion-container.php:1139
 msgid ""
 "Works for up/down/left/right only. Parallax effects would most probably "
 "cause slowdowns when your site is viewed in mobile devices. If the device "
@@ -10125,108 +10129,108 @@ msgid ""
 "viewed in a mobile device."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1155
+#: shortcodes/fusion-container.php:1157
 msgid "Parallax Speed"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1156
+#: shortcodes/fusion-container.php:1158
 msgid ""
 "The movement speed, value should be between 0.1 and 1.0. A lower number "
 "means slower scrolling speed. Higher scrolling speeds will enlarge the image "
 "more."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1173
+#: shortcodes/fusion-container.php:1175
 msgid "Video MP4 Upload"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1174
+#: shortcodes/fusion-container.php:1176
 msgid ""
 "Add your MP4 video file. This format must be included to render your video "
 "with cross-browser compatibility. WebM and OGV are optional. Using videos in "
 "a 16:9 aspect ratio is recommended."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1181
+#: shortcodes/fusion-container.php:1183
 msgid "Video WebM Upload"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1182
+#: shortcodes/fusion-container.php:1184
 msgid ""
 "Add your WebM video file. This is optional, only MP4 is required to render "
 "your video with cross-browser compatibility. Using videos in a 16:9 aspect "
 "ratio is recommended."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1189
+#: shortcodes/fusion-container.php:1191
 msgid "Video OGV Upload"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1190
+#: shortcodes/fusion-container.php:1192
 msgid ""
 "Add your OGV video file. This is optional, only MP4 is required to render "
 "your video with cross-browser compatibility. Using videos in a 16:9 aspect "
 "ratio is recommended."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1197
+#: shortcodes/fusion-container.php:1199
 msgid "YouTube/Vimeo Video URL or ID"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1198
+#: shortcodes/fusion-container.php:1200
 msgid ""
 "Enter the URL to the video or the video ID of your YouTube or Vimeo video "
 "you want to use as your background. If your URL isn't showing a video, try "
 "inputting the video ID instead. Ads will show up in the video if it has them."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1205
+#: shortcodes/fusion-container.php:1207
 msgid "Video Aspect Ratio"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1206
+#: shortcodes/fusion-container.php:1208
 msgid ""
 "The video will be resized to maintain this aspect ratio, this is to prevent "
 "the video from showing any black bars. Enter an aspect ratio here such as: "
 "\"16:9\", \"4:3\" or \"16:10\". The default is \"16:9\"."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1236
+#: shortcodes/fusion-container.php:1238
 msgid "Loop Video"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1270
+#: shortcodes/fusion-container.php:1272
 msgid "Mute Video"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1271
+#: shortcodes/fusion-container.php:1273
 msgid ""
 "IMPORTANT: In some modern browsers, videos with sound won't be auto played, "
 "and thus won't show as container background when not muted."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1305
+#: shortcodes/fusion-container.php:1307
 msgid "Video Preview Image"
 msgstr ""
 
-#: shortcodes/fusion-container.php:1306
+#: shortcodes/fusion-container.php:1308
 msgid ""
 "IMPORTANT: This field is a fallback for self-hosted videos in older browsers "
 "that are not able to play the video. If your site is optimized for modern "
 "browsers, this field does not need to be filled in."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1337
+#: shortcodes/fusion-container.php:1339
 msgid "Controls the border size of the container element. In pixels."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1413
+#: shortcodes/fusion-container.php:1415
 msgid ""
 "Spacing above and below the section. Enter values including any valid CSS "
 "unit, ex: 4%."
 msgstr ""
 
-#: shortcodes/fusion-container.php:1431
+#: shortcodes/fusion-container.php:1433
 msgid "Enter values including any valid CSS unit, ex: 10px or 10%."
 msgstr ""
 
@@ -11201,7 +11205,7 @@ msgid "Controls the speed of the counter boxes elements. ex: 1000 = 1 second."
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:565
-msgid "Counter Boxes Title Font Color"
+msgid "Counter Boxes Value Font Color"
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:566
@@ -11209,11 +11213,11 @@ msgid "Controls the color of the counter values and icons."
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:573
-msgid "Counter Boxes Title Font Size"
+msgid "Counter Boxes Value Font Size"
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:574
-msgid "Controls the size of the counter value and icon."
+msgid "Controls the size of the counter value."
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:586
@@ -11257,7 +11261,7 @@ msgid "Enter some content for this counter box."
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:692
-msgid "Counter Box Title Font Color"
+msgid "Counter Box Value Font Color"
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:693
@@ -11265,13 +11269,13 @@ msgid "Controls the color of the counter 'value' and icon."
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:700
-msgid "Counter Box Title Font Size"
+msgid "Counter Box Value Font Size"
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:701
 msgid ""
-"Controls the size of the counter 'value' and icon. Enter the font size "
-"without 'px' ex: 50."
+"Controls the size of the counter 'value'. Enter the font size without 'px' "
+"ex: 50."
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:714
