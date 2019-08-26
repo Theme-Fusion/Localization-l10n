@@ -1,4 +1,15 @@
 /**
+ * The product versions.
+ * These need tobe changed on update to generate the correct JSON for the API.
+ */
+var productVersions = {
+	'Avada': '6.0.2',
+	'fusion-builder': '2.0.2',
+	'fusion-core': '4.0.2',
+	'fusion-white-label-branding': '1.1.3'
+};
+
+/**
  * An object containing the languages.
  * JSON derived from http://api.wordpress.org/translations/core/1.0/
  */
@@ -173,5 +184,35 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-msg-init-merge' );
 	grunt.loadNpmTasks( 'grunt-contrib-compress' );
 
-	grunt.registerTask( 'default', ['msgInitMerge', 'potomo', 'zip'] );
+	grunt.registerTask( 'createJSON', function() {
+		var json,
+			date   = new Date(),
+			year   = date.getUTCFullYear().toString(),
+			month  = date.getUTCMonth().toString(),
+			day    = date.getUTCDate().toString(),
+			hour   = date.getUTCHours().toString(),
+			minute = date.getUTCMinutes().toString(),
+			second = date.getUTCSeconds().toString();
+
+		// 2-digits formatting.
+		month  = ( 1 === month.length ) ? '0' + month : month;
+		day    = ( 1 === day.length ) ? '0' + day : day;
+		hour   = ( 1 === hour.length ) ? '0' + hour : hour;
+		minute = ( 1 === minute.length ) ? '0' + minute : minute;
+		second = ( 1 === second.length ) ? '0' + second : second;
+
+		for ( var c = 0; c < contexts.length; c++ ) {
+			json = {
+				translations: langs
+			};
+			for ( var i = 0; i < langs.length; i++ ) {
+				json.translations[ i ].version = productVersions[ contexts[ c ] ];
+				json.translations[ i ].updated = year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':' + second;
+				json.translations[ i ].package = 'https://raw.githubusercontent.com/Theme-Fusion/Localization-l10n/master/' + contexts[ c ] + '/' + contexts[ c ] + '-' + langs[ i ].language + '.zip';
+			}
+			grunt.file.write( 'api-' + contexts[ c ] + '.json', JSON.stringify( json ) );
+		}
+	});
+
+	grunt.registerTask( 'default', ['msgInitMerge', 'potomo', 'zip', 'createJSON'] );
 };
