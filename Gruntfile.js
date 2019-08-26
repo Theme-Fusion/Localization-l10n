@@ -214,5 +214,5 @@ module.exports = function( grunt ) {
 		}
 	});
 
-	grunt.registerTask( 'default', ['msgInitMerge', 'potomo', 'zip', 'createJSON'] );
+	grunt.registerTask( 'default', ['msgInitMerge', 'potomo', 'compress', 'createJSON'] );
 };
