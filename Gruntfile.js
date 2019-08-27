@@ -1,15 +1,4 @@
 /**
- * The product versions.
- * These need tobe changed on update to generate the correct JSON for the API.
- */
-var productVersions = {
-	'Avada': '6.0.2',
-	'fusion-builder': '2.0.2',
-	'fusion-core': '4.0.2',
-	'fusion-white-label-branding': '1.1.3'
-};
-
-/**
  * An object containing the languages.
  * JSON derived from http://api.wordpress.org/translations/core/1.0/
  */
@@ -192,7 +181,8 @@ module.exports = function( grunt ) {
 			day    = date.getUTCDate().toString(),
 			hour   = date.getUTCHours().toString(),
 			minute = date.getUTCMinutes().toString(),
-			second = date.getUTCSeconds().toString();
+			second = date.getUTCSeconds().toString(),
+			productVersion;
 
 		// 2-digits formatting.
 		month  = ( 1 === month.length ) ? '0' + month : month;
@@ -205,8 +195,19 @@ module.exports = function( grunt ) {
 			json = {
 				translations: langs
 			};
+
+			// Get the product version from the .pot files.
+			productVersion = grunt.file.read( contexts[ c ] + '/' +contexts[ c ] + '.pot' );
+			productVersion = productVersion.split( 'Project-Id-Version:' )[1];
+			productVersion = productVersion.split( '\\n"' )[0];
+			productVersion = productVersion.replace( 'Avada', '' );
+			productVersion = productVersion.replace( 'Fusion Builder', '' );
+			productVersion = productVersion.replace( 'Fusion Core', '' );
+			productVersion = productVersion.replace( 'Fusion White Label Branding', '' );
+			productVersion = productVersion.trim();
+	
 			for ( var i = 0; i < langs.length; i++ ) {
-				json.translations[ i ].version = productVersions[ contexts[ c ] ];
+				json.translations[ i ].version = productVersion;
 				json.translations[ i ].updated = year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':' + second;
 				json.translations[ i ].package = 'https://raw.githubusercontent.com/Theme-Fusion/Localization-l10n/master/' + contexts[ c ] + '/' + contexts[ c ] + '-' + langs[ i ].language + '.zip';
 			}
