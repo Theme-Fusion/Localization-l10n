@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2019-08-28 09:40:01+00:00\n"
+"POT-Creation-Date: 2019-08-28 13:31:20+00:00\n"
 "PO-Revision-Date: 2019-07-28 14:01+0200\n"
 "Last-Translator: Cristian Ganzetti\n"
 "Language-Team: Italian (Italy)language/it_IT/)\n"
@@ -327,7 +327,7 @@ msgstr "Tutti"
 
 #: includes/admin-screens/demos.php:215 includes/admin-screens/demos.php:347
 #: includes/class-avada-admin.php:1354
-#: includes/lib/inc/fusion-app/templates/options/import.php:61
+#: includes/lib/inc/fusion-app/templates/options/import.php:90
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:125
 #: includes/metaboxes/tabs/tab_avada_page_options.php:61
 #: includes/options/colors.php:185 includes/options/colors.php:234
@@ -7177,6 +7177,7 @@ msgstr ""
 # @ bbpress
 # @ Avada
 #: includes/lib/inc/fusion-app/helpers.php:471
+#: includes/lib/inc/fusion-app/templates/options/import.php:93
 #: includes/lib/inc/redux/extensions/repeater/repeater/field_repeater.php:187
 #: includes/lib/inc/redux/extensions/repeater/repeater/field_repeater.php:230
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:167
@@ -7440,15 +7441,26 @@ msgstr ""
 msgid "Demo"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/templates/options/import.php:35
+#: includes/lib/inc/fusion-app/templates/options/import.php:24
+#: includes/metaboxes/tabs/tab_avada_page_options.php:43
+msgid "Manage Page Options"
+msgstr "Gestisci opzioni pagina"
+
+#: includes/lib/inc/fusion-app/templates/options/import.php:39
 msgid "Select a Demo"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/templates/options/import.php:41
+#: includes/lib/inc/fusion-app/templates/options/import.php:45
 msgid "Search Demos"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/templates/options/import.php:55
+#: includes/lib/inc/fusion-app/templates/options/import.php:63
+#: includes/lib/inc/fusion-app/templates/options/import.php:69
+#: includes/metaboxes/tabs/tab_avada_page_options.php:49
+msgid "Select A Page Option Set"
+msgstr "Selezionare un'opzione di pagina impostata"
+
+#: includes/lib/inc/fusion-app/templates/options/import.php:84
 msgid ""
 "Click the import button to select a previously exported JSON file to upload "
 "and import."
@@ -10108,20 +10120,12 @@ msgstr ""
 msgid "Enter a name"
 msgstr "Inserisci il tuo nome"
 
-#: includes/metaboxes/tabs/tab_avada_page_options.php:43
-msgid "Manage Page Options"
-msgstr "Gestisci opzioni pagina"
-
 #: includes/metaboxes/tabs/tab_avada_page_options.php:44
 msgid ""
 "Select a set of saved Page Options, then choose to import or delete them."
 msgstr ""
 "Selezionare un insieme di opzioni di pagina salvate, quindi scegliere di "
 "importarle o eliminarle."
-
-#: includes/metaboxes/tabs/tab_avada_page_options.php:49
-msgid "Select A Page Option Set"
-msgstr "Selezionare un'opzione di pagina impostata"
 
 #: includes/metaboxes/tabs/tab_avada_page_options.php:70
 msgid ""
