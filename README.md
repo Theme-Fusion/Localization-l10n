@@ -10,7 +10,7 @@ You can find a list of contributors on [this page](https://github.com/Theme-Fusi
 
 ## How to Contribute
 
-If you find that some strings are not translated for your language, you can use software like [Poedit](https://poedit.net/) which is free and cross-platform to translate them, and then submit your updated files so we can include them.
+If you find that some strings are not translated for your language, you can use software like [Poedit](https://poedit.net/) which is free and cross-platform to translate them, and then submit your updated files so we can include them.  
 **IMPORTANT**: Make sure sure you are using the latest files for your locale _before_ you start translating them.
 
 You can find instruction on how to fork the repository and contribute back in this [GitHub guide](https://guides.github.com/activities/forking/#making-a-pull-request).
