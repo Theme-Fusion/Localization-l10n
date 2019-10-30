@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2019-10-29 14:01:02+00:00\n"
+"POT-Creation-Date: 2019-10-30 10:38:21+00:00\n"
 "PO-Revision-Date: 2019-07-28 14:01+0200\n"
 "Last-Translator: Cristian Ganzetti\n"
 "Language-Team: Italian (Italy)language/it_IT/)\n"
@@ -422,7 +422,7 @@ msgstr "Fatto"
 #: includes/admin-screens/plugins.php:227
 #: includes/admin-screens/registration.php:41
 #: includes/admin-screens/support.php:62
-#: includes/admin-screens/system-status.php:696
+#: includes/admin-screens/system-status.php:712
 #: includes/admin-screens/welcome.php:41
 msgid ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
@@ -1055,17 +1055,38 @@ msgstr "Versione Attuale:"
 msgid "Previous Versions:"
 msgstr "Versioni Precedenti:"
 
-#: includes/admin-screens/system-status.php:61
+#: includes/admin-screens/system-status.php:53
 msgid "No previous versions could be detected"
 msgstr "Non sono state rilevate versioni precedenti"
 
+#: includes/admin-screens/system-status.php:115
 #: includes/admin-screens/system-status.php:119
-#: includes/admin-screens/system-status.php:123
 msgid "Avada Conversion Controls"
 msgstr "Controlli di conversione Avada"
 
+#. translators: Version Number.
+#: includes/admin-screens/system-status.php:126
+msgid "Avada %s Conversion:"
+msgstr ""
+
+#: includes/admin-screens/system-status.php:127
+#: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
+msgid "Changelog"
+msgstr "Changelog"
+
+#. translators: Version Number.
+#: includes/admin-screens/system-status.php:134
+msgid "Rerun Theme Options Conversion for version %s manually."
+msgstr ""
+
+#: includes/admin-screens/system-status.php:135
+#: includes/admin-screens/system-status.php:167
+#: includes/admin-screens/system-status.php:188
+msgid "Run Conversion"
+msgstr "Eseguire la conversione"
+
 #. translators: URL.
-#: includes/admin-screens/system-status.php:131
+#: includes/admin-screens/system-status.php:147
 msgid ""
 "<strong style=\"color:red;\">IMPORTANT:</strong> Updating to Avada 4.0 and "
 "5.0 requires a conversion process to ensure your content is compatible with "
@@ -1086,13 +1107,13 @@ msgstr ""
 "bisogno di assistenza."
 
 #. translators: Version Number.
-#: includes/admin-screens/system-status.php:137
-#: includes/admin-screens/system-status.php:158
+#: includes/admin-screens/system-status.php:154
+#: includes/admin-screens/system-status.php:175
 msgid "Previous Version"
 msgstr "Versione precedente"
 
-#: includes/admin-screens/system-status.php:137
-#: includes/admin-screens/system-status.php:158
+#: includes/admin-screens/system-status.php:154
+#: includes/admin-screens/system-status.php:175
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:8
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/changelog.php:10
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:10
@@ -1102,48 +1123,43 @@ msgstr "Versione precedente"
 msgid "Version %s"
 msgstr "Versione %s"
 
-#: includes/admin-screens/system-status.php:141
+#: includes/admin-screens/system-status.php:158
 msgid "Avada 4.0 Conversion:"
 msgstr "Conversione Avada 4.0:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:142
-#: includes/admin-screens/system-status.php:163
+#: includes/admin-screens/system-status.php:159
+#: includes/admin-screens/system-status.php:180
 #: includes/class-avada-admin.php:682
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:296
 msgid "Learn More"
 msgstr "Maggiori informazioni"
 
 #. translators: Version Number.
-#: includes/admin-screens/system-status.php:149
+#: includes/admin-screens/system-status.php:166
 msgid "Rerun Theme Options Conversion from version %s to version 4.0 manually."
 msgstr ""
 "Rieseguire opzioni tema conversione dalla versione %s alla versione 4,0 "
 "manualmente."
 
-#: includes/admin-screens/system-status.php:150
-#: includes/admin-screens/system-status.php:171
-msgid "Run Conversion"
-msgstr "Eseguire la conversione"
-
-#: includes/admin-screens/system-status.php:162
+#: includes/admin-screens/system-status.php:179
 msgid "Avada 5.0 Conversion:"
 msgstr "Avada 5,0 conversione:"
 
 #. translators: Version Number.
-#: includes/admin-screens/system-status.php:170
+#: includes/admin-screens/system-status.php:187
 msgid "Rerun Shortcode Conversion from version %s to version 5.0 manually."
 msgstr "Riavvia la conversione manualmente."
 
-#: includes/admin-screens/system-status.php:183
+#: includes/admin-screens/system-status.php:200
 msgid "Revert Fusion Builder Conversion."
 msgstr "Ripristinare la conversione di Fusion Builder."
 
-#: includes/admin-screens/system-status.php:184
+#: includes/admin-screens/system-status.php:201
 msgid "Revert Conversion"
 msgstr "Ritorna la conversione precedente"
 
-#: includes/admin-screens/system-status.php:194
+#: includes/admin-screens/system-status.php:211
 msgid ""
 "The backups cleanup process has been scheduled and your the version 5.0 "
 "conversion backups will be purged from your database."
@@ -1152,11 +1168,11 @@ msgstr ""
 "conversione della versione 5,0 verranno eliminati dal database."
 
 #. translators: Numbers.
-#: includes/admin-screens/system-status.php:232
+#: includes/admin-screens/system-status.php:249
 msgid "Currently removing backups from your database (step %1$s of %2$s)"
 msgstr "Rimozione dei backup dal database (passaggio%1$s di%2$s)"
 
-#: includes/admin-screens/system-status.php:235
+#: includes/admin-screens/system-status.php:252
 msgid ""
 "Remove Shortcode Conversion Backups created during the version 5.0 "
 "conversion."
@@ -1164,93 +1180,93 @@ msgstr ""
 "Rimuovere brevi backup di conversione creati durante la versione 5,0 "
 "conversione."
 
-#: includes/admin-screens/system-status.php:241
+#: includes/admin-screens/system-status.php:258
 msgid "Remove Backups"
 msgstr "Rimuovere i backup"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:255
-#: includes/admin-screens/system-status.php:259
+#: includes/admin-screens/system-status.php:271
+#: includes/admin-screens/system-status.php:275
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:73
 msgid "WordPress Environment"
 msgstr "Ambiente WordPress"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:264
+#: includes/admin-screens/system-status.php:280
 msgid "Home URL:"
 msgstr "URL Home:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:265
+#: includes/admin-screens/system-status.php:281
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:83
 msgid "The URL of your site's homepage."
 msgstr "L'URL della homepage del tuo sito."
 
-#: includes/admin-screens/system-status.php:269
+#: includes/admin-screens/system-status.php:285
 msgid "Site URL:"
 msgstr "URL Sito:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:270
+#: includes/admin-screens/system-status.php:286
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:92
 msgid "The root URL of your site."
 msgstr "L'URL della root del tuo sito."
 
-#: includes/admin-screens/system-status.php:274
+#: includes/admin-screens/system-status.php:290
 msgid "WP Content Path:"
 msgstr "Percorso Contenuto WP:"
 
-#: includes/admin-screens/system-status.php:275
+#: includes/admin-screens/system-status.php:291
 msgid "System path of your wp-content directory."
 msgstr "Percorso di sistema della directory wp-content."
 
 # @ woocommerce
-#: includes/admin-screens/system-status.php:276
-#: includes/admin-screens/system-status.php:281 templates/wc-view-order.php:144
+#: includes/admin-screens/system-status.php:292
+#: includes/admin-screens/system-status.php:297 templates/wc-view-order.php:144
 #: templates/wc-view-order.php:157
 msgid "N/A"
 msgstr "N/A"
 
-#: includes/admin-screens/system-status.php:279
+#: includes/admin-screens/system-status.php:295
 msgid "WP Path:"
 msgstr "Percorso WP:"
 
-#: includes/admin-screens/system-status.php:280
+#: includes/admin-screens/system-status.php:296
 msgid "System path of your WP root directory."
 msgstr "Percorso di sistema della directory root di WP."
 
-#: includes/admin-screens/system-status.php:284
+#: includes/admin-screens/system-status.php:300
 msgid "WP Version:"
 msgstr "Versione WP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:285
+#: includes/admin-screens/system-status.php:301
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:140
 msgid "The version of WordPress installed on your site."
 msgstr "La versione di WordPress installata sul tuo sito."
 
-#: includes/admin-screens/system-status.php:289
+#: includes/admin-screens/system-status.php:305
 msgid "WP Multisite:"
 msgstr "Multisito WP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:290
+#: includes/admin-screens/system-status.php:306
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:151
 msgid "Whether or not you have WordPress Multisite enabled."
 msgstr "Multisito WordPress abilitato o meno."
 
-#: includes/admin-screens/system-status.php:294
+#: includes/admin-screens/system-status.php:310
 msgid "PHP Memory Limit:"
 msgstr "PHP Limite Memoria:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:295
+#: includes/admin-screens/system-status.php:311
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:213
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
 msgstr "La quantità massima di memoria (RAM) che il vostro sito può usare."
 
 #. translators: %1$s: Current value. %2$s: URL.
-#: includes/admin-screens/system-status.php:312
+#: includes/admin-screens/system-status.php:328
 msgid ""
 "%1$s - We recommend setting memory to at least <strong>128MB</strong>. "
 "Please define memory limit in <strong>wp-config.php</strong> file. To learn "
@@ -1262,90 +1278,90 @@ msgstr ""
 "strong>. Per ulteriori informazioni, vai su: <a href=\"%2$s\" target=\"_blank"
 "\" rel=\"noopener noreferrer\">Aumentare la memoria destinata al PHP.</a>"
 
-#: includes/admin-screens/system-status.php:322
+#: includes/admin-screens/system-status.php:338
 msgid "WP Debug Mode:"
 msgstr "Modalità Debug WP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:323
+#: includes/admin-screens/system-status.php:339
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:243
 msgid "Displays whether or not WordPress is in Debug Mode."
 msgstr "Mostra se Wordpress è o meno in modalità Debug."
 
-#: includes/admin-screens/system-status.php:333
+#: includes/admin-screens/system-status.php:349
 msgid "Language:"
 msgstr "Lingua:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:334
+#: includes/admin-screens/system-status.php:350
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:258
 msgid "The current language used by WordPress. Default = English"
 msgstr "La lingua attualmente utilizzata da Wordpress. Predefinita = Inglese"
 
-#: includes/admin-screens/system-status.php:340
+#: includes/admin-screens/system-status.php:356
 msgid " Environment"
 msgstr " Ambiente"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:344
+#: includes/admin-screens/system-status.php:360
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:297
 msgid "Server Environment"
 msgstr "Ambiente Server"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:349
+#: includes/admin-screens/system-status.php:365
 msgid "Server Info:"
 msgstr "Server:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:350
+#: includes/admin-screens/system-status.php:366
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:307
 msgid "Information about the web server that is currently hosting your site."
 msgstr "Informazioni sul server che ospita il tuo sito."
 
-#: includes/admin-screens/system-status.php:351
+#: includes/admin-screens/system-status.php:367
 msgid "Unknown"
 msgstr "Sconosciuto"
 
-#: includes/admin-screens/system-status.php:354
+#: includes/admin-screens/system-status.php:370
 msgid "PHP Version:"
 msgstr "Versione PHP:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:355
+#: includes/admin-screens/system-status.php:371
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:335
 msgid "The version of PHP installed on your hosting server."
 msgstr "La versione di PHP installata sul tuo server di hosting."
 
-#: includes/admin-screens/system-status.php:365
+#: includes/admin-screens/system-status.php:381
 msgid "PHP Version could not be detected."
 msgstr "Non è stato possibile rilevare la versione PHP."
 
 #. translators: %1$s: Current PHP version. %2$s: Recommended PHP version. %3$s:
 #. "WordPress Requirements" link.
-#: includes/admin-screens/system-status.php:372
+#: includes/admin-screens/system-status.php:388
 msgid "%1$s. WordPress recommendation: %2$s or above. See %3$s for details."
 msgstr "%1$s. Wordpress raccomanda: %2$s o superiore. Vedi %3$s per dettagli."
 
-#: includes/admin-screens/system-status.php:375
+#: includes/admin-screens/system-status.php:391
 msgid "WordPress Requirements"
 msgstr "Requisiti WordPress"
 
-#: includes/admin-screens/system-status.php:385
+#: includes/admin-screens/system-status.php:401
 msgid "PHP Post Max Size:"
 msgstr "PHP Post Max Size:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:386
+#: includes/admin-screens/system-status.php:402
 msgid "The largest file size that can be contained in one post."
 msgstr "La dimensione massima di un file contenuto in un articolo."
 
-#: includes/admin-screens/system-status.php:390
+#: includes/admin-screens/system-status.php:406
 msgid "PHP Time Limit:"
 msgstr "PHP Time Limit:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:391
+#: includes/admin-screens/system-status.php:407
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:366
 msgid ""
 "The amount of time (in seconds) that your site will spend on a single "
@@ -1355,7 +1371,7 @@ msgstr ""
 "operazione prima del time-out (per evitare blocchi del server)"
 
 #. translators: %1$s: Current value. %2$s: URL.
-#: includes/admin-screens/system-status.php:398
+#: includes/admin-screens/system-status.php:414
 msgid ""
 "%1$s - We recommend setting max execution time to at least 180.<br />See: <a "
 "href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing max "
@@ -1365,14 +1381,14 @@ msgstr ""
 "<br />Vedi: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
 "\">Aumentare l'esecuzione massima in PHP</a>"
 
-#: includes/admin-screens/system-status.php:406
+#: includes/admin-screens/system-status.php:422
 msgid "PHP Max Input Vars:"
 msgstr "PHP Max Input Vars:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:407
-#: includes/admin-screens/system-status.php:451
-#: includes/admin-screens/system-status.php:487
+#: includes/admin-screens/system-status.php:423
+#: includes/admin-screens/system-status.php:467
+#: includes/admin-screens/system-status.php:503
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:371
 msgid ""
 "The maximum number of variables your server can use for a single function to "
@@ -1382,9 +1398,9 @@ msgstr ""
 "singola funzione per evitare sovraccarichi."
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
-#: includes/admin-screens/system-status.php:434
-#: includes/admin-screens/system-status.php:478
-#: includes/admin-screens/system-status.php:514
+#: includes/admin-screens/system-status.php:450
+#: includes/admin-screens/system-status.php:494
+#: includes/admin-screens/system-status.php:530
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
 "POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" rel="
@@ -1395,11 +1411,11 @@ msgstr ""
 "rel=\"noopener noreferrer\">aumento max input Vars limite. </a>"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:442
+#: includes/admin-screens/system-status.php:458
 msgid "SUHOSIN Installed:"
 msgstr "SUHOSIN Installato:"
 
-#: includes/admin-screens/system-status.php:444
+#: includes/admin-screens/system-status.php:460
 msgid ""
 "Suhosin is an advanced protection system for PHP installations. It was "
 "designed to protect your servers on the one hand against a number of well "
@@ -1416,19 +1432,19 @@ msgstr ""
 "aumentare i limiti di invio dei dati."
 
 # @ Avada
-#: includes/admin-screens/system-status.php:450
+#: includes/admin-screens/system-status.php:466
 msgid "Suhosin Post Max Vars:"
 msgstr "Suhosin Post Max Vars:"
 
-#: includes/admin-screens/system-status.php:486
+#: includes/admin-screens/system-status.php:502
 msgid "Suhosin Request Max Vars:"
 msgstr "Suhosin Request Max Vars:"
 
-#: includes/admin-screens/system-status.php:522
+#: includes/admin-screens/system-status.php:538
 msgid "Suhosin Post Max Value Length:"
 msgstr "Suhosin Post Max Value Length:"
 
-#: includes/admin-screens/system-status.php:523
+#: includes/admin-screens/system-status.php:539
 msgid ""
 "Defines the maximum length of a variable that is registered through a POST "
 "request."
@@ -1437,7 +1453,7 @@ msgstr ""
 "richiesta post."
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
-#: includes/admin-screens/system-status.php:531
+#: includes/admin-screens/system-status.php:547
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
 "prohibit the Theme Options data from being saved to your database. See: <a "
@@ -1450,11 +1466,11 @@ msgstr ""
 "Configurazione Info </a>."
 
 # @ Avada
-#: includes/admin-screens/system-status.php:541
+#: includes/admin-screens/system-status.php:557
 msgid "ZipArchive:"
 msgstr "Archivi Giornalieri:"
 
-#: includes/admin-screens/system-status.php:542
+#: includes/admin-screens/system-status.php:558
 msgid ""
 "ZipArchive is required for importing demos. They are used to import and "
 "export zip files specifically for sliders."
@@ -1462,45 +1478,45 @@ msgstr ""
 "ZipArchive è richiesto per l'importazione di demo. Sono utilizzati per "
 "importare ed esportare file zip appositamente per le presentazioni."
 
-#: includes/admin-screens/system-status.php:546
+#: includes/admin-screens/system-status.php:562
 msgid "MySQL Version:"
 msgstr "Versione MySQL:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:547
+#: includes/admin-screens/system-status.php:563
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:400
 msgid "The version of MySQL installed on your hosting server."
 msgstr "La versione di MySQL installata sul tuo server di hosting."
 
-#: includes/admin-screens/system-status.php:554
+#: includes/admin-screens/system-status.php:570
 msgid "Max Upload Size:"
 msgstr "Max Upload Size:"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:555
+#: includes/admin-screens/system-status.php:571
 msgid ""
 "The largest file size that can be uploaded to your WordPress installation."
 msgstr ""
 "La dimensione massima di file che può essere caricare sulla tua "
 "installazione WordPress."
 
-#: includes/admin-screens/system-status.php:559
+#: includes/admin-screens/system-status.php:575
 msgid "DOMDocument:"
 msgstr "DOMDocument:"
 
-#: includes/admin-screens/system-status.php:560
+#: includes/admin-screens/system-status.php:576
 msgid ""
 "DOMDocument is required for the Fusion Builder plugin to properly function."
 msgstr ""
 "DOMDocument è necessario per il plugin Fusion Builder affinché possa "
 "funzionare correttamente."
 
-#: includes/admin-screens/system-status.php:564
+#: includes/admin-screens/system-status.php:580
 msgid "WP Remote Get:"
 msgstr "Accesso WP Remoto:"
 
-#: includes/admin-screens/system-status.php:565
-#: includes/admin-screens/system-status.php:579
+#: includes/admin-screens/system-status.php:581
+#: includes/admin-screens/system-status.php:595
 msgid ""
 "Avada uses this method to communicate with different APIs, e.g. Google, "
 "Twitter, Facebook."
@@ -1509,15 +1525,15 @@ msgstr ""
 "Google, Twitter, Facebook."
 
 # @ Avada
-#: includes/admin-screens/system-status.php:578
+#: includes/admin-screens/system-status.php:594
 msgid "WP Remote Post:"
 msgstr "Articolo WP Remoto:"
 
-#: includes/admin-screens/system-status.php:592
+#: includes/admin-screens/system-status.php:608
 msgid "GD Library:"
 msgstr "Libreria GD:"
 
-#: includes/admin-screens/system-status.php:593
+#: includes/admin-screens/system-status.php:609
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
@@ -1526,56 +1542,64 @@ msgstr ""
 "il tempo di caricamento del sito"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:596
+#: includes/admin-screens/system-status.php:612
 #: includes/class-avada-tgm-plugin-activation.php:2372
 msgid "Not Installed"
 msgstr "Non installato"
 
-#: includes/admin-screens/system-status.php:598
+#: includes/admin-screens/system-status.php:614
 msgid "Installed"
 msgstr "Installato"
 
-#: includes/admin-screens/system-status.php:611
-#: includes/admin-screens/system-status.php:615
+#: includes/admin-screens/system-status.php:627
+#: includes/admin-screens/system-status.php:631
 msgid "Updates Server Status"
 msgstr "Aggiornamenti Stato Server"
 
-#: includes/admin-screens/system-status.php:621
+#: includes/admin-screens/system-status.php:637
 msgid "Check Envato Server Status"
 msgstr "Controlla Stato Server Envato"
 
-#: includes/admin-screens/system-status.php:626
+#: includes/admin-screens/system-status.php:642
 msgid "Server from which Avada is updated."
 msgstr "Server da cui Avada viene aggiornato."
 
-#: includes/admin-screens/system-status.php:631
+#: includes/admin-screens/system-status.php:647
 msgid "Check ThemeFusion Server Status"
 msgstr "Controlla Stato Server ThemeFusion"
 
-#: includes/admin-screens/system-status.php:636
+#: includes/admin-screens/system-status.php:652
 msgid "Server from which plugins and patches are downloaded."
 msgstr "Server da cui vengono scaricati i plugin e le patch."
 
 # @ Avada
-#: includes/admin-screens/system-status.php:645
-#: includes/admin-screens/system-status.php:656
+#: includes/admin-screens/system-status.php:661
+#: includes/admin-screens/system-status.php:672
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:531
 msgid "Active Plugins"
 msgstr "Plugin Attivi"
 
 # @ Avada
-#: includes/admin-screens/system-status.php:673
+#: includes/admin-screens/system-status.php:689
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:546
 msgid "Visit plugin homepage"
 msgstr "Visita homepage plugin"
 
 #. translators: plugin author.
-#: includes/admin-screens/system-status.php:685
+#: includes/admin-screens/system-status.php:701
 msgid "by %s"
 msgstr "di %s"
 
+#. translators: Version Number.
+#: includes/admin-screens/system-status.php:723
+msgid ""
+"Note: By clicking OK, the Theme Options conversion for Avada %s will be "
+"rerun. This page will be newly loaded, which already completes the "
+"conversion."
+msgstr ""
+
 #. translators: last version.
-#: includes/admin-screens/system-status.php:705
+#: includes/admin-screens/system-status.php:733
 msgid ""
 "Warning: By clicking OK, all changes made to your theme options after "
 "installing Avada 4.0 will be lost. Your Theme Options will be reset to the "
@@ -1585,7 +1609,7 @@ msgstr ""
 "del tema dopo l'installazione di Avada 4,0 saranno perse. Le opzioni del "
 "tema verranno reimpostate sui valori da %s e convertite nuovamente in 4,0."
 
-#: includes/admin-screens/system-status.php:718
+#: includes/admin-screens/system-status.php:743
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can restart the conversion of your page contents to the "
@@ -1595,7 +1619,7 @@ msgstr ""
 "conversione, in cui è possibile riavviare la conversione dei contenuti della "
 "pagina nel nuovo formato di Fusion Builder."
 
-#: includes/admin-screens/system-status.php:727
+#: includes/admin-screens/system-status.php:751
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can start the conversion reversion of your page contents "
@@ -1605,7 +1629,7 @@ msgstr ""
 "conversione, in cui è possibile avviare la reversione della conversione dei "
 "contenuti della pagina nel vecchio formato Fusion Builder."
 
-#: includes/admin-screens/system-status.php:736
+#: includes/admin-screens/system-status.php:759
 msgid ""
 "Warning: This is a non-reversable process. By clicking OK, all backups "
 "created during the 5.0 shortcode-conversion process will be removed from "
@@ -2559,7 +2583,7 @@ msgstr ""
 msgid "Version"
 msgstr "Versione"
 
-#: includes/class-avada-admin.php:700 includes/class-avada-upgrade.php:366
+#: includes/class-avada-admin.php:700 includes/class-avada-upgrade.php:376
 msgid "View Changelog"
 msgstr "Vedi Changelog"
 
@@ -4227,7 +4251,7 @@ msgstr "Tutti i plugins installati ed attivati con successo. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:367
+#: includes/class-avada-upgrade.php:377
 msgid "Dismiss this notice"
 msgstr "Ignora questo avviso"
 
@@ -9382,10 +9406,6 @@ msgstr "Cosa c'è di nuovo"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:311
 msgid "Extensions"
 msgstr "Estensioni"
-
-#: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
-msgid "Changelog"
-msgstr "Changelog"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:317
 msgid "Credits"
