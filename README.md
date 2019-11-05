@@ -15,7 +15,7 @@ If you find that some strings are not translated for your language, you can use 
 
 You can find instruction on how to fork the repository and contribute back in this [GitHub guide](https://guides.github.com/activities/forking/#making-a-pull-request).
 
-If you are not comfortable using GitHub for your translations you can also submit them by sending an email to our support team, and we will submit the updated translations for you.
+If you are not comfortable using GitHub for your translations you can also submit them by sending an email to our support team, and we will submit the updated translations for you > support@theme-fusion.com
 
 There is no need to submit `.mo` or `.zip` files, we automatically generate these after your translations are merged. The only thing that should be included in your pull-request is an updated `.po` file for your locale.
 
