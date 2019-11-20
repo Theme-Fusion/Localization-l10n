@@ -135,14 +135,14 @@ module.exports = function( grunt ) {
 			if ( 'all' === project || projectName === project ) {
 
 				// Get the product version from the .pot files.
-				productVersion = grunt.file.read( projectName + '/' + projectName + '.pot' );
-				productVersion = productVersion.split( 'Project-Id-Version:' )[1];
-				productVersion = productVersion.split( '\\n"' )[0];
-				productVersion = productVersion.replace( 'Avada', '' );
-				productVersion = productVersion.replace( 'Fusion Builder', '' );
-				productVersion = productVersion.replace( 'Fusion Core', '' );
-				productVersion = productVersion.replace( 'Fusion White Label Branding', '' );
-				productVersion = productVersion.trim();
+				productVersion = grunt.file.read( projectName + '/' + projectName + '.pot' )
+					.split( 'Project-Id-Version:' )[1]
+					.split( '\\n"' )[0]
+					.replace( 'Avada', '' )
+					.replace( 'Fusion Builder', '' )
+					.replace( 'Fusion Core', '' )
+					.replace( 'Fusion White Label Branding', '' )
+					.trim();
 
 				for ( var i = 0; i < langs.length; i++ ) {
 					if ( 'all' === locale || langs[ i ].language === locale ) {
