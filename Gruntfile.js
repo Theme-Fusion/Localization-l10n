@@ -113,7 +113,7 @@ module.exports = function( grunt ) {
 		var json,
 			date   = new Date(),
 			year   = date.getUTCFullYear().toString(),
-			month  = date.getUTCMonth().toString(),
+			month  = ( date.getUTCMonth() + 1 ).toString(), // Month starts from 0, not 1.
 			day    = date.getUTCDate().toString(),
 			hour   = date.getUTCHours().toString(),
 			minute = date.getUTCMinutes().toString(),
