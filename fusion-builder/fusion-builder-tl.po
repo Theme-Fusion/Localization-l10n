@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2019-10-29 13:27:59+00:00\n"
+"POT-Creation-Date: 2019-11-20 14:12:07+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:06+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Tagalog\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: front-end/class-fusion-builder-front.php:1008
 #: inc/class-fusion-builder-gutenberg.php:177
 #: inc/class-fusion-builder-gutenberg.php:363 inc/class-fusion-builder.php:1614
-#: inc/lib/inc/fusion-app/class-fusion-app.php:587
+#: inc/lib/inc/fusion-app/class-fusion-app.php:557
 msgid "Fusion Builder Live"
 msgstr ""
 
@@ -65,17 +65,17 @@ msgid "Dynamic Content"
 msgstr ""
 
 #: front-end/class-fusion-builder-front.php:1487 inc/helpers.php:1778
-#: inc/lib/inc/functions.php:419 shortcodes/fusion-recent-posts.php:414
+#: inc/lib/inc/functions.php:408 shortcodes/fusion-recent-posts.php:414
 msgid "0 Comments"
 msgstr ""
 
 #: front-end/class-fusion-builder-front.php:1487 inc/helpers.php:1778
-#: inc/lib/inc/functions.php:419 shortcodes/fusion-recent-posts.php:414
+#: inc/lib/inc/functions.php:408 shortcodes/fusion-recent-posts.php:414
 msgid "1 Comment"
 msgstr ""
 
 #: front-end/class-fusion-builder-front.php:1487 inc/helpers.php:1778
-#: inc/lib/inc/functions.php:419 shortcodes/fusion-recent-posts.php:414
+#: inc/lib/inc/functions.php:408 shortcodes/fusion-recent-posts.php:414
 msgid "% Comments"
 msgstr ""
 
@@ -385,7 +385,6 @@ msgstr ""
 
 #: front-end/templates/front-end-toolbar.php:46
 #: inc/class-fusion-builder-gutenberg.php:171
-#: inc/lib/inc/fusion-app/helpers.php:511
 msgid "Add New"
 msgstr ""
 
@@ -424,7 +423,7 @@ msgstr ""
 msgid "Next Page Separator"
 msgstr ""
 
-#: front-end/templates/next-page.php:21 inc/lib/inc/functions.php:917
+#: front-end/templates/next-page.php:21 inc/lib/inc/functions.php:905
 msgid "Pages:"
 msgstr ""
 
@@ -1334,9 +1333,9 @@ msgid "Controls when the animation should start."
 msgstr ""
 
 #: inc/class-fusion-builder-element-helper.php:164 inc/helpers.php:227
-#: inc/helpers.php:265 inc/lib/inc/class-fusion-images.php:972
-#: inc/lib/inc/fusion-app/class-fusion-app.php:957
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1050
+#: inc/helpers.php:265 inc/lib/inc/class-fusion-images.php:974
+#: inc/lib/inc/fusion-app/class-fusion-app.php:897
+#: inc/lib/inc/fusion-app/class-fusion-app.php:990
 #: inc/lib/inc/fusion-app/helpers.php:470
 #: inc/lib/inc/redux/framework/FusionReduxCore/framework.php:1902
 #: shortcodes/fusion-alert.php:706 shortcodes/fusion-alert.php:719
@@ -2590,7 +2589,7 @@ msgstr ""
 msgid "one four fourth 1/4"
 msgstr ""
 
-#: inc/helpers.php:884 inc/lib/inc/class-fusion-data.php:150
+#: inc/helpers.php:884 inc/lib/inc/class-fusion-data.php:138
 #: shortcodes/fusion-person.php:1383 shortcodes/fusion-sharingbox.php:201
 #: shortcodes/fusion-social-links.php:794
 msgid "Email Address"
@@ -2628,21 +2627,21 @@ msgid "Hide Notice"
 msgstr ""
 
 #. translators: The author.
-#: inc/helpers.php:1726 inc/helpers.php:1729 inc/lib/inc/functions.php:358
-#: inc/lib/inc/functions.php:361
+#: inc/helpers.php:1726 inc/helpers.php:1729 inc/lib/inc/functions.php:347
+#: inc/lib/inc/functions.php:350
 msgid "By %s"
 msgstr ""
 
 #. translators: The categories.
 #. translators: The categories list.
-#: inc/helpers.php:1755 inc/lib/inc/functions.php:399
+#: inc/helpers.php:1755 inc/lib/inc/functions.php:388
 msgid "Categories: %s"
 msgstr ""
 
 #. translators: The tags.
 #. translators: The tags list.
 #. Translators: List of tags.
-#: inc/helpers.php:1768 inc/lib/inc/functions.php:412
+#: inc/helpers.php:1768 inc/lib/inc/functions.php:401
 #: inc/lib/inc/fusion-app/helpers.php:506
 msgid "Tags: %s"
 msgstr ""
@@ -2911,60 +2910,44 @@ msgstr ""
 msgid "This is a global %s."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-breadcrumbs.php:136
-msgid "Home"
-msgstr ""
-
-#: inc/lib/inc/class-fusion-breadcrumbs.php:137
-msgid "Tag:"
-msgstr ""
-
-#: inc/lib/inc/class-fusion-breadcrumbs.php:138
-msgid "Search:"
-msgstr ""
-
-#: inc/lib/inc/class-fusion-breadcrumbs.php:139
-msgid "404 - Page not Found"
-msgstr ""
-
-#: inc/lib/inc/class-fusion-data.php:158 shortcodes/fusion-alert.php:635
+#: inc/lib/inc/class-fusion-data.php:146 shortcodes/fusion-alert.php:635
 #: shortcodes/fusion-button.php:1034 shortcodes/fusion-button.php:1137
 msgid "Custom"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:380
+#: inc/lib/inc/class-fusion-data.php:368
 msgid "Thin (100)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:381
+#: inc/lib/inc/class-fusion-data.php:369
 msgid "Extra Light (200)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:382
+#: inc/lib/inc/class-fusion-data.php:370
 msgid "Light (300)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:383
+#: inc/lib/inc/class-fusion-data.php:371
 msgid "Normal (400)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:384
+#: inc/lib/inc/class-fusion-data.php:372
 msgid "Medium (500)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:385
+#: inc/lib/inc/class-fusion-data.php:373
 msgid "Semi Bold (600)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:386
+#: inc/lib/inc/class-fusion-data.php:374
 msgid "Bold (700)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:387
+#: inc/lib/inc/class-fusion-data.php:375
 msgid "Bolder (800)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-data.php:388
+#: inc/lib/inc/class-fusion-data.php:376
 msgid "Extra Bold (900)"
 msgstr ""
 
@@ -3106,27 +3089,27 @@ msgstr ""
 msgid "Dismiss Message"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:969
+#: inc/lib/inc/class-fusion-images.php:971
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:973
+#: inc/lib/inc/class-fusion-images.php:975
 msgid "1x1"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:974
+#: inc/lib/inc/class-fusion-images.php:976
 msgid "Landscape"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:975
+#: inc/lib/inc/class-fusion-images.php:977
 msgid "Portrait"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:976
+#: inc/lib/inc/class-fusion-images.php:978
 msgid "2x2"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-images.php:978
+#: inc/lib/inc/class-fusion-images.php:980
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -3373,23 +3356,14 @@ msgstr ""
 msgid "documentation post"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:670
+#: inc/lib/inc/class-fusion-scripts.php:673
 #: shortcodes/fusion-recent-posts.php:871
 msgid "Loading the next set of posts..."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:671
+#: inc/lib/inc/class-fusion-scripts.php:674
 #: shortcodes/fusion-recent-posts.php:872
 msgid "All items displayed."
-msgstr ""
-
-#: inc/lib/inc/class-fusion-searchform.php:60
-msgid "Search for:"
-msgstr ""
-
-#: inc/lib/inc/class-fusion-searchform.php:62
-#: inc/lib/inc/class-fusion-searchform.php:64
-msgid "Search ..."
 msgstr ""
 
 #: inc/lib/inc/class-fusion-settings.php:409
@@ -3467,23 +3441,6 @@ msgstr ""
 msgid "Using default value."
 msgstr ""
 
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:264
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:467
-msgid "Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:286
-msgid "Upload Custom Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:286
-msgid "Update Custom Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:468
-msgid "CSS Prefix"
-msgstr ""
-
 #: inc/lib/inc/customizer/class-fusion-customizer.php:343
 #: inc/lib/inc/fusion-app/helpers.php:432
 #: inc/lib/inc/redux/custom-fields/dimensions/field_dimensions.php:71
@@ -3507,143 +3464,143 @@ msgstr ""
 msgid "Search Controls"
 msgstr ""
 
-#: inc/lib/inc/functions.php:1097
+#: inc/lib/inc/functions.php:1085
 msgid "Previous"
 msgstr ""
 
-#: inc/lib/inc/functions.php:1143
+#: inc/lib/inc/functions.php:1131
 msgid "Next"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:430
+#: inc/lib/inc/fusion-app/class-fusion-app.php:427
 msgid "Page"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:956
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1049
+#: inc/lib/inc/fusion-app/class-fusion-app.php:896
+#: inc/lib/inc/fusion-app/class-fusion-app.php:989
 #: inc/lib/inc/fusion-app/helpers.php:485
 msgid "Clear"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:958
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1051
+#: inc/lib/inc/fusion-app/class-fusion-app.php:898
+#: inc/lib/inc/fusion-app/class-fusion-app.php:991
 msgid "Select Color"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:959
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1052
+#: inc/lib/inc/fusion-app/class-fusion-app.php:899
+#: inc/lib/inc/fusion-app/class-fusion-app.php:992
 msgid "Current Color"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1220
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1156
 msgid "You do not have permission to edit this post."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1277
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1196
 msgid "The page contents updated."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1284
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1203
 msgid "You do not have permission to edit this archive."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1319
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1238
 msgid "The archive details updated."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1441
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1442
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1327
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1328
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:73
 msgid "Ultra-Light 100"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1443
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1329
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:83
 msgid "Ultra-Light 100 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1444
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1330
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:74
 msgid "Light 200"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1445
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1331
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:89
 msgid "Light 200 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1446
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1332
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:75
 msgid "Book 300"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1447
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1333
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:84
 msgid "Book 300 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1448
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1449
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1334
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1335
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:70
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:76
 msgid "Normal 400"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1450
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1336
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:71
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:72
 msgid "Normal 400 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1451
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1337
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:77
 msgid "Medium 500"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1452
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1338
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:85
 msgid "Medium 500 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1453
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1454
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1339
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1340
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:78
 msgid "Semi-Bold 600"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1455
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1341
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:88
 msgid "Semi-Bold 600 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1456
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1342
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:79
 msgid "Bold 700"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1457
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1343
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:80
 msgid "Bold 700 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1458
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1459
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1344
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1345
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:86
 msgid "Extra-Bold 800"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1460
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1346
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:87
 msgid "Extra-Bold 800 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1461
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1462
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1347
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1348
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:81
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1463
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1349
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:82
 msgid "Ultra-Bold 900 Italic"
 msgstr ""
@@ -4867,14 +4824,6 @@ msgstr ""
 
 #: inc/lib/inc/fusion-app/helpers.php:508
 msgid "Dynamic Data"
-msgstr ""
-
-#: inc/lib/inc/fusion-app/helpers.php:510
-msgid "Custom Font(s)"
-msgstr ""
-
-#: inc/lib/inc/fusion-app/helpers.php:512
-msgid "Separate with Commas"
 msgstr ""
 
 #: inc/lib/inc/fusion-app/templates/front-customize.php:54
@@ -17371,67 +17320,6 @@ msgstr ""
 #: inc/layouts.php:60
 msgctxt "Element item"
 msgid "Add New"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:140
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:152
-msgctxt "Avada Icon"
-msgid "Custom Icons"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:141
-msgctxt "Avada Icon"
-msgid "Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:142
-msgctxt "Avada Icon"
-msgid "Add New"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:143
-msgctxt "Avada Icon"
-msgid "Add New Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:144
-msgctxt "Avada Icon"
-msgid "Edit Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:145
-msgctxt "Avada Icon"
-msgid "New Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:146
-msgctxt "Avada Icon"
-msgid "All Icon Sets"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:147
-msgctxt "Avada Icon"
-msgid "View Icon Set"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:148
-msgctxt "Avada Icon"
-msgid "Search Icon Sets"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:149
-msgctxt "Avada Icon"
-msgid "No Icon Sets found"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:150
-msgctxt "Avada Icon"
-msgid "No Icon Sets found in Trash"
-msgstr ""
-
-#: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:178
-msgctxt "Avada Icons"
-msgid "Custom Icons"
 msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
