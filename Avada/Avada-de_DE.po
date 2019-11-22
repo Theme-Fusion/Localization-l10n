@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2019-11-21 13:17:01+00:00\n"
-"PO-Revision-Date: 2019-11-21 17:56+0100\n"
+"PO-Revision-Date: 2019-11-22 11:19+0100\n"
 "Last-Translator: wassereimer <wassereimer@wassereimer.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/avada/"
 "language/de_DE/)\n"
@@ -215,7 +215,7 @@ msgstr "Kommentar senden"
 
 #: header.php:42
 msgid "Skip to content"
-msgstr ""
+msgstr "Zum Inhalt springen"
 
 #. translators: %1$s: "System Status" link. %2$s: "View more info here" link.
 #: includes/admin-screens/demos.php:35
@@ -228,6 +228,15 @@ msgid ""
 "remove ALL previously imported demo content from that demo and restore your "
 "site to it's previous state before the demo content was imported."
 msgstr ""
+"Avada Demos können vollständig importiert (alles) oder teilweise importiert "
+"werden (nur Teile). Bewegen Sie den Mauszeiger über die Demo, die Sie "
+"verwenden möchten, und treffen Sie Ihre Auswahl. Jede Demo, die Sie "
+"verwenden, zeigt nach dem Import eine Markierung, so dass Sie den Inhalt, "
+"den Sie bereits importiert haben, schnell erkennen und ändern können. Sie "
+"können diesen Inhalt jederzeit deinstallieren. Durch das Deinstallieren von "
+"Inhalten aus einer Demo werden ALLE zuvor importierten Demo-Inhalte aus "
+"dieser Demo entfernt und der vorherige Status der Website wiederhergestellt, "
+"bevor der Demo-Inhalt importiert wurde."
 
 #. translators: %1$s: "IMPORTANT:". %2$s: "System Status" link. %3$s: "View
 #. more info here" link.
@@ -238,10 +247,15 @@ msgid ""
 "to ensure your server meets all requirements for a successful import. "
 "Settings that need attention will be listed in red. %3$s."
 msgstr ""
+"%1$s Demo Importe können zeitlich variieren. Die mitgelieferten Plugins "
+"müssen vor der Installation einer Demo installiert und aktiviert werden. "
+"Überprüfen Sie die Registerkarte %2$s, um sicherzustellen, dass Ihr Server "
+"alle Voraussetzungen für einen erfolgreichen Import erfüllt. Einstellungen, "
+"die Ihre Aufmerksamkeit erfordern, werden rot angezeigt. %3$s."
 
 #: includes/admin-screens/demos.php:41
 msgid "IMPORTANT:"
-msgstr ""
+msgstr "WICHTIG:"
 
 # @ Avada
 #: includes/admin-screens/demos.php:42 includes/admin-screens/plugins.php:85
@@ -249,7 +263,7 @@ msgstr ""
 #: includes/class-avada-admin.php:660 includes/class-avada-admin.php:675
 #: includes/class-avada-admin.php:717
 msgid "System Status"
-msgstr ""
+msgstr "Systemstatus"
 
 #: includes/admin-screens/demos.php:43
 msgid "View more info here"
@@ -272,11 +286,11 @@ msgstr "Seiten"
 
 #: includes/admin-screens/demos.php:93
 msgid "Portfolios"
-msgstr ""
+msgstr "Portfolios"
 
 #: includes/admin-screens/demos.php:99
 msgid "FAQs"
-msgstr ""
+msgstr "FAQs"
 
 # @ Avada
 #: includes/admin-screens/demos.php:105
@@ -290,7 +304,7 @@ msgstr "Veranstaltungen"
 # @ bbpress
 #: includes/admin-screens/demos.php:117
 msgid "Forum"
-msgstr "Rahmenfarbe des bbPress Forums"
+msgstr "Forum"
 
 #: includes/admin-screens/demos.php:123 includes/class-avada-pwa.php:170
 msgid "Images"
@@ -314,7 +328,7 @@ msgstr "Theme Einstellungen"
 
 #: includes/admin-screens/demos.php:136
 msgid "Widgets"
-msgstr ""
+msgstr "Widgets"
 
 # @ Avada
 #: includes/admin-screens/demos.php:185
@@ -336,15 +350,15 @@ msgstr "Importieren"
 
 #: includes/admin-screens/demos.php:217 includes/class-avada-admin.php:1364
 msgid "Modify"
-msgstr "Bearbeiten"
+msgstr "Modifizieren"
 
 #: includes/admin-screens/demos.php:220 includes/class-avada-admin.php:1365
 msgid "Full Import"
-msgstr ""
+msgstr "Voller Import"
 
 #: includes/admin-screens/demos.php:222 includes/class-avada-admin.php:1366
 msgid "Partial Import"
-msgstr ""
+msgstr "Teilweiser Import"
 
 # @ Avada
 #: includes/admin-screens/demos.php:240 includes/avada-app/fusion-panel.php:97
@@ -362,7 +376,7 @@ msgstr "Live Vorschau"
 
 #: includes/admin-screens/demos.php:263
 msgid "The Following Plugins Are Required To Import Content"
-msgstr ""
+msgstr "Die folgenden Plugins sind erforderlich, um den Inhalt zu importieren"
 
 # @ Avada
 #: includes/admin-screens/demos.php:276 includes/class-avada-admin.php:1043
@@ -385,15 +399,15 @@ msgstr "Aktivieren"
 
 #: includes/admin-screens/demos.php:323
 msgid "Import Content"
-msgstr ""
+msgstr "Inhalt importieren"
 
 #: includes/admin-screens/demos.php:323
 msgid "(menus only import with \"All\")"
-msgstr ""
+msgstr "(Menüs werden nur mit \"Alle\" importiert)"
 
 #: includes/admin-screens/demos.php:330
 msgid "Remove Content"
-msgstr ""
+msgstr "Inhalt entfernen"
 
 # @ Avada
 #: includes/admin-screens/demos.php:334 includes/admin-screens/demos.php:350
@@ -414,7 +428,7 @@ msgstr "Entfernen"
 
 #: includes/admin-screens/demos.php:354
 msgid "Done"
-msgstr ""
+msgstr "Fertig"
 
 # @ Avada
 #: includes/admin-screens/demos.php:369 includes/admin-screens/faq.php:162
@@ -427,6 +441,8 @@ msgid ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
 "making your experience perfect."
 msgstr ""
+"Vielen Dank, dass Sie sich für Avada entschieden haben. Wir fühlen uns "
+"geehrt und sind bemüht Ihre Erfahrung perfekt zu machen."
 
 #: includes/admin-screens/demos.php:374
 #: includes/metaboxes/tabs/tab_avada_page_options.php:104
@@ -436,6 +452,8 @@ msgstr "Warnung "
 #: includes/admin-screens/demos.php:384
 msgid "Avada Demos Can Only Be Imported With A Valid Token Registration"
 msgstr ""
+"Avada Demos können nur mit einer gültigen Token-Registrierung importiert "
+"werden"
 
 #. translators: "Product Registration" link.
 #: includes/admin-screens/demos.php:386
@@ -443,6 +461,8 @@ msgid ""
 "Please visit the %s page and enter a valid token to import the full Avada "
 "Demos and the single pages through Fusion Builder."
 msgstr ""
+"Bitte besuche die Seite %s und gib ein gültiges Token ein um die Avada Demos "
+"und die einzelnen Seiten durch Fusion Builder importieren zu können."
 
 # @ Avada
 #: includes/admin-screens/demos.php:386 includes/admin-screens/faq.php:35
@@ -458,14 +478,17 @@ msgid ""
 "more in-depth documentation, please visit our %s to view documentation, "
 "knowledgebase and video tutorials."
 msgstr ""
+"Dies sind häufig gestellte Fragen, die Ihnen den Einstieg erleichtern. "
+"Ausführlichere Dokumentationen finden Sie in unserem %s um Dokumentation, "
+"Wissensdatenbank und Videoanleitungen zu sehen."
 
 #: includes/admin-screens/faq.php:24
 msgid "online support center"
-msgstr ""
+msgstr "Online Support Center"
 
 #: includes/admin-screens/faq.php:30
 msgid "How Do I Register My Avada Purchase?"
-msgstr ""
+msgstr "Wie registriere ich meinen Avada Kauf?"
 
 #. translators: "Product Registration" link.
 #: includes/admin-screens/faq.php:35
@@ -474,10 +497,14 @@ msgid ""
 "demos, Slider Revolution, Layer Slider and automatic theme updates. You can "
 "easily register your product on the %s tab."
 msgstr ""
+"Ihr Avada Kauf erfordert eine Produktregistrierung, um die Avada Demos, "
+"Slider Revolution, Layer Slider und automatische Themenaktualisierungen zu "
+"erhalten. Sie können Ihr Produkt einfach auf der Registerkarte %s "
+"registrieren."
 
 #: includes/admin-screens/faq.php:41 includes/admin-screens/faq.php:57
 msgid "How Do I Get Support For Avada?"
-msgstr ""
+msgstr "Wie bekomme ich Support für Avada?"
 
 #: includes/admin-screens/faq.php:45
 msgid ""
@@ -487,22 +514,27 @@ msgid ""
 "ticket system. Our team of experts will gladly help answer questions you may "
 "have. Please see the links below."
 msgstr ""
+"Jeglicher Support wird über das Supportcenter von Avada abgewickelt. Zuerst "
+"erstellen Sie ein Konto auf unserer Website, mit dem Sie Zugang zu unserem "
+"Supportcenter erhalten. Unser Supportcenter umfasst Online-Dokumentation, "
+"Video-Tutorials und ein einfaches Ticket-System. Unser Expertenteam hilft "
+"Ihnen gerne, Fragen zu beantworten. Bitte beachten Sie die Links unten."
 
 #: includes/admin-screens/faq.php:47
 msgid "Sign up at our support center with these steps"
-msgstr ""
+msgstr "Melden Sie sich mit diesen Schritten bei unserem Supportcenter an"
 
 #: includes/admin-screens/faq.php:48
 msgid "Submit a ticket to our team"
-msgstr ""
+msgstr "Senden Sie ein Ticket an unser Team"
 
 #: includes/admin-screens/faq.php:49
 msgid "View Avada Documentation"
-msgstr ""
+msgstr "Avada Online-Dokumentation anschauen"
 
 #: includes/admin-screens/faq.php:50
 msgid "View Avada Video Tutorials"
-msgstr ""
+msgstr "Avada Video-Tutorials anschauen"
 
 #: includes/admin-screens/faq.php:61
 msgid ""
@@ -511,44 +543,54 @@ msgid ""
 "related and also most general questions regarding WordPress. Specifically "
 "they can help you with the following:"
 msgstr ""
+"Der komplette Support der Envato Hosted Platform erfolgt über die WordPress-"
+"Experten von Envato, die umfangreiche Erfahrung mit WordPress haben und "
+"themenbezogene sowie allgemeinste Fragen zu WordPress beantworten können. "
+"Insbesondere können sie Ihnen mit folgenden helfen:"
 
 #: includes/admin-screens/faq.php:63
 msgid "Theme Installation & Setup."
-msgstr ""
+msgstr "Theme Installation & Setup."
 
 #: includes/admin-screens/faq.php:64
 msgid "Installation of bundled/required plugins."
-msgstr ""
+msgstr "Installation von mitgelieferten/erforderlichen PlugIns."
 
 #: includes/admin-screens/faq.php:65
 msgid "Installation of included demo content."
-msgstr ""
+msgstr "Installation des mitgelieferten Demo Inhalts."
 
 #: includes/admin-screens/faq.php:66
 msgid ""
 "Guidance with using Theme Options, Fusion Builder or navigating WordPress "
 "features."
 msgstr ""
+"Anleitung zur Verwendung von Themenoptionen, Fusion Builder oder Navigation "
+"in WordPress Funktionen."
 
 #: includes/admin-screens/faq.php:67
 msgid "Troubleshooting and diagnosing technical issues with your site."
-msgstr ""
+msgstr "Fehlerbehebung und Diagnose technischer Probleme mit Ihrer Website."
 
 #: includes/admin-screens/faq.php:68
 msgid "Assistance with escalating or reporting theme-related bugs or issues."
 msgstr ""
+"Unterstützung bei der Eskalation oder dem Melden themenbezogener Fehler oder "
+"Probleme."
 
 #: includes/admin-screens/faq.php:69
 msgid "Basic Customization"
-msgstr ""
+msgstr "Grundlegende Anpassungen"
 
 #: includes/admin-screens/faq.php:70
 msgid "Guidance on where to get help for third-party plugins or features."
 msgstr ""
+"Anleitung, wo Sie Hilfe für PlugIns oder Funktionen von Drittanbietern "
+"erhalten können."
 
 #: includes/admin-screens/faq.php:79
 msgid "How Do I Use The Avada Options Network?"
-msgstr ""
+msgstr "Wie verwende ich das Avada Options Network?"
 
 #: includes/admin-screens/faq.php:83
 msgid ""
@@ -557,14 +599,21 @@ msgid ""
 "build professional sites without coding knowledge. Please see the link below "
 "to learn how these work together."
 msgstr ""
+"Das Avada Option Network besteht aus Fusion Themeeinstellungen, Fusion Page "
+"Einstllungen und Fusion Builder Einstellungen. Dieses leistungsstarke "
+"Netzwerk von Optionen ermöglicht es Ihnen, professionelle Websites ohne "
+"Programmiercode Wissen zu bauen. Bitte lesen Sie den folgenden Link, um zu "
+"erfahren, wie diese zusammenarbeiten."
 
 #: includes/admin-screens/faq.php:85
 msgid "How To Use The Avada Option Network"
-msgstr ""
+msgstr "So verwenden Sie das Avada Options Network"
 
 #: includes/admin-screens/faq.php:92
 msgid "What Are The Required & Recommended Plugins For Using Avada?"
 msgstr ""
+"Was sind die erforderlichen und empfohlenen Plugins für die Verwendung von "
+"Avada?"
 
 #. translators: %1$s is the "Plugins" link. %2$s is the link to the
 #. documentation page. (link text: "Avada's Required, Included & Recommended
@@ -593,11 +642,11 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:101
 msgid "Avada's Required, Included & Recommended Plugins"
-msgstr ""
+msgstr "Avadas erforderliche, inklusive & empfohlene PlugIns"
 
 #: includes/admin-screens/faq.php:110
 msgid "How Do I Import The Avada Demos?"
-msgstr ""
+msgstr "Wie importiere ich die Avada Demos?"
 
 #. translators: "Import Demos" link.
 #: includes/admin-screens/faq.php:115
@@ -611,10 +660,20 @@ msgid ""
 "pages for that demo will load, allowing you to import the single demo page "
 "of your choice."
 msgstr ""
+"Avada Demos können mit den gleichen Einstellungen, die Sie auf unseren Live "
+"Demos sehen, vollständig importiert werden. Oder Sie können einzelne Seiten "
+"über Fusion Builder importieren. Um eine vollständige Demo zu importieren, "
+"rufen Sie einfach den %s Tab auf und wählen Sie eine Demo aus. Um eine "
+"einzelne Seite aus einer Avada Demo zu importieren, erstellen Sie eine neue "
+"Seite (stellen Sie sicher, dass Fusion Builder aktiv ist) und klicken Sie "
+"auf die Registerkarte \"Bibliothek\". Es öffnet sich ein Fenster, in dem Sie "
+"die Registerkarte \"Demos\" auswählen können. Wählen Sie eine Demo aus dem "
+"Dropdown-Feld und die Seiten für diese Demo werden geladen, so dass Sie die "
+"einzelne Demo Seite Ihrer Wahl importieren können."
 
 #: includes/admin-screens/faq.php:121
 msgid "Where Can I Find More Information About How To Use Avada?"
-msgstr ""
+msgstr "Wo finde ich mehr Informationen über die Verwendung von Avada?"
 
 #: includes/admin-screens/faq.php:125
 msgid ""
@@ -622,31 +681,36 @@ msgid ""
 "library. Both are stored on our company site in the support center, see the "
 "links below."
 msgstr ""
+"Avada verfügt über eine vollständige Dokumentation und eine wachsende Video-"
+"Tutorial Bibliothek. Beide sind auf unserer Unternehmens Website im "
+"Supportcenter verfügbar, nutzen Sie die folgenden Links."
 
 #: includes/admin-screens/faq.php:127
 msgid "Avada Documentation"
-msgstr ""
+msgstr "Avada Dokumentation"
 
 #: includes/admin-screens/faq.php:128
 msgid "Avada Video Tutorials"
-msgstr ""
+msgstr "Avada Video-Tutorials"
 
 #: includes/admin-screens/faq.php:135
 msgid "What Are The Requirements For Using Avada?"
-msgstr ""
+msgstr "Was sind die Voraussetzungen für die Verwendung von Avada?"
 
 #: includes/admin-screens/faq.php:139
 msgid ""
 "Avada's requirements can be found in our support center at the link below."
 msgstr ""
+"Avadas Anforderungen finden Sie in unserem Supportcenter unter dem folgenden "
+"Link."
 
 #: includes/admin-screens/faq.php:141
 msgid "Requirements For Using Avada"
-msgstr ""
+msgstr "Anforderungen um Avada zu nutzen"
 
 #: includes/admin-screens/faq.php:148
 msgid "What Is The System Status Tab For?"
-msgstr ""
+msgstr "Wofür ist die Registerkarte Systemstatus?"
 
 #. translators: "System Status" link.
 #: includes/admin-screens/faq.php:153
@@ -659,14 +723,23 @@ msgid ""
 "section, and the Active Plugins section. Please see the relevant links below "
 "about the System Status tab."
 msgstr ""
+"Die Registerkarte %s enthält eine Sammlung relevanter Daten, die Ihnen "
+"helfen, Ihre Website effizienter auf Fehler zu untersuchen. Auf dieser "
+"Registerkarte können Sie auch einen System Report generieren, den Sie in "
+"Ihre Support-Tickets einbinden können, um unseren Support-Team zu helfen, "
+"Lösungen für Ihre Probleme viel schneller zu finden. Diese Registerkarte ist "
+"in drei Abschnitte unterteilt. den Abschnitt \"WordPress-Umgebung\", den "
+"Abschnitt \"Serverumgebung\" und den Abschnitt \"Aktive Plugins\". Bitte "
+"beachten Sie die entsprechenden Links unten auf der Registerkarte "
+"Systemstatus."
 
 #: includes/admin-screens/faq.php:155
 msgid "System Status General Information"
-msgstr ""
+msgstr "Systemstatus Allgemeine Informationen"
 
 #: includes/admin-screens/faq.php:156
 msgid "System Status Limits"
-msgstr ""
+msgstr "Systemstatus Limits"
 
 #. translators: link attributes.
 #: includes/admin-screens/plugins.php:56
@@ -726,6 +799,8 @@ msgid ""
 "Premium Plugins Can Only Be Installed and Updated With A Valid Token "
 "Registration"
 msgstr ""
+"Premium-Plugins können nur mit einer gültigen Token Registrierung "
+"installiert und aktualisiert werden"
 
 #. translators: The "Product Registration" link.
 #: includes/admin-screens/plugins.php:73
@@ -750,11 +825,11 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:86
 msgid "Plugin Installation"
-msgstr ""
+msgstr "Plugin Installation"
 
 #: includes/admin-screens/plugins.php:87
 msgid "Support Dashboard"
-msgstr ""
+msgstr "Support Dashboard"
 
 #. translators: Version number.
 #: includes/admin-screens/plugins.php:148
@@ -769,7 +844,7 @@ msgstr "Aktiv: %s"
 #. translators: %1$s: Plugin version. %2$s: Author URL. %3$s: Author Name.
 #: includes/admin-screens/plugins.php:161
 msgid "v%1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
-msgstr ""
+msgstr "v%1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
 
 #. translators: Version number.
 #: includes/admin-screens/plugins.php:164
@@ -779,7 +854,7 @@ msgstr "Verfügbare Version: %s"
 #. translators: %1$s: Version. $2%s: Author.
 #: includes/admin-screens/plugins.php:174
 msgid "v%1$s | %2$s"
-msgstr ""
+msgstr "v%1$s | %2$s"
 
 # @ Avada
 #: includes/admin-screens/plugins.php:191
@@ -789,7 +864,7 @@ msgstr "Benötigt"
 
 #: includes/admin-screens/plugins.php:197
 msgid "Premium"
-msgstr ""
+msgstr "Premium"
 
 #: includes/admin-screens/plugins.php:225
 msgid "Error "
@@ -800,6 +875,8 @@ msgstr "Fehler "
 msgid ""
 "Your Purchase Must Be Registered To Receive Theme Support & Auto Updates"
 msgstr ""
+"Dein Kauf muss registriert sein, um Theme Support und automatische "
+"Aktualisierungen zu erhalten"
 
 #: includes/admin-screens/registration.php:26
 msgid ""
@@ -875,7 +952,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/support.php:44
 msgid "Video Tutorials"
-msgstr "Video Anleitung"
+msgstr "Video-Tutorials"
 
 #: includes/admin-screens/support.php:45
 msgid ""
@@ -887,7 +964,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/support.php:46
 msgid "Watch Videos"
-msgstr "Video ansehen"
+msgstr "Videos ansehen"
 
 #: includes/admin-screens/support.php:49 includes/admin-screens/support.php:51
 msgid "Community Forum"
@@ -939,7 +1016,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:34
 #: includes/admin-screens/system-status.php:38
 msgid "Avada Version History"
-msgstr ""
+msgstr "Avada Versionsverlauf"
 
 #: includes/admin-screens/system-status.php:43
 msgid "Current Version:"
@@ -951,7 +1028,7 @@ msgstr "Vorherige Versionen:"
 
 #: includes/admin-screens/system-status.php:53
 msgid "No previous versions could be detected"
-msgstr ""
+msgstr "Es konnten keine früheren Versionen festgestellt werden"
 
 #: includes/admin-screens/system-status.php:115
 #: includes/admin-screens/system-status.php:119
@@ -961,7 +1038,7 @@ msgstr ""
 #. translators: Version Number.
 #: includes/admin-screens/system-status.php:126
 msgid "Avada %s Conversion:"
-msgstr ""
+msgstr "Avada %s Konvertierung:"
 
 #: includes/admin-screens/system-status.php:127
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
@@ -977,7 +1054,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:167
 #: includes/admin-screens/system-status.php:188
 msgid "Run Conversion"
-msgstr ""
+msgstr "Konvertierung durchführen"
 
 #. translators: URL.
 #: includes/admin-screens/system-status.php:147
