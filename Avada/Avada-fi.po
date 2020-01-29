@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2019-10-30 10:38:21+00:00\n"
+"POT-Creation-Date: 2019-11-21 13:17:01+00:00\n"
 "PO-Revision-Date: 2017-08-04 17:13-0500\n"
 "Last-Translator: Tero Talvio\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/avada/language/"
@@ -40,7 +40,7 @@ msgstr "Etkö löydä etsimääsi? Yritä uudelleen allaolevaa hakua käyttäen!
 
 # @ bbpress
 #: bbpress/form-search.php:13 includes/class-avada-layout-bbpress.php:142
-#: includes/lib/inc/class-fusion-searchform.php:60 searchform.php:19
+#: searchform.php:19
 msgid "Search for:"
 msgstr "Etsi ..."
 
@@ -94,7 +94,7 @@ msgstr[1] "% Kommenttia"
 #: comments.php:46 includes/class-avada-layout-bbpress.php:224
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
-#: includes/class-avada-woocommerce.php:399 includes/lib/inc/functions.php:1097
+#: includes/class-avada-woocommerce.php:399 includes/lib/inc/functions.php:1085
 #: single-wpfc_sermon.php:21 single.php:20
 msgid "Previous"
 msgstr "Edellinen"
@@ -103,7 +103,7 @@ msgstr "Edellinen"
 #: comments.php:47 includes/class-avada-layout-bbpress.php:225
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
-#: includes/class-avada-woocommerce.php:400 includes/lib/inc/functions.php:1143
+#: includes/class-avada-woocommerce.php:400 includes/lib/inc/functions.php:1131
 #: single-wpfc_sermon.php:22 single.php:21
 msgid "Next"
 msgstr "Seuraava"
@@ -203,6 +203,14 @@ msgid ""
 "remove ALL previously imported demo content from that demo and restore your "
 "site to it's previous state before the demo content was imported."
 msgstr ""
+"Avada mahdollistaa näytesivustojen sisällön hyödyntämisen kokonaisina "
+"sivustoina, sekä osittaisina sisältöinä. Näytteen asennus on mahdollista "
+"aloittaa siirtämällä hiiri halutun näytteen kohdalle ja tekemällä valinta. "
+"Asennuksen jälkeen valinnan kohdalle jää merkki, joka helpottaa näytteen "
+"tunnistamista jatkossa. Näytteen poistaminen, tai sen sisällön muokkaaminen "
+"on mahdollista milloin tahansa. Näytteen poistaminen hävittää kaiken "
+"näytteen sisältämän sisällön ja palauttaa sivuston näytteen asentamista "
+"edeltäneeseen tilaan."
 
 #. translators: %1$s: "IMPORTANT:". %2$s: "System Status" link. %3$s: "View
 #. more info here" link.
@@ -213,6 +221,11 @@ msgid ""
 "to ensure your server meets all requirements for a successful import. "
 "Settings that need attention will be listed in red. %3$s."
 msgstr ""
+"%1$s Näytesivustojen sisältö voi vaihdella ajan myötä. Huomioi, että "
+"sivuston toiminnalle välttämättömät lisäosat tulee asentaa ja aktivoida "
+"ennen sivustoa. Huomioi myös, että sivuston sujuva toiminta edellyttää "
+"palvelimelta riittäviä resursseja. Korjaamista edellyttävät kohdat on "
+"korostettu punaisella värillä %2$s -välilehdellä. %3$s."
 
 #: includes/admin-screens/demos.php:41
 msgid "IMPORTANT:"
@@ -528,7 +541,7 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:79
 msgid "How Do I Use The Avada Options Network?"
-msgstr ""
+msgstr "Miten käytetään ominaisuutta Avada Options Network?"
 
 #: includes/admin-screens/faq.php:83
 msgid ""
@@ -585,7 +598,7 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:121
 msgid "Where Can I Find More Information About How To Use Avada?"
-msgstr ""
+msgstr "Mistä löydän lisää Avadan käyttöohjeita?"
 
 #: includes/admin-screens/faq.php:125
 msgid ""
@@ -772,8 +785,8 @@ msgid ""
 "plugins."
 msgstr ""
 "Kiitos, että valitsit Avadan! Ostoksesi on rekisteröity. Voit nyt asentaa "
-"näytesivustoja, käyttää automaattisia teemapäivityksiä ja asentaa "
-"Avada-pakettiin kuuluvia premium-lisäosia."
+"näytesivustoja, käyttää automaattisia teemapäivityksiä ja asentaa Avada-"
+"pakettiin kuuluvia premium-lisäosia."
 
 #: includes/admin-screens/registration.php:28
 msgid ""
@@ -781,9 +794,10 @@ msgid ""
 "Avada demos, auto theme updates and included premium plugins. Please follow "
 "the instructions below to create a valid token."
 msgstr ""
-"Kiitos, että valitsit Avadan! Näytesivustojen, automaattisten teemäpäivitysten "
-"ja Avada-pakettiin kuuluvien premium-lisäosien käyttäminen edellyttää ostoksen "
-"rekisteröintiä. Ole hyvä ja seuraa ohjeita käyttöoikeuskoodin luomiseksi."
+"Kiitos, että valitsit Avadan! Näytesivustojen, automaattisten "
+"teemäpäivitysten ja Avada-pakettiin kuuluvien premium-lisäosien käyttäminen "
+"edellyttää ostoksen rekisteröintiä. Ole hyvä ja seuraa ohjeita "
+"käyttöoikeuskoodin luomiseksi."
 
 #. translators: link attributes.
 #: includes/admin-screens/support.php:22
@@ -872,8 +886,8 @@ msgid ""
 "Avada user! Please note that ThemeFusion does not provide product support "
 "here."
 msgstr ""
-"Käyttäjäfoorumimme on tarkoitettu käyttäjien väliseen viestintään. Kysy neuvoa "
-"toisilta Avadan käyttäjiltä! Huomioithan, että ThemeFusion ei tarjoa "
+"Käyttäjäfoorumimme on tarkoitettu käyttäjien väliseen viestintään. Kysy "
+"neuvoa toisilta Avadan käyttäjiltä! Huomioithan, että ThemeFusion ei tarjoa "
 "tuotetukea käyttäjäfoorumin välityksellä."
 
 # @ Avada
@@ -886,8 +900,8 @@ msgid ""
 "We have an amazing Facebook Group! Share with other Avada users and help "
 "grow our community. Please note, ThemeFusion does not provide support here."
 msgstr ""
-"Facebook-ryhmässämme on mahtavaa porukkaa! Tule ja jaa tietoa muiden "
-"Avada-käyttäjien kanssa ja auta yhteisöämme kasvamaan. Huomioithan, että "
+"Facebook-ryhmässämme on mahtavaa porukkaa! Tule ja jaa tietoa muiden Avada-"
+"käyttäjien kanssa ja auta yhteisöämme kasvamaan. Huomioithan, että "
 "ThemeFusion ei tarjoa tuotetukea Facebookin välityksellä."
 
 # @ Avada
@@ -1385,7 +1399,7 @@ msgstr "Tarkista Envato:n palvelimen tila"
 
 #: includes/admin-screens/system-status.php:642
 msgid "Server from which Avada is updated."
-msgstr ""
+msgstr "Avadan päivityspalvelin."
 
 #: includes/admin-screens/system-status.php:647
 msgid "Check ThemeFusion Server Status"
@@ -1461,10 +1475,10 @@ msgid ""
 "customers. We are thrilled you chose Avada and know it will change your "
 "outlook on what a WordPress theme can achieve."
 msgstr ""
-"Vuonna 2012 asetimme tavoitteeksi täydellisen WordPress-teeman luomisen "
-"- niin syntyi Avada. Siitä lähtien Avada on ollut myydyin teema, jolla "
-"on käyttäjiä jo yli 530 000. Olemme iloisia tekemästäsi valinnasta ja "
-"uskomme, että Avada tulee muuttamaan käsityksesi WordPress:n rajoista."
+"Vuonna 2012 asetimme tavoitteeksi täydellisen WordPress-teeman luomisen - "
+"niin syntyi Avada. Siitä lähtien Avada on ollut myydyin teema, jolla on "
+"käyttäjiä jo yli 530 000. Olemme iloisia tekemästäsi valinnasta ja uskomme, "
+"että Avada tulee muuttamaan käsityksesi WordPress:n rajoista."
 
 #: includes/admin-screens/welcome.php:25
 msgid "Powerful Customization Tools"
@@ -1495,8 +1509,8 @@ msgid ""
 msgstr ""
 "Ymmärrämme, että mikään tuote ei voi menestyä ilman, että asiakkaasta "
 "huolehditaan erinomaisesti. Pyrimme aina tekemään parhaamme ja haluamme "
-"palvella asiakkaitamme, kuten haluaisimme itseämmekin palveltavan."
-"Näin syntyy asiakassuhteita, mistä hyötyvät kaikki Avadaa käyttävät."
+"palvella asiakkaitamme, kuten haluaisimme itseämmekin palveltavan.Näin "
+"syntyy asiakassuhteita, mistä hyötyvät kaikki Avadaa käyttävät."
 
 #. translators: URL.
 #: includes/admin-screens/welcome.php:31
@@ -1844,7 +1858,7 @@ msgstr "Samankaltaisia kirjoituksia"
 # @ Avada
 #: includes/avada-functions.php:344 includes/options/portfolio.php:613
 msgid "Related Projects"
-msgstr "Samankaltaisia projekteja"
+msgstr ""
 
 #: includes/avada-functions.php:347
 msgid "Related Faqs"
@@ -2316,6 +2330,11 @@ msgid ""
 "plugins. Check out the <a href=\"%3$s\">Support tab</a> to learn how to "
 "receive product support. We hope you enjoy it!"
 msgstr ""
+"Avada on asennettu ja valmiina luomaan upeita ulkoasuja! <a href=\"%1$s\" "
+"target=\"%2$s\">Rekisteröithän</a> ostoksesi automaattisten "
+"teemapäivitysten, näytesivustojen ja Avada-pakettiin kuuluvien premium-"
+"lisäosien asentamiseksi. Lisätietoa tuotetuesta löydät <a href=\"%3$s\">Tuki-"
+"välilehdeltä</a>. Toivomme, että viihdyt Avadan parissa!"
 
 #. translators: URL.
 #: includes/class-avada-admin.php:691
@@ -2335,9 +2354,9 @@ msgstr ""
 msgid "Version"
 msgstr "Versio"
 
-#: includes/class-avada-admin.php:700 includes/class-avada-upgrade.php:376
+#: includes/class-avada-admin.php:700 includes/class-avada-upgrade.php:377
 msgid "View Changelog"
-msgstr ""
+msgstr "Päivitysmuutokset"
 
 #: includes/class-avada-admin.php:1009
 msgid "Please update Fusion Core to latest version."
@@ -2346,17 +2365,17 @@ msgstr ""
 #. translators: Plugin name.
 #: includes/class-avada-admin.php:1043
 msgid "Install %s"
-msgstr ""
+msgstr "Asenna %s"
 
 #. translators: Plugin Name.
 #: includes/class-avada-admin.php:1062
 msgid "Activate %s"
-msgstr ""
+msgstr "Aktivoi %s"
 
 #. translators: Plugin Name.
 #: includes/class-avada-admin.php:1086
 msgid "Update %s"
-msgstr ""
+msgstr "Päivitä %s"
 
 # @ bbpress
 #: includes/class-avada-admin.php:1086
@@ -2706,25 +2725,21 @@ msgstr ""
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:126
-#: includes/lib/inc/class-fusion-breadcrumbs.php:136
 msgid "Home"
 msgstr "Etusivu"
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:127
-#: includes/lib/inc/class-fusion-breadcrumbs.php:137
 msgid "Tag:"
 msgstr "Avainsana:"
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:128
-#: includes/lib/inc/class-fusion-breadcrumbs.php:138
 msgid "Search:"
 msgstr "Haku:"
 
 # @ Avada
 #: includes/class-avada-breadcrumbs.php:129
-#: includes/lib/inc/class-fusion-breadcrumbs.php:139
 msgid "404 - Page not Found"
 msgstr "404 - Sivua ei löytynyt"
 
@@ -2792,27 +2807,27 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:118
 msgid "Default Style"
-msgstr "Oletusjärjestys"
+msgstr ""
 
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:119
 msgid "Button Small"
-msgstr "Painikkeen muoto"
+msgstr ""
 
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:120
 msgid "Button Medium"
-msgstr "Painikkeen koko"
+msgstr ""
 
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:121
 msgid "Button Large"
-msgstr "Painikkeen muoto"
+msgstr ""
 
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:122
 msgid "Button xLarge"
-msgstr "Painikkeen muoto"
+msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:124
 msgid ""
@@ -2924,7 +2939,7 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:219
 msgid "Select Widget Area"
-msgstr "Valitse vimpainalue"
+msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:230
 msgid "Fusion Mega Menu"
@@ -2980,7 +2995,7 @@ msgstr "Mega Menu -palstamäärä"
 #: includes/class-avada-megamenu-framework.php:304
 #: includes/options/extra.php:372 includes/options/portfolio.php:67
 msgid "Auto"
-msgstr "Automaattinen"
+msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:312
 msgid "Select the number of columns you want to use."
@@ -3460,9 +3475,9 @@ msgstr ""
 # @ Avada
 #: includes/class-avada-taxonomy-meta.php:294
 #: includes/class-avada-taxonomy-meta.php:418
-#: includes/lib/inc/class-fusion-images.php:972
-#: includes/lib/inc/fusion-app/class-fusion-app.php:957
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1050
+#: includes/lib/inc/class-fusion-images.php:974
+#: includes/lib/inc/fusion-app/class-fusion-app.php:897
+#: includes/lib/inc/fusion-app/class-fusion-app.php:990
 #: includes/lib/inc/fusion-app/helpers.php:470
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1902
 #: includes/metaboxes/tabs/tab_background.php:70
@@ -3780,7 +3795,7 @@ msgstr "Kaikki lisäosat asennettiin ja aktivoitiin onnistuneesti. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:377
+#: includes/class-avada-upgrade.php:378
 msgid "Dismiss this notice"
 msgstr "Jätä tämä ilmoitus huomiotta"
 
@@ -4044,8 +4059,8 @@ msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
-"Aloitetaan asennusprosessia. Toiminto saattaa hieman kestää riippuen "
-"palveluntarjoajastasi, joten ole kärsivällinen."
+"Aloitetaan asennusprosessia. Toimintoon saattaa kulua hieman aikaa "
+"palvelimesta riippuen. Kiitämme, että suhtaudut asiaan kärsivällisesti."
 
 # @ Avada
 #. translators: 1: plugin name.
@@ -4596,50 +4611,50 @@ msgstr "Takaisin pääsivulle"
 # @ Avada
 #: includes/dynamic-css.php:132
 msgid "Please enter correct details for this required field."
-msgstr "Korjaa oikea tieto vaadittuun kenttään, ole hyvä."
+msgstr ""
 
 # @ Avada
-#: includes/lib/inc/class-fusion-data.php:150 includes/options/contact.php:63
+#: includes/lib/inc/class-fusion-data.php:138 includes/options/contact.php:63
 msgid "Email Address"
 msgstr "Sähköposti"
 
-#: includes/lib/inc/class-fusion-data.php:158
+#: includes/lib/inc/class-fusion-data.php:146
 msgid "Custom"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:380
+#: includes/lib/inc/class-fusion-data.php:368
 msgid "Thin (100)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:381
+#: includes/lib/inc/class-fusion-data.php:369
 msgid "Extra Light (200)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:382
+#: includes/lib/inc/class-fusion-data.php:370
 msgid "Light (300)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:383
+#: includes/lib/inc/class-fusion-data.php:371
 msgid "Normal (400)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:384
+#: includes/lib/inc/class-fusion-data.php:372
 msgid "Medium (500)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:385
+#: includes/lib/inc/class-fusion-data.php:373
 msgid "Semi Bold (600)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:386
+#: includes/lib/inc/class-fusion-data.php:374
 msgid "Bold (700)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:387
+#: includes/lib/inc/class-fusion-data.php:375
 msgid "Bolder (800)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:388
+#: includes/lib/inc/class-fusion-data.php:376
 msgid "Extra Bold (900)"
 msgstr ""
 
@@ -4776,27 +4791,27 @@ msgstr ""
 msgid "Dismiss Message"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:969
+#: includes/lib/inc/class-fusion-images.php:971
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:973
+#: includes/lib/inc/class-fusion-images.php:975
 msgid "1x1"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:974
+#: includes/lib/inc/class-fusion-images.php:976
 msgid "Landscape"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:975
+#: includes/lib/inc/class-fusion-images.php:977
 msgid "Portrait"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:976
+#: includes/lib/inc/class-fusion-images.php:978
 msgid "2x2"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:978
+#: includes/lib/inc/class-fusion-images.php:980
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -4921,26 +4936,26 @@ msgid ""
 "Following data is sent to a ThemeFusion server located in the US to verify "
 "purchase and to ensure that demos are compatible with your install."
 msgstr ""
-"Seuraavat tiedot lähetetään USA:ssa sijaitsevalle ThemeFusion:n palvelimelle. "
-"Tietoja käytetään ostoksen varmentamiseksi, sekä sivuston ja Avadan "
-"näytesivustojen/-sivujen yhteensopivuuden varmistamiseksi."
+"Seuraavat tiedot lähetetään USA:ssa sijaitsevalle ThemeFusion:n "
+"palvelimelle. Tietoja käytetään ostoksen varmentamiseksi, sekä sivuston ja "
+"Avadan näytesivustojen/-sivujen yhteensopivuuden varmistamiseksi."
 
 #: includes/lib/inc/class-fusion-privacy.php:196
 msgid ""
 "Following data is sent to a ThemeFusion server located in the US to verify "
 "purchase."
 msgstr ""
-"Seuraavat tiedot lähetetään USA:ssa sijaitsevalle ThemeFusion:n palvelimelle. "
-"Tietoja käytetään ostoksen varmentamiseksi."
+"Seuraavat tiedot lähetetään USA:ssa sijaitsevalle ThemeFusion:n "
+"palvelimelle. Tietoja käytetään ostoksen varmentamiseksi."
 
 #: includes/lib/inc/class-fusion-privacy.php:199
 msgid ""
 "Following data will be sent to a ThemeFusion server located in the US to "
 "verify purchase and to ensure that plugins are compatible with your install."
 msgstr ""
-"Seuraavat tiedot lähetetään USA:ssa sijaitsevalle ThemeFusion:n palvelimelle. "
-"Tietoja käytetään ostoksen varmentamiseksi, sekä sivuston ja lisäosien "
-"yhteensopivuuden varmistamiseksi."
+"Seuraavat tiedot lähetetään USA:ssa sijaitsevalle ThemeFusion:n "
+"palvelimelle. Tietoja käytetään ostoksen varmentamiseksi, sekä sivuston ja "
+"lisäosien yhteensopivuuden varmistamiseksi."
 
 #: includes/lib/inc/class-fusion-privacy.php:202
 msgid ""
@@ -5054,21 +5069,14 @@ msgid "documentation post"
 msgstr ""
 
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:670
+#: includes/lib/inc/class-fusion-scripts.php:673
 msgid "Loading the next set of posts..."
 msgstr "Ladataan lisää kirjoituksia..."
 
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:671
+#: includes/lib/inc/class-fusion-scripts.php:674
 msgid "All items displayed."
 msgstr "Kaikki osiot ladattu."
-
-# @ Avada
-#: includes/lib/inc/class-fusion-searchform.php:62
-#: includes/lib/inc/class-fusion-searchform.php:64 searchform.php:21
-#: searchform.php:23
-msgid "Search ..."
-msgstr "Hae ..."
 
 #: includes/lib/inc/class-fusion-settings.php:409
 msgid "Link & Zoom"
@@ -5240,23 +5248,6 @@ msgstr ""
 msgid "Using default value."
 msgstr ""
 
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:264
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:467
-msgid "Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:286
-msgid "Upload Custom Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:286
-msgid "Update Custom Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:468
-msgid "CSS Prefix"
-msgstr ""
-
 #: includes/lib/inc/customizer/class-fusion-customizer.php:343
 #: includes/lib/inc/fusion-app/helpers.php:432
 #: includes/lib/inc/redux/custom-fields/dimensions/field_dimensions.php:71
@@ -5275,176 +5266,176 @@ msgid "Search Controls"
 msgstr ""
 
 #. translators: The author.
-#: includes/lib/inc/functions.php:358 includes/lib/inc/functions.php:361
+#: includes/lib/inc/functions.php:347 includes/lib/inc/functions.php:350
 msgid "By %s"
 msgstr "%s"
 
 #. translators: The categories list.
-#: includes/lib/inc/functions.php:399
+#: includes/lib/inc/functions.php:388
 msgid "Categories: %s"
 msgstr ""
 
 #. translators: The tags list.
 #. Translators: List of tags.
-#: includes/lib/inc/functions.php:412
+#: includes/lib/inc/functions.php:401
 #: includes/lib/inc/fusion-app/helpers.php:506
 msgid "Tags: %s"
 msgstr ""
 
 # @ Avada
-#: includes/lib/inc/functions.php:419 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:408 templates/related-posts.php:105
 msgid "0 Comments"
 msgstr "0 Kommenttia"
 
 # @ Avada
-#: includes/lib/inc/functions.php:419 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:408 templates/related-posts.php:105
 msgid "1 Comment"
 msgstr "1 Kommentti"
 
-#: includes/lib/inc/functions.php:419 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:408 templates/related-posts.php:105
 msgid "% Comments"
 msgstr ""
 
 # @ Avada
-#: includes/lib/inc/functions.php:917
+#: includes/lib/inc/functions.php:905
 msgid "Pages:"
 msgstr ""
 
 # @ Avada
-#: includes/lib/inc/fusion-app/class-fusion-app.php:430
+#: includes/lib/inc/fusion-app/class-fusion-app.php:427
 #: includes/metaboxes/metaboxes.php:412 includes/metaboxes/tabs/tab_page.php:28
 msgid "Page"
 msgstr "Sivu"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:587
+#: includes/lib/inc/fusion-app/class-fusion-app.php:557
 msgid "Fusion Builder Live"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:956
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1049
+#: includes/lib/inc/fusion-app/class-fusion-app.php:896
+#: includes/lib/inc/fusion-app/class-fusion-app.php:989
 #: includes/lib/inc/fusion-app/helpers.php:485
 msgid "Clear"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:958
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1051
+#: includes/lib/inc/fusion-app/class-fusion-app.php:898
+#: includes/lib/inc/fusion-app/class-fusion-app.php:991
 msgid "Select Color"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:959
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1052
+#: includes/lib/inc/fusion-app/class-fusion-app.php:899
+#: includes/lib/inc/fusion-app/class-fusion-app.php:992
 msgid "Current Color"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1220
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1156
 msgid "You do not have permission to edit this post."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1277
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1196
 msgid "The page contents updated."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1284
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1203
 msgid "You do not have permission to edit this archive."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1319
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1238
 msgid "The archive details updated."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1441
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1442
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1327
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1328
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:73
 msgid "Ultra-Light 100"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1443
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1329
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:83
 msgid "Ultra-Light 100 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1444
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1330
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:74
 msgid "Light 200"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1445
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1331
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:89
 msgid "Light 200 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1446
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1332
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:75
 msgid "Book 300"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1447
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1333
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:84
 msgid "Book 300 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1448
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1449
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1334
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1335
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:70
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:76
 msgid "Normal 400"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1450
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1336
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:71
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:72
 msgid "Normal 400 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1451
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1337
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:77
 msgid "Medium 500"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1452
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1338
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:85
 msgid "Medium 500 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1453
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1454
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1339
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1340
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:78
 msgid "Semi-Bold 600"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1455
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1341
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:88
 msgid "Semi-Bold 600 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1456
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1342
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:79
 msgid "Bold 700"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1457
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1343
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:80
 msgid "Bold 700 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1458
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1459
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1344
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1345
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:86
 msgid "Extra-Bold 800"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1460
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1346
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:87
 msgid "Extra-Bold 800 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1461
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1462
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1347
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1348
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:81
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1463
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1349
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:82
 msgid "Ultra-Bold 900 Italic"
 msgstr ""
@@ -6733,18 +6724,6 @@ msgstr ""
 msgid "Select Dynamic Content"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:510
-msgid "Custom Font(s)"
-msgstr ""
-
-#: includes/lib/inc/fusion-app/helpers.php:511
-msgid "Add New"
-msgstr ""
-
-#: includes/lib/inc/fusion-app/helpers.php:512
-msgid "Separate with Commas"
-msgstr ""
-
 #: includes/lib/inc/fusion-app/templates/front-customize.php:54
 msgid "Site Preview"
 msgstr ""
@@ -6865,7 +6844,7 @@ msgstr ""
 #: includes/lib/inc/fusion-app/templates/options/import.php:24
 #: includes/options/performance.php:119
 msgid "Database"
-msgstr "Tietokanta"
+msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/export.php:30
 msgid "Copy to Clipboard"
@@ -9827,7 +9806,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:180
 msgid "Project URL"
-msgstr "Projektin verkko-osoite"
+msgstr ""
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:181
@@ -9847,7 +9826,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:194
 msgid "Copyright URL"
-msgstr "tekijänoikeus URL"
+msgstr ""
 
 #: includes/metaboxes/tabs/tab_portfolio_post.php:195
 msgid "The URL the copyright text links to."
@@ -10769,7 +10748,7 @@ msgstr ""
 #: includes/options/blog.php:539 includes/options/portfolio.php:232
 #: includes/options/search.php:453
 msgid "Excerpt"
-msgstr "lyhennelmä"
+msgstr ""
 
 # @ Avada
 #: includes/options/blog.php:540 includes/options/portfolio.php:233
@@ -10780,7 +10759,7 @@ msgstr ""
 #: includes/options/blog.php:541 includes/options/portfolio.php:193
 #: includes/options/portfolio.php:231 includes/options/search.php:455
 msgid "No Text"
-msgstr "Ei tekstiä"
+msgstr ""
 
 # @ Avada
 #: includes/options/blog.php:545
@@ -11693,7 +11672,7 @@ msgstr ""
 # @ Avada
 #: includes/options/elastic_slider.php:113 includes/options/slideshows.php:46
 msgid "Autoplay"
-msgstr "Automaattinen toisto"
+msgstr ""
 
 #: includes/options/elastic_slider.php:114
 msgid "Turn on to autoplay the elastic slides."
@@ -12196,7 +12175,7 @@ msgstr ""
 # @ Avada
 #: includes/options/extra.php:275
 msgid "Related Posts / Projects"
-msgstr "Samankaltaisia artikkeleita / projekteja"
+msgstr ""
 
 # @ Avada
 #: includes/options/extra.php:281
@@ -12276,7 +12255,7 @@ msgstr ""
 # @ Avada
 #: includes/options/extra.php:401
 msgid "Related Posts / Projects Speed"
-msgstr "Samankaltaisia projekteja"
+msgstr ""
 
 #: includes/options/extra.php:402
 msgid ""
@@ -12828,7 +12807,7 @@ msgstr ""
 # @ Avada
 #: includes/options/footer.php:283
 msgid "Copyright Text"
-msgstr "tekijänoikeusteksti"
+msgstr ""
 
 # @ Avada
 #: includes/options/footer.php:284
@@ -15383,7 +15362,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:532
 msgid "Project Description Title"
-msgstr "Projektia kuvaava otsikko"
+msgstr ""
 
 #: includes/options/portfolio.php:533
 msgid ""
@@ -15393,7 +15372,7 @@ msgstr ""
 # @ Avada
 #: includes/options/portfolio.php:546
 msgid "Project Details"
-msgstr "Projektin lisätiedot"
+msgstr ""
 
 #: includes/options/portfolio.php:547
 msgid ""
@@ -15958,7 +15937,7 @@ msgstr ""
 #: includes/options/search.php:535 templates/wc-catalog-ordering.php:48
 #: templates/wc-catalog-ordering.php:105
 msgid "Date"
-msgstr "päiväys"
+msgstr "Päiväys"
 
 # @ Avada
 #: includes/options/search.php:536
@@ -16185,7 +16164,7 @@ msgstr ""
 # @ Avada
 #: includes/options/sidebars.php:325
 msgid "Blog Posts"
-msgstr "Blogikirjoitukset"
+msgstr ""
 
 #: includes/options/sidebars.php:332
 msgid "Global Blog Post Sidebar 1"
@@ -16830,12 +16809,12 @@ msgstr ""
 #: includes/options/social_media.php:200 includes/options/social_media.php:417
 #: includes/options/social_media.php:693
 msgid "Custom Colors"
-msgstr "Kustomoidut värit"
+msgstr ""
 
 #: includes/options/social_media.php:201 includes/options/social_media.php:418
 #: includes/options/social_media.php:694
 msgid "Brand Colors"
-msgstr "Brändin värit"
+msgstr ""
 
 #: includes/options/social_media.php:224
 msgid "Header Social Icon Color"
@@ -17610,7 +17589,7 @@ msgstr ""
 #: includes/plugins/multiple_sidebars.php:594
 #: includes/plugins/multiple_sidebars.php:652
 msgid "Blog Sidebar"
-msgstr "Blogin sivupalkki"
+msgstr ""
 
 # @ Avada
 #: includes/plugins/multiple_sidebars.php:494
@@ -17666,6 +17645,11 @@ msgstr "Yritä uudelleen"
 msgid "If you want to rephrase your query, here is your chance:"
 msgstr "Voit kokeilla hakua myös toisella hakusanalla:"
 
+# @ Avada
+#: searchform.php:21 searchform.php:23
+msgid "Search ..."
+msgstr "Hae ..."
+
 #. translators: The link.
 #: single-wpfc_sermon.php:73 single.php:73
 msgid "About the Author: %s"
@@ -17687,7 +17671,7 @@ msgstr "Kirjoittaja ei ole lisännyt lisätietoja."
 #. translators: %1$s: Username. %2$s: Number.
 #: templates/author-info.php:32
 msgid "So far %1$s has created %2$s blog entries."
-msgstr "Tähän mennessä %1$s on luonut %2$s blogiartikkelia."
+msgstr "Tähän mennessä %1$s on luonut %2$s artikkelia."
 
 #. translators: The user.
 #: templates/author-info.php:44
@@ -18130,7 +18114,7 @@ msgstr "Tilauksen numero:"
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:55
 msgid "Date:"
-msgstr "päiväys"
+msgstr "Päiväys:"
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:67
@@ -18210,67 +18194,6 @@ msgstr[1] ""
 #: includes/class-avada-tgm-plugin-activation.php:2539
 msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:140
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:152
-msgctxt "Avada Icon"
-msgid "Custom Icons"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:141
-msgctxt "Avada Icon"
-msgid "Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:142
-msgctxt "Avada Icon"
-msgid "Add New"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:143
-msgctxt "Avada Icon"
-msgid "Add New Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:144
-msgctxt "Avada Icon"
-msgid "Edit Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:145
-msgctxt "Avada Icon"
-msgid "New Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:146
-msgctxt "Avada Icon"
-msgid "All Icon Sets"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:147
-msgctxt "Avada Icon"
-msgid "View Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:148
-msgctxt "Avada Icon"
-msgid "Search Icon Sets"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:149
-msgctxt "Avada Icon"
-msgid "No Icon Sets found"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:150
-msgctxt "Avada Icon"
-msgid "No Icon Sets found in Trash"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:178
-msgctxt "Avada Icons"
-msgid "Custom Icons"
 msgstr ""
 
 # @ Avada

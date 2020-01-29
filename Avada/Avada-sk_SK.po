@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2019-10-30 10:38:21+00:00\n"
-"PO-Revision-Date: 2019-11-07 20:14+0100\n"
+"POT-Creation-Date: 2019-11-21 13:17:01+00:00\n"
+"PO-Revision-Date: 2019-11-15 22:06+0100\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -32,7 +32,7 @@ msgid "Can't find what you need? Take a moment and do a search below!"
 msgstr ""
 
 #: bbpress/form-search.php:13 includes/class-avada-layout-bbpress.php:142
-#: includes/lib/inc/class-fusion-searchform.php:60 searchform.php:19
+#: searchform.php:19
 msgid "Search for:"
 msgstr "Hľadať:"
 
@@ -62,11 +62,11 @@ msgstr ""
 
 #: comments.php:32
 msgid "No Comments"
-msgstr ""
+msgstr "Žiadne komentáre"
 
 #: comments.php:32
 msgid "One Comment"
-msgstr ""
+msgstr "Jeden komentár"
 
 #: comments.php:32
 msgid "% Comment"
@@ -78,7 +78,7 @@ msgstr[2] ""
 #: comments.php:46 includes/class-avada-layout-bbpress.php:224
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
-#: includes/class-avada-woocommerce.php:399 includes/lib/inc/functions.php:1097
+#: includes/class-avada-woocommerce.php:399 includes/lib/inc/functions.php:1085
 #: single-wpfc_sermon.php:21 single.php:20
 msgid "Previous"
 msgstr ""
@@ -86,7 +86,7 @@ msgstr ""
 #: comments.php:47 includes/class-avada-layout-bbpress.php:225
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
-#: includes/class-avada-woocommerce.php:400 includes/lib/inc/functions.php:1143
+#: includes/class-avada-woocommerce.php:400 includes/lib/inc/functions.php:1131
 #: single-wpfc_sermon.php:22 single.php:21
 msgid "Next"
 msgstr ""
@@ -364,7 +364,7 @@ msgstr ""
 #: includes/admin-screens/demos.php:374
 #: includes/metaboxes/tabs/tab_avada_page_options.php:104
 msgid "Warning "
-msgstr ""
+msgstr "Varovanie"
 
 #: includes/admin-screens/demos.php:384
 msgid "Avada Demos Can Only Be Imported With A Valid Token Registration"
@@ -699,7 +699,7 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:225
 msgid "Error "
-msgstr ""
+msgstr "Chyba "
 
 #: includes/admin-screens/registration.php:20
 msgid ""
@@ -1299,7 +1299,7 @@ msgstr ""
 #. translators: plugin author.
 #: includes/admin-screens/system-status.php:701
 msgid "by %s"
-msgstr ""
+msgstr "od %s"
 
 #. translators: Version Number.
 #: includes/admin-screens/system-status.php:723
@@ -1462,7 +1462,7 @@ msgstr ""
 #: includes/class-avada-widget-style.php:255
 #: includes/lib/inc/fusion-app/helpers.php:244
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušiť"
 
 #: includes/avada-app/class-fusion-panel.php:449
 msgid "LayerSlider"
@@ -1765,7 +1765,7 @@ msgstr "Zobraziť košík"
 
 #: includes/avada-functions.php:588
 msgid "Checkout"
-msgstr ""
+msgstr "Pokladňa"
 
 #: includes/avada-functions.php:706 templates/header-v6.php:30
 #: templates/menu-mobile-flyout.php:21 templates/menu-mobile-modern.php:31
@@ -2175,9 +2175,9 @@ msgstr ""
 #: includes/class-avada-tgm-plugin-activation.php:2614
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:715
 msgid "Version"
-msgstr ""
+msgstr "Verzia"
 
-#: includes/class-avada-admin.php:700 includes/class-avada-upgrade.php:376
+#: includes/class-avada-admin.php:700 includes/class-avada-upgrade.php:377
 msgid "View Changelog"
 msgstr ""
 
@@ -2546,22 +2546,18 @@ msgid "XXL"
 msgstr ""
 
 #: includes/class-avada-breadcrumbs.php:126
-#: includes/lib/inc/class-fusion-breadcrumbs.php:136
 msgid "Home"
 msgstr ""
 
 #: includes/class-avada-breadcrumbs.php:127
-#: includes/lib/inc/class-fusion-breadcrumbs.php:137
 msgid "Tag:"
 msgstr ""
 
 #: includes/class-avada-breadcrumbs.php:128
-#: includes/lib/inc/class-fusion-breadcrumbs.php:138
 msgid "Search:"
 msgstr ""
 
 #: includes/class-avada-breadcrumbs.php:129
-#: includes/lib/inc/class-fusion-breadcrumbs.php:139
 msgid "404 - Page not Found"
 msgstr "404 - Stránka nenájdená"
 
@@ -2841,14 +2837,14 @@ msgstr ""
 #: includes/class-avada-megamenu-framework.php:661
 #: includes/lib/inc/fusion-app/helpers.php:280
 msgid "Edit"
-msgstr ""
+msgstr "Upraviť"
 
 #: includes/class-avada-megamenu-framework.php:663
 #: includes/class-avada-taxonomy-meta.php:1030
 #: includes/class-avada-taxonomy-meta.php:1033
 #: includes/lib/inc/fusion-app/helpers.php:278
 msgid "Upload Image"
-msgstr ""
+msgstr "Nahrať obrázok"
 
 #: includes/class-avada-megamenu-framework.php:684
 #: includes/class-avada-megamenu-framework.php:689
@@ -3099,7 +3095,7 @@ msgstr ""
 
 #: includes/class-avada-privacy-embeds.php:933
 msgid "I Accept"
-msgstr ""
+msgstr "Súhlasím"
 
 #: includes/class-avada-pwa.php:184
 msgid "Fonts"
@@ -3141,7 +3137,7 @@ msgstr "Detaily"
 
 #: includes/class-avada-scripts.php:785
 msgid "Not all fields have been filled in correctly."
-msgstr ""
+msgstr "Niektoré polia neboli vyplnené správne."
 
 #: includes/class-avada-scripts.php:842
 msgid "No search results match your query. Please try again"
@@ -3255,9 +3251,9 @@ msgstr ""
 
 #: includes/class-avada-taxonomy-meta.php:294
 #: includes/class-avada-taxonomy-meta.php:418
-#: includes/lib/inc/class-fusion-images.php:972
-#: includes/lib/inc/fusion-app/class-fusion-app.php:957
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1050
+#: includes/lib/inc/class-fusion-images.php:974
+#: includes/lib/inc/fusion-app/class-fusion-app.php:897
+#: includes/lib/inc/fusion-app/class-fusion-app.php:990
 #: includes/lib/inc/fusion-app/helpers.php:470
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1902
 #: includes/metaboxes/tabs/tab_background.php:70
@@ -3476,7 +3472,7 @@ msgstr ""
 #: includes/class-avada-taxonomy-meta.php:1029
 #: includes/class-avada-taxonomy-meta.php:1032
 msgid "Remove Image"
-msgstr ""
+msgstr "Odstrániť obrázok"
 
 #. translators: %1$s: Comment date. %2$s: Comment time.
 #: includes/class-avada-template.php:683
@@ -3556,7 +3552,7 @@ msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:377
+#: includes/class-avada-upgrade.php:378
 msgid "Dismiss this notice"
 msgstr ""
 
@@ -3825,7 +3821,7 @@ msgstr ""
 #: includes/lib/inc/fusion-app/helpers.php:377
 #: includes/metaboxes/tabs/tab_header.php:86
 msgid "Background Color"
-msgstr ""
+msgstr "Farba pozadia"
 
 #: includes/class-avada-widget-style.php:70
 msgid "Controls the background color for this widget container."
@@ -4332,49 +4328,49 @@ msgstr ""
 
 #: includes/dynamic-css.php:132
 msgid "Please enter correct details for this required field."
-msgstr ""
+msgstr "Zadajte, prosím, správne podrobnosti pre toto povinné pole."
 
-#: includes/lib/inc/class-fusion-data.php:150 includes/options/contact.php:63
+#: includes/lib/inc/class-fusion-data.php:138 includes/options/contact.php:63
 msgid "Email Address"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:158
+#: includes/lib/inc/class-fusion-data.php:146
 msgid "Custom"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:380
+#: includes/lib/inc/class-fusion-data.php:368
 msgid "Thin (100)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:381
+#: includes/lib/inc/class-fusion-data.php:369
 msgid "Extra Light (200)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:382
+#: includes/lib/inc/class-fusion-data.php:370
 msgid "Light (300)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:383
+#: includes/lib/inc/class-fusion-data.php:371
 msgid "Normal (400)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:384
+#: includes/lib/inc/class-fusion-data.php:372
 msgid "Medium (500)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:385
+#: includes/lib/inc/class-fusion-data.php:373
 msgid "Semi Bold (600)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:386
+#: includes/lib/inc/class-fusion-data.php:374
 msgid "Bold (700)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:387
+#: includes/lib/inc/class-fusion-data.php:375
 msgid "Bolder (800)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:388
+#: includes/lib/inc/class-fusion-data.php:376
 msgid "Extra Bold (900)"
 msgstr ""
 
@@ -4469,7 +4465,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-fusionredux.php:865
 msgid "Color Scheme"
-msgstr ""
+msgstr "Farebná schéma"
 
 #: includes/lib/inc/class-fusion-fusionredux.php:879
 msgid "Are you sure you want to reset all Fusion caches?"
@@ -4511,27 +4507,27 @@ msgstr ""
 msgid "Dismiss Message"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:969
+#: includes/lib/inc/class-fusion-images.php:971
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:973
+#: includes/lib/inc/class-fusion-images.php:975
 msgid "1x1"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:974
+#: includes/lib/inc/class-fusion-images.php:976
 msgid "Landscape"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:975
+#: includes/lib/inc/class-fusion-images.php:977
 msgid "Portrait"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:976
+#: includes/lib/inc/class-fusion-images.php:978
 msgid "2x2"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:978
+#: includes/lib/inc/class-fusion-images.php:980
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -4564,7 +4560,7 @@ msgstr ""
 #: woocommerce/checkout/form-pay.php:29
 #: woocommerce/checkout/review-order.php:26
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:323
 msgid "Issue Date"
@@ -4773,19 +4769,13 @@ msgstr ""
 msgid "documentation post"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:670
+#: includes/lib/inc/class-fusion-scripts.php:673
 msgid "Loading the next set of posts..."
-msgstr ""
+msgstr "Načítavam ďalšiu sadu článkov..."
 
-#: includes/lib/inc/class-fusion-scripts.php:671
+#: includes/lib/inc/class-fusion-scripts.php:674
 msgid "All items displayed."
-msgstr ""
-
-#: includes/lib/inc/class-fusion-searchform.php:62
-#: includes/lib/inc/class-fusion-searchform.php:64 searchform.php:21
-#: searchform.php:23
-msgid "Search ..."
-msgstr ""
+msgstr "Sú zobrazené všetky položky."
 
 #: includes/lib/inc/class-fusion-settings.php:409
 msgid "Link & Zoom"
@@ -4951,23 +4941,6 @@ msgstr ""
 msgid "Using default value."
 msgstr ""
 
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:264
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:467
-msgid "Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:286
-msgid "Upload Custom Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:286
-msgid "Update Custom Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:468
-msgid "CSS Prefix"
-msgstr ""
-
 #: includes/lib/inc/customizer/class-fusion-customizer.php:343
 #: includes/lib/inc/fusion-app/helpers.php:432
 #: includes/lib/inc/redux/custom-fields/dimensions/field_dimensions.php:71
@@ -4986,172 +4959,172 @@ msgid "Search Controls"
 msgstr ""
 
 #. translators: The author.
-#: includes/lib/inc/functions.php:358 includes/lib/inc/functions.php:361
+#: includes/lib/inc/functions.php:347 includes/lib/inc/functions.php:350
 msgid "By %s"
 msgstr "Od %s"
 
 #. translators: The categories list.
-#: includes/lib/inc/functions.php:399
+#: includes/lib/inc/functions.php:388
 msgid "Categories: %s"
 msgstr "Kategórie: %s"
 
 #. translators: The tags list.
 #. Translators: List of tags.
-#: includes/lib/inc/functions.php:412
+#: includes/lib/inc/functions.php:401
 #: includes/lib/inc/fusion-app/helpers.php:506
 msgid "Tags: %s"
 msgstr ""
 
-#: includes/lib/inc/functions.php:419 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:408 templates/related-posts.php:105
 msgid "0 Comments"
-msgstr ""
+msgstr "0 komentárov"
 
-#: includes/lib/inc/functions.php:419 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:408 templates/related-posts.php:105
 msgid "1 Comment"
-msgstr ""
+msgstr "1 komentár"
 
-#: includes/lib/inc/functions.php:419 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:408 templates/related-posts.php:105
 msgid "% Comments"
 msgstr ""
 
-#: includes/lib/inc/functions.php:917
+#: includes/lib/inc/functions.php:905
 msgid "Pages:"
 msgstr "Strany:"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:430
+#: includes/lib/inc/fusion-app/class-fusion-app.php:427
 #: includes/metaboxes/metaboxes.php:412 includes/metaboxes/tabs/tab_page.php:28
 msgid "Page"
 msgstr "Strana"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:587
+#: includes/lib/inc/fusion-app/class-fusion-app.php:557
 msgid "Fusion Builder Live"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:956
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1049
+#: includes/lib/inc/fusion-app/class-fusion-app.php:896
+#: includes/lib/inc/fusion-app/class-fusion-app.php:989
 #: includes/lib/inc/fusion-app/helpers.php:485
 msgid "Clear"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:958
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1051
+#: includes/lib/inc/fusion-app/class-fusion-app.php:898
+#: includes/lib/inc/fusion-app/class-fusion-app.php:991
 msgid "Select Color"
 msgstr "Vybrať farbu"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:959
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1052
+#: includes/lib/inc/fusion-app/class-fusion-app.php:899
+#: includes/lib/inc/fusion-app/class-fusion-app.php:992
 msgid "Current Color"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1220
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1156
 msgid "You do not have permission to edit this post."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1277
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1196
 msgid "The page contents updated."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1284
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1203
 msgid "You do not have permission to edit this archive."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1319
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1238
 msgid "The archive details updated."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1441
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1442
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1327
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1328
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:73
 msgid "Ultra-Light 100"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1443
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1329
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:83
 msgid "Ultra-Light 100 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1444
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1330
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:74
 msgid "Light 200"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1445
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1331
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:89
 msgid "Light 200 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1446
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1332
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:75
 msgid "Book 300"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1447
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1333
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:84
 msgid "Book 300 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1448
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1449
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1334
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1335
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:70
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:76
 msgid "Normal 400"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1450
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1336
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:71
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:72
 msgid "Normal 400 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1451
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1337
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:77
 msgid "Medium 500"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1452
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1338
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:85
 msgid "Medium 500 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1453
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1454
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1339
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1340
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:78
 msgid "Semi-Bold 600"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1455
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1341
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:88
 msgid "Semi-Bold 600 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1456
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1342
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:79
 msgid "Bold 700"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1457
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1343
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:80
 msgid "Bold 700 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1458
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1459
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1344
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1345
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:86
 msgid "Extra-Bold 800"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1460
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1346
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:87
 msgid "Extra-Bold 800 Italic"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1461
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1462
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1347
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1348
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:81
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1463
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1349
 #: includes/lib/inc/redux/custom-fields/typography/googlefonts.php:82
 msgid "Ultra-Bold 900 Italic"
 msgstr ""
@@ -5280,7 +5253,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:204
 msgid "Delete item"
-msgstr ""
+msgstr "Zmazať položku"
 
 #: includes/lib/inc/fusion-app/helpers.php:205
 msgid "Clone item"
@@ -5288,7 +5261,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:206
 msgid "Edit item"
-msgstr ""
+msgstr "Upraviť položku"
 
 #. translators: Element settings.
 #: includes/lib/inc/fusion-app/helpers.php:209
@@ -5371,7 +5344,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:228
 msgid "Save column"
-msgstr ""
+msgstr "Uložiť stĺpec"
 
 #: includes/lib/inc/fusion-app/helpers.php:229
 msgid "Delete column"
@@ -5538,7 +5511,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:275
 msgid "Please enter template name"
-msgstr ""
+msgstr "Zadajte, prosím, názov šablóny"
 
 #: includes/lib/inc/fusion-app/helpers.php:276
 msgid "Save page layout"
@@ -5904,7 +5877,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:371
 msgid "Next Page"
-msgstr ""
+msgstr "Ďalšia strana"
 
 #: includes/lib/inc/fusion-app/helpers.php:372
 msgid "Special"
@@ -6176,15 +6149,15 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:447
 msgid "I agree"
-msgstr ""
+msgstr "Súhlasím"
 
 #: includes/lib/inc/fusion-app/helpers.php:448
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ste si istý/á?"
 
 #: includes/lib/inc/fusion-app/helpers.php:449
 msgid "I'm sure"
-msgstr ""
+msgstr "Som si istý/á"
 
 #: includes/lib/inc/fusion-app/helpers.php:450 includes/options/privacy.php:344
 msgid "Ok"
@@ -6290,7 +6263,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:474
 msgid "Delete All"
-msgstr ""
+msgstr "Zmazať všetko"
 
 #: includes/lib/inc/fusion-app/helpers.php:475
 #: includes/lib/inc/fusion-app/templates/options/import.php:93
@@ -6301,7 +6274,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_avada_page_options.php:62
 #: includes/options/colors.php:179 includes/options/colors.php:217
 msgid "Delete"
-msgstr ""
+msgstr "Zmazať"
 
 #: includes/lib/inc/fusion-app/helpers.php:476
 msgid "Preview Mode"
@@ -6357,7 +6330,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:491
 msgid "Search Results"
-msgstr ""
+msgstr "Výsledky vyhľadávania"
 
 #: includes/lib/inc/fusion-app/helpers.php:492
 msgid "Page Save Incomplete"
@@ -6419,7 +6392,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:507
 msgid "Other"
-msgstr ""
+msgstr "Iné"
 
 #: includes/lib/inc/fusion-app/helpers.php:508
 msgid "Dynamic Data"
@@ -6427,18 +6400,6 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:509
 msgid "Select Dynamic Content"
-msgstr ""
-
-#: includes/lib/inc/fusion-app/helpers.php:510
-msgid "Custom Font(s)"
-msgstr ""
-
-#: includes/lib/inc/fusion-app/helpers.php:511
-msgid "Add New"
-msgstr ""
-
-#: includes/lib/inc/fusion-app/helpers.php:512
-msgid "Separate with Commas"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/front-customize.php:54
@@ -6941,7 +6902,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:418
 msgid "Size"
-msgstr ""
+msgstr "Veľkosť"
 
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:910
 msgid "Standard Fonts"
@@ -7082,7 +7043,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:184
 msgid "Settings Saved!"
-msgstr ""
+msgstr "Nastavenia uložené!"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/panel.php:204
 msgid "Settings have changed, you should save them!"
@@ -7570,7 +7531,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:166
 msgid "Close"
-msgstr ""
+msgstr "Zatvoriť"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/validation/color/validation_color.php:15
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
@@ -7814,7 +7775,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:255
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:270
 #: includes/options/performance.php:285
@@ -8248,7 +8209,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header_stickybar.tpl.php:21
 #: includes/lib/inc/redux/panel_templates/header_stickybar.tpl.php:29
 msgid "Save Changes"
-msgstr ""
+msgstr "Uložiť nastavenia"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/footer.tpl.php:61
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header_stickybar.tpl.php:25
@@ -8434,7 +8395,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_background.php:62
 #: includes/options/background.php:34 includes/options/menu.php:141
 msgid "Background"
-msgstr ""
+msgstr "Pozadie"
 
 #: includes/metaboxes/metaboxes.php:419
 #: includes/metaboxes/tabs/tab_portfolio_post.php:42
@@ -9469,7 +9430,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_portfolio_post.php:252
 msgid "Show Author"
-msgstr ""
+msgstr "Zobraziť autora"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_portfolio_post.php:264
@@ -9720,7 +9681,7 @@ msgstr ""
 
 #: includes/options/advanced.php:92
 msgid "Enable Language Updates"
-msgstr ""
+msgstr "Povoliť jazykové aktualizácie"
 
 #: includes/options/advanced.php:93
 msgid ""
@@ -10593,7 +10554,7 @@ msgstr ""
 
 #: includes/options/colors.php:27
 msgid "Colors"
-msgstr ""
+msgstr "Farby"
 
 #: includes/options/colors.php:35
 msgid ""
@@ -10924,7 +10885,7 @@ msgstr ""
 
 #: includes/options/contact.php:299
 msgid "Address"
-msgstr ""
+msgstr "Adresa"
 
 #: includes/options/contact.php:300
 msgid ""
@@ -13249,7 +13210,7 @@ msgstr ""
 
 #: includes/options/logo.php:410
 msgid "Edit Logo"
-msgstr ""
+msgstr "Upraviť logo"
 
 #: includes/options/logo.php:418
 msgid "Retina Default Logo"
@@ -14775,7 +14736,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:569 includes/options/search.php:534
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: includes/options/portfolio.php:570
 msgid "Turn on to display the author name on single portfolio posts."
@@ -14803,7 +14764,7 @@ msgstr ""
 
 #: includes/options/privacy.php:34
 msgid "Privacy"
-msgstr ""
+msgstr "Súkromie"
 
 #: includes/options/privacy.php:42
 msgid ""
@@ -16070,11 +16031,11 @@ msgstr ""
 
 #: includes/options/social_media.php:29
 msgid "Social Media"
-msgstr ""
+msgstr "Sociálne médiá"
 
 #: includes/options/social_media.php:36
 msgid "Social Media Icons"
-msgstr ""
+msgstr "Ikony sociálnych médií"
 
 #: includes/options/social_media.php:43
 msgid ""
@@ -16974,6 +16935,10 @@ msgstr "Skúsiť znova"
 msgid "If you want to rephrase your query, here is your chance:"
 msgstr ""
 
+#: searchform.php:21 searchform.php:23
+msgid "Search ..."
+msgstr "Hľadať ..."
+
 #. translators: The link.
 #: single-wpfc_sermon.php:73 single.php:73
 msgid "About the Author: %s"
@@ -17007,7 +16972,7 @@ msgstr "Upraviť profil"
 
 #: templates/blog-layout.php:358 templates/blog-layout.php:388
 msgid "Read More"
-msgstr ""
+msgstr "Čítať ďalej"
 
 #: templates/blog-layout.php:370
 msgid "Protected"
@@ -17019,15 +16984,15 @@ msgstr "Načítať viac výsledkov"
 
 #: templates/blog-layout.php:429
 msgid "Load More Posts"
-msgstr ""
+msgstr "Načítať viac článkov"
 
 #: templates/elasticslider.php:34
 msgid "Loading..."
-msgstr "Načítava sa…"
+msgstr "Načítava sa..."
 
 #: templates/featured-image-post.php:41
 msgid "View Larger Image"
-msgstr ""
+msgstr "Zobraziť väčší obrázok"
 
 #. translators: The link.
 #. Translators: The link.
@@ -17035,7 +17000,7 @@ msgstr ""
 #: templates/featured-image-wpfc_sermon.php:55
 #: tribe-events/pro/photo/single-event.php:29
 msgid "Go to \"%s\""
-msgstr ""
+msgstr "Prejsť na “%s”"
 
 #: templates/header-v6.php:43 templates/menu-mobile-flyout.php:34
 msgid "Toggle Search"
@@ -17144,7 +17109,7 @@ msgstr "Aktualizovať sumu"
 
 #: templates/wc-catalog-ordering.php:44 templates/wc-catalog-ordering.php:92
 msgid "Default Order"
-msgstr ""
+msgstr "Predvolené poradie"
 
 #: templates/wc-catalog-ordering.php:55 templates/wc-catalog-ordering.php:109
 msgid "Popularity"
@@ -17213,11 +17178,11 @@ msgstr "Vypredané"
 
 #: templates/wc-product-search-form.php:17
 msgid "Search..."
-msgstr "Hľadať…"
+msgstr "Hľadať..."
 
 #: templates/wc-quick-view-container.php:21
 msgid "Close product quick view"
-msgstr ""
+msgstr "Zatvoriť rýchle zobrazenie produktu"
 
 #: templates/wc-quick-view-product.php:35
 msgid "Sale!"
@@ -17233,7 +17198,7 @@ msgstr "Zobraziť detaily"
 
 #: templates/wc-show-details-button.php:25
 msgid "Quick View"
-msgstr ""
+msgstr "Rýchle zobrazenie"
 
 #. translators: %1$s: Username. %2$s: Username (same as %1$s). %3$s: "Sign Out"
 #. link.
@@ -17285,15 +17250,15 @@ msgstr "Adresa doručenia"
 #: tribe-events/day/single-event.php:70 tribe-events/list/single-event.php:73
 #: tribe-events/pro/map/single-event.php:69
 msgid "Find out more"
-msgstr ""
+msgstr "Zistiť viac"
 
 #: tribe-events/pro/photo/single-event.php:87
 msgid "Find Out More"
-msgstr ""
+msgstr "Zistiť viac"
 
 #: tribe-events/pro/related-events.php:27
 msgid "Related %s"
-msgstr ""
+msgstr "Príbuzné %s"
 
 #: tribe-events/pro/widgets/countdown-widget.php:21
 msgid "days"
@@ -17313,7 +17278,7 @@ msgstr ""
 
 #: tribe-events/pro/widgets/list-widget.php:57
 msgid "View More&hellip;"
-msgstr ""
+msgstr "Zobraziť viac&hellip;"
 
 #: tribe-events/pro/widgets/list-widget.php:65
 #: tribe-events/widgets/list-widget.php:69
@@ -17416,7 +17381,7 @@ msgstr ""
 
 #: woocommerce/single-product/tabs/additional-information.php:25
 msgid "Additional information"
-msgstr ""
+msgstr "Dodatočné informácie"
 
 #. Theme URI of the plugin/theme
 msgid "http://avada.theme-fusion.com/"
@@ -17438,7 +17403,7 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Blank Page"
-msgstr ""
+msgstr "Prázdna strana"
 
 #. Template Name of the plugin/theme
 msgid "Contact"
@@ -17452,7 +17417,7 @@ msgstr ""
 #: includes/class-avada-tgm-plugin-activation.php:3009
 msgctxt "plugin A *and* plugin B"
 msgid "and"
-msgstr ""
+msgstr "a"
 
 #. translators: 1: install status, 2: update status
 #: includes/class-avada-tgm-plugin-activation.php:2399
@@ -17474,71 +17439,10 @@ msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
 msgstr ""
 
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:140
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:152
-msgctxt "Avada Icon"
-msgid "Custom Icons"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:141
-msgctxt "Avada Icon"
-msgid "Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:142
-msgctxt "Avada Icon"
-msgid "Add New"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:143
-msgctxt "Avada Icon"
-msgid "Add New Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:144
-msgctxt "Avada Icon"
-msgid "Edit Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:145
-msgctxt "Avada Icon"
-msgid "New Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:146
-msgctxt "Avada Icon"
-msgid "All Icon Sets"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:147
-msgctxt "Avada Icon"
-msgid "View Icon Set"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:148
-msgctxt "Avada Icon"
-msgid "Search Icon Sets"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:149
-msgctxt "Avada Icon"
-msgid "No Icon Sets found"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:150
-msgctxt "Avada Icon"
-msgid "No Icon Sets found in Trash"
-msgstr ""
-
-#: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:178
-msgctxt "Avada Icons"
-msgid "Custom Icons"
-msgstr ""
-
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
 msgctxt "by author"
 msgid "by %s"
-msgstr ""
+msgstr "od %s"
 
 #: includes/wc-functions.php:76
 msgctxt "breadcrumb"
