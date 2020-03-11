@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2020-02-18 18:48:08+00:00\n"
+"POT-Creation-Date: 2020-03-11 13:01:17+00:00\n"
 "PO-Revision-Date: 2020-02-20 07:28+0100\n"
 "Last-Translator: Jakob Holmberg <jakob@loftreklam.se>\n"
 "Language-Team: Svenska\n"
@@ -105,7 +105,9 @@ msgstr[1] "% kommentarer"
 #: comments.php:46 includes/class-avada-layout-bbpress.php:224
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
-#: includes/class-avada-woocommerce.php:434 includes/lib/inc/functions.php:1063
+#: includes/class-avada-woocommerce.php:436
+#: includes/lib/inc/class-fusion-scripts.php:629
+#: includes/lib/inc/functions.php:1070
 #: includes/lib/inc/fusion-app/helpers.php:521 single-wpfc_sermon.php:21
 #: single.php:20
 msgid "Previous"
@@ -115,7 +117,9 @@ msgstr "Föregående"
 #: comments.php:47 includes/class-avada-layout-bbpress.php:225
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
-#: includes/class-avada-woocommerce.php:435 includes/lib/inc/functions.php:1109
+#: includes/class-avada-woocommerce.php:437
+#: includes/lib/inc/class-fusion-scripts.php:628
+#: includes/lib/inc/functions.php:1116
 #: includes/lib/inc/fusion-app/helpers.php:522 single-wpfc_sermon.php:22
 #: single.php:21
 msgid "Next"
@@ -132,7 +136,7 @@ msgid "Name (required)"
 msgstr "Namn (obligatoriskt)"
 
 # @ Avada
-#: comments.php:69 includes/avada-app/class-fusion-panel.php:747
+#: comments.php:69 includes/avada-app/class-fusion-panel.php:746
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:710
 #: templates/wc-catalog-ordering.php:61 templates/wc-catalog-ordering.php:97
 msgid "Name"
@@ -144,7 +148,8 @@ msgid "Email (required)"
 msgstr "E-post (obligatoriskt)"
 
 # @ Avada
-#: comments.php:70 includes/options/social_media.php:1007
+#: comments.php:70 includes/lib/inc/class-fusion-social-icon.php:86
+#: includes/options/social_media.php:1007
 #: includes/options/social_media.php:1009
 msgid "Email"
 msgstr "E-post"
@@ -312,8 +317,8 @@ msgstr "Bildspel"
 
 # @ Avada
 #: includes/admin-screens/demos.php:157 includes/avada-app/fusion-panel.php:98
-#: includes/avada-app/panel/templates/sidebar.php:25 includes/bootstrap.php:215
-#: includes/bootstrap.php:216 includes/bootstrap.php:624
+#: includes/avada-app/panel/templates/sidebar.php:25 includes/bootstrap.php:236
+#: includes/bootstrap.php:237 includes/bootstrap.php:645
 #: includes/class-avada-admin.php:275 includes/class-avada-admin.php:550
 #: includes/class-avada-admin.php:553
 #: includes/class-avada-megamenu-framework.php:159
@@ -1779,12 +1784,12 @@ msgid "Invalid Color"
 msgstr ""
 
 # @ Avada
-#: includes/avada-app/class-fusion-panel.php:728
+#: includes/avada-app/class-fusion-panel.php:727
 #: includes/lib/inc/fusion-app/templates/options/typography.php:159
 #: includes/metaboxes/options/options_slide.php:153
 #: includes/metaboxes/options/options_slide.php:225
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:168
-#: includes/metaboxes/tabs/tab_sidebars.php:324
+#: includes/metaboxes/tabs/tab_sidebars.php:333
 #: includes/metaboxes/tabs/tab_template.php:294 includes/options/footer.php:164
 #: includes/options/footer.php:656 includes/options/menu.php:684
 #: includes/options/page_title_bar.php:95 includes/options/portfolio.php:301
@@ -1794,23 +1799,23 @@ msgstr ""
 msgid "None"
 msgstr "Inget"
 
-#: includes/avada-app/class-fusion-panel.php:742
-#: includes/avada-app/class-fusion-panel.php:876
+#: includes/avada-app/class-fusion-panel.php:741
+#: includes/avada-app/class-fusion-panel.php:875
 #: includes/lib/inc/fusion-app/helpers.php:467 includes/options/privacy.php:423
 msgid "Settings"
 msgstr "Inställningar"
 
-#: includes/avada-app/class-fusion-panel.php:760
-#: includes/avada-app/class-fusion-panel.php:894
+#: includes/avada-app/class-fusion-panel.php:759
+#: includes/avada-app/class-fusion-panel.php:893
 msgid "Slug"
 msgstr "Slug"
 
-#: includes/avada-app/class-fusion-panel.php:773
+#: includes/avada-app/class-fusion-panel.php:772
 msgid "Parent Category"
 msgstr "Överordnad kategori"
 
 # @ Avada
-#: includes/avada-app/class-fusion-panel.php:784
+#: includes/avada-app/class-fusion-panel.php:783
 #: includes/class-avada-nav-walker-megamenu.php:209
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:326
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:149
@@ -1819,71 +1824,71 @@ msgstr "Överordnad kategori"
 msgid "Description"
 msgstr "Beskrivning"
 
-#: includes/avada-app/class-fusion-panel.php:821
+#: includes/avada-app/class-fusion-panel.php:820
 msgid "Select Parent"
 msgstr "Välj överliggande"
 
-#: includes/avada-app/class-fusion-panel.php:829
+#: includes/avada-app/class-fusion-panel.php:828
 msgid "(no title)"
 msgstr "(ingen titel)"
 
-#: includes/avada-app/class-fusion-panel.php:842
+#: includes/avada-app/class-fusion-panel.php:841
 msgid "Default Template"
 msgstr "Standardmall"
 
-#: includes/avada-app/class-fusion-panel.php:881
+#: includes/avada-app/class-fusion-panel.php:880
 msgid "Page Title"
 msgstr "Sidtitel"
 
-#: includes/avada-app/class-fusion-panel.php:905
+#: includes/avada-app/class-fusion-panel.php:904
 msgid "Page Attributes"
 msgstr "Sida attribut"
 
-#: includes/avada-app/class-fusion-panel.php:915 includes/options/menu.php:682
+#: includes/avada-app/class-fusion-panel.php:914 includes/options/menu.php:682
 msgid "Parent"
 msgstr "Överordnad"
 
-#: includes/avada-app/class-fusion-panel.php:927
+#: includes/avada-app/class-fusion-panel.php:926
 msgid "Template"
 msgstr "Mall"
 
-#: includes/avada-app/class-fusion-panel.php:940
+#: includes/avada-app/class-fusion-panel.php:939
 msgid "Order"
 msgstr "Order"
 
-#: includes/avada-app/class-fusion-panel.php:951
+#: includes/avada-app/class-fusion-panel.php:950
 msgid "Post Format"
 msgstr "Inläggsformat"
 
-#: includes/avada-app/class-fusion-panel.php:994
+#: includes/avada-app/class-fusion-panel.php:993
 msgid "Choose"
 msgstr "Välj"
 
-#: includes/avada-app/class-fusion-panel.php:1012
-#: includes/avada-app/class-fusion-panel.php:1020
+#: includes/avada-app/class-fusion-panel.php:1011
+#: includes/avada-app/class-fusion-panel.php:1019
 msgid "Featured Image"
 msgstr "Utvald bild"
 
 #. Translators: Ordinal number of featured image.
-#: includes/avada-app/class-fusion-panel.php:1062
+#: includes/avada-app/class-fusion-panel.php:1061
 msgid "Featured Image %s"
 msgstr ""
 
 # @ Avada
-#: includes/avada-app/class-fusion-panel.php:1120
+#: includes/avada-app/class-fusion-panel.php:1119
 #: includes/lib/inc/fusion-app/helpers.php:193
 #: includes/options/custom_css.php:27
 msgid "Custom CSS"
 msgstr "Anpassad CSS"
 
 # @ Avada
-#: includes/avada-app/class-fusion-panel.php:1125
+#: includes/avada-app/class-fusion-panel.php:1124
 #: includes/options/custom_css.php:34
 msgid "CSS Code"
 msgstr "CSS-kod"
 
 #. translators: <code>!important</code>
-#: includes/avada-app/class-fusion-panel.php:1127
+#: includes/avada-app/class-fusion-panel.php:1126
 #: includes/options/custom_css.php:36
 msgid ""
 "Enter your CSS code in the field below. Do not include any tags or HTML in "
@@ -1896,18 +1901,18 @@ msgstr ""
 "fall kan det hända att %s taggen behövs. Ta inte med URL-kod till bild- "
 "eller svg-sökvägar. Innehållet i det här fältet kommer automatiskt att kodas."
 
-#: includes/avada-app/class-fusion-panel.php:1144
-#: includes/avada-app/class-fusion-panel.php:1478
+#: includes/avada-app/class-fusion-panel.php:1143
+#: includes/avada-app/class-fusion-panel.php:1477
 msgid "Import/Export"
 msgstr "Importera/Exportera"
 
-#: includes/avada-app/class-fusion-panel.php:1151
+#: includes/avada-app/class-fusion-panel.php:1150
 #: includes/metaboxes/tabs/tab_avada_page_options.php:82
 #: includes/metaboxes/tabs/tab_avada_page_options.php:93
 msgid "Import Page Options"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1152
+#: includes/avada-app/class-fusion-panel.php:1151
 msgid ""
 "Import Page Options.  You can import via file or copy and paste from JSON "
 "data."
@@ -1915,34 +1920,34 @@ msgstr ""
 "Alternativ för importsida. Du kan importera via fil eller kopiera och "
 "klistra in från JSON-data."
 
-#: includes/avada-app/class-fusion-panel.php:1158
+#: includes/avada-app/class-fusion-panel.php:1157
 #: includes/metaboxes/tabs/tab_avada_page_options.php:69
 #: includes/metaboxes/tabs/tab_avada_page_options.php:75
 msgid "Export Page Options"
 msgstr "Alternativ för exportsida"
 
-#: includes/avada-app/class-fusion-panel.php:1159
+#: includes/avada-app/class-fusion-panel.php:1158
 msgid ""
 "Export your Page Options.  You can either export as a file or copy the data."
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1365
-#: includes/avada-app/class-fusion-panel.php:1373
+#: includes/avada-app/class-fusion-panel.php:1364
+#: includes/avada-app/class-fusion-panel.php:1372
 #: includes/avada-app/panel/templates/sidebar.php:53
 #: includes/options/shortcode_styling.php:30
 msgid "Fusion Builder Elements"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1378
+#: includes/avada-app/class-fusion-panel.php:1377
 #: includes/avada-app/panel/templates/sidebar.php:59
 msgid "Add-on Elements"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1485
+#: includes/avada-app/class-fusion-panel.php:1484
 msgid "Import Theme Options"
 msgstr "Importera temainställningar"
 
-#: includes/avada-app/class-fusion-panel.php:1486
+#: includes/avada-app/class-fusion-panel.php:1485
 msgid ""
 "Import Theme Options.  You can import via file, copy and paste or select an "
 "Avada demo."
@@ -1950,12 +1955,12 @@ msgstr ""
 "Importera temaalternativ.  Du kan importera via fil, kopiera och klistra in "
 "eller välja en Avada demo."
 
-#: includes/avada-app/class-fusion-panel.php:1493
-#: includes/avada-app/class-fusion-panel.php:1498
+#: includes/avada-app/class-fusion-panel.php:1492
+#: includes/avada-app/class-fusion-panel.php:1497
 msgid "Export Theme Options"
 msgstr "Exportera temainställningar"
 
-#: includes/avada-app/class-fusion-panel.php:1494
+#: includes/avada-app/class-fusion-panel.php:1493
 msgid ""
 "Export your Theme Options.  You can either export as a file or copy the data."
 msgstr ""
@@ -1966,10 +1971,10 @@ msgstr ""
 msgid "Reset To Default"
 msgstr "Återställ till standard"
 
-# @ Avada
 #: includes/avada-app/panel/templates/sidebar.php:32
-msgid "Layout Options"
-msgstr "Layoutalternativ"
+#: includes/metaboxes/metaboxes.php:274
+msgid "Layout Section Options"
+msgstr "Alternativ för layoutavsnitt"
 
 #: includes/avada-app/panel/templates/sidebar.php:32
 msgid "Page Options"
@@ -2347,15 +2352,15 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/bootstrap.php:370
+#: includes/bootstrap.php:391
 msgid "Sucessfully imported demo data!"
 msgstr "Demodata importerat!"
 
-#: includes/bootstrap.php:556 includes/bootstrap.php:557
+#: includes/bootstrap.php:577 includes/bootstrap.php:578
 msgid "Fusion Patcher"
 msgstr ""
 
-#: includes/bootstrap.php:573
+#: includes/bootstrap.php:594
 msgid ""
 "Our site is currently undergoing scheduled maintenance. Please try again in "
 "a moment."
@@ -2363,7 +2368,7 @@ msgstr ""
 "Vår webbplats genomgår för närvarande planerat underhåll. Försök igen om en "
 "stund."
 
-#: includes/bootstrap.php:577
+#: includes/bootstrap.php:598
 msgid ""
 "Currently updating the Avada Theme. Your site will be accessible once the "
 "update finishes"
@@ -2372,13 +2377,13 @@ msgstr ""
 "tillgänglig när uppdateringen är klar"
 
 #. translators: The "follow this link" link.
-#: includes/bootstrap.php:589
+#: includes/bootstrap.php:610
 msgid ""
 "The Fusion-Core plugin needs to be updated before your site can exit "
 "maintenance mode. Please %s to update the plugin."
 msgstr ""
 
-#: includes/bootstrap.php:589
+#: includes/bootstrap.php:610
 msgid "follow this link"
 msgstr "följ denna länk"
 
@@ -2572,7 +2577,7 @@ msgstr ""
 msgid "Version"
 msgstr "Version"
 
-#: includes/class-avada-admin.php:688 includes/class-avada-upgrade.php:379
+#: includes/class-avada-admin.php:688 includes/class-avada-upgrade.php:380
 msgid "View Changelog"
 msgstr "Visa ändringslogg"
 
@@ -2650,7 +2655,7 @@ msgstr "Avada-portföljens tagbas"
 
 #: includes/class-avada-admin.php:1352 includes/metaboxes/metaboxes.php:488
 #: includes/metaboxes/tabs/tab_content.php:24
-#: includes/metaboxes/tabs/tab_sidebars.php:290
+#: includes/metaboxes/tabs/tab_sidebars.php:299
 #: includes/options/sidebars.php:83
 msgid "Content"
 msgstr "Innehåll"
@@ -3066,7 +3071,7 @@ msgstr "XXL"
 #: includes/class-avada-eventscalendar.php:232
 #: includes/class-avada-eventscalendar.php:264
 #: includes/class-avada-eventscalendar.php:296
-#: includes/class-avada-woocommerce.php:1472
+#: includes/class-avada-woocommerce.php:1474
 msgid "NOTE"
 msgstr "OBSERVERA"
 
@@ -3632,13 +3637,13 @@ msgstr "Till toppen"
 msgid "Original: %s"
 msgstr "Orginal: %s"
 
-#: includes/class-avada-page-options.php:185
+#: includes/class-avada-page-options.php:190
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/extension_import_export.php:120
 msgid "Import / Export"
 msgstr "Importera/exportera"
 
 #. translators: Number.
-#: includes/class-avada-page-options.php:357
+#: includes/class-avada-page-options.php:362
 msgid "Custom page options %d "
 msgstr "Anpassade sidalternativ %d "
 
@@ -3858,16 +3863,16 @@ msgstr "Bildspelsplacering"
 # @ Avada
 #: includes/class-avada-taxonomy-meta.php:294
 #: includes/class-avada-taxonomy-meta.php:402
-#: includes/lib/inc/class-fusion-images.php:976
+#: includes/lib/inc/class-fusion-images.php:979
 #: includes/lib/inc/fusion-app/class-fusion-app.php:1040
 #: includes/lib/inc/fusion-app/class-fusion-app.php:1133
 #: includes/lib/inc/fusion-app/helpers.php:475
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:167
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1902
-#: includes/metaboxes/tabs/tab_content.php:90
-#: includes/metaboxes/tabs/tab_content.php:176
-#: includes/metaboxes/tabs/tab_content.php:197
-#: includes/metaboxes/tabs/tab_content.php:224
+#: includes/metaboxes/tabs/tab_content.php:92
+#: includes/metaboxes/tabs/tab_content.php:178
+#: includes/metaboxes/tabs/tab_content.php:199
+#: includes/metaboxes/tabs/tab_content.php:226
 #: includes/metaboxes/tabs/tab_footer.php:45
 #: includes/metaboxes/tabs/tab_footer.php:67
 #: includes/metaboxes/tabs/tab_footer.php:89
@@ -3900,8 +3905,8 @@ msgstr "Bildspelsplacering"
 #: includes/metaboxes/tabs/tab_post.php:185
 #: includes/metaboxes/tabs/tab_post.php:208
 #: includes/metaboxes/tabs/tab_post.php:231
-#: includes/metaboxes/tabs/tab_sidebars.php:248
-#: includes/metaboxes/tabs/tab_sidebars.php:323
+#: includes/metaboxes/tabs/tab_sidebars.php:257
+#: includes/metaboxes/tabs/tab_sidebars.php:332
 #: includes/metaboxes/tabs/tab_sliders.php:166
 #: includes/metaboxes/tabs/tab_sliders.php:187
 #: includes/metaboxes/tabs/tab_template.php:157
@@ -3939,7 +3944,7 @@ msgstr ""
 
 #. translators: Additional description (defaults).
 #: includes/class-avada-taxonomy-meta.php:320
-#: includes/metaboxes/tabs/tab_content.php:141
+#: includes/metaboxes/tabs/tab_content.php:143
 msgid "In pixels ex: 20px. %s"
 msgstr ""
 
@@ -4007,7 +4012,7 @@ msgstr "Visa bara innehåll"
 # @ Avada
 #: includes/class-avada-taxonomy-meta.php:405
 #: includes/lib/inc/class-fusion-settings.php:462
-#: includes/metaboxes/tabs/tab_content.php:226
+#: includes/metaboxes/tabs/tab_content.php:228
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:151
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:183
 #: includes/metaboxes/tabs/tab_portfolio_post.php:54
@@ -4099,14 +4104,14 @@ msgstr "Ta bort bild"
 #: includes/class-avada-taxonomy-meta.php:1137
 #: includes/class-avada-widget-style.php:276
 #: includes/lib/inc/class-fusion-settings.php:586
-#: includes/metaboxes/metaboxes.php:630 includes/metaboxes/metaboxes.php:668
+#: includes/metaboxes/metaboxes.php:632 includes/metaboxes/metaboxes.php:670
 msgid "Reset to default."
 msgstr "Återställ till standard."
 
 #: includes/class-avada-taxonomy-meta.php:1139
 #: includes/class-avada-widget-style.php:276
 #: includes/lib/inc/class-fusion-settings.php:586
-#: includes/metaboxes/metaboxes.php:630 includes/metaboxes/metaboxes.php:668
+#: includes/metaboxes/metaboxes.php:632 includes/metaboxes/metaboxes.php:670
 msgid "Using default value."
 msgstr "Använder standardvärde."
 
@@ -4200,7 +4205,7 @@ msgstr "Alla tillägg har installerats och aktiverats. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:380
+#: includes/class-avada-upgrade.php:381
 msgid "Dismiss this notice"
 msgstr "Avfärda detta meddelande"
 
@@ -4499,7 +4504,7 @@ msgstr ""
 
 #: includes/class-avada-widget-style.php:129
 msgid ""
-"Choose to enable or disable the widget title. Specifically usefull for WP's "
+"Choose to enable or disable the widget title. Specifically useful for WP's "
 "default widget titles."
 msgstr ""
 
@@ -4515,11 +4520,11 @@ msgstr ""
 #: includes/metaboxes/options/options_slide.php:203
 #: includes/metaboxes/options/options_slide.php:275
 #: includes/metaboxes/options/options_slide.php:312
-#: includes/metaboxes/tabs/tab_content.php:91
-#: includes/metaboxes/tabs/tab_content.php:94
-#: includes/metaboxes/tabs/tab_content.php:105
-#: includes/metaboxes/tabs/tab_content.php:118
-#: includes/metaboxes/tabs/tab_content.php:178
+#: includes/metaboxes/tabs/tab_content.php:93
+#: includes/metaboxes/tabs/tab_content.php:96
+#: includes/metaboxes/tabs/tab_content.php:107
+#: includes/metaboxes/tabs/tab_content.php:120
+#: includes/metaboxes/tabs/tab_content.php:180
 #: includes/metaboxes/tabs/tab_footer.php:46
 #: includes/metaboxes/tabs/tab_footer.php:68
 #: includes/metaboxes/tabs/tab_footer.php:90
@@ -4552,11 +4557,11 @@ msgstr "Ja"
 #: includes/metaboxes/options/options_slide.php:204
 #: includes/metaboxes/options/options_slide.php:276
 #: includes/metaboxes/options/options_slide.php:313
-#: includes/metaboxes/tabs/tab_content.php:92
-#: includes/metaboxes/tabs/tab_content.php:95
-#: includes/metaboxes/tabs/tab_content.php:106
-#: includes/metaboxes/tabs/tab_content.php:119
-#: includes/metaboxes/tabs/tab_content.php:177
+#: includes/metaboxes/tabs/tab_content.php:94
+#: includes/metaboxes/tabs/tab_content.php:97
+#: includes/metaboxes/tabs/tab_content.php:108
+#: includes/metaboxes/tabs/tab_content.php:121
+#: includes/metaboxes/tabs/tab_content.php:179
 #: includes/metaboxes/tabs/tab_footer.php:47
 #: includes/metaboxes/tabs/tab_footer.php:69
 #: includes/metaboxes/tabs/tab_footer.php:91
@@ -4687,8 +4692,8 @@ msgstr "Ärv"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:159
 #: includes/metaboxes/options/options_slide.php:138
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:196
-#: includes/metaboxes/tabs/tab_sidebars.php:249
-#: includes/metaboxes/tabs/tab_sidebars.php:275 includes/options/blog.php:528
+#: includes/metaboxes/tabs/tab_sidebars.php:258
+#: includes/metaboxes/tabs/tab_sidebars.php:284 includes/options/blog.php:528
 #: includes/options/extra.php:200 includes/options/extra.php:505
 #: includes/options/header.php:50 includes/options/logo.php:54
 #: includes/options/menu.php:1037 includes/options/menu.php:1409
@@ -4697,8 +4702,8 @@ msgstr "Ärv"
 #: includes/options/sidebars.php:236 includes/options/sidebars.php:283
 #: includes/options/sidebars.php:408 includes/options/sidebars.php:480
 #: includes/options/sidebars.php:526 includes/options/sidebars.php:605
-#: includes/options/sidebars.php:652 includes/options/sliding_bar.php:132
-#: includes/options/sliding_bar.php:370 includes/options/social_media.php:216
+#: includes/options/sidebars.php:652 includes/options/sliding_bar.php:138
+#: includes/options/sliding_bar.php:376 includes/options/social_media.php:216
 #: includes/options/social_media.php:437 includes/options/social_media.php:718
 msgid "Left"
 msgstr "Vänster"
@@ -4713,8 +4718,8 @@ msgstr "Vänster"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:145
 #: includes/metaboxes/options/options_slide.php:140
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:198
-#: includes/metaboxes/tabs/tab_sidebars.php:250
-#: includes/metaboxes/tabs/tab_sidebars.php:276 includes/options/blog.php:530
+#: includes/metaboxes/tabs/tab_sidebars.php:259
+#: includes/metaboxes/tabs/tab_sidebars.php:285 includes/options/blog.php:530
 #: includes/options/extra.php:202 includes/options/extra.php:506
 #: includes/options/header.php:51 includes/options/lightbox.php:118
 #: includes/options/logo.php:56 includes/options/menu.php:1039
@@ -4724,7 +4729,7 @@ msgstr "Vänster"
 #: includes/options/sidebars.php:284 includes/options/sidebars.php:409
 #: includes/options/sidebars.php:481 includes/options/sidebars.php:527
 #: includes/options/sidebars.php:606 includes/options/sidebars.php:653
-#: includes/options/sliding_bar.php:130 includes/options/sliding_bar.php:372
+#: includes/options/sliding_bar.php:136 includes/options/sliding_bar.php:378
 #: includes/options/social_media.php:214 includes/options/social_media.php:435
 #: includes/options/social_media.php:716
 msgid "Right"
@@ -4739,7 +4744,7 @@ msgstr "Höger"
 #: includes/options/blog.php:529 includes/options/elastic_slider.php:84
 #: includes/options/logo.php:55 includes/options/menu.php:1038
 #: includes/options/menu.php:2741 includes/options/page_title_bar.php:340
-#: includes/options/portfolio.php:319 includes/options/sliding_bar.php:371
+#: includes/options/portfolio.php:319 includes/options/sliding_bar.php:377
 msgid "Center"
 msgstr "Centrera"
 
@@ -4764,25 +4769,25 @@ msgstr "Avada widgetalternativ"
 msgid "These options apply to the widget container, not the actual widget."
 msgstr ""
 
-#: includes/class-avada-woocommerce.php:735
+#: includes/class-avada-woocommerce.php:737
 msgid "Dashboard"
 msgstr "Kontrollpanel"
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1286
+#: includes/class-avada-woocommerce.php:1288
 msgid "You Have %s Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] "Du har %s artikel i din varukorg"
 msgstr[1] "Du har %s artiklar i din varukorg"
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:1412
-#: includes/class-avada-woocommerce.php:1430
+#: includes/class-avada-woocommerce.php:1414
+#: includes/class-avada-woocommerce.php:1432
 msgid "Continue"
 msgstr "Fortsätt"
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1474
+#: includes/class-avada-woocommerce.php:1476
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -5248,6 +5253,7 @@ msgid "Email Address"
 msgstr "E-post"
 
 #: includes/lib/inc/class-fusion-data.php:158
+#: includes/lib/inc/class-fusion-social-icon.php:79
 msgid "Custom"
 msgstr "Anpassad"
 
@@ -5327,12 +5333,12 @@ msgid "Fusion Theme Options"
 msgstr "Fusion Theme inställningar"
 
 #. translators: The description subtitle and an example value.
-#: includes/lib/inc/class-fusion-fusionredux.php:493
+#: includes/lib/inc/class-fusion-fusionredux.php:494
 msgid "%1$s Enter value including CSS unit (px, em, rem), ex: %2$s."
 msgstr "%1$s Mata in värde inkl. CSS-enhet (px, em, rem), ex: %2$s."
 
 #. translators: The description subtitle and an example value.
-#: includes/lib/inc/class-fusion-fusionredux.php:496
+#: includes/lib/inc/class-fusion-fusionredux.php:497
 msgid ""
 "%1$s Enter value including any valid CSS unit besides %% which does not work "
 "for inline columns, ex: %2$s."
@@ -5341,7 +5347,7 @@ msgstr ""
 "inline kolumner, ex: %2$s."
 
 #. translators: The description subtitle and an example value.
-#: includes/lib/inc/class-fusion-fusionredux.php:499
+#: includes/lib/inc/class-fusion-fusionredux.php:500
 msgid ""
 "%1$s Enter value including any valid CSS unit besides %% which does not work "
 "for page title bar, ex: %2$s."
@@ -5350,63 +5356,63 @@ msgstr ""
 "för sidrubriken, ex: %2$s ."
 
 #. translators: The description subtitle and an example value.
-#: includes/lib/inc/class-fusion-fusionredux.php:502
+#: includes/lib/inc/class-fusion-fusionredux.php:503
 msgid "%1$s Enter value including any valid CSS unit, ex: %2$s."
 msgstr "%1$s Mata in värde inkl. någon giltig CSS-enhet, ex: %2$s."
 
 #. translators: The description subtitle and an example value.
-#: includes/lib/inc/class-fusion-fusionredux.php:508
+#: includes/lib/inc/class-fusion-fusionredux.php:509
 msgid "%1$s In pixels, ex: %2$s."
 msgstr ""
 
 #. translators: The description subtitle and an example value.
-#: includes/lib/inc/class-fusion-fusionredux.php:511
-#: includes/lib/inc/class-fusion-fusionredux.php:524
-#: includes/lib/inc/class-fusion-fusionredux.php:535
+#: includes/lib/inc/class-fusion-fusionredux.php:512
+#: includes/lib/inc/class-fusion-fusionredux.php:525
+#: includes/lib/inc/class-fusion-fusionredux.php:536
 msgid "%1$s Enter values including any valid CSS unit, ex: %2$s."
 msgstr "%1$s Mata in värden inkl. någon CSS-enhet (px, em, rem), ex: %2$s."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:561
+#: includes/lib/inc/class-fusion-fusionredux.php:562
 msgid "In pixels."
 msgstr "I pixlar."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:820
+#: includes/lib/inc/class-fusion-fusionredux.php:821
 msgid ""
 "This is a dependent option that always stays visible because other options "
 "can utilize it."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-fusionredux.php:864
+#: includes/lib/inc/class-fusion-fusionredux.php:865
 msgid "Theme Skin"
 msgstr "Temaskin"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:865
+#: includes/lib/inc/class-fusion-fusionredux.php:866
 msgid "Color Scheme"
 msgstr "Färgschema"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:879
+#: includes/lib/inc/class-fusion-fusionredux.php:880
 msgid "Are you sure you want to reset all Fusion caches?"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-fusionredux.php:880
+#: includes/lib/inc/class-fusion-fusionredux.php:881
 msgid "All Fusion caches have been reset."
 msgstr "Alla Fusion-cacher har återställts."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1297
+#: includes/lib/inc/class-fusion-fusionredux.php:1316
 msgid ""
 "Are you sure? This will reset all saved options to the default Avada Classic "
 "theme options. This does not reset them to any other demo that you may have "
 "imported."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1308
+#: includes/lib/inc/class-fusion-fusionredux.php:1327
 msgid ""
 "Are you sure? This will reset all saved options to the default Avada Classic "
 "theme options for this section. This does not reset them to any other demo "
 "that you may have imported."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1319
+#: includes/lib/inc/class-fusion-fusionredux.php:1338
 msgid ""
 "Copy the contents of the json file and paste it below. Then click \"Import\" "
 "to restore your setings."
@@ -5414,17 +5420,17 @@ msgstr ""
 "Kopiera innehållet i json-filen och klistra in det nedan. Klicka sedan på "
 "\"Importera\" för att återställa dina inställningar."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1394
+#: includes/lib/inc/class-fusion-fusionredux.php:1413
 msgid "Media fields using remote URLs were detected in your theme options:"
 msgstr ""
 "Mediefält som använder fjärrwebbadresser upptäcktes i dina tema-alternativ:"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1400
+#: includes/lib/inc/class-fusion-fusionredux.php:1419
 msgid "Please replace them with locally-imported files from your media-library"
 msgstr ""
 "Vänligen ersätt dem med lokalt importerade filer från ditt mediabibliotek"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1406
+#: includes/lib/inc/class-fusion-fusionredux.php:1425
 msgid "Dismiss Message"
 msgstr "Avfärda meddelande"
 
@@ -5457,27 +5463,27 @@ msgstr "Arkiv per månad: %s"
 msgid "Yearly Archives: %s"
 msgstr "Arkiv per år: %s"
 
-#: includes/lib/inc/class-fusion-images.php:973
+#: includes/lib/inc/class-fusion-images.php:976
 msgid "Masonry Image Layout"
 msgstr "Layout för bildmur"
 
-#: includes/lib/inc/class-fusion-images.php:977
+#: includes/lib/inc/class-fusion-images.php:980
 msgid "1x1"
 msgstr "1x1"
 
-#: includes/lib/inc/class-fusion-images.php:978
+#: includes/lib/inc/class-fusion-images.php:981
 msgid "Landscape"
 msgstr "Liggande"
 
-#: includes/lib/inc/class-fusion-images.php:979
+#: includes/lib/inc/class-fusion-images.php:982
 msgid "Portrait"
 msgstr "Porträtt"
 
-#: includes/lib/inc/class-fusion-images.php:980
+#: includes/lib/inc/class-fusion-images.php:983
 msgid "2x2"
 msgstr "2x2"
 
-#: includes/lib/inc/class-fusion-images.php:982
+#: includes/lib/inc/class-fusion-images.php:985
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -5767,13 +5773,29 @@ msgstr ""
 msgid "documentation post"
 msgstr ""
 
+#: includes/lib/inc/class-fusion-scripts.php:624
+msgid "Press Esc to close"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:625
+msgid "Enter Fullscreen (Shift+Enter)"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:626
+msgid "Exit Fullscreen (Shift+Enter)"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:627
+msgid "Slideshow"
+msgstr ""
+
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:670
+#: includes/lib/inc/class-fusion-scripts.php:679
 msgid "Loading the next set of posts..."
 msgstr "Läser in nästa uppsättning inlägg…"
 
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:671
+#: includes/lib/inc/class-fusion-scripts.php:680
 msgid "All items displayed."
 msgstr "Alla objekt visade."
 
@@ -5825,7 +5847,7 @@ msgstr "  Standard inställd till %s."
 
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:462
-#: includes/metaboxes/tabs/tab_content.php:225
+#: includes/metaboxes/tabs/tab_content.php:227
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:182
 #: includes/metaboxes/tabs/tab_portfolio_post.php:53
 #: includes/metaboxes/tabs/tab_portfolio_post.php:223
@@ -5933,38 +5955,38 @@ msgid "Icons Count:"
 msgstr ""
 
 #. translators: The author.
-#: includes/lib/inc/functions.php:314 includes/lib/inc/functions.php:317
+#: includes/lib/inc/functions.php:321 includes/lib/inc/functions.php:324
 msgid "By %s"
 msgstr "Av %s"
 
 #. translators: The categories list.
-#: includes/lib/inc/functions.php:355
+#: includes/lib/inc/functions.php:362
 msgid "Categories: %s"
 msgstr "Kategorier: %s"
 
 #. translators: The tags list.
 #. Translators: List of tags.
-#: includes/lib/inc/functions.php:368
+#: includes/lib/inc/functions.php:375
 #: includes/lib/inc/fusion-app/helpers.php:513
 msgid "Tags: %s"
 msgstr "Taggar: %s"
 
 # @ Avada
-#: includes/lib/inc/functions.php:375 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:382 templates/related-posts.php:105
 msgid "0 Comments"
 msgstr "0 kommentarer"
 
 # @ Avada
-#: includes/lib/inc/functions.php:375 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:382 templates/related-posts.php:105
 msgid "1 Comment"
 msgstr "1 kommentar"
 
-#: includes/lib/inc/functions.php:375 templates/related-posts.php:105
+#: includes/lib/inc/functions.php:382 templates/related-posts.php:105
 msgid "% Comments"
 msgstr "% kommentarer"
 
 # @ Avada
-#: includes/lib/inc/functions.php:882
+#: includes/lib/inc/functions.php:889
 msgid "Pages:"
 msgstr "Sidor:"
 
@@ -7137,7 +7159,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:138
 #: includes/options/extra.php:508 includes/options/header.php:49
 #: includes/options/menu.php:1412 includes/options/menu.php:3117
-#: includes/options/sliding_bar.php:129 includes/options/social_media.php:213
+#: includes/options/sliding_bar.php:135 includes/options/social_media.php:213
 #: includes/options/social_media.php:434 includes/options/social_media.php:715
 msgid "Top"
 msgstr "Topp"
@@ -7148,7 +7170,7 @@ msgstr "Topp"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:152
 #: includes/options/extra.php:507 includes/options/lightbox.php:119
 #: includes/options/menu.php:1411 includes/options/menu.php:3119
-#: includes/options/sliding_bar.php:131 includes/options/social_media.php:215
+#: includes/options/sliding_bar.php:137 includes/options/social_media.php:215
 #: includes/options/social_media.php:436 includes/options/social_media.php:717
 msgid "Bottom"
 msgstr "Sidinnehåll nedre utfyllnad"
@@ -7490,7 +7512,7 @@ msgid "Custom Font(s)"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:518
-#: includes/metaboxes/metaboxes.php:1028
+#: includes/metaboxes/metaboxes.php:1030
 msgid "Add New"
 msgstr "Lägg till ny"
 
@@ -8262,13 +8284,12 @@ msgid "Hints"
 msgstr "Tips"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2784
-msgid "Invalid security credential.  Please reload the page and try again."
+msgid "Invalid security credential. Please reload the page and try again."
 msgstr ""
-"Ogiltig säkerhetsidentifiering.  Vänligen ladda om sidan och försök igen."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2793
-msgid "Invalid user capability.  Please reload the page and try again."
-msgstr "Ogiltig användarbehörighet.  Vänligen ladda om sidan och försök igen."
+msgid "Invalid user capability. Please reload the page and try again."
+msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2854
 msgid "Your panel has no fields. Nothing to save."
@@ -8452,7 +8473,7 @@ msgstr "Visa objekt i Javascript Console Object"
 
 # @ Avada
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:141
-#: includes/metaboxes/tabs/tab_content.php:193
+#: includes/metaboxes/tabs/tab_content.php:195
 #: includes/metaboxes/tabs/tab_header.php:144
 #: includes/metaboxes/tabs/tab_page.php:106 includes/options/background.php:118
 #: includes/options/background.php:349 includes/options/footer.php:429
@@ -9697,15 +9718,9 @@ msgstr "Bilspelsalternativ"
 msgid "Events Calendar Options"
 msgstr "Events Calendar-alternativ"
 
-#: includes/metaboxes/metaboxes.php:274
-msgid "Layout Section Options"
-msgstr "Alternativ för layoutavsnitt"
-
 # @ Avada
 #. translators: The edit link. Text of link is the title.
-#: includes/metaboxes/metaboxes.php:485
-#: includes/metaboxes/tabs/tab_footer.php:43
-#: includes/metaboxes/tabs/tab_page.php:30
+#: includes/metaboxes/metaboxes.php:485 includes/metaboxes/tabs/tab_page.php:30
 #: includes/metaboxes/tabs/tab_page.php:51 includes/options/layout.php:41
 #: includes/options/layout.php:48
 msgid "Layout"
@@ -9751,11 +9766,11 @@ msgstr "Layoutavsnitt"
 msgid "Footer"
 msgstr "Sidfot"
 
-#: includes/metaboxes/metaboxes.php:944
+#: includes/metaboxes/metaboxes.php:946
 msgid "Browse"
 msgstr "Bläddra"
 
-#: includes/metaboxes/metaboxes.php:1029
+#: includes/metaboxes/metaboxes.php:1031
 msgid "Repeater Row"
 msgstr "Duplicera rad"
 
@@ -10352,38 +10367,38 @@ msgstr ""
 "som ska användas."
 
 #. translators: The edit link. Text of link is the title.
-#: includes/metaboxes/tabs/tab_content.php:81
+#: includes/metaboxes/tabs/tab_content.php:83
 msgid "Use 100% Width Content"
 msgstr "Använd 100% breddinnehåll"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_content.php:84
+#: includes/metaboxes/tabs/tab_content.php:86
 msgid "Choose to set this page content to 100&#37; browser width. %s"
 msgstr ""
 "Välj att ställa in sidans innehåll till 100 & # 37; webbläsarens bredd.  %s"
 
-#: includes/metaboxes/tabs/tab_content.php:102
+#: includes/metaboxes/tabs/tab_content.php:104
 msgid "Choose to set this post to 100&#37; browser width."
 msgstr ""
 "Välj att ställa in det här inlägget till 100 & # 37; webbläsarens bredd."
 
 #. translators: The edit link. Text of link is the title.
-#: includes/metaboxes/tabs/tab_content.php:112
+#: includes/metaboxes/tabs/tab_content.php:114
 #: includes/metaboxes/tabs/tab_portfolio_post.php:74
 #: includes/metaboxes/tabs/tab_post.php:44
 msgid "Show First Featured Image"
 msgstr "Visa första bilden"
 
-#: includes/metaboxes/tabs/tab_content.php:113
+#: includes/metaboxes/tabs/tab_content.php:115
 msgid "Show the 1st featured image on page."
 msgstr "Visa den första bilden på sidan."
 
-#: includes/metaboxes/tabs/tab_content.php:126 includes/options/layout.php:401
+#: includes/metaboxes/tabs/tab_content.php:128 includes/options/layout.php:401
 msgid "100% Width Padding"
 msgstr "100% breddutfyllnad"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_content.php:128
+#: includes/metaboxes/tabs/tab_content.php:130
 msgid ""
 "Controls the left and right padding for page content when using 100&#37; "
 "site width, 100&#37; width page template or 100&#37; width post option. This "
@@ -10395,16 +10410,16 @@ msgstr ""
 "för breddstolpe. Detta påverkar inte Fusion Builder-behållare. Ange värde "
 "inklusive alla giltiga CSS-enheter, ex: 30px. %s"
 
-#: includes/metaboxes/tabs/tab_content.php:139
+#: includes/metaboxes/tabs/tab_content.php:141
 msgid "Content Padding"
 msgstr "Innehållsutfyllnad"
 
-#: includes/metaboxes/tabs/tab_content.php:154
+#: includes/metaboxes/tabs/tab_content.php:156
 msgid "Background Color for Main Content Area"
 msgstr "Bakgrundsfärg för huvudinnehållsområde"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_content.php:156
+#: includes/metaboxes/tabs/tab_content.php:158
 msgid ""
 "Controls the background color for the main content area. Hex code, ex: #000. "
 "%s"
@@ -10412,17 +10427,17 @@ msgstr ""
 "Kontrollerar bakgrundsfärgen för huvudinnehållsområdet. Hexkod, ex: #000. %s"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_content.php:163
+#: includes/metaboxes/tabs/tab_content.php:165
 msgid "Background Image for Main Content Area"
 msgstr "Bakgrundsbild till huvudinnehållet"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_content.php:166
+#: includes/metaboxes/tabs/tab_content.php:168
 msgid "Select an image to use for the main content area. %s"
 msgstr "Välj en bild som ska användas för huvudinnehållsområdet. %s"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_content.php:172
+#: includes/metaboxes/tabs/tab_content.php:174
 #: includes/metaboxes/tabs/tab_header.php:122
 #: includes/metaboxes/tabs/tab_page.php:85
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:336
@@ -10433,41 +10448,41 @@ msgid "100% Background Image"
 msgstr "100% bakgrundsbild"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_content.php:174
+#: includes/metaboxes/tabs/tab_content.php:176
 #: includes/metaboxes/tabs/tab_page.php:87
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:338
 msgid "Choose to have the background image display at 100&#37;. %s"
 msgstr "Välj att ha bildvisning på 100&#37;. %s"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_content.php:195
+#: includes/metaboxes/tabs/tab_content.php:197
 #: includes/metaboxes/tabs/tab_page.php:108
 msgid "Select how the background image repeats. %s"
 msgstr "Välj hur bakgrundsbilden ska upprepas. %s"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_content.php:198
+#: includes/metaboxes/tabs/tab_content.php:200
 #: includes/metaboxes/tabs/tab_header.php:147
 #: includes/metaboxes/tabs/tab_page.php:111
 msgid "Tile"
 msgstr "Lägg sida vid sida"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_content.php:199
+#: includes/metaboxes/tabs/tab_content.php:201
 #: includes/metaboxes/tabs/tab_header.php:148
 #: includes/metaboxes/tabs/tab_page.php:112
 msgid "Tile Horizontally"
 msgstr "Sida vid sida horisontellt"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_content.php:200
+#: includes/metaboxes/tabs/tab_content.php:202
 #: includes/metaboxes/tabs/tab_header.php:149
 #: includes/metaboxes/tabs/tab_page.php:113
 msgid "Tile Vertically"
 msgstr "Sida vid sida vertikalt"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_content.php:201
+#: includes/metaboxes/tabs/tab_content.php:203
 #: includes/metaboxes/tabs/tab_header.php:150
 #: includes/metaboxes/tabs/tab_page.php:114 includes/options/background.php:127
 #: includes/options/background.php:358 includes/options/footer.php:438
@@ -10476,23 +10491,28 @@ msgid "No Repeat"
 msgstr "Ingen repetition"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_content.php:216
+#: includes/metaboxes/tabs/tab_content.php:218
 #: includes/metaboxes/tabs/tab_portfolio_post.php:241
 #: includes/metaboxes/tabs/tab_post.php:155
 msgid "Show Social Share Box"
 msgstr "Visa Dela på sociala medier"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_content.php:218
+#: includes/metaboxes/tabs/tab_content.php:220
 #: includes/metaboxes/tabs/tab_portfolio_post.php:243
 #: includes/metaboxes/tabs/tab_post.php:157
 msgid "Choose to show or hide the social share box. %s"
 msgstr "Välj att visa eller dölja rutan för social delning. %s"
 
+#. translators: The edit link. Text of link is the title.
+#: includes/metaboxes/tabs/tab_footer.php:43
+msgid "Display Widgets Areas"
+msgstr ""
+
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_footer.php:50
-msgid "Choose to show or hide the footer. %s"
-msgstr "Välj att visa eller dölja sidfoten. %s"
+msgid "Choose to show or hide the footer widget areas. %s"
+msgstr ""
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_footer.php:65
@@ -11060,29 +11080,29 @@ msgid "Toggle Related Posts"
 msgstr ""
 
 #. translators: The edit link. Text of link is the title.
-#: includes/metaboxes/tabs/tab_sidebars.php:135
+#: includes/metaboxes/tabs/tab_sidebars.php:144
 msgid "No Sidebar"
 msgstr "Ingen sidopanel"
 
 #. translators: The sidebar name.
-#: includes/metaboxes/tabs/tab_sidebars.php:157
-#: includes/metaboxes/tabs/tab_sidebars.php:164
+#: includes/metaboxes/tabs/tab_sidebars.php:166
+#: includes/metaboxes/tabs/tab_sidebars.php:173
 msgid "Default (%s)"
 msgstr "Standard ( %s)"
 
-#: includes/metaboxes/tabs/tab_sidebars.php:174
+#: includes/metaboxes/tabs/tab_sidebars.php:183
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Sidebars cannot be assigned to this page "
 "because it is currently set to use the 100% width page template. To change "
 "this, go to the Settings tab and change the page template to default."
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:188
+#: includes/metaboxes/tabs/tab_sidebars.php:197
 msgid "Select Sidebar 1"
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:189
+#: includes/metaboxes/tabs/tab_sidebars.php:198
 msgid ""
 "Select sidebar 1 that will display on this page. Choose \"No Sidebar\" for "
 "full width."
@@ -11090,24 +11110,24 @@ msgstr ""
 "Välj sidofält 1 som ska visas på den här sidan. Välj \"Inget sidofält\" för "
 "hel bredd."
 
-#: includes/metaboxes/tabs/tab_sidebars.php:206
+#: includes/metaboxes/tabs/tab_sidebars.php:215
 msgid "Select Sidebar 2"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:207
+#: includes/metaboxes/tabs/tab_sidebars.php:216
 msgid ""
 "Select sidebar 2 that will display on this page. Choose \"No Sidebar\" for "
 "full width."
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:231
-#: includes/metaboxes/tabs/tab_sidebars.php:258
+#: includes/metaboxes/tabs/tab_sidebars.php:240
+#: includes/metaboxes/tabs/tab_sidebars.php:267
 msgid "Sidebar 1 Position"
 msgstr "Placering för sidofält 1"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_sidebars.php:233
+#: includes/metaboxes/tabs/tab_sidebars.php:242
 msgid ""
 "Select the sidebar 1 position. If sidebar 2 is selected, it will display on "
 "the opposite side. %s"
@@ -11115,7 +11135,7 @@ msgstr ""
 
 # @ Avada
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_sidebars.php:260
+#: includes/metaboxes/tabs/tab_sidebars.php:269
 msgid ""
 "Select the sidebar 1 position. If sidebar 2 is selected, it will display on "
 "the opposite side."
@@ -11123,36 +11143,36 @@ msgstr ""
 "Välj placering för sidofält 1. Om sidofält 2 är valt så visas det på motsatt "
 "sida."
 
-#: includes/metaboxes/tabs/tab_sidebars.php:284
+#: includes/metaboxes/tabs/tab_sidebars.php:293
 msgid "Responsive Sidebar Order"
 msgstr ""
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_sidebars.php:286
+#: includes/metaboxes/tabs/tab_sidebars.php:295
 msgid ""
 "Choose the order of sidebars and main content area on mobile layouts through "
 "drag & drop sorting. %s"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:291
-#: includes/metaboxes/tabs/tab_sidebars.php:325
+#: includes/metaboxes/tabs/tab_sidebars.php:300
+#: includes/metaboxes/tabs/tab_sidebars.php:334
 #: includes/options/sidebars.php:84 includes/options/sidebars.php:105
 msgid "Sidebar 1"
 msgstr "Sidofält 1"
 
-#: includes/metaboxes/tabs/tab_sidebars.php:292
-#: includes/metaboxes/tabs/tab_sidebars.php:326
+#: includes/metaboxes/tabs/tab_sidebars.php:301
+#: includes/metaboxes/tabs/tab_sidebars.php:335
 #: includes/options/sidebars.php:85 includes/options/sidebars.php:106
 msgid "Sidebar 2"
 msgstr "Sidfält 2"
 
-#: includes/metaboxes/tabs/tab_sidebars.php:306
+#: includes/metaboxes/tabs/tab_sidebars.php:315
 #: includes/options/sidebars.php:98
 msgid "Sticky Sidebars"
 msgstr ""
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_sidebars.php:308
+#: includes/metaboxes/tabs/tab_sidebars.php:317
 msgid ""
 "Select the sidebar(s) that should remain sticky when scrolling the page. If "
 "the sidebar content is taller than the screen, it acts like a normal sidebar "
@@ -11160,23 +11180,23 @@ msgid ""
 "remain fixed in place as you scroll down. %s"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:327
+#: includes/metaboxes/tabs/tab_sidebars.php:336
 #: includes/options/sidebars.php:107
 msgid "Both"
 msgstr "Båda"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_sidebars.php:342
+#: includes/metaboxes/tabs/tab_sidebars.php:351
 #: includes/options/sidebars.php:131
 msgid "Sidebar Background Color"
 msgstr "Sidofält bakgrundsfärg"
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_sidebars.php:344
+#: includes/metaboxes/tabs/tab_sidebars.php:353
 msgid "Controls the background color of the sidebar. Hex code, ex: #000. %s"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:363
+#: includes/metaboxes/tabs/tab_sidebars.php:372
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The Activate Global Sidebars option is "
 "turned on which removes the ability to choose individual sidebars. Turn off "
@@ -11184,7 +11204,7 @@ msgid ""
 msgstr ""
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_sidebars.php:367
+#: includes/metaboxes/tabs/tab_sidebars.php:376
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The <a href=\"%s\" target=\"_blank"
 "\">Activate Global Sidebars</a> option is turned on which removes the "
@@ -13549,7 +13569,7 @@ msgstr ""
 msgid "Square"
 msgstr "Fyrkant"
 
-#: includes/options/extra.php:140 includes/options/sliding_bar.php:410
+#: includes/options/extra.php:140 includes/options/sliding_bar.php:416
 msgid "Circle"
 msgstr "Cirkel"
 
@@ -18096,11 +18116,11 @@ msgstr ""
 msgid "Edit Sliding Bar Widgets"
 msgstr ""
 
-#: includes/options/sliding_bar.php:77
+#: includes/options/sliding_bar.php:83
 msgid "Sliding Bar On Mobile"
 msgstr ""
 
-#: includes/options/sliding_bar.php:78
+#: includes/options/sliding_bar.php:84
 msgid ""
 "Turn on to display the sliding bar on mobiles. <strong>Important:</strong> "
 "Due to mobile screen sizes and overlapping issues, when this option is "
@@ -18109,130 +18129,130 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/options/sliding_bar.php:107
+#: includes/options/sliding_bar.php:113
 msgid "Sliding Bar Open On Page Load"
 msgstr "Visa när webbsidan läses in"
 
-#: includes/options/sliding_bar.php:108
+#: includes/options/sliding_bar.php:114
 msgid "Turn on to have the sliding bar open when the page loads."
 msgstr ""
 
-#: includes/options/sliding_bar.php:123
+#: includes/options/sliding_bar.php:129
 msgid "Sliding Bar Position"
 msgstr ""
 
-#: includes/options/sliding_bar.php:124
+#: includes/options/sliding_bar.php:130
 msgid ""
 "Controls the position of the sliding bar to be in the top, right, bottom or "
 "left of the site."
 msgstr ""
 
-#: includes/options/sliding_bar.php:160
+#: includes/options/sliding_bar.php:166
 msgid "Sliding Bar Width"
 msgstr ""
 
-#: includes/options/sliding_bar.php:161
+#: includes/options/sliding_bar.php:167
 msgid "Controls the width of the sliding bar on left/right layouts."
 msgstr ""
 
-#: includes/options/sliding_bar.php:208
+#: includes/options/sliding_bar.php:214
 msgid "Sticky Sliding Bar"
 msgstr ""
 
-#: includes/options/sliding_bar.php:209
+#: includes/options/sliding_bar.php:215
 msgid "Turn on to enable a sticky sliding bar."
 msgstr ""
 
 # @ Avada
-#: includes/options/sliding_bar.php:260
+#: includes/options/sliding_bar.php:266
 msgid "Number of Sliding Bar Columns"
 msgstr "Antal kolumner"
 
-#: includes/options/sliding_bar.php:261
+#: includes/options/sliding_bar.php:267
 msgid "Controls the number of columns in the sliding bar."
 msgstr ""
 
-#: includes/options/sliding_bar.php:286
+#: includes/options/sliding_bar.php:292
 msgid "Sliding Bar Column Alignment"
 msgstr ""
 
-#: includes/options/sliding_bar.php:287
+#: includes/options/sliding_bar.php:293
 msgid ""
 "Allows your sliding bar columns to be stacked (one above the other) or "
 "floated (side by side) when using the left or right position."
 msgstr ""
 
-#: includes/options/sliding_bar.php:292
+#: includes/options/sliding_bar.php:298
 msgid "Stacked"
 msgstr "Staplade"
 
-#: includes/options/sliding_bar.php:293
+#: includes/options/sliding_bar.php:299
 msgid "Floated"
 msgstr "Flytande"
 
-#: includes/options/sliding_bar.php:321
+#: includes/options/sliding_bar.php:327
 msgid "Sliding Bar Content Padding"
 msgstr ""
 
-#: includes/options/sliding_bar.php:322
+#: includes/options/sliding_bar.php:328
 msgid "Controls the top/right/bottom/left paddings of the sliding bar area."
 msgstr ""
 
-#: includes/options/sliding_bar.php:364
+#: includes/options/sliding_bar.php:370
 msgid "Sliding Bar Content Alignment"
 msgstr ""
 
-#: includes/options/sliding_bar.php:365
+#: includes/options/sliding_bar.php:371
 msgid "Controls sliding bar content alignment."
 msgstr ""
 
-#: includes/options/sliding_bar.php:389
+#: includes/options/sliding_bar.php:395
 msgid "Sliding Bar Styling"
 msgstr ""
 
-#: includes/options/sliding_bar.php:402
+#: includes/options/sliding_bar.php:408
 msgid "Sliding Bar Toggle Style"
 msgstr ""
 
-#: includes/options/sliding_bar.php:403
+#: includes/options/sliding_bar.php:409
 msgid "Controls the appearance of the sliding bar toggle."
 msgstr ""
 
-#: includes/options/sliding_bar.php:408
+#: includes/options/sliding_bar.php:414
 msgid "Triangle"
 msgstr "Triangel"
 
-#: includes/options/sliding_bar.php:409
+#: includes/options/sliding_bar.php:415
 msgid "Rectangle"
 msgstr "Rektangel"
 
-#: includes/options/sliding_bar.php:411
+#: includes/options/sliding_bar.php:417
 msgid "Main Menu Icon"
 msgstr ""
 
-#: includes/options/sliding_bar.php:456
+#: includes/options/sliding_bar.php:462
 msgid "Sliding Bar Background Color"
 msgstr ""
 
-#: includes/options/sliding_bar.php:457
+#: includes/options/sliding_bar.php:463
 msgid "Controls the background color of the sliding bar."
 msgstr ""
 
 # @ Avada
-#: includes/options/sliding_bar.php:476
+#: includes/options/sliding_bar.php:482
 msgid "Sliding Bar Item Divider Color"
 msgstr "Färg på avdelare"
 
 # @ Avada
-#: includes/options/sliding_bar.php:477
+#: includes/options/sliding_bar.php:483
 msgid "Controls the divider color in the sliding bar."
 msgstr "Justerar färgen på avdelarlinjer i den inglidande panelen."
 
-#: includes/options/sliding_bar.php:496
+#: includes/options/sliding_bar.php:502
 msgid "Sliding Bar Toggle/Close Icon Color"
 msgstr "Inglidande panel Växla/Stäng ikonfärg"
 
-#: includes/options/sliding_bar.php:497
+#: includes/options/sliding_bar.php:503
 msgid ""
 "Controls the color of the sliding bar toggle icon and of the close icon when "
 "using the main menu icon as toggle style."
@@ -18240,56 +18260,56 @@ msgstr ""
 "Kontrollerar färgen på ingnidande panel växlingsikon och på stängningsikonen "
 "när du använder huvudmenyikonen som växlingsstil."
 
-#: includes/options/sliding_bar.php:517
+#: includes/options/sliding_bar.php:523
 msgid "Sliding Bar Heading Font Size"
 msgstr "Inglidande panel Rubrikstorlek"
 
-#: includes/options/sliding_bar.php:518
+#: includes/options/sliding_bar.php:524
 msgid "Controls the font size for the sliding bar heading text."
 msgstr "Kontrollerar teckensnittsstorleken för den inglidande panelens text."
 
 # @ Avada
-#: includes/options/sliding_bar.php:540
+#: includes/options/sliding_bar.php:546
 msgid "Sliding Bar Headings Color"
 msgstr "Rubrikfärg"
 
 # @ Avada
-#: includes/options/sliding_bar.php:541
+#: includes/options/sliding_bar.php:547
 msgid "Controls the text color of the sliding bar heading font."
 msgstr "Justerar färgen på rubrikstilen i den inglidande panelen."
 
 # @ Avada
-#: includes/options/sliding_bar.php:561
+#: includes/options/sliding_bar.php:567
 msgid "Sliding Bar Font Color"
 msgstr "Textfärg"
 
-#: includes/options/sliding_bar.php:562
+#: includes/options/sliding_bar.php:568
 msgid "Controls the text color of the sliding bar font."
 msgstr ""
 
 # @ Avada
-#: includes/options/sliding_bar.php:582
+#: includes/options/sliding_bar.php:588
 msgid "Sliding Bar Link Color"
 msgstr "Länkfärg"
 
 # @ Avada
-#: includes/options/sliding_bar.php:583
+#: includes/options/sliding_bar.php:589
 msgid "Controls the text color of the sliding bar link font."
 msgstr "Justerar färgen på textlänkar i den inglidande panelen."
 
-#: includes/options/sliding_bar.php:602
+#: includes/options/sliding_bar.php:608
 msgid "Sliding Bar Link Hover Color"
 msgstr "Inglidande panel Hover färg"
 
-#: includes/options/sliding_bar.php:603
+#: includes/options/sliding_bar.php:609
 msgid "Controls the text hover color of the sliding bar link font."
 msgstr ""
 
-#: includes/options/sliding_bar.php:622
+#: includes/options/sliding_bar.php:628
 msgid "Border on Sliding Bar"
 msgstr ""
 
-#: includes/options/sliding_bar.php:623
+#: includes/options/sliding_bar.php:629
 msgid ""
 "Turn on to display a border line on the sliding bar which makes it stand out "
 "more."
@@ -19803,3 +19823,18 @@ msgstr "av %s"
 msgctxt "breadcrumb"
 msgid "Home"
 msgstr "Hem"
+
+# @ Avada
+#~ msgid "Layout Options"
+#~ msgstr "Layoutalternativ"
+
+#~ msgid "Invalid security credential.  Please reload the page and try again."
+#~ msgstr ""
+#~ "Ogiltig säkerhetsidentifiering.  Vänligen ladda om sidan och försök igen."
+
+#~ msgid "Invalid user capability.  Please reload the page and try again."
+#~ msgstr ""
+#~ "Ogiltig användarbehörighet.  Vänligen ladda om sidan och försök igen."
+
+#~ msgid "Choose to show or hide the footer. %s"
+#~ msgstr "Välj att visa eller dölja sidfoten. %s"
