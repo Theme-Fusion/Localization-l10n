@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
 "POT-Creation-Date: 2020-04-24 05:39:59+00:00\n"
-"PO-Revision-Date: 2020-05-08 20:03+0200\n"
+"PO-Revision-Date: 2020-05-10 11:43+0200\n"
 "Last-Translator: Miloš Havlíček <miloshavlicek@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -961,11 +961,11 @@ msgstr "Woo Hlavní"
 
 #: inc/admin-screens/settings.php:96
 msgid "Woo Carousel"
-msgstr ""
+msgstr "Woo rotující panel"
 
 #: inc/admin-screens/settings.php:101 shortcodes/fusion-woo-shortcodes.php:72
 msgid "Woo Shortcodes"
-msgstr ""
+msgstr "Woo zkratky"
 
 #: inc/admin-screens/settings.php:106 shortcodes/fusion-layer-slider.php:20
 msgid "Layer Slider"
@@ -974,7 +974,7 @@ msgstr ""
 #: inc/admin-screens/settings.php:111
 #: shortcodes/fusion-revolution-slider.php:18
 msgid "Slider Revolution"
-msgstr ""
+msgstr "Revoluce ve Sliderech"
 
 #: inc/admin-screens/settings.php:116 shortcodes/fusion-events.php:635
 #: shortcodes/fusion-events.php:790
@@ -1007,6 +1007,10 @@ msgid ""
 "the box to enable, uncheck to disable. Please note the Fusion element "
 "generator will still be active on any post type that is disabled."
 msgstr ""
+"Fusion Builder může být povolen nebo vypnut na registrovaných typech "
+"příspěvků. Zaškrtnutím políčka zapnete, jinak vypnete. Vezměte prosím na "
+"vědomí, že Fusion generátor prvků bude stále aktivní na každém typu "
+"příspěvku, který je vypnut."
 
 #: inc/admin-screens/settings.php:200
 msgid "Import Fusion Builder Content"
@@ -1044,21 +1048,23 @@ msgstr "Exportovat obsah"
 
 #: inc/admin-screens/settings.php:226
 msgid "Export Fusion Templates from your Library"
-msgstr ""
+msgstr "Exportovat Fusion Šablony z vaší knihovny"
 
 #: inc/admin-screens/settings.php:226
 msgid "Export Templates"
-msgstr ""
+msgstr "Exportovat šablony"
 
 #: inc/admin-screens/settings.php:232
 msgid "Sticky Preview / Publish Buttons"
-msgstr ""
+msgstr "Rychlý náhled / Tlačítka publikování"
 
 #: inc/admin-screens/settings.php:234
 msgid ""
 "This option allows the preview and publish button to stick to the bottom of "
 "the page so you can quickly access them."
 msgstr ""
+"Tato možnost umožňuje, aby se tlačítko náhledu a publikování drželo v dolní "
+"části stránky, abyste k nim měli rychlý přístup."
 
 #: inc/admin-screens/settings.php:255
 msgid "Save Settings"
@@ -1073,6 +1079,13 @@ msgid ""
 "site. To access it, you must first setup an account by <a %2$s>following "
 "these steps</a>. Below are all the resources we offer in our support center."
 msgstr ""
+"Avada přichází s 6 měsíční bezplatnou podporou pro každou licenci, kterou si "
+"koupíte. Podporu lze <a %1$s=\"\">rozšířit prostřednictvím předplatného</a> "
+"přes ThemeForest. Veškerá podpora společnosti Avada je řešena "
+"prostřednictvím našeho centra podpory na našich stránkách společnosti. "
+"Chcete-li k němu získat přístup, musíte nejprve nastavit účet <a %2$s="
+"\"\">pomocí následujících kroků</a>. Níže jsou uvedeny všechny zdroje, které "
+"nabízíme v našem centru podpory."
 
 #: inc/admin-screens/support.php:32
 msgid "Create A Support Account"
@@ -1088,6 +1101,9 @@ msgid ""
 "WordPress. In light of this, we have prepared a starter pack for you, which "
 "includes all you need to know."
 msgstr ""
+"Chápeme, že to může být skličující proces začít s WordPressem. S ohledem na "
+"to jsme pro vás připravili startovní balíček, který obsahuje vše, co "
+"potřebujete vědět."
 
 #: inc/admin-screens/support.php:43 inc/admin-screens/support.php:45
 msgid "Documentation"
@@ -1099,6 +1115,9 @@ msgid ""
 "Builder. Our online documentaiton is organized and provides the information "
 "to get you started."
 msgstr ""
+"Toto je místo, kam můžete odkazovat na různé aspekty Fusion Builderu. Naše "
+"online dokumentace je organizována a poskytuje informace, které vám pomohou "
+"začít."
 
 #: inc/admin-screens/support.php:48
 msgid "Submit A Ticket"
@@ -1116,7 +1135,7 @@ msgstr ""
 
 #: inc/admin-screens/support.php:50
 msgid "Submit a ticket"
-msgstr ""
+msgstr "Odeslat ticket"
 
 #: inc/admin-screens/support.php:53
 msgid "Video Tutorials"
@@ -1128,6 +1147,9 @@ msgid ""
 "of narrated HD video tutorials to help teach you the different aspects of "
 "using Avada."
 msgstr ""
+"Nic není lepší, než se učit sledováním videí. Máme rozrůstající se knihovnu "
+"namluvených HD video cvičení, které vám pomohou naučit se různé způsoby "
+"používání Avady."
 
 #: inc/admin-screens/support.php:55
 msgid "Watch Videos"
@@ -1156,10 +1178,13 @@ msgid ""
 "We have an amazing Facebook Group! Share with other Avada users and help "
 "grow our community. Please note, ThemeFusion does not provide support here."
 msgstr ""
+"Máme úžasnou Facebook skupinu! Sdílejte s ostatními uživateli Avady a "
+"pomozte rozvíjet naši komunitu. Upozorňujeme, že ThemeFusion zde neposkytuje "
+"podporu."
 
 #: inc/admin-screens/support.php:74
 msgid "What Is The Fusion Builder?"
-msgstr ""
+msgstr "Co je Fusion Builder?"
 
 #: inc/admin-screens/support.php:78
 msgid ""
@@ -1202,7 +1227,7 @@ msgstr ""
 
 #: inc/admin-screens/support.php:97
 msgid "Where Can I Find More Information About How To use The Fusion Builder?"
-msgstr ""
+msgstr "Kde najdu více informací o tom, jak používat Fusion Builder?"
 
 #: inc/admin-screens/support.php:101
 msgid ""
@@ -1210,16 +1235,19 @@ msgid ""
 "tutorial library. Both are stored on our company site in the support center, "
 "see the links below."
 msgstr ""
+"Fusion Builder má kompletní sadu dokumentace a rozrůstající se knihovnu "
+"video cvičení. Obojí je umístěno na našich stránkách společnosti v centru "
+"podpory, viz níže uvedené odkazy."
 
 #. translators: Link attributes.
 #: inc/admin-screens/support.php:104
 msgid "<a %s>Fusion Builder Documentation</a>"
-msgstr ""
+msgstr "<a %s=\"\">Dokumentace Fusion Builderu</a>"
 
 #. translators: Link attributes.
 #: inc/admin-screens/support.php:106
 msgid "<a %s\">Fusion Builder Video Tutorials</a>"
-msgstr ""
+msgstr "<a %s\">Fusion Builder video návody</a>"
 
 #: inc/admin-screens/support.php:117
 msgid ""
@@ -1257,11 +1285,11 @@ msgstr ""
 
 #: inc/admin-screens/support.php:125
 msgid "Basic Customization."
-msgstr ""
+msgstr "Základní přizpůsobení."
 
 #: inc/admin-screens/support.php:126
 msgid "Guidance on where to get help for third-party plugins or features."
-msgstr ""
+msgstr "Pokyny, kde získat nápovědu pro pluginy nebo funkce třetích stran."
 
 #: inc/admin-screens/support.php:135
 msgid "What Is The Fusion Builder Library?"
@@ -1438,7 +1466,7 @@ msgstr ""
 
 #: inc/bootstrap.php:49 inc/bootstrap.php:50
 msgid "Fusion Patcher"
-msgstr ""
+msgstr "Fusion Patcher"
 
 #. translators: Theme Builder|library.
 #: inc/class-fusion-builder-admin.php:48
@@ -1563,7 +1591,7 @@ msgstr "Verze %s"
 
 #: inc/class-fusion-builder-gutenberg.php:115
 msgid "Edit With Fusion Builder"
-msgstr ""
+msgstr "Upravit ve Fusion Builderu"
 
 #: inc/class-fusion-builder-gutenberg.php:172
 msgid "Toggle editor selection menu"
@@ -1577,12 +1605,12 @@ msgstr "Gutenberg editor"
 #. translators: %s: post title
 #: inc/class-fusion-builder-gutenberg.php:362
 msgid "Edit &#8220;%s&#8221; in Fusion Builder Live"
-msgstr ""
+msgstr "Upravit &#8220;%s&#8221; ve Fusion Builderu Live"
 
 #. translators: %s: post title
 #: inc/class-fusion-builder-gutenberg.php:376
 msgid "Edit &#8220;%s&#8221; in the Gutenberg editor"
-msgstr ""
+msgstr "Upravit &#8220;%s&#8221; v Gutenberg editoru"
 
 #: inc/class-fusion-builder-library-table.php:43
 #: inc/class-fusion-builder-library.php:877
@@ -1674,11 +1702,11 @@ msgstr "Přesunout do koše"
 
 #: inc/class-fusion-builder-library-table.php:355
 msgid "No Fusion library items found in Trash."
-msgstr ""
+msgstr "V koši nebyly nalezeny žádné položky Fusion knihovny."
 
 #: inc/class-fusion-builder-library-table.php:357
 msgid "Fusion library is empty."
-msgstr ""
+msgstr "Knihovna Fusion je prázdná."
 
 #: inc/class-fusion-builder-library-table.php:438
 #: inc/class-fusion-builder-library.php:875
@@ -2026,7 +2054,7 @@ msgstr ""
 
 #: inc/class-fusion-builder.php:877
 msgid "Fusion Builder Settings"
-msgstr ""
+msgstr "Nastavení Fusion Builderu"
 
 #: inc/class-fusion-builder.php:879
 msgid "Important"
@@ -2047,15 +2075,15 @@ msgstr "Sady ikon"
 
 #: inc/class-fusion-custom-icons-table.php:102
 msgid "CSS Prefix"
-msgstr ""
+msgstr "CSS předpona"
 
 #: inc/class-fusion-custom-icons-table.php:320
 msgid "No custom icon sets found in Trash."
-msgstr ""
+msgstr "V koši nebyly nalezeny žádné vlastní sady ikon."
 
 #: inc/class-fusion-custom-icons-table.php:322
 msgid "No custom icon sets have been created yet."
-msgstr ""
+msgstr "Dosud nebyly vytvořeny žádné vlastní sady ikon."
 
 #: inc/class-fusion-dummy-post.php:66
 msgid "Sample Post Title"
@@ -2161,7 +2189,7 @@ msgstr "Náhradní způsob"
 
 #: inc/class-fusion-dynamic-data.php:374
 msgid "Fallback if no value found."
-msgstr ""
+msgstr "Záložní, při žádné nelezené hodnotě."
 
 #: inc/class-fusion-dynamic-data.php:424
 msgid "Post"
@@ -2173,7 +2201,7 @@ msgstr "Sem napište titulek"
 
 #: inc/class-fusion-dynamic-data.php:478 inc/class-fusion-dynamic-data.php:1118
 msgid "Include Context"
-msgstr ""
+msgstr "Zahrnout kontext"
 
 #: inc/class-fusion-dynamic-data.php:479 inc/class-fusion-dynamic-data.php:1119
 msgid "Whether to include title context, ie. Category: Avada."
@@ -2421,7 +2449,7 @@ msgstr ""
 #. translators: Single post type terms.
 #: inc/class-fusion-dynamic-data.php:508
 msgid "Comments Number"
-msgstr ""
+msgstr "Počet komentářů"
 
 #: inc/class-fusion-dynamic-data.php:519 inc/class-fusion-dynamic-data.php:560
 #: inc/lib/inc/class-fusion-settings.php:409 inc/options/extra.php:187
@@ -2537,11 +2565,11 @@ msgstr "Stránka"
 
 #: inc/class-fusion-dynamic-data.php:691
 msgid "Site Tagline"
-msgstr ""
+msgstr "Slogan webu"
 
 #: inc/class-fusion-dynamic-data.php:701
 msgid "Request Parameter"
-msgstr ""
+msgstr "Parametr požadavku"
 
 #: inc/class-fusion-dynamic-data.php:703 inc/class-fusion-dynamic-data.php:732
 #: inc/class-fusion-dynamic-data.php:751
@@ -2552,7 +2580,7 @@ msgstr "Ostatní"
 
 #: inc/class-fusion-dynamic-data.php:711
 msgid "Param Type"
-msgstr ""
+msgstr "Typ parametru"
 
 #: inc/class-fusion-dynamic-data.php:716
 msgid "GET"
@@ -2564,7 +2592,7 @@ msgstr "POST"
 
 #: inc/class-fusion-dynamic-data.php:718 inc/class-fusion-dynamic-data.php:722
 msgid "Query Var"
-msgstr ""
+msgstr "Proměnná dotazu"
 
 #: inc/class-fusion-dynamic-data.php:730 inc/class-fusion-dynamic-data.php:740
 #: shortcodes/fusion-woo-shortcodes.php:81
@@ -2584,7 +2612,7 @@ msgstr "Autor"
 
 #: inc/class-fusion-dynamic-data.php:806
 msgid "Author Description"
-msgstr ""
+msgstr "Popis autora"
 
 #: inc/class-fusion-dynamic-data.php:817 shortcodes/components/author.php:331
 msgid "Author Avatar"
@@ -2592,11 +2620,11 @@ msgstr "Autorův avatar"
 
 #: inc/class-fusion-dynamic-data.php:827
 msgid "Author Page URL"
-msgstr ""
+msgstr "URL stránky autora"
 
 #: inc/class-fusion-dynamic-data.php:839
 msgid "Author Social URL"
-msgstr ""
+msgstr "Sociální URL autora"
 
 #: inc/class-fusion-dynamic-data.php:850
 msgid "Social Link"
@@ -2604,7 +2632,7 @@ msgstr "Odkaz na sociální síť"
 
 #: inc/class-fusion-dynamic-data.php:851
 msgid "Select which social platform link to use."
-msgstr ""
+msgstr "Vyberte odkaz sociální platformy, který chcete použít."
 
 #: inc/class-fusion-dynamic-data.php:856
 #: inc/lib/inc/class-fusion-social-icon.php:86 inc/options/social_media.php:520
@@ -2645,7 +2673,7 @@ msgstr "WhatsApp"
 
 #: inc/class-fusion-dynamic-data.php:912
 msgid "ACF Text"
-msgstr ""
+msgstr "ACF text"
 
 #: inc/class-fusion-dynamic-data.php:914 inc/class-fusion-dynamic-data.php:939
 #: inc/class-fusion-dynamic-data.php:964
@@ -2660,15 +2688,15 @@ msgstr "Pole"
 #: inc/class-fusion-dynamic-data.php:924 inc/class-fusion-dynamic-data.php:949
 #: inc/class-fusion-dynamic-data.php:974
 msgid "Which field you want to use."
-msgstr ""
+msgstr "Které pole chcete použít."
 
 #: inc/class-fusion-dynamic-data.php:937
 msgid "ACF Image"
-msgstr ""
+msgstr "ACF obrázek"
 
 #: inc/class-fusion-dynamic-data.php:962
 msgid "ACF Link"
-msgstr ""
+msgstr "ACF odkaz"
 
 #: inc/class-fusion-dynamic-data.php:1000
 msgid "Product Price"
@@ -2683,7 +2711,7 @@ msgstr "WooCommerce"
 
 #: inc/class-fusion-dynamic-data.php:1012
 msgid "Format of price to display."
-msgstr ""
+msgstr "Formát pro zobrazení ceny."
 
 #: inc/class-fusion-dynamic-data.php:1017
 msgid "Both"
@@ -2691,7 +2719,7 @@ msgstr "Obojí"
 
 #: inc/class-fusion-dynamic-data.php:1018
 msgid "Original Only"
-msgstr ""
+msgstr "Pouze původní"
 
 #: inc/class-fusion-dynamic-data.php:1019
 msgid "Sale Only"
@@ -2699,11 +2727,11 @@ msgstr ""
 
 #: inc/class-fusion-dynamic-data.php:1026
 msgid "Product Rating"
-msgstr ""
+msgstr "Hodnocení produktu"
 
 #: inc/class-fusion-dynamic-data.php:1038
 msgid "Format of rating to display."
-msgstr ""
+msgstr "Formát pro zobrazení hodnocení"
 
 #: inc/class-fusion-dynamic-data.php:1043
 msgid "Average Rating"
@@ -2711,7 +2739,7 @@ msgstr "Průměrné hodnocení"
 
 #: inc/class-fusion-dynamic-data.php:1044
 msgid "Rating Count"
-msgstr ""
+msgstr "Počet hodnocení"
 
 #: inc/class-fusion-dynamic-data.php:1045
 msgid "Review Count"
@@ -2857,7 +2885,7 @@ msgstr ""
 #: inc/class-fusion-template-builder.php:2025
 #: inc/class-fusion-template-builder.php:2124
 msgid "Specific %s"
-msgstr ""
+msgstr "Specifický %s"
 
 #. Translators: The post-type label.
 #: inc/class-fusion-template-builder.php:2034
@@ -2875,15 +2903,15 @@ msgstr ""
 
 #: inc/class-fusion-template-builder.php:2076
 msgid "All Date Pages"
-msgstr ""
+msgstr "Všechny stránky s datem"
 
 #: inc/class-fusion-template-builder.php:2082
 msgid "All Author Pages"
-msgstr ""
+msgstr "Všechny stránky autora"
 
 #: inc/class-fusion-template-builder.php:2087
 msgid "Specific Author Page"
-msgstr ""
+msgstr "Stránka konkrétního autora"
 
 #: inc/helpers/class-fusion-builder-animation-helper.php:46
 #: shortcodes/fusion-content-boxes.php:2430
@@ -3315,7 +3343,7 @@ msgstr ""
 #: shortcodes/fusion-video.php:453 shortcodes/fusion-video.php:468
 #: shortcodes/fusion-widget.php:282
 msgid "Design"
-msgstr "Design"
+msgstr "Vzhled"
 
 #: inc/helpers/class-fusion-builder-box-shadow-helper.php:44
 #: shortcodes/fusion-alert.php:519 shortcodes/fusion-alert.php:724
@@ -3391,7 +3419,7 @@ msgstr "Vnější"
 #: inc/helpers/class-fusion-builder-box-shadow-helper.php:133
 #: shortcodes/fusion-column-inner.php:903
 msgid "Inner"
-msgstr ""
+msgstr "Vnitřní"
 
 #: inc/helpers/class-fusion-builder-filter-helper.php:47
 msgid "Filter Type"
@@ -3401,7 +3429,7 @@ msgstr "Typ filtru"
 #: shortcodes/fusion-column-inner.php:931 shortcodes/fusion-column.php:1008
 #: shortcodes/fusion-container.php:1379
 msgid "Use filters to see specific type of content."
-msgstr ""
+msgstr "Pomocí filtrů můžete zobrazit určitý typ obsahu."
 
 #: inc/helpers/class-fusion-builder-filter-helper.php:54
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:88
@@ -3483,7 +3511,7 @@ msgstr "Rozostření"
 
 #: inc/helpers/class-fusion-builder-filter-helper.php:211
 msgid "Filter blur.  In pixels."
-msgstr ""
+msgstr "Rozostření filtru.  V pixelech."
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:47
 msgid "Gradient Start Color"
@@ -3491,7 +3519,7 @@ msgstr "Počátek přechodu barvy"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:50
 msgid "Select start color for gradient."
-msgstr ""
+msgstr "Vyberte počáteční barvu přechodu."
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:51
 #: inc/helpers/class-fusion-builder-gradient-helper.php:69
@@ -3523,27 +3551,27 @@ msgstr "Pozadí"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:65
 msgid "Gradient End Color"
-msgstr ""
+msgstr "Barva konce přechodu"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:68
 msgid "Select end color for gradient."
-msgstr ""
+msgstr "Vyberte koncovou barvu přechodu."
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:83
 msgid "Gradient Start Position"
-msgstr ""
+msgstr "Počáteční pozice přechodu"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:84
 msgid "Select start position for gradient."
-msgstr ""
+msgstr "Vyberte počáteční pozici přechodu."
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:103
 msgid "Gradient End Position"
-msgstr ""
+msgstr "Koncová pozice přechodu"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:104
 msgid "Select end position for gradient."
-msgstr ""
+msgstr "Vyberte koncovou pozici přechodu."
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:123
 msgid "Gradient Type"
@@ -3551,7 +3579,7 @@ msgstr "Typ přechodu"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:124
 msgid "Controls gradient type."
-msgstr ""
+msgstr "Určuje typ přechodu."
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:139
 msgid "Linear"
@@ -3567,7 +3595,7 @@ msgstr "Radiální směr"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:146
 msgid "Select direction for radial gradient."
-msgstr ""
+msgstr "Vyberte směr pro kruhový přechod."
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:155
 #: shortcodes/fusion-column-inner.php:987 shortcodes/fusion-column.php:1080
@@ -3629,7 +3657,7 @@ msgstr "Úhel přechodu"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:182
 msgid "Controls the gradient angle. In degrees."
-msgstr ""
+msgstr "Určuje úhel přechodu. Ve stupních."
 
 #: inc/helpers/class-fusion-builder-margin-helper.php:45
 #: shortcodes/components/author.php:355 shortcodes/components/comments.php:447
@@ -3643,7 +3671,7 @@ msgstr "Okraj"
 #: inc/helpers/class-fusion-builder-margin-helper.php:46
 #: shortcodes/fusion-column.php:994 shortcodes/fusion-search.php:317
 msgid "Enter values including any valid CSS unit, ex: 4%."
-msgstr ""
+msgstr "Zadejte hodnoty včetně platné jednotky CSS, např.: 4%."
 
 #: inc/helpers.php:145
 #: inc/lib/inc/fusion-app/templates/options/typography.php:159
@@ -4547,11 +4575,11 @@ msgstr "Vybrat soubory"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:453
 msgid "Update Custom Icon Set"
-msgstr ""
+msgstr "Aktualizovat vlastní sadu ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:469
 msgid "Drop zip file to upload"
-msgstr ""
+msgstr "Přetáhněte zip soubor pro nahrátí"
 
 #. translators: %1$s: Link to Icomoon site. %2$s <br>. %3$s Note:
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:475
@@ -4934,15 +4962,15 @@ msgstr "Hledat sloupce"
 
 #: inc/lib/inc/fusion-app/helpers.php:241
 msgid "Builder Columns"
-msgstr ""
+msgstr "Sloupce Builderu"
 
 #: inc/lib/inc/fusion-app/helpers.php:242
 msgid "Library Columns"
-msgstr ""
+msgstr "Sloupce knihovny"
 
 #: inc/lib/inc/fusion-app/helpers.php:243
 msgid "Library Containers"
-msgstr ""
+msgstr "Knihovna kontejnerů"
 
 #: inc/lib/inc/fusion-app/helpers.php:244
 msgid "Cancel"
@@ -4986,7 +5014,7 @@ msgstr "Vnořené sloupce"
 
 #: inc/lib/inc/fusion-app/helpers.php:257
 msgid "Save As Global"
-msgstr ""
+msgstr "Uložit jako globální"
 
 #: inc/lib/inc/fusion-app/helpers.php:259
 msgid "Save Custom Element"
@@ -5005,15 +5033,15 @@ msgstr ""
 #: inc/lib/inc/fusion-app/helpers.php:263
 #: inc/lib/inc/fusion-app/helpers.php:266
 msgid "Delete inner columns"
-msgstr ""
+msgstr "Odstranit vnitřní sloupce"
 
 #: inc/lib/inc/fusion-app/helpers.php:264
 msgid "Clone inner columns"
-msgstr ""
+msgstr "Klonovat vnitřní sloupce"
 
 #: inc/lib/inc/fusion-app/helpers.php:265
 msgid "Save inner columns"
-msgstr ""
+msgstr "Uložit vnitřní sloupce"
 
 #: inc/lib/inc/fusion-app/helpers.php:267
 msgid "Save Nested Columns"
@@ -5088,7 +5116,7 @@ msgstr "Nahrát obrázek"
 
 #: inc/lib/inc/fusion-app/helpers.php:284
 msgid "Upload Audio"
-msgstr ""
+msgstr "Nahrát zvuk"
 
 #: inc/lib/inc/fusion-app/helpers.php:287
 msgid "Attach Images to Gallery"
@@ -5100,25 +5128,26 @@ msgstr "Vložit"
 
 #: inc/lib/inc/fusion-app/helpers.php:289
 msgid "Pre-Built Page"
-msgstr ""
+msgstr "Předvytvořená stránka"
 
 #: inc/lib/inc/fusion-app/helpers.php:290
 msgid "To get started, add a Container, or add a pre-built page."
 msgstr ""
+"Chcete-li začít, přidejte kontejner nebo přidejte předem vytvořenou stránku."
 
 #: inc/lib/inc/fusion-app/helpers.php:291
 msgid "To get started building your Page Title Bar, add a container."
-msgstr ""
+msgstr "Chcete-li začít vytvářet záhlaví stránky, přidejte kontejner."
 
 #: inc/lib/inc/fusion-app/helpers.php:292
 msgid "To get started building your Footer, add a container."
-msgstr ""
+msgstr "Chcete-li začít vytvářet zápatí, přidejte kontejner."
 
 #: inc/lib/inc/fusion-app/helpers.php:293
 msgid ""
 "The building process always starts with a container, then columns, then "
 "elements."
-msgstr ""
+msgstr "Proces vytváření vždy začíná kontejnerem, pak sloupci a potom prvky."
 
 #: inc/lib/inc/fusion-app/helpers.php:294
 msgid "Watch The Video!"
@@ -5166,11 +5195,11 @@ msgstr "Popisy ovládacího prvku ikon:"
 
 #: inc/lib/inc/fusion-app/helpers.php:306
 msgid "Collapse Sections"
-msgstr ""
+msgstr "Sbalit oddíly"
 
 #: inc/lib/inc/fusion-app/helpers.php:307
 msgid "History States"
-msgstr ""
+msgstr "Stavy historie"
 
 #: inc/lib/inc/fusion-app/helpers.php:308 shortcodes/fusion-chart.php:698
 msgid "Start"
@@ -5178,23 +5207,23 @@ msgstr "Začátek"
 
 #: inc/lib/inc/fusion-app/helpers.php:309
 msgid "Moved Column"
-msgstr ""
+msgstr "Přesunutý sloupec"
 
 #: inc/lib/inc/fusion-app/helpers.php:310
 msgid "Added Custom Element: "
-msgstr ""
+msgstr "Přidán vlastní prvek: "
 
 #: inc/lib/inc/fusion-app/helpers.php:311
 msgid "Added Custom Column: "
-msgstr ""
+msgstr "Přidán vlastní sloupec: "
 
 #: inc/lib/inc/fusion-app/helpers.php:312
 msgid "Added Columns"
-msgstr ""
+msgstr "Přidané sloupce"
 
 #: inc/lib/inc/fusion-app/helpers.php:313
 msgid "Added Custom Container: "
-msgstr ""
+msgstr "Přidán vlastní kontejner: "
 
 #: inc/lib/inc/fusion-app/helpers.php:314
 msgid "Deleted"
@@ -5502,7 +5531,7 @@ msgstr ""
 
 #: inc/lib/inc/fusion-app/helpers.php:389 shortcodes/fusion-chart.php:604
 msgid "X Axis Label"
-msgstr ""
+msgstr "Popisek osy X"
 
 #. translators: Search type.
 #: inc/lib/inc/fusion-app/helpers.php:391
@@ -5511,12 +5540,12 @@ msgstr "Hledat %s"
 
 #: inc/lib/inc/fusion-app/helpers.php:392 shortcodes/fusion-chart.php:463
 msgid "Chart Background Color"
-msgstr ""
+msgstr "Barva pozadí grafu"
 
 #. translators: Default value description & value.
 #: inc/lib/inc/fusion-app/helpers.php:394
 msgid "Controls the background of the chart. %s"
-msgstr ""
+msgstr "Určuje pozadí grafu. %s"
 
 #: inc/lib/inc/fusion-app/helpers.php:395 shortcodes/fusion-chart.php:471
 msgid "Chart Axis Text Color"
@@ -6454,7 +6483,7 @@ msgstr ""
 
 #: inc/lib/inc/importer/class-wxr-importer.php:1563
 msgid "Imported user \"%s\""
-msgstr ""
+msgstr "Importovaný uživatel \"%s\""
 
 #: inc/lib/inc/importer/class-wxr-importer.php:1567
 msgid "User %d remapped to %d"
@@ -7054,7 +7083,7 @@ msgstr "Uživatelské jméno"
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/select/field_select.php:83
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/select_image/field_select_image.php:63
 msgid "Select an item"
-msgstr "Vybrat položku"
+msgstr "Vyberte položku"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/select/field_select.php:138
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/select_image/field_select_image.php:144
@@ -8272,7 +8301,7 @@ msgstr ""
 
 #: inc/options/advanced.php:251
 msgid "Rich Snippets"
-msgstr ""
+msgstr "Rozšířené úryvky"
 
 #: inc/options/advanced.php:252
 msgid ""
@@ -8283,7 +8312,7 @@ msgstr ""
 
 #: inc/options/advanced.php:260
 msgid "Rich Snippets Title"
-msgstr ""
+msgstr "Název rozšířených úryvků"
 
 #: inc/options/advanced.php:261
 msgid "Turn on to enable title rich snippet data site wide."
@@ -8312,7 +8341,7 @@ msgstr "Blog"
 
 #: inc/options/blog.php:34
 msgid "General Blog"
-msgstr ""
+msgstr "Obecný blog"
 
 #: inc/options/blog.php:42
 msgid ""
@@ -12131,11 +12160,11 @@ msgstr ""
 #: shortcodes/fusion-column-inner.php:916 shortcodes/fusion-column.php:993
 #: shortcodes/fusion-container.php:1352 shortcodes/fusion-widget-area.php:337
 msgid "Padding"
-msgstr ""
+msgstr "Vnitřní odsazení"
 
 #: shortcodes/fusion-column-inner.php:917
 msgid "In pixels (px), ex: 10px."
-msgstr ""
+msgstr "V pixelech (px), např.: 10px."
 
 #: shortcodes/fusion-column-inner.php:930 shortcodes/fusion-column.php:1007
 msgid "Background Type"
@@ -14782,7 +14811,7 @@ msgstr ""
 
 #: shortcodes/fusion-fontawesome.php:807 shortcodes/fusion-social-links.php:864
 msgid "Select the icon's alignment."
-msgstr ""
+msgstr "Vyberte zarovnání ikony."
 
 #: shortcodes/fusion-gallery.php:746
 msgid ""
@@ -14792,15 +14821,15 @@ msgstr ""
 
 #: shortcodes/fusion-gallery.php:757 shortcodes/fusion-gallery.php:920
 msgid "Gallery Layout"
-msgstr ""
+msgstr "Rozložení galerie"
 
 #: shortcodes/fusion-gallery.php:758 shortcodes/fusion-gallery.php:921
 msgid "Select the gallery layout type."
-msgstr ""
+msgstr "Vyberte typ rozložení galerie."
 
 #: shortcodes/fusion-gallery.php:782 shortcodes/fusion-gallery.php:968
 msgid "Controls the column spacing for gallery images."
-msgstr ""
+msgstr "Určuje mezery ve sloupcích pro obrázky galerie."
 
 #: shortcodes/fusion-gallery.php:810 shortcodes/fusion-gallery.php:1052
 msgid "Lightbox Content"
@@ -14808,15 +14837,15 @@ msgstr ""
 
 #: shortcodes/fusion-gallery.php:815 shortcodes/fusion-gallery.php:1060
 msgid "Titles"
-msgstr ""
+msgstr "Titulky"
 
 #: shortcodes/fusion-gallery.php:816 shortcodes/fusion-gallery.php:1061
 msgid "Captions"
-msgstr ""
+msgstr "Popisky"
 
 #: shortcodes/fusion-gallery.php:817
 msgid "Titles & Captions"
-msgstr ""
+msgstr "Titulky a popisky"
 
 #: shortcodes/fusion-gallery.php:819
 msgid "Choose if titles and captions will display in the lightbox."
@@ -14942,7 +14971,7 @@ msgstr "Google mapa"
 
 #: shortcodes/fusion-google-map.php:642 shortcodes/fusion-google-map.php:703
 msgid "Google API Type"
-msgstr ""
+msgstr "Typ Google API"
 
 #. translators: https:cloud.google.com/maps-platform/user-guide/ URL.
 #. translators: URL to google maps doc.
@@ -14958,15 +14987,15 @@ msgstr ""
 
 #: shortcodes/fusion-google-map.php:650 shortcodes/fusion-google-map.php:709
 msgid "JS API"
-msgstr ""
+msgstr "JS API"
 
 #: shortcodes/fusion-google-map.php:651 shortcodes/fusion-google-map.php:710
 msgid "Embed API"
-msgstr ""
+msgstr "Embed API"
 
 #: shortcodes/fusion-google-map.php:652 shortcodes/fusion-google-map.php:711
 msgid "Static API"
-msgstr ""
+msgstr "Statické API"
 
 #: shortcodes/fusion-google-map.php:717 shortcodes/fusion-google-map.php:759
 msgid "Address"
@@ -14989,7 +15018,7 @@ msgstr "Zvolte typ Google mapy pro zobrazení."
 
 #: shortcodes/fusion-google-map.php:740 shortcodes/fusion-google-map.php:777
 msgid "Roadmap"
-msgstr "Plány do budoucna"
+msgstr "Silniční mapa"
 
 #: shortcodes/fusion-google-map.php:741 shortcodes/fusion-google-map.php:778
 msgid "Satellite"
@@ -15014,7 +15043,7 @@ msgstr "Terénní"
 
 #: shortcodes/fusion-google-map.php:794
 msgid "Map Dimensions"
-msgstr ""
+msgstr "Rozměry mapy"
 
 #: shortcodes/fusion-google-map.php:795
 msgid ""
@@ -15063,7 +15092,7 @@ msgstr ""
 
 #: shortcodes/fusion-google-map.php:883
 msgid "Address Pin Animation"
-msgstr ""
+msgstr "Animace připínáčku adresy"
 
 #: shortcodes/fusion-google-map.php:884
 msgid "Animate the address pin when the map first loads."
@@ -15109,16 +15138,20 @@ msgid ""
 "Custom styling setting only. Pick any overlaying color for the map besides "
 "pure black or white. Works best with \"roadmap\" type."
 msgstr ""
+"Pouze vlastní nastavení stylu. Vyberte si libovolnou barvu překrytí mapy "
+"kromě čistě černé nebo bílé. Funguje nejlépe s typem \"silniční mapa\"."
 
 #: shortcodes/fusion-google-map.php:977
 msgid "Map Color"
-msgstr ""
+msgstr "Barva mapy"
 
 #: shortcodes/fusion-google-map.php:978
 msgid ""
 "Custom styling setting only. Pick any color for the map besides pure black "
 "or white."
 msgstr ""
+"Pouze vlastní nastavení stylu. Vyberte si libovolnou barvu pro mapu kromě "
+"čistě černé nebo bílé."
 
 #: shortcodes/fusion-google-map.php:996
 msgid "Infobox Content"
@@ -15141,15 +15174,15 @@ msgstr ""
 
 #: shortcodes/fusion-google-map.php:1025
 msgid "Default Infobox"
-msgstr ""
+msgstr "Výchozí Infobox"
 
 #: shortcodes/fusion-google-map.php:1026
 msgid "Custom Infobox"
-msgstr ""
+msgstr "Vlastní Infobox"
 
 #: shortcodes/fusion-google-map.php:1049
 msgid "Info Box Text Color"
-msgstr ""
+msgstr "Barva textu v infoboxu"
 
 #: shortcodes/fusion-google-map.php:1050
 msgid "Custom styling setting only. Pick a color for the info box text."
@@ -15210,7 +15243,7 @@ msgstr ""
 
 #: shortcodes/fusion-gravity-form.php:90
 msgid "Enable Ajax"
-msgstr ""
+msgstr "Povolit Ajax"
 
 #: shortcodes/fusion-gravity-form.php:91
 msgid "Specify whether or not to use Ajax to submit the form."
@@ -15218,19 +15251,19 @@ msgstr ""
 
 #: shortcodes/fusion-highlight.php:163 shortcodes/fusion-title.php:788
 msgid "Highlight"
-msgstr ""
+msgstr "Zvýraznění"
 
 #: shortcodes/fusion-highlight.php:171
 msgid "Highlight Color"
-msgstr ""
+msgstr "Barva zvýraznění"
 
 #: shortcodes/fusion-highlight.php:172
 msgid "Pick a highlight color."
-msgstr ""
+msgstr "Vyberte barvu zvýraznění."
 
 #: shortcodes/fusion-highlight.php:179
 msgid "Highlight Text Color"
-msgstr ""
+msgstr "Barva zvýraznění textu"
 
 #: shortcodes/fusion-highlight.php:180
 msgid ""
@@ -15240,7 +15273,7 @@ msgstr ""
 
 #: shortcodes/fusion-highlight.php:187
 msgid "Highlight With Round Edges"
-msgstr ""
+msgstr "Zvýraznit s kulatými okraji"
 
 #: shortcodes/fusion-highlight.php:188
 msgid "Choose to have rounded edges."
@@ -15257,7 +15290,7 @@ msgstr ""
 #: shortcodes/fusion-image-before-after.php:590
 #: shortcodes/fusion-image-before-after.php:788
 msgid "Effect Type"
-msgstr ""
+msgstr "Typ efektu"
 
 #: shortcodes/fusion-image-before-after.php:591
 msgid ""
@@ -15309,7 +15342,7 @@ msgstr ""
 #: shortcodes/fusion-image-before-after.php:633
 #: shortcodes/fusion-image-before-after.php:949
 msgid "Image Up & Down"
-msgstr ""
+msgstr "Obrázek nahoru a dolů"
 
 #: shortcodes/fusion-image-before-after.php:634
 #: shortcodes/fusion-image-before-after.php:950
@@ -15330,27 +15363,27 @@ msgstr ""
 #: shortcodes/fusion-image-before-after.php:646
 #: shortcodes/fusion-image-before-after.php:1064
 msgid "Circle With Arrows"
-msgstr ""
+msgstr "Kruh se šipkami"
 
 #: shortcodes/fusion-image-before-after.php:647
 #: shortcodes/fusion-image-before-after.php:1065
 msgid "Square With Arrows"
-msgstr ""
+msgstr "Čtverec se šipkami"
 
 #: shortcodes/fusion-image-before-after.php:648
 #: shortcodes/fusion-image-before-after.php:1066
 msgid "Rectangle With Arrows"
-msgstr ""
+msgstr "Obdélník se šipkami"
 
 #: shortcodes/fusion-image-before-after.php:650
 #: shortcodes/fusion-image-before-after.php:1068
 msgid "Diamond"
-msgstr ""
+msgstr "Diamant"
 
 #: shortcodes/fusion-image-before-after.php:651
 #: shortcodes/fusion-image-before-after.php:1069
 msgid "Single Circle"
-msgstr ""
+msgstr "Jeden kruh"
 
 #: shortcodes/fusion-image-before-after.php:656
 #: shortcodes/fusion-image-before-after.php:1081
@@ -15443,7 +15476,7 @@ msgstr ""
 
 #: shortcodes/fusion-image-before-after.php:800
 msgid "Before Image"
-msgstr ""
+msgstr "Před obrázkem"
 
 #: shortcodes/fusion-image-before-after.php:801
 msgid "Upload a before image to display."
@@ -15469,7 +15502,7 @@ msgstr ""
 
 #: shortcodes/fusion-image-before-after.php:834
 msgid "After Image"
-msgstr ""
+msgstr "Za obrázkem"
 
 #: shortcodes/fusion-image-before-after.php:835
 msgid "Upload an after image to display."
@@ -15502,10 +15535,12 @@ msgstr ""
 #: shortcodes/fusion-image-before-after.php:1002
 msgid "Add the URL the item will link to, ex: http://example.com."
 msgstr ""
+"Přidejte adresu URL, na kterou bude položka odkazovat, např.: http://example."
+"com."
 
 #: shortcodes/fusion-image-carousel.php:501
 msgid "Image Carousel"
-msgstr ""
+msgstr "Obrázek rotujícího panelu"
 
 #: shortcodes/fusion-image-carousel.php:515
 msgid "Enter some content for this image carousel."
@@ -15555,7 +15590,7 @@ msgstr ""
 #: shortcodes/fusion-section-separator.php:869
 #: shortcodes/fusion-section-separator.php:870
 msgid "Border"
-msgstr ""
+msgstr "Rámeček"
 
 #: shortcodes/fusion-image-carousel.php:627
 msgid "Choose to enable a border around the images."
@@ -15683,7 +15718,7 @@ msgstr "Zvolte způsob zarovnání obrázku."
 
 #: shortcodes/fusion-image.php:803
 msgid "Gallery ID"
-msgstr ""
+msgstr "ID galerie"
 
 #: shortcodes/fusion-image.php:804
 msgid "Set a name for the lightbox gallery this image should belong to."
@@ -15715,12 +15750,12 @@ msgstr ""
 
 #: shortcodes/fusion-image.php:863
 msgid "_self = open in same window<br />_blank = open in new window."
-msgstr ""
+msgstr "_self = otevřít ve stejném okně<br />_blank = otevřít v novém okně."
 
 #: shortcodes/fusion-layer-slider.php:29
 #: shortcodes/fusion-revolution-slider.php:27
 msgid "Select Slider"
-msgstr ""
+msgstr "Vyberte slider"
 
 #: shortcodes/fusion-layer-slider.php:30
 #: shortcodes/fusion-revolution-slider.php:28
@@ -15737,11 +15772,11 @@ msgstr ""
 
 #: shortcodes/fusion-lightbox.php:123
 msgid "Full Image"
-msgstr ""
+msgstr "Obrázek v plné velikosti"
 
 #: shortcodes/fusion-lightbox.php:137
 msgid "Video URL"
-msgstr ""
+msgstr "URL videa"
 
 #: shortcodes/fusion-lightbox.php:138
 msgid ""
@@ -15759,7 +15794,7 @@ msgstr ""
 
 #: shortcodes/fusion-lightbox.php:158
 msgid "Alt Text"
-msgstr ""
+msgstr "Alternativní text"
 
 #: shortcodes/fusion-lightbox.php:165
 msgid "Lightbox Title"
@@ -15837,7 +15872,7 @@ msgstr ""
 
 #: shortcodes/fusion-modal.php:532
 msgid "Show Footer"
-msgstr ""
+msgstr "Zobrazit zápatí"
 
 #: shortcodes/fusion-modal.php:533
 msgid "Choose to show the modal footer with close button."
@@ -15891,7 +15926,7 @@ msgstr ""
 
 #: shortcodes/fusion-person.php:667 shortcodes/fusion-person.php:821
 msgid "Person"
-msgstr ""
+msgstr "Osoba"
 
 #: shortcodes/fusion-person.php:675
 msgid ""
@@ -15982,19 +16017,19 @@ msgstr ""
 
 #: shortcodes/fusion-person.php:857
 msgid "Picture"
-msgstr ""
+msgstr "Obrázek"
 
 #: shortcodes/fusion-person.php:865
 msgid "Picture ID"
-msgstr ""
+msgstr "ID obrázku"
 
 #: shortcodes/fusion-person.php:866
 msgid "Picture ID from Media Library."
-msgstr ""
+msgstr "ID obrázku z knihovny médií."
 
 #: shortcodes/fusion-person.php:889
 msgid "_self = open in same window.<br />_blank = open in new window."
-msgstr ""
+msgstr "_self = otevřít ve stejném okně.<br />_blank = otevřít v novém okně."
 
 #: shortcodes/fusion-person.php:906
 msgid "Picture Style Type"
@@ -16103,11 +16138,11 @@ msgstr ""
 #: shortcodes/fusion-person.php:1156 shortcodes/fusion-sharingbox.php:930
 #: shortcodes/fusion-social-links.php:567
 msgid "Social Icon Tooltip Position"
-msgstr ""
+msgstr "Pozice rozšířeného popisku sociální ikony"
 
 #: shortcodes/fusion-person.php:1157 shortcodes/fusion-social-links.php:568
 msgid "Choose the display position for tooltips."
-msgstr ""
+msgstr "Zvolte polohu zobrazení pro rozšířené popisky."
 
 #: shortcodes/fusion-person.php:1171 shortcodes/fusion-social-links.php:581
 msgid "Blogger Link"
@@ -16115,7 +16150,7 @@ msgstr "Blogger odkaz"
 
 #: shortcodes/fusion-person.php:1172 shortcodes/fusion-social-links.php:582
 msgid "Insert your custom Blogger link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Blogger."
 
 #: shortcodes/fusion-person.php:1179 shortcodes/fusion-social-links.php:589
 msgid "Deviantart Link"
@@ -16123,15 +16158,15 @@ msgstr "Deviantart odkaz"
 
 #: shortcodes/fusion-person.php:1180 shortcodes/fusion-social-links.php:590
 msgid "Insert your custom Deviantart link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Deviantart."
 
 #: shortcodes/fusion-person.php:1187 shortcodes/fusion-social-links.php:597
 msgid "Discord Link"
-msgstr ""
+msgstr "Odkaz na Discord"
 
 #: shortcodes/fusion-person.php:1188 shortcodes/fusion-social-links.php:598
 msgid "Insert your custom Discord link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Discord."
 
 #: shortcodes/fusion-person.php:1195 shortcodes/fusion-social-links.php:605
 msgid "Digg Link"
@@ -16139,7 +16174,7 @@ msgstr "Digg odkaz"
 
 #: shortcodes/fusion-person.php:1196 shortcodes/fusion-social-links.php:606
 msgid "Insert your custom Digg link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Digg."
 
 #: shortcodes/fusion-person.php:1203 shortcodes/fusion-social-links.php:613
 msgid "Dribbble Link"
@@ -16147,7 +16182,7 @@ msgstr "Dribbble odkaz"
 
 #: shortcodes/fusion-person.php:1204 shortcodes/fusion-social-links.php:614
 msgid "Insert your custom Dribbble link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Dribbble."
 
 #: shortcodes/fusion-person.php:1211 shortcodes/fusion-social-links.php:621
 msgid "Dropbox Link"
@@ -16155,7 +16190,7 @@ msgstr "Dropbox odkaz"
 
 #: shortcodes/fusion-person.php:1212 shortcodes/fusion-social-links.php:622
 msgid "Insert your custom Dropbox link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Dropbox."
 
 #: shortcodes/fusion-person.php:1219 shortcodes/fusion-social-links.php:629
 msgid "Facebook Link"
@@ -16163,7 +16198,7 @@ msgstr "Facebook odkaz"
 
 #: shortcodes/fusion-person.php:1220 shortcodes/fusion-social-links.php:630
 msgid "Insert your custom Facebook link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Facebook."
 
 #: shortcodes/fusion-person.php:1227 shortcodes/fusion-social-links.php:637
 msgid "Flickr Link"
@@ -16171,7 +16206,7 @@ msgstr "Flickr odkaz"
 
 #: shortcodes/fusion-person.php:1228 shortcodes/fusion-social-links.php:638
 msgid "Insert your custom Flickr link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Flickr."
 
 #: shortcodes/fusion-person.php:1235 shortcodes/fusion-social-links.php:645
 msgid "Forrst Link"
@@ -16179,7 +16214,7 @@ msgstr "Forrst odkaz"
 
 #: shortcodes/fusion-person.php:1236 shortcodes/fusion-social-links.php:646
 msgid "Insert your custom Forrst link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Forrst."
 
 #: shortcodes/fusion-person.php:1243 shortcodes/fusion-social-links.php:653
 msgid "Instagram Link"
@@ -16187,7 +16222,7 @@ msgstr "Instagram odkaz"
 
 #: shortcodes/fusion-person.php:1244 shortcodes/fusion-social-links.php:654
 msgid "Insert your custom Instagram link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na na Instagram."
 
 #: shortcodes/fusion-person.php:1251 shortcodes/fusion-social-links.php:661
 msgid "LinkedIn Link"
@@ -16195,15 +16230,15 @@ msgstr "Linkedin odkaz"
 
 #: shortcodes/fusion-person.php:1252 shortcodes/fusion-social-links.php:662
 msgid "Insert your custom LinkedIn link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na LinkedIn."
 
 #: shortcodes/fusion-person.php:1259 shortcodes/fusion-social-links.php:669
 msgid "Mixer Link"
-msgstr ""
+msgstr "Odkaz na Mixer"
 
 #: shortcodes/fusion-person.php:1260 shortcodes/fusion-social-links.php:670
 msgid "Insert your custom Mixer link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Mixer."
 
 #: shortcodes/fusion-person.php:1267 shortcodes/fusion-social-links.php:677
 msgid "Myspace Link"
@@ -16211,7 +16246,7 @@ msgstr "MySpace odkaz"
 
 #: shortcodes/fusion-person.php:1268 shortcodes/fusion-social-links.php:678
 msgid "Insert your custom Myspace link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Myspace."
 
 #: shortcodes/fusion-person.php:1275 shortcodes/fusion-social-links.php:685
 msgid "PayPal Link"
@@ -16219,7 +16254,7 @@ msgstr "PayPal odkaz"
 
 #: shortcodes/fusion-person.php:1276 shortcodes/fusion-social-links.php:686
 msgid "Insert your custom PayPal link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na PayPal."
 
 #: shortcodes/fusion-person.php:1283 shortcodes/fusion-social-links.php:693
 msgid "Pinterest Link"
@@ -16227,7 +16262,7 @@ msgstr "Pinterest odkaz"
 
 #: shortcodes/fusion-person.php:1284 shortcodes/fusion-social-links.php:694
 msgid "Insert your custom Pinterest link."
-msgstr ""
+msgstr "Vložte svůj vlastní odkaz na Pinterest."
 
 #: shortcodes/fusion-person.php:1291 shortcodes/fusion-social-links.php:701
 msgid "Reddit Link"
@@ -16235,7 +16270,7 @@ msgstr "Reddit odkaz"
 
 #: shortcodes/fusion-person.php:1292 shortcodes/fusion-social-links.php:702
 msgid "Insert your custom Reddit link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Reddit."
 
 #: shortcodes/fusion-person.php:1299 shortcodes/fusion-social-links.php:709
 msgid "RSS Link"
@@ -16243,7 +16278,7 @@ msgstr "RSS odkaz"
 
 #: shortcodes/fusion-person.php:1300 shortcodes/fusion-social-links.php:710
 msgid "Insert your custom RSS link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na RSS."
 
 #: shortcodes/fusion-person.php:1307 shortcodes/fusion-social-links.php:717
 msgid "Skype Link"
@@ -16251,7 +16286,7 @@ msgstr "Skype odkaz"
 
 #: shortcodes/fusion-person.php:1308 shortcodes/fusion-social-links.php:718
 msgid "Insert your custom Skype link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Skype."
 
 #: shortcodes/fusion-person.php:1315 shortcodes/fusion-social-links.php:725
 msgid "SoundCloud Link"
@@ -16259,15 +16294,15 @@ msgstr "SoundCloud odkaz"
 
 #: shortcodes/fusion-person.php:1316 shortcodes/fusion-social-links.php:726
 msgid "Insert your custom SoundCloud link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na SoundCloud."
 
 #: shortcodes/fusion-person.php:1323 shortcodes/fusion-social-links.php:733
 msgid "Spotify Link"
-msgstr ""
+msgstr "Odkaz na Spotify"
 
 #: shortcodes/fusion-person.php:1324 shortcodes/fusion-social-links.php:734
 msgid "Insert your custom Spotify link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Spotify."
 
 #: shortcodes/fusion-person.php:1331 shortcodes/fusion-social-links.php:741
 msgid "Tumblr Link"
@@ -16275,15 +16310,15 @@ msgstr "Tumblr odkaz"
 
 #: shortcodes/fusion-person.php:1332 shortcodes/fusion-social-links.php:742
 msgid "Insert your custom Tumblr link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Tumblr."
 
 #: shortcodes/fusion-person.php:1339 shortcodes/fusion-social-links.php:749
 msgid "Twitch Link"
-msgstr ""
+msgstr "Odkaz na Twitch"
 
 #: shortcodes/fusion-person.php:1340 shortcodes/fusion-social-links.php:750
 msgid "Insert your custom Twitch link."
-msgstr ""
+msgstr "Vložte svůj vlastní odkaz na Twitch."
 
 #: shortcodes/fusion-person.php:1347 shortcodes/fusion-social-links.php:757
 msgid "Twitter Link"
@@ -16291,7 +16326,7 @@ msgstr "Twitter odkaz"
 
 #: shortcodes/fusion-person.php:1348 shortcodes/fusion-social-links.php:758
 msgid "Insert your custom Twitter link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Twitter."
 
 #: shortcodes/fusion-person.php:1355 shortcodes/fusion-social-links.php:765
 msgid "Vimeo Link"
@@ -16299,7 +16334,7 @@ msgstr "Vimeo odkaz"
 
 #: shortcodes/fusion-person.php:1356 shortcodes/fusion-social-links.php:766
 msgid "Insert your custom Vimeo link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Vimeo."
 
 #: shortcodes/fusion-person.php:1363 shortcodes/fusion-social-links.php:773
 msgid "VK Link"
@@ -16307,23 +16342,23 @@ msgstr "VK odkaz"
 
 #: shortcodes/fusion-person.php:1364 shortcodes/fusion-social-links.php:774
 msgid "Insert your custom VK link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na VK."
 
 #: shortcodes/fusion-person.php:1371 shortcodes/fusion-social-links.php:781
 msgid "WhatsApp Link"
-msgstr ""
+msgstr "Odkaz na WhatsApp"
 
 #: shortcodes/fusion-person.php:1372 shortcodes/fusion-social-links.php:782
 msgid "Insert your custom WhatsApp link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na WhatsApp."
 
 #: shortcodes/fusion-person.php:1379 shortcodes/fusion-social-links.php:789
 msgid "Xing Link"
-msgstr ""
+msgstr "Odkaz Xing"
 
 #: shortcodes/fusion-person.php:1380 shortcodes/fusion-social-links.php:790
 msgid "Insert your custom Xing link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Xing."
 
 #: shortcodes/fusion-person.php:1387 shortcodes/fusion-social-links.php:797
 msgid "Yahoo Link"
@@ -16331,15 +16366,15 @@ msgstr "Yahoo odkaz"
 
 #: shortcodes/fusion-person.php:1388 shortcodes/fusion-social-links.php:798
 msgid "Insert your custom Yahoo link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na Yahoo."
 
 #: shortcodes/fusion-person.php:1395 shortcodes/fusion-social-links.php:805
 msgid "Yelp Link"
-msgstr ""
+msgstr "Odkaz na Yelp"
 
 #: shortcodes/fusion-person.php:1396 shortcodes/fusion-social-links.php:806
 msgid "Insert your custom Yelp link."
-msgstr ""
+msgstr "Vložte svůj vlastní odkaz na Yelp."
 
 #: shortcodes/fusion-person.php:1403 shortcodes/fusion-social-links.php:813
 msgid "Youtube Link"
@@ -16347,28 +16382,28 @@ msgstr "YouTube odkaz"
 
 #: shortcodes/fusion-person.php:1404 shortcodes/fusion-social-links.php:814
 msgid "Insert your custom Youtube link."
-msgstr ""
+msgstr "Vložte vlastní odkaz na YouTube."
 
 #: shortcodes/fusion-person.php:1412 shortcodes/fusion-social-links.php:822
 msgid "Insert an email address to display the email icon."
-msgstr ""
+msgstr "Vložte e-mailovou adresu pro zobrazení ikony e-mailu."
 
 #: shortcodes/fusion-person.php:1419
 msgid "Show Custom Social Icons"
-msgstr ""
+msgstr "Zobrazit vlastní sociální ikony"
 
 #: shortcodes/fusion-person.php:1420
 msgid "Show the custom social icons specified in Theme Options."
-msgstr ""
+msgstr "Zobrazí vlastní sociální ikony zadané v Možnostech motivu."
 
 #. translators: The network-name.
 #: shortcodes/fusion-person.php:1437 shortcodes/fusion-social-links.php:847
 msgid "%s Link"
-msgstr ""
+msgstr "%s odkaz"
 
 #: shortcodes/fusion-person.php:1438 shortcodes/fusion-social-links.php:848
 msgid "Insert your custom social link."
-msgstr ""
+msgstr "Vložte vlastní sociální odkaz."
 
 #: shortcodes/fusion-popover.php:218 shortcodes/fusion-popover.php:328
 msgid "Popover"
@@ -16465,7 +16500,7 @@ msgstr ""
 
 #: shortcodes/fusion-popover.php:400 shortcodes/fusion-tooltip.php:187
 msgid "Click"
-msgstr ""
+msgstr "Klikněte"
 
 #: shortcodes/fusion-popover.php:407
 msgid ""
@@ -16475,7 +16510,7 @@ msgstr ""
 
 #: shortcodes/fusion-post-slider.php:482
 msgid "Post Slider"
-msgstr ""
+msgstr "Slider příspěvků"
 
 #: shortcodes/fusion-post-slider.php:492
 msgid "Choose a layout style for Post Slider."
@@ -16483,11 +16518,11 @@ msgstr ""
 
 #: shortcodes/fusion-post-slider.php:495
 msgid "Posts with Title"
-msgstr ""
+msgstr "Příspěvky s titulkem"
 
 #: shortcodes/fusion-post-slider.php:496
 msgid "Posts with Title and Excerpt"
-msgstr ""
+msgstr "Příspěvky s titulkem a úryvkem"
 
 #: shortcodes/fusion-post-slider.php:497
 msgid "Attachment Layout, Only Images Attached to Post/Page"
@@ -16511,7 +16546,7 @@ msgstr ""
 
 #: shortcodes/fusion-post-slider.php:560
 msgid "Number of Slides"
-msgstr ""
+msgstr "Počet slidů"
 
 #: shortcodes/fusion-post-slider.php:561
 msgid "Select the number of slides to display."
@@ -16526,7 +16561,7 @@ msgstr ""
 #: shortcodes/fusion-pricing-table.php:563
 #: shortcodes/fusion-pricing-table.php:654
 msgid "Pricing Table"
-msgstr ""
+msgstr "Tabulka s ceníkem"
 
 #: shortcodes/fusion-pricing-table.php:570
 msgid "Pricing Box Style 1 Heading Color"
@@ -16592,15 +16627,15 @@ msgstr ""
 
 #: shortcodes/fusion-pricing-table.php:680 shortcodes/fusion-table.php:153
 msgid "Style 1"
-msgstr ""
+msgstr "Styl 1"
 
 #: shortcodes/fusion-pricing-table.php:681 shortcodes/fusion-table.php:154
 msgid "Style 2"
-msgstr ""
+msgstr "Styl 2"
 
 #: shortcodes/fusion-pricing-table.php:688
 msgid "Set pricing table background color. "
-msgstr ""
+msgstr "Nastavte barvu pozadí tabulky s ceníkem. "
 
 #: shortcodes/fusion-pricing-table.php:695
 msgid "Background Hover Color"
@@ -16701,61 +16736,63 @@ msgstr ""
 
 #: shortcodes/fusion-pricing-table.php:891
 msgid "Time Period"
-msgstr ""
+msgstr "Časové období"
 
 #: shortcodes/fusion-pricing-table.php:892
 msgid "Set the period for the price."
-msgstr ""
+msgstr "Nastavte období pro cenu."
 
 #: shortcodes/fusion-pricing-table.php:901
 msgid "Featured Rows"
-msgstr ""
+msgstr "Hlavní řádky"
 
 #: shortcodes/fusion-pricing-table.php:902
 msgid "Organize and add content to the pricing table."
-msgstr ""
+msgstr "Uspořádejte a přidejte obsah do cenové tabulky."
 
 #: shortcodes/fusion-pricing-table.php:913
 msgid "Footer Content"
-msgstr ""
+msgstr "Obsah zápatí"
 
 #: shortcodes/fusion-pricing-table.php:914
 msgid "Enter some content for column footer."
-msgstr ""
+msgstr "Zadejte nějaký obsah pro zápatí sloupce."
 
 #: shortcodes/fusion-progress.php:284 shortcodes/fusion-progress.php:398
 msgid "Progress Bar"
-msgstr ""
+msgstr "Indikátor průběhu"
 
 #: shortcodes/fusion-progress.php:291 shortcodes/fusion-progress.php:409
 msgid "Progress Bar Height"
-msgstr ""
+msgstr "Výška indikátoru průběhu"
 
 #: shortcodes/fusion-progress.php:292
 msgid "Insert a height for the progress bar."
-msgstr ""
+msgstr "Vložte výšku indikátoru průběhu."
 
 #: shortcodes/fusion-progress.php:299
 msgid "Progress Bar Text Position"
-msgstr ""
+msgstr "Pozice textu indikátoru průběhu"
 
 #: shortcodes/fusion-progress.php:300 shortcodes/fusion-progress.php:419
 msgid ""
 "Select the position of the progress bar text. Choose \"Default\" for theme "
 "option selection."
 msgstr ""
+"Vyberte umístění textu indikátoru průběhu. Pro výběr možnosti motivu zvolte "
+"\"Výchozí\"."
 
 #: shortcodes/fusion-progress.php:306 shortcodes/fusion-progress.php:423
 msgid "On Bar"
-msgstr ""
+msgstr "Na liště"
 
 #: shortcodes/fusion-progress.php:307 shortcodes/fusion-progress.php:424
 msgid "Above Bar"
-msgstr ""
+msgstr "Nad lištou"
 
 #: shortcodes/fusion-progress.php:308 shortcodes/fusion-progress.php:425
 msgid "Below Bar"
-msgstr ""
+msgstr "Pod lištou"
 
 #: shortcodes/fusion-progress.php:312
 msgid "Progress Bar Filled Color"
@@ -16805,7 +16842,7 @@ msgstr ""
 
 #: shortcodes/fusion-progress.php:418
 msgid "Text Position"
-msgstr ""
+msgstr "Pozice textu"
 
 #: shortcodes/fusion-progress.php:431
 msgid "Display Percentage Value"
@@ -16865,7 +16902,7 @@ msgstr ""
 
 #: shortcodes/fusion-recent-posts.php:891
 msgid "Recent Posts"
-msgstr ""
+msgstr "Nejnovější příspěvky"
 
 #: shortcodes/fusion-recent-posts.php:905
 msgid "Thumbnails on Side"
@@ -16889,7 +16926,7 @@ msgstr ""
 
 #: shortcodes/fusion-recent-posts.php:1154
 msgid "Show Meta"
-msgstr ""
+msgstr "Zobrazit meta"
 
 #: shortcodes/fusion-recent-posts.php:1256
 msgid "Select the alignment of contents."
@@ -16901,7 +16938,7 @@ msgstr ""
 
 #: shortcodes/fusion-row.php:41
 msgid "Row"
-msgstr ""
+msgstr "Řádek"
 
 #: shortcodes/fusion-search.php:254
 msgid "Enable Live Search"
@@ -16943,7 +16980,7 @@ msgstr "Položky portfolia"
 
 #: shortcodes/fusion-search.php:286
 msgid "FAQ Items"
-msgstr ""
+msgstr "Položky nejčastějších dotazů"
 
 #: shortcodes/fusion-search.php:287
 msgid "WooCommerce Products"
@@ -16951,15 +16988,15 @@ msgstr "WooCommerce produkty"
 
 #: shortcodes/fusion-search.php:288
 msgid "Events Calendar Posts"
-msgstr ""
+msgstr "Příspěvky kalendáře akcí"
 
 #: shortcodes/fusion-search.php:293
 msgid "Limit Search to Post Titles"
-msgstr ""
+msgstr "Omezit hledání na titulky příspěvků"
 
 #: shortcodes/fusion-search.php:294
 msgid "Turn on to limit the search to post titles only."
-msgstr ""
+msgstr "Zapnutím omezte hledání pouze na titulky příspěvků."
 
 #: shortcodes/fusion-search.php:305
 msgid "Placeholder"
@@ -17135,11 +17172,11 @@ msgstr ""
 
 #: shortcodes/fusion-separator.php:544 shortcodes/fusion-separator.php:564
 msgid "In pixels. "
-msgstr ""
+msgstr "V pixelech. "
 
 #: shortcodes/fusion-separator.php:576
 msgid "Circled Icon"
-msgstr ""
+msgstr "Ikona v kroužku"
 
 #: shortcodes/fusion-separator.php:577
 msgid "Choose to have a circle in separator color around the icon."
@@ -17147,7 +17184,7 @@ msgstr ""
 
 #: shortcodes/fusion-separator.php:618
 msgid "Separator Width"
-msgstr ""
+msgstr "Šířka oddělovače"
 
 #: shortcodes/fusion-separator.php:623
 msgid "In pixels (px or %), ex: 1px, ex: 50%. Leave blank for full width."
@@ -17251,7 +17288,7 @@ msgstr ""
 
 #: shortcodes/fusion-slider.php:403
 msgid "Slider"
-msgstr ""
+msgstr "Slider"
 
 #: shortcodes/fusion-slider.php:417
 msgid "Enter some content for this slider."
@@ -17310,7 +17347,7 @@ msgstr ""
 
 #: shortcodes/fusion-social-links.php:360
 msgid "Social Links Element"
-msgstr ""
+msgstr "Prvek sociálních odkazů"
 
 #: shortcodes/fusion-social-links.php:369
 msgid ""
@@ -17404,17 +17441,19 @@ msgstr ""
 
 #: shortcodes/fusion-soundcloud.php:160
 msgid "Soundcloud"
-msgstr ""
+msgstr "Soundcloud"
 
 #: shortcodes/fusion-soundcloud.php:169
 msgid "SoundCloud Url"
-msgstr ""
+msgstr "SoundCloud URL"
 
 #: shortcodes/fusion-soundcloud.php:170
 msgid ""
 "The SoundCloud url, ex: https://soundcloud.com/dani-pop-shocr-n/miles-davis-"
 "smoke-gets-in-your."
 msgstr ""
+"SoundCloud URL, např.: https://soundcloud.com/dani-pop-shocr-n/miles-davis-"
+"smoke-gets-in-your."
 
 #: shortcodes/fusion-soundcloud.php:177
 msgid "Choose the layout of the soundcloud embed."
@@ -17422,11 +17461,11 @@ msgstr ""
 
 #: shortcodes/fusion-soundcloud.php:181
 msgid "Visual"
-msgstr ""
+msgstr "Vizuální"
 
 #: shortcodes/fusion-soundcloud.php:187
 msgid "Show Comments"
-msgstr ""
+msgstr "Zobrazit komentáře"
 
 #: shortcodes/fusion-soundcloud.php:188
 msgid ""
@@ -17436,7 +17475,7 @@ msgstr ""
 
 #: shortcodes/fusion-soundcloud.php:198
 msgid "Show Related"
-msgstr ""
+msgstr "Zobrazit související"
 
 #: shortcodes/fusion-soundcloud.php:199
 msgid ""
@@ -17446,7 +17485,7 @@ msgstr ""
 
 #: shortcodes/fusion-soundcloud.php:209
 msgid "Show User"
-msgstr ""
+msgstr "Zobrazit uživatele"
 
 #: shortcodes/fusion-soundcloud.php:210
 msgid ""
@@ -17468,7 +17507,7 @@ msgstr ""
 #: shortcodes/fusion-soundcloud.php:239 shortcodes/fusion-vimeo.php:239
 #: shortcodes/fusion-youtube.php:235
 msgid "Dimensions"
-msgstr ""
+msgstr "Rozměry"
 
 #: shortcodes/fusion-soundcloud.php:240
 msgid ""
@@ -17504,7 +17543,7 @@ msgstr ""
 #: shortcodes/fusion-syntax-highlighter.php:386
 #: shortcodes/fusion-syntax-highlighter.php:618
 msgid "Highlighter Theme"
-msgstr ""
+msgstr "Motiv zvýrazňovače"
 
 #: shortcodes/fusion-syntax-highlighter.php:387
 #: shortcodes/fusion-syntax-highlighter.php:619
@@ -17514,7 +17553,7 @@ msgstr ""
 #: shortcodes/fusion-syntax-highlighter.php:395
 #: shortcodes/fusion-syntax-highlighter.php:657
 msgid "Line Numbers"
-msgstr ""
+msgstr "Čísla řádků"
 
 #: shortcodes/fusion-syntax-highlighter.php:396
 #: shortcodes/fusion-syntax-highlighter.php:658
@@ -17544,7 +17583,7 @@ msgstr ""
 #: shortcodes/fusion-syntax-highlighter.php:439
 #: shortcodes/fusion-syntax-highlighter.php:669
 msgid "Line Wrapping"
-msgstr ""
+msgstr "Obtékání řádků"
 
 #: shortcodes/fusion-syntax-highlighter.php:440
 #: shortcodes/fusion-syntax-highlighter.php:670
@@ -17618,7 +17657,7 @@ msgstr ""
 
 #: shortcodes/fusion-syntax-highlighter.php:630
 msgid "bash"
-msgstr ""
+msgstr "bash"
 
 #: shortcodes/fusion-syntax-highlighter.php:631
 msgid "css"
@@ -17626,11 +17665,11 @@ msgstr "css"
 
 #: shortcodes/fusion-syntax-highlighter.php:632
 msgid "conf"
-msgstr ""
+msgstr "conf"
 
 #: shortcodes/fusion-syntax-highlighter.php:633
 msgid "diff"
-msgstr ""
+msgstr "diff"
 
 #: shortcodes/fusion-syntax-highlighter.php:634
 msgid "html"
@@ -17638,7 +17677,7 @@ msgstr "html"
 
 #: shortcodes/fusion-syntax-highlighter.php:635
 msgid "htm"
-msgstr ""
+msgstr "htm"
 
 #: shortcodes/fusion-syntax-highlighter.php:636
 msgid "http"
@@ -17650,11 +17689,11 @@ msgstr "javascript"
 
 #: shortcodes/fusion-syntax-highlighter.php:638
 msgid "json"
-msgstr ""
+msgstr "json"
 
 #: shortcodes/fusion-syntax-highlighter.php:639
 msgid "jsx"
-msgstr ""
+msgstr "jsx"
 
 #: shortcodes/fusion-syntax-highlighter.php:640
 msgid "less"
@@ -17662,7 +17701,7 @@ msgstr "less"
 
 #: shortcodes/fusion-syntax-highlighter.php:641
 msgid "md"
-msgstr ""
+msgstr "md"
 
 #: shortcodes/fusion-syntax-highlighter.php:642
 msgid "patch"
@@ -17670,19 +17709,19 @@ msgstr "patch"
 
 #: shortcodes/fusion-syntax-highlighter.php:643
 msgid "php"
-msgstr ""
+msgstr "php"
 
 #: shortcodes/fusion-syntax-highlighter.php:644
 msgid "phtml"
-msgstr ""
+msgstr "phtml"
 
 #: shortcodes/fusion-syntax-highlighter.php:645
 msgid "sass"
-msgstr ""
+msgstr "sass"
 
 #: shortcodes/fusion-syntax-highlighter.php:646
 msgid "scss"
-msgstr ""
+msgstr "scss"
 
 #: shortcodes/fusion-syntax-highlighter.php:647
 msgid "sql"
@@ -17694,19 +17733,19 @@ msgstr "svg"
 
 #: shortcodes/fusion-syntax-highlighter.php:649
 msgid "txt"
-msgstr ""
+msgstr "txt"
 
 #: shortcodes/fusion-syntax-highlighter.php:650
 msgid "xml"
-msgstr ""
+msgstr "xml"
 
 #: shortcodes/fusion-syntax-highlighter.php:651
 msgid "yaml"
-msgstr ""
+msgstr "yaml"
 
 #: shortcodes/fusion-syntax-highlighter.php:652
 msgid "yml"
-msgstr ""
+msgstr "yml"
 
 #: shortcodes/fusion-syntax-highlighter.php:707
 msgid "Controls the font size of the syntax highlight code. In pixels."
@@ -17827,7 +17866,7 @@ msgstr ""
 
 #: shortcodes/fusion-tabs.php:871
 msgid "Inactive Color"
-msgstr ""
+msgstr "Neaktivní barva"
 
 #: shortcodes/fusion-tabs.php:872
 msgid "Controls the inactive tab color. "
@@ -17865,7 +17904,7 @@ msgstr "Název záložky"
 
 #: shortcodes/fusion-tabs.php:965
 msgid "Title of the tab."
-msgstr ""
+msgstr "Název karty."
 
 #: shortcodes/fusion-tabs.php:979
 msgid "Tab Content"
@@ -17873,7 +17912,7 @@ msgstr "Obsah záložky"
 
 #: shortcodes/fusion-tabs.php:980
 msgid "Add content for the tab."
-msgstr ""
+msgstr "Přidejte obsah pro kartu."
 
 #: shortcodes/fusion-tagline.php:453 shortcodes/fusion-tagline.php:526
 msgid "Tagline Box"
@@ -18060,11 +18099,11 @@ msgstr ""
 
 #: shortcodes/fusion-testimonials.php:801
 msgid "Avatar"
-msgstr ""
+msgstr "Profilový obrázek"
 
 #: shortcodes/fusion-testimonials.php:802
 msgid "Choose which kind of Avatar to be displayed."
-msgstr ""
+msgstr "Zvolte jaký druh profilového obrázku zobrazit."
 
 #: shortcodes/fusion-testimonials.php:806
 msgid "Male"
@@ -18084,7 +18123,7 @@ msgstr "Nahrajte vlastní avatar obrázek."
 
 #: shortcodes/fusion-testimonials.php:833
 msgid "Avatar Image ID"
-msgstr ""
+msgstr "ID profilového obrázku"
 
 #: shortcodes/fusion-testimonials.php:834
 msgid "Avatar Image ID from Media Library."
@@ -18122,7 +18161,7 @@ msgstr ""
 
 #: shortcodes/fusion-text.php:188 shortcodes/fusion-text.php:289
 msgid "Text Block"
-msgstr ""
+msgstr "Textový blok"
 
 #: shortcodes/fusion-text.php:195 shortcodes/fusion-text.php:300
 msgid "Number Of Inline Columns"
@@ -18154,7 +18193,7 @@ msgstr ""
 
 #: shortcodes/fusion-text.php:226 shortcodes/fusion-text.php:338
 msgid "Rule Style"
-msgstr ""
+msgstr "Styl pravidla"
 
 #: shortcodes/fusion-text.php:227 shortcodes/fusion-text.php:339
 msgid ""
@@ -18177,7 +18216,7 @@ msgstr ""
 
 #: shortcodes/fusion-text.php:244 shortcodes/fusion-text.php:362
 msgid "Rule Size"
-msgstr ""
+msgstr "Velikost pravidla"
 
 #: shortcodes/fusion-text.php:245
 msgid ""
@@ -18188,7 +18227,7 @@ msgstr ""
 
 #: shortcodes/fusion-text.php:258 shortcodes/fusion-text.php:384
 msgid "Rule Color"
-msgstr ""
+msgstr "Barva pravidla"
 
 #: shortcodes/fusion-text.php:259 shortcodes/fusion-text.php:385
 msgid "Controls the color of the vertical line between columns."
@@ -18222,59 +18261,59 @@ msgstr ""
 
 #: shortcodes/fusion-title.php:647
 msgid "Title Separator"
-msgstr ""
+msgstr "Oddělovač titulku"
 
 #: shortcodes/fusion-title.php:648
 msgid "Controls the type of title separator that will display."
-msgstr ""
+msgstr "Určuje typ oddělovače titulků, které se zobrazí."
 
 #: shortcodes/fusion-title.php:654 shortcodes/fusion-title.php:1168
 msgid "Single Solid"
-msgstr ""
+msgstr "Jednoduchý plný"
 
 #: shortcodes/fusion-title.php:655 shortcodes/fusion-title.php:1169
 msgid "Single Dashed"
-msgstr ""
+msgstr "Jednoduchý přerušovaný"
 
 #: shortcodes/fusion-title.php:656 shortcodes/fusion-title.php:1170
 msgid "Single Dotted"
-msgstr ""
+msgstr "Jednoduchý tečkovaný"
 
 #: shortcodes/fusion-title.php:657 shortcodes/fusion-title.php:1171
 msgid "Double Solid"
-msgstr ""
+msgstr "Dvojitý plný"
 
 #: shortcodes/fusion-title.php:658 shortcodes/fusion-title.php:1172
 msgid "Double Dashed"
-msgstr ""
+msgstr "Dvojitý přerušovaný"
 
 #: shortcodes/fusion-title.php:659 shortcodes/fusion-title.php:1173
 msgid "Double Dotted"
-msgstr ""
+msgstr "Dvojitý tečkovaný"
 
 #: shortcodes/fusion-title.php:660 shortcodes/fusion-title.php:1174
 msgid "Underline Solid"
-msgstr ""
+msgstr "Podtržení plné"
 
 #: shortcodes/fusion-title.php:661 shortcodes/fusion-title.php:1175
 msgid "Underline Dashed"
-msgstr ""
+msgstr "Podtržení přerušované"
 
 #: shortcodes/fusion-title.php:662 shortcodes/fusion-title.php:1176
 msgid "Underline Dotted"
-msgstr ""
+msgstr "Podtržení tečkované"
 
 #: shortcodes/fusion-title.php:667
 msgid "Title Separator Color"
-msgstr ""
+msgstr "Barva oddělovače titulků"
 
 #: shortcodes/fusion-title.php:668
 msgid "Controls the color of the title separators."
-msgstr ""
+msgstr "Určuje barvu oddělovačů titulků."
 
 #: shortcodes/fusion-title.php:681
 msgid "Title Top/Bottom Margins"
-msgstr ""
+msgstr "Horní/dolní odsazení titulku"
 
 #: shortcodes/fusion-title.php:682
 msgid ""
@@ -18298,23 +18337,23 @@ msgstr ""
 
 #: shortcodes/fusion-title.php:782
 msgid "Title Type"
-msgstr ""
+msgstr "Typ titulku"
 
 #: shortcodes/fusion-title.php:783
 msgid "Choose the title type."
-msgstr ""
+msgstr "Zvolte typ titulku."
 
 #: shortcodes/fusion-title.php:787
 msgid "Rotating"
-msgstr ""
+msgstr "Rotující"
 
 #: shortcodes/fusion-title.php:794
 msgid "Rotation Effect"
-msgstr ""
+msgstr "Efekt rotace"
 
 #: shortcodes/fusion-title.php:795
 msgid "Select the style for rotation text."
-msgstr ""
+msgstr "Vyberte styl pro rotaci textu."
 
 #: shortcodes/fusion-title.php:800
 msgid "Clip"
@@ -18619,19 +18658,19 @@ msgstr ""
 
 #: shortcodes/fusion-toggle.php:577 shortcodes/fusion-toggle.php:822
 msgid "Toggle Icon Size"
-msgstr ""
+msgstr "Přepnout velikost ikony"
 
 #: shortcodes/fusion-toggle.php:589 shortcodes/fusion-toggle.php:833
 msgid "Toggle Icon Color"
-msgstr ""
+msgstr "Přepnout barvu ikony"
 
 #: shortcodes/fusion-toggle.php:590
 msgid "Controls the color of icon in toggle box."
-msgstr ""
+msgstr "Určuje barvu ikony v přepínacím poli."
 
 #: shortcodes/fusion-toggle.php:596 shortcodes/fusion-toggle.php:841
 msgid "Toggle Icon Boxed Mode"
-msgstr ""
+msgstr "Přepnout boxový režim ikony"
 
 #: shortcodes/fusion-toggle.php:597
 msgid "Turn on to display toggle icon in boxed mode."
@@ -18667,7 +18706,7 @@ msgstr ""
 
 #: shortcodes/fusion-toggle.php:712
 msgid "Boxed Mode"
-msgstr ""
+msgstr "Boxový režim"
 
 #: shortcodes/fusion-toggle.php:713
 msgid "Choose to display items in boxed mode."
@@ -18707,7 +18746,7 @@ msgstr ""
 
 #: shortcodes/fusion-toggle.php:797
 msgid "Divider Line"
-msgstr ""
+msgstr "Dělicí čára"
 
 #: shortcodes/fusion-toggle.php:798
 msgid "Choose to display a divider line between each item."
@@ -18733,7 +18772,7 @@ msgstr ""
 
 #: shortcodes/fusion-toggle.php:933
 msgid "Toggle"
-msgstr ""
+msgstr "Přepnout"
 
 #: shortcodes/fusion-toggle.php:943
 msgid "Insert the toggle title."
@@ -18958,11 +18997,11 @@ msgstr ""
 
 #: shortcodes/fusion-user-login.php:1104
 msgid "Controls the color of the form background."
-msgstr ""
+msgstr "Určuje barvu pozadí formuláře."
 
 #: shortcodes/fusion-user-login.php:1147
 msgid "Enter some content for this block"
-msgstr ""
+msgstr "Zadejte nějaký obsah pro tento blok"
 
 #: shortcodes/fusion-user-login.php:1155 shortcodes/fusion-user-login.php:1357
 #: shortcodes/fusion-user-login.php:1521
@@ -19009,7 +19048,7 @@ msgstr ""
 #: shortcodes/fusion-user-login.php:1222 shortcodes/fusion-user-login.php:1412
 #: shortcodes/fusion-user-login.php:1588
 msgid "Show Labels"
-msgstr ""
+msgstr "Zobrazit popisky"
 
 #: shortcodes/fusion-user-login.php:1234 shortcodes/fusion-user-login.php:1424
 #: shortcodes/fusion-user-login.php:1600
@@ -19059,7 +19098,7 @@ msgstr ""
 
 #: shortcodes/fusion-user-login.php:1293
 msgid "Register Link"
-msgstr ""
+msgstr "Registrační odkaz"
 
 #: shortcodes/fusion-user-login.php:1294
 msgid "Add the url the \"Register\" link should open."
@@ -19067,7 +19106,7 @@ msgstr ""
 
 #: shortcodes/fusion-user-login.php:1300
 msgid "Lost Password Link"
-msgstr ""
+msgstr "Odkaz na ztracené heslo"
 
 #: shortcodes/fusion-user-login.php:1301
 msgid "Add the url the \"Lost Password\" link should open."
@@ -19075,7 +19114,7 @@ msgstr ""
 
 #: shortcodes/fusion-user-login.php:1349
 msgid "User Lost Password"
-msgstr ""
+msgstr "Ztracené heslo uživatele"
 
 #: shortcodes/fusion-user-login.php:1513
 msgid "User Register"
@@ -19083,13 +19122,15 @@ msgstr "Registrace uživatele"
 
 #: shortcodes/fusion-user-login.php:1640
 msgid "Registration Notice"
-msgstr ""
+msgstr "Oznámení o registraci"
 
 #: shortcodes/fusion-user-login.php:1641
 msgid ""
 "Choose a notice text that will be displayed before the register button. "
 "Leave empty if no text should be displayed."
 msgstr ""
+"Zvolte text oznámení, který se zobrazí před tlačítkem registrace. Ponechte "
+"prázdné, pokud nemá být zobrazen žádný text."
 
 #: shortcodes/fusion-video.php:298 shortcodes/fusion-video.php:374
 msgid "Video Controls"
@@ -19101,7 +19142,7 @@ msgstr ""
 
 #: shortcodes/fusion-video.php:309 shortcodes/fusion-video.php:386
 msgid "Video Preloading"
-msgstr ""
+msgstr "Předběžné načtení videa"
 
 #: shortcodes/fusion-video.php:310
 msgid ""
@@ -19124,7 +19165,7 @@ msgstr ""
 
 #: shortcodes/fusion-video.php:367
 msgid "Video Max Width"
-msgstr ""
+msgstr "Max šířka videa"
 
 #: shortcodes/fusion-video.php:368
 msgid ""
@@ -19162,7 +19203,7 @@ msgstr ""
 
 #: shortcodes/fusion-video.php:440
 msgid "Overlay Color"
-msgstr ""
+msgstr "Překryvná barva"
 
 #: shortcodes/fusion-video.php:441
 msgid "Controls the overlay color of the video element."
@@ -19203,12 +19244,13 @@ msgstr ""
 
 #: shortcodes/fusion-vimeo.php:260 shortcodes/fusion-youtube.php:256
 msgid "Additional API Parameter"
-msgstr ""
+msgstr "Přídavné API parametry"
 
 #: shortcodes/fusion-vimeo.php:261
 msgid ""
 "Use additional API parameter, for example &rel=0 to disable related videos."
 msgstr ""
+"Použijte přídavný API parametr, např. &rel=0 pro vypnutí souvisejících videí."
 
 #: shortcodes/fusion-widget-area.php:248 shortcodes/fusion-widget-area.php:294
 msgid "Widget Area"
@@ -19216,7 +19258,7 @@ msgstr "Oblast widgetu"
 
 #: shortcodes/fusion-widget-area.php:255 shortcodes/fusion-widget-area.php:313
 msgid "Widget Title Size"
-msgstr ""
+msgstr "Velikost titulku widgetu"
 
 #: shortcodes/fusion-widget-area.php:256
 msgid "Controls the size of widget titles. In pixels."
@@ -19248,7 +19290,7 @@ msgstr ""
 
 #: shortcodes/fusion-widget.php:520
 msgid "Choose widget type."
-msgstr ""
+msgstr "Zvolte typ widgetu."
 
 #: shortcodes/fusion-woo-featured-products-slider.php:427
 msgid "Woo Featured Products Slider"
@@ -19282,7 +19324,7 @@ msgstr ""
 #: shortcodes/fusion-woo-featured-products-slider.php:527
 #: shortcodes/fusion-woo-product-slider.php:591
 msgid "Show Price"
-msgstr ""
+msgstr "Zobrazit cenu"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:528
 #: shortcodes/fusion-woo-product-slider.php:592
@@ -19292,7 +19334,7 @@ msgstr ""
 #: shortcodes/fusion-woo-featured-products-slider.php:538
 #: shortcodes/fusion-woo-product-slider.php:602
 msgid "Show Buttons"
-msgstr ""
+msgstr "Zobrazit tlačítka"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:539
 #: shortcodes/fusion-woo-product-slider.php:603
@@ -19368,10 +19410,12 @@ msgid ""
 "For example the Video ID for https://www.youtube.com/watch?v=569TlvRLn90 is "
 "569TlvRLn90."
 msgstr ""
+"Například ID videa pro https://www.youtube.com/watch?v=569TlvRLn90 je "
+"569TlvRLn90."
 
 #: shortcodes/fusion-youtube.php:236
 msgid "In pixels but only enter a number, ex: 600."
-msgstr ""
+msgstr "V pixelech, ale zadejte pouze číslo, např.: 600."
 
 #: shortcodes/fusion-youtube.php:257
 msgid ""
@@ -19381,7 +19425,7 @@ msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://theme-fusion.com"
-msgstr ""
+msgstr "https://theme-fusion.com"
 
 #. Description of the plugin/theme
 msgid "ThemeFusion Page Builder Plugin"
@@ -19526,42 +19570,42 @@ msgstr "Přidat nový"
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:159
 msgctxt "Avada Icon"
 msgid "Add New Icon Set"
-msgstr ""
+msgstr "Přidat novou sadu ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:160
 msgctxt "Avada Icon"
 msgid "Edit Icon Set"
-msgstr ""
+msgstr "Upravit sadu ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:161
 msgctxt "Avada Icon"
 msgid "New Icon Set"
-msgstr ""
+msgstr "Nová sada ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:162
 msgctxt "Avada Icon"
 msgid "All Icon Sets"
-msgstr ""
+msgstr "Všechny sady ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:163
 msgctxt "Avada Icon"
 msgid "View Icon Set"
-msgstr ""
+msgstr "Zobrazit sadu ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:164
 msgctxt "Avada Icon"
 msgid "Search Icon Sets"
-msgstr ""
+msgstr "Vyhledat sady ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:165
 msgctxt "Avada Icon"
 msgid "No Icon Sets found"
-msgstr ""
+msgstr "Nebyly nalezeny žádné sady ikon"
 
 #: inc/lib/inc/custom-icons/class-fusion-custom-icon-set.php:166
 msgctxt "Avada Icon"
 msgid "No Icon Sets found in Trash"
-msgstr ""
+msgstr "V koši nebyly nalezeny žádné sady ikon"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
 msgctxt "by author"
