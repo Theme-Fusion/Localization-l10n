@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Fusion Core 3.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-core\n"
 "POT-Creation-Date: 2020-04-24 05:38:01+00:00\n"
-"PO-Revision-Date: 2020-05-09 08:32+0200\n"
+"PO-Revision-Date: 2020-05-10 20:23+0200\n"
 "Last-Translator: Miloš Havlíček <miloshavlicek@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -1238,7 +1238,7 @@ msgstr "Počet položek na zobrazení:"
 
 #: includes/widget/class-fusion-widget-social-links.php:53
 msgid "Adds social media icons with custom links."
-msgstr ""
+msgstr "Přidá ikony sociálních médií s vlastními odkazy."
 
 #: includes/widget/class-fusion-widget-social-links.php:59
 msgid "Avada: Social Links"
@@ -1318,7 +1318,7 @@ msgstr "Ukázat vlastní ikony:"
 
 #: includes/widget/class-fusion-widget-social-links.php:600
 msgid "Use Theme Option Links:"
-msgstr ""
+msgstr "Použít odkazy možností motivu"
 
 #. translators: The social-network label.
 #: includes/widget/class-fusion-widget-social-links.php:620
@@ -1497,7 +1497,7 @@ msgstr "Počet tweetů (je možné max. 20 tweetů):"
 
 #: includes/widget/class-fusion-widget-tweets.php:332
 msgid "Icon Color (leave empty for default icon color):"
-msgstr ""
+msgstr "Barva ikony (ponechte prázdné pro výchozí barvu ikony):"
 
 #: includes/widget/class-fusion-widget-tweets.php:337
 msgid "Max. Width (has to be between 180 and 520):"
@@ -1521,7 +1521,7 @@ msgstr "Tmavý"
 
 #: includes/widget/class-fusion-widget-tweets.php:355
 msgid "Link Color (leave empty for Theme default link color):"
-msgstr ""
+msgstr "Barva odkazu (ponechte prázdné pro výchozí barvu odkazu v motivu):"
 
 #: includes/widget/class-fusion-widget-tweets.php:360
 #: includes/widget/class-fusion-widget-vertical-menu.php:362
@@ -1845,11 +1845,11 @@ msgstr ""
 
 #: shortcodes/fusion-faq.php:717
 msgid "FAQ Item Icon Size"
-msgstr ""
+msgstr "Velikost ikony položky nejčastějších otázek"
 
 #: shortcodes/fusion-faq.php:718
 msgid "Set the size of the icon."
-msgstr ""
+msgstr "Nastavit velikost ikony."
 
 #: shortcodes/fusion-faq.php:730
 msgid "FAQ Item Icon Color"
@@ -1893,11 +1893,11 @@ msgstr ""
 
 #: shortcodes/fusion-faq.php:893
 msgid "Display Filters"
-msgstr ""
+msgstr "Filtry zobrazení"
 
 #: shortcodes/fusion-faq.php:894
 msgid "Display the FAQ filters."
-msgstr ""
+msgstr "Filtry zobrazení nejčastějších otázek"
 
 #: shortcodes/fusion-faq.php:897 shortcodes/fusion-faq.php:909
 #: shortcodes/fusion-faq.php:993 shortcodes/fusion-faq.php:1005
@@ -1912,11 +1912,11 @@ msgstr "Výchozí"
 
 #: shortcodes/fusion-faq.php:905
 msgid "Display Featured Images"
-msgstr ""
+msgstr "Zobrazit hlavní obrázky"
 
 #: shortcodes/fusion-faq.php:906
 msgid "Display the FAQ featured images."
-msgstr ""
+msgstr "Zobrazit hlavní obrázky nejčastějších otázek"
 
 #: shortcodes/fusion-faq.php:917 shortcodes/fusion-faq.php:918
 #: shortcodes/fusion-faq.php:932 shortcodes/fusion-portfolio.php:2255
@@ -1926,7 +1926,7 @@ msgstr "Kategorie"
 
 #: shortcodes/fusion-faq.php:919
 msgid "Select categories to include or leave blank for all."
-msgstr ""
+msgstr "Vyberte zahrnuté kategorie nebo ponechte prázdné pro všechny."
 
 #: shortcodes/fusion-faq.php:931 shortcodes/fusion-portfolio.php:2276
 msgid "Exclude Categories"
@@ -1934,7 +1934,7 @@ msgstr "Vyloučit kategorie"
 
 #: shortcodes/fusion-faq.php:933 shortcodes/fusion-portfolio.php:2278
 msgid "Select categories to exclude."
-msgstr ""
+msgstr "Vyberte vyloučené kategorie"
 
 #: shortcodes/fusion-faq.php:946
 msgid "Defines how FAQs should be ordered."
@@ -1966,7 +1966,7 @@ msgstr ""
 
 #: shortcodes/fusion-faq.php:1001
 msgid "Boxed Mode"
-msgstr ""
+msgstr "Boxový režim"
 
 #: shortcodes/fusion-faq.php:1002
 msgid "Choose to display FAQs items in boxed mode."
@@ -2144,7 +2144,7 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1571
 msgid "Number of Portfolio Items Per Page"
-msgstr ""
+msgstr "Počet položek portfolia na stránku"
 
 #: shortcodes/fusion-portfolio.php:1572
 msgid ""
@@ -2178,13 +2178,15 @@ msgstr "Neboxový"
 
 #: shortcodes/fusion-portfolio.php:1597
 msgid "Portfolio Text Display"
-msgstr ""
+msgstr "Zobrazení textu portfolia"
 
 #: shortcodes/fusion-portfolio.php:1598
 msgid ""
 "Choose how to display the post excerpt for portfolio elements. Does not "
 "apply to image rollovers."
 msgstr ""
+"Vyberte jak zobrazit úryvek příspěvku pro prvky portfolia. Nepoužívá se pro "
+"rotující obrázky."
 
 #: shortcodes/fusion-portfolio.php:1604 shortcodes/fusion-portfolio.php:2443
 msgid "Full Content"
@@ -2200,19 +2202,19 @@ msgstr "Délka úryvku"
 
 #: shortcodes/fusion-portfolio.php:1611
 msgid "Controls the number of words in the excerpts for portfolio elements."
-msgstr ""
+msgstr "Určuje počet slov v úryvku pro prvky portfolia."
 
 #: shortcodes/fusion-portfolio.php:1624
 msgid "Strip HTML from Excerpt"
-msgstr ""
+msgstr "Vyjmout HTML z úryvku"
 
 #: shortcodes/fusion-portfolio.php:1625
 msgid "Turn on to strip HTML content from the excerpt for portfolio elements."
-msgstr ""
+msgstr "Zapněte pro vyjmutí HTML obsahu z úryvku v prvcích portfolia."
 
 #: shortcodes/fusion-portfolio.php:1632 shortcodes/fusion-portfolio.php:2139
 msgid "Portfolio Title Display"
-msgstr ""
+msgstr "Zobrazení nadpisu portfolia"
 
 #: shortcodes/fusion-portfolio.php:1633
 msgid ""
@@ -2221,19 +2223,19 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1639 shortcodes/fusion-portfolio.php:2144
 msgid "Title and Categories"
-msgstr ""
+msgstr "Nadpis a kategorie"
 
 #: shortcodes/fusion-portfolio.php:1640 shortcodes/fusion-portfolio.php:2145
 msgid "Only Title"
-msgstr ""
+msgstr "Pouze nadpis"
 
 #: shortcodes/fusion-portfolio.php:1641 shortcodes/fusion-portfolio.php:2146
 msgid "Only Categories"
-msgstr ""
+msgstr "Pouze kategorie"
 
 #: shortcodes/fusion-portfolio.php:1646 shortcodes/fusion-portfolio.php:2165
 msgid "Portfolio Text Alignment"
-msgstr ""
+msgstr "Zarovnání textu portfolia"
 
 #: shortcodes/fusion-portfolio.php:1647
 msgid ""
@@ -2243,7 +2245,7 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1659
 msgid "Portfolio Text Layout Padding"
-msgstr ""
+msgstr "Vnitřní odsazení rozložení textu portfolia"
 
 #: shortcodes/fusion-portfolio.php:1660
 msgid ""
@@ -2363,7 +2365,7 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1897
 msgid "Grid Box Color"
-msgstr ""
+msgstr "Barva boxu mřížky"
 
 #: shortcodes/fusion-portfolio.php:1898
 msgid ""
@@ -2381,11 +2383,11 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1942
 msgid "Grid Separator Style"
-msgstr ""
+msgstr "Styl oddělovače mřížky"
 
 #: shortcodes/fusion-portfolio.php:1943
 msgid "Controls the line style of grid separators."
-msgstr ""
+msgstr "Určuje styl čáry oddělovačů mřížky"
 
 #: shortcodes/fusion-portfolio.php:1947
 msgid "No Style"
@@ -2421,7 +2423,7 @@ msgstr "Stín"
 
 #: shortcodes/fusion-portfolio.php:1982
 msgid "Grid Separator Color"
-msgstr ""
+msgstr "Barva oddělovače mřížky"
 
 #: shortcodes/fusion-portfolio.php:1983
 msgid "Controls the line style color of grid separators."
@@ -2455,7 +2457,7 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:2077
 msgid "Content Position"
-msgstr ""
+msgstr "Pozice obsahu"
 
 #: shortcodes/fusion-portfolio.php:2078
 msgid ""
@@ -2465,11 +2467,11 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:2082
 msgid "Below image"
-msgstr ""
+msgstr "Obrázek pod"
 
 #: shortcodes/fusion-portfolio.php:2083
 msgid "Next to Image"
-msgstr ""
+msgstr "Obrázek nad"
 
 #: shortcodes/fusion-portfolio.php:2100
 msgid "Equal Heights"
@@ -2477,7 +2479,7 @@ msgstr "Stejné výšky"
 
 #: shortcodes/fusion-portfolio.php:2101
 msgid "Set to yes to display grid boxes with equal heights per row."
-msgstr ""
+msgstr "Nastavte na ano pro zobrazení mřížky boxů se shodnou výškou v řádku."
 
 #: shortcodes/fusion-portfolio.php:2123
 msgid "Posts Per Page"
@@ -2556,7 +2558,7 @@ msgstr "Vyloučit štítky"
 
 #: shortcodes/fusion-portfolio.php:2320
 msgid "Select a tag to exclude."
-msgstr ""
+msgstr "Vyberte štítek k vyloučení."
 
 #: shortcodes/fusion-portfolio.php:2340
 msgid "Choose the type of pagination."
@@ -2568,7 +2570,7 @@ msgstr "Nekonečné rolování"
 
 #: shortcodes/fusion-portfolio.php:2360
 msgid "Hide URL Parameter"
-msgstr ""
+msgstr "Skrýt URL parametr"
 
 #: shortcodes/fusion-portfolio.php:2361
 msgid ""
@@ -2598,7 +2600,7 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:2400
 msgid "Portfolio Order"
-msgstr ""
+msgstr "Pořadí portfolia"
 
 #: shortcodes/fusion-portfolio.php:2403
 msgid "Number of Comments"
@@ -2606,7 +2608,7 @@ msgstr "Počet komentářů"
 
 #: shortcodes/fusion-portfolio.php:2416
 msgid "Defines the sorting order of portfolios."
-msgstr ""
+msgstr "Určuje způsob řazení portfolií"
 
 #: shortcodes/fusion-portfolio.php:2438
 msgid "Text Display"
@@ -2622,11 +2624,11 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:2496
 msgid "Strip HTML"
-msgstr "Pruh HTML"
+msgstr "Vyjmout HTML"
 
 #: shortcodes/fusion-portfolio.php:2497
 msgid "Strip HTML from the post excerpt."
-msgstr "HTML pruh z výpisu příspěvku."
+msgstr "Vyjmout HTML z úryvku příspěvku."
 
 #: shortcodes/fusion-portfolio.php:2525
 msgid "Carousel Layout"
