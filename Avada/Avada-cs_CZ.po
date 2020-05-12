@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2020-04-24 05:34:27+00:00\n"
-"PO-Revision-Date: 2020-05-11 22:46+0200\n"
+"PO-Revision-Date: 2020-05-12 12:01+0200\n"
 "Last-Translator: Miloš Havlíček <miloshavlicek@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/"
 "avada/language/cs_CZ/)\n"
@@ -1281,7 +1281,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:466
 msgid "Suhosin Post Max Vars:"
-msgstr "Zobarzit meta data příspěvku"
+msgstr "Suhosin Post Max Vars:"
 
 #: includes/admin-screens/system-status.php:502
 msgid "Suhosin Request Max Vars:"
@@ -1360,7 +1360,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:594
 msgid "WP Remote Post:"
-msgstr "Podobné příspěvky"
+msgstr "Vzdálené WP příspěvky:"
 
 #: includes/admin-screens/system-status.php:608
 msgid "GD Library:"
@@ -3767,9 +3767,9 @@ msgstr[2] ""
 #: includes/class-avada-tgm-plugin-activation.php:375
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
-msgstr[0] "Aktivace pluginu se nezdařila."
-msgstr[1] "Aktivace pluginu se nezdařila."
-msgstr[2] "Aktivace pluginu se nezdařila."
+msgstr[0] "Zahájit aktivaci pluginu"
+msgstr[1] "Zahájit aktivaci pluginů"
+msgstr[2] "Zahájit aktivaci pluginů"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:380
@@ -3900,15 +3900,9 @@ msgstr "Doporučeno"
 #: includes/class-avada-tgm-plugin-activation.php:2449
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-"Probíhá stahování instalačního balíčku z <span class=\"code\">%s</"
-"span>&#8230;"
-msgstr[1] ""
-"Probíhá stahování instalačního balíčku z <span class=\"code\">%s</"
-"span>&#8230;"
-msgstr[2] ""
-"Probíhá stahování instalačního balíčku z <span class=\"code\">%s</"
-"span>&#8230;"
+msgstr[0] "K instalaci <span class=\"count\">(%s)</span>"
+msgstr[1] "K instalaci <span class=\"count\">(%s)</span>"
+msgstr[2] "K instalaci <span class=\"count\">(%s)</span>"
 
 #. translators: 1: number of plugins.
 #: includes/class-avada-tgm-plugin-activation.php:2453
@@ -5308,7 +5302,7 @@ msgstr "Odkaz a zvětšení"
 #: includes/metaboxes/tabs/tab_portfolio_post.php:185
 #: includes/metaboxes/tabs/tab_post.php:110 includes/options/extra.php:551
 msgid "Link"
-msgstr "Slide - nastavení odkazu:"
+msgstr "Odkaz"
 
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:411
@@ -7129,9 +7123,7 @@ msgstr "Nic nenalezeno"
 #: includes/lib/inc/fusion-app/templates/options/export.php:18
 #: includes/lib/inc/fusion-app/templates/options/import.php:17
 msgid "Code"
-msgstr ""
-"Probíhá stahování instalačního balíčku z <span class=\"code\">%s</"
-"span>&#8230;"
+msgstr "Kód"
 
 #: includes/lib/inc/fusion-app/templates/options/export.php:19
 #: includes/lib/inc/fusion-app/templates/options/import.php:18
@@ -9187,7 +9179,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:73
 msgid "Video Aspect Ratio"
-msgstr "Nastavení videa:"
+msgstr "Nastavení poměru videa"
 
 #: includes/metaboxes/options/options_slide.php:74
 msgid ""
@@ -10328,7 +10320,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_sidebars.php:197
 msgid "Select Sidebar 1"
-msgstr "Zvolte sidebar 1:"
+msgstr "Zvolit postranní panel 1"
 
 #: includes/metaboxes/tabs/tab_sidebars.php:198
 msgid ""
@@ -18672,7 +18664,7 @@ msgstr "V koši nebyly nalezeny žádné sady ikon"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
 msgctxt "by author"
 msgid "by %s"
-msgstr "Položka(ky)"
+msgstr "by %s"
 
 #: includes/wc-functions.php:76
 msgctxt "breadcrumb"
