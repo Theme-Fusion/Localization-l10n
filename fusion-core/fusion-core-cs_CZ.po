@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Fusion Core 3.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-core\n"
 "POT-Creation-Date: 2020-04-24 05:38:01+00:00\n"
-"PO-Revision-Date: 2020-05-12 10:40+0200\n"
+"PO-Revision-Date: 2020-05-12 11:53+0200\n"
 "Last-Translator: Miloš Havlíček <miloshavlicek@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -24,38 +24,38 @@ msgstr "Fusion Slider"
 #: fusion-slider/class-fusion-slider.php:72
 #: includes/class-fusioncore-plugin.php:534
 msgid "Parent Slide:"
-msgstr "Nadřazený slide:"
+msgstr "Nadřazený snímek:"
 
 #: fusion-slider/class-fusion-slider.php:73
 #: includes/class-fusioncore-plugin.php:535
 msgid "Add or Edit Slides"
-msgstr "Přidat nebo upravit slidy"
+msgstr "Přidat nebo upravit snímky"
 
 #: fusion-slider/class-fusion-slider.php:74
 msgid "View Slide"
-msgstr "Zobrazit slide"
+msgstr "Zobrazit snímek"
 
 #: fusion-slider/class-fusion-slider.php:75
 #: fusion-slider/class-fusion-slider.php:76
 #: includes/class-fusioncore-plugin.php:537
 #: includes/class-fusioncore-plugin.php:538
 msgid "Add New Slide"
-msgstr "Přidat nový slide"
+msgstr "Přidat nový snímek"
 
 #: fusion-slider/class-fusion-slider.php:77
 #: includes/class-fusioncore-plugin.php:539
 msgid "Edit Slide"
-msgstr "Upravit slide"
+msgstr "Upravit snímek"
 
 #: fusion-slider/class-fusion-slider.php:78
 #: includes/class-fusioncore-plugin.php:540
 msgid "Update Slide"
-msgstr "Aktualizovat slide"
+msgstr "Aktualizovat snímek"
 
 #: fusion-slider/class-fusion-slider.php:79
 #: includes/class-fusioncore-plugin.php:541
 msgid "Search Slide"
-msgstr "Vyhledat slide"
+msgstr "Vyhledat snímek"
 
 #: fusion-slider/class-fusion-slider.php:80
 #: includes/class-fusioncore-plugin.php:542
@@ -70,31 +70,31 @@ msgstr "V koši nebylo nic nalezeno"
 #: fusion-slider/class-fusion-slider.php:82
 #: includes/class-fusioncore-plugin.php:544
 msgid "Slide published."
-msgstr "Slide publikován."
+msgstr "Snímek publikován."
 
 #: fusion-slider/class-fusion-slider.php:83
 #: includes/class-fusioncore-plugin.php:545
 msgid "Slide published privately."
-msgstr "Slide publikován soukromě."
+msgstr "Snímek publikován soukromě."
 
 #: fusion-slider/class-fusion-slider.php:84
 #: includes/class-fusioncore-plugin.php:546
 msgid "Slide reverted to draft."
-msgstr "Slide se vrátil do konceptu."
+msgstr "Snímek vrácen do konceptu."
 
 #: fusion-slider/class-fusion-slider.php:85
 #: includes/class-fusioncore-plugin.php:547
 msgid "Slide scheduled."
-msgstr "Slide naplánován."
+msgstr "Snímek naplánován."
 
 #: fusion-slider/class-fusion-slider.php:86
 #: includes/class-fusioncore-plugin.php:548
 msgid "Slide updated."
-msgstr "Slide byl aktualizován."
+msgstr "Snímek aktualizován."
 
 #: fusion-slider/class-fusion-slider.php:104
 msgid "Fusion Sliders"
-msgstr "Fusion slidery"
+msgstr "Fusion Slidery"
 
 #: fusion-slider/class-fusion-slider.php:106
 msgid "Add or Edit Sliders"
@@ -156,7 +156,7 @@ msgstr "Žádný soubor k importu."
 #: fusion-slider/class-fusion-slider.php:745
 #: fusion-slider/templates/clone-button-after-title.php:19
 msgid "Clone this slide"
-msgstr "Klonovat tento slide"
+msgstr "Klonovat tento snímek"
 
 #: fusion-slider/class-fusion-slider.php:745
 #: fusion-slider/class-fusion-slider.php:766
@@ -178,7 +178,7 @@ msgstr "%s ( Klonované )"
 
 #: fusion-slider/class-fusion-slider.php:887
 msgid "No slide to clone."
-msgstr "Žádný slide ke klonování."
+msgstr "Žádný snímek ke klonování."
 
 #. translators: The ID found.
 #: fusion-slider/class-fusion-slider.php:907
@@ -257,15 +257,15 @@ msgstr "Indikátor skrolování dolů"
 #: fusion-slider/templates/add-new-meta-fields.php:41
 #: fusion-slider/templates/edit-meta-fields.php:47
 msgid "Pagination Circles"
-msgstr "Kruhy stránkování"
+msgstr "Kolečka stránkování"
 
 #: fusion-slider/templates/add-new-meta-fields.php:43
 #: fusion-slider/templates/edit-meta-fields.php:49
 msgid ""
 "Choose do you want to display pagination circler or scroll down indicator."
 msgstr ""
-"Zvolte, zda chcete zobrazit stránkovací kruh nebo indikátor pro skrolování "
-"dolů."
+"Zvolte, zda chcete zobrazit stránkovací kolečka nebo indikátor pro "
+"skrolování dolů."
 
 #: fusion-slider/templates/add-new-meta-fields.php:46
 #: fusion-slider/templates/edit-meta-fields.php:53
@@ -283,8 +283,7 @@ msgstr "Výchozí: %s"
 #: fusion-slider/templates/edit-meta-fields.php:59
 msgid ""
 "Select a color for the slider indicator icon. Hex color code, ex: #fff. %s"
-msgstr ""
-"Vyberte barvu ikony indikátoru slideru. Hex barevný kód, např.: #fff. %s"
+msgstr "Vyberte barvu ikony indikátoru slideru. Hex kód barvy, např.: #fff. %s"
 
 #: fusion-slider/templates/add-new-meta-fields.php:56
 #: fusion-slider/templates/edit-meta-fields.php:63
@@ -337,17 +336,17 @@ msgstr "Zadejte hodnotu pixelu pro velikost šipky, např.: 14px"
 #: fusion-slider/templates/add-new-meta-fields.php:85
 #: fusion-slider/templates/edit-meta-fields.php:100
 msgid "Autoplay"
-msgstr "Automatické přehrání"
+msgstr "Automatické přehrávání"
 
 #: fusion-slider/templates/add-new-meta-fields.php:88
 #: fusion-slider/templates/edit-meta-fields.php:104
 msgid "Check this box to autoplay the slides."
-msgstr "Zaškrtněte pro automatické přehrávání slidů."
+msgstr "Zaškrtněte pro automatické přehrávání snímků."
 
 #: fusion-slider/templates/add-new-meta-fields.php:91
 #: fusion-slider/templates/edit-meta-fields.php:108
 msgid "Slide Loop"
-msgstr "Smyčka slidů"
+msgstr "Smyčka snímků"
 
 #: fusion-slider/templates/add-new-meta-fields.php:94
 #: fusion-slider/templates/edit-meta-fields.php:112
@@ -390,7 +389,7 @@ msgstr "Náhodně"
 #: fusion-slider/templates/add-new-meta-fields.php:105
 #: fusion-slider/templates/edit-meta-fields.php:125
 msgid "Defines how the slides should be ordered."
-msgstr "Definuje způsob řazení slidů."
+msgstr "Definuje způsob řazení snímků."
 
 #: fusion-slider/templates/add-new-meta-fields.php:108
 #: fusion-slider/templates/edit-meta-fields.php:129
@@ -413,7 +412,7 @@ msgstr "Vzestupně"
 #: fusion-slider/templates/add-new-meta-fields.php:113
 #: fusion-slider/templates/edit-meta-fields.php:135
 msgid "Defines the sorting order of the slides."
-msgstr "Definuje pořadí řazení slidů."
+msgstr "Definuje pořadí řazení snímků."
 
 #: fusion-slider/templates/add-new-meta-fields.php:116
 #: fusion-slider/templates/edit-meta-fields.php:139
@@ -424,7 +423,8 @@ msgstr "Animace"
 msgid ""
 "The type of animation when slides rotate.<br/>Please Note: Fade effect does "
 "not work in IE."
-msgstr "Typ animace při rotaci slidů.<br/>Poznámka: Fade efekt nefunguje v IE."
+msgstr ""
+"Typ animace při rotaci snímků.<br/>Poznámka: Fade efekt nefunguje v IE."
 
 #: fusion-slider/templates/add-new-meta-fields.php:124
 #: fusion-slider/templates/edit-meta-fields.php:153
@@ -434,7 +434,7 @@ msgstr "Rychlost prezentace"
 #: fusion-slider/templates/add-new-meta-fields.php:126
 #: fusion-slider/templates/edit-meta-fields.php:156
 msgid "Controls the speed of the slideshow. 1000 = 1 second."
-msgstr "Ovládá rychlost prezentace. 1000 = 1 sekunda."
+msgstr "Ovládá rychlost prezentace. 1000 = 1 vteřina."
 
 #: fusion-slider/templates/add-new-meta-fields.php:129
 #: fusion-slider/templates/edit-meta-fields.php:160
@@ -446,7 +446,7 @@ msgstr "Rychlost animace"
 msgid ""
 "Controls the speed of the slide transition from slide to slide. 1000 = 1 "
 "second."
-msgstr "Ovládá rychlost přechodu ze snímku na snímek. 1000 = 1 sekunda."
+msgstr "Určuje rychlost přechodu ze snímku na snímek. 1000 = 1 vteřina."
 
 #: fusion-slider/templates/add-new-meta-fields.php:134
 #: fusion-slider/templates/edit-meta-fields.php:167
@@ -518,7 +518,7 @@ msgstr ""
 
 #: fusion-slider/templates/edit-meta-fields.php:146
 msgid "The type of animation when slides rotate."
-msgstr "Typ animace při rotaci slidů."
+msgstr "Typ animace při rotaci snímků."
 
 #: fusion-slider/templates/edit-meta-fields.php:148
 msgid "Please Note: Fade effect does not work in IE."
@@ -566,7 +566,7 @@ msgstr ""
 
 #: includes/bootstrap.php:142 includes/bootstrap.php:143
 msgid "Fusion Patcher"
-msgstr "Fusion Patcher"
+msgstr "Fusion Záplatovač"
 
 #: includes/bootstrap.php:182
 msgid "Image"
@@ -593,8 +593,8 @@ msgid ""
 "Please check if you've filled all the fields with valid information and that "
 "the data privacy terms confirmation box is checked. Thank you."
 msgstr ""
-"Zkontrolujte, zda jste vyplnili všechna pole platnými informacemi a že je "
-"zaškrtnut box se zásadami ochrany osobních údajů. Děkujeme."
+"Zkontrolujte, zda jste vyplnili všechna pole platnými informacemi a zda je "
+"zaškrtnuto pole se zásadami ochrany osobních údajů. Děkujeme."
 
 #: includes/class-fusion-contact.php:273 includes/class-fusion-contact.php:562
 msgid "Name (required)"
@@ -602,7 +602,7 @@ msgstr "Jméno (vyžadováno)"
 
 #: includes/class-fusion-contact.php:302 includes/class-fusion-contact.php:563
 msgid "Email (required)"
-msgstr "Emailová adresa (vyžadováno)"
+msgstr "Emailová adresa (vyžadována)"
 
 #: includes/class-fusion-contact.php:324 includes/class-fusion-contact.php:557
 #: includes/class-fusion-contact.php:569
@@ -695,7 +695,7 @@ msgstr "Portfolio zveřejněno soukromě."
 
 #: includes/class-fusioncore-plugin.php:414
 msgid "Portfolio reverted to draft."
-msgstr "Portfolio se vrátilo do konceptu."
+msgstr "Portfolio vráceno do konceptu."
 
 #: includes/class-fusioncore-plugin.php:415
 msgid "Portfolio scheduled."
@@ -723,43 +723,43 @@ msgstr "Značky portfolia"
 
 #: includes/class-fusioncore-plugin.php:484
 msgid "Add New FAQ Post"
-msgstr "Přidat nový FAQ příspěvek"
+msgstr "Přidat novou Častou otázku"
 
 #: includes/class-fusioncore-plugin.php:485
 msgid "Edit FAQ Post"
-msgstr "Upravit FAQ příspěvek"
+msgstr "Upravit Častou otázku"
 
 #: includes/class-fusioncore-plugin.php:486
 msgid "FAQ published."
-msgstr "Dotaz publikován."
+msgstr "Častá otázka publikována."
 
 #: includes/class-fusioncore-plugin.php:487
 msgid "FAQ published privately."
-msgstr "Nejčastější dotazy publikované soukromě."
+msgstr "Častá otázka publikována soukromě."
 
 #: includes/class-fusioncore-plugin.php:488
 msgid "FAQ reverted to draft."
-msgstr "Nejčastější dotaz se vrátily do konceptu."
+msgstr "Častá otázka vrácena do konceptu."
 
 #: includes/class-fusioncore-plugin.php:489
 msgid "FAQ scheduled."
-msgstr "Častý dotaz je naplánován."
+msgstr "Častá otázka naplánována."
 
 #: includes/class-fusioncore-plugin.php:490
 msgid "FAQ updated."
-msgstr "Dotaz aktualizován."
+msgstr "Častá otázka aktualizována."
 
 #: includes/class-fusioncore-plugin.php:508
 msgid "FAQ Categories"
-msgstr "Kategorie často kladených dotazů"
+msgstr "Kategorie Častých otázek"
 
 #: includes/class-fusioncore-plugin.php:533
 msgid "Elastic Slider"
-msgstr "Elastic Slider"
+msgstr "Elastický Slider"
 
 #: includes/class-fusioncore-plugin.php:536
 msgid "View Slides"
-msgstr "Zobrazit slidy"
+msgstr "Zobrazit snímky"
 
 #: includes/class-fusioncore-plugin.php:563
 msgid "Add or Edit Groups"
@@ -813,7 +813,7 @@ msgstr "ThemeFusion Novinky"
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:31
 msgid "Add 125x125 ads."
-msgstr "Přidejte 125x125 reklamu."
+msgstr "Přidat 125x125 reklamy."
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:37
 msgid "Avada: 125x125 Ads"
@@ -839,7 +839,7 @@ msgstr "Odkaz grafické reklamy:"
 #: includes/widget/class-fusion-widget-ad-125-125.php:191
 #: includes/widget/class-fusion-widget-ad-125-125.php:210
 msgid "Ad Link:"
-msgstr "Odkaz na reklamu:"
+msgstr "Odkaz reklamy:"
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:157
 #: includes/widget/class-fusion-widget-ad-125-125.php:176
@@ -871,7 +871,7 @@ msgstr "Vyvýšit"
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:222
 msgid "General Options"
-msgstr "Hlavní nastavení"
+msgstr "Hlavní možnosti"
 
 #: includes/widget/class-fusion-widget-ad-125-125.php:224
 #: includes/widget/class-fusion-widget-social-links.php:535
@@ -1075,7 +1075,7 @@ msgstr "URL webových stránek:"
 
 #: includes/widget/class-fusion-widget-facebook-page.php:31
 msgid "Adds support for Facebook Page Plugin."
-msgstr "Přidává podporu pro plugin Facebook Stránky."
+msgstr "Přidává podporu pro plugin Facebook Stránka."
 
 #: includes/widget/class-fusion-widget-facebook-page.php:37
 msgid "Avada: Facebook Page Plugin"
@@ -1225,7 +1225,7 @@ msgstr "Vpravo"
 
 #: includes/widget/class-fusion-widget-menu.php:193
 msgid "Menu Padding:"
-msgstr "Menu Padding:"
+msgstr "Vnitřní odsazení menu:"
 
 #: includes/widget/class-fusion-widget-menu.php:197
 msgid "Menu Link Color:"
@@ -1233,7 +1233,7 @@ msgstr "Barva odkazu v menu:"
 
 #: includes/widget/class-fusion-widget-menu.php:201
 msgid "Menu Link Hover Color:"
-msgstr "Barva odkazu po najetí:"
+msgstr "Barva odkazu menu po najetí:"
 
 #: includes/widget/class-fusion-widget-menu.php:205
 msgid "Separator Text:"
@@ -1258,7 +1258,7 @@ msgstr "Nejnovější práce"
 
 #: includes/widget/class-fusion-widget-recent-works.php:143
 msgid "Number of items to show:"
-msgstr "Počet položek na zobrazení:"
+msgstr "Počet položek k zobrazení:"
 
 #: includes/widget/class-fusion-widget-social-links.php:53
 msgid "Adds social media icons with custom links."
@@ -1274,7 +1274,7 @@ msgstr "E-mailová adresa"
 
 #: includes/widget/class-fusion-widget-social-links.php:476
 msgid "Get Social"
-msgstr "Získat sociální"
+msgstr "Buďte sociální"
 
 #: includes/widget/class-fusion-widget-social-links.php:540
 msgid "Icons Font Size:"
@@ -1298,7 +1298,7 @@ msgstr "Hex kód barvy ikon:"
 
 #: includes/widget/class-fusion-widget-social-links.php:558
 msgid "Icons Boxed:"
-msgstr "Ikony boxové:"
+msgstr "Ikony rámečkové:"
 
 #: includes/widget/class-fusion-widget-social-links.php:561
 #: includes/widget/class-fusion-widget-social-links.php:595
@@ -1314,15 +1314,15 @@ msgstr "Ano"
 
 #: includes/widget/class-fusion-widget-social-links.php:566
 msgid "Boxed Icons Background Color Hex Code:"
-msgstr "Boxové ikony Hex kód barvy pozadí:"
+msgstr "Hex kód barvy pozadí rámečkových ikon:"
 
 #: includes/widget/class-fusion-widget-social-links.php:571
 msgid "Boxed Icons Radius:"
-msgstr "Radius boxových ikon:"
+msgstr "Radius rámečkových ikon:"
 
 #: includes/widget/class-fusion-widget-social-links.php:576
 msgid "Boxed Icons Padding:"
-msgstr "Vnitřní odsazení boxových ikon:"
+msgstr "Vnitřní odsazení rámečkových ikon:"
 
 #: includes/widget/class-fusion-widget-social-links.php:581
 msgid "Tooltip Position:"
@@ -1347,7 +1347,7 @@ msgstr "Použít odkazy možností motivu:"
 #. translators: The social-network label.
 #: includes/widget/class-fusion-widget-social-links.php:620
 msgid "%s Link:"
-msgstr "%s Odkaz:"
+msgstr "Odkaz %s:"
 
 #: includes/widget/class-fusion-widget-tabs.php:41
 msgid "Popular posts, recent post and comments."
@@ -1390,7 +1390,7 @@ msgstr "Žádné komentáře ještě nebyly zveřejněny."
 
 #: includes/widget/class-fusion-widget-tabs.php:337
 msgid "Tabs Design:"
-msgstr "Návrh karet:"
+msgstr "Vzhled karet:"
 
 #: includes/widget/class-fusion-widget-tabs.php:339
 msgid "Classic"
@@ -1402,7 +1402,7 @@ msgstr "Čistý"
 
 #: includes/widget/class-fusion-widget-tabs.php:344
 msgid "Post Design:"
-msgstr "Design příspěvku:"
+msgstr "Vzhled příspěvku:"
 
 #: includes/widget/class-fusion-widget-tabs.php:346
 msgid "Featured Image / Avatar Default Shape"
@@ -1422,7 +1422,7 @@ msgstr "Oblíbené příspěvky seřadit podle:"
 
 #: includes/widget/class-fusion-widget-tabs.php:355
 msgid "Highest Comments"
-msgstr "Nejvyšší Komentáře"
+msgstr "Nejvyšší komentáře"
 
 #: includes/widget/class-fusion-widget-tabs.php:356
 msgid "Highest Views"
@@ -1483,7 +1483,7 @@ msgstr "Styl widgetu:"
 
 #: includes/widget/class-fusion-widget-tweets.php:290
 msgid "Twitter Preconfigured Style (deprecated)"
-msgstr "Twitter předkonfigurovaný styl (zastaralé)"
+msgstr "Twitter přednastavený styl (zastaralé)"
 
 #: includes/widget/class-fusion-widget-tweets.php:291
 msgid "Twitter Style"
@@ -1491,7 +1491,7 @@ msgstr "Twitter styl"
 
 #: includes/widget/class-fusion-widget-tweets.php:292
 msgid "Avada Style"
-msgstr "Avada Styl"
+msgstr "Avada styl"
 
 #: includes/widget/class-fusion-widget-tweets.php:297
 msgid "Twitter Username:"
@@ -1519,7 +1519,7 @@ msgstr "Tajný přístupový token:"
 
 #: includes/widget/class-fusion-widget-tweets.php:327
 msgid "Number of Tweet (max. 20 tweets possible):"
-msgstr "Počet tweetů (je možné max. 20 tweetů):"
+msgstr "Počet tweetů (max. je možné 20 tweetů):"
 
 #: includes/widget/class-fusion-widget-tweets.php:332
 msgid "Icon Color (leave empty for default icon color):"
@@ -1531,7 +1531,7 @@ msgstr "Max šířka (musí být mezi 180 a 500):"
 
 #: includes/widget/class-fusion-widget-tweets.php:342
 msgid "Height (min. is 200):"
-msgstr "Výška (min. 200):"
+msgstr "Výška (min. je 200):"
 
 #: includes/widget/class-fusion-widget-tweets.php:347
 msgid "Color Scheme:"
@@ -1552,7 +1552,7 @@ msgstr "Barva odkazu (ponechte prázdné pro výchozí barvu odkazu v motivu):"
 #: includes/widget/class-fusion-widget-tweets.php:360
 #: includes/widget/class-fusion-widget-vertical-menu.php:362
 msgid "Border Color:"
-msgstr "Barva rámečku:"
+msgstr "Barva ohraničení:"
 
 #: includes/widget/class-fusion-widget-tweets.php:366
 msgid "Show Header"
@@ -1581,7 +1581,7 @@ msgstr "Tweety od %s"
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:31
 msgid "This widget replaces the Side Navigation Template."
-msgstr "Tento widget nahrazuje Šablonu postranní navigace."
+msgstr "Tento widget nahrazuje šablonu postranní navigace."
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:36
 msgid "Avada: Vertical Menu"
@@ -1601,7 +1601,7 @@ msgstr "Zpět na domovskou stránku"
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:307
 msgid "Menu Type:"
-msgstr "Typ nabídky:"
+msgstr "Typ menu:"
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:309
 msgid "Custom Menu"
@@ -1609,7 +1609,7 @@ msgstr "Vlastní menu"
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:310
 msgid "Vertical Menu"
-msgstr "Vertikální menu"
+msgstr "Svislé menu"
 
 #: includes/widget/class-fusion-widget-vertical-menu.php:312
 msgid ""
@@ -1698,7 +1698,7 @@ msgstr "Zapněte, pokud chcete zobrazit výchozí nadpis."
 #: shortcodes/components/project-details.php:359
 #: shortcodes/components/project-details.php:378
 msgid "Design"
-msgstr "Design"
+msgstr "Vzhled"
 
 #: shortcodes/components/project-details.php:333
 msgid "HTML Heading Size"
@@ -1778,11 +1778,11 @@ msgstr "Větší obrázek"
 
 #: shortcodes/fusion-faq.php:609 shortcodes/fusion-faq.php:884
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Časté otázky"
 
 #: shortcodes/fusion-faq.php:616
 msgid "FAQ Featured Images"
-msgstr "Hlavní obrázky FAQ"
+msgstr "Hlavní obrázky Častých otázek"
 
 #: shortcodes/fusion-faq.php:617
 msgid "Turn on to display featured images."
@@ -1790,11 +1790,11 @@ msgstr "Zapněte pro zobrazení hlavních obrázků."
 
 #: shortcodes/fusion-faq.php:625
 msgid "FAQ Filters"
-msgstr "Filtry nejčastějších dotazů"
+msgstr "Filtry Častých otázek"
 
 #: shortcodes/fusion-faq.php:626
 msgid "Controls how the filters display for FAQs."
-msgstr "Určuje způsob zobrazení filtrů pro FAQ."
+msgstr "Určuje způsob zobrazení filtrů pro Časté otázky."
 
 #: shortcodes/fusion-faq.php:632 shortcodes/fusion-faq.php:899
 msgid "Show without \"All\""
@@ -1802,7 +1802,7 @@ msgstr "Zobrazit bez \"Vše\""
 
 #: shortcodes/fusion-faq.php:639
 msgid "FAQs in Toggles or Accordions"
-msgstr "FAQ v přepínačích nebo v rozevíracích seznamech"
+msgstr "Časté otázky v přepínačích nebo v rozevíracích seznamech"
 
 #: shortcodes/fusion-faq.php:640 shortcodes/fusion-faq.php:990
 msgid ""
@@ -1818,39 +1818,39 @@ msgstr "Přepínače"
 
 #: shortcodes/fusion-faq.php:646 shortcodes/fusion-faq.php:995
 msgid "Accordions"
-msgstr "Rozevírací seznam"
+msgstr "Harmoniky"
 
 #: shortcodes/fusion-faq.php:651
 msgid "FAQ Items in Boxed Mode"
-msgstr "Položky nejčastějších dotazů v boxovém režimu"
+msgstr "Položky častých otázek v rámečkovém režimu"
 
 #: shortcodes/fusion-faq.php:652
 msgid ""
 "Turn on to display items in boxed mode. FAQ Item divider line must be "
 "disabled for this option to work."
 msgstr ""
-"Zapněte pro zobrazení položek v boxovém režimu. Oddělovač položek častých "
+"Zapněte pro zobrazení položek v rámekovém režimu. Oddělovač položek častých "
 "otázek musí být vypnut, aby tato možnost fungovala."
 
 #: shortcodes/fusion-faq.php:659
 msgid "FAQ Item Boxed Mode Border Width"
-msgstr "Šířka rámečku boxového módu Častých otázek"
+msgstr "Šířka ohraničení rámečkového módu Častých otázek"
 
 #: shortcodes/fusion-faq.php:660
 msgid "Controls the border size of the FAQ item."
-msgstr "Ovládá velikost ohraničení Časté otázky."
+msgstr "Určuje velikost ohraničení Časté otázky."
 
 #: shortcodes/fusion-faq.php:673
 msgid "FAQ Item Boxed Mode Border Color"
-msgstr "Barva ohraničení boxového módu Častých otázek"
+msgstr "Barva ohraničení rámečkového módu Častých otázek"
 
 #: shortcodes/fusion-faq.php:674
 msgid "Controls the border color of the FAQ item."
-msgstr "Ovládá barvu ohraničení Časté otázky."
+msgstr "Určuje barvu ohraničení položky Častých otázek."
 
 #: shortcodes/fusion-faq.php:682
 msgid "FAQ Item Boxed Mode Background Color"
-msgstr "Barva pozadí boxového módu Častých otázek"
+msgstr "Barva pozadí rámečkového módu Častých otázek"
 
 #: shortcodes/fusion-faq.php:683
 msgid "Controls the background color of the FAQ item."
@@ -1858,11 +1858,11 @@ msgstr "Ovládá barvu pozadí Časté otázky."
 
 #: shortcodes/fusion-faq.php:691
 msgid "FAQ Item Boxed Mode Background Hover Color"
-msgstr "Barva pozadí boxového módu Častých otázek po najetí"
+msgstr "Barva pozadí rámečkového módu Častých otázek po najetí"
 
 #: shortcodes/fusion-faq.php:692
 msgid "Controls the background hover color of the FAQ item."
-msgstr "Ovládá barvu pozadí Časté otázky po najetí."
+msgstr "Určuje barvu pozadí Časté otázky po najetí."
 
 #: shortcodes/fusion-faq.php:700
 msgid "FAQ Item Divider Line"
@@ -1882,7 +1882,7 @@ msgstr "Určuje velikost textu titulku."
 
 #: shortcodes/fusion-faq.php:717
 msgid "FAQ Item Icon Size"
-msgstr "Velikost ikony položky nejčastějších otázek"
+msgstr "Velikost ikony položky Častých otázek"
 
 #: shortcodes/fusion-faq.php:718
 msgid "Set the size of the icon."
@@ -1890,27 +1890,27 @@ msgstr "Nastavit velikost ikony."
 
 #: shortcodes/fusion-faq.php:730
 msgid "FAQ Item Icon Color"
-msgstr "Barva ikony položky Časté otázky"
+msgstr "Barva ikony položky Častých otázek"
 
 #: shortcodes/fusion-faq.php:731
 msgid "Controls the color of icon in FAQ box."
-msgstr "Určuje barvu ikony v boxu Častých otázek."
+msgstr "Určuje barvu ikony v rámečku Častých otázek."
 
 #: shortcodes/fusion-faq.php:738
 msgid "FAQ Item Icon Boxed Mode"
-msgstr "Boxový režim ikony Časté otázky"
+msgstr "Rámečkový režim ikony Časté otázky"
 
 #: shortcodes/fusion-faq.php:739
 msgid "Turn on to display icon in boxed mode."
-msgstr "Zapněte pro zobrazení ikony v boxovém režimu."
+msgstr "Zapněte pro zobrazení ikony v rámečkovém režimu."
 
 #: shortcodes/fusion-faq.php:746
 msgid "FAQ Item Icon Inactive Box Color"
-msgstr "Boxová barva neaktivní ikony Časté otázky"
+msgstr "Barva neaktivního rámečku ikony Časté otázky"
 
 #: shortcodes/fusion-faq.php:747
 msgid "Controls the color of the inactive FAQ box."
-msgstr "Ovládá barvu neaktivního boxu Častých otázek."
+msgstr "Ovládá barvu neaktivního rámečku Častých otázek."
 
 #: shortcodes/fusion-faq.php:755
 msgid "FAQ Item Icon Alignment"
@@ -1918,7 +1918,7 @@ msgstr "Zarovnání ikony Časté otázky"
 
 #: shortcodes/fusion-faq.php:756
 msgid "Controls the alignment of the icon."
-msgstr "Ovládá zarovnání ikony."
+msgstr "Určuje zarovnání ikony."
 
 #: shortcodes/fusion-faq.php:767
 msgid "FAQ Item Icon Toggle Hover Accent Color"
@@ -1934,7 +1934,7 @@ msgstr "Filtry zobrazení"
 
 #: shortcodes/fusion-faq.php:894
 msgid "Display the FAQ filters."
-msgstr "Zobrazit filtry častých otázek."
+msgstr "Zobrazit filtry Častých otázek."
 
 #: shortcodes/fusion-faq.php:897 shortcodes/fusion-faq.php:909
 #: shortcodes/fusion-faq.php:993 shortcodes/fusion-faq.php:1005
@@ -1953,7 +1953,7 @@ msgstr "Zobrazit hlavní obrázky"
 
 #: shortcodes/fusion-faq.php:906
 msgid "Display the FAQ featured images."
-msgstr "Zobrazit hlavní obrázky častých otázek."
+msgstr "Zobrazit hlavní obrázky Častých otázek."
 
 #: shortcodes/fusion-faq.php:917 shortcodes/fusion-faq.php:918
 #: shortcodes/fusion-faq.php:932 shortcodes/fusion-portfolio.php:2255
@@ -1975,7 +1975,7 @@ msgstr "Vyberte vyloučené kategorie."
 
 #: shortcodes/fusion-faq.php:946
 msgid "Defines how FAQs should be ordered."
-msgstr "Určuje jak by měly být Časté otázky řazeny."
+msgstr "Určuje jak mají být Časté otázky řazeny."
 
 #: shortcodes/fusion-faq.php:951 shortcodes/fusion-portfolio.php:2399
 msgid "Post Title"
@@ -1983,7 +1983,7 @@ msgstr "Název příspěvku"
 
 #: shortcodes/fusion-faq.php:952
 msgid "FAQ Order"
-msgstr "FAQ pořadí"
+msgstr "Pořadí častých otázek"
 
 #: shortcodes/fusion-faq.php:953 shortcodes/fusion-portfolio.php:2401
 msgid "Post Slug"
@@ -2003,15 +2003,15 @@ msgstr "Přepínače nebo harmoniky"
 
 #: shortcodes/fusion-faq.php:1001
 msgid "Boxed Mode"
-msgstr "Boxový režim"
+msgstr "Rámečkový režim"
 
 #: shortcodes/fusion-faq.php:1002
 msgid "Choose to display FAQs items in boxed mode."
-msgstr "Zvolte pro zobrazení Častých otázek v boxu."
+msgstr "Zvolte pro zobrazení Častých otázek v rámečku."
 
 #: shortcodes/fusion-faq.php:1013
 msgid "Boxed Mode Border Width"
-msgstr "Šířka ohraničení boxového módu"
+msgstr "Šířka ohraničení rámečkového módu"
 
 #: shortcodes/fusion-faq.php:1014
 msgid "Set the border width for FAQ item. In pixels."
@@ -2019,7 +2019,7 @@ msgstr "Nastavte šířku ohraničení pro Častou otázku. V pixelech."
 
 #: shortcodes/fusion-faq.php:1031
 msgid "Boxed Mode Border Color"
-msgstr "Barva ohraničení boxového módu"
+msgstr "Barva ohraničení rámečkového módu"
 
 #: shortcodes/fusion-faq.php:1032
 msgid "Set the border color for FAQ item."
@@ -2027,7 +2027,7 @@ msgstr "Nastavte barvu ohraničení pro Častou otázku."
 
 #: shortcodes/fusion-faq.php:1051
 msgid "Boxed Mode Background Color"
-msgstr "Barva pozadí boxového módu"
+msgstr "Barva pozadí rámečkového módu"
 
 #: shortcodes/fusion-faq.php:1052
 msgid "Set the background color for FAQ item."
@@ -2035,7 +2035,7 @@ msgstr "Nastavit barvu pozadí pro Častou otázku."
 
 #: shortcodes/fusion-faq.php:1066
 msgid "Boxed Mode Background Hover Color"
-msgstr "Barva pozadí po najetí v boxovém režimu"
+msgstr "Barva pozadí po najetí v rámečkovém režimu"
 
 #: shortcodes/fusion-faq.php:1067
 msgid "Set the background hover color for FAQ item."
@@ -2075,23 +2075,23 @@ msgstr "Barva ikony"
 
 #: shortcodes/fusion-faq.php:1123
 msgid "Set the color of icon in toggle box."
-msgstr "Nastavte barvu ikony v přepínacím boxu."
+msgstr "Nastavte barvu ikony v přepínacím rámečku."
 
 #: shortcodes/fusion-faq.php:1130
 msgid "Icon Boxed Mode"
-msgstr "Boxový mód ikon"
+msgstr "Rámečkový režim ikon"
 
 #: shortcodes/fusion-faq.php:1131
 msgid "Choose to display icon in boxed mode."
-msgstr "Zvolte pro zobrazení ikony v boxovém režimu."
+msgstr "Zvolte pro zobrazení ikony v rámečkovém režimu."
 
 #: shortcodes/fusion-faq.php:1142
 msgid "Icon Inactive Box Color"
-msgstr "Barva ikony neaktivního boxu"
+msgstr "Barva ikony neaktivního rámečku"
 
 #: shortcodes/fusion-faq.php:1143
 msgid "Controls the color of the inactive toggle box."
-msgstr "Určuje barvu neaktivního přepínacího boxu."
+msgstr "Určuje barvu neaktivního přepínacího rámečku."
 
 #: shortcodes/fusion-faq.php:1157
 msgid "Icon Alignment"
@@ -2103,7 +2103,7 @@ msgstr "Určuje zarovnání ikony Častých otázek."
 
 #: shortcodes/fusion-faq.php:1169
 msgid "FAQ Toggle Hover Accent Color"
-msgstr "Barva zvýraznění po najetí na přepínač Časté otázky"
+msgstr "Barva zvýraznění po najetí na přepínač Častých otázek"
 
 #: shortcodes/fusion-faq.php:1194 shortcodes/fusion-faq.php:1202
 #: shortcodes/fusion-portfolio.php:2626 shortcodes/fusion-portfolio.php:2634
@@ -2113,7 +2113,7 @@ msgstr "Obecné"
 
 #: shortcodes/fusion-fusionslider.php:114
 msgid "Incorrect slider name. Please make sure to use a valid slider slug."
-msgstr "Nesprávný název slideru. Nezapomeňte použít platný kód posuvníku."
+msgstr "Nesprávný název slideru. Nezapomeňte použít platný kód slideru."
 
 #: shortcodes/fusion-fusionslider.php:663
 msgid "Slider Name"
@@ -2125,7 +2125,7 @@ msgid ""
 "name next to the number of slides in brackets."
 msgstr ""
 "Vyberte slider, který chcete použít.  Možnosti se zobrazí jako název slideru "
-"vedle počtu slidů v závorkách."
+"vedle počtu snímků v závorkách."
 
 #: shortcodes/fusion-portfolio.php:205 shortcodes/fusion-portfolio.php:933
 #: templates/portfolio-archive-layout.php:364
@@ -2147,7 +2147,7 @@ msgstr "Portfolio"
 
 #: shortcodes/fusion-portfolio.php:1533
 msgid "Portfolio Featured Image Size"
-msgstr "Portfolio Velikost hlavních obrázků"
+msgstr "Velikost hlavních obrázků portfolia"
 
 #: shortcodes/fusion-portfolio.php:1534
 msgid ""
@@ -2188,7 +2188,7 @@ msgstr "Odsazení ve sloupcích"
 
 #: shortcodes/fusion-portfolio.php:1559 shortcodes/fusion-portfolio.php:2024
 msgid "Controls the column spacing for portfolio items."
-msgstr "Řídí vzdálenost sloupců u položek portfolia."
+msgstr "Určuje vzdálenost sloupců u položek portfolia."
 
 #: shortcodes/fusion-portfolio.php:1571
 msgid "Number of Portfolio Items Per Page"
@@ -2200,7 +2200,7 @@ msgid ""
 "Set to -1 to display all. Set to 0 to use the number of posts from Settings "
 "> Reading."
 msgstr ""
-"Ovládá počet příspěvků, které se zobrazují na stránku pro prvky portfolia. "
+"Určuje počet příspěvků, které se zobrazují na stránku pro prvky portfolia. "
 "Nastavením na -1 zobrazíte všechny. Chcete-li použít počet příspěvků z "
 "Nastavení > Čtení, nastavte na 0."
 
@@ -2223,11 +2223,11 @@ msgstr "Žádný text"
 
 #: shortcodes/fusion-portfolio.php:1592 shortcodes/fusion-portfolio.php:1883
 msgid "Boxed"
-msgstr "Boxový"
+msgstr "Rámečkový"
 
 #: shortcodes/fusion-portfolio.php:1593 shortcodes/fusion-portfolio.php:1884
 msgid "Unboxed"
-msgstr "Neboxový"
+msgstr "Bezrámečkový"
 
 #: shortcodes/fusion-portfolio.php:1597
 msgid "Portfolio Text Display"
@@ -2259,11 +2259,11 @@ msgstr "Určuje počet slov v úryvku pro prvky portfolia."
 
 #: shortcodes/fusion-portfolio.php:1624
 msgid "Strip HTML from Excerpt"
-msgstr "Vyjmout HTML z úryvku"
+msgstr "Odebrat HTML z úryvku"
 
 #: shortcodes/fusion-portfolio.php:1625
 msgid "Turn on to strip HTML content from the excerpt for portfolio elements."
-msgstr "Zapněte pro vyjmutí HTML obsahu z úryvku v prvcích portfolia."
+msgstr "Zapněte pro odebrání HTML obsahu z úryvku v prvcích portfolia."
 
 #: shortcodes/fusion-portfolio.php:1632 shortcodes/fusion-portfolio.php:2139
 msgid "Portfolio Title Display"
@@ -2276,11 +2276,11 @@ msgstr "Určuje, co se zobrazí s titulem portfolia pro prvky portfolia."
 
 #: shortcodes/fusion-portfolio.php:1639 shortcodes/fusion-portfolio.php:2144
 msgid "Title and Categories"
-msgstr "Nadpis a kategorie"
+msgstr "Titulek a kategorie"
 
 #: shortcodes/fusion-portfolio.php:1640 shortcodes/fusion-portfolio.php:2145
 msgid "Only Title"
-msgstr "Pouze nadpis"
+msgstr "Pouze titulek"
 
 #: shortcodes/fusion-portfolio.php:1641 shortcodes/fusion-portfolio.php:2146
 msgid "Only Categories"
@@ -2295,7 +2295,7 @@ msgid ""
 "Controls the alignment of the portfolio title, categories and excerpt text "
 "when using the Portfolio Text layouts in portfolio elements."
 msgstr ""
-"Řídí zarovnání názvu portfolia, kategorií a úryvků textu při použití "
+"Určuje zarovnání názvu portfolia, kategorií a úryvků textu při použití "
 "rozvržení textu portfolia v prvcích portfolia."
 
 #: shortcodes/fusion-portfolio.php:1659
@@ -2307,8 +2307,8 @@ msgid ""
 "Controls the padding for the portfolio text layout when using boxed mode in "
 "portfolio elements."
 msgstr ""
-"Určuje vnitřní odsazení pro rozložení textu portfolia při použití boxového "
-"režimu v prvcích portfolia."
+"Určuje vnitřní odsazení pro rozložení textu portfolia při použití "
+"rámečkového režimu v prvcích portfolia."
 
 #: shortcodes/fusion-portfolio.php:1685 shortcodes/fusion-portfolio.php:2339
 msgid "Pagination Type"
@@ -2316,7 +2316,7 @@ msgstr "Typ stránkování"
 
 #: shortcodes/fusion-portfolio.php:1686
 msgid "Controls the pagination type for portfolio elements."
-msgstr "Ovládá typ stránkování prvků portfolia."
+msgstr "Určuje typ stránkování prvků portfolia."
 
 #: shortcodes/fusion-portfolio.php:1692 shortcodes/fusion-portfolio.php:2345
 msgid "Pagination"
@@ -2339,43 +2339,43 @@ msgid ""
 "Controls the background color of the load more button for ajax post loading "
 "for portfolio elements."
 msgstr ""
-"Ovládá barvu pozadí tlačítka \"Načíst více\" pro načítání příspěvků ajaxem "
-"pro prvky portfolia."
+"Ovládá barvu pozadí tlačítka “Načíst více” ajaxového načítání příspěvků u "
+"prvků portfolia."
 
 #: shortcodes/fusion-portfolio.php:1712
 msgid "Load More Posts Button Text Color"
-msgstr "Barva textu tlačítka Načíst více příspěvků"
+msgstr "Barva textu tlačítka “Načíst více příspěvků”"
 
 #: shortcodes/fusion-portfolio.php:1713
 msgid ""
 "Controls the text color of the load more button for ajax post loading for "
 "portfolio elements."
 msgstr ""
-"Určuje barvu textu tlačítka \"Načíst více\" pro ajaxové načtení příspěvků u "
+"Určuje barvu textu tlačítka “Načíst více” ajaxového načtení příspěvků u "
 "prvků portfolia."
 
 #: shortcodes/fusion-portfolio.php:1726
 msgid "Load More Posts Button Hover Background Color"
-msgstr "Barva pozadí tlačítka \"Načíst více příspěvků\" po najetí"
+msgstr "Barva pozadí tlačítka “Načíst více příspěvků” po najetí"
 
 #: shortcodes/fusion-portfolio.php:1727
 msgid ""
 "Controls the hover background color of the load more button for ajax post "
 "loading for portfolio elements."
 msgstr ""
-"Určuje barvu pozadí tlačítka \"Načíst více\" po najetí ajaxového načítání "
+"Určuje barvu pozadí tlačítka “Načíst více” po najetí ajaxového načítání "
 "příspěvků u prvků portfolia."
 
 #: shortcodes/fusion-portfolio.php:1740
 msgid "Load More Posts Hover Button Text Color"
-msgstr "Barva textu tlačítka \"Načíst více příspěvků\""
+msgstr "Barva textu tlačítka “Načíst více příspěvků”"
 
 #: shortcodes/fusion-portfolio.php:1741
 msgid ""
 "Controls the hover text color of the load more button for ajax post loading "
 "for portfolio elements."
 msgstr ""
-"Ovládá barvu textu tlačítka \"Načíst více\" po najetí pro ajaxové načítání "
+"Ovládá barvu textu tlačítka “Načíst více” po najetí pro ajaxové načítání "
 "příspěvků u prvků portfolia."
 
 #: shortcodes/fusion-portfolio.php:1803
@@ -2384,7 +2384,7 @@ msgstr "Všechny položky jsou zobrazeny."
 
 #: shortcodes/fusion-portfolio.php:1804
 msgid "Loading the next set of posts..."
-msgstr "Načítání další sady příspěvků..."
+msgstr "Načítání další sady příspěvků…"
 
 #: shortcodes/fusion-portfolio.php:1846
 msgid "Layout"
@@ -2432,14 +2432,14 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1897
 msgid "Grid Box Color"
-msgstr "Barva boxu mřížky"
+msgstr "Barva rámečku mřížky"
 
 #: shortcodes/fusion-portfolio.php:1898
 msgid ""
 "Controls the background color for the grid boxes. For grid layout this "
 "option will only work in boxed mode."
 msgstr ""
-"Určuje barvu pozadí pro boxy mřížky. U mřížkového rozložení bude tato "
+"Určuje barvu pozadí pro rámeček mřížky. U mřížkového rozložení bude tato "
 "možnost fungovat pouze v rámečkovém režimu."
 
 #: shortcodes/fusion-portfolio.php:1917
@@ -2448,7 +2448,7 @@ msgstr "Barva prvku mřížky"
 
 #: shortcodes/fusion-portfolio.php:1918
 msgid "Controls the color of borders of the grid boxes."
-msgstr "Určuje barvu ohraničení boxů mřížky."
+msgstr "Určuje barvu ohraničení rámečků mřížky."
 
 #: shortcodes/fusion-portfolio.php:1942
 msgid "Grid Separator Style"
@@ -2510,7 +2510,7 @@ msgid ""
 "auto calculated ratios like in versions prior to Avada 5.5."
 msgstr ""
 "Nastavte poměr a rozhodněte, kdy má být obraz na šířku (poměr šířka : výška) "
-"a portrét (poměr výška : šířka). <strong>DŮLEŽITÉ:</strong> Hodnota „1.0“ "
+"a portrét (poměr výška : šířka). <strong>DŮLEŽITÉ:</strong> Hodnota “1.0” "
 "představuje zvláštní případ, který bude používat automaticky vypočítané "
 "poměry jako ve verzích před Avada 5.5."
 
@@ -2548,11 +2548,11 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:2082
 msgid "Below image"
-msgstr "Obrázek pod"
+msgstr "Pod obrázkem"
 
 #: shortcodes/fusion-portfolio.php:2083
 msgid "Next to Image"
-msgstr "Obrázek nad"
+msgstr "Nad obrázkem"
 
 #: shortcodes/fusion-portfolio.php:2100
 msgid "Equal Heights"
@@ -2595,8 +2595,8 @@ msgid ""
 "Controls the padding for the portfolio text layout when using boxed mode. "
 "Enter values including any valid CSS unit, ex: 25px, 25px, 25px, 25px."
 msgstr ""
-"Určuje vnitřní odsazení rozložení textu portfolia při použití režimu v "
-"rámečku. Zadejte hodnoty včetně jakékoli platné jednotky CSS, např.: 25px, "
+"Určuje vnitřní odsazení rozložení textu portfolia při použití rámečkového "
+"režimu. Zadejte hodnoty včetně jakékoli platné jednotky CSS, např.: 25px, "
 "25px, 25px, 25px."
 
 #: shortcodes/fusion-portfolio.php:2220
@@ -2638,7 +2638,7 @@ msgstr "Štítky"
 
 #: shortcodes/fusion-portfolio.php:2299
 msgid "Select a tag or leave blank for all."
-msgstr "Vyberte značku nebo ponechte prázdné pro všechny."
+msgstr "Vyberte štítek nebo ponechte prázdné pro všechny."
 
 #: shortcodes/fusion-portfolio.php:2318
 msgid "Exclude Tags"
@@ -2679,7 +2679,7 @@ msgstr "Vypnuto"
 
 #: shortcodes/fusion-portfolio.php:2378
 msgid "Post Offset"
-msgstr "Přeskočit příspěvky"
+msgstr "Přeskočení příspěvků"
 
 #: shortcodes/fusion-portfolio.php:2379
 msgid "The number of posts to skip. ex: 1."
@@ -2736,7 +2736,7 @@ msgstr "Nadpis pod obrázkem"
 
 #: shortcodes/fusion-portfolio.php:2530
 msgid "Title on rollover"
-msgstr "Nadpis na rotujícím"
+msgstr "Nadpis na rotujícím prvku"
 
 #: shortcodes/fusion-portfolio.php:2543
 msgid "Carousel Scroll Items"
@@ -2768,7 +2768,7 @@ msgstr "Zvolte pro zobrazení navigačních tlačítek na rotujícím panelu."
 
 #: shortcodes/fusion-portfolio.php:2593
 msgid "Carousel Mouse Scroll"
-msgstr "Rotující panel Skrolování myší"
+msgstr "Skrolování myší na rotujícím panelu"
 
 #: shortcodes/fusion-portfolio.php:2594
 msgid "Choose to enable mouse drag control on the carousel."
@@ -2825,32 +2825,32 @@ msgstr "Plovoucí"
 #. Translators: Categories list.
 #: shortcodes/previews/front-end/components/fusion-tb-project-details.php:23
 msgid "<h4>Skills Needed:</h4> %s"
-msgstr "<h4>Potřebné dovednosti:</h4>%s"
+msgstr "<h4>Potřebné dovednosti:</h4> %s"
 
 #. Translators: Categories list.
 #: shortcodes/previews/front-end/components/fusion-tb-project-details.php:35
 msgid "<h4>Categories:</h4> %s"
-msgstr "<h4>Kategorie:</h4>%s"
+msgstr "<h4>Kategorie:</h4> %s"
 
 #. Translators: List of tags
 #: shortcodes/previews/front-end/components/fusion-tb-project-details.php:47
 msgid "<h4>Tags:</h4> %s"
-msgstr "<h4>Štítky:</h4>%s"
+msgstr "<h4>Štítky:</h4> %s"
 
 #. Translators: Link.
 #: shortcodes/previews/front-end/components/fusion-tb-project-details.php:59
 msgid "<h4>Project URL:</h4> %s"
-msgstr "<h4>URL adresa projektu:</h4>%s"
+msgstr "<h4>URL adresa projektu:</h4> %s"
 
 #. translators: Link
 #: shortcodes/previews/front-end/components/fusion-tb-project-details.php:71
 msgid "<h4>Copyright:</h4> %s"
-msgstr "<h4>Copyright:</h4>%s"
+msgstr "<h4>Copyright:</h4> %s"
 
 #. translators: The author name.
 #: shortcodes/previews/front-end/components/fusion-tb-project-details.php:83
 msgid "<h4>By:</h4> %s"
-msgstr "<h4>Od:</h4>%s"
+msgstr "<h4>Od:</h4> %s"
 
 #. translators: The categories.
 #: shortcodes/previews/fusion-faq-preview.php:15
@@ -2898,7 +2898,7 @@ msgstr "https://theme-fusion.com"
 
 #. Description of the plugin/theme
 msgid "ThemeFusion Core Plugin for ThemeFusion Themes"
-msgstr "ThemeFusion základní Plugin pro ThemeFusion témata"
+msgstr "ThemeFusion základní Plugin pro ThemeFusion motivy"
 
 #. Author of the plugin/theme
 msgid "ThemeFusion"
@@ -2907,7 +2907,7 @@ msgstr "ThemeFusion"
 #: fusion-slider/class-fusion-slider.php:69
 msgctxt "Post Type General Name"
 msgid "Fusion Slides"
-msgstr "Fusion Slidy"
+msgstr "Fusion Snímky"
 
 #: includes/class-fusioncore-plugin.php:408
 msgctxt "Post Type General Name"
@@ -2917,17 +2917,17 @@ msgstr "Portfolio"
 #: includes/class-fusioncore-plugin.php:482
 msgctxt "Post Type General Name"
 msgid "FAQs"
-msgstr "Nejčastější dotazy"
+msgstr "Časté otázky"
 
 #: includes/class-fusioncore-plugin.php:531
 msgctxt "Post Type General Name"
 msgid "Elastic Sliders"
-msgstr "Elastické rotující panely"
+msgstr "Elastické Slidery"
 
 #: fusion-slider/class-fusion-slider.php:70
 msgctxt "Post Type Singular Name"
 msgid "Fusion Slide"
-msgstr "Fusion Slide"
+msgstr "Fusion Snímek"
 
 #: includes/class-fusioncore-plugin.php:409
 msgctxt "Post Type Singular Name"
@@ -2937,12 +2937,12 @@ msgstr "Portfolio"
 #: includes/class-fusioncore-plugin.php:483
 msgctxt "Post Type Singular Name"
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Časté otázky"
 
 #: includes/class-fusioncore-plugin.php:532
 msgctxt "Post Type Singular Name"
 msgid "Elastic Slide"
-msgstr "Elastický slide"
+msgstr "Elastický snímek"
 
 #: includes/class-fusioncore-plugin.php:437
 msgctxt "slug"
