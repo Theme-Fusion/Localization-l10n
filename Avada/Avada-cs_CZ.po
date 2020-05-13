@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2020-04-24 05:34:27+00:00\n"
-"PO-Revision-Date: 2020-05-12 23:46+0200\n"
+"PO-Revision-Date: 2020-05-13 17:36+0200\n"
 "Last-Translator: Miloš Havlíček <miloshavlicek@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/"
 "avada/language/cs_CZ/)\n"
@@ -217,6 +217,13 @@ msgid ""
 "remove ALL previously imported demo content from that demo and restore your "
 "site to it's previous state before the demo content was imported."
 msgstr ""
+"Ukázky Avada lze plně importovat (vše) nebo částečně (pouze části). Najeďte "
+"na ukázku, kterou chcete použít, a proveďte výběr. Každá ukázka, kterou "
+"používáte, zobrazí po importu informační symbol, abyste mohli rychle "
+"rozpoznat a upravit obsah, který jste již importovali. Tento obsah můžete "
+"kdykoli odinstalovat. Odinstalováním obsahu z ukázky odstraníte veškerý "
+"dříve importovaný ukázkový obsah z této ukázky a obnovíte svůj web do "
+"předchozího stavu před importem ukázkového obsahu."
 
 #. translators: %1$s: "IMPORTANT:". %2$s: "System Status" link. %3$s: "View
 #. more info here" link.
@@ -382,7 +389,7 @@ msgstr "Živý náhled"
 
 #: includes/admin-screens/demos.php:315
 msgid "The Following Plugins Are Required To Import Content"
-msgstr "Následující zásuvné moduly jsou potřebné pro import obsahu"
+msgstr "Následující pluginy jsou potřebné pro import obsahu"
 
 # @ Avada
 #: includes/admin-screens/demos.php:328 includes/class-avada-admin.php:1032
@@ -1086,7 +1093,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:200
 msgid "Revert Fusion Builder Conversion."
-msgstr ""
+msgstr "Vrátit konverzi Fusion Builderu."
 
 #: includes/admin-screens/system-status.php:201
 msgid "Revert Conversion"
@@ -1101,7 +1108,7 @@ msgstr ""
 #. translators: Numbers.
 #: includes/admin-screens/system-status.php:249
 msgid "Currently removing backups from your database (step %1$s of %2$s)"
-msgstr ""
+msgstr "Aktuálně se odebírají zálohy z vaší databáze (krok %1$s z %2$s)"
 
 #: includes/admin-screens/system-status.php:252
 msgid ""
@@ -1182,7 +1189,7 @@ msgstr "WP multistránky:"
 #: includes/admin-screens/system-status.php:306
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:151
 msgid "Whether or not you have WordPress Multisite enabled."
-msgstr "Ať už máte nebo nemáte WordPress zapnutý pro více webů."
+msgstr "Zda máte nebo nemáte WordPress zapnutý pro více webů."
 
 #: includes/admin-screens/system-status.php:310
 msgid "PHP Memory Limit:"
@@ -1391,7 +1398,7 @@ msgstr "MySQL verze:"
 #: includes/admin-screens/system-status.php:563
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:400
 msgid "The version of MySQL installed on your hosting server."
-msgstr ""
+msgstr "Verze MySQL nainstalovaná na vašem hostitelském serveru."
 
 #: includes/admin-screens/system-status.php:570
 msgid "Max Upload Size:"
@@ -1402,6 +1409,7 @@ msgstr "Max velikost nahraného souboru:"
 msgid ""
 "The largest file size that can be uploaded to your WordPress installation."
 msgstr ""
+"Největší velikost souboru, který lze nahrát do vaší instalace WordPressu."
 
 #: includes/admin-screens/system-status.php:575
 msgid "DOMDocument:"
@@ -1410,7 +1418,7 @@ msgstr "DOMDocument:"
 #: includes/admin-screens/system-status.php:576
 msgid ""
 "DOMDocument is required for the Fusion Builder plugin to properly function."
-msgstr ""
+msgstr "DOMDocument je vyžadován pro správnou funkci Fusion Builder pluginu."
 
 #: includes/admin-screens/system-status.php:580
 msgid "WP Remote Get:"
@@ -1422,6 +1430,8 @@ msgid ""
 "Avada uses this method to communicate with different APIs, e.g. Google, "
 "Twitter, Facebook."
 msgstr ""
+"Avada používá tuto metodu pro komunikaci s různými API, např. Google, "
+"Twitter, Facebook."
 
 # @ Avada
 #: includes/admin-screens/system-status.php:594
@@ -1437,6 +1447,8 @@ msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
 msgstr ""
+"Avada používá tuto knihovnu pro změnu velikosti obrázků a urychlení načítání "
+"vašeho webu"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:612
@@ -1467,7 +1479,7 @@ msgstr "Zkontrolujte stav ThemeFusion serveru"
 
 #: includes/admin-screens/system-status.php:652
 msgid "Server from which plugins and patches are downloaded."
-msgstr ""
+msgstr "Server, ze kterého se stahují pluginy a záplaty."
 
 # @ Avada
 #: includes/admin-screens/system-status.php:661
@@ -1494,6 +1506,8 @@ msgid ""
 "rerun. This page will be newly loaded, which already completes the "
 "conversion."
 msgstr ""
+"Poznámka: Kliknutím na OK se konverze nastavení šablon pro Avadu %s znovu "
+"spustí. Tato stránka bude nově načtena, což již konverzi dokončuje."
 
 #. translators: last version.
 #: includes/admin-screens/system-status.php:733
@@ -1502,6 +1516,9 @@ msgid ""
 "installing Avada 4.0 will be lost. Your Theme Options will be reset to the "
 "values from %s and then converted again to 4.0."
 msgstr ""
+"Varování: Kliknutím na OK se ztratí všechny změny provedené v šabloně po "
+"instalaci Avada 4.0. Možnosti šablony budou resetovány na hodnoty z %s a "
+"znovu převedeny na 4.0."
 
 #: includes/admin-screens/system-status.php:743
 msgid ""
@@ -1509,6 +1526,9 @@ msgid ""
 "screen, where you can restart the conversion of your page contents to the "
 "new Fusion Builder format."
 msgstr ""
+"Varování: Kliknutím na tlačítko OK budete přesměrováni na úvodní obrazovku "
+"převodu, kde můžete restartovat převod obsahu vaší stránky do nového formátu "
+"Fusion Builderu."
 
 #: includes/admin-screens/system-status.php:751
 msgid ""
@@ -1516,6 +1536,9 @@ msgid ""
 "screen, where you can start the conversion reversion of your page contents "
 "to the old Fusion Builder format."
 msgstr ""
+"Varování: Kliknutím na tlačítko OK budete přesměrováni na úvodní obrazovku "
+"převodu, kde můžete zahájit převod převodu obsahu vaší stránky do starého "
+"formátu Fusion Builderu."
 
 #: includes/admin-screens/system-status.php:759
 msgid ""
@@ -1523,6 +1546,8 @@ msgid ""
 "created during the 5.0 shortcode-conversion process will be removed from "
 "your database."
 msgstr ""
+"Varování: Toto je nevratný proces. Kliknutím na OK budou všechny zálohy "
+"vytvořené během procesu převodu krátkého kódu 5.0 odstraněny z vaší databáze."
 
 #: includes/admin-screens/welcome.php:28
 msgid "Welcome To Avada"
@@ -1535,6 +1560,11 @@ msgid ""
 "customers. We are thrilled you chose Avada and know it will change your "
 "outlook on what a WordPress theme can achieve."
 msgstr ""
+"V roce 2012 jsme se rozhodli vytvořit perfektní šablonu a narodila se Avada. "
+"Od té doby to bylo číslo 1 mezi prodávanými šablonami se stále rostoucí "
+"uživatelskou základnou 530.000+ zákazníků. Jsme nadšeni, že jste si vybrali "
+"Avada a jsme si jisti, že se změní váš pohled na to, čeho WordPress šablona "
+"může dosáhnout."
 
 #: includes/admin-screens/welcome.php:29
 msgid "Powerful Customization Tools"
@@ -1547,6 +1577,10 @@ msgid ""
 "these tools, along with other included assets allow you to build "
 "professional websites without having to code."
 msgstr ""
+"Avada obsahuje neuvěřitelně pokročilou síť možností. Tato síť se skládá z "
+"možností Fusion Šablon, možností Fusion Stránek a Fusion Builderu. Společně "
+"tyto nástroje, spolu s dalšími zahrnutými součástmi vám umožní vytvářet "
+"profesionální webové stránky, aniž byste museli kódovat."
 
 #: includes/admin-screens/welcome.php:32
 msgid "5 Star Customer Support"
@@ -1578,7 +1612,7 @@ msgstr "Nastavení šablony aktualizováno."
 
 #: includes/avada-app/class-fusion-panel.php:382
 msgid "You do not have permission to update theme options."
-msgstr ""
+msgstr "Nemáte oprávnění k aktualizaci možností šablony."
 
 #: includes/avada-app/class-fusion-panel.php:403
 msgid "The page options updated."
@@ -1586,35 +1620,35 @@ msgstr "Možnosti stránky byly aktualizovány."
 
 #: includes/avada-app/class-fusion-panel.php:405
 msgid "You do not have permission to update the page options."
-msgstr ""
+msgstr "Nemáte oprávnění k aktualizaci možností stránky."
 
 #: includes/avada-app/class-fusion-panel.php:426
 msgid "The taxonomy options updated."
-msgstr ""
+msgstr "Možnosti taxonomie aktualizovány."
 
 #: includes/avada-app/class-fusion-panel.php:429
 msgid "You do not have permission to update taxonomy options."
-msgstr ""
+msgstr "Nemáte oprávnění k aktualizaci možností taxonomie."
 
 #: includes/avada-app/class-fusion-panel.php:468
 msgid "Add Page TitleBar"
-msgstr ""
+msgstr "Přidat titulkovou lištu stránky"
 
 #: includes/avada-app/class-fusion-panel.php:469
 msgid "Edit Global Page TitleBar"
-msgstr ""
+msgstr "Upravit globální titulkovou lištu stránky"
 
 #: includes/avada-app/class-fusion-panel.php:470
 msgid "Edit Page TitleBar"
-msgstr ""
+msgstr "Upravit titulkovou lištu stránky"
 
 #: includes/avada-app/class-fusion-panel.php:471
 msgid "Edit Page TitleBar Layout Section"
-msgstr ""
+msgstr "Upravit rozložení sekce titulkové lišty stránky"
 
 #: includes/avada-app/class-fusion-panel.php:472
 msgid "Remove Page TitleBar"
-msgstr ""
+msgstr "Odstranit titulkovou lištu stránky"
 
 #: includes/avada-app/class-fusion-panel.php:473
 #: includes/options/header.php:153
@@ -1645,6 +1679,8 @@ msgid ""
 "You have chosen to edit your selected slider. This operation must be "
 "performed from the WordPress dashboard."
 msgstr ""
+"Rozhodli jste se upravit vybraný slider. Tato operace musí být provedena z "
+"ovládacího panelu WordPressu."
 
 # @ Avada
 #: includes/avada-app/class-fusion-panel.php:479
@@ -1712,7 +1748,7 @@ msgstr "Nastavení"
 #: includes/avada-app/class-fusion-panel.php:759
 #: includes/avada-app/class-fusion-panel.php:893
 msgid "Slug"
-msgstr "Zkratka"
+msgstr "Kód"
 
 #: includes/avada-app/class-fusion-panel.php:772
 msgid "Parent Category"
@@ -2044,7 +2080,7 @@ msgstr "Hlavní menu"
 
 #: includes/avada-functions.php:1369
 msgid "Main Menu Sticky"
-msgstr ""
+msgstr "Hlavní menu přichycené"
 
 #: includes/avada-functions.php:1524
 msgid "Secondary Mobile Menu"
@@ -2076,6 +2112,8 @@ msgid ""
 "<strong>IMPORTANT NOTE:</strong> No sliders have been created yet, click "
 "here to create a %s."
 msgstr ""
+"<strong>DŮLEŽITÁ POZNÁMKA:</strong> Zatím nebyly vytvořeny žádné slidery, "
+"kliknutím sem vytvoříte %s."
 
 #. translators: URL.
 #: includes/avada-functions.php:1763
@@ -2083,6 +2121,9 @@ msgid ""
 "<strong>IMPORTANT NOTE:</strong> Currently there are no slider plugins "
 "active, click <a href=\"%s\" target=\"_blank\">here</a> to activate one."
 msgstr ""
+"<strong>DŮLEŽITÁ POZNÁMKA:</strong> V současné době nejsou aktivní žádné "
+"pluginy, kliknutím <a href=\"%s\" target=\"_blank\">zde</a> můžete některý "
+"aktivovat."
 
 #. translators: Comma separated slider plugins, ie. Fusion Slider, Revolution
 #. Slider or Layer Slider.
@@ -2334,7 +2375,7 @@ msgstr "Řešení 1:"
 #: includes/class-avada-admin.php:646 includes/class-avada-admin.php:661
 #: includes/class-avada-admin.php:669
 msgid "Import the demo using an alternate method."
-msgstr ""
+msgstr "Importovat ukázku pomocí alternativní metody."
 
 #: includes/class-avada-admin.php:646 includes/class-avada-admin.php:661
 #: includes/class-avada-admin.php:669
@@ -2359,7 +2400,7 @@ msgstr "ČERVENÁ"
 
 #: includes/class-avada-admin.php:648 includes/class-avada-admin.php:663
 msgid "Reset WordPress Plugin"
-msgstr ""
+msgstr "Resetovat WordPress plugin"
 
 #. translators: "Regenerate Thumbnails" plugin link.
 #: includes/class-avada-admin.php:653
@@ -2368,6 +2409,10 @@ msgid ""
 "like images generated to the specific theme sizes. This is not needed if you "
 "upload your own images because WP does it automatically."
 msgstr ""
+"Ukázková data byla úspěšně importována. Pokud chcete, aby obrázky byly "
+"generovány do konkrétních velikostí motivů, nainstalujte a spusťte plugin "
+"%s. Toto není nutné, pokud nahrajete své vlastní obrázky, protože WP to dělá "
+"automaticky."
 
 # @ Avada
 #: includes/class-avada-admin.php:653 includes/options/performance.php:67
@@ -2380,6 +2425,8 @@ msgid ""
 "Please visit the %s page and change your permalinks structure to \"Post Name"
 "\" so that content links work properly."
 msgstr ""
+"Navštivte, prosím, stránku %s a změňte svou strukturu trvalých odkazů na "
+"\"Název příspěvku\", aby odkazy na obsah fungovaly správně."
 
 #: includes/class-avada-admin.php:655
 msgid "Permalinks"
@@ -2390,12 +2437,16 @@ msgid ""
 "We're sorry but the demo data could not be imported. We were unable to find "
 "import file."
 msgstr ""
+"Je nám líto, ale ukázková data nelze importovat. Nepodařilo se nám najít "
+"soubor importu."
 
 #: includes/class-avada-admin.php:670
 msgid ""
 "Make sure WordPress directory permissions are correct and uploads directory "
 "is writable."
 msgstr ""
+"Ujistěte se, že oprávnění WordPress adresáře jsou správná a adresář pro "
+"nahrávání souborů je zapisovatelný."
 
 #. translators: %1$s: URL. %2$s: _blank. %3$s: URL.
 #: includes/class-avada-admin.php:676
@@ -2437,7 +2488,7 @@ msgstr "Žádné výsledky v %s"
 
 #: includes/class-avada-admin.php:998
 msgid "Please update Fusion Core to latest version."
-msgstr ""
+msgstr "Aktualizujte, prosím, Fusion Core na nejnovější verzi."
 
 #. translators: Plugin name.
 #: includes/class-avada-admin.php:1032
@@ -2485,7 +2536,7 @@ msgstr "Spravovat pluginy níže"
 
 #: includes/class-avada-admin.php:1138
 msgid "Go Manage Plugins"
-msgstr ""
+msgstr "Přejít ke správě pluginů"
 
 #: includes/class-avada-admin.php:1155
 msgid "Avada portfolio category base"
@@ -2493,11 +2544,11 @@ msgstr ""
 
 #: includes/class-avada-admin.php:1166
 msgid "Avada portfolio skill base"
-msgstr ""
+msgstr "Avada portfolio základ zkušeností"
 
 #: includes/class-avada-admin.php:1177
 msgid "Avada portfolio tag base"
-msgstr ""
+msgstr "Avada portfolio základ štítků"
 
 #: includes/class-avada-admin.php:1352 includes/metaboxes/metaboxes.php:488
 #: includes/metaboxes/tabs/tab_content.php:24
@@ -2638,12 +2689,12 @@ msgstr ""
 #. translators: The current step label.
 #: includes/class-avada-admin.php:1369
 msgid "Currently Processing: %s"
-msgstr ""
+msgstr "Právě se zpracovává: %s"
 
 #. translators: The current step label.
 #: includes/class-avada-admin.php:1371
 msgid "Currently Removing: %s"
-msgstr ""
+msgstr "Právě se odstraňuje: %s"
 
 #: includes/class-avada-admin.php:1372
 #: includes/lib/inc/importer/class-wxr-importer.php:505
@@ -2688,15 +2739,15 @@ msgstr ""
 
 #: includes/class-avada-admin.php:1381
 msgid "Plugin install failed. Please try Again."
-msgstr ""
+msgstr "Instalace pluginu se nezdařila. Zkuste to znovu."
 
 #: includes/class-avada-admin.php:1383
 msgid "Please wait, this may take a minute..."
-msgstr ""
+msgstr "Počkejte prosím, může to chvíli trvat…"
 
 #: includes/class-avada-avadaredux-migration.php:131
 msgid "Preparing to run Upgrade"
-msgstr ""
+msgstr "Příprava na spuštění upgradu"
 
 #: includes/class-avada-avadaredux-migration.php:135
 msgid "Slider controls"
@@ -2704,7 +2755,7 @@ msgstr "Ovládací prvky slideru"
 
 #: includes/class-avada-avadaredux-migration.php:139
 msgid "Checkbox & Switch controls"
-msgstr ""
+msgstr "Zaškrtávací a přepínací prvky"
 
 #: includes/class-avada-avadaredux-migration.php:143
 msgid "Dimension controls"
@@ -2716,7 +2767,7 @@ msgstr "Sociální sítě"
 
 #: includes/class-avada-avadaredux-migration.php:153
 msgid "HEX to RGBA colors conversion"
-msgstr ""
+msgstr "Převod barev HEX na RGBA"
 
 #: includes/class-avada-avadaredux-migration.php:157
 msgid "HEX colors"
@@ -2728,7 +2779,7 @@ msgstr "Mediální soubory"
 
 #: includes/class-avada-avadaredux-migration.php:165
 msgid "Spacing Options"
-msgstr ""
+msgstr "Možnosti mezer"
 
 #: includes/class-avada-avadaredux-migration.php:169
 #: includes/class-avada-avadaredux.php:318 includes/options/typography.php:784
@@ -2740,7 +2791,7 @@ msgstr "Vlastní písma"
 #: includes/class-avada-avadaredux-migration.php:174
 #: includes/class-avada-avadaredux-migration.php:179
 msgid "Typography Options (step %1$s of %2$s)"
-msgstr ""
+msgstr "Možnosti typografie (krok %1$s z %2$s)"
 
 #: includes/class-avada-avadaredux-migration.php:183
 msgid "Other Options"
@@ -2748,11 +2799,11 @@ msgstr "Další možnosti"
 
 #: includes/class-avada-avadaredux.php:263
 msgid "Avada Options have moved!"
-msgstr ""
+msgstr "Avada Možnosti se přesunuly!"
 
 #: includes/class-avada-avadaredux.php:263
 msgid "Avada Options"
-msgstr ""
+msgstr "Avada Možnosti"
 
 #. translators: Number.
 #: includes/class-avada-avadaredux.php:285
@@ -2896,7 +2947,7 @@ msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:131
 msgid "Icon Select"
-msgstr ""
+msgstr "Výběr ikony"
 
 #: includes/class-avada-megamenu-framework.php:132
 msgid ""
@@ -2906,7 +2957,7 @@ msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:138
 msgid "Icon/Thumbnail Only"
-msgstr ""
+msgstr "Pouze ikona/miniatura"
 
 #: includes/class-avada-megamenu-framework.php:139
 msgid ""
@@ -3130,7 +3181,7 @@ msgstr ""
 #: includes/class-avada-migrate.php:388
 #: includes/class-fusion-builder-migrate.php:840
 msgid "Avada Logo"
-msgstr ""
+msgstr "Logo Avada"
 
 #. translators: Version number.
 #: includes/class-avada-migrate.php:399
@@ -3157,12 +3208,12 @@ msgstr ""
 
 #: includes/class-avada-migrate.php:408
 msgid "Updating Avada Database Entries"
-msgstr ""
+msgstr "Aktualizace položek databáze Avada"
 
 #. translators: Language label.
 #: includes/class-avada-migrate.php:412
 msgid "Currently converting language: %s"
-msgstr ""
+msgstr "Právě převáděný jazyk: %s"
 
 #: includes/class-avada-migrate.php:415
 msgid "Done!"
@@ -3174,16 +3225,16 @@ msgstr "Už skoro..."
 
 #: includes/class-avada-migrate.php:419
 msgid "Halfway there... Patience Padawan, Patience."
-msgstr ""
+msgstr "V půli cesty… Trpělivost Padawane, trpělivost."
 
 #: includes/class-avada-migrate.php:421
 msgid "This may take a few minutes, please wait."
-msgstr ""
+msgstr "Toto může trvat několik minut, počkejte prosím."
 
 #. translators: %1$s, %2$s: Numbers.
 #: includes/class-avada-migrate.php:429
 msgid "Converting language: %1$s of %2$s."
-msgstr ""
+msgstr "Převádění jazyka: %1$s z %2$s."
 
 #. translators: %1$s, %2$s: Numbers.
 #: includes/class-avada-migrate.php:435
@@ -3269,12 +3320,12 @@ msgstr "Popisek nabídky"
 # @ Avada
 #: includes/class-avada-nav-walker-megamenu.php:185
 msgid "Title Attribute"
-msgstr ""
+msgstr "Atribut názvu"
 
 # @ Avada
 #: includes/class-avada-nav-walker-megamenu.php:192
 msgid "Open link in a new window/tab"
-msgstr ""
+msgstr "Otevřít odkaz v novém okně/kartě"
 
 # @ Avada
 #: includes/class-avada-nav-walker-megamenu.php:197
@@ -3291,7 +3342,7 @@ msgstr "Propojení vztahů (XFN)"
 msgid ""
 "The description will be displayed in the menu if the current theme supports "
 "it."
-msgstr ""
+msgstr "Popis se zobrazí v menu, pokud ho podporuje aktuální šablona."
 
 # @ Avada
 #: includes/class-avada-nav-walker-megamenu.php:218
@@ -3327,7 +3378,7 @@ msgstr "Import / Export"
 #. translators: Number.
 #: includes/class-avada-page-options.php:362
 msgid "Custom page options %d "
-msgstr ""
+msgstr "Vlastní možnosti stránky %d "
 
 #: includes/class-avada-privacy-embeds.php:269
 msgid "YouTube"
@@ -3365,17 +3416,17 @@ msgstr "Google Mapy"
 
 #: includes/class-avada-privacy-embeds.php:301 templates/privacy-bar.php:80
 msgid "Tracking Cookies"
-msgstr ""
+msgstr "Sledovací cookies"
 
 #. translators: The placeholder label (embed-type).
 #: includes/class-avada-privacy-embeds.php:920
 msgid "For privacy reasons %s needs your permission to be loaded."
-msgstr ""
+msgstr "Z důvodů ochrany soukromí %s je potřeba načíst vaše oprávnění."
 
 #. translators: The link to the privacy page (embed-type).
 #: includes/class-avada-privacy-embeds.php:926
 msgid "For more details, please see our %s."
-msgstr ""
+msgstr "Pro více informací prosím navštivte naše %s."
 
 #: includes/class-avada-privacy-embeds.php:933
 msgid "I Accept"
@@ -3406,12 +3457,12 @@ msgstr "Nákupní košík"
 #. Translators: The submenu title.
 #: includes/class-avada-scripts.php:679
 msgid "Open submenu of %s"
-msgstr ""
+msgstr "Otevřít podnabídku %s"
 
 #. Translators: The submenu title.
 #: includes/class-avada-scripts.php:681
 msgid "Close submenu of %s"
-msgstr ""
+msgstr "Zavřít podnabídku %s"
 
 #: includes/class-avada-scripts.php:698
 msgid "Go to Top"
@@ -3428,7 +3479,7 @@ msgstr "Ne všechna pole byla vyplněna správně."
 
 #: includes/class-avada-scripts.php:849
 msgid "No search results match your query. Please try again"
-msgstr ""
+msgstr "Dotazu neodpovídají žádné výsledky vyhledávání. Prosím zkuste to znovu"
 
 #. translators: the Date.
 #: includes/class-avada-sermon-manager.php:54
@@ -3455,26 +3506,26 @@ msgstr ""
 
 #: includes/class-avada-system-status.php:46
 msgid "API type missing."
-msgstr ""
+msgstr "Chybí typ API."
 
 #: includes/class-avada-system-status.php:58
 msgid "Tested API is working properly."
-msgstr ""
+msgstr "Testované API funguje správně."
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:83
 msgid "Server responded with unauthorized response code: %1$s. %2$s"
-msgstr ""
+msgstr "Server odpověděl kódem neoprávněného přístupu: %1$s. %2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:86
 msgid "Server responded with redirection response code: %1$s. %2$s"
-msgstr ""
+msgstr "Server odpověděl kódem přesměrování: %1$s. %2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:89
 msgid "Error occured while checking API status. Response code: %1$s. %2$s"
-msgstr ""
+msgstr "Při kontrole stavu API došlo k chybě. Kód odpovědi: %1$s. %2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:92
@@ -3482,17 +3533,20 @@ msgid ""
 "Internal server error occured while checking API status. Response code: "
 "%1$s. %2$s"
 msgstr ""
+"Při kontrole stavu rozhraní API došlo k interní chybě serveru. Kód odpovědi: "
+"%1$s. %2$s"
 
 #. translators: HTTP response code
 #: includes/class-avada-system-status.php:95
 msgid ""
 "Something went wrong while checking API status. Response code: %1$s. %2$s"
 msgstr ""
+"Při kontrole stavu rozhraní API došlo k potížím. Kód odpovědi: %1$s. %2$s"
 
 #: includes/class-avada-taxonomy-meta.php:141
 #: includes/class-avada-taxonomy-meta.php:148
 msgid "Fusion Taxonomy Options"
-msgstr ""
+msgstr "Možnosti Fusion Taxonomie"
 
 #: includes/class-avada-taxonomy-meta.php:167
 msgid "Slider Type "
@@ -3619,13 +3673,13 @@ msgstr ""
 
 #: includes/class-avada-taxonomy-meta.php:318 includes/options/layout.php:371
 msgid "Page Content Padding"
-msgstr ""
+msgstr "Vnitřní odsazení obsahu stránky"
 
 #. translators: Additional description (defaults).
 #: includes/class-avada-taxonomy-meta.php:320
 #: includes/metaboxes/tabs/tab_content.php:143
 msgid "In pixels ex: 20px. %s"
-msgstr ""
+msgstr "V pixelech, např.: 20px. %s"
 
 #: includes/class-avada-taxonomy-meta.php:342 includes/options/header.php:926
 msgid "Header Background Color"
@@ -4331,13 +4385,15 @@ msgstr ""
 
 #: includes/class-avada-widget-style.php:212
 msgid "Content Align"
-msgstr ""
+msgstr "Zarovnání obsahu"
 
 #: includes/class-avada-widget-style.php:213
 msgid ""
 "Controls content alignment for this widget container. Inherit means it will "
 "inherit alignment from its parent element."
 msgstr ""
+"Určuje zarovnání obsahu pro tento kontejner widgetu. Podřízený znamená, že "
+"použije zarovnání od svého nadřazeného prvku."
 
 #: includes/class-avada-widget-style.php:217
 #: includes/class-avada-widget-style.php:230
@@ -4414,7 +4470,7 @@ msgstr "Na střed"
 
 #: includes/class-avada-widget-style.php:225
 msgid "Mobile Content Align"
-msgstr ""
+msgstr "Zarovnání mobilního obsahu"
 
 #: includes/class-avada-widget-style.php:226
 msgid ""
@@ -4695,43 +4751,43 @@ msgstr ""
 
 #: includes/class-fusion-builder-migrate.php:1310
 msgid "Converting posts."
-msgstr ""
+msgstr "Konverze příspěvků."
 
 #: includes/class-fusion-builder-migrate.php:1311
 msgid "Converting slides."
-msgstr ""
+msgstr "Konverze snímků."
 
 #: includes/class-fusion-builder-migrate.php:1312
 msgid "Converting widgets."
-msgstr ""
+msgstr "Konverze widgetů."
 
 #: includes/class-fusion-builder-migrate.php:1313
 msgid "Converting theme options."
-msgstr ""
+msgstr "Konverze nastavení šablony."
 
 #: includes/class-fusion-builder-migrate.php:1315
 msgid "Reverting posts."
-msgstr ""
+msgstr "Navracení příspěvků."
 
 #: includes/class-fusion-builder-migrate.php:1316
 msgid "Reverting slides."
-msgstr ""
+msgstr "Navracení snímků."
 
 #: includes/class-fusion-builder-migrate.php:1317
 msgid "Reverting widgets."
-msgstr ""
+msgstr "Navracení widgetů."
 
 #: includes/class-fusion-builder-migrate.php:1318
 msgid "Reverting theme options."
-msgstr ""
+msgstr "Navracení nastavení šablony."
 
 #: includes/class-fusion-builder-migrate.php:1339
 msgid "Start Reversion"
-msgstr ""
+msgstr "Zahájit navrácení"
 
 #: includes/class-fusion-builder-migrate.php:1341
 msgid "Start Conversion"
-msgstr ""
+msgstr "Zahájit konverzi"
 
 #: includes/class-fusion-builder-migrate.php:1347
 msgid "Do Not Revert"
@@ -4739,21 +4795,21 @@ msgstr "Nevracet zpět"
 
 #: includes/class-fusion-builder-migrate.php:1349
 msgid "Do Not Convert"
-msgstr ""
+msgstr "Nekonvertovat"
 
 #: includes/class-fusion-builder-migrate.php:1361
 msgid ""
 "Please confirm that you have read the instructions, by checking the box."
-msgstr ""
+msgstr "Zaškrtnutím políčka potvrďte, že jste si přečetli pokyny."
 
 #: includes/class-fusion-builder-migrate.php:1368
 #: includes/class-fusion-builder-migrate.php:1385
 msgid "Take me to Admin"
-msgstr ""
+msgstr "Přejít do Administrace"
 
 #: includes/class-fusion-builder-migrate.php:1389
 msgid "Update Required Plugins"
-msgstr "Aktualizovat povinné zásuvné moduly"
+msgstr "Aktualizovat povinné pluginy"
 
 # @ shoestrap
 #: includes/class-fusion-image-resizer.php:67
@@ -4775,13 +4831,13 @@ msgstr "Zadejte prosím správný údaj pro toto pole."
 #: includes/importer/avada-cp-import-functions.php:331
 #: includes/importer/avada-cp-import-functions.php:612
 msgid "Failed to Open. Error Code: %s "
-msgstr ""
+msgstr "Nepodařilo se otevřít. Kód chyby: %s "
 
 #: includes/importer/avada-cp-import-functions.php:67
 #: includes/importer/avada-cp-import-functions.php:357
 #: includes/importer/avada-cp-import-functions.php:638
 msgid "Unable to extract the file."
-msgstr ""
+msgstr "Nelze extrahovat soubor."
 
 #. translators:%s module name .
 #: includes/importer/avada-cp-import-functions.php:107
@@ -4791,6 +4847,8 @@ msgid ""
 "Seems that the file have uploaded the wrong file. This file can be imported "
 "for %s "
 msgstr ""
+"Zdá se, že soubor nahrál nesprávný soubor. Tento soubor lze importovat pro "
+"%s "
 
 #: includes/importer/avada-cp-import-functions.php:120
 #: includes/importer/avada-cp-import-functions.php:411
@@ -4798,34 +4856,38 @@ msgid ""
 "Seems that the file is different from the exported modal zip. Please try "
 "with another zip file."
 msgstr ""
+"Zdá se, že se soubor liší od exportovaného modálního zipu. Zkuste prosím "
+"použít jiný soubor ZIP."
 
 #: includes/importer/avada-cp-import-functions.php:252
 #: includes/importer/avada-cp-import-functions.php:535
 #: includes/importer/avada-cp-import-functions.php:838
 msgid "Style Already Exists! Please try importing another style."
-msgstr ""
+msgstr "Styl již existuje! Zkuste importovat jiný styl."
 
 #: includes/importer/avada-cp-import-functions.php:284
 #: includes/importer/avada-cp-import-functions.php:567
 #: includes/importer/avada-cp-import-functions.php:870
 msgid "imported successfully!"
-msgstr ""
+msgstr "Import proběhl úspěšně!"
 
 #: includes/importer/avada-cp-import-functions.php:293
 #: includes/importer/avada-cp-import-functions.php:576
 #: includes/importer/avada-cp-import-functions.php:879
 msgid "Something went wrong! Please try again with different file."
-msgstr ""
+msgstr "Něco se pokazilo! Zkuste to prosím znovu s jiným souborem."
 
 #: includes/importer/avada-cp-import-functions.php:693
 msgid ""
 "Seems that the file is different from the exported info bar zip. Please try "
 "with another zip file."
 msgstr ""
+"Zdá se, že se soubor liší od exportovaného zipu informační lišty. Zkuste "
+"prosím použít jiný soubor ZIP."
 
 #: includes/importer/avada-cp-import-functions.php:976
 msgid "Unable to delete the style. Please Try again."
-msgstr ""
+msgstr "Styl nelze smazat. Prosím zkuste to znovu."
 
 # @ Avada
 #: includes/lib/inc/class-fusion-breadcrumbs.php:136
@@ -4936,7 +4998,7 @@ msgstr "Možnosti Fusion šablony"
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:494
 msgid "%1$s Enter value including CSS unit (px, em, rem), ex: %2$s."
-msgstr ""
+msgstr "%1$s Zadejte hodnotu včetně jednotky CSS (px, em, rem), např.: %2$s."
 
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:497
@@ -4944,6 +5006,8 @@ msgid ""
 "%1$s Enter value including any valid CSS unit besides %% which does not work "
 "for inline columns, ex: %2$s."
 msgstr ""
+"%1$s Zadejte hodnotu včetně jakékoli platné jednotky CSS kromě %%, která "
+"nefunguje pro vložené sloupce, např.: %2$s."
 
 #. translators: The description subtitle and an example value.
 #: includes/lib/inc/class-fusion-fusionredux.php:500
@@ -5063,7 +5127,7 @@ msgstr "Archiv podle roku: %s"
 
 #: includes/lib/inc/class-fusion-images.php:976
 msgid "Masonry Image Layout"
-msgstr ""
+msgstr "Rozložení dlaždic obrázků"
 
 #: includes/lib/inc/class-fusion-images.php:980
 msgid "1x1"
@@ -5236,11 +5300,11 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-product-registration.php:378
 msgid "Congratulations! Thank you for registering your product."
-msgstr ""
+msgstr "Gratulujeme! Děkujeme za registraci vašeho produktu."
 
 #: includes/lib/inc/class-fusion-product-registration.php:380
 msgid "Please enter your Envato token to complete registration."
-msgstr ""
+msgstr "Prosím, zadejte svůj Envato token pro dokončení registrace."
 
 #. translators: The product name and whether it's a theme or plugin.
 #: includes/lib/inc/class-fusion-product-registration.php:392
@@ -5287,7 +5351,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-product-registration.php:459
 msgid "Instructions For Generating A Token"
-msgstr ""
+msgstr "Pokyny pro generování tokenu"
 
 #. translators: "Generate A Personal Token" link.
 #: includes/lib/inc/class-fusion-product-registration.php:465
@@ -5693,7 +5757,7 @@ msgstr "Ultra tučné 900 kurzíva"
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:145
 msgid "Sidebar Panel Position"
-msgstr ""
+msgstr "Pozice postranního panelu"
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:146
 msgid "Select the side which you want the sidebar panel to be displayed on."
@@ -5701,11 +5765,11 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:156
 msgid "Element Editing Mode"
-msgstr ""
+msgstr "Režim úprav prvků"
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:157
 msgid "Choose if element editing should be in the sidebar or in dialogs."
-msgstr ""
+msgstr "Zvolte, zda má být úprava prvku na postranním panelu nebo v dialozích."
 
 # @ Avada
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:160
@@ -5719,7 +5783,7 @@ msgstr "Dialog"
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:167
 msgid "Automatically Open Element Settings"
-msgstr ""
+msgstr "Automaticky otevřít nastavení prvku"
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:168
 msgid ""
@@ -5729,11 +5793,11 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:178
 msgid "Enable Keyboard Shortcuts"
-msgstr ""
+msgstr "Povolit klávesové zkratky"
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:179
 msgid "Choose if keyboard shortcuts should be enabled or disabled."
-msgstr ""
+msgstr "Zvolte, zda mají být klávesové zkratky povoleny nebo zakázány."
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:189
 msgid "Show Tooltips"
@@ -5741,7 +5805,7 @@ msgstr "Zobrazit popisky"
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:190
 msgid "Choose if tooltips should be enabled or disabled."
-msgstr ""
+msgstr "Zvolte, zda mají být popisky povoleny nebo zakázány."
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:200
 msgid "Enable Sticky Header"
@@ -5796,7 +5860,7 @@ msgstr "Knihovna"
 
 #: includes/lib/inc/fusion-app/helpers.php:196
 msgid "Add your CSS code here..."
-msgstr ""
+msgstr "Sem přidejte CSS kód…"
 
 #: includes/lib/inc/fusion-app/helpers.php:197
 msgid "Delete page layout"
@@ -5992,7 +6056,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:250
 msgid "This element can be added only"
-msgstr ""
+msgstr "Tento prvek lze pouze přidat"
 
 #: includes/lib/inc/fusion-app/helpers.php:251
 msgid "time."
@@ -6035,6 +6099,8 @@ msgid ""
 "Add or edit new items for this element.  Drag and drop them into the desired "
 "order."
 msgstr ""
+"Přidejte nebo upravte nové položky tohoto prvku.  Přetáhněte je do "
+"požadovaného pořadí."
 
 #: includes/lib/inc/fusion-app/helpers.php:263
 #: includes/lib/inc/fusion-app/helpers.php:266
@@ -6073,6 +6139,7 @@ msgstr "Zadejte název prvku"
 #: includes/lib/inc/fusion-app/helpers.php:273
 msgid "You are about to remove all page layout. Do you still want to proceed?"
 msgstr ""
+"Chystáte se odstranit veškerá rozvržení stránky. Stále chcete pokračovat?"
 
 #: includes/lib/inc/fusion-app/helpers.php:274
 msgid "Are you sure you want to delete this ?"
@@ -6083,6 +6150,8 @@ msgid ""
 "This is a global item. Deleting this element will remove it from every page "
 "you have it on. Are you sure you want to remove it?"
 msgstr ""
+"Toto je globální prvek. Odstraněním tohoto prvku jej odstraníte ze všech "
+"stránek, na kterých se vyskytuje. Opravdu jej chcete odstranit?"
 
 #: includes/lib/inc/fusion-app/helpers.php:276
 msgid "Global element<br>Click to disable global status"
@@ -6098,7 +6167,7 @@ msgstr "Globální kontejner<br>Klepnutím zakážete globální stav"
 
 #: includes/lib/inc/fusion-app/helpers.php:279
 msgid "An element with this name already exists. Please enter different name."
-msgstr ""
+msgstr "Prvek s tímto názvem již existuje. Zadejte, prosím, jiné jméno."
 
 #: includes/lib/inc/fusion-app/helpers.php:280
 msgid "Please enter template name"
@@ -6315,7 +6384,7 @@ msgstr "Obsah importován"
 
 #: includes/lib/inc/fusion-app/helpers.php:334
 msgid "Visually create your table below, add or remove rows and columns"
-msgstr ""
+msgstr "Vizuálně vytvořte tabulku níže, přidejte nebo odeberte řádky a sloupce"
 
 #: includes/lib/inc/fusion-app/helpers.php:335
 msgid "Add Column"
@@ -7680,7 +7749,7 @@ msgstr "Thajština"
 
 #: includes/lib/inc/redux/extensions/search/extension_search.php:98
 msgid "Search for option(s)"
-msgstr "Hledání možnosti/-í"
+msgstr "Vyhledat možnosti"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/core/enqueue.php:455
 msgid "You have changes that are not saved. Would you like to save them now?"
@@ -8017,7 +8086,7 @@ msgstr "Od "
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
 msgid "To "
-msgstr ""
+msgstr "Pro "
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/gallery/field_gallery.php:73
 msgid "Add/Edit Gallery"
@@ -8355,7 +8424,7 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:2
 msgid "FusionRedux Framework - A Community Effort"
-msgstr ""
+msgstr "FusionRedux Framework - Komunitní úsilí"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:5
 msgid ""
@@ -8363,6 +8432,9 @@ msgid ""
 "all of those who help FusionRedux to be what it is. Thank you for your "
 "involvement."
 msgstr ""
+"Jsme si vědomi, že naše komunita pro nás znamená mnoho. Chtěli bychom "
+"poděkovat všem těm, kteří pomáhají FusionReduxu být tím, čím je. Děkujeme "
+"vám za vaše zapojení."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:18
 msgid ""
@@ -8370,6 +8442,9 @@ msgid ""
 "your name listed too? <a href=\"%d\" target=\"_blank\">Contribute to "
 "FusionRedux</a>."
 msgstr ""
+"FusionRedux je vytvořen komunitou vývojářů po celém světě. Chcete zde mít "
+"také své jméno? <a href=\"%d\" target=\"_blank\">Přispějte na FusionRedux</"
+"a>."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/extensions.php:73
 msgid "FusionRedux Framework - Extensions"
@@ -8380,6 +8455,8 @@ msgid ""
 "Supercharge your FusionRedux experience. Our extensions provide you with "
 "features that will take your products to the next level."
 msgstr ""
+"Obohaťte svůj zážitek z Reduxu. Naše rozšíření Vám poskytnou takové funkce, "
+"se kterými dostanete Vaše produkty na novou úroveň."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/extensions.php:89
 msgid ""
@@ -8419,11 +8496,11 @@ msgstr "Verze FusionRedux"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:103
 msgid "The version of FusionRedux Framework installed on your site."
-msgstr ""
+msgstr "Verze FusionRedux Frameworku nainstalovaná na vašem webu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:111
 msgid "FusionRedux Data Directory Writable"
-msgstr ""
+msgstr "Datový adresář FusionRedux zapisovatelný"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:114
 msgid ""
@@ -8463,11 +8540,11 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:174
 msgid "Front Page Display"
-msgstr ""
+msgstr "Zobrazení úvodní stránky"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:176
 msgid "The current Reading mode of Wordpress."
-msgstr ""
+msgstr "Aktuální čtecí mód Wordpressu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:185
 msgid "Front Page"
@@ -8536,7 +8613,7 @@ msgstr "Prostředí Localhost"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:318
 msgid "Is the server running in a localhost environment."
-msgstr ""
+msgstr "Běží server v localhost prostředí?"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:343
 msgid "ABSPATH"
@@ -8994,7 +9071,7 @@ msgstr "pracujete v prostředí Localhost"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header.tpl.php:31
 msgid "and"
-msgstr ""
+msgstr "a"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header.tpl.php:34
 msgid "This has been automatically enabled because"
@@ -9108,11 +9185,11 @@ msgstr "Galerie"
 #: includes/metaboxes/metaboxes.php:268 includes/metaboxes/metaboxes.php:269
 #: includes/metaboxes/metaboxes.php:271
 msgid "Fusion Page Options"
-msgstr ""
+msgstr "Možnosti stránky Fusion"
 
 #: includes/metaboxes/metaboxes.php:270
 msgid "Elastic Slide Options"
-msgstr ""
+msgstr "Možnosti elastického snímku"
 
 #: includes/metaboxes/metaboxes.php:272
 msgid "Slide Options"
@@ -9120,7 +9197,7 @@ msgstr "Možnosti snímku"
 
 #: includes/metaboxes/metaboxes.php:273
 msgid "Events Calendar Options"
-msgstr ""
+msgstr "Možnosti kalendáře akcí"
 
 # @ Avada
 #. translators: The edit link. Text of link is the title.
@@ -9162,7 +9239,7 @@ msgstr "Portfolio"
 #: includes/metaboxes/metaboxes.php:493
 #: includes/metaboxes/tabs/tab_template.php:129
 msgid "Layout Section"
-msgstr ""
+msgstr "Oddíl rozložení"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:494
@@ -9176,7 +9253,7 @@ msgstr "Procházet"
 
 #: includes/metaboxes/metaboxes.php:1031
 msgid "Repeater Row"
-msgstr ""
+msgstr "Řádek opakovače"
 
 # @ Avada
 #: includes/metaboxes/options/options_es.php:18
@@ -9222,7 +9299,7 @@ msgstr "ID YouTube videa"
 #: includes/metaboxes/options/options_slide.php:43
 #: includes/metaboxes/options/options_slide.php:49
 msgid "For example the Video ID for %1$s is %2$s"
-msgstr ""
+msgstr "Například ID videa pro %1$s je %2$s"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:47
@@ -9292,7 +9369,7 @@ msgstr ""
 
 #: includes/metaboxes/options/options_slide.php:78
 msgid "Video Display Mode"
-msgstr ""
+msgstr "Režim zobrazení videa"
 
 #: includes/metaboxes/options/options_slide.php:80
 msgid "Cover"
@@ -10037,7 +10114,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:217
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:252
 msgid "In pixels. %s"
-msgstr ""
+msgstr "V pixelech. %s"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:223
 #: includes/options/page_title_bar.php:286
@@ -10056,7 +10133,7 @@ msgstr ""
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:234
 msgid "Valid CSS unit. %s"
-msgstr ""
+msgstr "Platná CSS jednotka. %s"
 
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:241
 msgid "Page Title Bar Subheading Custom Text"
@@ -10379,30 +10456,31 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/tabs/tab_post.php:178
 msgid "Show Author Info Box"
-msgstr ""
+msgstr "Zobrazit inforámeček autora"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_post.php:180
 msgid "Choose to show or hide the author info box. %s"
-msgstr ""
+msgstr "Zvolte, zda zobrazit nebo skrýt inforámeček autorova. %s"
 
 #: includes/metaboxes/tabs/tab_post.php:194
 msgid "Toggle Author Info Box"
-msgstr ""
+msgstr "Přepnout inforámeček autora"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_post.php:201
 msgid "Show Related Posts"
-msgstr ""
+msgstr "Zobrazit související příspěvky"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_post.php:203
 msgid "Choose to show or hide related posts on this post. %s"
 msgstr ""
+"Zvolte, zda zobrazit nebo skrýt související příspěvky pro tento příspěvek. %s"
 
 #: includes/metaboxes/tabs/tab_post.php:217
 msgid "Toggle Related Posts"
-msgstr ""
+msgstr "Přepnout související příspěvky"
 
 #. translators: The edit link. Text of link is the title.
 #: includes/metaboxes/tabs/tab_sidebars.php:144
@@ -10421,6 +10499,10 @@ msgid ""
 "because it is currently set to use the 100% width page template. To change "
 "this, go to the Settings tab and change the page template to default."
 msgstr ""
+"<strong>DŮLEŽITÁ POZNÁMKA:</strong> Postranní panely nelze přiřadit k této "
+"stránce, protože je aktuálně nastavena pro použití šablony stránky o šířce "
+"100%. Chcete-li toto změnit, přejděte na kartu Nastavení a změňte šablonu "
+"stránky na výchozí."
 
 #: includes/metaboxes/tabs/tab_sidebars.php:197
 msgid "Select Sidebar 1"
@@ -11797,7 +11879,7 @@ msgstr ""
 
 #: includes/options/colors.php:224
 msgid "Cancel Selection"
-msgstr ""
+msgstr "Zrušit výběr"
 
 #: includes/options/colors.php:232
 msgid ""
@@ -11807,7 +11889,7 @@ msgstr ""
 
 #: includes/options/colors.php:233
 msgid "New Scheme"
-msgstr ""
+msgstr "Nové schéma"
 
 #: includes/options/colors.php:240
 msgid ""
@@ -11930,7 +12012,7 @@ msgstr ""
 
 #: includes/options/contact.php:180
 msgid "ReCaptcha Security Score"
-msgstr ""
+msgstr "Skóre bezpečnosti reCAPTCHA"
 
 #: includes/options/contact.php:181
 msgid ""
@@ -11940,7 +12022,7 @@ msgstr ""
 
 #: includes/options/contact.php:201
 msgid "ReCaptcha Badge Position"
-msgstr ""
+msgstr "Pozice znaku reCAPTCHA"
 
 #: includes/options/contact.php:202
 msgid ""
@@ -12160,7 +12242,7 @@ msgstr ""
 
 #: includes/options/contact.php:569
 msgid "Google Map Styling"
-msgstr ""
+msgstr "Styl Google Map"
 
 #: includes/options/contact.php:591
 msgid ""
@@ -12173,7 +12255,7 @@ msgstr ""
 # @ Avada
 #: includes/options/contact.php:603
 msgid "Select the Map Styling"
-msgstr ""
+msgstr "Vyberte styl map"
 
 #: includes/options/contact.php:604
 msgid ""
@@ -12313,7 +12395,7 @@ msgstr ""
 # @ Avada
 #: includes/options/elastic_slider.php:182
 msgid "Sliding Speed"
-msgstr ""
+msgstr "Rychlost snímků"
 
 #: includes/options/elastic_slider.php:183
 msgid ""
@@ -12323,7 +12405,7 @@ msgstr ""
 # @ Avada
 #: includes/options/elastic_slider.php:219
 msgid "Thumbnail Width"
-msgstr ""
+msgstr "Šířka miniatury"
 
 #: includes/options/elastic_slider.php:220
 msgid "Controls the width of the elastic slider thumbnail images."
@@ -12734,19 +12816,19 @@ msgstr "Kruh"
 
 #: includes/options/extra.php:154
 msgid "Comments on Pages"
-msgstr ""
+msgstr "Komentáře na stránkách"
 
 #: includes/options/extra.php:155
 msgid "Turn on to allow comments on regular pages."
-msgstr ""
+msgstr "Zapnutím povolíte komentáře na běžných stránkách."
 
 #: includes/options/extra.php:161
 msgid "Featured Images on Pages"
-msgstr ""
+msgstr "Hlavní obrázek na stránkách"
 
 #: includes/options/extra.php:162
 msgid "Turn on to display featured images on regular pages."
-msgstr ""
+msgstr "Zapnutím zobrazíte hlavní obrázky na běžných stránkách."
 
 #: includes/options/extra.php:176
 msgid "Add \"nofollow\" to social links"
@@ -12754,7 +12836,7 @@ msgstr "Přidat \"nofollow\" k odkazům na soc. sítě"
 
 #: includes/options/extra.php:177
 msgid "Turn on to add \"nofollow\" attribute to all social links."
-msgstr ""
+msgstr "Zapněte pro přidání atributu „nofollow“ ke všem sociálním odkazům."
 
 # @ Avada
 #: includes/options/extra.php:185
@@ -12763,7 +12845,7 @@ msgstr "Otevírat sociální ikony v novém okně"
 
 #: includes/options/extra.php:186
 msgid "Turn on to allow social icons to open in a new window."
-msgstr ""
+msgstr "Zapnutím povolíte otevírání sociálních ikon v novém okně."
 
 #: includes/options/extra.php:194
 msgid "ToTop Button Position"
@@ -12777,25 +12859,27 @@ msgstr ""
 
 #: includes/options/extra.php:201
 msgid "Left Floating"
-msgstr ""
+msgstr "Plovoucí vlevo"
 
 #: includes/options/extra.php:203
 msgid "Right Floating"
-msgstr ""
+msgstr "Plovoucí vpravo"
 
 #: includes/options/extra.php:224
 msgid "ToTop Border Radius"
-msgstr ""
+msgstr "Poloměr okrajů Jít nahoru"
 
 #: includes/options/extra.php:225
 msgid ""
 "Controls the border radius of the ToTop button. For non-floating layouts the "
 "border radius will only apply to the upper corners."
 msgstr ""
+"Určuje poloměr ohraničení tlačítka Přejít nahoru. U plovoucího rozvržení se "
+"poloměr ohraničení použije pro na horní rohy."
 
 #: includes/options/extra.php:243
 msgid "ToTop Show on Scroll Down Only"
-msgstr ""
+msgstr "Zobrazit Jít nahoru jen při skrolování dolů"
 
 #: includes/options/extra.php:244
 msgid ""
@@ -12811,7 +12895,7 @@ msgstr "Podobné produkty"
 # @ Avada
 #: includes/options/extra.php:275
 msgid "Related Posts / Projects Layout"
-msgstr ""
+msgstr "Podobné příspěvky / rozvržení projektů"
 
 #: includes/options/extra.php:276
 msgid "Controls the layout style for related posts and related projects."
@@ -13042,7 +13126,7 @@ msgstr ""
 
 #: includes/options/extra.php:708
 msgid "Pagination Sizing"
-msgstr ""
+msgstr "Velikost stránkování"
 
 #: includes/options/extra.php:709
 msgid "Set on which dimension the pagination box size should be based."
@@ -13522,7 +13606,7 @@ msgstr "dole vpravo"
 
 #: includes/options/footer.php:476
 msgid "Footer Styling"
-msgstr ""
+msgstr "Styl zápatí"
 
 #: includes/options/footer.php:483
 msgid ""
@@ -13550,11 +13634,11 @@ msgstr "Určuje barvu pozadí patičky."
 
 #: includes/options/footer.php:564
 msgid "Footer Border Size"
-msgstr ""
+msgstr "Velikost okraje zápatí"
 
 #: includes/options/footer.php:565
 msgid "Controls the size of the top footer border."
-msgstr ""
+msgstr "Určuje velikost horního okraje zápatí."
 
 # @ Avada
 #: includes/options/footer.php:584
@@ -13563,7 +13647,7 @@ msgstr "Barva ohraničení patičky"
 
 #: includes/options/footer.php:585
 msgid "Controls the border colors of the footer."
-msgstr ""
+msgstr "Určuje barvy ohraničení patičky."
 
 #: includes/options/footer.php:599
 msgid "Footer Widgets Area Vertical Divider Line"
@@ -13628,7 +13712,7 @@ msgstr ""
 
 #: includes/options/footer.php:706
 msgid "Copyright Padding"
-msgstr ""
+msgstr "Vnitřní odsazení autorských práv"
 
 #: includes/options/footer.php:707
 msgid "Controls the top/bottom padding for the copyright area."
@@ -13645,7 +13729,7 @@ msgstr ""
 
 #: includes/options/footer.php:748
 msgid "Copyright Border Size"
-msgstr ""
+msgstr "Velikost ohraničení autorských práv"
 
 #: includes/options/footer.php:749
 msgid "Controls the size of the top copyright border."
