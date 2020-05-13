@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2020-04-24 05:34:27+00:00\n"
-"PO-Revision-Date: 2020-05-13 17:36+0200\n"
+"PO-Revision-Date: 2020-05-13 18:04+0200\n"
 "Last-Translator: Miloš Havlíček <miloshavlicek@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/"
 "avada/language/cs_CZ/)\n"
@@ -2130,6 +2130,7 @@ msgstr ""
 #: includes/avada-functions.php:1768
 msgid "<strong>IMPORTANT NOTE:</strong> Click here to edit or to create a %s."
 msgstr ""
+"<strong>DŮLEŽITÁ POZNÁMKA:</strong> Klepnutím sem upravte nebo vytvořte %s."
 
 #: includes/avada-tgm.php:72
 msgid "Install/Update Required Plugins"
@@ -2156,9 +2157,9 @@ msgstr "Došlo k chybě v API pluginu."
 #: includes/avada-tgm.php:78
 msgid "Avada requires the following plugin installed: %1$s."
 msgid_plural "Avada requires the following plugins installed: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Avada vyžaduje nainstalovaný následující zásuvný modul: %1$s."
+msgstr[1] "Avada vyžaduje nainstalované následující zásuvné moduly: %1$s."
+msgstr[2] "Avada vyžaduje nainstalované následující zásuvné moduly: %1$s."
 
 # @ Avada
 #. translators: %1$s = plugin name(s)
@@ -2180,9 +2181,9 @@ msgstr[2] ""
 #: includes/avada-tgm.php:84
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Následující požadovaný plugin je aktuálně neaktivní: %1$s."
+msgstr[1] "Následující požadované pluginy jsou aktuálně neaktivní: %1$s."
+msgstr[2] "Následující požadované pluginy jsou aktuálně neaktivní: %1$s."
 
 # @ Avada
 #. translators: %1$s = plugin name(s)
@@ -2196,7 +2197,13 @@ msgid_plural ""
 "plugins. Contact the administrator of this site for help on getting the "
 "plugins activated."
 msgstr[0] ""
+"Lituji, ale nemáte potřebná oprávnění k aktivaci zásuvného modulu %s. "
+"Obraťte se na správce tohoto webu a požádejte o pomoc s aktivací zásuvného "
+"modulu."
 msgstr[1] ""
+"Lituji, ale nemáte potřebná oprávnění k aktivaci zásuvných modulů %s. "
+"Obraťte se na správce tohoto webu a požádejte o pomoc s aktivací zásuvných "
+"modulů."
 msgstr[2] ""
 
 #. translators: %1$s = plugin name(s)
@@ -2208,8 +2215,14 @@ msgid_plural ""
 "The following plugins need to be updated to ensure maximum compatibility "
 "with Avada: %1$s"
 msgstr[0] ""
+"K zajištění maximální kompatibility s Avada je třeba aktualizovat "
+"následující zásuvný modul: %1$s"
 msgstr[1] ""
+"K zajištění maximální kompatibility s Avada je třeba aktualizovat "
+"následující zásuvné moduly: %1$s"
 msgstr[2] ""
+"K zajištění maximální kompatibility s Avada je třeba aktualizovat "
+"následující zásuvné moduly: %1$s"
 
 # @ Avada
 #. translators: %1$s = plugin name(s)
@@ -8051,15 +8064,15 @@ msgstr "Opakování pozadí"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:157
 msgid "Background Clip"
-msgstr ""
+msgstr "Pozadí clip"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:173
 msgid "Background Origin"
-msgstr ""
+msgstr "Původní pozadí"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:188
 msgid "Background Size"
-msgstr ""
+msgstr "Velikost pozadí"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:203
 msgid "Background Attachment"
@@ -8150,6 +8163,10 @@ msgid ""
 "strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
 "document</a>, or your theme will be rejected because of FusionRedux."
 msgstr ""
+"<span class=\"tc-lead tc-recommended\">DOPORUČUJEME</span>: Pokud odesíláte "
+"do úložiště šablon WordPress.org, <strong>důrazně se</strong> doporučuje, "
+"abyste si přečetli <a href=\"%s\" target=\"_blank\">tento dokument</a>, "
+"protože vaše šablona bude kvůli FusionReduxu zamítnuta."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:24
 msgid ""
@@ -8157,6 +8174,9 @@ msgid ""
 "<strong> %s </strong>, or your theme will be rejected by WP.org theme "
 "submission because of FusionRedux."
 msgstr ""
+"<span class=\"tc-lead tc-required\">POTŘEBNÉ</span>: MUSÍTE smazat <strong> "
+"%s </strong>, nebo vaše šablona bude odmítnuta při zadávání šablony na WP."
+"org kvůli FusionReduxu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:38
 msgid "Optional"
@@ -8168,6 +8188,9 @@ msgid ""
 "arguments MUST be used for WP.org submissions, or you will be rejected "
 "because of your FusionRedux configuration."
 msgstr ""
+"<span class=\"tc-lead tc-recommended\">DOPORUČUJEME</span>: Následující "
+"argumenty MUSÍ být použity pro odeslání na WP.org, jinak budete kvůli vaší "
+"konfiguraci FusionReduxu odmítnuti."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:16
 msgid "FusionRedux localization utilities"
@@ -8580,7 +8603,7 @@ msgstr "Předpona databázové tabulky"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:232
 msgid "The prefix structure of the current Wordpress database."
-msgstr ""
+msgstr "Struktura předpon aktuální WordPress databáze."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:240
 msgid "WP Debug Mode"
@@ -8665,6 +8688,12 @@ msgid ""
 "If enabled on your server, Suhosin may need to be configured to increase its "
 "data submission limits."
 msgstr ""
+"Suhosin je pokročilý systém ochrany pro PHP instalace. Byl navržen tak, aby "
+"chránil vaše servery na jedné straně proti určitému počtu známých problémů v "
+"aplikacích PHP a na druhé straně proti potenciálním neznámých zranitelnostem "
+"v těchto aplikacích nebo samotném jádru PHP.  Pokud je povolen na serveru, "
+"může být potřeba Suhosin nakonfigurovat tak, aby zvýšil své limity pro "
+"předkládání dat."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:399
 msgid "MySQL Version"
@@ -8678,6 +8707,7 @@ msgstr "Maximální velikost nahrávání"
 msgid ""
 "The largest filesize that can be uploaded to your WordPress installation."
 msgstr ""
+"Největší velikost souboru, který je možné nahrát do WordPress instalace."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:410
 msgid "Default Timezone is UTC"
@@ -8693,13 +8723,15 @@ msgstr "Výchozí časové pásmo je %s - mělo by být UTC"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:428
 msgid "Used when communicating with remote services with PHP."
-msgstr ""
+msgstr "Použije se při komunikaci se vzdálenou službou s PHP."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:434
 msgid ""
 "Your server does not have fsockopen or cURL enabled - cURL is used to "
 "communicate with other servers. Please contact your hosting provider."
 msgstr ""
+"Váš server nemá zapnuté fsockopen nebo cURL - cURL se používá pro komunikaci "
+"s jinými servery. Obraťte se na svého poskytovatele hostingu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:473
 msgid "Remote Post"
@@ -8729,12 +8761,16 @@ msgstr "Vzdálený Get"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:490
 msgid "Used to grab information from remote servers for updates updates."
 msgstr ""
+"Používá se pro zachycení informací ze vzdálených serverů pro aktualizaci "
+"aktualizací."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:495
 msgid ""
 "wp_remote_get() failed. This is needed to get information from remote "
 "servers. Contact your hosting provider."
 msgstr ""
+"wp_remote_get() selhal. Tato funkce je nutná pro získání informací ze "
+"vzdálených serverů. Obraťte se na svého poskytovatele hostingu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:572
 msgid "FusionRedux Instance: "
@@ -8742,21 +8778,23 @@ msgstr "FusionRedux instance: "
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:579
 msgid "The opt_name argument for this instance of FusionRedux."
-msgstr ""
+msgstr "Opt_name argument pro tuto instanci FusionReduxu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:587
 msgid "The global_variable argument for this instance of FusionRedux."
-msgstr ""
+msgstr "Argument global_variable pro tuto instanci FusionReduxu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:595
 msgid ""
 "Indicates if developer mode is enabled for this instance of FusionRedux."
 msgstr ""
+"Označuje, zda je pro tuto instanci FusionReduxu povolen režim vývojáře."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:600
 msgid ""
 "Indicates if ajax based saving is enabled for this instance of FusionRedux."
 msgstr ""
+"Indikuje, zda je ajaxové ukládání povoleno pro tuto instanci FusionReduxu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:605
 msgid ""
@@ -8809,6 +8847,7 @@ msgstr ""
 msgid ""
 "List of template files overriding the default FusionRedux template files."
 msgstr ""
+"Seznam souborů šablon přepisujících výchozí soubory šablon FusionReduxu."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:676
 msgid ""
@@ -9093,7 +9132,7 @@ msgstr "Rozbalit"
 
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:312
 msgid "FusionRedux Framework has an embedded demo."
-msgstr ""
+msgstr "FusionRedux Framework má zabudovanou ukázku."
 
 #: includes/lib/inc/redux/framework/class.fusionredux-plugin.php:312
 msgid "Click here to activate the sample config file."
@@ -9615,7 +9654,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:218
 msgid "Caption Area"
-msgstr ""
+msgstr "Oblast popisku"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:219
@@ -9821,7 +9860,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_content.php:128 includes/options/layout.php:401
 msgid "100% Width Padding"
-msgstr ""
+msgstr "Vnitřní odsazení 100% šířky"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_content.php:130
@@ -10032,7 +10071,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_page.php:67 includes/options/background.php:161
 msgid "Background Color For Page"
-msgstr ""
+msgstr "Barva pozadí pro stránku"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_page.php:69
@@ -10044,22 +10083,23 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_page.php:76 includes/options/background.php:41
 msgid "Background Image For Page"
-msgstr ""
+msgstr "Obrázek pozadí pro stránku"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_page.php:79
 msgid "Select an image to use for a full page background. %s"
-msgstr ""
+msgstr "Vyberte obrázek, který chcete použít pro pozadí celé stránky. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:158
 msgid "Breadcrumbs/Search Bar"
-msgstr ""
+msgstr "Drobečková navigace/Vyhledávací lišta"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:160
 msgid "Choose to display the breadcrumbs, search bar or none. %s"
 msgstr ""
+"Zvolte zobrazení drobečkové navigace, vyhledávací lišty nebo ničeho. %s"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:166
@@ -10076,7 +10116,7 @@ msgstr "Vyhledávací lišta"
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:173
 #: includes/options/page_title_bar.php:111
 msgid "Page Title Bar Headings"
-msgstr ""
+msgstr "Nadpisy lišty v záhlaví stránky"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:175
