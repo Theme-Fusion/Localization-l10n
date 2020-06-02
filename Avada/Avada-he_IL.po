@@ -93,8 +93,8 @@ msgstr "תגובה אחת"
 #: comments.php:32
 msgid "% Comment"
 msgid_plural "% Comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "% תגובה"
+msgstr[1] "תגובות %"
 
 # @ Avada
 #: comments.php:46 includes/class-avada-layout-bbpress.php:224
@@ -164,7 +164,7 @@ msgstr "כתובת קישור"
 #: comments.php:80
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
-msgstr ""
+msgstr "שמור את שמי, דוא"ל ואתרי בדפדפן זה בפעם הבאה שאגיב"
 
 #: comments.php:85
 msgid "Comment"
@@ -216,6 +216,11 @@ msgid ""
 "remove ALL previously imported demo content from that demo and restore your "
 "site to it's previous state before the demo content was imported."
 msgstr ""
+"ניתן לייבא הדגמות של אוואדה במלואן, או לייבא אותן באופן חלקי."
+"בחר את ההדגמה שברצונך להשתמש ע״י ריחוף עם העכבר מעל הדגמה."
+"כל הדגמה בה אתה משתמש תציג עליו תג לאחר ייבוא כך שתוכל לזהותו"
+"אתה יכול להסיר כל התקנה בכל עת."
+"הסרה של ההדגמה תשחזר את האתר למצב הראשוני לפני  יבוא תוכן ההדגמה."
 
 #. translators: %1$s: "IMPORTANT:". %2$s: "System Status" link. %3$s: "View
 #. more info here" link.
@@ -226,6 +231,10 @@ msgid ""
 "to ensure your server meets all requirements for a successful import. "
 "Settings that need attention will be listed in red. %3$s."
 msgstr ""
+"%1$s ייבוא ההדגמות יכולה להשתנות בכל הדגמה. התוספים הנדרשים חייבים להיות . "
+"להיות מותקנים לפני ייבוא של כל הדגמה. לפני כל התקנה בבקשה תבדקו טאב ה%2$s "
+"כדי להבטיח שהשרת שלך עומד בכל הדרישות לייבוא מוצלח."
+"הגדרות שצריכות תשומת לב יופיעו באדום. %3$s."
 
 #: includes/admin-screens/demos.php:41
 msgid "IMPORTANT:"
@@ -263,11 +272,11 @@ msgstr "שאלות נפוצות"
 
 #: includes/admin-screens/demos.php:113
 msgid "Layouts"
-msgstr ""
+msgstr "פריסות"
 
 #: includes/admin-screens/demos.php:119
 msgid "Icons"
-msgstr ""
+msgstr "סמלים"
 
 # @ Avada
 #: includes/admin-screens/demos.php:125
@@ -313,17 +322,17 @@ msgstr "ווידג'טים"
 
 #: includes/admin-screens/demos.php:173
 msgid "Filter Demos"
-msgstr ""
+msgstr "סנן הדגמות"
 
 #: includes/admin-screens/demos.php:174
 #: includes/lib/inc/fusion-app/templates/options/import.php:45
 msgid "Search Demos"
-msgstr ""
+msgstr "חפש הדגמות"
 
 #. translators: Number of all demos.
 #: includes/admin-screens/demos.php:181
 msgid "All Demos %s"
-msgstr ""
+msgstr "כל ההדגמות %s"
 
 #. Translators: Tag name (string), Tag count (number)
 #: includes/admin-screens/demos.php:194
@@ -441,6 +450,8 @@ msgid ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
 "making your experience perfect."
 msgstr ""
+"תודה שבחרת אוואדה. "
+"אנו מחויבים באופן מלא להפיכת החוויה שלך למושלמת."
 
 #: includes/admin-screens/demos.php:427
 #: includes/metaboxes/tabs/tab_avada_page_options.php:104
@@ -449,7 +460,7 @@ msgstr "אזהרה"
 
 #: includes/admin-screens/demos.php:437
 msgid "Avada Demos Can Only Be Imported With A Valid Token Registration"
-msgstr ""
+msgstr "בשביל להתקין את ההדגמות, אוואדה חייבת קוד(אסימון) תקף."
 
 #. translators: "Product Registration" link.
 #: includes/admin-screens/demos.php:439
@@ -457,6 +468,8 @@ msgid ""
 "Please visit the %s page and enter a valid token to import the full Avada "
 "Demos and the single pages through Fusion Builder."
 msgstr ""
+"אנא כנס לעמוד %s כדי להכניס את הקוד(אסימון) התקף שתוכל לייבא את ההדגמה הרצויה"
+"ודרך הדפים הבודדים בFusion Builder"
 
 # @ Avada
 #: includes/admin-screens/demos.php:439 includes/admin-screens/plugins.php:73
@@ -472,12 +485,17 @@ msgid ""
 "Layer Slider are premium plugins that can be installed once your <a "
 "%1$s>product is registered</a>."
 msgstr ""
+""Fusion White Label Branding, Convert Plus, ACF Pro, Slider Revolution and "
+"Layer Slider הם תוספי פרימיום שתוכלו להשתמש ברגע שתכניסו את <a "
+"%1$s>הקוד(אסימון)</a> התקף."
 
 #: includes/admin-screens/plugins.php:58
 msgid ""
 "Fusion White Label Branding, Convert Plus, ACF Pro, Slider Revolution & "
 "Layer Slider are premium plugins included in Avada."
 msgstr ""
+"Fusion White Label Branding, Convert Plus, ACF Pro, Slider Revolution & "
+"Layer Slider הם תוספי פרימיום הכלולים באוואדה."
 
 #. translators: %1$s: Premium plugins info. %2$s: URL.
 #: includes/admin-screens/plugins.php:62
@@ -507,6 +525,7 @@ msgid ""
 "Premium Plugins Can Only Be Installed and Updated With A Valid Token "
 "Registration"
 msgstr ""
+"תוספי הפרימיום ניתנים לשימוש אך ורק לאחר הכנסת הקוד(אסימון) התקף."
 
 #. translators: The "Product Registration" link.
 #: includes/admin-screens/plugins.php:73
@@ -517,7 +536,7 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:79
 msgid "The Plugin Server Could Not Be Reached"
-msgstr ""
+msgstr "שרת התוסף אינו ניתן להשגה"
 
 #. translators: %1$s = System Status text & link. %2$s: Plugin Installation
 #. text & link. %3$s: Support Dashboard text & link.
@@ -531,21 +550,21 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:86
 msgid "Plugin Installation"
-msgstr ""
+msgstr "התקנת תוסף"
 
 #: includes/admin-screens/plugins.php:87
-msgid "Support Dashboard"
+msgid "לוח תמיכה"
 msgstr ""
 
 #. translators: Version number.
 #: includes/admin-screens/plugins.php:148
 msgid "New Version Available: %s"
-msgstr ""
+msgstr "גרסה חדשה זמינה להורדה: %s"
 
 #. translators: plugin name.
 #: includes/admin-screens/plugins.php:154
 msgid "Active: %s"
-msgstr ""
+msgstr "פעיל: %s"
 
 #. translators: %1$s: Plugin version. %2$s: Author URL. %3$s: Author Name.
 #: includes/admin-screens/plugins.php:161
@@ -555,7 +574,7 @@ msgstr ""
 #. translators: Version number.
 #: includes/admin-screens/plugins.php:164
 msgid "Available Version: %s"
-msgstr ""
+msgstr "גרסה זמינה: %s"
 
 # @ Avada
 #: includes/admin-screens/plugins.php:190
@@ -565,17 +584,18 @@ msgstr "נחוץ"
 
 #: includes/admin-screens/plugins.php:196
 msgid "Premium"
-msgstr ""
+msgstr "פרימיום"
 
 #: includes/admin-screens/plugins.php:224
 msgid "Error "
-msgstr ""
+msgstr "שגיאה "
 
 # @ Avada
 #: includes/admin-screens/registration.php:20
 msgid ""
 "Your Purchase Must Be Registered To Receive Theme Support & Auto Updates"
 msgstr ""
+"עליך להיות רשום כדי לקבל תמיכה בנושא עדכונים אוטומטיים"
 
 #: includes/admin-screens/registration.php:26
 msgid ""
@@ -606,11 +626,11 @@ msgstr ""
 
 #: includes/admin-screens/support.php:24
 msgid "Create A Support Account"
-msgstr ""
+msgstr "צור חשבון תמיכה"
 
 #: includes/admin-screens/support.php:29 includes/admin-screens/support.php:31
 msgid "Starter Guide"
-msgstr ""
+msgstr "מדריך למתחילים"
 
 #: includes/admin-screens/support.php:30
 msgid ""
@@ -635,7 +655,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/support.php:39
 msgid "Submit A Ticket"
-msgstr ""
+msgstr "הגיש כרטיס תמיכה"
 
 #: includes/admin-screens/support.php:40
 msgid ""
@@ -646,12 +666,12 @@ msgstr ""
 
 #: includes/admin-screens/support.php:41
 msgid "Submit a ticket"
-msgstr ""
+msgstr "הגיש כרטיס תמיכה"
 
 # @ Avada
 #: includes/admin-screens/support.php:44
 msgid "Video Tutorials"
-msgstr ""
+msgstr "סרטוני הדרכה"
 
 #: includes/admin-screens/support.php:45
 msgid ""
@@ -663,11 +683,11 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/support.php:46
 msgid "Watch Videos"
-msgstr ""
+msgstr "צפה בסרטון"
 
 #: includes/admin-screens/support.php:49 includes/admin-screens/support.php:51
 msgid "Community Forum"
-msgstr ""
+msgstr "פורום קהילתי"
 
 #: includes/admin-screens/support.php:50
 msgid ""
@@ -877,17 +897,17 @@ msgstr ""
 
 #: includes/admin-screens/support.php:190
 msgid "System Status General Information"
-msgstr ""
+msgstr "מצב מערכת מידע כללי"
 
 #: includes/admin-screens/support.php:191
 msgid "System Status Limits"
-msgstr ""
+msgstr "מגבלות מערכת"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:24
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:48
 msgid "Get System Report"
-msgstr ""
+msgstr "קבל דוח מערכת"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:24
@@ -900,30 +920,30 @@ msgstr ""
 #: includes/admin-screens/system-status.php:28
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:62
 msgid "Copied!"
-msgstr ""
+msgstr "הועתק"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:28
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:63
 msgid "Copy for Support"
-msgstr ""
+msgstr "העתק לתמיכה"
 
 #: includes/admin-screens/system-status.php:34
 #: includes/admin-screens/system-status.php:38
 msgid "Avada Version History"
-msgstr ""
+msgstr "היסטוריית גרסאות אוואדה"
 
 #: includes/admin-screens/system-status.php:43
 msgid "Current Version:"
-msgstr ""
+msgstr "גרסה נוכחית:"
 
 #: includes/admin-screens/system-status.php:48
 msgid "Previous Versions:"
-msgstr ""
+msgstr "גרסה קודמת:"
 
 #: includes/admin-screens/system-status.php:53
 msgid "No previous versions could be detected"
-msgstr ""
+msgstr "לא נמצאו גרסאות קודמות"
 
 #: includes/admin-screens/system-status.php:115
 #: includes/admin-screens/system-status.php:119
@@ -938,7 +958,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:127
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
 msgid "Changelog"
-msgstr ""
+msgstr "יומן שינויים"
 
 #. translators: Version Number.
 #: includes/admin-screens/system-status.php:134
@@ -949,7 +969,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:167
 #: includes/admin-screens/system-status.php:188
 msgid "Run Conversion"
-msgstr ""
+msgstr "הפעל המרה"
 
 #. translators: URL.
 #: includes/admin-screens/system-status.php:147
@@ -967,7 +987,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:154
 #: includes/admin-screens/system-status.php:175
 msgid "Previous Version"
-msgstr ""
+msgstr "גרסה קודמת"
 
 #: includes/admin-screens/system-status.php:154
 #: includes/admin-screens/system-status.php:175
@@ -978,7 +998,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:34
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:8
 msgid "Version %s"
-msgstr ""
+msgstr "גרסה %s"
 
 #: includes/admin-screens/system-status.php:158
 msgid "Avada 4.0 Conversion:"
@@ -1033,14 +1053,14 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:258
 msgid "Remove Backups"
-msgstr ""
+msgstr "הסר גיבויים"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:271
 #: includes/admin-screens/system-status.php:275
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:73
 msgid "WordPress Environment"
-msgstr ""
+msgstr "סביבת וורדפרס"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:280
