@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2020-04-24 05:34:27+00:00\n"
-"PO-Revision-Date: 2019-10-18 17:30+0200\n"
+"PO-Revision-Date: 2020-06-06 07:29-0500\n"
 "Last-Translator: Nilo Velez <nilovelez@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/avada/"
 "language/es_ES/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: includes/metaboxes/tabs/tab_template.php:159
 msgid "404"
-msgstr ""
+msgstr "404"
 
 # @ Avada
 #: 404.php:20
@@ -95,8 +95,8 @@ msgstr "Un comentario"
 #: comments.php:32
 msgid "% Comment"
 msgid_plural "% Comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "% Comentario"
+msgstr[1] "% Comentarios"
 
 # @ Avada
 #: comments.php:46 includes/class-avada-layout-bbpress.php:224
@@ -207,7 +207,7 @@ msgstr "Publicar comentario"
 
 #: header.php:42
 msgid "Skip to content"
-msgstr ""
+msgstr "Saltar al contenido"
 
 #. translators: %1$s: "System Status" link. %2$s: "View more info here" link.
 #: includes/admin-screens/demos.php:35
@@ -233,7 +233,7 @@ msgstr ""
 
 #: includes/admin-screens/demos.php:41
 msgid "IMPORTANT:"
-msgstr ""
+msgstr "IMPORTANTE:"
 
 # @ Avada
 #: includes/admin-screens/demos.php:42 includes/admin-screens/plugins.php:85
@@ -268,11 +268,11 @@ msgstr "FAQs"
 
 #: includes/admin-screens/demos.php:113
 msgid "Layouts"
-msgstr ""
+msgstr "Diseños"
 
 #: includes/admin-screens/demos.php:119
 msgid "Icons"
-msgstr ""
+msgstr "Iconos"
 
 # @ Avada
 #: includes/admin-screens/demos.php:125
@@ -319,22 +319,22 @@ msgstr "Widgets"
 
 #: includes/admin-screens/demos.php:173
 msgid "Filter Demos"
-msgstr ""
+msgstr "Filtrar Demos"
 
 #: includes/admin-screens/demos.php:174
 #: includes/lib/inc/fusion-app/templates/options/import.php:45
 msgid "Search Demos"
-msgstr ""
+msgstr "Buscar Demos"
 
 #. translators: Number of all demos.
 #: includes/admin-screens/demos.php:181
 msgid "All Demos %s"
-msgstr ""
+msgstr "Todos los Demos %s"
 
 #. Translators: Tag name (string), Tag count (number)
 #: includes/admin-screens/demos.php:194
 msgid "%1$s %2$s"
-msgstr ""
+msgstr "%1$s %2$s"
 
 # @ Avada
 #: includes/admin-screens/demos.php:237
@@ -544,7 +544,7 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:86
 msgid "Plugin Installation"
-msgstr ""
+msgstr "Instalación del Plugin"
 
 #: includes/admin-screens/plugins.php:87
 msgid "Support Dashboard"
@@ -582,7 +582,7 @@ msgstr "Vista el soporte al cliente premium"
 
 #: includes/admin-screens/plugins.php:224
 msgid "Error "
-msgstr ""
+msgstr "Error "
 
 # @ Avada
 #: includes/admin-screens/registration.php:20
@@ -598,6 +598,9 @@ msgid ""
 "have access to the Avada demos, auto theme updates and included premium "
 "plugins."
 msgstr ""
+"Gracias por escoger Avada! Su producto ya está registrado, entonces tiene "
+"acceso a los Demos de Avada, auto actualizaciones del tema y los plugins "
+"premium incluidos."
 
 #: includes/admin-screens/registration.php:28
 msgid ""
@@ -2035,7 +2038,7 @@ msgstr "Registrar"
 #. translators: Number of items.
 #: includes/avada-functions.php:543
 msgid "%s Item(s)"
-msgstr "%s item(s)"
+msgstr "%s Artículo(s)"
 
 # @ Avada
 #: includes/avada-functions.php:545
@@ -2107,11 +2110,11 @@ msgstr ""
 
 #: includes/avada-functions.php:1524
 msgid "Secondary Mobile Menu"
-msgstr ""
+msgstr "Menú movil secundario"
 
 #: includes/avada-functions.php:1527
 msgid "Secondary Menu"
-msgstr ""
+msgstr "Menú secundario"
 
 # @ Avada
 #: includes/avada-functions.php:1612 includes/avada-functions.php:1640
@@ -2388,7 +2391,7 @@ msgstr "Registro"
 
 #: includes/class-avada-admin.php:544 includes/class-avada-admin.php:700
 msgid "Support / FAQ"
-msgstr ""
+msgstr "Soporte / FAQ"
 
 # @ Avada
 #: includes/class-avada-admin.php:640
@@ -4639,11 +4642,14 @@ msgid ""
 "Controls mobile content alignment for this widget container. Inherit means "
 "it will inherit alignment from its parent element."
 msgstr ""
+"Controla la alineación de contenido en móviles para este contenedor de "
+"widgets. Heredar significa que heredará la alineación de su elemento "
+"primario."
 
 #: includes/class-avada-widget-style.php:349
 #: includes/class-avada-widget-style.php:356
 msgid "Avada Widget Options"
-msgstr ""
+msgstr "Opciones de Widget de Avada"
 
 #: includes/class-avada-widget-style.php:358
 msgid "These options apply to the widget container, not the actual widget."
@@ -4657,8 +4663,8 @@ msgstr "Panel de Control"
 #: includes/class-avada-woocommerce.php:1288
 msgid "You Have %s Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tu tienes %s artículo en tu carrito"
+msgstr[1] "Tu tienes %s artículos en tu carrito"
 
 # @ Avada
 #: includes/class-avada-woocommerce.php:1414
@@ -4673,6 +4679,10 @@ msgid ""
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
 "for the main shop page</a> from Avada theme options panel."
 msgstr ""
+"Puede controlar la <a href=\"%1$s\" target=\"_blank\">cantidad de productos "
+"por página</a> y el <a href=\"%2$s\" target=\"_blank\">número de columnas "
+"para la página principal de la tienda</a> desde el panel de opciones del "
+"tema de Avada."
 
 #: includes/class-fusion-builder-demos-theme-options.php:130
 msgid "Select Demo"
@@ -4946,7 +4956,7 @@ msgstr "Entradas que deben ser revertidas: %s"
 #. translators: Number.
 #: includes/class-fusion-builder-migrate.php:1214
 msgid "Remaining items to convert: %s"
-msgstr "Artículos restantes para convertir: %s"
+msgstr "Elementos restantes para convertir: %s"
 
 #. translators: Number.
 #: includes/class-fusion-builder-migrate.php:1217
@@ -6156,15 +6166,15 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:204
 msgid "Delete item"
-msgstr ""
+msgstr "Borrar elemento"
 
 #: includes/lib/inc/fusion-app/helpers.php:205
 msgid "Clone item"
-msgstr ""
+msgstr "Clonar elemento"
 
 #: includes/lib/inc/fusion-app/helpers.php:206
 msgid "Edit item"
-msgstr ""
+msgstr "Editar elemento"
 
 #. translators: Element settings.
 #: includes/lib/inc/fusion-app/helpers.php:209
@@ -6360,7 +6370,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:261
 msgid "Add / Edit Items"
-msgstr ""
+msgstr "Add / Edit Items"
 
 #: includes/lib/inc/fusion-app/helpers.php:262
 msgid ""
@@ -6489,7 +6499,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:295
 msgid "Edit Settings"
-msgstr ""
+msgstr "Editar configuraciones"
 
 #: includes/lib/inc/fusion-app/helpers.php:296
 msgid "Backward History"
@@ -6497,7 +6507,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:297
 msgid "Duplicate Content"
-msgstr ""
+msgstr "Duplicar contenido"
 
 #: includes/lib/inc/fusion-app/helpers.php:298
 msgid "Forward History"
@@ -6505,15 +6515,15 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:299
 msgid "Save Custom Content"
-msgstr ""
+msgstr "Guardar contenido personalizado"
 
 #: includes/lib/inc/fusion-app/helpers.php:300
 msgid "Delete Content"
-msgstr ""
+msgstr "Borrar contenido"
 
 #: includes/lib/inc/fusion-app/helpers.php:301
 msgid "Add Content"
-msgstr ""
+msgstr "Añadir contenido"
 
 #: includes/lib/inc/fusion-app/helpers.php:302
 msgid "Click the ? icon to view additional documentation"
@@ -6529,7 +6539,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:305
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #: includes/lib/inc/fusion-app/helpers.php:306
 msgid "Collapse Sections"
@@ -6541,7 +6551,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:308
 msgid "Start"
-msgstr ""
+msgstr "Inicio"
 
 #: includes/lib/inc/fusion-app/helpers.php:309
 msgid "Moved Column"
@@ -6565,24 +6575,24 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:314
 msgid "Deleted"
-msgstr ""
+msgstr "Borrado"
 
 #: includes/lib/inc/fusion-app/helpers.php:315
 msgid "Cloned"
-msgstr ""
+msgstr "Clonado"
 
 #: includes/lib/inc/fusion-app/helpers.php:316
 #: includes/lib/inc/fusion-app/helpers.php:317
 msgid "Pasted"
-msgstr ""
+msgstr "Pegado"
 
 #: includes/lib/inc/fusion-app/helpers.php:318
 msgid "Moved"
-msgstr ""
+msgstr "Movido"
 
 #: includes/lib/inc/fusion-app/helpers.php:319
 msgid "Edited"
-msgstr ""
+msgstr "Editado"
 
 #: includes/lib/inc/fusion-app/helpers.php:320
 #: includes/lib/inc/fusion-app/templates/modal-dialog-more.php:37
@@ -6611,7 +6621,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:326
 msgid "Currency"
-msgstr ""
+msgstr "Moneda"
 
 # @ Avada
 # @ woocommerce
@@ -6623,19 +6633,19 @@ msgstr "Precio"
 
 #: includes/lib/inc/fusion-app/helpers.php:328
 msgid "Period"
-msgstr ""
+msgstr "Periodo"
 
 #: includes/lib/inc/fusion-app/helpers.php:329
 msgid "Enter Text"
-msgstr ""
+msgstr "Ingresar texto"
 
 #: includes/lib/inc/fusion-app/helpers.php:330
 msgid "Added"
-msgstr ""
+msgstr "Adicionado"
 
 #: includes/lib/inc/fusion-app/helpers.php:331
 msgid "Added Container"
-msgstr ""
+msgstr "Contenedor adicionado"
 
 #: includes/lib/inc/fusion-app/helpers.php:332
 msgid "Cloned Nested Columns"
@@ -6643,7 +6653,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:333
 msgid "Content Imported"
-msgstr ""
+msgstr "Contenido importado"
 
 #: includes/lib/inc/fusion-app/helpers.php:334
 msgid "Visually create your table below, add or remove rows and columns"
@@ -6651,11 +6661,11 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:335
 msgid "Add Column"
-msgstr ""
+msgstr "Adicionar columna"
 
 #: includes/lib/inc/fusion-app/helpers.php:336
 msgid "Add Row"
-msgstr ""
+msgstr "Adicionar fila"
 
 #: includes/lib/inc/fusion-app/helpers.php:338
 msgid "Standout"
@@ -6663,15 +6673,15 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:339
 msgid "Add Button"
-msgstr ""
+msgstr "Adicionar botón"
 
 #: includes/lib/inc/fusion-app/helpers.php:342
 msgid "Table Options"
-msgstr ""
+msgstr "Tabla de opciones"
 
 #: includes/lib/inc/fusion-app/helpers.php:343
 msgid "Table"
-msgstr ""
+msgstr "Tabla"
 
 #: includes/lib/inc/fusion-app/helpers.php:344
 msgid "Toggle All Containers"
@@ -6679,11 +6689,11 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:345
 msgid "Cloned Container"
-msgstr ""
+msgstr "Contenedor clonado"
 
 #: includes/lib/inc/fusion-app/helpers.php:346
 msgid "Deleted Container"
-msgstr ""
+msgstr "Contenedor borrado"
 
 # @ Avada
 #: includes/lib/inc/fusion-app/helpers.php:347
@@ -6693,38 +6703,40 @@ msgstr "Imagen"
 
 #: includes/lib/inc/fusion-app/helpers.php:348
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: includes/lib/inc/fusion-app/helpers.php:349
 #: includes/lib/inc/fusion-app/helpers.php:350
 msgid "Select Image"
-msgstr ""
+msgstr "Seleccionar imagen"
 
 #: includes/lib/inc/fusion-app/helpers.php:351
 msgid "Select Images"
-msgstr ""
+msgstr "Imagenes seleccionadas"
 
 #: includes/lib/inc/fusion-app/helpers.php:352
 msgid "Select Video"
-msgstr ""
+msgstr "Seleccionar video"
 
 #: includes/lib/inc/fusion-app/helpers.php:353
 msgid "Select Audio"
-msgstr ""
+msgstr "Seleccionar video"
 
 #: includes/lib/inc/fusion-app/helpers.php:354
 msgid "Select Icon"
-msgstr ""
+msgstr "Seleccionar icono"
 
 #: includes/lib/inc/fusion-app/helpers.php:356
 msgid "To Add Elements, You Must First Add a Column"
-msgstr ""
+msgstr "Para adicionar elementos, primero tiene que adicionar una columna"
 
 #: includes/lib/inc/fusion-app/helpers.php:357
 msgid ""
 "This is an empty container with a background image. To add elements, you "
 "must first add a column"
 msgstr ""
+"Este es un contenedor vacío con una imagen de fondo. Para adicionar "
+"elementos, tu tienes que adicionar primero una columna"
 
 #. translators: Child element name.
 #: includes/lib/inc/fusion-app/helpers.php:359
@@ -6776,15 +6788,15 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:370
 msgid "Moved Container"
-msgstr ""
+msgstr "Contenedor movido"
 
 #: includes/lib/inc/fusion-app/helpers.php:371
 msgid "Before"
-msgstr ""
+msgstr "Antes"
 
 #: includes/lib/inc/fusion-app/helpers.php:372
 msgid "After"
-msgstr ""
+msgstr "Despues"
 
 #: includes/lib/inc/fusion-app/helpers.php:373
 msgid "Delete Next Page Divider"
@@ -6796,7 +6808,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:375
 msgid "Drag Element"
-msgstr ""
+msgstr "Arrastrar elemento"
 
 #: includes/lib/inc/fusion-app/helpers.php:376
 msgid "Deleted Next Page Divider"
@@ -6808,11 +6820,11 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:378
 msgid "Next Page"
-msgstr ""
+msgstr "Siguiente página"
 
 #: includes/lib/inc/fusion-app/helpers.php:379
 msgid "Special"
-msgstr ""
+msgstr "Especial"
 
 #: includes/lib/inc/fusion-app/helpers.php:380
 msgid "Special Items"
@@ -6826,23 +6838,23 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:382
 msgid "Select Link"
-msgstr ""
+msgstr "Seleciona enlace"
 
 #: includes/lib/inc/fusion-app/helpers.php:383
 msgid "Color palette options"
-msgstr ""
+msgstr "Opciones de paleta de color"
 
 #: includes/lib/inc/fusion-app/helpers.php:386
 msgid "Legend Value Text Color"
-msgstr ""
+msgstr "Valor del color del texto de la leyenda"
 
 #: includes/lib/inc/fusion-app/helpers.php:387
 msgid "Enter Value"
-msgstr ""
+msgstr "Ingresa valor"
 
 #: includes/lib/inc/fusion-app/helpers.php:388
 msgid "Legend Label"
-msgstr ""
+msgstr "Etiqueta de la leyenda"
 
 #: includes/lib/inc/fusion-app/helpers.php:389
 msgid "X Axis Label"
@@ -6851,7 +6863,7 @@ msgstr ""
 #. translators: Search type.
 #: includes/lib/inc/fusion-app/helpers.php:391
 msgid "Search %s"
-msgstr ""
+msgstr "Buscar %s"
 
 #: includes/lib/inc/fusion-app/helpers.php:392
 msgid "Chart Background Color"
@@ -7089,15 +7101,15 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:452
 msgid "I agree"
-msgstr ""
+msgstr "Acepto"
 
 #: includes/lib/inc/fusion-app/helpers.php:453
 msgid "Are you sure?"
-msgstr ""
+msgstr "Estás seguro?"
 
 #: includes/lib/inc/fusion-app/helpers.php:454
 msgid "I'm sure"
-msgstr ""
+msgstr "Estoy seguro"
 
 #: includes/lib/inc/fusion-app/helpers.php:455
 msgid "Ok"
@@ -7113,7 +7125,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:458
 msgid "Align text"
-msgstr ""
+msgstr "Alinear texto"
 
 #: includes/lib/inc/fusion-app/helpers.php:459
 msgid "Align left"
@@ -7142,7 +7154,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:465
 msgid "Accept"
-msgstr ""
+msgstr "Aceptar"
 
 # @ Avada
 #: includes/lib/inc/fusion-app/helpers.php:466
@@ -7152,7 +7164,7 @@ msgstr "Tipografía"
 
 #: includes/lib/inc/fusion-app/helpers.php:468
 msgid "Family"
-msgstr ""
+msgstr "Familia"
 
 #: includes/lib/inc/fusion-app/helpers.php:469
 msgid "Tag"
@@ -7184,7 +7196,7 @@ msgstr "Espacio entre letras"
 #: includes/lib/inc/fusion-app/templates/options/font-family.php:82
 #: includes/lib/inc/fusion-app/templates/options/typography.php:82
 msgid "Variant"
-msgstr ""
+msgstr "Variante"
 
 #: includes/lib/inc/fusion-app/helpers.php:474
 #: includes/lib/inc/fusion-app/templates/options/font-family.php:53
@@ -7207,7 +7219,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:479
 msgid "Delete All"
-msgstr ""
+msgstr "Borrar todo"
 
 # @ bbpress
 # @ Avada
@@ -7256,7 +7268,7 @@ msgstr "Añadir %s"
 
 #: includes/lib/inc/fusion-app/helpers.php:490
 msgid "Link Options"
-msgstr ""
+msgstr "Opciones de enlace"
 
 #: includes/lib/inc/fusion-app/helpers.php:491
 msgid "Open Link in New Tab"
@@ -7284,7 +7296,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:498
 msgid "Search Results"
-msgstr ""
+msgstr "Resultados de búsqueda"
 
 #: includes/lib/inc/fusion-app/helpers.php:499
 msgid "Page Save Incomplete"
@@ -7312,7 +7324,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:505
 msgid "Enter value"
-msgstr ""
+msgstr "Ingresa valor"
 
 #: includes/lib/inc/fusion-app/helpers.php:506
 msgid "Import Failed"
@@ -7326,7 +7338,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:508
 msgid "Saved"
-msgstr ""
+msgstr "Guardado"
 
 #: includes/lib/inc/fusion-app/helpers.php:509
 msgid "As global"
@@ -7346,7 +7358,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:514
 msgid "Other"
-msgstr ""
+msgstr "Otro"
 
 #: includes/lib/inc/fusion-app/helpers.php:515
 msgid "Dynamic Data"
@@ -7363,7 +7375,7 @@ msgstr ""
 #: includes/lib/inc/fusion-app/helpers.php:518
 #: includes/metaboxes/metaboxes.php:1030
 msgid "Add New"
-msgstr ""
+msgstr "Adicionar nuevo"
 
 #: includes/lib/inc/fusion-app/helpers.php:519
 #: includes/lib/inc/redux/extensions/repeater/repeater/field_repeater.php:252
@@ -7372,7 +7384,7 @@ msgstr "Añadir"
 
 #: includes/lib/inc/fusion-app/helpers.php:520
 msgid "Separate with Commas"
-msgstr ""
+msgstr "Separar con comas"
 
 # @ Avada
 #: includes/lib/inc/fusion-app/helpers.php:526
@@ -7410,7 +7422,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:28
 msgid "Exit"
-msgstr ""
+msgstr "Salir"
 
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:34
 msgid "Exit to page front-end"
@@ -7427,7 +7439,7 @@ msgstr ""
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:56
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:58
 msgid "Publish"
-msgstr ""
+msgstr "Publicar"
 
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:64
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:66
@@ -7445,7 +7457,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:117
 msgid "Help Center"
-msgstr ""
+msgstr "Centro de ayuda"
 
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:123
 msgid "Shortcuts"
@@ -7506,7 +7518,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/ajax-select.php:61
 msgid "No search results"
-msgstr ""
+msgstr "No hay resultados de búsqueda"
 
 # @ Avada
 #: includes/lib/inc/fusion-app/templates/options/export.php:18
@@ -7549,7 +7561,7 @@ msgstr "Introduce un nombre"
 #: includes/metaboxes/tabs/tab_avada_page_options.php:30
 #: includes/metaboxes/tabs/tab_avada_page_options.php:36
 msgid "Save Page Options"
-msgstr ""
+msgstr "Guardar opciones de página"
 
 #: includes/lib/inc/fusion-app/templates/options/font-family.php:24
 #: includes/lib/inc/fusion-app/templates/options/typography.php:24
@@ -7573,7 +7585,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/import.php:39
 msgid "Select a Demo"
-msgstr ""
+msgstr "Seleciona un demo"
 
 #: includes/lib/inc/fusion-app/templates/options/import.php:63
 #: includes/lib/inc/fusion-app/templates/options/import.php:69
@@ -7594,12 +7606,12 @@ msgstr ""
 #: includes/lib/inc/fusion-app/templates/options/sortable-text.php:24
 #: includes/lib/inc/fusion-app/templates/options/sortable-text.php:35
 msgid "Move Row"
-msgstr ""
+msgstr "Mover fila"
 
 #: includes/lib/inc/fusion-app/templates/options/sortable-text.php:27
 #: includes/lib/inc/fusion-app/templates/options/sortable-text.php:38
 msgid "Remove Row"
-msgstr ""
+msgstr "Remover fila"
 
 #: includes/lib/inc/fusion-app/templates/options/typography.php:16
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:228
@@ -7640,15 +7652,15 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/typography.php:161
 msgid "Uppercase"
-msgstr ""
+msgstr "Mayúscula"
 
 #: includes/lib/inc/fusion-app/templates/options/typography.php:162
 msgid "Lowercase"
-msgstr ""
+msgstr "Minúscula"
 
 #: includes/lib/inc/fusion-app/templates/options/typography.php:163
 msgid "Initial"
-msgstr ""
+msgstr "Inicial"
 
 #: includes/lib/inc/fusion-app/templates/options/typography.php:176
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:483
@@ -9654,7 +9666,7 @@ msgstr "Examinar"
 
 #: includes/metaboxes/metaboxes.php:1031
 msgid "Repeater Row"
-msgstr ""
+msgstr "Repetir fila"
 
 # @ Avada
 #: includes/metaboxes/options/options_es.php:18
@@ -10210,7 +10222,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_avada_page_options.php:43
 msgid "Manage Page Options"
-msgstr ""
+msgstr "Manegar opciones de página"
 
 #: includes/metaboxes/tabs/tab_avada_page_options.php:44
 msgid ""
@@ -10246,7 +10258,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_portfolio_post.php:74
 #: includes/metaboxes/tabs/tab_post.php:44
 msgid "Show First Featured Image"
-msgstr ""
+msgstr "Mostrar primera imagen destacada"
 
 #: includes/metaboxes/tabs/tab_content.php:115
 msgid "Show the 1st featured image on page."
@@ -11237,7 +11249,7 @@ msgstr "Características del tema"
 
 #: includes/options/advanced.php:91
 msgid "Enable Language Updates"
-msgstr ""
+msgstr "Activa actualizaciones del lenguaje"
 
 #: includes/options/advanced.php:92
 msgid ""
@@ -11369,11 +11381,11 @@ msgstr ""
 
 #: includes/options/advanced.php:389
 msgid "Desktop"
-msgstr ""
+msgstr "Escritorio"
 
 #: includes/options/advanced.php:390
 msgid "Mobile"
-msgstr ""
+msgstr "Movil"
 
 #: includes/options/advanced.php:426
 msgid "Turn on to enable the fusion slider."
@@ -11506,11 +11518,11 @@ msgstr "Fondo"
 
 #: includes/options/background.php:34
 msgid "Page Background"
-msgstr ""
+msgstr "Fondo de página"
 
 #: includes/options/background.php:42
 msgid "Select an image to use for a full page background."
-msgstr ""
+msgstr "Selecciona una imagen para usar para un fondo de página completa."
 
 #: includes/options/background.php:72
 msgid ""
@@ -11570,7 +11582,7 @@ msgstr "Color de Fondo del Contenido Principal"
 # @ Avada
 #: includes/options/background.php:260
 msgid "Controls the background color of the main content area."
-msgstr "Controla el color de fondo del área del contenido principal"
+msgstr "Controla el color de fondo del área del contenido principal."
 
 # @ Avada
 #: includes/options/background.php:287
@@ -11814,7 +11826,7 @@ msgstr ""
 
 #: includes/options/blog.php:302 includes/options/search.php:411
 msgid "Number of Columns"
-msgstr ""
+msgstr "Número de columnas"
 
 #: includes/options/blog.php:303
 msgid ""
@@ -12393,7 +12405,7 @@ msgstr ""
 
 #: includes/options/colors.php:160
 msgid "Color Palette"
-msgstr ""
+msgstr "Paleta de color"
 
 #: includes/options/colors.php:161
 msgid "Sets color picker's palette colors throughout the theme."
@@ -12478,7 +12490,7 @@ msgstr ""
 
 #: includes/options/contact.php:85
 msgid "Edit Contact Form"
-msgstr ""
+msgstr "Edita formulario de contacto"
 
 #: includes/options/contact.php:94
 msgid "Display Data Privacy Confirmation Box"
@@ -12523,11 +12535,11 @@ msgstr ""
 
 #: includes/options/contact.php:135
 msgid "V2"
-msgstr ""
+msgstr "V2"
 
 #: includes/options/contact.php:136
 msgid "V3"
-msgstr ""
+msgstr "V3"
 
 # @ Avada
 #: includes/options/contact.php:141
@@ -12658,7 +12670,7 @@ msgstr ""
 
 #: includes/options/contact.php:299
 msgid "Address"
-msgstr ""
+msgstr "Dirección"
 
 #: includes/options/contact.php:300
 msgid ""
@@ -12670,11 +12682,11 @@ msgstr ""
 
 #: includes/options/contact.php:314
 msgid "Map Type"
-msgstr ""
+msgstr "Tipo de mapa"
 
 #: includes/options/contact.php:315
 msgid "Select the type of google map to display."
-msgstr ""
+msgstr "Selecciona el tipo de mapa de google para mostrar."
 
 #: includes/options/contact.php:320 includes/options/contact.php:359
 msgid "Roadmap"
@@ -16294,7 +16306,7 @@ msgstr ""
 
 #: includes/options/performance.php:57
 msgid "Performance"
-msgstr ""
+msgstr "Rendimiento"
 
 #: includes/options/performance.php:65
 msgid "WordPress jpeg Quality"
@@ -16414,7 +16426,7 @@ msgstr ""
 
 #: includes/options/performance.php:162
 msgid "Enable CSS Variables"
-msgstr ""
+msgstr "Habilita variables CSS"
 
 #. translators: Link properties.
 #: includes/options/performance.php:165
@@ -16595,7 +16607,7 @@ msgstr ""
 
 #: includes/options/performance.php:311
 msgid "Fullscreen"
-msgstr ""
+msgstr "Pantalla completa"
 
 #: includes/options/performance.php:312
 msgid "Standalone"
@@ -16945,7 +16957,7 @@ msgstr "Activa para mostrar comentarios en los post del portfolio."
 
 #: includes/options/privacy.php:32
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidad"
 
 #: includes/options/privacy.php:40
 msgid ""
