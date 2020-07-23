@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2020-07-21 11:16:51+00:00\n"
+"POT-Creation-Date: 2020-07-23 11:23:51+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:02+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Slovenian\n"
@@ -121,7 +121,7 @@ msgstr ""
 msgid "Email (required)"
 msgstr ""
 
-#: comments.php:70 includes/lib/inc/class-fusion-social-icon.php:186
+#: comments.php:70 includes/lib/inc/class-fusion-social-icon.php:192
 #: includes/options/social_media.php:1056
 #: includes/options/social_media.php:1058
 msgid "Email"
@@ -213,6 +213,7 @@ msgid "Link to product registration"
 msgstr ""
 
 #: includes/admin-screens/dashboard.php:81
+#: includes/lib/inc/class-fusion-product-registration.php:405
 msgid "Register Your Product"
 msgstr ""
 
@@ -434,7 +435,7 @@ msgstr ""
 #: includes/class-avada-admin.php:216 includes/class-avada-admin.php:408
 #: includes/class-avada-admin.php:598
 #: includes/class-avada-tgm-plugin-activation.php:2617
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:306
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:310
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:323
 msgid "Status"
 msgstr ""
@@ -1591,7 +1592,7 @@ msgstr ""
 
 #: includes/avada-app/class-fusion-panel.php:783
 #: includes/class-avada-nav-walker-megamenu.php:209
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:305
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:309
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:149
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:204
 #: woocommerce/single-product/tabs/description.php:16
@@ -1865,7 +1866,7 @@ msgid "Toggle Shopping Cart"
 msgstr ""
 
 #: includes/avada-functions.php:710
-#: includes/lib/inc/class-fusion-nav-walker.php:1043 templates/header-v6.php:30
+#: includes/lib/inc/class-fusion-nav-walker.php:1053 templates/header-v6.php:30
 #: templates/menu-mobile-flyout.php:21 templates/menu-mobile-modern.php:30
 msgid "Toggle Sliding Bar"
 msgstr ""
@@ -2106,7 +2107,7 @@ msgid ""
 msgstr ""
 
 #: includes/bootstrap.php:572
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:255
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:259
 msgid "Avada Patcher"
 msgstr ""
 
@@ -3291,35 +3292,35 @@ msgstr ""
 msgid "Styles"
 msgstr ""
 
-#: includes/class-avada-scripts.php:728 templates/wc-show-details-button.php:20
+#: includes/class-avada-scripts.php:729 templates/wc-show-details-button.php:20
 msgid "Details"
 msgstr ""
 
-#: includes/class-avada-scripts.php:731
+#: includes/class-avada-scripts.php:732
 msgid "Not all fields have been filled in correctly."
 msgstr ""
 
-#: includes/class-avada-scripts.php:788
+#: includes/class-avada-scripts.php:789
 msgid "No search results match your query. Please try again"
 msgstr ""
 
-#: includes/class-avada-scripts.php:835
+#: includes/class-avada-scripts.php:836
 msgid "Go to..."
 msgstr ""
 
-#: includes/class-avada-scripts.php:836
+#: includes/class-avada-scripts.php:837
 msgid "Shopping Cart"
 msgstr ""
 
 #. Translators: The submenu title.
 #. Translators: The menu item title.
-#: includes/class-avada-scripts.php:838
-#: includes/lib/inc/class-fusion-nav-walker.php:853
+#: includes/class-avada-scripts.php:839
+#: includes/lib/inc/class-fusion-nav-walker.php:863
 msgid "Open submenu of %s"
 msgstr ""
 
 #. Translators: The submenu title.
-#: includes/class-avada-scripts.php:840
+#: includes/class-avada-scripts.php:841
 msgid "Close submenu of %s"
 msgstr ""
 
@@ -3745,7 +3746,7 @@ msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:383
+#: includes/class-avada-upgrade.php:384
 msgid "Dismiss this notice"
 msgstr ""
 
@@ -3998,7 +3999,7 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: includes/class-avada-upgrade.php:382
+#: includes/class-avada-upgrade.php:383
 msgid "View Changelog"
 msgstr ""
 
@@ -4684,44 +4685,49 @@ msgstr ""
 msgid "Email Address"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:166
-#: includes/lib/inc/class-fusion-social-icon.php:192
+#: includes/lib/inc/class-fusion-data.php:162
+#: includes/lib/inc/class-fusion-social-icon.php:194
+msgid "Phone"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-data.php:170
+#: includes/lib/inc/class-fusion-social-icon.php:200
 msgid "Custom"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:388
+#: includes/lib/inc/class-fusion-data.php:392
 msgid "Thin (100)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:389
+#: includes/lib/inc/class-fusion-data.php:393
 msgid "Extra Light (200)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:390
+#: includes/lib/inc/class-fusion-data.php:394
 msgid "Light (300)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:391
+#: includes/lib/inc/class-fusion-data.php:395
 msgid "Normal (400)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:392
+#: includes/lib/inc/class-fusion-data.php:396
 msgid "Medium (500)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:393
+#: includes/lib/inc/class-fusion-data.php:397
 msgid "Semi Bold (600)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:394
+#: includes/lib/inc/class-fusion-data.php:398
 msgid "Bold (700)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:395
+#: includes/lib/inc/class-fusion-data.php:399
 msgid "Bolder (800)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-data.php:396
+#: includes/lib/inc/class-fusion-data.php:400
 msgid "Extra Bold (900)"
 msgstr ""
 
@@ -4899,49 +4905,49 @@ msgstr ""
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-nav-walker.php:886
+#: includes/lib/inc/class-fusion-nav-walker.php:896
 msgid "Show Cart Contents"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-nav-walker.php:973
+#: includes/lib/inc/class-fusion-nav-walker.php:983
 msgid "Open Profile Submenu"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-nav-walker.php:1011
+#: includes/lib/inc/class-fusion-nav-walker.php:1021
 msgid "Expand Search"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:256
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:260
 msgid ""
 "The Patcher allows you to apply small fixes to your site between Avada "
 "releases, thereby keeping your site up to date."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:261
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:265
 msgid "Learn more about the Patcher."
 msgstr ""
 
 #. translators: The product name and its version.
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:271
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:275
 msgid "Patches: Currently there are no patches available for %1$s %2$s"
 msgstr ""
 
 #. translators: The product name and its version.
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:274
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:278
 msgid "Patches: The following patches are available for %1$s %2$s"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:279
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:283
 msgid ""
 "The status column displays if a patch was applied. However, a patch can be "
 "reapplied if necessary."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:297
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:301
 msgid "Patch #"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:300
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:304
 #: includes/metaboxes/metaboxes.php:499 templates/wc-view-order.php:31
 #: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:51
 #: woocommerce/checkout/form-pay.php:29
@@ -4949,32 +4955,32 @@ msgstr ""
 msgid "Product"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:302
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:306
 msgid "Issue Date"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:387
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:392
 msgid "Patch Applied"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:389
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:394
 msgid "Apply Patch"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:391
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:396
 msgid "Dismiss Notices"
 msgstr ""
 
 #. translators: The patch-ID.
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:399
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:404
 msgid "Please apply patch #%s first."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-admin-screen.php:401
+#: includes/lib/inc/class-fusion-patcher-admin-screen.php:406
 msgid "Patch cannot be currently aplied."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-client.php:106
+#: includes/lib/inc/class-fusion-patcher-client.php:112
 msgid ""
 "The ThemeFusion patches server could not be reached. Please contact your "
 "host to unblock the \"https://updates.theme-fusion.com/\" domain."
@@ -5052,10 +5058,6 @@ msgstr ""
 msgid ""
 "We will never collect any confidential data such as IP, email addresses or "
 "usernames."
-msgstr ""
-
-#: includes/lib/inc/class-fusion-product-registration.php:405
-msgid "Register Your Purchase"
 msgstr ""
 
 #: includes/lib/inc/class-fusion-product-registration.php:408
