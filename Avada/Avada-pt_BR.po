@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2020-07-23 11:23:51+00:00\n"
-"PO-Revision-Date: 2020-07-24 10:46+0200\n"
+"PO-Revision-Date: 2020-07-31 10:30+0200\n"
 "Last-Translator: Jonathan Pereira\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
 "avada/language/pt_BR/)\n"
@@ -3242,7 +3242,7 @@ msgstr ""
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:83
 #: includes/options/colors.php:178 includes/options/colors.php:234
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: includes/class-avada-migrate.php:240
 msgid "Avada Theme Option Migration"
@@ -3749,7 +3749,7 @@ msgstr ""
 
 #: includes/class-avada-taxonomy-meta.php:342 includes/options/header.php:999
 msgid "Header Background Color"
-msgstr ""
+msgstr "Cor de fundo do cabeçalho"
 
 #. translators: Additional description (defaults).
 #: includes/class-avada-taxonomy-meta.php:344
@@ -4522,7 +4522,7 @@ msgstr "Esquerda"
 #: includes/options/social_media.php:236 includes/options/social_media.php:463
 #: includes/options/social_media.php:747
 msgid "Right"
-msgstr "Lado Direito"
+msgstr "Direita"
 
 # @ Avada
 #: includes/class-avada-widget-style.php:227
@@ -9719,7 +9719,7 @@ msgstr ""
 #: includes/options/footer.php:379 includes/options/header.php:668
 #: includes/options/page_title_bar.php:424
 msgid "100% Background Image"
-msgstr "Imagem de Fundo 100%"
+msgstr "Imagem de fundo 100%"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_content.php:176
@@ -9746,14 +9746,14 @@ msgstr "Ladrilhar"
 #: includes/metaboxes/tabs/tab_header.php:166
 #: includes/metaboxes/tabs/tab_page.php:112
 msgid "Tile Horizontally"
-msgstr "Ladrilhar Horizontalmente"
+msgstr "Ladrilhar horizontalmente"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_content.php:202
 #: includes/metaboxes/tabs/tab_header.php:167
 #: includes/metaboxes/tabs/tab_page.php:113
 msgid "Tile Vertically"
-msgstr "Ladrilhar Verticalmente"
+msgstr "Ladrilhar verticalmente"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_content.php:203
@@ -9801,7 +9801,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/tabs/tab_footer.php:87 includes/options/footer.php:469
 msgid "100% Footer Width"
-msgstr "Largura Completa do Rodapé"
+msgstr "Rodapé com largura de 100%"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_footer.php:94
@@ -9814,7 +9814,7 @@ msgstr ""
 #. translators: The edit link. Text of link is the title.
 #: includes/metaboxes/tabs/tab_header.php:63
 msgid "Display Header"
-msgstr "Exibir Cabeçalho"
+msgstr "Exibir cabeçalho"
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:69
@@ -9824,7 +9824,7 @@ msgstr "Escolha para mostrar ou ocultar o cabeçalho."
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:75 includes/options/header.php:965
 msgid "100% Header Width"
-msgstr "Largura Completa do Cabeçalho"
+msgstr "Cabeçalho com largura de 100%"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_header.php:83
@@ -10760,7 +10760,7 @@ msgstr ""
 #: includes/options/advanced.php:453 includes/options/colors.php:81
 #: includes/options/extra.php:1094 includes/options/lightbox.php:79
 msgid "Light"
-msgstr "Lado Direito"
+msgstr "Claro"
 
 #: includes/options/advanced.php:459
 msgid "Font Awesome v4 Compatibility"
@@ -11608,6 +11608,9 @@ msgid ""
 "Additional color options for specific areas, can be found within other tabs. "
 "Example: For menu color options go to the menu tab."
 msgstr ""
+"<strong>NOTA IMPORTANTE:</strong> Esta aba contém opções gerais de cores. "
+"Opções de cores adicionais para áreas específicas podem ser encontradas em "
+"outras abas. Exemplo: Para opções de cores do menu, vá para a aba Menu."
 
 # @ Avada
 #: includes/options/colors.php:41
@@ -11616,11 +11619,11 @@ msgstr "Cor Primária"
 
 #: includes/options/colors.php:42
 msgid "Controls the main highlight color throughout the theme."
-msgstr ""
+msgstr "Controla a cor principal de destaque em todo o tema."
 
 #: includes/options/colors.php:74
 msgid "Predefined Theme Skin"
-msgstr ""
+msgstr "Skin pré-definida do tema"
 
 #: includes/options/colors.php:75
 msgid ""
@@ -11635,7 +11638,7 @@ msgstr ""
 #: includes/options/colors.php:86 includes/options/extra.php:1095
 #: includes/options/lightbox.php:80
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 # @ Avada
 #: includes/options/colors.php:93
@@ -11650,6 +11653,11 @@ msgid ""
 "to import a custom scheme. To delete or export a scheme, you must first have "
 "a custom scheme saved."
 msgstr ""
+"Controla o esquema de cores principal em todo o tema. Selecione um esquema e "
+"todas as opções de cores serão alteradas para a seleção definida. Clique no "
+"botão Salvar para salvar seu esquema de cores personalizado atual. Clique no "
+"botão Importar para importar um esquema personalizado. Para excluir ou "
+"exportar um esquema, você deve primeiro salvar um esquema personalizado."
 
 #: includes/options/colors.php:101
 msgid "Red"
@@ -11700,6 +11708,8 @@ msgid ""
 "Click the Save button to save your own current custom color scheme. Click "
 "the import button to import custom scheme"
 msgstr ""
+"Clique no botão Salvar para salvar seu esquema de cores personalizado atual. "
+"Clique no botão Importar para importar o esquema personalizado"
 
 #: includes/options/colors.php:160
 msgid "Color Palette"
@@ -11707,7 +11717,7 @@ msgstr "Paleta de cores"
 
 #: includes/options/colors.php:161
 msgid "Sets color picker's palette colors throughout the theme."
-msgstr ""
+msgstr "Define as cores da paleta do seletor de cores em todo o tema."
 
 #: includes/options/colors.php:203
 msgid ""
@@ -13669,7 +13679,7 @@ msgstr ""
 
 #: includes/options/header.php:54 includes/options/header.php:268
 msgid "Controls if the slider displays below or above the header."
-msgstr ""
+msgstr "Controla se o slider é exibido abaixo ou acima do cabeçalho."
 
 #. translators: %1$s: Content|Footer|Page Title Bar. %2$s: Layout selection
 #. URL. %3$s: URL for global header layout edit.
@@ -13687,7 +13697,7 @@ msgstr ""
 
 #: includes/options/header.php:105
 msgid "Header Content"
-msgstr ""
+msgstr "Conteúdo do cabeçalho"
 
 # @ Avada
 #: includes/options/header.php:114
@@ -13700,11 +13710,15 @@ msgid ""
 "site. The main menu height, header padding and logo margin options will auto "
 "adjust based off your selection for ideal aesthetics."
 msgstr ""
+"Controla a posição do cabeçalho para ser na parte superior, esquerda ou "
+"direita do site. As opções de altura do menu principal, preenchimento do "
+"cabeçalho e margem da logo serão ajustadas automaticamente com base na sua "
+"seleção para uma estética ideal."
 
 # @ Avada
 #: includes/options/header.php:174
 msgid "Select a Header Layout"
-msgstr "Selecionar um Layout do Cabeçalho"
+msgstr "Selecione o layout do cabeçalho"
 
 #: includes/options/header.php:175
 msgid ""
@@ -13714,14 +13728,20 @@ msgid ""
 "header padding and logo margin options will auto adjust based off your "
 "selection for ideal aesthetics."
 msgstr ""
+"Controla o layout geral do cabeçalho. Os cabeçalhos 2 a 5 permitem áreas de "
+"conteúdo adicionais por meio das opções de conteúdo 1 a 3. O cabeçalho 6 "
+"permite apenas itens de menu no nível pai, nenhum nível filho será exibido. "
+"As opções de altura do menu principal, preenchimento do cabeçalho e margem "
+"da logo serão ajustadas automaticamente com base na sua seleção para uma "
+"estética ideal."
 
 #: includes/options/header.php:218
 msgid "Edit Header Layout"
-msgstr ""
+msgstr "Editar layout do cabeçalho"
 
 #: includes/options/header.php:231
 msgid "Add Page Title Bar"
-msgstr ""
+msgstr "Adicionar barra de título da página"
 
 # @ Avada
 #: includes/options/header.php:299
@@ -13730,7 +13750,7 @@ msgstr "Conteúdo do Cabeçalho 1"
 
 #: includes/options/header.php:300
 msgid "Controls the content that displays in the top left section."
-msgstr ""
+msgstr "Controla o conteúdo exibido na seção superior esquerda."
 
 #: includes/options/header.php:305 includes/options/header.php:365
 msgid "Contact Info"
@@ -13820,12 +13840,12 @@ msgstr ""
 
 #: includes/options/header.php:629
 msgid "Header Background Image"
-msgstr ""
+msgstr "Imagem de fundo do cabeçalho"
 
 # @ Avada
 #: includes/options/header.php:638
 msgid "Background Image For Header Area"
-msgstr "Imagem de Fundo para Área do Cabeçalho"
+msgstr "Imagem de fundo para área do cabeçalho"
 
 #: includes/options/header.php:639
 msgid ""
@@ -13836,6 +13856,13 @@ msgid ""
 "background color so the header background opacity must be set below 1 to see "
 "the image."
 msgstr ""
+"Selecione uma imagem para o fundo do cabeçalho. Se deixado em branco, a cor "
+"de fundo do cabeçalho será usada. Para os cabeçalhos superiores, a imagem é "
+"exibida à frente da cor de plano de fundo do cabeçalho e será exibida apenas "
+"se a opacidade da cor de plano de fundo do cabeçalho estiver definida como "
+"1. Para os cabeçalhos laterais, a imagem será exibida atrás da cor de plano "
+"de fundo do cabeçalho, portanto, a opacidade do plano de fundo do cabeçalho "
+"deve ser definida abaixo de 1 para ver a imagem."
 
 #: includes/options/header.php:669
 msgid ""
@@ -13851,7 +13878,7 @@ msgstr ""
 
 #: includes/options/header.php:821
 msgid "Header Styling"
-msgstr ""
+msgstr "Estilo do cabeçalho"
 
 # @ Avada
 #: includes/options/header.php:830
@@ -13864,28 +13891,34 @@ msgstr ""
 
 #: includes/options/header.php:873
 msgid "Header Padding"
-msgstr ""
+msgstr "Preenchimento do cabeçalho"
 
 #: includes/options/header.php:874
 msgid "Controls the top/right/bottom/left padding for the header."
 msgstr ""
+"Controla o preenchimento superior / direito / inferior / esquerdo do "
+"cabeçalho."
 
 # @ Avada
 #: includes/options/header.php:943
 msgid "Header Shadow"
-msgstr "Sombra do Cabeçalho"
+msgstr "Sombra do cabeçalho"
 
 #: includes/options/header.php:944
 msgid ""
 "Turn on to display a header drop shadow. This option is incompatible with "
 "Internet Explorer versions older than IE11."
 msgstr ""
+"Ative para exibir uma sombra no cabeçalho. Esta opção é incompatível com "
+"versões do Internet Explorer anteriores ao IE11."
 
 #: includes/options/header.php:966
 msgid ""
 "Turn on to have the header area display at 100% width according to the "
 "window size. Turn off to follow site width."
 msgstr ""
+"Ative para que a área do cabeçalho seja exibida com 100% de largura, de "
+"acordo com o tamanho da janela. Desative para seguir a largura do site."
 
 #: includes/options/header.php:1000
 msgid ""
@@ -13894,10 +13927,16 @@ msgid ""
 "headers, opacity set below 1 will display a color overlay. Transparent "
 "headers are disabled on all archive pages due to technical limitations."
 msgstr ""
+"Controla a cor e a opacidade do plano de fundo do cabeçalho. Para os "
+"cabeçalhos superiores, a opacidade definida abaixo de 1 removerá "
+"completamente a altura do cabeçalho. Para cabeçalhos laterais, a opacidade "
+"definida abaixo de 1 exibirá uma sobreposição de cores. Cabeçalhos "
+"transparentes são desativados em todas as páginas de arquivo devido a "
+"limitações técnicas."
 
 #: includes/options/header.php:1028
 msgid "Archive Header Background Color"
-msgstr ""
+msgstr "Cor de fundo do cabeçalho do arquivo"
 
 #: includes/options/header.php:1029
 msgid ""
@@ -13906,6 +13945,11 @@ msgid ""
 "the header height completely. For side headers, opacity set below 1 will "
 "display a color overlay."
 msgstr ""
+"Controla a cor e a opacidade do plano de fundo do cabeçalho nas páginas de "
+"arquivo, na página de pesquisa e na página 404. Para os cabeçalhos "
+"superiores, a opacidade definida abaixo de 1 removerá completamente a altura "
+"do cabeçalho. Para cabeçalhos laterais, a opacidade definida abaixo de 1 "
+"exibirá uma sobreposição de cores."
 
 # @ Avada
 #: includes/options/header.php:1057
@@ -13957,33 +14001,35 @@ msgstr "Cabeçalho Fixo"
 
 #: includes/options/header.php:1228
 msgid "Turn on to enable a sticky header."
-msgstr ""
+msgstr "Ative para habilitar o cabeçalho fixo."
 
 #: includes/options/header.php:1310
 msgid "Sticky Header on Tablets"
-msgstr ""
+msgstr "Cabeçalho fixo em tablets"
 
 #: includes/options/header.php:1311
 msgid "Turn on to enable a sticky header when scrolling on tablets."
-msgstr ""
+msgstr "Ative para habilitar o cabeçalho fixo ao rolar em tablets."
 
 #: includes/options/header.php:1391
 msgid "Sticky Header on Mobiles"
-msgstr ""
+msgstr "Cabeçalho fixo em dispositivos móveis"
 
 #: includes/options/header.php:1392
 msgid "Turn on to enable a sticky header when scrolling on mobiles."
-msgstr ""
+msgstr "Ative para habilitar o cabeçalho fixo ao rolar em dispositivos móveis."
 
 #: includes/options/header.php:1473
 msgid "Sticky Header Animation"
-msgstr ""
+msgstr "Animação do cabeçalho fixo"
 
 #: includes/options/header.php:1474
 msgid ""
 "Turn on to allow the sticky header to animate to a smaller height when "
 "activated. Only works with header v1 - v3, v6 and v7."
 msgstr ""
+"Ative para permitir que o cabeçalho fixo seja animado para uma altura menor "
+"quando ativado. Funciona apenas com os cabeçalhos v1 - v3, v6 e v7."
 
 #: includes/options/header.php:1512
 msgid "Sticky Header Display For Headers 4 - 5 "
@@ -14003,47 +14049,49 @@ msgstr ""
 
 #: includes/options/header.php:1579
 msgid "Sticky Header Shadow"
-msgstr ""
+msgstr "Sombra do cabeçalho fixo"
 
 #: includes/options/header.php:1580
 msgid ""
 "Turn on to display a sticky header drop shadow. This option is incompatible "
 "with Internet Explorer versions older than IE11."
 msgstr ""
+"Ative para exibir uma sombra no cabeçalho. Esta opção é incompatível com "
+"versões do Internet Explorer anteriores ao IE11."
 
 #: includes/options/header.php:1624
 msgid "Sticky Header Background Color"
-msgstr ""
+msgstr "Cor de fundo do cabeçalho fixo"
 
 #: includes/options/header.php:1625
 msgid "Controls the background color for the sticky header."
-msgstr ""
+msgstr "Controla a cor de fundo do cabeçalho fixo."
 
 #: includes/options/header.php:1660
 msgid "Sticky Header Menu Font Color"
-msgstr ""
+msgstr "Cor da fonte do menu do cabeçalho fixo"
 
 #: includes/options/header.php:1661
 msgid "Controls the color for main menu text in the sticky header."
-msgstr ""
+msgstr "Controla a cor principal do texto do menu no cabeçalho fixo."
 
 # @ Avada
 #: includes/options/header.php:1681
 msgid "Sticky Header Menu Item Padding"
-msgstr "Preenchimento do Item do Menu do Cabeçalho Fixo"
+msgstr "Preenchimento do item do menu do cabeçalho Fixo"
 
 #: includes/options/header.php:1682
 msgid "Controls the space between each menu item in the sticky header."
-msgstr ""
+msgstr "Controla o espaço entre cada item do menu no cabeçalho fixo."
 
 # @ Avada
 #: includes/options/header.php:1712
 msgid "Sticky Header Navigation Font Size"
-msgstr "Tamanho da Fonte de Navegação do Cabeçalho Fixo"
+msgstr "Tamanho da fonte de navegação do cabeçalho fixo"
 
 #: includes/options/header.php:1713
 msgid "Controls the font size of the menu items in the sticky header."
-msgstr ""
+msgstr "Controla o tamanho da fonte dos itens do menu no cabeçalho fixo."
 
 #: includes/options/layout.php:49
 msgid "Controls the site layout."
@@ -16264,35 +16312,40 @@ msgstr "Habilite para ativar pinch to zoom em dispositivos móveis."
 
 #: includes/options/responsive.php:227
 msgid "Element Responsive Breakpoints"
-msgstr ""
+msgstr "Ponto de quebra responsivo dos elementos"
 
 #: includes/options/responsive.php:234
 msgid "Small Screen"
-msgstr ""
+msgstr "Tela pequena"
 
 #: includes/options/responsive.php:235
 msgid ""
 "Controls when the small screen options and visibility should take effect."
 msgstr ""
+"Controla quando as opções e visibilidade da tela pequena devem entrar em "
+"vigor."
 
 #: includes/options/responsive.php:263
 msgid "Medium Screen"
-msgstr ""
+msgstr "Tela média"
 
 #: includes/options/responsive.php:264
 msgid ""
 "Controls when the medium screen options and visibility should take effect."
 msgstr ""
+"Controla quando as opções e visibilidade da tela média devem entrar em vigor."
 
 #: includes/options/responsive.php:292
 msgid "Large Screen"
-msgstr "Tela Grande"
+msgstr "Tela grande"
 
 #: includes/options/responsive.php:293
 msgid ""
 "Any screen larger than that which is defined as the medium screen will be "
 "counted as a large screen."
 msgstr ""
+"Qualquer tela maior que a definida como tela média será considerada como uma "
+"tela grande."
 
 #: includes/options/responsive.php:301
 msgid "Responsive Typography"
@@ -18250,7 +18303,7 @@ msgstr "Carregar mais Resultados"
 # @ Avada
 #: templates/blog-layout.php:429
 msgid "Load More Posts"
-msgstr "Carregar mais postagens"
+msgstr "Carregar mais posts"
 
 # @ Avada
 #: templates/elasticslider.php:34
