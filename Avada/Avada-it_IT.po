@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2020-12-15 12:15:01+00:00\n"
+"POT-Creation-Date: 2020-12-21 12:47:12+00:00\n"
 "PO-Revision-Date: 2020-11-30 14:35+0000\n"
 "Last-Translator: Cristian Ganzetti\n"
 "Language-Team: Italian (Italy)language/it_IT/)\n"
@@ -119,7 +119,7 @@ msgstr[1] "% Commenti"
 #: comments.php:46 includes/class-avada-layout-bbpress.php:224
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
-#: includes/class-avada-woocommerce.php:747
+#: includes/class-avada-woocommerce.php:748
 #: includes/lib/inc/class-fusion-scripts.php:641
 #: includes/lib/inc/functions.php:1120
 #: includes/lib/inc/fusion-app/helpers.php:553 single-wpfc_sermon.php:21
@@ -131,7 +131,7 @@ msgstr "Precedente"
 #: comments.php:47 includes/class-avada-layout-bbpress.php:225
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
-#: includes/class-avada-woocommerce.php:748
+#: includes/class-avada-woocommerce.php:749
 #: includes/lib/inc/class-fusion-scripts.php:640
 #: includes/lib/inc/functions.php:1166
 #: includes/lib/inc/fusion-app/helpers.php:554 single-wpfc_sermon.php:22
@@ -871,8 +871,8 @@ msgid "Live Preview"
 msgstr "Anteprima live"
 
 #: includes/admin-screens/prebuilt-websites.php:370
-msgid "The Following Plugins Are Required To Import Content"
-msgstr "I seguenti plugin sono necessari per importare contenuti"
+msgid "Required Plugins To Import Content"
+msgstr ""
 
 #. translators: %1$s: Plugin Slugh. %2$s: Documentation Link.
 #: includes/admin-screens/prebuilt-websites.php:382
@@ -2453,7 +2453,7 @@ msgstr ""
 msgid "Reset Avada Caches"
 msgstr ""
 
-#: includes/class-avada-admin.php:321 includes/class-avada-woocommerce.php:983
+#: includes/class-avada-admin.php:321 includes/class-avada-woocommerce.php:984
 msgid "Dashboard"
 msgstr "Bacheca"
 
@@ -2915,7 +2915,7 @@ msgstr ""
 #: includes/class-avada-eventscalendar.php:232
 #: includes/class-avada-eventscalendar.php:264
 #: includes/class-avada-eventscalendar.php:296
-#: includes/class-avada-woocommerce.php:1764
+#: includes/class-avada-woocommerce.php:1779
 msgid "NOTE"
 msgstr "NOTA"
 
@@ -4181,7 +4181,7 @@ msgstr "Tutti i plugins installati ed attivati con successo. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:389
+#: includes/class-avada-upgrade.php:390
 msgid "Dismiss this notice"
 msgstr "Ignora questo avviso"
 
@@ -4477,7 +4477,7 @@ msgstr "Tutte le installazioni sono state completate."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Installazione del plugin %1$s (%2$d/%3$d)"
 
-#: includes/class-avada-upgrade.php:388
+#: includes/class-avada-upgrade.php:389
 msgid "View Changelog"
 msgstr "Vedi Changelog"
 
@@ -4824,20 +4824,20 @@ msgid "Avada Button"
 msgstr ""
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1581
+#: includes/class-avada-woocommerce.php:1596
 msgid "You Have %s Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] "Hai %s articolo nel tuo carrello"
 msgstr[1] "Hai %s articoli nel tuo carrello"
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:1704
-#: includes/class-avada-woocommerce.php:1722
+#: includes/class-avada-woocommerce.php:1719
+#: includes/class-avada-woocommerce.php:1737
 msgid "Continue"
 msgstr "Continua"
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1766
+#: includes/class-avada-woocommerce.php:1781
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -4849,12 +4849,12 @@ msgstr ""
 "tema Avada."
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:1880
+#: includes/class-avada-woocommerce.php:1895
 #: templates/wc-show-details-button.php:20
 msgid "Details"
 msgstr "Dettagli"
 
-#: includes/class-avada-woocommerce.php:1883
+#: includes/class-avada-woocommerce.php:1898
 msgid "Not all fields have been filled in correctly."
 msgstr "Non tutti i campi sono stati compilati correttamente."
 
@@ -21085,6 +21085,9 @@ msgstr "di %s"
 msgctxt "breadcrumb"
 msgid "Home"
 msgstr "Home"
+
+#~ msgid "The Following Plugins Are Required To Import Content"
+#~ msgstr "I seguenti plugin sono necessari per importare contenuti"
 
 #~ msgid "Fusion Mega Menu"
 #~ msgstr "Fusion Mega Menu"
