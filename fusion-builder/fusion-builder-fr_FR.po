@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: Fusion Builder 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
 "POT-Creation-Date: 2021-04-14 13:16:54+00:00\n"
-"PO-Revision-Date: 2021-02-03 14:27+0000\n"
+"PO-Revision-Date: 2021-05-28 13:33+0200\n"
 "Last-Translator: svend walter <svend.walter@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: inc/class-fusion-dynamic-data-callbacks.php:347
@@ -564,7 +564,7 @@ msgstr "Pages:"
 #: inc/lib/inc/fusion-app/helpers.php:421
 #: shortcodes/fusion-woo-checkout-form.php:18
 msgid "Checkout Form"
-msgstr ""
+msgstr "Formulaire de règlement"
 
 #: inc/admin-screens/forms-entries.php:16 inc/admin-screens/forms.php:14
 #: inc/class-fusion-form-builder.php:241
@@ -608,11 +608,11 @@ msgstr "Formulaire d'inscription pour : %s"
 
 #: inc/admin-screens/forms-entries.php:83
 msgid "Export Entries as CSV"
-msgstr ""
+msgstr "Exporter les entrées en tant que CSV"
 
 #: inc/admin-screens/forms-entries.php:83
 msgid "Export Entries"
-msgstr ""
+msgstr "Exporter les entrées"
 
 #: inc/admin-screens/forms-entries.php:90
 msgid "No Form Entries Available"
@@ -903,6 +903,9 @@ msgid ""
 "Elements and Post Cards. Here, you can create and manage your library "
 "content."
 msgstr ""
+"La bibliothèque Avada contient vos modèles de page, conteneurs, colonnes, "
+"éléments et cartes postales enregistrés. Vous pouvez y créer et gérer le "
+"contenu de votre bibliothèque."
 
 #: inc/admin-screens/library.php:23
 msgid "Avada Library Documentation"
@@ -946,7 +949,7 @@ msgstr "Elément"
 #: shortcodes/components/post-card-archives.php:339
 #: shortcodes/fusion-post-cards.php:1747
 msgid "Post Card"
-msgstr ""
+msgstr "Cartes de publications"
 
 #: inc/admin-screens/library.php:50
 msgid "Enter Element Name"
@@ -1099,6 +1102,10 @@ msgid ""
 "site and uncheck any which are not used. <strong>WARNING:</strong> If your "
 "website has a lot of content this may not run fully."
 msgstr ""
+"Vous pouvez lancer une analyse des éléments qui recherchera les éléments de "
+"votre site et décochera ceux qui ne sont pas utilisés. "
+"<strong>AVERTISSEMENT :</strong> Si votre site Web a beaucoup de contenu, "
+"cette opération peut ne pas fonctionner complètement."
 
 #: inc/admin-screens/options.php:80
 msgid "Run Element Scan"
@@ -1450,7 +1457,7 @@ msgstr "Supprimer Définitivement"
 
 #: inc/class-fusion-builder-library-table.php:286
 msgid "Clone this element"
-msgstr ""
+msgstr "Clonez cet élément"
 
 #: inc/class-fusion-builder-library-table.php:294
 #: inc/class-fusion-custom-icons-table.php:249
@@ -1495,7 +1502,7 @@ msgstr "Conteneurs"
 #: inc/class-fusion-builder-library-table.php:473
 #: shortcodes/fusion-post-cards.php:2450
 msgid "Post Cards"
-msgstr ""
+msgstr "Cartes postales"
 
 #: inc/class-fusion-builder-library.php:171
 #: inc/class-fusion-template-builder.php:202
@@ -1696,7 +1703,7 @@ msgstr "Contenu pré-construit"
 #: inc/class-fusion-builder-library.php:1007
 #: inc/class-fusion-builder-library.php:1175
 msgid "Prebuilt Post Cards"
-msgstr ""
+msgstr "Cartes postales préfabriquées"
 
 #: inc/class-fusion-builder-library.php:1010
 msgid "Prebuilt Forms"
@@ -1802,10 +1809,17 @@ msgid ""
 "please ensure you have set the View Dynamic Content As option for this post "
 "card."
 msgstr ""
+"Cliquez pour importer une de nos cartes postales préconstruites.  Veuillez "
+"noter que l'aspect visuel et le contenu de ces cartes postales dépendent du "
+"contexte. Par exemple, la carte postale de blog 1 est idéalement utilisée "
+"comme une carte postale pour les articles de blog et avec un élément de "
+"cartes postales réglé sur la grille. Pour obtenir un aperçu réaliste dans "
+"Avada Live, assurez-vous d'avoir activé l'option Afficher le contenu "
+"dynamique en tant que pour cette carte postale."
 
 #: inc/class-fusion-builder-library.php:1198
 msgid "There are no post cards in your library"
-msgstr ""
+msgstr "Il n'y a pas de cartes postales dans votre bibliothèque"
 
 #: inc/class-fusion-builder-library.php:1243
 msgid "Saved Containers"
@@ -1910,12 +1924,12 @@ msgstr "Il n'y a aucun modèle personnalisé dans votre bibliothèque"
 
 #: inc/class-fusion-builder-library.php:1730
 msgid "No element to clone."
-msgstr ""
+msgstr "Aucun élément à cloner."
 
 #. translators: The ID not found.
 #: inc/class-fusion-builder-library.php:1751
 msgid "Cloning failed. Element not found. ID: %s"
-msgstr ""
+msgstr "Échec du clonage. Élément non trouvé. ID : %s"
 
 #. translators: The post title.
 #: inc/class-fusion-builder-library.php:1787
@@ -1986,6 +2000,12 @@ msgid ""
 "only a post card.  Individual post cards can be selected in the post cards "
 "element as a way of displaying posts."
 msgstr ""
+"Vous êtes en train de modifier une carte postale de la bibliothèque Avada "
+"Builder qui sera mise à jour avec vos modifications lorsque vous cliquerez "
+"sur le bouton de mise à jour. Il ne s'agit pas d'une véritable page, mais "
+"d'une carte postale.  Les cartes postales individuelles peuvent être "
+"sélectionnées dans l'élément cartes postales comme moyen d'afficher les "
+"articles."
 
 #: inc/class-fusion-builder.php:989
 msgid "Avada Builder Settings"
@@ -2082,6 +2102,8 @@ msgid ""
 "Defines how the column should align itself within the container. Overrides "
 "what is set on the container."
 msgstr ""
+"Définit comment la colonne doit s'aligner dans le conteneur.  Remplace ce "
+"qui est défini sur le conteneur."
 
 #: inc/class-fusion-column-element.php:2115
 #: inc/class-fusion-column-element.php:2153
@@ -2431,11 +2453,12 @@ msgstr "Espacer uniformément"
 
 #: inc/class-fusion-column-element.php:2218
 msgid "Content Vertical Alignment"
-msgstr ""
+msgstr "Alignement vertical du contenu"
 
 #: inc/class-fusion-column-element.php:2219
 msgid "Defines how the column content should vertically align."
 msgstr ""
+"Définit comment le contenu de la colonne doit être aligné verticalement."
 
 #: inc/class-fusion-column-element.php:2259
 msgid "Content Wrap"
@@ -3761,6 +3784,8 @@ msgid ""
 "Enter values including any valid CSS unit, ex: 4%. Leave empty to inherit "
 "from container or Global Option."
 msgstr ""
+"Entrez des valeurs incluant toute unité CSS valide, ex : 4%. Laissez vide "
+"pour hériter du conteneur ou de l'option globale."
 
 #: inc/class-fusion-column-element.php:2478
 #: inc/helpers/class-fusion-builder-margin-helper.php:45
@@ -4567,7 +4592,7 @@ msgstr "Clé d’identification de champ personnalisée."
 #. translators: Single post type custom field.
 #: inc/class-fusion-dynamic-data.php:823
 msgid "Permalink"
-msgstr ""
+msgstr "Permalien"
 
 #: inc/class-fusion-dynamic-data.php:834 inc/class-fusion-dynamic-data.php:845
 msgid "Featured Image"
@@ -4579,23 +4604,23 @@ msgstr "Sélectionnez l'image qui doit être affichée."
 
 #: inc/class-fusion-dynamic-data.php:861
 msgid "Term Count"
-msgstr ""
+msgstr "Compte"
 
 #: inc/class-fusion-dynamic-data.php:868 inc/class-fusion-dynamic-data.php:1174
 msgid "Singular"
-msgstr ""
+msgstr "Singulier"
 
 #: inc/class-fusion-dynamic-data.php:869 inc/class-fusion-dynamic-data.php:1175
 msgid "Default singular text."
-msgstr ""
+msgstr "Texte singulier par défaut."
 
 #: inc/class-fusion-dynamic-data.php:875 inc/class-fusion-dynamic-data.php:1181
 msgid "Plural"
-msgstr ""
+msgstr "Pluriel"
 
 #: inc/class-fusion-dynamic-data.php:876 inc/class-fusion-dynamic-data.php:1182
 msgid "Default plural text."
-msgstr ""
+msgstr "Texte pluriel par défaut."
 
 #: inc/class-fusion-dynamic-data.php:888
 msgid "Featured Images"
@@ -4687,7 +4712,7 @@ msgstr "Autre"
 
 #: inc/class-fusion-dynamic-data.php:996
 msgid "Logged in Display Name"
-msgstr ""
+msgstr "Nom d'affichage de la personne connectée"
 
 #: inc/class-fusion-dynamic-data.php:1006
 msgid "Request Parameter"
@@ -4718,35 +4743,37 @@ msgstr "Shortcode"
 
 #: inc/class-fusion-dynamic-data.php:1087
 msgid "Event Date"
-msgstr ""
+msgstr "Date de l’événement"
 
 #: inc/class-fusion-dynamic-data.php:1089
 msgid "Events Calendar"
-msgstr ""
+msgstr "Calendrier des événements"
 
 #: inc/class-fusion-dynamic-data.php:1100
 msgid "Event Date to display."
-msgstr ""
+msgstr "Date de l'événement à afficher."
 
 #: inc/class-fusion-dynamic-data.php:1105
 msgid "Event Start Date"
-msgstr ""
+msgstr "Date de début de l'événement"
 
 #: inc/class-fusion-dynamic-data.php:1106
 msgid "Event End Date"
-msgstr ""
+msgstr "Date de fin de l’événement"
 
 #: inc/class-fusion-dynamic-data.php:1110
 msgid "Event ID"
-msgstr ""
+msgstr "ID de l'événement"
 
 #: inc/class-fusion-dynamic-data.php:1111
 msgid "Event Date to display. Leave empty to use the current event ID."
 msgstr ""
+"Date de l'événement à afficher. Laissez vide pour utiliser l'ID de "
+"l'événement actuel."
 
 #: inc/class-fusion-dynamic-data.php:1134
 msgid "Sale Date"
-msgstr ""
+msgstr "Date de vente"
 
 #: inc/class-fusion-dynamic-data.php:1136
 #: inc/class-fusion-dynamic-data.php:1169
@@ -4765,28 +4792,30 @@ msgstr "WooCommerce"
 
 #: inc/class-fusion-dynamic-data.php:1147
 msgid "Sale Date to display."
-msgstr ""
+msgstr "Date de vente à afficher."
 
 #: inc/class-fusion-dynamic-data.php:1152
 msgid "Sale Start Date"
-msgstr ""
+msgstr "Date de Début de Vente"
 
 #: inc/class-fusion-dynamic-data.php:1153
 msgid "Sale End Date"
-msgstr ""
+msgstr "Date de Fin de Vente"
 
 #: inc/class-fusion-dynamic-data.php:1157
 msgid "Product ID"
-msgstr ""
+msgstr "ID produit"
 
 #: inc/class-fusion-dynamic-data.php:1158
 msgid ""
 "Product Sale Date to display. Leave empty to use the current product ID."
 msgstr ""
+"Date de vente du produit à afficher. Laissez vide pour utiliser "
+"l'identifiant actuel du produit."
 
 #: inc/class-fusion-dynamic-data.php:1167
 msgid "Cart Count"
-msgstr ""
+msgstr "Compte du panier"
 
 #: inc/class-fusion-dynamic-data.php:1209
 msgid "Author Name"
@@ -4911,7 +4940,7 @@ msgstr "Galerie ACF"
 
 #: inc/class-fusion-dynamic-data.php:1447
 msgid "Update Cart"
-msgstr ""
+msgstr "Panier"
 
 #: inc/class-fusion-dynamic-data.php:1460
 msgid "Product Price"
@@ -4970,17 +4999,17 @@ msgstr "Woo Galerie"
 
 #: inc/class-fusion-dynamic-data.php:1548
 msgid "Add To Cart"
-msgstr ""
+msgstr "Ajouter au panier"
 
 #: inc/class-fusion-dynamic-data.php:1560
 #: shortcodes/fusion-post-card-cart.php:463
 #: shortcodes/fusion-post-card-cart.php:483
 msgid "Quick View"
-msgstr ""
+msgstr "Aperçu"
 
 #: inc/class-fusion-dynamic-data.php:1572
 msgid "Category Thumbnail"
-msgstr ""
+msgstr "Catégorie vignette"
 
 #: inc/class-fusion-dynamic-data.php:1614 shortcodes/fusion-user-login.php:1198
 #: shortcodes/fusion-user-login.php:1388 shortcodes/fusion-user-login.php:1564
@@ -5999,7 +6028,7 @@ msgstr "Intérieur"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:45
 msgid "Rendering Logic"
-msgstr ""
+msgstr "Logique de rendu"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:47
 msgid ""
@@ -6007,10 +6036,14 @@ msgid ""
 "part of the post / page contents, if the set conditions are met. "
 "<strong>Note:</strong> Server cache can interfere with results."
 msgstr ""
+"Ajoutez une logique de rendu conditionnel pour l'élément. L'élément ne fera "
+"partie du contenu de l'article ou de la page que si les conditions définies "
+"sont remplies. <strong>Remarque :</strong> le cache du serveur peut "
+"interférer avec les résultats."
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:51
 msgid "Select A Condition Type"
-msgstr ""
+msgstr "Sélectionnez un type de condition"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:54
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:68
@@ -6025,7 +6058,7 @@ msgstr ""
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:53
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:61
 msgid "Equal To"
-msgstr ""
+msgstr "Egal à"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:55
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:69
@@ -6040,31 +6073,31 @@ msgstr ""
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:54
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:62
 msgid "Not Equal To"
-msgstr ""
+msgstr "Hauteurs égales"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:61
 msgid "Device Type"
-msgstr ""
+msgstr "Type d'équipement"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:64
 msgid "Desktop"
-msgstr ""
+msgstr "Ordinateur de bureau"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:65
 msgid "Mobile & Tablet"
-msgstr ""
+msgstr "Mobile et tablette"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:74
 msgid "Get Variable"
-msgstr ""
+msgstr "Variable GET"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:78
 msgid "Get"
-msgstr ""
+msgstr "Obtenir"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:79
 msgid "Variable Name"
-msgstr ""
+msgstr "Nom de variable"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:84
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:96
@@ -6072,7 +6105,7 @@ msgstr ""
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:55
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:63
 msgid "Greater Than"
-msgstr ""
+msgstr "Plus grand que"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:85
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:97
@@ -6080,68 +6113,68 @@ msgstr ""
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:56
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:64
 msgid "Less Than"
-msgstr ""
+msgstr "Moins que"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:86
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:98
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:57
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:65
 msgid "Contains"
-msgstr ""
+msgstr "Contient"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:91
 msgid "User Agent"
-msgstr ""
+msgstr "Agent utilisateur"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:103
 msgid "User Role"
-msgstr ""
+msgstr "Rôle de l’utilisateur"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:113
 msgid "User State"
-msgstr ""
+msgstr "État de l'utilisateur"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:116
 msgid "Logged In"
-msgstr ""
+msgstr "Connecté"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:117
 msgid "Logged Out"
-msgstr ""
+msgstr "Déconnecté[e]"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:178
 msgid "Cart Status"
-msgstr ""
+msgstr "Statut du panier"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:181
 msgid "In"
-msgstr ""
+msgstr "Dans"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:182
 msgid "Empty"
-msgstr ""
+msgstr "Vide"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:191
 msgid "Sale Status"
-msgstr ""
+msgstr "Statut de vente"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:194
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:238
 msgid "Started"
-msgstr ""
+msgstr "Commencé"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:195
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:239
 msgid "Ended"
-msgstr ""
+msgstr "Terminé"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:204
 msgid "Stock Quantity"
-msgstr ""
+msgstr "Quantité en stock"
 
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:235
 msgid "Event Status"
-msgstr ""
+msgstr "Statut de l’événement"
 
 #: inc/helpers/class-fusion-builder-filter-helper.php:47
 msgid "Filter Type"
@@ -6239,19 +6272,19 @@ msgstr "Formulaire des soumissions reçues !"
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:44
 #: inc/templates/previews/fusion-form-element-preview.php:16
 msgid "Conditional Logic"
-msgstr ""
+msgstr "Logique conditionnelle"
 
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:46
 msgid "Add conditional logic for the input field."
-msgstr ""
+msgstr "Ajoutez une logique conditionnelle pour le champ de saisie."
 
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:47
 msgid "Conditionals"
-msgstr ""
+msgstr "Conditionnels"
 
 #: inc/helpers/class-fusion-builder-form-logics-helper.php:50
 msgid "Select A Field"
-msgstr ""
+msgstr "Sélectionnez un champ"
 
 #: inc/helpers/class-fusion-builder-gradient-helper.php:47
 msgid "Gradient Start Color"
@@ -6427,11 +6460,11 @@ msgstr "Zoom"
 
 #: inc/helpers.php:214
 msgid "Flip Vertically"
-msgstr ""
+msgstr "Retournez verticalement"
 
 #: inc/helpers.php:215
 msgid "Flip Horizontally"
-msgstr ""
+msgstr "Retourner horizontalement"
 
 #: inc/helpers.php:216 shortcodes/fusion-title.php:1013
 msgid "Light Speed"
@@ -8129,6 +8162,9 @@ msgid ""
 "Global Options. This does not reset them to any other demo that you may have "
 "imported."
 msgstr ""
+"Êtes-vous sûr ? Cela réinitialisera toutes les options enregistrées aux "
+"options globales par défaut d'Avada Classic. Cela ne les réinitialise pas à "
+"toute autre démo que vous pourriez avoir importée."
 
 #: inc/lib/inc/class-fusion-fusionredux.php:1334
 msgid ""
@@ -8136,6 +8172,9 @@ msgid ""
 "Global Options for this section. This does not reset them to any other demo "
 "that you may have imported."
 msgstr ""
+"Êtes-vous sûr ? Ceci réinitialisera toutes les options enregistrées aux "
+"options globales par défaut d'Avada Classic pour cette section. Cela ne les "
+"réinitialise pas à toute autre démo que vous auriez importée."
 
 #: inc/lib/inc/class-fusion-fusionredux.php:1345
 msgid ""
@@ -8318,6 +8357,8 @@ msgid ""
 "The ThemeFusion patches server could not be reached. Please contact your "
 "host to unblock the \"%s\" domain."
 msgstr ""
+"Le serveur de correctifs de ThemeFusion n'a pas pu être atteint. Veuillez "
+"contacter votre hébergeur pour débloquer le domaine \"%s\"."
 
 #. translators: Update server url.
 #: inc/lib/inc/class-fusion-patcher-filesystem.php:102
@@ -8325,6 +8366,8 @@ msgid ""
 "The Avada patch contents cannot be retrieved. Please contact your host to "
 "unblock the \"%s\" domain."
 msgstr ""
+"Le contenu du patch Avada ne peut être récupéré. Veuillez contacter votre "
+"hébergeur pour débloquer le domaine \"%s\"."
 
 #: inc/lib/inc/class-fusion-patcher-filesystem.php:118
 msgid "Patch empty."
@@ -8363,7 +8406,7 @@ msgstr "Version Avada"
 
 #: inc/lib/inc/class-fusion-privacy.php:169
 msgid "Purchase Code"
-msgstr ""
+msgstr "Code d’achat"
 
 #: inc/lib/inc/class-fusion-privacy.php:174
 msgid "Token"
@@ -8379,6 +8422,10 @@ msgid ""
 "to a ThemeFusion server located in the U.S. to verify purchase and to ensure "
 "that prebuilt websites are compatible with your install."
 msgstr ""
+"Une fois que vous aurez cliqué pour importer un site web pré-construit, les "
+"données suivantes seront envoyées à un serveur de ThemeFusion situé aux "
+"États-Unis pour vérifier l'achat et s'assurer que les sites web pré-"
+"construits sont compatibles avec votre installation."
 
 #: inc/lib/inc/class-fusion-privacy.php:199
 msgid ""
@@ -8386,6 +8433,11 @@ msgid ""
 "be sent to a ThemeFusion server located in the U.S. to verify purchase and "
 "to ensure that plugins are compatible with your install."
 msgstr ""
+"Une fois que vous cliquez pour installer / mettre à jour un plugin premium, "
+"les données suivantes seront envoyées à un serveur ThemeFusion situé aux "
+"États-Unis pour vérifier l’achat et pour s’assurer que les plugins sont "
+"compatibles avec votre installation. Les données ne sont pas stockées sur "
+"notre serveur."
 
 #: inc/lib/inc/class-fusion-privacy.php:202
 msgid ""
@@ -8398,81 +8450,100 @@ msgstr ""
 
 #: inc/lib/inc/class-fusion-product-registration.php:324
 msgid "No purchase code was passed on to be revoked."
-msgstr ""
+msgstr "Aucun code d'achat n'a été transmis pour être révoqué."
 
 #: inc/lib/inc/class-fusion-product-registration.php:327
 msgid ""
 "In order to import a prebuilt website Avada must be registered. No purchase "
 "code was found."
 msgstr ""
+"Afin d'importer un site web préconstruit, Avada doit être enregistré. Aucun "
+"code d'achat n'a été trouvé."
 
 #: inc/lib/inc/class-fusion-product-registration.php:329
 msgid "No purchase code was provided."
-msgstr ""
+msgstr "Aucun code d'achat n'a été fourni."
 
 #: inc/lib/inc/class-fusion-product-registration.php:334
 msgid "No domain was passed on and therefore revoke could not be confirmed."
 msgstr ""
+"Aucun domaine n'a été transmis et la révocation n'a donc pas pu être "
+"confirmée."
 
 #: inc/lib/inc/class-fusion-product-registration.php:337
 msgid ""
 "In order to import a prebuilt website Avada must be registered. No domain "
 "was passed on, therefore validation could not be confirmed."
 msgstr ""
+"Afin d'importer un site web préconstruit, Avada doit être enregistré. Aucun "
+"domaine n'a été transmis, la validation n'a donc pas pu être confirmée."
 
 #: inc/lib/inc/class-fusion-product-registration.php:339
 msgid ""
 "No domain was passed on in the request, this is needed to confirm "
 "registration."
 msgstr ""
+"Aucun domaine n'a été transmis dans la demande, ceci est nécessaire pour "
+"confirmer l'enregistrement."
 
 #: inc/lib/inc/class-fusion-product-registration.php:344
 msgid "Invalid purchase code. Code provided appears to be a token instead."
 msgstr ""
+"Code d'achat non valide. Le code fourni semble être un jeton à la place."
 
 #: inc/lib/inc/class-fusion-product-registration.php:347
 #: inc/lib/inc/class-fusion-product-registration.php:352
 msgid "Invalid purchase code."
-msgstr ""
+msgstr "Code d’achat non valide."
 
 #: inc/lib/inc/class-fusion-product-registration.php:350
 msgid ""
 "In order to import a prebuilt website Avada must be registered. The purchase "
 "code being used does not seem to be valid."
 msgstr ""
+"Pour pouvoir importer un site Web préconstruit, Avada doit être enregistré. "
+"Le code d'achat utilisé ne semble pas être valide."
 
 #: inc/lib/inc/class-fusion-product-registration.php:356
 msgid ""
 "Envato API did not respond. Either the purchase code is incorrect or the API "
 "is temporarily unavailable."
 msgstr ""
+"Envato API n'a pas répondu. Soit le code d'achat est incorrect, soit l'API "
+"est temporairement indisponible."
 
 #: inc/lib/inc/class-fusion-product-registration.php:361
 #: inc/lib/inc/class-fusion-product-registration.php:369
 msgid "The purchase code is already being used on another domain."
-msgstr ""
+msgstr "Le code d'achat est déjà utilisé sur un autre domaine."
 
 #: inc/lib/inc/class-fusion-product-registration.php:364
 msgid ""
 "The current domain does not match our records and therefore was not revoked."
 msgstr ""
+"Le domaine actuel ne correspond pas à nos dossiers et n'a donc pas été "
+"révoqué."
 
 #: inc/lib/inc/class-fusion-product-registration.php:367
 msgid ""
 "In order to import a prebuilt website Avada must be registered. The current "
 "domain does not match our records."
 msgstr ""
+"Afin d'importer un site web préconstruit, Avada doit être enregistré. Le "
+"domaine actuel ne correspond pas à nos enregistrements."
 
 #: inc/lib/inc/class-fusion-product-registration.php:374
 #: inc/lib/inc/class-fusion-product-registration.php:379
 msgid "The purchase code is already being used on another staging domain."
-msgstr ""
+msgstr "Le code d'achat est déjà utilisé sur un autre domaine de transit."
 
 #: inc/lib/inc/class-fusion-product-registration.php:377
 msgid ""
 "In order to import a prebuilt website Avada must be registered. The current "
 "staging domain does not match our records."
 msgstr ""
+"Afin d'importer un site web préconstruit, Avada doit être enregistré. Le "
+"domaine actuel ne correspond pas à nos enregistrements."
 
 #. translators: "ThemeFusion" contact link.
 #: inc/lib/inc/class-fusion-product-registration.php:384
@@ -8480,10 +8551,14 @@ msgid ""
 "This purchase code has been locked, as it was used in a manner that violates "
 "our license terms. Please contact %s to resolve."
 msgstr ""
+"Ce code d'achat a été verrouillé, car il a été utilisé d'une manière qui "
+"viole nos conditions de licence. Veuillez contacter %s pour résoudre ce "
+"problème."
 
 #: inc/lib/inc/class-fusion-product-registration.php:388
 msgid "Sorry, the API is currently overloaded. Please try again later."
 msgstr ""
+"Désolé, l'API est actuellement surchargée. Veuillez réessayer plus tard."
 
 #. translators: "ThemeFusion" contact link.
 #: inc/lib/inc/class-fusion-product-registration.php:393
@@ -8491,18 +8566,20 @@ msgid ""
 "The purchase code has been registered too many times. Please contact %s to "
 "resolve."
 msgstr ""
+"Le code d'achat a été enregistré trop de fois. Veuillez contacter %s pour "
+"résoudre ce problème."
 
 #: inc/lib/inc/class-fusion-product-registration.php:396
 msgid "Unknown error encountered. Please try again later."
-msgstr ""
+msgstr "Erreur inconnue rencontrée. Veuillez réessayer plus tard."
 
 #: inc/lib/inc/class-fusion-product-registration.php:668
 msgid "Register Your Website"
-msgstr ""
+msgstr "Enregistrez votre site web"
 
 #: inc/lib/inc/class-fusion-product-registration.php:670
 msgid "Your Website is Registered"
-msgstr ""
+msgstr "Votre site web est enregistré"
 
 #: inc/lib/inc/class-fusion-product-registration.php:674
 msgid "How To?"
@@ -8514,6 +8591,8 @@ msgid ""
 "Congratulations, and thank you for registering your website. To manage your "
 "licenses, sign up on %s."
 msgstr ""
+"Félicitations, et merci d'avoir enregistré votre site web. Pour gérer vos "
+"licences, inscrivez-vous sur %s."
 
 #: inc/lib/inc/class-fusion-product-registration.php:686
 msgid ""
@@ -8522,6 +8601,10 @@ msgid ""
 "will be sent to a ThemeFusion server located in the U.S. to verify the "
 "purchase."
 msgstr ""
+"Veuillez entrer votre code d'achat Avada et accéder à nos sites web pré-"
+"construits, aux mises à jour automatiques et aux plugins premium. Le code "
+"d'achat et l'URL du site seront envoyés à un serveur de ThemeFusion situé "
+"aux États-Unis pour vérifier l'achat."
 
 #: inc/lib/inc/class-fusion-product-registration.php:704
 msgid "Register Now"
@@ -8533,7 +8616,7 @@ msgstr "Désinscription"
 
 #: inc/lib/inc/class-fusion-product-registration.php:725
 msgid "How To Find Your Purchase Code"
-msgstr ""
+msgstr "Comment trouver votre code d'achat"
 
 #. translators: "ThemeForest sign in link" link.
 #: inc/lib/inc/class-fusion-product-registration.php:731
@@ -8542,10 +8625,14 @@ msgid ""
 "same ThemeForest account that purchased Avada. If you are signed in already, "
 "look in the top menu bar to ensure it is the right account."
 msgstr ""
+"Connectez-vous à votre %s. <strong>IMPORTANT :</strong> Vous devez être "
+"connecté au même compte ThemeForest que celui qui a acheté Avada. Si vous "
+"êtes déjà connecté, regardez dans la barre de menu supérieure pour vous "
+"assurer que c'est le bon compte."
 
 #: inc/lib/inc/class-fusion-product-registration.php:732
 msgid "ThemeForest account"
-msgstr ""
+msgstr "Compte ThemeForest"
 
 #. translators: "Generate A Personal Token" link.
 #: inc/lib/inc/class-fusion-product-registration.php:740
@@ -8553,14 +8640,16 @@ msgid ""
 "Visit the %s. You should see a row for Avada.  If you don't, please re-check "
 "step 1 that you are on the correct account."
 msgstr ""
+"Visitez le %s. Vous devriez voir une ligne pour Avada.  Si ce n'est pas le "
+"cas, veuillez vérifier à nouveau à l'étape 1 que vous êtes sur le bon compte."
 
 #: inc/lib/inc/class-fusion-product-registration.php:741
 msgid "ThemeForest downloads page"
-msgstr ""
+msgstr "Page de téléchargement de ThemeForest"
 
 #: inc/lib/inc/class-fusion-product-registration.php:747
 msgid "Click the download button in the Avada row."
-msgstr ""
+msgstr "Cliquez sur le bouton de téléchargement dans la ligne Avada."
 
 #: inc/lib/inc/class-fusion-product-registration.php:752
 msgid ""
@@ -8568,10 +8657,15 @@ msgid ""
 "certificate & purchase code (text). This should then download either a text "
 "or PDF file."
 msgstr ""
+"Sélectionnez soit Certificat de licence et code d'achat (PDF), soit "
+"Certificat de licence et code d'achat (texte). Vous devriez alors "
+"télécharger un fichier texte ou PDF."
 
 #: inc/lib/inc/class-fusion-product-registration.php:757
 msgid "Open up that newly downloaded file and copy the Item Purchase Code."
 msgstr ""
+"Ouvrez ce fichier nouvellement téléchargé et copiez le code d'achat de "
+"l'article."
 
 #: inc/lib/inc/class-fusion-scripts.php:635
 msgid "Press Esc to close"
@@ -8836,7 +8930,7 @@ msgstr "Formulaire d'édition - %s"
 #. translators: Template name, for example Content
 #: inc/lib/inc/fusion-app/class-fusion-app.php:795
 msgid "Edit Post Card - %s"
-msgstr ""
+msgstr "Editer la carte postale - %s"
 
 #: inc/lib/inc/fusion-app/class-fusion-app.php:1184
 #: inc/lib/inc/fusion-app/class-fusion-app.php:1277
@@ -9230,7 +9324,7 @@ msgstr "Sélectionner un élément"
 
 #: inc/lib/inc/fusion-app/helpers.php:258
 msgid "Design Elements"
-msgstr ""
+msgstr "Éléments de conception"
 
 #: inc/lib/inc/fusion-app/helpers.php:261
 msgid "Library Elements"
@@ -9509,7 +9603,7 @@ msgstr "Ajouter un conteneur personnalisé : "
 
 #: inc/lib/inc/fusion-app/helpers.php:334
 msgid "Added Special Item: "
-msgstr ""
+msgstr "Ajout d'un élément spécial "
 
 #: inc/lib/inc/fusion-app/helpers.php:335
 msgid "Deleted"
@@ -9692,21 +9786,21 @@ msgstr "Ajouter une nouvelle option"
 
 #: inc/lib/inc/fusion-app/helpers.php:381
 msgid "Add New Logic"
-msgstr ""
+msgstr "Ajouter une nouvelle logique"
 
 #: inc/lib/inc/fusion-app/helpers.php:382
 msgid "There are no fields available for conditional logic."
-msgstr ""
+msgstr "Il n'y a pas de champs disponibles pour la logique conditionnelle."
 
 #: inc/lib/inc/fusion-app/helpers.php:383
 msgid "Condition Value"
-msgstr ""
+msgstr "Valeur de condition"
 
 #: inc/lib/inc/fusion-app/helpers.php:384
 #: inc/lib/inc/fusion-app/templates/options/fusion-logics.php:194
 #: inc/lib/inc/fusion-app/templates/options/fusion-logics.php:296
 msgid "OR"
-msgstr ""
+msgstr "OU"
 
 #: inc/lib/inc/fusion-app/helpers.php:385 shortcodes/form/image-select.php:598
 #: shortcodes/fusion-chart.php:905
@@ -9786,10 +9880,13 @@ msgid ""
 "the individual post card will be imported. Click OK to continue or cancel to "
 "stop."
 msgstr ""
+"AVERTISSEMENT : L'importation d'une carte postale supprime tout le contenu "
+"de la page actuelle. Seule la carte postale individuelle sera importée. "
+"Cliquez sur OK pour continuer ou sur Annuler pour arrêter."
 
 #: inc/lib/inc/fusion-app/helpers.php:400
 msgid "Import Post Card"
-msgstr ""
+msgstr "Carte postale d'importation"
 
 #: inc/lib/inc/fusion-app/helpers.php:401
 msgid "Import Prebuilt Form"
@@ -9858,7 +9955,7 @@ msgstr "Separateur de page suivant supprimé"
 
 #: inc/lib/inc/fusion-app/helpers.php:418
 msgid "Deleted Checkout Form Divider"
-msgstr ""
+msgstr "Séparateur de formulaire de caisse supprimé"
 
 #: inc/lib/inc/fusion-app/helpers.php:419
 msgid "Added Next Page Divider"
@@ -9890,6 +9987,8 @@ msgid ""
 "The checkout form items allows you to add opening and closing WooCommerce "
 "checkout form tags."
 msgstr ""
+"Les éléments du formulaire de caisse vous permettent d'ajouter des balises "
+"d'ouverture et de fermeture du formulaire de caisse de WooCommerce."
 
 #: inc/lib/inc/fusion-app/helpers.php:426
 msgid "Select Link"
@@ -10507,7 +10606,7 @@ msgstr "Vous pourriez aussi aimer&hellip;"
 
 #: inc/lib/inc/fusion-app/helpers.php:577 shortcodes/woo-upsells.php:96
 msgid "You may be interested in&hellip;"
-msgstr ""
+msgstr "Vous serez peut-être intéressé par&hellip;"
 
 #: inc/lib/inc/fusion-app/helpers.php:578
 msgid "Project Details"
@@ -10741,7 +10840,7 @@ msgstr "Supprimer la rangée"
 #: inc/lib/inc/fusion-app/templates/options/fusion-logics.php:194
 #: inc/lib/inc/fusion-app/templates/options/fusion-logics.php:296
 msgid "AND"
-msgstr ""
+msgstr "ET"
 
 #: inc/lib/inc/fusion-app/templates/options/hubspot-map.php:15
 msgid "No form fields or HubSpot properties found."
@@ -13522,7 +13621,7 @@ msgstr "Faites une section pour l'avatar des commentaires des utilisateurs."
 #: shortcodes/components/content.php:440 shortcodes/components/content.php:442
 #: shortcodes/fusion-text.php:378 shortcodes/fusion-text.php:380
 msgid "Global Options Body Typography Settings"
-msgstr ""
+msgstr "Options globales Paramètres de typographie du corps"
 
 #: shortcodes/components/content.php:459 shortcodes/fusion-blog.php:2488
 msgid ""
@@ -14071,11 +14170,11 @@ msgstr ""
 #: shortcodes/components/post-card-archives.php:214
 #: shortcodes/fusion-post-cards.php:1158
 msgid "No posts found."
-msgstr ""
+msgstr "Aucun article trouvé."
 
 #: shortcodes/components/post-card-archives.php:327
 msgid "Post Card Archives"
-msgstr ""
+msgstr "Archives de cartes postales"
 
 #. translators: The Avada Library link.
 #: shortcodes/components/post-card-archives.php:343
@@ -14084,11 +14183,14 @@ msgid ""
 "Select a saved Post Card design to use. Create new or edit existing Post "
 "Cards in the %s."
 msgstr ""
+"Sélectionnez un modèle de carte postale enregistré à utiliser. Créez de "
+"nouvelles cartes postales ou modifiez celles qui existent déjà dans la "
+"fenêtre %s."
 
 #: shortcodes/components/post-card-archives.php:355
 #: shortcodes/fusion-post-cards.php:1763
 msgid "Post Card List View"
-msgstr ""
+msgstr "Vue de la liste des cartes postales"
 
 #. translators: The Avada Library link.
 #: shortcodes/components/post-card-archives.php:359
@@ -14096,6 +14198,9 @@ msgid ""
 "This post card will be used in the list view which can be triggered with the "
 "sorting element (WooCommerce). Post cards can be created in the %s."
 msgstr ""
+"Cette carte postale sera utilisée dans la vue de liste qui peut être "
+"déclenchée avec l'élément de tri (WooCommerce). Les cartes postales peuvent "
+"être créées dans le champ %s."
 
 #. translators: %1$s: Portfolio Link. %2$s: Products Link.
 #: shortcodes/components/post-card-archives.php:374
@@ -14105,41 +14210,47 @@ msgid ""
 "the post type default number of posts. For %1$s and %2$s this comes from the "
 "global options. For all others Settings > Reading."
 msgstr ""
+"Sélectionnez le nombre de messages par page.  La valeur -1 permet de tout "
+"afficher. Définissez-le à 0 pour utiliser le nombre de messages par défaut "
+"du type de message. Pour %1$s et %2$s, cela provient des options globales. "
+"Pour tous les autres, Paramètres > Lecture."
 
 #: shortcodes/components/post-card-archives.php:375
 #: shortcodes/fusion-post-cards.php:1875
 msgid "portfolio"
-msgstr ""
+msgstr "portfolio"
 
 #: shortcodes/components/post-card-archives.php:376
 #: shortcodes/fusion-post-cards.php:1876
 msgid "products"
-msgstr ""
+msgstr "produits"
 
 #: shortcodes/components/post-card-archives.php:392
 #: shortcodes/fusion-post-cards.php:1990
 msgid "Select the type of pagination."
-msgstr ""
+msgstr "Sélectionnez le type de pagination."
 
 #: shortcodes/components/post-card-archives.php:435
 #: shortcodes/fusion-post-cards.php:2037
 msgid "Select how you want Post Cards to display."
 msgstr ""
+"Sélectionnez la manière dont vous souhaitez que les cartes postales "
+"s'affichent."
 
 #: shortcodes/components/post-card-archives.php:440
 #: shortcodes/fusion-post-cards.php:2042
 msgid "Slider"
-msgstr ""
+msgstr "Slider"
 
 #: shortcodes/components/post-card-archives.php:447
 #: shortcodes/fusion-post-cards.php:2049
 msgid "Post Card Alignment"
-msgstr ""
+msgstr "Alignement des cartes postales"
 
 #: shortcodes/components/post-card-archives.php:448
 #: shortcodes/fusion-post-cards.php:2050
 msgid "Select the Post Cards alignment within rows."
-msgstr ""
+msgstr "Sélectionnez l'alignement des cartes postales dans les rangées."
 
 #: shortcodes/components/post-card-archives.php:477
 #: shortcodes/components/woo-archives.php:305
@@ -14156,23 +14267,29 @@ msgstr "Définissez le nombre de colonnes par ligne."
 msgid ""
 "Set the number of columns per row. Leave at 0 for automatic column breaking"
 msgstr ""
+"Définissez le nombre de colonnes par ligne. Laissez à 0 pour une rupture "
+"automatique des colonnes"
 
 #: shortcodes/components/post-card-archives.php:506
 #: shortcodes/fusion-post-cards.php:2108
 msgid ""
 "Insert the amount of horizontal spacing between items without 'px'. ex: 40."
 msgstr ""
+"Insérez la quantité d'espacement horizontal entre les éléments sans 'px'. "
+"ex : 40."
 
 #: shortcodes/components/post-card-archives.php:528
 #: shortcodes/fusion-post-cards.php:2130
 msgid "Row Spacing"
-msgstr ""
+msgstr "Espacement de lignes"
 
 #: shortcodes/components/post-card-archives.php:529
 #: shortcodes/fusion-post-cards.php:2131
 msgid ""
 "Insert the amount of vertical spacing between items without 'px'. ex: 40."
 msgstr ""
+"Insérez la quantité d'espacement vertical entre les éléments sans 'px'. ex : "
+"40."
 
 #: shortcodes/components/post-card-archives.php:547
 #: shortcodes/fusion-post-cards.php:2151
@@ -14180,6 +14297,8 @@ msgid ""
 "Choose the horizontal separator line style. This will only be used on single "
 "column grids or list view."
 msgstr ""
+"Choisissez le style de ligne de séparation horizontale. Ce style ne sera "
+"utilisé que dans les grilles à colonne unique ou dans la vue en liste."
 
 #: shortcodes/components/post-card-archives.php:574
 #: shortcodes/fusion-post-cards.php:2178 shortcodes/fusion-separator.php:511
@@ -14207,7 +14326,7 @@ msgstr ""
 #: shortcodes/components/post-card-archives.php:626
 #: shortcodes/fusion-post-cards.php:2230
 msgid "Separator Alignment"
-msgstr ""
+msgstr "Alignement du séparateur"
 
 #: shortcodes/components/post-card-archives.php:627
 #: shortcodes/fusion-post-cards.php:2231 shortcodes/fusion-separator.php:681
@@ -14225,7 +14344,7 @@ msgstr "En pixels."
 #: shortcodes/components/post-card-archives.php:684
 #: shortcodes/fusion-post-cards.php:2289
 msgid "Choose to autoplay the items."
-msgstr ""
+msgstr "Choisissez de lire automatiquement les éléments."
 
 #: shortcodes/components/post-card-archives.php:703
 #: shortcodes/fusion-image-carousel.php:613
@@ -14262,21 +14381,23 @@ msgstr ""
 #: shortcodes/components/post-card-archives.php:756
 #: shortcodes/fusion-post-cards.php:2361
 msgid "Navigation Margin"
-msgstr ""
+msgstr "Marge de navigation"
 
 #: shortcodes/components/post-card-archives.php:757
 msgid ""
 "Controls the space between content and navigation. Enter value including any "
 "valid CSS unit, ex: -40px."
 msgstr ""
+"Contrôle l'espace entre le contenu et la navigation. Entrez la valeur en "
+"incluant toute unité CSS valide, ex : -40px."
 
 #: shortcodes/components/post-card-archives.php:778
 msgid "Slider Animation"
-msgstr ""
+msgstr "Animation du diaporama"
 
 #: shortcodes/components/post-card-archives.php:779
 msgid "Choose the slider animation style."
-msgstr ""
+msgstr "Choisissez le style d'animation du curseur."
 
 #: shortcodes/components/post-card-archives.php:814
 #: shortcodes/fusion-content-boxes.php:2531
@@ -14289,6 +14410,8 @@ msgstr "Délai d'animation"
 msgid ""
 "Controls the delay of animation between each element in a set. In seconds."
 msgstr ""
+"Contrôle le délai d'animation entre chaque élément d'un ensemble. En "
+"secondes."
 
 #: shortcodes/components/related.php:631
 msgid "There are no related posts."
@@ -14571,11 +14694,15 @@ msgid ""
 "use number of products from Avada > Options > WooCommerce > General "
 "WooCommerce."
 msgstr ""
+"Sélectionnez le nombre de produits par page.  Définissez-le à -1 pour tout "
+"afficher. Mettez la valeur 0 pour utiliser le nombre de produits dans Avada "
+"> Options > WooCommerce > General WooCommerce."
 
 #: shortcodes/components/woo-archives.php:315
 #: shortcodes/fusion-woo-product-grid.php:1061
 msgid "Insert the amount of spacing between items without 'px'. ex: 40."
 msgstr ""
+"Insérez la quantité d'espacement entre les éléments sans 'px'. ex : 40."
 
 #: shortcodes/components/woo-archives.php:336 shortcodes/fusion-blog.php:2670
 #: shortcodes/fusion-events.php:992 shortcodes/fusion-post-cards.php:1994
@@ -14594,7 +14721,7 @@ msgstr "Défilement infini"
 #: shortcodes/components/woo-archives.php:376
 #: shortcodes/fusion-woo-product-grid.php:1125
 msgid "Display the product featured image."
-msgstr ""
+msgstr "Affichez l'image vedette du produit."
 
 #: shortcodes/components/woo-archives.php:392 shortcodes/fusion-blog.php:2423
 #: shortcodes/fusion-post-card-image.php:609
@@ -14606,7 +14733,7 @@ msgstr "Afficher le titre"
 #: shortcodes/components/woo-archives.php:393
 #: shortcodes/fusion-woo-product-grid.php:1142
 msgid "Display the product title below the featured image."
-msgstr ""
+msgstr "Affichez le titre du produit sous l'image vedette."
 
 #: shortcodes/components/woo-archives.php:404
 #: shortcodes/components/woo-cart.php:2596
@@ -14628,12 +14755,12 @@ msgstr "Choisissez d'afficher ou de masquer le prix."
 #: shortcodes/fusion-post-card-image.php:678
 #: shortcodes/fusion-woo-product-grid.php:1175
 msgid "Show Rating"
-msgstr ""
+msgstr "Afficher l’évaluation"
 
 #: shortcodes/components/woo-archives.php:417
 #: shortcodes/fusion-woo-product-grid.php:1176
 msgid "Choose to show or hide the rating."
-msgstr ""
+msgstr "Choisissez d'afficher ou de masquer le classement."
 
 #: shortcodes/components/woo-archives.php:428
 #: shortcodes/fusion-post-card-image.php:733
@@ -14648,16 +14775,18 @@ msgstr "Afficher les boutons"
 #: shortcodes/fusion-woo-product-grid.php:1193
 msgid "Choose to show or hide Add to Cart / Details buttons."
 msgstr ""
+"Choisissez de montrer ou de cacher Add to Cart / Boutons Détails sur le "
+"rollover."
 
 #: shortcodes/components/woo-archives.php:449
 #: shortcodes/fusion-woo-product-grid.php:1231
 msgid "Grid Border Color"
-msgstr ""
+msgstr "Couleur de la bordure de la grille"
 
 #: shortcodes/components/woo-archives.php:450
 #: shortcodes/fusion-woo-product-grid.php:1232
 msgid "Controls the color of borders for the grid boxes."
-msgstr ""
+msgstr "Contrôle la couleur des bordures des cases de la grille."
 
 #: shortcodes/components/woo-archives.php:459
 #: shortcodes/fusion-woo-product-grid.php:1241
@@ -14666,6 +14795,10 @@ msgid ""
 "Separators will display, when buttons below the separators is displayed and "
 "Box Design mode set to Classic."
 msgstr ""
+"Contrôle le style de ligne des séparateurs de grille. <strong>Remarque :</"
+"strong> les séparateurs s'affichent lorsque les boutons situés sous les "
+"séparateurs sont affichés et que le mode de conception de la boîte est réglé "
+"sur Classique."
 
 #: shortcodes/components/woo-archives.php:490
 #: shortcodes/fusion-woo-product-grid.php:1272
@@ -14673,6 +14806,9 @@ msgid ""
 "Controls the line style color of grid separators. <strong>Note:</strong> "
 "Only work when Box Design mode set to Classic."
 msgstr ""
+"Contrôle la couleur du style de ligne des séparateurs de grille. "
+"<strong>Remarque :</strong> ne fonctionne que lorsque le mode Conception de "
+"boîtes est défini sur Classique."
 
 #: shortcodes/components/woo-cart.php:1422
 msgid "Woo Add To Cart"
@@ -16042,11 +16178,13 @@ msgstr ""
 
 #: shortcodes/components/woo-product-images.php:611
 msgid "Display Out of Stock Badge"
-msgstr ""
+msgstr "Afficher un badge de rupture de stock"
 
 #: shortcodes/components/woo-product-images.php:612
 msgid "Turn on to enable the WooCommerce out of stock badge."
 msgstr ""
+"Activez cette option pour activer le badge de rupture de stock de "
+"WooCommerce."
 
 #: shortcodes/components/woo-product-images.php:628
 msgid "Display Sale Badge"
@@ -16054,7 +16192,7 @@ msgstr "Afficher l'insigne de vente"
 
 #: shortcodes/components/woo-product-images.php:629
 msgid "Turn on to enable the WooCommerce sale badge."
-msgstr ""
+msgstr "Activez cette option pour activer le badge de vente WooCommerce."
 
 #: shortcodes/components/woo-rating.php:195
 msgid "Be the first to leave a review."
@@ -16735,6 +16873,8 @@ msgid ""
 "Enter the label for the input field. This will not be visual, but is used "
 "for HubSpot matching."
 msgstr ""
+"Saisissez l'étiquette du champ de saisie. Celui-ci ne sera pas visuel, mais "
+"il est utilisé pour la correspondance HubSpot."
 
 #: shortcodes/form/hidden.php:121
 msgid "hidden_field"
@@ -17087,6 +17227,9 @@ msgid ""
 "Select the button's color. Select default or color name for Global Options, "
 "or select custom to use advanced color options below."
 msgstr ""
+"Sélectionnez la couleur du bouton. Sélectionnez la couleur par défaut ou le "
+"nom de la couleur pour les options globales, ou sélectionnez personnalisé "
+"pour utiliser les options de couleur avancées ci-dessous."
 
 #: shortcodes/form/submit.php:243 shortcodes/fusion-button.php:1071
 #: shortcodes/fusion-button.php:1178 shortcodes/fusion-tagline.php:761
@@ -17241,13 +17384,15 @@ msgstr "Champ texte"
 
 #: shortcodes/form/text.php:165 shortcodes/form/textarea.php:165
 msgid "Disabled Field"
-msgstr ""
+msgstr "Champ désactivé"
 
 #: shortcodes/form/text.php:166 shortcodes/form/textarea.php:166
 msgid ""
 "Choose to disable the field, which makes its content uneditable. Disabled "
 "fields won't be submitted."
 msgstr ""
+"Choisissez de désactiver le champ, ce qui rend son contenu non modifiable. "
+"Les champs désactivés ne seront pas soumis."
 
 #: shortcodes/form/text.php:179 shortcodes/form/textarea.php:179
 #: shortcodes/form/time.php:200
@@ -17345,11 +17490,11 @@ msgstr ""
 
 #: shortcodes/form/upload.php:210
 msgid "Allow Multiple Uploads"
-msgstr ""
+msgstr "Téléversement multiple"
 
 #: shortcodes/form/upload.php:211
 msgid "Decide if multiple files can be uploaded."
-msgstr ""
+msgstr "Décidez si plusieurs fichiers peuvent être téléchargés."
 
 #: shortcodes/form/upload.php:221
 msgid "Allowed Extensions"
@@ -17777,6 +17922,9 @@ msgid ""
 "Select number of posts per page. Set to -1 to display all. Set to 0 to use "
 "number of posts from Settings > Reading."
 msgstr ""
+"Sélectionnez le nombre d’articles par page. Réglez de \"-1\" à  \"tout\". "
+"Réglez sur \"0\" pour utiliser le nombre de messages paramétré dans "
+"Réglages> Lecture."
 
 #: shortcodes/fusion-blog.php:2219 shortcodes/fusion-blog.php:2220
 #: shortcodes/fusion-recent-posts.php:1009
@@ -19496,6 +19644,8 @@ msgid ""
 "Choose to show a background behind the icon. Select default for Global "
 "Options selection."
 msgstr ""
+"Choisissez d'afficher un arrière-plan derrière l'icône. Sélectionnez la "
+"valeur par défaut pour la sélection des options globales."
 
 #: shortcodes/fusion-content-boxes.php:2185
 msgid "Icon Background Radius"
@@ -19551,6 +19701,8 @@ msgid ""
 "Select the animation type for icon on hover. Select default for Global "
 "Options selection."
 msgstr ""
+"Sélectionnez le type d'animation de l'icône au survol. Sélectionnez la "
+"valeur par défaut pour la sélection des options globales."
 
 #: shortcodes/fusion-content-boxes.php:2329
 msgid "Hover Accent Color"
@@ -19608,6 +19760,8 @@ msgid ""
 "Select the type of link that should show in the content box. Select default "
 "for Global Options selection."
 msgstr ""
+"Sélectionnez le type de lien qui doit s'afficher dans la zone de contenu. "
+"Sélectionnez la valeur par défaut pour la sélection des options globales."
 
 #: shortcodes/fusion-content-boxes.php:2406
 msgid "Link Area"
@@ -19618,6 +19772,8 @@ msgid ""
 "Select which area the link will be assigned to. Select default for Global "
 "Options selection."
 msgstr ""
+"Sélectionnez la zone à laquelle le lien sera attribué. Sélectionnez la "
+"valeur par défaut pour la sélection des options globales."
 
 #: shortcodes/fusion-content-boxes.php:2411
 msgid "Link+Icon"
@@ -20151,11 +20307,11 @@ msgstr "Choisissez une couleur d’arrière-plan pour le compte à rebours."
 
 #: shortcodes/fusion-countdown.php:1070
 msgid "Display When Inactive"
-msgstr ""
+msgstr "Affichage en cas d'inactivité"
 
 #: shortcodes/fusion-countdown.php:1071
 msgid "Choose if the element should be shown when inactive."
-msgstr ""
+msgstr "Choisissez si l'élément doit être affiché lorsqu'il est inactif."
 
 #: shortcodes/fusion-countdown.php:1081
 msgid "Counter Box Spacing"
@@ -20343,7 +20499,7 @@ msgstr "Choisissez une couleur de texte pour le lien du compte à rebours."
 
 #: shortcodes/fusion-countdown.php:1308
 msgid "Radius"
-msgstr ""
+msgstr "Rayon"
 
 #: shortcodes/fusion-countdown.php:1309
 msgid "Choose the radius of outer box. In pixels (px), ex: 1px."
@@ -20703,12 +20859,16 @@ msgstr "Ajoutez la lettre à utiliser comme lettrine."
 msgid ""
 "Controls the color of the dropcap. Leave blank for Global Options selection."
 msgstr ""
+"Contrôle la couleur de la capsule. Laissez vide pour la sélection des "
+"options globales."
 
 #: shortcodes/fusion-dropcap.php:257
 msgid ""
 "Controls the color of the dropcap letter when using a box. Leave blank for "
 "Global Options selection."
 msgstr ""
+"Contrôle la couleur de la lettre dropcap lors de l'utilisation d'une boîte. "
+"Laissez vide pour la sélection des options globales."
 
 #: shortcodes/fusion-dropcap.php:272
 msgid "Boxed Dropcap"
@@ -20813,6 +20973,9 @@ msgid ""
 "Select the number of events to display. Set to -1 to display all. Set to 0 "
 "to use number of posts from Settings > Reading."
 msgstr ""
+"Sélectionnez le nombre d'événements à afficher. La valeur -1 permet de tout "
+"afficher. Définissez-le sur 0 pour utiliser le nombre de messages dans "
+"Paramètres > Lecture."
 
 #: shortcodes/fusion-events.php:876 shortcodes/fusion-image-carousel.php:593
 #: shortcodes/fusion-woo-featured-products-slider.php:633
@@ -21246,13 +21409,15 @@ msgstr "Contrôle la couleur de l'icône au survol. "
 
 #: shortcodes/fusion-fontawesome.php:718
 msgid "Icon Background Size"
-msgstr ""
+msgstr "Taille de l’arrière plan de l'icône"
 
 #: shortcodes/fusion-fontawesome.php:719
 msgid ""
 "Controls the background size of the icon. Set to -1 to use default "
 "calculations. In pixels, ex: 35."
 msgstr ""
+"Contrôle la taille de l'arrière-plan de l'icône. Définissez-le à -1 pour "
+"utiliser les calculs par défaut. En pixels, ex : 35."
 
 #: shortcodes/fusion-fontawesome.php:737
 msgid "Controls the color of the icon background. "
@@ -21826,6 +21991,9 @@ msgid ""
 "Controls the font size of the label text. Note: font family is controlled by "
 "body font in Global Options."
 msgstr ""
+"Contrôle la taille de la police du texte de l'étiquette. Remarque : la "
+"famille de polices est contrôlée par la police du corps dans les Options "
+"globales."
 
 #: shortcodes/fusion-image-before-after.php:650
 #: shortcodes/fusion-image-before-after.php:985
@@ -22091,6 +22259,9 @@ msgid ""
 "Controls the font size of the label text. In Pixels. Note: font family is "
 "controlled by body font in Global Options."
 msgstr ""
+"Contrôle la taille de la police du texte de l'étiquette. En pixels. "
+"Remarque : la famille de polices est contrôlée par la police du corps dans "
+"les options globales."
 
 #: shortcodes/fusion-image-before-after.php:1079
 msgid "Add the URL the item will link to, ex: http://example.com."
@@ -24040,98 +24211,106 @@ msgid ""
 "Choose the display position of the popover. Choose default for Global "
 "Options selection."
 msgstr ""
+"Choisissez la position d'affichage du popover. Choisissez la valeur par "
+"défaut pour la sélection des options globales."
 
 #: shortcodes/fusion-post-card-cart.php:482
 msgid "Add to cart"
-msgstr ""
+msgstr "Ajouter au panier"
 
 #: shortcodes/fusion-post-card-cart.php:1049
 msgid "Post Card Cart"
-msgstr ""
+msgstr "Chariot à cartes postales"
 
 #: shortcodes/fusion-post-card-cart.php:1058
 msgid ""
 "Select the layout of cart components. Floated will have components side by "
 "side. Stacked will have one component per row."
 msgstr ""
+"Sélectionnez la disposition des composants du panier. Flottant, les "
+"composants seront côte à côte. Empilés : un composant par ligne."
 
 #: shortcodes/fusion-post-card-cart.php:1132
 msgid "Show Quantity"
-msgstr ""
+msgstr "Afficher Quantité"
 
 #: shortcodes/fusion-post-card-cart.php:1133
 msgid "Display the quantity input."
-msgstr ""
+msgstr "Affiche la quantité saisie."
 
 #: shortcodes/fusion-post-card-cart.php:1143
 msgid "Show Add To Cart"
-msgstr ""
+msgstr "Afficher Ajouter au Panier"
 
 #: shortcodes/fusion-post-card-cart.php:1144
 msgid "Display the Add To Cart button."
-msgstr ""
+msgstr "Affichez le bouton Ajouter au panier."
 
 #: shortcodes/fusion-post-card-cart.php:1154
 msgid "Show Product Link"
-msgstr ""
+msgstr "Afficher le lien vers le produit"
 
 #: shortcodes/fusion-post-card-cart.php:1155
 msgid "Display the Product Link ."
-msgstr ""
+msgstr "Afficher le lien vers le produit ."
 
 #: shortcodes/fusion-post-card-cart.php:1165
 msgid "Product Quick View"
-msgstr ""
+msgstr "Affichage rapide du produit"
 
 #: shortcodes/fusion-post-card-cart.php:1166
 msgid "Enable product quick view for products."
-msgstr ""
+msgstr "Activez pour permettre une vue rapide des produits."
 
 #: shortcodes/fusion-post-card-cart.php:1184
 msgid "Buttons Span"
-msgstr ""
+msgstr "Portée des boutons"
 
 #: shortcodes/fusion-post-card-cart.php:1185
 msgid "Controls if buttons spans the full width/remaining width of row."
 msgstr ""
+"Contrôle si les boutons s'étendent sur toute la largeur/la largeur restante "
+"de la ligne."
 
 #: shortcodes/fusion-post-card-cart.php:1208
 #: shortcodes/fusion-woo-cart-coupons.php:373
 #: shortcodes/fusion-woo-cart-totals.php:630
 msgid "Buttons Layout"
-msgstr ""
+msgstr "Mise en page des boutons"
 
 #: shortcodes/fusion-post-card-cart.php:1209
 msgid ""
 "Select the layout for buttons.  Floated will have them side by side.  "
 "Stacked will have one per row."
 msgstr ""
+"Sélectionnez la disposition des boutons.  Flottants, ils seront côte à "
+"côte.  Empilés : un par ligne."
 
 #: shortcodes/fusion-post-card-cart.php:1231
 #: shortcodes/fusion-post-card-cart.php:1272
 msgid "Buttons Alignment"
-msgstr ""
+msgstr "Alignement des boutons"
 
 #: shortcodes/fusion-post-card-cart.php:1386
 msgid "Quantity Margin"
-msgstr ""
+msgstr "Marge de quantité"
 
 #: shortcodes/fusion-post-card-cart.php:1751
 msgid "Add To Cart Margin"
-msgstr ""
+msgstr "Ajouter au panier Marge"
 
 #: shortcodes/fusion-post-card-cart.php:1774
 msgid "Add To Cart Link Style"
-msgstr ""
+msgstr "Style de lien \"Ajouter au panier"
 
 #: shortcodes/fusion-post-card-cart.php:1778
 #: shortcodes/fusion-post-card-cart.php:2269
 msgid "Text Link"
-msgstr ""
+msgstr "Texte du lien"
 
 #: shortcodes/fusion-post-card-cart.php:1904
 msgid "Add To Cart Link Font Size"
-msgstr ""
+msgstr "Taille de la police du lien \"Ajouter au panier"
 
 #: shortcodes/fusion-post-card-cart.php:1905
 #: shortcodes/fusion-post-card-cart.php:2309
@@ -24139,72 +24318,74 @@ msgid ""
 "Controls the font size of the text link. Enter value including any valid CSS "
 "unit, ex: 20px."
 msgstr ""
+"Contrôle la taille de la police du lien texte. Entrez la valeur en incluant "
+"toute unité CSS valide, ex : 20px."
 
 #: shortcodes/fusion-post-card-cart.php:1927
 msgid "Add To Cart Link Styling"
-msgstr ""
+msgstr "Ajouter au panier Stylisation des liens"
 
 #: shortcodes/fusion-post-card-cart.php:1957
 #: shortcodes/fusion-post-card-cart.php:2361
 msgid "Controls the text color of the link."
-msgstr ""
+msgstr "Contrôle la couleur du texte du lien en clair."
 
 #: shortcodes/fusion-post-card-cart.php:1984
 msgid "Link Text Hover Color"
-msgstr ""
+msgstr "Couleur du texte au survol du bouton"
 
 #: shortcodes/fusion-post-card-cart.php:1985
 #: shortcodes/fusion-post-card-cart.php:2389
 msgid "Controls the text hover color of the link."
-msgstr ""
+msgstr "Contrôle la couleur de survol du texte du lien."
 
 #: shortcodes/fusion-post-card-cart.php:2265
 msgid "Product Link Style"
-msgstr ""
+msgstr "Style du lien du produit"
 
 #: shortcodes/fusion-post-card-cart.php:2266
 msgid "Select whether you want to custom style the product link."
-msgstr ""
+msgstr "Indiquez si vous souhaitez personnaliser le lien vers le produit."
 
 #: shortcodes/fusion-post-card-cart.php:2285
 msgid "Product Link Margin"
-msgstr ""
+msgstr "Marge du lien produit"
 
 #: shortcodes/fusion-post-card-cart.php:2308
 msgid "Product Link Font Size"
-msgstr ""
+msgstr "Taille de la police du lien vers le produit"
 
 #: shortcodes/fusion-post-card-cart.php:2331
 msgid "Product Link Styling"
-msgstr ""
+msgstr "Stylisation des liens vers les produits"
 
 #: shortcodes/fusion-post-card-cart.php:2360
 msgid "Product Link Text Color"
-msgstr ""
+msgstr "Couleur du texte du lien vers le produit"
 
 #: shortcodes/fusion-post-card-cart.php:2388
 msgid "Product Link Text Hover Color"
-msgstr ""
+msgstr "Couleur de survol du texte du lien vers le produit"
 
 #: shortcodes/fusion-post-card-image.php:583
 msgid "Post Card Image"
-msgstr ""
+msgstr "Image de carte postale"
 
 #: shortcodes/fusion-post-card-image.php:593
 msgid "Choose image layout."
-msgstr ""
+msgstr "Choisissez la mise en page de l'image."
 
 #: shortcodes/fusion-post-card-image.php:597
 msgid "Crossfade"
-msgstr ""
+msgstr "Fondu enchaîné"
 
 #: shortcodes/fusion-post-card-image.php:598
 msgid "Rollover"
-msgstr ""
+msgstr "Survol"
 
 #: shortcodes/fusion-post-card-image.php:610
 msgid "Choose to show or hide the title."
-msgstr ""
+msgstr "Choisissez d'afficher ou de masquer le titre."
 
 #: shortcodes/fusion-post-card-image.php:633
 #: shortcodes/fusion-woo-featured-products-slider.php:682
@@ -24215,11 +24396,15 @@ msgstr "Choisissez d'afficher ou de masquer les catégories."
 #: shortcodes/fusion-post-card-image.php:656
 msgid "Choose to show or hide the price. Applies only to WooCommerce products."
 msgstr ""
+"Choisissez d'afficher ou de masquer le prix. S'applique uniquement aux "
+"produits WooCommerce."
 
 #: shortcodes/fusion-post-card-image.php:679
 msgid ""
 "Choose to show or hide the rating. Applies only to WooCommerce products."
 msgstr ""
+"Choisissez d'afficher ou de masquer l'évaluation. S'applique uniquement aux "
+"produits WooCommerce."
 
 #: shortcodes/fusion-post-card-image.php:701
 #: shortcodes/fusion-woo-featured-products-slider.php:703
@@ -24231,107 +24416,119 @@ msgstr "Afficher le Badge de rabais"
 msgid ""
 "Choose to show or hide the sale badge. Applies only to WooCommerce products."
 msgstr ""
+"Choisissez d'afficher ou de masquer le badge de vente. S'applique uniquement "
+"aux produits WooCommerce."
 
 #: shortcodes/fusion-post-card-image.php:717
 msgid "Show Out Of Stock Badge"
-msgstr ""
+msgstr "Afficher le badge \"Rupture de stock"
 
 #: shortcodes/fusion-post-card-image.php:718
 msgid ""
 "Choose to show or hide the out of stock badge. Applies only to WooCommerce "
 "products."
 msgstr ""
+"Choisissez d'afficher ou de masquer le badge de rupture de stock. S'applique "
+"uniquement aux produits WooCommerce."
 
 #: shortcodes/fusion-post-card-image.php:734
 msgid ""
 "Choose to show or hide Add to Cart / Details buttons on the rollover. "
 "Applies only to WooCommerce products."
 msgstr ""
+"Choisissez d'afficher ou de masquer les boutons Ajouter au panier / Détails "
+"sur le rollover. S'applique uniquement aux produits WooCommerce."
 
 #: shortcodes/fusion-post-card-image.php:756
 msgid "Link Image"
-msgstr ""
+msgstr "Lien d'image"
 
 #: shortcodes/fusion-post-card-image.php:757
 msgid ""
 "Choose to link image to default or custom link or disable link completely."
 msgstr ""
+"Choisissez de lier l'image à un lien par défaut ou personnalisé ou de "
+"désactiver complètement le lien."
 
 #: shortcodes/fusion-post-card-image.php:786
 msgid "Custom Link"
-msgstr ""
+msgstr "Lien personnalisé"
 
 #: shortcodes/fusion-post-card-image.php:787
 msgid ""
 "Choos to link image to default or custom link or disable link completely."
 msgstr ""
+"Choisissez de lier l'image à un lien par défaut ou personnalisé ou de "
+"désactiver complètement le lien."
 
 #: shortcodes/fusion-post-card-image.php:863
 msgid "Crossfade Background Color"
-msgstr ""
+msgstr "Couleur de fond du crossfade"
 
 #. translators: URL for the link.
 #: shortcodes/fusion-post-card-image.php:865
 msgid "Set the background of crossfade image container"
-msgstr ""
+msgstr "Définir l'arrière-plan du conteneur de l'image du crossfade"
 
 #: shortcodes/fusion-post-cards.php:205
 msgid "Load More Items"
-msgstr ""
+msgstr "Charger plus d'éléments"
 
 #. translators: %s: "Post type label".
 #. translators: The name.
 #: shortcodes/fusion-post-cards.php:218 shortcodes/fusion-post-cards.php:671
 msgid "Load More %s"
-msgstr ""
+msgstr "Afficher plus de résultats %s"
 
 #. translators: The name.
 #: shortcodes/fusion-post-cards.php:1113
 msgid "Loading the next set of %s..."
-msgstr ""
+msgstr "Chargement du prochain ensemble de %s..."
 
 #: shortcodes/fusion-post-cards.php:1156
 msgid "Please select post card design to display here."
-msgstr ""
+msgstr "Veuillez sélectionner le modèle de carte postale à afficher ici."
 
 #: shortcodes/fusion-post-cards.php:1158
 msgid "No terms found."
-msgstr ""
+msgstr "Aucun terme trouvé."
 
 #: shortcodes/fusion-post-cards.php:1414
 msgid "Post Type"
-msgstr ""
+msgstr "Type d'article"
 
 #: shortcodes/fusion-post-cards.php:1415
 msgid "Select the post type to display."
-msgstr ""
+msgstr "Sélectionnez le type de message à afficher."
 
 #: shortcodes/fusion-post-cards.php:1454
 msgid "Select which taxonomy to use."
-msgstr ""
+msgstr "Sélectionnez la taxonomie à utiliser."
 
 #: shortcodes/fusion-post-cards.php:1507
 msgid "Posts By"
-msgstr ""
+msgstr "Articles de"
 
 #: shortcodes/fusion-post-cards.php:1508
 msgid "Select which taxonomy to pull posts from or select all to pull all."
 msgstr ""
+"Sélectionnez la taxonomie dont vous souhaitez extraire les messages ou "
+"sélectionnez tout pour les extraire tous."
 
 #. translators: Taxonomy title.
 #: shortcodes/fusion-post-cards.php:1570
 msgid "Include %s"
-msgstr ""
+msgstr "Inclure %s"
 
 #. translators: Taxonomy name.
 #: shortcodes/fusion-post-cards.php:1574 shortcodes/fusion-post-cards.php:1623
 msgid "Select a %s or leave blank for all."
-msgstr ""
+msgstr "Sélectionnez un %s ou laissez le champ vide pour tous."
 
 #. translators: Taxonomy title.
 #: shortcodes/fusion-post-cards.php:1619
 msgid "Exclude %s"
-msgstr ""
+msgstr "Exclure %s"
 
 #: shortcodes/fusion-post-cards.php:1728 shortcodes/fusion-search.php:393
 msgid "Posts"
@@ -24339,15 +24536,15 @@ msgstr "Articles"
 
 #: shortcodes/fusion-post-cards.php:1730
 msgid "Related"
-msgstr ""
+msgstr "Similaire"
 
 #: shortcodes/fusion-post-cards.php:1735
 msgid "Upsells"
-msgstr ""
+msgstr "Ventes incitatives"
 
 #: shortcodes/fusion-post-cards.php:1736
 msgid "Cross-sells"
-msgstr ""
+msgstr "Ventes croisées"
 
 #. translators: The Avada Library link.
 #: shortcodes/fusion-post-cards.php:1767
@@ -24355,10 +24552,13 @@ msgid ""
 "This post card will be used in the list view which can be triggered with the "
 "sorting element. Post cards can be created in the %s."
 msgstr ""
+"Cette carte postale sera utilisée dans la vue en liste qui peut être "
+"déclenchée par l'élément de tri. Les cartes postales peuvent être créées "
+"dans l'élément %s."
 
 #: shortcodes/fusion-post-cards.php:1791
 msgid "Content Source"
-msgstr ""
+msgstr "Source de contenu"
 
 #: shortcodes/fusion-post-cards.php:1792
 msgid ""
@@ -24366,6 +24566,10 @@ msgid ""
 "The related option will fetch items related to the post that it is placed on "
 "based on taxonomy selection."
 msgstr ""
+"Sélectionnez le type de contenu que vous souhaitez afficher. "
+"<strong>Remarque :</strong> l'option connexe récupère les éléments liés à "
+"l'article sur lequel elle est placée, en fonction de la sélection de la "
+"taxonomie."
 
 #: shortcodes/fusion-post-cards.php:1813
 #: shortcodes/fusion-woo-featured-products-slider.php:594
@@ -24375,29 +24579,34 @@ msgstr "Inclure les produits en rupture de stock"
 
 #: shortcodes/fusion-post-cards.php:1814
 msgid "Include or exclude out of stock products."
-msgstr ""
+msgstr "Inclure ou exclure les produits en rupture de stock."
 
 #: shortcodes/fusion-post-cards.php:1842
 msgid "Show Hidden Products"
-msgstr ""
+msgstr "Afficher les produits cachés"
 
 #: shortcodes/fusion-post-cards.php:1843
 msgid "Display hidden products that are excluded from search or catalogs."
 msgstr ""
+"Affichez les produits cachés qui sont exclus de la recherche ou des "
+"catalogues."
 
 #: shortcodes/fusion-post-cards.php:1871
 msgid "Number of Posts"
-msgstr ""
+msgstr "Nombre d’articles"
 
 #: shortcodes/fusion-post-cards.php:1891
 msgid "Posts Offset"
-msgstr ""
+msgstr "Décalage des publications"
 
 #: shortcodes/fusion-post-cards.php:1907
 msgid ""
 "Defines how posts should be ordered. <strong>Note:</strong> (Price|"
 "Popularity|Rating)options only work for product-related queries."
 msgstr ""
+"Définit comment les articles doivent être classés. <strong>Remarque :</"
+"strong> les options (Prix|Popularité|Cotation) ne fonctionnent que pour les "
+"requêtes liées aux produits."
 
 #: shortcodes/fusion-post-cards.php:1920
 #: shortcodes/fusion-woo-featured-products-slider.php:560
@@ -24408,37 +24617,40 @@ msgstr "Popularité (ventes)"
 
 #: shortcodes/fusion-post-cards.php:1939
 msgid "Defines how terms should be ordered."
-msgstr ""
+msgstr "Définit comment les termes doivent être ordonnés."
 
 #: shortcodes/fusion-post-cards.php:1944
 msgid "Slug"
-msgstr ""
+msgstr "Identifiant"
 
 #: shortcodes/fusion-post-cards.php:1945
 msgid "Term Group"
-msgstr ""
+msgstr "Groupe de termes"
 
 #: shortcodes/fusion-post-cards.php:1946
 msgid "Term ID"
-msgstr ""
+msgstr "ID terme"
 
 #: shortcodes/fusion-post-cards.php:1948
 msgid "Parent"
-msgstr ""
+msgstr "Parent"
 
 #: shortcodes/fusion-post-cards.php:2323
 msgid "Choose to show navigation buttons on the carousel / slider."
 msgstr ""
+"Choisissez d'afficher les boutons de navigation sur le carrousel/le slider."
 
 #: shortcodes/fusion-post-cards.php:2362
 msgid ""
 "Controls the space between content and navigation. Enter value including any "
 "valid CSS unit, default: 40px."
 msgstr ""
+"Contrôle l'espace entre le contenu et la navigation. Entrez la valeur en "
+"incluant toute unité CSS valide, par défaut : 40px."
 
 #: shortcodes/fusion-post-cards.php:2384
 msgid "Choose for animation style."
-msgstr ""
+msgstr "Choisissez le style d'animation."
 
 #: shortcodes/fusion-post-slider.php:478
 msgid "Post Slider"
@@ -24728,6 +24940,8 @@ msgid ""
 "Select the position of the progress bar text. Choose \"Default\" for Global "
 "Options selection."
 msgstr ""
+"Sélectionnez la position du texte de la barre de progression. Choisissez "
+"\"Default\" pour la sélection des options globales."
 
 #: shortcodes/fusion-progress.php:308 shortcodes/fusion-progress.php:436
 msgid "On Bar"
@@ -24892,73 +25106,77 @@ msgstr "Choisissez d'afficher l'extrait de l'article."
 #: shortcodes/fusion-scroll-progress.php:262
 #: shortcodes/fusion-scroll-progress.php:370
 msgid "Scroll Progress"
-msgstr ""
+msgstr "Progression du défilement"
 
 #: shortcodes/fusion-scroll-progress.php:270
 #: shortcodes/fusion-scroll-progress.php:380
 msgid "Progress Bar Position"
-msgstr ""
+msgstr "Position de a barre de progression"
 
 #: shortcodes/fusion-scroll-progress.php:271
 msgid "Select the position of the progress bar.."
-msgstr ""
+msgstr "Sélectionnez la position de la barre de progression.."
 
 #: shortcodes/fusion-scroll-progress.php:276
 #: shortcodes/fusion-scroll-progress.php:385
 msgid "Content Flow"
-msgstr ""
+msgstr "Flux de contenu"
 
 #: shortcodes/fusion-scroll-progress.php:277
 #: shortcodes/fusion-scroll-progress.php:386
 msgid "Fixed to Top"
-msgstr ""
+msgstr "Fixé au sommet"
 
 #: shortcodes/fusion-scroll-progress.php:278
 #: shortcodes/fusion-scroll-progress.php:387
 msgid "Fixed to Bottom"
-msgstr ""
+msgstr "Fixé au fond"
 
 #: shortcodes/fusion-scroll-progress.php:292
 #: shortcodes/fusion-scroll-progress.php:418
 msgid "Controls the background color of the progress bar."
-msgstr ""
+msgstr "Contrôle la couleur de fond de la barre de progression."
 
 #: shortcodes/fusion-scroll-progress.php:299
 #: shortcodes/fusion-scroll-progress.php:426
 msgid "Progress Color"
-msgstr ""
+msgstr "Couleur de progression"
 
 #: shortcodes/fusion-scroll-progress.php:300
 msgid "Controls the color of the progress bar."
-msgstr ""
+msgstr "Contrôle la couleur du texte de la barre de progression."
 
 #: shortcodes/fusion-scroll-progress.php:307
 msgid "Progress Bar Border Size"
-msgstr ""
+msgstr "Couleur des zones remplies des barres de progression"
 
 #: shortcodes/fusion-scroll-progress.php:308
 msgid "Controls the border size of the progress bar."
 msgstr ""
+"Contrôle l'épaisseur des bordures des zones pleines de la barre de "
+"progression."
 
 #: shortcodes/fusion-scroll-progress.php:320
 msgid "Progress Bar Border Color"
-msgstr ""
+msgstr "Couleur des zones remplies des barres de progression"
 
 #: shortcodes/fusion-scroll-progress.php:321
 msgid "Controls the border color of the progress bar."
 msgstr ""
+"Contrôle la couleur des bordures des zones pleines de la barre de "
+"progression."
 
 #: shortcodes/fusion-scroll-progress.php:329
 msgid "Set the border radius of the progress bar."
-msgstr ""
+msgstr "Définissez le rayon de la bordure de la barre de progression."
 
 #: shortcodes/fusion-scroll-progress.php:381
 msgid "Select the position of the progress bar."
-msgstr ""
+msgstr "Sélectionnez la position de la barre de progression."
 
 #: shortcodes/fusion-scroll-progress.php:393
 msgid "Z-Index"
-msgstr ""
+msgstr "Z-Index"
 
 #: shortcodes/fusion-scroll-progress.php:394
 msgid ""
@@ -24966,14 +25184,21 @@ msgid ""
 "default value is set to 99998. If you see page contents above the progress "
 "bar, you can also set a higher z-index on the wrapping container to fix it."
 msgstr ""
+"Valeur de la propriété CSS z-index de la barre de progression. Pour les "
+"positions fixes, la valeur par défaut est fixée à 99998. Si le contenu de la "
+"page se trouve au-dessus de la barre de progression, vous pouvez également "
+"définir un z-index plus élevé pour le conteneur d'habillage afin de corriger "
+"la situation."
 
 #: shortcodes/fusion-scroll-progress.php:427
 msgid "Select a color for the progress bar."
-msgstr ""
+msgstr "Sélectionnez une couleur pour la barre de progression audio."
 
 #: shortcodes/fusion-scroll-progress.php:447
 msgid "Controls the border color for the progress bar."
 msgstr ""
+"Contrôle la couleur des bordures des zones pleines de la barre de "
+"progression."
 
 #: shortcodes/fusion-search.php:376
 msgid "Enable Live Search"
@@ -25365,6 +25590,8 @@ msgid ""
 "Controls the color of the icon. Will fall back to the separator color, if no "
 "color is set here and in the Global Options."
 msgstr ""
+"Contrôle la couleur de l'icône. La couleur du séparateur sera utilisée si "
+"aucune couleur n'est définie ici et dans les options globales."
 
 #: shortcodes/fusion-separator.php:757
 msgid "Circled Icon"
@@ -25904,6 +26131,8 @@ msgid ""
 "Choose the display position for tooltips. Choose default for Global Options "
 "selection."
 msgstr ""
+"Choisissez la position d'affichage des infobulles. Choisissez la valeur par "
+"défaut pour la sélection des options globales."
 
 #: shortcodes/fusion-social-sharing.php:1442
 msgid "Pinterest Sharing Image"
@@ -26554,6 +26783,9 @@ msgid ""
 "Choose the position of the highlight. This border highlight is from Global "
 "Options primary color and does not take the color from border color above."
 msgstr ""
+"Choisissez la position de la surbrillance. Ce surlignage de la bordure "
+"provient de la couleur primaire des Options globales et ne prend pas la "
+"couleur de la couleur de la bordure ci-dessus."
 
 #: shortcodes/fusion-tagline.php:644
 msgid "Button Link"
@@ -26577,6 +26809,8 @@ msgstr ""
 #: shortcodes/fusion-tagline.php:699
 msgid "Select the button's size. Choose default for Global Option selection."
 msgstr ""
+"Sélectionnez la taille du bouton. Choisissez la valeur par défaut pour la "
+"sélection de l'option globale."
 
 #: shortcodes/fusion-tagline.php:720
 msgid "Select the button's type."
@@ -26943,27 +27177,31 @@ msgstr "Contrôle la couleur des séparateurs de titre."
 
 #: shortcodes/fusion-title.php:879
 msgid "Title Margins"
-msgstr ""
+msgstr "Marges du Titre"
 
 #: shortcodes/fusion-title.php:880
 msgid ""
 "Controls the margin of the titles. Leave empty to use corresponding heading "
 "margins."
 msgstr ""
+"Contrôle la marge des titres. Laissez vide pour utiliser les marges des "
+"titres correspondants."
 
 #: shortcodes/fusion-title.php:898
 msgid "Title Mobile Margins"
-msgstr ""
+msgstr "Titre Marges mobiles"
 
 #: shortcodes/fusion-title.php:899
 msgid ""
 "Controls the margin of the titles on mobiles. Leave empty together with "
 "desktop margins to use corresponding heading margins."
 msgstr ""
+"Contrôle la marge des titres sur les mobiles. Laissez vide avec les marges "
+"de bureau pour utiliser les marges de titre correspondantes."
 
 #: shortcodes/fusion-title.php:972 shortcodes/fusion-title.php:974
 msgid "Global Options Heading Settings"
-msgstr ""
+msgstr "Options globales Paramètres de l'en-tête"
 
 #: shortcodes/fusion-title.php:992
 msgid "Title Type"
@@ -27115,11 +27353,11 @@ msgstr "Entrez après le texte."
 
 #: shortcodes/fusion-title.php:1231
 msgid "Title Link"
-msgstr ""
+msgstr "Lien du titre"
 
 #: shortcodes/fusion-title.php:1232
 msgid "Choose if title text should have a link."
-msgstr ""
+msgstr "Choisissez si le texte du titre doit comporter un lien."
 
 #: shortcodes/fusion-title.php:1298
 msgid "Choose to align the heading left, right or center."
@@ -27236,11 +27474,11 @@ msgstr "Contrôle la couleur du séparateur. "
 
 #: shortcodes/fusion-title.php:1510
 msgid "Controls the link color."
-msgstr ""
+msgstr "Contrôlez la couleur du lien."
 
 #: shortcodes/fusion-title.php:1531
 msgid "Controls the link hover color."
-msgstr ""
+msgstr "Contrôlez la couleur du lien au survol."
 
 #: shortcodes/fusion-toggle.php:501 shortcodes/fusion-toggle.php:513
 #: shortcodes/fusion-toggle.php:686 shortcodes/fusion-toggle.php:709
@@ -27972,13 +28210,15 @@ msgstr ""
 
 #: shortcodes/fusion-vimeo.php:297 shortcodes/fusion-youtube.php:303
 msgid "Title Attribute"
-msgstr ""
+msgstr "Attribut du titre"
 
 #: shortcodes/fusion-vimeo.php:298
 msgid ""
 "Set the title attribute for the iframe embed of your video. Leave empty to "
 "use default value of \"Vimeo video player #\"."
 msgstr ""
+"Définissez l'attribut de titre pour l'intégration iframe de votre vidéo. "
+"Laissez vide pour utiliser la valeur par défaut de \"Vimeo video player #\"."
 
 #: shortcodes/fusion-widget-area.php:248 shortcodes/fusion-widget-area.php:294
 msgid "Widget Area"
@@ -28023,37 +28263,39 @@ msgstr "Choisissez le type de widget."
 #: shortcodes/fusion-woo-cart-coupons.php:169
 #: shortcodes/fusion-woo-cart-table.php:255
 msgid "Coupon code"
-msgstr ""
+msgstr "Code de réduction"
 
 #: shortcodes/fusion-woo-cart-coupons.php:170
 #: shortcodes/fusion-woo-cart-table.php:255
 msgid "Apply coupon"
-msgstr ""
+msgstr "Appliquer le coupon"
 
 #: shortcodes/fusion-woo-cart-coupons.php:345
 msgid "Woo Cart Coupons"
-msgstr ""
+msgstr "Coupons Woo Cart"
 
 #: shortcodes/fusion-woo-cart-coupons.php:374
 #: shortcodes/fusion-woo-cart-totals.php:631
 msgid "Select the layout of buttons."
-msgstr ""
+msgstr "Sélectionnez la disposition des boutons."
 
 #: shortcodes/fusion-woo-cart-coupons.php:384
 #: shortcodes/fusion-woo-cart-totals.php:648
 #: shortcodes/fusion-woo-cart-totals.php:686
 msgid "Buttons Horizontal Align"
-msgstr ""
+msgstr "Alignement horizontal des boutons"
 
 #: shortcodes/fusion-woo-cart-coupons.php:385
 #: shortcodes/fusion-woo-cart-totals.php:649
 #: shortcodes/fusion-woo-cart-totals.php:687
 msgid "Change the horizontal alignment of buttons within its container column."
 msgstr ""
+"Modifiez l'alignement horizontal des boutons dans la colonne qui les "
+"contient."
 
 #: shortcodes/fusion-woo-cart-coupons.php:430
 msgid "Button Margin"
-msgstr ""
+msgstr "Marges externes"
 
 #: shortcodes/fusion-woo-cart-coupons.php:442
 #: shortcodes/fusion-woo-cart-shipping.php:463
@@ -28061,7 +28303,7 @@ msgstr ""
 #: shortcodes/woo-checkout-shipping.php:345
 #: shortcodes/woo-checkout-tabs.php:965
 msgid "Form Field Background Color"
-msgstr ""
+msgstr "Couleur d’arrière-plan des champs du formulaire d'inscription"
 
 #: shortcodes/fusion-woo-cart-coupons.php:443
 #: shortcodes/fusion-woo-cart-shipping.php:464
@@ -28069,7 +28311,7 @@ msgstr ""
 #: shortcodes/woo-checkout-shipping.php:346
 #: shortcodes/woo-checkout-tabs.php:966
 msgid "Controls the background color of the form input fields."
-msgstr ""
+msgstr "Contrôle la couleur de fond des champs de saisie du formulaire."
 
 #: shortcodes/fusion-woo-cart-coupons.php:454
 #: shortcodes/fusion-woo-cart-shipping.php:475
@@ -28077,7 +28319,7 @@ msgstr ""
 #: shortcodes/woo-checkout-shipping.php:357
 #: shortcodes/woo-checkout-tabs.php:977
 msgid "Form Field Text Color"
-msgstr ""
+msgstr "Couleur du texte des champs du formulaire d’inscription"
 
 #: shortcodes/fusion-woo-cart-coupons.php:455
 #: shortcodes/fusion-woo-cart-shipping.php:476
@@ -28085,7 +28327,7 @@ msgstr ""
 #: shortcodes/woo-checkout-shipping.php:358
 #: shortcodes/woo-checkout-tabs.php:978
 msgid "Controls the text color of the form input fields."
-msgstr ""
+msgstr "Contrôle la couleur du texte des champs de saisie du formulaire."
 
 #: shortcodes/fusion-woo-cart-coupons.php:467
 #: shortcodes/fusion-woo-cart-shipping.php:488
@@ -28093,7 +28335,7 @@ msgstr ""
 #: shortcodes/woo-checkout-shipping.php:370
 #: shortcodes/woo-checkout-tabs.php:990
 msgid "Controls the border color of the form input fields."
-msgstr ""
+msgstr "Contrôle la couleur de la bordure des champs de saisie du formulaire."
 
 #: shortcodes/fusion-woo-cart-coupons.php:479
 #: shortcodes/fusion-woo-cart-shipping.php:500
@@ -28102,144 +28344,146 @@ msgstr ""
 #: shortcodes/woo-checkout-tabs.php:1002
 msgid "Controls the border color of the form input fields on focus."
 msgstr ""
+"Contrôle la couleur de la bordure des champs de saisie du formulaire lors de "
+"la mise au point."
 
 #: shortcodes/fusion-woo-cart-shipping.php:156
 msgid "Select a country&hellip;"
-msgstr ""
+msgstr "Choisir un pays&hellip;"
 
 #: shortcodes/fusion-woo-cart-shipping.php:176
 #: shortcodes/fusion-woo-cart-shipping.php:181
 #: shortcodes/fusion-woo-cart-shipping.php:193
 msgid "State / county"
-msgstr ""
+msgstr "État/Pays"
 
 #: shortcodes/fusion-woo-cart-shipping.php:182
 msgid "Select a state&hellip;"
-msgstr ""
+msgstr "Choisir un État&hellip;"
 
 #: shortcodes/fusion-woo-cart-shipping.php:202
 msgid "City"
-msgstr ""
+msgstr "Ville"
 
 #: shortcodes/fusion-woo-cart-shipping.php:210
 msgid "Postcode / ZIP"
-msgstr ""
+msgstr "Code postal"
 
 #: shortcodes/fusion-woo-cart-shipping.php:216
 msgid "Update totals"
-msgstr ""
+msgstr "Mettre à jour les totaux"
 
 #: shortcodes/fusion-woo-cart-shipping.php:435
 msgid "Woo Cart Shipping"
-msgstr ""
+msgstr "Woo Cart Shipping"
 
 #: shortcodes/fusion-woo-cart-table.php:74
 #: shortcodes/fusion-woo-cart-table.php:529
 #: shortcodes/fusion-woo-cart-table.php:891
 msgid "Quantity"
-msgstr ""
+msgstr "Quantité"
 
 #: shortcodes/fusion-woo-cart-table.php:82
 #: shortcodes/fusion-woo-cart-table.php:892
 #: shortcodes/fusion-woo-cart-totals.php:211
 #: shortcodes/fusion-woo-cart-totals.php:212
 msgid "Subtotal"
-msgstr ""
+msgstr "Sous-total"
 
 #: shortcodes/fusion-woo-cart-table.php:254
 msgid "Coupon:"
-msgstr ""
+msgstr "Coupon :"
 
 #: shortcodes/fusion-woo-cart-table.php:261
 #: shortcodes/fusion-woo-cart-totals.php:372
 msgid "Update cart"
-msgstr ""
+msgstr "Mettre à jour le panier"
 
 #: shortcodes/fusion-woo-cart-table.php:412
 msgid "Available on backorder"
-msgstr ""
+msgstr "Le paquet à installer n'est pas disponible"
 
 #: shortcodes/fusion-woo-cart-table.php:567
 #: shortcodes/fusion-woo-cart-totals.php:353
 #: shortcodes/fusion-woo-cart-totals.php:354
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: shortcodes/fusion-woo-cart-table.php:598
 msgid "Remove this item"
-msgstr ""
+msgstr "Retirer cet article"
 
 #: shortcodes/fusion-woo-cart-table.php:875
 msgid "Woo Cart Table"
-msgstr ""
+msgstr "Table de chariot Woo"
 
 #: shortcodes/fusion-woo-cart-table.php:883
 msgid "Table Columns"
-msgstr ""
+msgstr "Colonnes de table"
 
 #: shortcodes/fusion-woo-cart-table.php:884
 msgid "Choose the order of cart table columns."
-msgstr ""
+msgstr "Choisissez l'ordre des colonnes de la table de panier."
 
 #: shortcodes/fusion-woo-cart-table.php:893
 msgid "Remove Icon"
-msgstr ""
+msgstr "Retirer l’icône"
 
 #: shortcodes/fusion-woo-cart-table.php:894
 msgid "Product Title"
-msgstr ""
+msgstr "﻿Titre du produit"
 
 #: shortcodes/fusion-woo-cart-table.php:895
 msgid "Product Image"
-msgstr ""
+msgstr "Image du produit"
 
 #: shortcodes/fusion-woo-cart-table.php:905
 #: shortcodes/woo-checkout-order-review.php:394
 msgid "Show Table Headers"
-msgstr ""
+msgstr "Afficher les en-têtes de tableau"
 
 #: shortcodes/fusion-woo-cart-table.php:906
 #: shortcodes/woo-checkout-order-review.php:395
 msgid "Choose to have table headers displayed."
-msgstr ""
+msgstr "Choisissez d'afficher les en-têtes de tableau."
 
 #: shortcodes/fusion-woo-cart-table.php:921
 msgid "Empty Cart Message"
-msgstr ""
+msgstr "Message du panier vide"
 
 #: shortcodes/fusion-woo-cart-table.php:922
 msgid "Show a message when the cart is empty."
-msgstr ""
+msgstr "Afficher un message lorsque le panier est vide."
 
 #: shortcodes/fusion-woo-cart-table.php:924
 msgid "Your cart is empty!"
-msgstr ""
+msgstr "Votre panier est vide!"
 
 #: shortcodes/fusion-woo-cart-totals.php:264
 #: shortcodes/fusion-woo-cart-totals.php:265
 msgid "Shipping"
-msgstr ""
+msgstr "Livraison"
 
 #. translators: %s location.
 #: shortcodes/fusion-woo-cart-totals.php:314
 msgid "(estimated for %s)"
-msgstr ""
+msgstr "(estimé pour %s)"
 
 #: shortcodes/fusion-woo-cart-totals.php:386
 msgid "Proceed to checkout"
-msgstr ""
+msgstr "Procéder au paiement"
 
 #: shortcodes/fusion-woo-cart-totals.php:606
 msgid "Woo Cart Totals"
-msgstr ""
+msgstr "Woo Cart Totals"
 
 #: shortcodes/fusion-woo-cart-totals.php:615
 msgid "Choose to show or hide buttons."
-msgstr ""
+msgstr "Choisissez d'afficher ou de masquer les boutons."
 
 #: shortcodes/fusion-woo-cart-totals.php:737
 msgid "Buttons Margin"
-msgstr ""
+msgstr "Marge boutons"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:487
 msgid "Woo Featured Products Slider"
@@ -28274,6 +28518,9 @@ msgid ""
 "working, please regenerate the Product Lookup Tables <a href=\"%s\" target="
 "\"_blank\">here</a>."
 msgstr ""
+"Définit comment les produits doivent être commandés. REMARQUE : Si la "
+"commande par prix ne fonctionne pas, veuillez régénérer les tables de "
+"recherche de produits <a href=\"%s\" target=\"_blank\">ici</a>."
 
 #: shortcodes/fusion-woo-featured-products-slider.php:572
 #: shortcodes/fusion-woo-product-grid.php:1102
@@ -28324,27 +28571,27 @@ msgstr ""
 #: shortcodes/fusion-woo-product-grid.php:418
 #: shortcodes/fusion-woo-sorting.php:103
 msgid "Load More Products"
-msgstr ""
+msgstr "Charger plus de produits"
 
 #: shortcodes/fusion-woo-product-grid.php:653
 msgid "Loading the next set of products..."
-msgstr ""
+msgstr "Chargement de la prochaine série de produits..."
 
 #: shortcodes/fusion-woo-product-grid.php:911
 msgid "Woo Product Grid"
-msgstr ""
+msgstr "Grille de produits Woo"
 
 #: shortcodes/fusion-woo-product-grid.php:918
 msgid "Pull Products By"
-msgstr ""
+msgstr "Tirez les produits par"
 
 #: shortcodes/fusion-woo-product-grid.php:919
 msgid "Choose to show products by category or tag."
-msgstr ""
+msgstr "Choisissez d'afficher les produits par catégorie ou par étiquette."
 
 #: shortcodes/fusion-woo-product-grid.php:1084
 msgid "Default sorting"
-msgstr ""
+msgstr "Tri par défaut"
 
 #: shortcodes/fusion-woo-product-slider.php:507
 msgid "Woo Product Carousel"
@@ -28400,21 +28647,21 @@ msgstr "Le shortcode s'affichera ici."
 
 #: shortcodes/fusion-woo-sorting.php:217 shortcodes/fusion-woo-sorting.php:269
 msgid "Default Order"
-msgstr ""
+msgstr "Commande par défaut"
 
 #: shortcodes/fusion-woo-sorting.php:228 shortcodes/fusion-woo-sorting.php:293
 #: shortcodes/fusion-woo-sorting.php:602
 msgid "Popularity"
-msgstr ""
+msgstr "Popularité"
 
 #: shortcodes/fusion-woo-sorting.php:231 shortcodes/fusion-woo-sorting.php:300
 #: shortcodes/fusion-woo-sorting.php:603
 msgid "Rating"
-msgstr ""
+msgstr "Classement"
 
 #: shortcodes/fusion-woo-sorting.php:237 shortcodes/fusion-woo-sorting.php:263
 msgid "Relevance"
-msgstr ""
+msgstr "Pertinence"
 
 #. translators: Name, Price, Date etc.
 #. translators: Relevance, Price, Date etc.
@@ -28429,15 +28676,15 @@ msgstr ""
 #: shortcodes/fusion-woo-sorting.php:281 shortcodes/fusion-woo-sorting.php:287
 #: shortcodes/fusion-woo-sorting.php:293 shortcodes/fusion-woo-sorting.php:300
 msgid "Sort by %s"
-msgstr ""
+msgstr "Trier par %s"
 
 #: shortcodes/fusion-woo-sorting.php:310
 msgid "Ascending order"
-msgstr ""
+msgstr "Ordre ascendant"
 
 #: shortcodes/fusion-woo-sorting.php:312
 msgid "Descending order"
-msgstr ""
+msgstr "Ordre descendant"
 
 #. translators: Number.
 #. translators: Number of products.
@@ -28446,23 +28693,23 @@ msgstr ""
 #: shortcodes/fusion-woo-sorting.php:332 shortcodes/fusion-woo-sorting.php:344
 #: shortcodes/fusion-woo-sorting.php:355 shortcodes/fusion-woo-sorting.php:366
 msgid "Show <strong>%s Products</strong>"
-msgstr ""
+msgstr "Montrer <strong>%s produits</strong>"
 
 #: shortcodes/fusion-woo-sorting.php:390
 msgid "View as grid"
-msgstr ""
+msgstr "Vue en grille"
 
 #: shortcodes/fusion-woo-sorting.php:393
 msgid "View as list"
-msgstr ""
+msgstr "Vue en liste"
 
 #: shortcodes/fusion-woo-sorting.php:590
 msgid "Woo Sorting"
-msgstr ""
+msgstr "Triage Woo"
 
 #: shortcodes/fusion-woo-sorting.php:606
 msgid "Sorting Options"
-msgstr ""
+msgstr "Options de tri"
 
 #. translators: WooCommerce lookup table link.
 #: shortcodes/fusion-woo-sorting.php:608
@@ -28471,68 +28718,76 @@ msgid ""
 "box. NOTE: If Order by Price is not working, please regenerate the Product "
 "Lookup Tables <a href=\"%s\" target=\"_blank\">here</a>."
 msgstr ""
+"Sélectionnez les options de tri que vous souhaitez voir s'afficher dans la "
+"zone de liste de tri. REMARQUE : Si la commande par prix ne fonctionne pas, "
+"veuillez régénérer les tables de recherche de produits <a href=\"%s\" target="
+"\"_blank\">ici</a>."
 
 #: shortcodes/fusion-woo-sorting.php:617
 msgid "Sorting Elements"
-msgstr ""
+msgstr "Tri des éléments"
 
 #: shortcodes/fusion-woo-sorting.php:618
 msgid "Choose the order of sorting elements."
-msgstr ""
+msgstr "Choisissez l'ordre de tri des éléments."
 
 #: shortcodes/fusion-woo-sorting.php:622
 msgid "Product Order By"
-msgstr ""
+msgstr "Commande de produits par"
 
 #: shortcodes/fusion-woo-sorting.php:623
 msgid "Product Count"
-msgstr ""
+msgstr "Nombre de produits"
 
 #: shortcodes/fusion-woo-sorting.php:624
 msgid "Product View"
-msgstr ""
+msgstr "Vue Produit"
 
 #: shortcodes/fusion-woo-sorting.php:634
 msgid "Product Count Selection"
-msgstr ""
+msgstr "Sélection du nombre de produits"
 
 #: shortcodes/fusion-woo-sorting.php:635
 msgid ""
 "Select the number of product count to display. For best results it should "
 "equal the number of posts set in the woo archives element."
 msgstr ""
+"Sélectionnez le nombre de produits à afficher. Pour de meilleurs résultats, "
+"il doit être égal au nombre d'articles défini dans l'élément woo archives."
 
 #: shortcodes/fusion-woo-sorting.php:664
 msgid "Dropdown Background Color"
-msgstr ""
+msgstr "Couleur d’arrière-plan du menu déroulant"
 
 #: shortcodes/fusion-woo-sorting.php:665
 msgid "Controls the background color for the dropdowns."
-msgstr ""
+msgstr "Contrôle la couleur de fond pour les menus déroulants des sous-menus."
 
 #: shortcodes/fusion-woo-sorting.php:673
 msgid "Dropdown Hover / Active Background Color"
-msgstr ""
+msgstr "Couleur d'arrière-plan pour le survol / l'activation de la goutte"
 
 #: shortcodes/fusion-woo-sorting.php:674
 msgid "Controls the background color for the dropdowns hover / active states."
 msgstr ""
+"Contrôle la couleur d'arrière-plan des états de survol et d'activation des "
+"listes déroulantes."
 
 #: shortcodes/fusion-woo-sorting.php:682
 msgid "Dropdown Text Color"
-msgstr ""
+msgstr "Couleur du texte du Menu déroulant"
 
 #: shortcodes/fusion-woo-sorting.php:683
 msgid "Controls the text color for the dropdowns."
-msgstr ""
+msgstr "Contrôle la couleur du texte pour les menus déroulants des sous-menus."
 
 #: shortcodes/fusion-woo-sorting.php:691
 msgid "Dropdown Border Color"
-msgstr ""
+msgstr "Couleur du contour de la liste déroulante"
 
 #: shortcodes/fusion-woo-sorting.php:692
 msgid "Controls the border color for the dropdowns."
-msgstr ""
+msgstr "Contrôle la couleur de la bordure des listes déroulantes."
 
 #: shortcodes/fusion-youtube.php:245
 msgid "Youtube"
@@ -28563,92 +28818,97 @@ msgid ""
 "Set the title attribute for the iframe embed of your video. Leave empty to "
 "use default value of \"YouTube video player #\"."
 msgstr ""
+"Définissez l'attribut de titre pour l'intégration iframe de votre vidéo. "
+"Laissez vide pour utiliser la valeur par défaut de \"YouTube video player #"
+"\"."
 
 #: shortcodes/woo-checkout-billing.php:336
 msgid "Woo Checkout Billing"
-msgstr ""
+msgstr "Facturation de Woo Checkout"
 
 #: shortcodes/woo-checkout-order-review.php:375
 msgid "Woo Checkout Order Review"
-msgstr ""
+msgstr "Revue des commandes de Woo Checkout"
 
 #: shortcodes/woo-checkout-order-review.php:436
 msgid "Header Cell Background Color"
-msgstr ""
+msgstr "Couleur d'arrière-plan des cellules d'en-tête"
 
 #: shortcodes/woo-checkout-order-review.php:437
 msgid "Controls the header cell background color. "
-msgstr ""
+msgstr "Contrôle la couleur de fond de la cellule d'en-tête"
 
 #: shortcodes/woo-checkout-order-review.php:454
 msgid "Header Cell Text Color"
-msgstr ""
+msgstr "Couleur du texte de la cellule d'en-tête"
 
 #: shortcodes/woo-checkout-order-review.php:455
 msgid "Controls the color of the header text, ex: #000."
-msgstr ""
+msgstr "Contrôle la couleur du texte de l'en-tête, ex : #000."
 
 #: shortcodes/woo-checkout-order-review.php:473
 msgid "Header Cell Font Family"
-msgstr ""
+msgstr "Famille de polices de la cellule d'en-tête"
 
 #: shortcodes/woo-checkout-order-review.php:474
 msgid "Controls the font family of the header."
-msgstr ""
+msgstr "Contrôle la famille de polices de l'en-tête."
 
 #: shortcodes/woo-checkout-order-review.php:494
 msgid "Header Cell Font Size"
-msgstr ""
+msgstr "Taille de la police des cellules d'en-tête"
 
 #: shortcodes/woo-checkout-order-review.php:523
 msgid "Table Cell Text Color"
-msgstr ""
+msgstr "Couleur du texte des cellules de tableau"
 
 #: shortcodes/woo-checkout-order-review.php:535
 msgid "Table Cell Text Font Family"
-msgstr ""
+msgstr "Famille de caractères du texte des cellules de tableau"
 
 #: shortcodes/woo-checkout-order-review.php:549
 msgid "Table Cell Text Font Size"
-msgstr ""
+msgstr "Taille de la police du texte des cellules de tableau"
 
 #: shortcodes/woo-checkout-order-review.php:560
 msgid "Footer Cell Background Color"
-msgstr ""
+msgstr "Couleur d'arrière-plan des cellules de pied de page"
 
 #: shortcodes/woo-checkout-order-review.php:561
 msgid "Controls the footer cell background color. "
-msgstr ""
+msgstr "Contrôle la couleur d'arrière-plan des cellules du pied de page"
 
 #: shortcodes/woo-checkout-order-review.php:571
 msgid "Footer Cell Text Color"
-msgstr ""
+msgstr "Couleur du texte de la cellule de pied de page"
 
 #: shortcodes/woo-checkout-order-review.php:572
 msgid "Controls the color of the footer text, ex: #000."
-msgstr ""
+msgstr "Contrôle la couleur du texte du pied de page, ex : #000."
 
 #: shortcodes/woo-checkout-order-review.php:583
 msgid "Footer Cell Font Family"
-msgstr ""
+msgstr "Famille de polices Footer Cell"
 
 #: shortcodes/woo-checkout-order-review.php:584
 msgid "Controls the font family of the footer cells."
-msgstr ""
+msgstr "Contrôle la famille de polices des cellules du pied de page."
 
 #: shortcodes/woo-checkout-order-review.php:597
 msgid "Footer Cell Font Size"
-msgstr ""
+msgstr "Taille de la police des cellules de pied de page"
 
 #: shortcodes/woo-checkout-payment.php:488
 msgid "Woo Checkout Payment"
-msgstr ""
+msgstr "Paiement Woo Checkout"
 
 #: shortcodes/woo-checkout-payment.php:495
 msgid ""
 "Controls the font size of the payments text. Enter value including any valid "
 "CSS unit, ex: 20px."
 msgstr ""
+"Contrôle la taille de la police du texte des paiements. Entrez la valeur en "
+"incluant toute unité CSS valide, ex : 20px."
 
 #. translators: URL for the link.
 #: shortcodes/woo-checkout-payment.php:508
@@ -28656,10 +28916,12 @@ msgid ""
 "Controls the font family of the payments text.  Leave empty for the global "
 "font family."
 msgstr ""
+"Contrôle la famille de polices du texte des paiements.  Laissez vide pour la "
+"famille de polices globale."
 
 #: shortcodes/woo-checkout-payment.php:535
 msgid "Label Padding"
-msgstr ""
+msgstr "Marges internes du libellé"
 
 #: shortcodes/woo-checkout-payment.php:536
 #: shortcodes/woo-checkout-payment.php:600
@@ -28668,140 +28930,144 @@ msgid ""
 "Enter values including any valid CSS unit, ex: 10px or 10%. Leave empty to "
 "use default value."
 msgstr ""
+"Entrez les valeurs en incluant toute unité CSS valide, ex : 10px ou 10%. "
+"Laissez vide pour utiliser la valeur par défaut de 40px."
 
 #: shortcodes/woo-checkout-payment.php:551
 msgid "Label Background Color"
-msgstr ""
+msgstr "Couleur d’arrière-plan du libellé"
 
 #: shortcodes/woo-checkout-payment.php:552
 msgid "Controls the label background color of the payments."
-msgstr ""
+msgstr "Contrôle la couleur de fond de l'étiquette des paiements."
 
 #: shortcodes/woo-checkout-payment.php:563
 msgid "Label Hover Background Color"
-msgstr ""
+msgstr "Couleur de fond du survol de l'étiquette"
 
 #: shortcodes/woo-checkout-payment.php:564
 msgid "Controls the label hover background color of the payments label."
-msgstr ""
+msgstr "Contrôle la couleur de fond du survol de l'étiquette des paiements."
 
 #: shortcodes/woo-checkout-payment.php:575
 msgid "Label Color"
-msgstr ""
+msgstr "Couleur de l'étiquette"
 
 #: shortcodes/woo-checkout-payment.php:576
 msgid "Controls the label color of the payments."
-msgstr ""
+msgstr "Contrôle la couleur de l'étiquette des paiements."
 
 #: shortcodes/woo-checkout-payment.php:587
 msgid "Label Hover Color"
-msgstr ""
+msgstr "Couleur de survol de l'étiquette"
 
 #: shortcodes/woo-checkout-payment.php:588
 msgid "Controls the label hover color of the payments."
-msgstr ""
+msgstr "Contrôle la couleur de survol de l'étiquette des paiements."
 
 #: shortcodes/woo-checkout-payment.php:599
 #: shortcodes/woo-checkout-tabs.php:1078
 msgid "Payment Description Padding"
-msgstr ""
+msgstr "Description du paiement Rembourrage"
 
 #: shortcodes/woo-checkout-payment.php:615
 #: shortcodes/woo-checkout-tabs.php:1094
 msgid "Payment Description Background Color"
-msgstr ""
+msgstr "Description du paiement Couleur de fond"
 
 #: shortcodes/woo-checkout-payment.php:616
 msgid "Controls the label background color of the payments description."
 msgstr ""
+"Contrôle la couleur de fond de l'étiquette de la description des paiements."
 
 #: shortcodes/woo-checkout-payment.php:627
 msgid "Payment Description Color"
-msgstr ""
+msgstr "Paiement Description Couleur"
 
 #: shortcodes/woo-checkout-payment.php:628
 msgid "Controls the description color of the payments."
-msgstr ""
+msgstr "Contrôle la couleur de la description des paiements."
 
 #: shortcodes/woo-checkout-payment.php:640 shortcodes/woo-checkout-tabs.php:942
 msgid "Controls the link color of the payments text."
-msgstr ""
+msgstr "Contrôle la couleur du lien du texte des paiements."
 
 #: shortcodes/woo-checkout-payment.php:652 shortcodes/woo-checkout-tabs.php:954
 msgid "Controls the link hover color of the payments text."
-msgstr ""
+msgstr "Contrôle la couleur de survol du lien pour le texte des paiements."
 
 #: shortcodes/woo-checkout-payment.php:663
 msgid "Place Order Button Style"
-msgstr ""
+msgstr "Style du bouton \"Passer la commande"
 
 #: shortcodes/woo-checkout-payment.php:664
 msgid "Select whether you want to custom style the place order button."
 msgstr ""
+"Indiquez si vous souhaitez personnaliser le bouton \"Passer commande\"."
 
 #: shortcodes/woo-checkout-shipping.php:326
 msgid "Woo Checkout Shipping"
-msgstr ""
+msgstr "Woo Checkout Expédition"
 
 #: shortcodes/woo-checkout-tabs.php:253
 msgid "Billing details"
-msgstr ""
+msgstr "Details de facturation"
 
 #: shortcodes/woo-checkout-tabs.php:254
 msgid "Billing &amp; Shipping"
-msgstr ""
+msgstr "Facturation &amp; Expédition"
 
 #: shortcodes/woo-checkout-tabs.php:639
 msgid "Woo Checkout Tabs"
-msgstr ""
+msgstr "Onglets de caisse Woo"
 
 #: shortcodes/woo-checkout-tabs.php:1014
 msgid "Payment Label Padding"
-msgstr ""
+msgstr "Rembourrage des étiquettes de paiement"
 
 #: shortcodes/woo-checkout-tabs.php:1030
 msgid "Payment Label Background Color"
-msgstr ""
+msgstr "Couleur de fond de l'étiquette de paiement"
 
 #: shortcodes/woo-checkout-tabs.php:1031
 msgid "Controls the payment label background color."
-msgstr ""
+msgstr "Contrôle la couleur de fond de l'étiquette de paiement."
 
 #: shortcodes/woo-checkout-tabs.php:1042
 msgid "Payment Label Hover Background Color"
-msgstr ""
+msgstr "Couleur de fond du survol de l'étiquette de paiement"
 
 #: shortcodes/woo-checkout-tabs.php:1043
 msgid "Controls the payment label hover background color."
-msgstr ""
+msgstr "Contrôle la couleur de fond du survol de l'étiquette de paiement."
 
 #: shortcodes/woo-checkout-tabs.php:1054
 msgid "Payment Label Color"
-msgstr ""
+msgstr "Couleur de l'étiquette de paiement"
 
 #: shortcodes/woo-checkout-tabs.php:1055
 msgid "Controls the payment label color."
-msgstr ""
+msgstr "Contrôle la couleur de l'étiquette de paiement."
 
 #: shortcodes/woo-checkout-tabs.php:1066
 msgid "Payment Label Hover Color"
-msgstr ""
+msgstr "Couleur du survol de l'étiquette de paiement"
 
 #: shortcodes/woo-checkout-tabs.php:1067
 msgid "Controls the payment label hover color."
-msgstr ""
+msgstr "Contrôle la couleur du survol de l'étiquette de paiement."
 
 #: shortcodes/woo-checkout-tabs.php:1095
 msgid "Controls the background color of the payments description."
-msgstr ""
+msgstr "Contrôle la couleur de fond de la description des paiements."
 
 #: shortcodes/woo-checkout-tabs.php:1106
 msgid "Payment Description Text Color"
-msgstr ""
+msgstr "Description du paiement Couleur du texte"
 
 #: shortcodes/woo-checkout-tabs.php:1107
 msgid "Controls the payment description text color."
-msgstr ""
+msgstr "Contrôle la couleur du texte de la description du paiement."
 
 #: shortcodes/woo-notices.php:221
 msgid "This is an error notice example."
@@ -28822,7 +29088,7 @@ msgstr "Il s'agit d'un exemple d'avis général."
 
 #: shortcodes/woo-notices.php:235
 msgid "You must be logged in to checkout."
-msgstr ""
+msgstr "Vous devez être identifié pour commander."
 
 #: shortcodes/woo-notices.php:723
 msgid "Woo Notices"
@@ -28830,7 +29096,7 @@ msgstr "Avis Woo"
 
 #: shortcodes/woo-notices.php:726
 msgid "This element should only be added 1 time."
-msgstr ""
+msgstr "Cet élément ne doit être ajouté qu'une seule fois."
 
 #: shortcodes/woo-notices.php:764
 msgid "Choose to align the content left, right or center."
@@ -28970,11 +29236,11 @@ msgstr "Il n'y a pas de ventes incitatives pour ce produit."
 
 #: shortcodes/woo-upsells.php:81
 msgid "There are no cross-sells product."
-msgstr ""
+msgstr "Il n'y a pas de produit de vente croisée."
 
 #: shortcodes/woo-upsells.php:248
 msgid "Woo Up/Cross-sells"
-msgstr ""
+msgstr "Woo Up/Cross-sells"
 
 #. Author URI of the plugin/theme
 msgid "https://theme-fusion.com"
@@ -29035,9 +29301,10 @@ msgid "F Y"
 msgstr "F Y"
 
 #: inc/class-fusion-dynamic-data-callbacks.php:300
+#, fuzzy
 msgctxt "daily archives date format"
 msgid "F j, Y"
-msgstr ""
+msgstr "j F Y"
 
 #: inc/class-fusion-dynamic-data-callbacks.php:308
 msgctxt "post format archive title"
