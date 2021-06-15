@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2021-06-08 12:34:20+00:00\n"
+"POT-Creation-Date: 2021-06-15 11:08:37+00:00\n"
 "PO-Revision-Date: 2020-12-12 11:10+0100\n"
 "Last-Translator: wassereimer <wassereimer@wassereimer.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/avada/"
@@ -67,7 +67,7 @@ msgstr "Nichts passendes gefunden? Benutze doch unsere Suchfunktion!"
 
 # @ bbpress
 #: bbpress/form-search.php:13 includes/class-avada-layout-bbpress.php:142
-#: includes/lib/inc/class-fusion-searchform.php:67
+#: includes/lib/inc/class-fusion-searchform.php:68
 msgid "Search for:"
 msgstr "Suche nach:"
 
@@ -80,7 +80,7 @@ msgstr "Forum durchsuchen..."
 #: bbpress/form-search.php:19 includes/avada-functions.php:748
 #: includes/class-avada-layout-bbpress.php:148
 #: includes/class-avada-megamenu-framework.php:253
-#: includes/lib/inc/class-fusion-searchform.php:76
+#: includes/lib/inc/class-fusion-searchform.php:77
 #: includes/lib/inc/fusion-app/helpers.php:246
 #: includes/lib/inc/redux/custom-fields/iconpicker/field_iconpicker.php:55
 #: includes/metaboxes/tabs/tab_template.php:201 includes/options/header.php:437
@@ -1091,7 +1091,7 @@ msgstr ""
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
 #: includes/admin-screens/prebuilt-websites.php:76
-#: includes/class-avada-admin-bar.php:89 includes/class-avada-admin.php:326
+#: includes/class-avada-admin-bar.php:79 includes/class-avada-admin.php:326
 #: includes/class-avada-tgm-plugin-activation.php:2619
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:292
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:323
@@ -2476,8 +2476,8 @@ msgstr ""
 
 #: includes/avada-app/fusion-panel.php:104
 #: includes/avada-app/panel/templates/sidebar.php:31 includes/bootstrap.php:231
-#: includes/bootstrap.php:232 includes/bootstrap.php:660
-#: includes/class-avada-admin-bar.php:67 includes/class-avada-admin.php:488
+#: includes/bootstrap.php:232 includes/bootstrap.php:668
+#: includes/class-avada-admin-bar.php:61 includes/class-avada-admin.php:488
 #: includes/class-avada-megamenu-framework.php:162
 #: includes/class-avada-megamenu-framework.php:515
 #: includes/lib/inc/class-fusion-featured-image.php:168
@@ -2744,16 +2744,16 @@ msgstr "Portfolios"
 msgid "FAQs"
 msgstr "FAQs"
 
-#: includes/avada-functions.php:1963 includes/class-avada-admin-bar.php:69
+#: includes/avada-functions.php:1963 includes/class-avada-admin-bar.php:63
 msgid "Layouts"
 msgstr "Layouts"
 
-#: includes/avada-functions.php:1969 includes/class-avada-admin-bar.php:70
+#: includes/avada-functions.php:1969 includes/class-avada-admin-bar.php:64
 #: includes/class-awb-performance-wizard.php:1442
 msgid "Icons"
 msgstr "Icons"
 
-#: includes/avada-functions.php:1975 includes/class-avada-admin-bar.php:73
+#: includes/avada-functions.php:1975 includes/class-avada-admin-bar.php:67
 #: includes/options/forms.php:39
 msgid "Forms"
 msgstr "Formulare"
@@ -2777,7 +2777,7 @@ msgid "Images"
 msgstr "Bilder"
 
 # @ Avada
-#: includes/avada-functions.php:2009 includes/class-avada-admin-bar.php:77
+#: includes/avada-functions.php:2009 includes/class-avada-admin-bar.php:71
 #: includes/metaboxes/metaboxes.php:533
 #: includes/metaboxes/tabs/tab_sliders.php:25
 msgid "Sliders"
@@ -2968,16 +2968,17 @@ msgstr ""
 "Glückwunsch, deine Demodaten wurden erfolgreich in deine Installation "
 "importiert."
 
-#: includes/bootstrap.php:583
+#: includes/bootstrap.php:586
 msgid "Avada Patcher"
 msgstr "Avada Patcher"
 
-#: includes/bootstrap.php:584 includes/class-avada-admin.php:503
+#: includes/bootstrap.php:587 includes/class-avada-admin-bar.php:76
+#: includes/class-avada-admin.php:503
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:241
 msgid "Patcher"
 msgstr "Patcher"
 
-#: includes/bootstrap.php:609
+#: includes/bootstrap.php:617
 msgid ""
 "Our site is currently undergoing scheduled maintenance. Please try again in "
 "a moment."
@@ -2985,7 +2986,7 @@ msgstr ""
 "Unsere Seite ist aktuell im geplantem Wartungsmodus. Bitte versuche es in "
 "einigen Minuten noch einmal."
 
-#: includes/bootstrap.php:613
+#: includes/bootstrap.php:621
 msgid ""
 "Currently updating the Avada Theme. Your site will be accessible once the "
 "update finishes"
@@ -2994,7 +2995,7 @@ msgstr ""
 "sobald das Update abgeschlossen ist"
 
 #. translators: The "follow this link" link.
-#: includes/bootstrap.php:625
+#: includes/bootstrap.php:633
 msgid ""
 "The Avada-Core plugin needs to be updated before your site can exit "
 "maintenance mode. Please %s to update the plugin."
@@ -3002,7 +3003,7 @@ msgstr ""
 "Das Avada-Core Plugin muss aktualisiert werden, bevor deine Seite den "
 "Wartungsmodus verlassen kann. Bitte %s um das Plugin zu aktualisieren."
 
-#: includes/bootstrap.php:625
+#: includes/bootstrap.php:633
 msgid "follow this link"
 msgstr "diesem Link folgen"
 
@@ -3010,36 +3011,31 @@ msgstr "diesem Link folgen"
 msgid "Avada"
 msgstr "Avada"
 
-#: includes/class-avada-admin-bar.php:68 includes/class-avada-admin.php:306
+#: includes/class-avada-admin-bar.php:62 includes/class-avada-admin.php:306
 #: includes/class-avada-admin.php:496
 msgid "Websites"
 msgstr "Websites"
 
-#: includes/class-avada-admin-bar.php:80
+#: includes/class-avada-admin-bar.php:74
 #: includes/lib/inc/fusion-app/helpers.php:204
 msgid "Library"
 msgstr "Bibliothek"
 
-#. translators: The patches numeric counter.
-#: includes/class-avada-admin-bar.php:85
-msgid "Patcher %s"
-msgstr "Patcher %s"
-
-#: includes/class-avada-admin-bar.php:88
+#: includes/class-avada-admin-bar.php:78
 msgid "Plugins"
 msgstr "Plugins"
 
-#: includes/class-avada-admin-bar.php:92
+#: includes/class-avada-admin-bar.php:82
 #: includes/lib/inc/class-fusion-fusionredux.php:886
 msgid "All Avada caches have been reset."
 msgstr "Alle Avada Caches wurden zurückgesetzt."
 
-#: includes/class-avada-admin-bar.php:94 includes/options/performance.php:374
+#: includes/class-avada-admin-bar.php:84 includes/options/performance.php:374
 #: includes/options/performance.php:380
 msgid "Reset Avada Caches"
 msgstr "Avada Cache zurücksetzen"
 
-#: includes/class-avada-admin-bar.php:163 includes/class-avada-admin.php:208
+#: includes/class-avada-admin-bar.php:153 includes/class-avada-admin.php:208
 #: includes/class-avada-woocommerce.php:1048
 msgid "Dashboard"
 msgstr "Übersichts-Bereich"
@@ -4179,31 +4175,31 @@ msgstr "Skripte"
 msgid "Styles"
 msgstr "Styles"
 
-#: includes/class-avada-scripts.php:776
+#: includes/class-avada-scripts.php:785
 msgid "No search results match your query. Please try again"
 msgstr ""
 "Keine Suchergebnisse stimmen mit Ihrer Anfrage überein. Bitte versuchen Sie "
 "es noch einmal"
 
 # @ Avada
-#: includes/class-avada-scripts.php:823
+#: includes/class-avada-scripts.php:832
 msgid "Go to..."
 msgstr "Gehe zu ..."
 
 # @ Avada
-#: includes/class-avada-scripts.php:824
+#: includes/class-avada-scripts.php:833
 msgid "Shopping Cart"
 msgstr "Warenkorb"
 
 #. Translators: The submenu title.
 #. Translators: The menu item title.
-#: includes/class-avada-scripts.php:826
+#: includes/class-avada-scripts.php:835
 #: includes/lib/inc/class-fusion-nav-walker.php:873
 msgid "Open submenu of %s"
 msgstr "Öffne Untermenü von %s"
 
 #. Translators: The submenu title.
-#: includes/class-avada-scripts.php:828
+#: includes/class-avada-scripts.php:837
 msgid "Close submenu of %s"
 msgstr "Schließe Untermenü von %s"
 
@@ -4641,22 +4637,22 @@ msgstr "Benutze Standard Wert."
 
 # @ Avada
 #. translators: %1$s: Comment date. %2$s: Comment time.
-#: includes/class-avada-template.php:725
+#: includes/class-avada-template.php:733
 msgid "%1$s at %2$s"
 msgstr "%1$s um %2$s Uhr"
 
 # @ Avada
-#: includes/class-avada-template.php:730
+#: includes/class-avada-template.php:738
 msgid " - Edit"
 msgstr " - Bearbeiten"
 
 # @ Avada
-#: includes/class-avada-template.php:736
+#: includes/class-avada-template.php:744
 msgid " - Reply"
 msgstr " - Antworten"
 
 # @ Avada
-#: includes/class-avada-template.php:747
+#: includes/class-avada-template.php:755
 msgid "Your comment is awaiting moderation."
 msgstr "Ihr Kommentar muss noch freigeschalten werden."
 
@@ -4730,7 +4726,7 @@ msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:396
+#: includes/class-avada-upgrade.php:397
 msgid "Dismiss this notice"
 msgstr "Diese Nachricht ausblenden"
 
@@ -5019,7 +5015,7 @@ msgstr "Alle Installationen wurden fertiggestellt."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Installation des Plugins %1$s (%2$d/%3$d)"
 
-#: includes/class-avada-upgrade.php:395
+#: includes/class-avada-upgrade.php:396
 msgid "View Changelog"
 msgstr "Changelog ansehen"
 
@@ -21039,6 +21035,9 @@ msgstr "von %s"
 msgctxt "breadcrumb"
 msgid "Home"
 msgstr ""
+
+#~ msgid "Patcher %s"
+#~ msgstr "Patcher %s"
 
 #~ msgid "Plugins / Add-ons"
 #~ msgstr "Plugins / Erweiterungen"
