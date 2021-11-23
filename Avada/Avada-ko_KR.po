@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2021-10-18 10:16:44+00:00\n"
-"PO-Revision-Date: 2016-03-07 14:58-0000\n"
-"Last-Translator: Michael Clarke\n"
+"PO-Revision-Date: 2021-11-23 17:48+0900\n"
+"Last-Translator: 차형근 <orum93@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/avada/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 3.0\n"
 
 #: includes/metaboxes/tabs/tab_template.php:202
 msgid "404"
-msgstr ""
+msgstr "404"
 
 # @ Avada
 #: 404.php:20
@@ -31,7 +31,7 @@ msgstr "죄송하지만, 페이지를 찾지 못했습니다!"
 
 #: 404.php:30
 msgid "Helpful Links"
-msgstr ""
+msgstr "도움이 되는 링크"
 
 # @ Avada
 #: 404.php:97
@@ -47,12 +47,12 @@ msgstr "필요한 내용을 찾지 못했다면, 아래에서 검색해보세요
 #: bbpress/form-search.php:13 includes/class-avada-layout-bbpress.php:142
 #: includes/lib/inc/class-fusion-searchform.php:77
 msgid "Search for:"
-msgstr "검색 ..."
+msgstr "검색:"
 
 # @ Avada
 #: bbpress/form-search.php:16 includes/class-avada-layout-bbpress.php:145
 msgid "Search the Forum..."
-msgstr "질문답 찾기..."
+msgstr "포럼 검색..."
 
 # @ Avada
 #: bbpress/form-search.php:19 includes/avada-functions.php:748
@@ -64,32 +64,32 @@ msgstr "질문답 찾기..."
 #: includes/metaboxes/tabs/tab_template.php:201 includes/options/header.php:437
 #: includes/options/search.php:34
 msgid "Search"
-msgstr "찾아보기"
+msgstr "검색"
 
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
 msgid "In reply to: "
-msgstr "- 답글쓰기"
+msgstr "답글쓰기: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
 msgid "Topic: "
-msgstr ""
+msgstr "토픽: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:49
 msgid "in group forum "
-msgstr ""
+msgstr "그룹 포럼 "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:53
 msgid "in forum "
-msgstr "질문답 역:"
+msgstr "포럼 "
 
 # @ bbpress
 #: bbpress/loop-single-reply.php:44
 msgid "in reply to: "
-msgstr "- 답글쓰기"
+msgstr "답글쓰기: "
 
 # @ Avada
 #: comments.php:32
@@ -104,7 +104,7 @@ msgstr "1 댓글"
 #: comments.php:32
 msgid "% Comment"
 msgid_plural "% Comments"
-msgstr[0] ""
+msgstr[0] "% 댓글"
 
 # @ Avada
 #: comments.php:46 includes/class-avada-layout-bbpress.php:224
@@ -174,10 +174,11 @@ msgstr "인터넷 주소"
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
+"다음 댓글 작성을 위해 이름, 이메일 및 웹사이트를 브라우저에 저장합니다."
 
 #: comments.php:85
 msgid "Comment"
-msgstr ""
+msgstr "댓글"
 
 # @ Avada
 #: comments.php:85
@@ -192,13 +193,13 @@ msgstr "댓글을 남겨주세요"
 #. translators: Opening and closing link tags.
 #: comments.php:91
 msgid "You must be %1$slogged in%2$s to post a comment."
-msgstr ""
+msgstr "%1$s로그인%2$s 후 댓글을 작성할 수 있습니다."
 
 #. translators: %1$s: The username. %2$s and %3$s: Opening and closing link
 #. tags.
 #: comments.php:93
 msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
-msgstr ""
+msgstr "%1$s 으로 로그인. %2$s로그아웃 &raquo;%3$s"
 
 # @ Avada
 #: comments.php:93
@@ -208,90 +209,94 @@ msgstr "이 계정에서 로그아웃"
 # @ Avada
 #: comments.php:97
 msgid "Post Comment"
-msgstr "댓글 보내기"
+msgstr "댓글 작성"
 
 #: footer.php:60
 msgid "Page load link"
-msgstr ""
+msgstr "페이지 로드 링크"
 
 #: header.php:42
 msgid "Skip to content"
-msgstr ""
+msgstr "콘텐츠로 건너뛰기"
 
 #: includes/admin-screens/dashboard.php:51
 msgid "Show Setup Steps"
-msgstr ""
+msgstr "설정 단계 표시"
 
 #: includes/admin-screens/dashboard.php:57
 msgid "Welcome To Avada!"
-msgstr ""
+msgstr "Avada 사용을 환영합니다!"
 
 #: includes/admin-screens/dashboard.php:58
 msgid ""
 "Avada is now installed and ready to use! Get ready to build something "
 "beautiful. We hope you enjoy it!"
 msgstr ""
+"Avada 설치가 완료되었습니다! 원하는 모든것을 만들어보세요. 좋은 시간 보내세"
+"요!"
 
 #: includes/admin-screens/dashboard.php:66
 msgid "Watch Avada Website Builder In Action."
-msgstr ""
+msgstr "Avada 웹사이트 빌더 사용 예제를 보세요."
 
 #: includes/admin-screens/dashboard.php:71
 #: includes/admin-screens/dashboard.php:158
 msgid "WPEngine Logo"
-msgstr ""
+msgstr "WPEngine 로고"
 
 #: includes/admin-screens/dashboard.php:77
 msgid "Set Up Your Website"
-msgstr ""
+msgstr "웹사이트 설치"
 
 #: includes/admin-screens/dashboard.php:78
 msgid "Set up your website with 3 easy steps."
-msgstr ""
+msgstr "간단한 3단계 웹사이트 설치를 진행하세요."
 
 #: includes/admin-screens/dashboard.php:80
 msgid "Link to product registration"
-msgstr ""
+msgstr "제품 등록 링크"
 
 #: includes/admin-screens/dashboard.php:82
 #: includes/lib/inc/class-fusion-product-registration.php:709
 msgid "Register Your Website"
-msgstr ""
+msgstr "웹사이트 등록"
 
 #: includes/admin-screens/dashboard.php:83
 msgid ""
 "Enter your purchase code in the form below to register this copy of Avada."
-msgstr ""
+msgstr "Avada 설치본을 등록하기 위해 제품 구매 코드를 아래 폼에 입력하세요."
 
 #: includes/admin-screens/dashboard.php:88
 msgid "Link to prebuilt websites"
-msgstr ""
+msgstr "사전구축 웹사이트 링크"
 
 #: includes/admin-screens/dashboard.php:90
 msgid "Select A Prebuilt Website"
-msgstr ""
+msgstr "사전구축 웹사이트 선택"
 
 #: includes/admin-screens/dashboard.php:91
 msgid "One-click import one of our professionally designed, prebuilt websites."
-msgstr ""
+msgstr "전문적으로 디자인된 사전구축 웹사이트를 클릭 한번으로 불러오세요."
 
 #: includes/admin-screens/dashboard.php:96
 msgid "Live edit website"
-msgstr ""
+msgstr "웹사이트 실시간 편집"
 
 #: includes/admin-screens/dashboard.php:98
 msgid "Customize Your Website"
-msgstr ""
+msgstr "웹사이트 커스터마이징"
 
 #: includes/admin-screens/dashboard.php:99
 msgid ""
 "Edit your website live, directly on the front-end, with Avada's amazing "
 "design tools."
 msgstr ""
+"Avada의 놀라운 디자인 도구를 활용하여 프론트엔드 환경에서 웹사이트를 실시간으"
+"로 편집하세요."
 
 #: includes/admin-screens/dashboard.php:111
 msgid "Avada Resources"
-msgstr ""
+msgstr "Avada 참고자료"
 
 # @ Avada
 #: includes/admin-screens/dashboard.php:114
@@ -302,182 +307,194 @@ msgstr "권장됨"
 #. translators: Item price.
 #: includes/admin-screens/dashboard.php:126
 msgid "Only %s - Buy Now"
-msgstr ""
+msgstr "%s - 지금 구매하세요"
 
 #. translators: Item price.
 #: includes/admin-screens/dashboard.php:130
 msgid "On Sale - Only %s"
-msgstr ""
+msgstr "세일 - %s"
 
 #: includes/admin-screens/dashboard.php:135
 #: includes/admin-screens/dashboard.php:145
 msgid "Buy Another License"
-msgstr ""
+msgstr "라이센스 추가 구매"
 
 #: includes/admin-screens/dashboard.php:138
 msgid "Sale"
-msgstr ""
+msgstr "세일"
 
 #: includes/admin-screens/dashboard.php:141
 #: includes/class-avada-migrate.php:387
 #: includes/class-fusion-builder-migrate.php:840
 msgid "Avada Logo"
-msgstr ""
+msgstr "Avada 로고"
 
 #: includes/admin-screens/dashboard.php:148
 msgid ""
 "Buy another license of the Avada Website Builder for your next project. "
 "Streamline your work and save time for the more important things."
 msgstr ""
+"다음 프로젝트를 위한 추가 Avada 웹사이트 빌더 라이센스를 구매하세요. 능률적"
+"인 업무로 시간을 절약하세요."
 
 #: includes/admin-screens/dashboard.php:155
 msgid "Discount"
-msgstr ""
+msgstr "할인"
 
 #: includes/admin-screens/dashboard.php:162
 msgid "Avada Hosting"
-msgstr ""
+msgstr "Avada 호스팅"
 
 #: includes/admin-screens/dashboard.php:165
 msgid ""
 "Launch your site in seconds on WP Engine who offer optimized hosting for the "
 "Avada Website Builder."
 msgstr ""
+"Avada 웹사이트 빌더에 최적화된 호스팅을 제공하는 WP Engine을 사용하여 웹사이"
+"트를 출시하세요."
 
 #: includes/admin-screens/dashboard.php:166
 msgid "Enjoy 4 months free!"
-msgstr ""
+msgstr "4개월 무료!"
 
 #: includes/admin-screens/dashboard.php:169
 msgid "Get Special Offer"
-msgstr ""
+msgstr "특가 요청"
 
 #: includes/admin-screens/dashboard.php:176
 msgid "Codeable Logo"
-msgstr ""
+msgstr "Codeable 로고"
 
 #: includes/admin-screens/dashboard.php:180
 msgid "Avada Customization"
-msgstr ""
+msgstr "Avada 커스터마이징"
 
 #: includes/admin-screens/dashboard.php:183
 msgid ""
 "We work with Codeable who offers amazing customization services. They are "
 "equipped to handle both large and small customization jobs."
 msgstr ""
+"Codeable과 협력하여 놀라운 커스터마이징 서비스를 제공합니다. Codeable은 크고 "
+"작은 모든 규모의 커스터마이징을 수행할 수 있습니다."
 
 #: includes/admin-screens/dashboard.php:186
 msgid "Get Free Quote"
-msgstr ""
+msgstr "무료 견적의뢰"
 
 #: includes/admin-screens/dashboard.php:194
 msgid "Avada Integrations"
-msgstr ""
+msgstr "Avada 통합"
 
 #: includes/admin-screens/dashboard.php:197
 msgid "Premium Additions"
-msgstr ""
+msgstr "프리미엄 추가 기능"
 
 #: includes/admin-screens/dashboard.php:205
 msgid "HubSpot Logo"
-msgstr ""
+msgstr "HubSpot 로고"
 
 #: includes/admin-screens/dashboard.php:209
 msgid "CRM, Marketing & Sales"
-msgstr ""
+msgstr "CRM, 마케팅 & 판매"
 
 #: includes/admin-screens/dashboard.php:212
 msgid ""
 "HubSpot offers a full stack of software for marketing, sales, and also "
 "customer service, with a completely free CRM at its core. Grow now!"
 msgstr ""
+"HubSpot은 마케팅, 판매 및 고객 서비스까지 풀스택 소프트웨어를 무료 CRM과 함"
+"께 제공합니다!"
 
 #: includes/admin-screens/dashboard.php:215
 msgid "WP Marketing"
-msgstr ""
+msgstr "WP 마케팅"
 
 #: includes/admin-screens/dashboard.php:222
 msgid "WPML Logo"
-msgstr ""
+msgstr "WPML 로고"
 
 #: includes/admin-screens/dashboard.php:226
 msgid "Multilingual Sites"
-msgstr ""
+msgstr "다국어 사이트"
 
 #: includes/admin-screens/dashboard.php:229
 msgid ""
 "WPML makes it easy to build multilingual sites and run them. It's powerful "
 "enough for corporate sites, yet simple for blogs."
 msgstr ""
+"WPML은 손쉽게 다국어 사이트를 구축할 수 있도록 도와줍니다. 기업용 웹사이트를 "
+"위한 강력한 기능을 제공하면서도 블로그를 위한 간편함도 겸비하였습니다."
 
 #: includes/admin-screens/dashboard.php:232
 msgid "WP Multilingual"
-msgstr ""
+msgstr "WP 다국어"
 
 #: includes/admin-screens/dashboard.php:239
 msgid "EC Logo"
-msgstr ""
+msgstr "EC 로고"
 
 #: includes/admin-screens/dashboard.php:243
 #: includes/options/events_calendar.php:36 includes/options/sidebars.php:568
 msgid "Events Calendar"
-msgstr ""
+msgstr "이벤트 캘린더"
 
 #: includes/admin-screens/dashboard.php:246
 msgid ""
 "Power your events for free with The Events Calendar, or upgrade to Pro to "
 "unlock recurring events, views, premium support, and more."
 msgstr ""
+"이벤트 캘린더 무료 버전을 활용하여 이벤트를 기획하세요! 프로 버전으로 업그레"
+"이드 시 반복 이벤트, 뷰, 프리미엄 지원 등 여러가지 기능을 사용할 수 있습니다."
 
 #: includes/admin-screens/dashboard.php:249
 msgid "WP Events Calendar"
-msgstr ""
+msgstr "WP 이벤트 캘린더"
 
 #: includes/admin-screens/performance.php:43
 #: includes/admin-screens/performance.php:46 includes/class-avada-admin.php:524
 #: includes/class-awb-performance-wizard.php:1431
 msgid "Performance Wizard"
-msgstr ""
+msgstr "성능 마법사"
 
 #: includes/admin-screens/performance.php:44
 msgid "Follow the wizard to optimize your website."
-msgstr ""
+msgstr "마법사를 따라 웹사이트를 최적화하세요."
 
 #: includes/admin-screens/performance.php:50
 msgid "Before Starting"
-msgstr ""
+msgstr "시작하기 전"
 
 #: includes/admin-screens/performance.php:51
 msgid "Ensure you are ready to optimize your website."
-msgstr ""
+msgstr "웹사이트 최적화 준비가 되었는지 확인하세요."
 
 #: includes/admin-screens/performance.php:55
 msgid "Build Your Website"
-msgstr ""
+msgstr "웹사이트 구축"
 
 #: includes/admin-screens/performance.php:56
 msgid "Build your website before starting with performance optimization."
-msgstr ""
+msgstr "성능 최적화를 진행하기 전에 웹사이트를 구축하세요."
 
 #: includes/admin-screens/performance.php:63
 msgid "Read The Documentation"
-msgstr ""
+msgstr "온라인 문서 읽기"
 
 #: includes/admin-screens/performance.php:64
 msgid ""
 "Learn more about performance in our documentation, and pick up extra tips "
 "and tricks."
-msgstr ""
+msgstr "문서를 참조하여 성능에 대한 팁과 노하우를 알아보세요."
 
 #: includes/admin-screens/performance.php:72
 msgid "Select Testing"
-msgstr ""
+msgstr "테스트 선택"
 
 #: includes/admin-screens/performance.php:73
 msgid ""
 "Select if you would like to attempt before and after testing.  Will slow "
 "down process if selected.."
-msgstr ""
+msgstr "전/후 테스트를 시도하려면 선택하세요. 선택 시 과정이 느려집니다."
 
 # @ Avada
 #: includes/admin-screens/performance.php:78
@@ -495,23 +512,23 @@ msgstr ""
 #: includes/options/social_media.php:486 includes/options/social_media.php:797
 #: includes/plugins/multiple_sidebars.php:327
 msgid "None"
-msgstr "없슴"
+msgstr "없음"
 
 #: includes/admin-screens/performance.php:79 includes/options/advanced.php:324
 msgid "Mobile"
-msgstr ""
+msgstr "모바일"
 
 #: includes/admin-screens/performance.php:80 includes/options/advanced.php:323
 msgid "Desktop"
-msgstr ""
+msgstr "데스크탑"
 
 #: includes/admin-screens/performance.php:86
 msgid "Let's Start"
-msgstr ""
+msgstr "시작"
 
 #: includes/admin-screens/performance.php:93
 msgid "Avada Features"
-msgstr ""
+msgstr "Avada 기능"
 
 #: includes/admin-screens/performance.php:94
 msgid ""
@@ -521,6 +538,10 @@ msgid ""
 "again. Click the 'Find Recommendations' button to scan your website and "
 "present recommendations."
 msgstr ""
+"이 단계에서는 사용하지 않는 Avada 기능을 비활성화 하여 로딩되는 코드 양을 줄"
+"일 수 있습니다. 기능 비활성화 시 해당 기능 및 의존 기능이 고장날 수 있으므로 "
+"주의하세요. '권장 설정 스캔' 버튼을 클릭하여 웹사이트를 스캔 후 권장 사항을 "
+"볼 수 있습니다."
 
 #: includes/admin-screens/performance.php:96
 #: includes/admin-screens/performance.php:191
@@ -528,18 +549,18 @@ msgstr ""
 #: includes/admin-screens/performance.php:326
 #: includes/admin-screens/performance.php:480
 msgid "Find Recommendations"
-msgstr ""
+msgstr "권장 설정 스캔"
 
 #: includes/admin-screens/performance.php:97
 #: includes/admin-screens/performance.php:192
 #: includes/admin-screens/performance.php:237
 #: includes/admin-screens/performance.php:481
 msgid "Apply All"
-msgstr ""
+msgstr "모두 적용"
 
 #: includes/admin-screens/performance.php:103
 msgid "Disable Unused Features"
-msgstr ""
+msgstr "사용하지 않는 기능 비활성화"
 
 #: includes/admin-screens/performance.php:124
 #: includes/class-avada-megamenu-framework.php:145
@@ -561,7 +582,7 @@ msgstr ""
 #: includes/options/advanced.php:514 includes/options/performance.php:300
 #: includes/options/responsive.php:43 includes/options/responsive.php:213
 msgid "On"
-msgstr ""
+msgstr "켜기"
 
 #: includes/admin-screens/performance.php:125
 #: includes/class-avada-megamenu-framework.php:146
@@ -585,21 +606,23 @@ msgstr ""
 #: includes/options/performance.php:301 includes/options/responsive.php:44
 #: includes/options/responsive.php:214
 msgid "Off"
-msgstr ""
+msgstr "끄기"
 
 #: includes/admin-screens/performance.php:137
 msgid "Other Feature Recommendations"
-msgstr ""
+msgstr "기타 기능 권장"
 
 #: includes/admin-screens/performance.php:145
 msgid ""
 "Recommend disabling. Flex layouts are faster to render and cause less "
 "content layout shift."
 msgstr ""
+"비활성화 권장. Flex 레이아웃 렌더링은 더 빠르며 더 적은 콘텐츠 레이아웃 이동"
+"을 유발합니다."
 
 #: includes/admin-screens/performance.php:152
 msgid "Global Header"
-msgstr ""
+msgstr "글로벌 헤더"
 
 #: includes/admin-screens/performance.php:153
 msgid ""
@@ -607,26 +630,32 @@ msgid ""
 "be used as the default website header instead of the legacy approach using "
 "global options."
 msgstr ""
+"글로벌 헤더는 레이아웃 빌더 페이지에서 만들 수 있습니다. 글로벌 헤더 설정 시 "
+"기존 글로벌 옵션 방식을 대체하여 기본 웹사이트 헤더로 사용됩니다."
 
 #: includes/admin-screens/performance.php:156
 msgid "Build Header"
-msgstr ""
+msgstr "헤더 생성"
 
 #: includes/admin-screens/performance.php:159
 msgid ""
 "Recommend building a global header. Older legacy header assets will not be "
 "loaded and new approach causes less content layout shift."
 msgstr ""
+"글로벌 헤더 생성이 권장됩니다. 기존 레거시 헤더가 로드되지 않으며 콘텐츠 레이"
+"아웃 이동 현상이 줄어듭니다."
 
 #: includes/admin-screens/performance.php:166
 msgid ""
 "Recommend setting to desktop only to disable element animations on mobile "
 "devices."
 msgstr ""
+"모바일 기기에서 엘리먼트 애니메이션 비활성화를 위해 데스크탑 전용 설정이 권장"
+"됩니다."
 
 #: includes/admin-screens/performance.php:170
 msgid "No extra feature recommendations found for your current setup."
-msgstr ""
+msgstr "현재 설정에서 더 이상 추가적인 기능 권장 사항이 없습니다."
 
 #: includes/admin-screens/performance.php:173
 #: includes/admin-screens/performance.php:224
@@ -637,18 +666,18 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header_stickybar.tpl.php:21
 #: includes/lib/inc/redux/panel_templates/header_stickybar.tpl.php:27
 msgid "Save Changes"
-msgstr ""
+msgstr "변경 사항 저장"
 
 #: includes/admin-screens/performance.php:174
 #: includes/admin-screens/performance.php:225
 #: includes/admin-screens/performance.php:310
 #: includes/admin-screens/performance.php:470
 msgid "Next Step"
-msgstr ""
+msgstr "다음 단계"
 
 #: includes/admin-screens/performance.php:182
 msgid "Avada Icons"
-msgstr ""
+msgstr "Avada 아이콘"
 
 #: includes/admin-screens/performance.php:183
 msgid ""
@@ -656,11 +685,14 @@ msgid ""
 "you are using. You can also disable unused icon sets, and read about how to "
 "optimize your icons."
 msgstr ""
+"이 단계에서는 웹사이트를 스캔하여 사용하는 아이콘에 대한 정보를 얻을 수 있습"
+"니다. 사용하지 않는 아이콘 세트를 비활성화할 수 있으며 아이콘 최적화 방법에 "
+"대해 읽을 수 있습니다."
 
 #: includes/admin-screens/performance.php:187
 #: includes/admin-screens/performance.php:322
 msgid "Warning: Large number of posts detected, scanning might take a while."
-msgstr ""
+msgstr "경고: 대량의 글 감지, 스캔 시간이 길어질 수 있습니다."
 
 # @ Avada
 #: includes/admin-screens/performance.php:201
@@ -677,36 +709,39 @@ msgstr "제목"
 #: includes/metaboxes/tabs/tab_sidebars.php:299
 #: includes/options/sidebars.php:83
 msgid "Content"
-msgstr ""
+msgstr "내용"
 
 #: includes/admin-screens/performance.php:203
 msgid "Meta"
-msgstr ""
+msgstr "메타"
 
 #: includes/admin-screens/performance.php:208
 msgid ""
 "Run the icon scan to have an overview of usage. Note, the time this will "
 "take will depend on the size of your website."
 msgstr ""
+"아이콘 스캔을 실행하여 사용 개요를 확인하세요. 스캔 시간은 웹사이트 규모와 비"
+"례합니다."
 
 #: includes/admin-screens/performance.php:220
 #: includes/admin-screens/performance.php:465
 msgid "Tip"
-msgstr ""
+msgstr "팁"
 
 #: includes/admin-screens/performance.php:220
 msgid ""
 "Convert from Font Awesome to a single custom icon set to improve your load "
 "time."
 msgstr ""
+"Font Awesome을 단일 커스텀 아이콘 세트로 변환하여 로딩 시간을 개선하세요."
 
 #: includes/admin-screens/performance.php:220
 msgid "Find Out How!"
-msgstr ""
+msgstr "변환 방법 알아보기!"
 
 #: includes/admin-screens/performance.php:232
 msgid "Avada Fonts/Typography"
-msgstr ""
+msgstr "Avada 폰트/타이포그래피"
 
 #: includes/admin-screens/performance.php:233
 msgid ""
@@ -715,6 +750,9 @@ msgid ""
 "selected here are required. Less variants will mean less requests and "
 "therefore faster loading."
 msgstr ""
+"이 단계에서는 어떤 폰트가 웹사이트에서 로딩되는지 확인할 수 있으며 전달 방식"
+"을 최적화할 수 있습니다. 모든 폰트 패밀리와 변형이 필수인지 확인하세요. 더 적"
+"은 폰트 변형은 곧 더 적은 요청이므로 웹사이트가 더 빠르게 로딩될 수 있습니다."
 
 #. translators: Number of font variants
 #: includes/admin-screens/performance.php:246
@@ -722,36 +760,38 @@ msgid ""
 "You currently have %s different font variants. Recommend using fewer than 5 "
 "variants if possible."
 msgstr ""
+"현재 %s개의 폰트 변형이 있습니다. 5개 이하의 폰트 변형 사용이 권장됩니다."
 
 #: includes/admin-screens/performance.php:249
 msgid "Global Fonts"
-msgstr ""
+msgstr "글로벌 폰트"
 
 #: includes/admin-screens/performance.php:292
 msgid "Font Serving"
-msgstr ""
+msgstr "폰트 전달 방식"
 
 #: includes/admin-screens/performance.php:296
 msgid "Recommend setting to swap all for the fastest initial load."
-msgstr ""
+msgstr "더 빠른 초기 로딩을 위해 모두 스왑이 권장됩니다."
 
 #: includes/admin-screens/performance.php:299
 msgid "Recommend setting to local but CDN will also work."
-msgstr ""
+msgstr "로컬이 권장되지만 CDN도 좋은 선택입니다."
 
 #: includes/admin-screens/performance.php:302
 msgid ""
 "Recommend setting to none unless your largest contentful paint is text or an "
 "icon."
 msgstr ""
+"최대 콘텐츠풀 페인트(LCP)가 텍스트나 아이콘이 아닐 시 없음이 권장됩니다."
 
 #: includes/admin-screens/performance.php:302
 msgid "Find out how to optimize the largest contentful paint (LCP)."
-msgstr ""
+msgstr "최대 콘텐츠풀 페인트(LCP) 최적화 방법을 알아보세요."
 
 #: includes/admin-screens/performance.php:317
 msgid "Avada Elements"
-msgstr ""
+msgstr "Avada 엘리먼트"
 
 #: includes/admin-screens/performance.php:318
 msgid ""
@@ -760,87 +800,91 @@ msgid ""
 "not be available in the Builder. Click the 'Find Recommendations' button to "
 "scan your website and show which Elements you are using."
 msgstr ""
+"이 단계에서는 사용하지 않는 디자인, 레이아웃 및 폼 엘리먼트를 비활성화할 수 "
+"있습니다. 비활성화 시 엘리먼트는 로딩되지 않으며 빌더에서도 사용할 수 없습니"
+"다. '권장 설정 스캔' 버튼을 클릭하여 웹사이트를 스캔 후 사용하고 있는 엘리먼"
+"트를 표시할 수 있습니다."
 
 #: includes/admin-screens/performance.php:327
 #: includes/admin-screens/performance.php:328
 msgid "Run Element Scan"
-msgstr ""
+msgstr "엘리먼트 스캔 실행"
 
 #: includes/admin-screens/performance.php:327
 msgid "Enable All"
-msgstr ""
+msgstr "모두 활성화"
 
 #: includes/admin-screens/performance.php:328
 msgid "Disable All"
-msgstr ""
+msgstr "모두 비활성화"
 
 #: includes/admin-screens/performance.php:336
 msgid "Element scan has completed and only used elements have been selected."
-msgstr ""
+msgstr "엘리먼트 스캔이 완료되었으며 사용중인 엘리먼트만 선택되었습니다."
 
 #: includes/admin-screens/performance.php:346
 msgid "Woo Featured"
-msgstr ""
+msgstr "Woo Featured"
 
 #: includes/admin-screens/performance.php:351
 msgid "Woo Carousel"
-msgstr ""
+msgstr "Woo Carousel"
 
 #: includes/admin-screens/performance.php:356
 msgid "Woo Shortcodes"
-msgstr ""
+msgstr "Woo Shortcodes"
 
 #: includes/admin-screens/performance.php:361
 msgid "Layer Slider"
-msgstr ""
+msgstr "Layer Slider"
 
 #: includes/admin-screens/performance.php:366
 #: includes/avada-app/class-fusion-panel.php:483
 msgid "Slider Revolution"
-msgstr ""
+msgstr "Slider Revolution"
 
 #: includes/admin-screens/performance.php:371 includes/avada-functions.php:1987
 msgid "Events"
-msgstr ""
+msgstr "이벤트"
 
 #: includes/admin-screens/performance.php:376
 #: includes/lib/inc/redux/custom-fields/iconpicker/field_iconpicker.php:49
 #: includes/options/social_media.php:121
 msgid "Icon"
-msgstr ""
+msgstr "아이콘"
 
 #: includes/admin-screens/performance.php:380
 #: includes/avada-app/class-fusion-panel.php:482
 #: includes/avada-functions.php:1703 includes/options/advanced.php:578
 msgid "Avada Slider"
-msgstr ""
+msgstr "Avada 슬라이더"
 
 #: includes/admin-screens/performance.php:388
 #: includes/lib/inc/fusion-app/helpers.php:255
 msgid "Design Elements"
-msgstr ""
+msgstr "디자인 엘리먼트"
 
 #: includes/admin-screens/performance.php:424
 #: includes/lib/inc/fusion-app/helpers.php:256
 msgid "Layout Elements"
-msgstr ""
+msgstr "레이아웃 엘리먼트"
 
 #: includes/admin-screens/performance.php:442
 #: includes/lib/inc/fusion-app/helpers.php:257
 msgid "Form Elements"
-msgstr ""
+msgstr "폼 엘리먼트"
 
 #: includes/admin-screens/performance.php:465
 msgid "Avoid using complex dynamic elements above the fold. "
-msgstr ""
+msgstr "복잡한 다이내믹 엘리먼트 활용을 가급적이면 피하세요. "
 
 #: includes/admin-screens/performance.php:465
 msgid "Find out more optimization tips in our documentation."
-msgstr ""
+msgstr "온라인 문서를 확인하여 최적화 팁에 대해 더 알아보세요."
 
 #: includes/admin-screens/performance.php:477
 msgid "Avada Optimization"
-msgstr ""
+msgstr "Avada 최적화"
 
 #: includes/admin-screens/performance.php:478
 msgid ""
@@ -849,91 +893,103 @@ msgid ""
 "but some of these options can also break functionality if you are using a "
 "caching plugin, so proceed with caution."
 msgstr ""
+"이 단계에서는 CSS 와 JS가 준비 단계를 최적화할 수 있습니다. 페이지 로드 성능"
+"에 큰 영향을 끼칠 수 있으나 캐싱 플러그인 사용 시 특정 기능을 고장낼 수 도 있"
+"으므로 주의하세요."
 
 #: includes/admin-screens/performance.php:487
 msgid "Image & Video Optimization"
-msgstr ""
+msgstr "이미지 & 비디오 최적화"
 
 #: includes/admin-screens/performance.php:491
 msgid "Recommend setting to around 80 to balance file size and quality."
-msgstr ""
+msgstr "파일 크기와 품질 균형을 위해 80 좌우의 수치가 권장됩니다."
 
 #: includes/admin-screens/performance.php:496
 msgid ""
 "Recommend setting to around 2560 to balance file size and quality on very "
 "large displays."
 msgstr ""
+"매우 큰 화면에서의 파일 크기와 품질 균형을 위해 2560 좌우의 수치가 권장됩니"
+"다."
 
 #: includes/admin-screens/performance.php:501
 msgid ""
 "Recommend setting to Avada. If using a performance plugin, ensure lazy load "
 "is disabled there."
 msgstr ""
+"Avada가 권장됩니다. 성능 플러그인 사용 시 플러그인의 로딩 지연 기능을 비활성"
+"화 하세요."
 
 #: includes/admin-screens/performance.php:506
 msgid "Recommend turning on if you are using YouTube or Vimeo elements."
-msgstr ""
+msgstr "YouTube 및 Vimeo 엘리먼트 사용 시 켜기가 권장됩니다."
 
 #: includes/admin-screens/performance.php:508
 msgid "JS Optimization"
-msgstr ""
+msgstr "JS 최적화"
 
 #: includes/admin-screens/performance.php:512
 msgid "Recommend disabling unless a third party plugin requires it."
-msgstr ""
+msgstr "써드 파티 플러그인이 필요로 하지 않을 시 비활성화가 권장됩니다."
 
 #: includes/admin-screens/performance.php:517
 msgid "Strongly recommend turning on to compile JS to a single file."
-msgstr ""
+msgstr "JS를 단일 파일로 컴파일하기 위해 강력 권장됩니다."
 
 #: includes/admin-screens/performance.php:519
 msgid "CSS Optimization"
-msgstr ""
+msgstr "CSS 최적화"
 
 #: includes/admin-screens/performance.php:523
 msgid ""
 "Recommend leaving off unless you are using an external critical CSS service."
-msgstr ""
+msgstr "외부 크리티컬 CSS 서비스를 사용하지 않는 이상 끄기가 권장됩니다."
 
 #: includes/admin-screens/performance.php:528
 msgid "Recommend leaving off. In most cases load times will be faster."
 msgstr ""
+"끄기가 권장됩니다. 대부분의 상황에서 더 빠른 페이지 로딩 속도를 보여줍니다."
 
 #: includes/admin-screens/performance.php:533
 msgid "Strongly recommend setting to file method."
-msgstr ""
+msgstr "파일 방식이 강력 권장됩니다."
 
 #: includes/admin-screens/performance.php:538
 msgid "Recommend enabling."
-msgstr ""
+msgstr "활성화가 권장됩니다."
 
 #: includes/admin-screens/performance.php:540
 msgid "Advanced Optimization"
-msgstr ""
+msgstr "고급 최적화"
 
 #: includes/admin-screens/performance.php:550
 msgid "Recommend leaving off unless your host does not automatically compress."
-msgstr ""
+msgstr "호스트가 자동으로 압축하지 않는 이상 끄기가 권장됩니다."
 
 #: includes/admin-screens/performance.php:557
 msgid ""
 "Recommend turning on to move jQuery to footer. Warning, if you encounter "
 "problems on the front-end then turn off."
 msgstr ""
+"jQuery를 푸터로 보내기 위해 켜기가 권장됩니다. 경고: 프론트엔드에서 문제 발"
+"생 시 끄기를 선택하세요."
 
 #: includes/admin-screens/performance.php:562
 msgid ""
 "Recommend turning on and then generating critical CSS for key pages on the "
 "critical CSS page."
 msgstr ""
+"크리티컬 CSS 페이지에서 주요 페이지 크리티컬 CSS 생성을 위해 켜기가 권장됩니"
+"다."
 
 #: includes/admin-screens/performance.php:566
 msgid "Finish Wizard"
-msgstr ""
+msgstr "마법사 끝내기"
 
 #: includes/admin-screens/performance.php:573
 msgid "Performance Wizard Complete!"
-msgstr ""
+msgstr "성능 마법사 완료!"
 
 #: includes/admin-screens/performance.php:574
 msgid ""
@@ -942,45 +998,49 @@ msgid ""
 "also play a large role. For further hints and tips, please check out our "
 "Performance documentation. Some links can be found below."
 msgstr ""
+"성능 마법사를 사용해주셔서 감사합니다. 더 빠른 페이지 로딩 시간 설정이 완료되"
+"었습니다. 콘텐츠, 플러그인 및 설정도 큰 영향을 끼친다는 점 유의해 주세요. 더 "
+"많은 팁과 노하우는 성능 온라인 문서를 확인하세요. 링크는 밑에서 확인할 수 있"
+"습니다."
 
 #: includes/admin-screens/performance.php:585
 #: includes/lib/inc/fusion-app/helpers.php:405
 msgid "Before"
-msgstr ""
+msgstr "최적화 전"
 
 #: includes/admin-screens/performance.php:595
 #: includes/admin-screens/performance.php:643
 msgid "Score"
-msgstr ""
+msgstr "스코어"
 
 #: includes/admin-screens/performance.php:606
 #: includes/admin-screens/performance.php:654
 msgid "FCP"
-msgstr ""
+msgstr "FCP"
 
 #: includes/admin-screens/performance.php:617
 #: includes/admin-screens/performance.php:665
 msgid "LCP"
-msgstr ""
+msgstr "LCP"
 
 #: includes/admin-screens/performance.php:628
 #: includes/admin-screens/performance.php:676
 msgid "CLS"
-msgstr ""
+msgstr "CLS"
 
 #: includes/admin-screens/performance.php:633
 #: includes/lib/inc/fusion-app/helpers.php:406
 msgid "After"
-msgstr ""
+msgstr "최적화 후"
 
 #: includes/admin-screens/performance.php:687
 msgid "Clearing Cache"
-msgstr ""
+msgstr "캐쉬 삭제"
 
 #. translators: The number of active plugins.
 #: includes/admin-screens/performance.php:703
 msgid "Active Plugins: %s"
-msgstr ""
+msgstr "활성 플러그인: %s"
 
 #: includes/admin-screens/performance.php:704
 msgid ""
@@ -992,26 +1052,32 @@ msgid ""
 "using the Avada lazy loading for images and not the lazy loading from "
 "plugins."
 msgstr ""
+"플러그인 개수를 최소한으로 줄여보세요. 각 플러그인이 정말로 필요한지 확인해보"
+"세요. 추가 플러그인 사용보다 Avada에 포함된 기능을 먼저 사용해보는게 권장됩니"
+"다. 예를 들어 기타 폼 작성 플러그인보다 Avada 폼 기능을 먼저 활용해보세요. 캐"
+"싱 플러그인을 사용할 수 있지만 많은 기능이 겹치므로 중복 설정이 일어나지 않도"
+"록 유의하세요. 예를 들어 기타 로딩 지연 플러그인보다 Avada 이미지 로딩 지연 "
+"기능 사용이 권장됩니다."
 
 #: includes/admin-screens/performance.php:718
 msgid "Possible Improvements"
-msgstr ""
+msgstr "가능한 개선 사항"
 
 #: includes/admin-screens/performance.php:728
 msgid "What are Google core web vitals"
-msgstr ""
+msgstr "Google 코어 웹 바이탈이란 무엇인가요"
 
 #: includes/admin-screens/performance.php:729
 msgid "How to optimize above the fold content for performance"
-msgstr ""
+msgstr "상단부 콘텐츠 성능 최적화 방법"
 
 #: includes/admin-screens/performance.php:730
 msgid "How to optimize the images on your website"
-msgstr ""
+msgstr "웹사이트 이미지 최적화 방법"
 
 #: includes/admin-screens/plugins.php:54
 msgid "Manage Bundled, Premium & Recommended Plugins"
-msgstr ""
+msgstr "번들, 프리미엄 및 권장 플러그인 관리"
 
 #. translators: The "Product Registration" link.
 #: includes/admin-screens/plugins.php:59
@@ -1021,6 +1087,9 @@ msgid ""
 "Layer Slider are premium plugins that can be installed once your <a href=\"%s"
 "\">product is registered</a>."
 msgstr ""
+"Avada 코어와 Avada 빌더는 Avada 웹사이트 빌더의 필수 플러그인입니다. Avada 커"
+"스텀 브랜딩, Convert Plus, ACF 프로, Slider Revolution 및 Layer Slider는 <a "
+"href=\"%s\">제품 등록</a> 후 설치할 수 있는 플러그인 입니다."
 
 #: includes/admin-screens/plugins.php:68
 msgid ""
@@ -1028,12 +1097,16 @@ msgid ""
 "version. The recommended plugins below offer design integration with Avada. "
 "You can manage the plugins from this tab."
 msgstr ""
+"프리미엄 플러그인 업데이트 전, Avada가 최신 버전인지 확인하세요. 밑에 있는 권"
+"장 플러그인은 Avada 디자인 통합을 지원합니다. 이 탭에서 플러그인을 관리할 수 "
+"있습니다."
 
 #: includes/admin-screens/plugins.php:74
 msgid ""
 "Premium Plugins Can Only Be Installed And Updated With Valid Product "
 "Registration"
 msgstr ""
+"프리미엄 플러그인은 제품 등록이 유효해야만 설치 및 업데이트할 수 있습니다"
 
 #. translators: "Product Registration" link.
 #: includes/admin-screens/plugins.php:76
@@ -1042,16 +1115,19 @@ msgid ""
 "premium plugins: Avada Core, Avada Builder, Avada Custom Branding, Convert "
 "Plus, ACF Pro, Slider Revolution & Layer Slider."
 msgstr ""
+"%s 페이지를 방문하여 구매 코드를 입력 후 Avada 코어, Avada 빌더, Avada 커스"
+"텀 브랜딩, Convert Plus, ACF Pro, Slider Revolution 및 Layer Slider와 같은 프"
+"리미엄 플러그인을 설치 및 업데이트 하세요."
 
 # @ Avada
 #: includes/admin-screens/plugins.php:76
 #: includes/admin-screens/prebuilt-websites.php:411
 msgid "Product Registration"
-msgstr ""
+msgstr "제품 등록"
 
 #: includes/admin-screens/plugins.php:82
 msgid "The Plugin Server Could Not Be Reached"
-msgstr ""
+msgstr "플러그인 서버에 접근할 수 없습니다"
 
 #. translators: %1$s = Status text & link. %2$s: Plugin Installation text &
 #. link. %3$s: Support Dashboard text & link.
@@ -1062,6 +1138,9 @@ msgid ""
 "persists, you can also get the plugins through our alternate method directly "
 "from the %3$s."
 msgstr ""
+"%1$s 페이지에 방문해 wp_remote_get()이 작동하는지 확인하세요. 더 많은 정보는 "
+"%2$s 온라인 문서를 확인하세요. 문제 지속 시 %3$s를 통해 직접 플러그인을 획득"
+"할 수 있습니다."
 
 # @ Avada
 #: includes/admin-screens/plugins.php:88
@@ -1076,31 +1155,31 @@ msgstr "상태"
 
 #: includes/admin-screens/plugins.php:89
 msgid "Plugin Installation"
-msgstr ""
+msgstr "플러그인 설치"
 
 #: includes/admin-screens/plugins.php:90
 msgid "Support Dashboard"
-msgstr ""
+msgstr "고객지원 대시보드"
 
 #. translators: Version number.
 #: includes/admin-screens/plugins.php:151
 msgid "New version available: %s"
-msgstr ""
+msgstr "새로운 버전을 사용할 수 있습니다: %s"
 
 #. translators: plugin name.
 #: includes/admin-screens/plugins.php:157
 msgid "Active: %s"
-msgstr ""
+msgstr "활성: %s"
 
 #. translators: %1$s: Plugin version. %2$s: Author URL. %3$s: Author Name.
 #: includes/admin-screens/plugins.php:164
 msgid "v%1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
-msgstr ""
+msgstr "v%1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
 
 #. translators: Version number.
 #: includes/admin-screens/plugins.php:167
 msgid "Available Version: %s"
-msgstr ""
+msgstr "사용 가능한 버전: %s"
 
 # @ Avada
 #: includes/admin-screens/plugins.php:193
@@ -1111,39 +1190,41 @@ msgstr "필수"
 
 #: includes/admin-screens/plugins.php:199
 msgid "Premium"
-msgstr ""
+msgstr "프리미엄"
 
 #: includes/admin-screens/plugins.php:227
 msgid "Error "
-msgstr ""
+msgstr "오류 "
 
 #: includes/admin-screens/plugins.php:231
 msgid "Get Avada Add-ons"
-msgstr ""
+msgstr "Avada 애드온 받기"
 
 #: includes/admin-screens/plugins.php:232
 msgid ""
 "The Avada Website Builder ecosystem offers a variety of third-party add-ons "
 "that extend core features and deliver tailored solutions for specific tasks."
 msgstr ""
+"Avada 웹사이트 빌더의 생태계는 다양한 써드 파티 애드온을 제공하여 코어 기능"
+"을 확장하고 특정 작업의 맞춤 솔루션을 제공합니다."
 
 #: includes/admin-screens/plugins.php:237
 msgid "Add-ons are only supported by the author who created them."
-msgstr ""
+msgstr "애드온은 애드온 개발자의 지원만 제공됩니다."
 
 # @ Avada
 #: includes/admin-screens/plugins.php:283
 msgid "Active:"
-msgstr "활성"
+msgstr "활성:"
 
 #. translators: %1$s: Version. %2$s: Author.
 #: includes/admin-screens/plugins.php:293
 msgid "v%1$s | %2$s"
-msgstr ""
+msgstr "v%1$s | %2$s"
 
 #: includes/admin-screens/plugins.php:303 includes/class-avada-admin.php:1119
 msgid "Deactivate"
-msgstr ""
+msgstr "비활성화"
 
 # @ Avada
 #: includes/admin-screens/plugins.php:305
@@ -1155,17 +1236,17 @@ msgstr "활성화"
 
 #: includes/admin-screens/plugins.php:308
 msgid "Get Add-on"
-msgstr ""
+msgstr "애드온 받기"
 
 #: includes/admin-screens/plugins.php:321
 #: includes/admin-screens/prebuilt-websites.php:268
 msgid "New"
-msgstr ""
+msgstr "New"
 
 #: includes/admin-screens/prebuilt-websites.php:21
 #: includes/admin-screens/prebuilt-websites.php:38
 msgid "We're sorry but the demo data could not be imported"
-msgstr ""
+msgstr "죄송합니다, 데모 데이터를 불러올 수 없습니다"
 
 #: includes/admin-screens/prebuilt-websites.php:22
 #: includes/admin-screens/prebuilt-websites.php:39
@@ -1173,31 +1254,33 @@ msgid ""
 "This is most likely due to low PHP configurations on your server. There are "
 "two possible solutions."
 msgstr ""
+"높은 확률로 사용자 서버의 낮은 PHP 설정값으로 인한 문제입니다. 두가지 해결 방"
+"법이 있습니다."
 
 #: includes/admin-screens/prebuilt-websites.php:24
 #: includes/admin-screens/prebuilt-websites.php:41
 #: includes/admin-screens/prebuilt-websites.php:49
 msgid "Solution 1:"
-msgstr ""
+msgstr "해결 방법 1:"
 
 #: includes/admin-screens/prebuilt-websites.php:24
 #: includes/admin-screens/prebuilt-websites.php:41
 #: includes/admin-screens/prebuilt-websites.php:49
 msgid "Import the demo using an alternate method."
-msgstr ""
+msgstr "다른 방식으로 데모를 불러오기."
 
 #: includes/admin-screens/prebuilt-websites.php:24
 #: includes/admin-screens/prebuilt-websites.php:41
 #: includes/admin-screens/prebuilt-websites.php:49
 msgid "Alternate Method"
-msgstr ""
+msgstr "다른 방식"
 
 #. translators: %1$s: RED. %2$s: "Reset WordPress Plugin" link.
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
 #: includes/admin-screens/prebuilt-websites.php:50
 msgid "Solution 2:"
-msgstr ""
+msgstr "해결 방법 2:"
 
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
@@ -1205,20 +1288,21 @@ msgid ""
 "Fix the PHP configurations reported in %1$s on the Status page, then use the "
 "%2$s, then reimport."
 msgstr ""
+"상태 페이지 %1$s에 표시된 PHP 설정 변경 후 %2$s를 사용하여 다시 불러오기."
 
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
 msgid "RED"
-msgstr ""
+msgstr "RED"
 
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
 msgid "Reset WordPress Plugin"
-msgstr ""
+msgstr "워드프레스 플러그인 리셋"
 
 #: includes/admin-screens/prebuilt-websites.php:30
 msgid "Demo data successfully imported"
-msgstr ""
+msgstr "데모 데이터 불러오기 성공"
 
 #. translators: "Regenerate Thumbnails" plugin link.
 #: includes/admin-screens/prebuilt-websites.php:32
@@ -1227,12 +1311,14 @@ msgid ""
 "specific theme sizes. This is not needed if you upload your own images "
 "because WP does it automatically."
 msgstr ""
+"이미지를 특정 테마 사이즈에 맞춰 생성하려면 %s 플러그인을 설치 후 실행하세"
+"요. 개인 이미지 사용 시 워드프레스가 자동으로 처리하므로 필요하지 않습니다."
 
 # @ Avada
 #: includes/admin-screens/prebuilt-websites.php:32
 #: includes/options/performance.php:74
 msgid "Regenerate Thumbnails"
-msgstr "썸네일을 재생성하세요"
+msgstr "썸네일 재생성"
 
 #. translators: "Permalinks" link.
 #: includes/admin-screens/prebuilt-websites.php:34
@@ -1240,38 +1326,46 @@ msgid ""
 "Please visit the %s page and change your permalinks structure to \"Post Name"
 "\" so that content links work properly."
 msgstr ""
+"%s 페이지를 방문하여 고유주소 구조를 \"글 이름\"으로 변경하여 콘텐츠 링크가 "
+"제대로 작동할 수 있도록 설정하세요."
 
 #: includes/admin-screens/prebuilt-websites.php:34
 msgid "Permalinks"
-msgstr ""
+msgstr "고유주소"
 
 #: includes/admin-screens/prebuilt-websites.php:47
 msgid ""
 "We're sorry but the demo data could not be imported. We were unable to find "
 "import file."
 msgstr ""
+"죄송합니다, 데모 데이터를 불러올 수 없습니다. 불러오기 파일을 찾지 못하였습니"
+"다."
 
 #: includes/admin-screens/prebuilt-websites.php:50
 msgid ""
 "Make sure WordPress directory permissions are correct and uploads directory "
 "is writable."
 msgstr ""
+"워드프레스 폴더 권한이 알맞게 설정되어 있는지, uploads 폴더 쓰기 권한이 설정"
+"되어 있는지 확인해 주세요."
 
 # @ Avada
 #: includes/admin-screens/prebuilt-websites.php:50
 #: includes/admin-screens/status.php:164 includes/admin-screens/status.php:183
 msgid "Learn More"
-msgstr "더 배우기"
+msgstr "더 알아보기"
 
 #: includes/admin-screens/prebuilt-websites.php:66
 msgid "Import A Prebuilt Website"
-msgstr ""
+msgstr "사전구축 웹사이트 불러오기"
 
 #: includes/admin-screens/prebuilt-websites.php:67
 msgid ""
 "Import any of the prebuilt websites below. Once done, your site will have "
 "the exact same look and feel as the the sites in the preview."
 msgstr ""
+"하단 사전구축 웹사이트를 불러오세요. 불러오기 후 웹사이트는 미리보기와 똑같"
+"은 외형과 느낌을 표현합니다."
 
 #. translators: %1$s: "Status" link. %2$s: "View more info here" link.
 #: includes/admin-screens/prebuilt-websites.php:75
@@ -1280,26 +1374,29 @@ msgid ""
 "ensure your server meets all requirements for a successful import. Settings "
 "that need attention will be listed in red. %2$s."
 msgstr ""
+"사전구축 웹사이트 불러오기 소요 시간은 각각 다릅니다. %1$s 페이지를 확인하여 "
+"서버가 성공적인 불러오기를 위한 요구사항을 충족하는지 확인하세요. 주의가 필요"
+"한 설정은 빨간색으로 표시됩니다. %2$s."
 
 #: includes/admin-screens/prebuilt-websites.php:77
 msgid "View more info here"
-msgstr ""
+msgstr "더 많은 정보 알아보기"
 
 #: includes/admin-screens/prebuilt-websites.php:141
 msgid "Filter Sites"
-msgstr ""
+msgstr "사이트 필터"
 
 #: includes/admin-screens/prebuilt-websites.php:142
 msgid "Search prebuilt sites"
-msgstr ""
+msgstr "사전구축 사이트 검색"
 
 #: includes/admin-screens/prebuilt-websites.php:146
 msgid "All Prebuilt Sites"
-msgstr ""
+msgstr "모든 사전구축 사이트"
 
 #: includes/admin-screens/prebuilt-websites.php:152
 msgid "Imported"
-msgstr ""
+msgstr "불러오기 완료"
 
 # @ Avada
 #. Translators: Tag name (string)
@@ -1321,22 +1418,22 @@ msgstr "전부"
 #: includes/metaboxes/tabs/tab_avada_page_options.php:61
 #: includes/options/colors.php:193 includes/options/colors.php:242
 msgid "Import"
-msgstr ""
+msgstr "불러오기"
 
 #: includes/admin-screens/prebuilt-websites.php:239
 #: includes/class-avada-admin.php:1392
 msgid "Modify"
-msgstr ""
+msgstr "수정"
 
 #: includes/admin-screens/prebuilt-websites.php:242
 #: includes/class-avada-admin.php:1393
 msgid "Full Import"
-msgstr ""
+msgstr "완전한 불러오기"
 
 #: includes/admin-screens/prebuilt-websites.php:244
 #: includes/class-avada-admin.php:1394
 msgid "Partial Import"
-msgstr ""
+msgstr "부분 불러오기"
 
 # @ Avada
 #: includes/admin-screens/prebuilt-websites.php:263
@@ -1344,24 +1441,24 @@ msgstr ""
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:149
 #: includes/metaboxes/tabs/tab_template.php:344
 msgid "Preview"
-msgstr ""
+msgstr "미리보기"
 
 #: includes/admin-screens/prebuilt-websites.php:280
 msgid "Live Preview"
-msgstr ""
+msgstr "실시간 미리보기"
 
 #: includes/admin-screens/prebuilt-websites.php:287
 msgid "Required Plugins To Import Content"
-msgstr ""
+msgstr "콘텐츠 불러오기를 위한 필수 플러그인"
 
 #. translators: %1$s: Plugin Slugh. %2$s: Documentation Link.
 #: includes/admin-screens/prebuilt-websites.php:299
 msgid "%1$s (%2$s)"
-msgstr ""
+msgstr "%1$s (%2$s)"
 
 #: includes/admin-screens/prebuilt-websites.php:301
 msgid "Setup Required"
-msgstr ""
+msgstr "설치 필요"
 
 # @ Avada
 #: includes/admin-screens/prebuilt-websites.php:307
@@ -1380,15 +1477,15 @@ msgstr "활성"
 
 #: includes/admin-screens/prebuilt-websites.php:354
 msgid "Import Content"
-msgstr ""
+msgstr "콘텐츠 불러오기"
 
 #: includes/admin-screens/prebuilt-websites.php:354
 msgid "(menus only import with \"All\")"
-msgstr ""
+msgstr "\"전부\"를 선택해야 메뉴도 불러옵니다"
 
 #: includes/admin-screens/prebuilt-websites.php:361
 msgid "Remove Content"
-msgstr ""
+msgstr "콘텐츠 삭제"
 
 # @ Avada
 #: includes/admin-screens/prebuilt-websites.php:365
@@ -1410,18 +1507,18 @@ msgstr "삭제"
 
 #: includes/admin-screens/prebuilt-websites.php:385
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #: includes/admin-screens/prebuilt-websites.php:400
 #: includes/metaboxes/tabs/tab_avada_page_options.php:102
 msgid "Warning "
-msgstr ""
+msgstr "경고 "
 
 #: includes/admin-screens/prebuilt-websites.php:408
 msgid ""
 "Avada's Prebuilt Websites Can Only Be Imported With Valid Product "
 "Registration"
-msgstr ""
+msgstr "Avada 사전구축 웹사이트는 제품 등록이 유효해야만 불러올 수 있습니다"
 
 #. translators: "Product Registration" link.
 #: includes/admin-screens/prebuilt-websites.php:411
@@ -1429,79 +1526,85 @@ msgid ""
 "Please visit the %s page and enter a valid purchase code to import the full "
 "prebuilt websites and the single pages through the page builder."
 msgstr ""
+"%s 페이지를 방문하여 구매 코드를 입력 후 완전한 사전구축 웹사이트와 단일 페이"
+"지를 페이지 빌더에 불러오세요."
 
 # @ Avada
 #: includes/admin-screens/status.php:21 includes/class-avada-admin.php:563
 msgid "System Status"
-msgstr ""
+msgstr "시스템 상태"
 
 #: includes/admin-screens/status.php:22
 msgid ""
 "On this page you can see your Avada version history, run conversions and see "
 "details regarding your site environment."
 msgstr ""
+"이 페이지에서는 Avada 버전 내역, 버전 변환 및 사이트 환경 상세 정보를 확인할 "
+"수 있습니다."
 
 #: includes/admin-screens/status.php:27
 msgid ""
 "Click the button below to produce a system status report. Add this "
 "information to support tickets if you are experiencing technical issues."
 msgstr ""
+"밑에 버튼을 클릭하여 시스템 상태 보고서를 생성하세요. 기술 문제가 발생하여 고"
+"객 지원 티켓 제출 시 보고서를 첨부하세요."
 
 # @ Avada
 #: includes/admin-screens/status.php:28
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:48
 msgid "Get System Report"
-msgstr ""
+msgstr "시스템 보고서 받기"
 
 # @ Avada
 #: includes/admin-screens/status.php:34
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:62
 msgid "Copied!"
-msgstr ""
+msgstr "복사 완료!"
 
 #: includes/admin-screens/status.php:34
 msgid "Copy For Support"
-msgstr ""
+msgstr "고객 지원용 복사"
 
 #: includes/admin-screens/status.php:39
 msgid "Avada Version History"
-msgstr ""
+msgstr "Avada 버전 내역"
 
 #: includes/admin-screens/status.php:43
 msgid "Current Version:"
-msgstr ""
+msgstr "현재 버전:"
 
 #: includes/admin-screens/status.php:48
 msgid "Previous Versions:"
-msgstr ""
+msgstr "이전 버전:"
 
 #: includes/admin-screens/status.php:53
 msgid "No previous versions could be detected"
-msgstr ""
+msgstr "이전 버전이 감지되지 않았습니다"
 
 #: includes/admin-screens/status.php:117
 msgid "Avada Conversion Controls"
-msgstr ""
+msgstr "Avada 변환 제어"
 
 #. translators: Version Number.
 #: includes/admin-screens/status.php:124
 msgid "Avada %s Conversion:"
-msgstr ""
+msgstr "Avada %s 변환:"
 
 #: includes/admin-screens/status.php:125 includes/class-avada-admin.php:545
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
 msgid "Changelog"
-msgstr ""
+msgstr "변경 내역"
 
 #. Translators: %s: The version number.
 #: includes/admin-screens/status.php:134
 msgid "Rerun Global Options Conversion for version %s manually."
-msgstr ""
+msgstr "수동으로 %s 버전 글로벌 옵션 변환 재실행."
 
 #: includes/admin-screens/status.php:139 includes/admin-screens/status.php:171
 #: includes/admin-screens/status.php:191
 msgid "Run Conversion"
-msgstr ""
+msgstr "변환 실행"
 
 #. translators: URL.
 #: includes/admin-screens/status.php:150
@@ -1514,11 +1617,17 @@ msgid ""
 "needed. Please <a href=\"%s\" target=\"_blank\">contact our support team</a> "
 "through a ticket if you have any questions or need assistance."
 msgstr ""
+"<strong style=\"color:red;\">주의:</strong> Avada 4.0 및 5.0 업데이트 시 새로"
+"운 버전 호환성을 위해 변환 프로세스가 필요합니다. 업데이트 시 자동으로 진행되"
+"는 과정입니다. 드물게 자동 프로세스에 문제가 발생한 경우 변환을 재실행 해야 "
+"할 수도 있습니다. 필요 시 밑에 있는 변환 제어를 활용하세요. 질문이나 도움이 "
+"필요하시면 <a href=\"%s\" target=\"_blank\">고객 지원 팀</a>에 티켓을 제출하"
+"세요."
 
 #. translators: Version Number.
 #: includes/admin-screens/status.php:159 includes/admin-screens/status.php:178
 msgid "Previous Version"
-msgstr ""
+msgstr "이전 버전"
 
 #: includes/admin-screens/status.php:159 includes/admin-screens/status.php:178
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:8
@@ -1528,134 +1637,136 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:34
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:8
 msgid "Version %s"
-msgstr ""
+msgstr "버전 %s"
 
 #: includes/admin-screens/status.php:163
 msgid "Avada 4.0 Conversion:"
-msgstr ""
+msgstr "Avada 4.0 변환:"
 
 #. translators: Version Number.
 #: includes/admin-screens/status.php:170
 msgid ""
 "Rerun Global Options Conversion from version %s to version 4.0 manually."
-msgstr ""
+msgstr "버전 %s 에서 4.0 글로벌 옵션 변환을 재실행 하세요."
 
 #: includes/admin-screens/status.php:182
 msgid "Avada 5.0 Conversion:"
-msgstr ""
+msgstr "Avada 5.0 변환:"
 
 #. translators: Version Number.
 #: includes/admin-screens/status.php:190
 msgid "Rerun Shortcode Conversion from version %s to version 5.0 manually."
-msgstr ""
+msgstr "버전 %s 에서 5.0 쇼트코드 변환을 재실행 하세요."
 
 #: includes/admin-screens/status.php:203
 msgid "Revert Avada Builder Conversion."
-msgstr ""
+msgstr "Avada 빌더 변환 되돌리기."
 
 #: includes/admin-screens/status.php:204
 msgid "Revert Conversion"
-msgstr ""
+msgstr "변환 되돌리기"
 
 #: includes/admin-screens/status.php:214
 msgid ""
 "The backups cleanup process has been scheduled and your the version 5.0 "
 "conversion backups will be purged from your database."
 msgstr ""
+"백업 삭제 과정이 예약되었으며 버전 5.0 변환 백업이 데이터베이스에서 소거됩니"
+"다."
 
 #. translators: Numbers.
 #: includes/admin-screens/status.php:252
 msgid "Currently removing backups from your database (step %1$s of %2$s)"
-msgstr ""
+msgstr "데이터베이스에서 백업 삭제중 (%2$s 단계중 %1$s 단계)"
 
 #: includes/admin-screens/status.php:255
 msgid ""
 "Remove Shortcode Conversion Backups created during the version 5.0 "
 "conversion."
-msgstr ""
+msgstr "5.0 버전 변환중 생성된 쇼트코드 변환 백업 삭제."
 
 #: includes/admin-screens/status.php:260
 msgid "Remove Backups"
-msgstr ""
+msgstr "백업 삭제"
 
 # @ Avada
 #: includes/admin-screens/status.php:275
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:73
 msgid "WordPress Environment"
-msgstr ""
+msgstr "워드프레스 환경"
 
 # @ Avada
 #: includes/admin-screens/status.php:280
 msgid "Home URL:"
-msgstr "이미지 URL"
+msgstr "홈 URL:"
 
 # @ Avada
 #: includes/admin-screens/status.php:281
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:83
 msgid "The URL of your site's homepage."
-msgstr ""
+msgstr "웹사이트 홈페이지 URL."
 
 #: includes/admin-screens/status.php:285
 msgid "Site URL:"
-msgstr ""
+msgstr "사이트 URL:"
 
 # @ Avada
 #: includes/admin-screens/status.php:286
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:92
 msgid "The root URL of your site."
-msgstr ""
+msgstr "웹사이트의 루트 URL."
 
 #: includes/admin-screens/status.php:290
 msgid "WP Content Path:"
-msgstr ""
+msgstr "워드프레스 콘텐츠 Path:"
 
 #: includes/admin-screens/status.php:291
 msgid "System path of your wp-content directory."
-msgstr ""
+msgstr "wp-content 폴더의 시스템 Path."
 
 # @ woocommerce
 #: includes/admin-screens/status.php:292 includes/admin-screens/status.php:297
 #: templates/wc-view-order.php:144 templates/wc-view-order.php:157
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: includes/admin-screens/status.php:295
 msgid "WP Path:"
-msgstr ""
+msgstr "워드프레스 Path:"
 
 #: includes/admin-screens/status.php:296
 msgid "System path of your WP root directory."
-msgstr ""
+msgstr "워드프레스 루트 폴더의 시스템 Path."
 
 #: includes/admin-screens/status.php:300
 msgid "WP Version:"
-msgstr ""
+msgstr "워드프레스 버전:"
 
 # @ Avada
 #: includes/admin-screens/status.php:301
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:140
 msgid "The version of WordPress installed on your site."
-msgstr ""
+msgstr "웹사이트에 설치된 워드프레스 버전."
 
 #: includes/admin-screens/status.php:305
 msgid "WP Multisite:"
-msgstr ""
+msgstr "워드프레스 멀티사이트:"
 
 # @ Avada
 #: includes/admin-screens/status.php:306
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:151
 msgid "Whether or not you have WordPress Multisite enabled."
-msgstr ""
+msgstr "워드프레스 멀티사이트 활성화 여부."
 
 #: includes/admin-screens/status.php:310
 msgid "PHP Memory Limit:"
-msgstr ""
+msgstr "PHP 메모리 제한:"
 
 # @ Avada
 #: includes/admin-screens/status.php:311
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:213
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
-msgstr ""
+msgstr "웹사이트가 한번에 활용할 수 있는 최대 메모리(RAM)"
 
 #. translators: %1$s: Current value. %2$s: URL.
 #: includes/admin-screens/status.php:328
@@ -1665,84 +1776,89 @@ msgid ""
 "how, see: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
 "\">Increasing memory allocated to PHP.</a>"
 msgstr ""
+"%1$s - 최소 <strong>128MB</strong>의 메모리 설정값이 권장됩니다. <strong>wp-"
+"config.php</strong> 파일에서 메모리 제한을 정의하세요. 더 자세한 방법은<a "
+"href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">할당된 PHP 메모"
+"리 늘리기</a>를 참조하세요."
 
 #: includes/admin-screens/status.php:338
 msgid "WP Debug Mode:"
-msgstr ""
+msgstr "워드프레스 디버그 모드:"
 
 # @ Avada
 #: includes/admin-screens/status.php:339
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:243
 msgid "Displays whether or not WordPress is in Debug Mode."
-msgstr ""
+msgstr "워드프레스 디버그 모드 여부."
 
 #: includes/admin-screens/status.php:349
 msgid "Language:"
-msgstr ""
+msgstr "언어:"
 
 # @ Avada
 #: includes/admin-screens/status.php:350
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:258
 msgid "The current language used by WordPress. Default = English"
-msgstr ""
+msgstr "워드프레스 현재 사용 언어. 기본 = English"
 
 # @ Avada
 #: includes/admin-screens/status.php:358
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:297
 msgid "Server Environment"
-msgstr ""
+msgstr "서버 환경"
 
 # @ Avada
 #: includes/admin-screens/status.php:363
 msgid "Server Info:"
-msgstr "헤더 정보"
+msgstr "서버 정보:"
 
 # @ Avada
 #: includes/admin-screens/status.php:364
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:307
 msgid "Information about the web server that is currently hosting your site."
-msgstr ""
+msgstr "현재 웹사이트를 호스팅하는 웹 서버에 대한 정보."
 
 #: includes/admin-screens/status.php:365
 msgid "Unknown"
-msgstr ""
+msgstr "알수없음"
 
 #: includes/admin-screens/status.php:368
 msgid "PHP Version:"
-msgstr ""
+msgstr "PHP 버전:"
 
 # @ Avada
 #: includes/admin-screens/status.php:369
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:335
 msgid "The version of PHP installed on your hosting server."
-msgstr ""
+msgstr "호스팅 서버에 설치된 PHP 버전."
 
 #: includes/admin-screens/status.php:379
 msgid "PHP Version could not be detected."
-msgstr ""
+msgstr "PHP 버전을 확인할 수 없습니다."
 
 #. translators: %1$s: Current PHP version. %2$s: Recommended PHP version. %3$s:
 #. "WordPress Requirements" link.
 #: includes/admin-screens/status.php:386
 msgid "%1$s. WordPress recommendation: %2$s or above. See %3$s for details."
 msgstr ""
+"%1$s. 워드프레스 권장 버전: %2$s 이상. 자세한 내용은 %3$s를 확인하세요."
 
 #: includes/admin-screens/status.php:389
 msgid "WordPress Requirements"
-msgstr ""
+msgstr "워드프레스 요구사항"
 
 #: includes/admin-screens/status.php:399
 msgid "PHP Post Max Size:"
-msgstr ""
+msgstr "PHP Post Max Size:"
 
 # @ Avada
 #: includes/admin-screens/status.php:400
 msgid "The largest file size that can be contained in one post."
-msgstr ""
+msgstr "Post 하나에 담을 수 있는 최대 파일 크기."
 
 #: includes/admin-screens/status.php:404
 msgid "PHP Time Limit:"
-msgstr ""
+msgstr "PHP Time Limit:"
 
 # @ Avada
 #: includes/admin-screens/status.php:405
@@ -1751,6 +1867,8 @@ msgid ""
 "The amount of time (in seconds) that your site will spend on a single "
 "operation before timing out (to avoid server lockups)"
 msgstr ""
+"(서버 교착 상태를 방지하기 위해) 시간 초과 전 웹사이트가 단일 작업에 사용하"
+"는 시간(초)"
 
 #. translators: %1$s: Current value. %2$s: URL.
 #: includes/admin-screens/status.php:412
@@ -1759,10 +1877,13 @@ msgid ""
 "href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing max "
 "execution to PHP</a>"
 msgstr ""
+"%1$s - 최대 실행 시간은 최소 180의 설정값이 권장됩니다.<br /><a href=\"%2$s"
+"\" target=\"_blank\" rel=\"noopener noreferrer\">PHP 최대 실행 시간 늘리기</"
+"a>를 확인하세요."
 
 #: includes/admin-screens/status.php:420
 msgid "PHP Max Input Vars:"
-msgstr ""
+msgstr "PHP Max Input Vars:"
 
 # @ Avada
 #: includes/admin-screens/status.php:421 includes/admin-screens/status.php:466
@@ -1771,7 +1892,7 @@ msgstr ""
 msgid ""
 "The maximum number of variables your server can use for a single function to "
 "avoid overloads."
-msgstr ""
+msgstr "서버 과부화를 방지하기 위해 단일 함수가 사용할 수 있는 최대 변수 개수."
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
 #: includes/admin-screens/status.php:448 includes/admin-screens/status.php:493
@@ -1781,11 +1902,14 @@ msgid ""
 "POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" rel="
 "\"noopener noreferrer\">Increasing max input vars limit.</a>"
 msgstr ""
+"%1$s - 권장값: %2$s.<br />최대 입력 변수 제한은 메뉴와 같은 POST 데이터를 잘"
+"라버릴 수도 있습니다. <a href=\"%3$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">최대 입력 변수 제한 늘리기</a>를 확인하세요."
 
 # @ Avada
 #: includes/admin-screens/status.php:457
 msgid "SUHOSIN Installed:"
-msgstr "미설치"
+msgstr "SUHOSIN 설치됨:"
 
 #: includes/admin-screens/status.php:459
 msgid ""
@@ -1796,25 +1920,27 @@ msgid ""
 "enabled on your server, Suhosin may need to be configured to increase its "
 "data submission limits."
 msgstr ""
+"Suhosin은 진화된 PHP 보안 시스템입니다. 잘 알려진 PHP 애플리케이션 취약점을 "
+"보완하기 위해 설계 되었으며 PHP 코어 자체의 취약점도 보완합니다."
 
 # @ Avada
 #: includes/admin-screens/status.php:465
 msgid "Suhosin Post Max Vars:"
-msgstr "포스트 Meta 보이게 하기"
+msgstr "Suhosin Post Max Vars:"
 
 #: includes/admin-screens/status.php:501
 msgid "Suhosin Request Max Vars:"
-msgstr ""
+msgstr "Suhosin Request Max Vars:"
 
 #: includes/admin-screens/status.php:537
 msgid "Suhosin Post Max Value Length:"
-msgstr ""
+msgstr "Suhosin Post Max Value Length:"
 
 #: includes/admin-screens/status.php:538
 msgid ""
 "Defines the maximum length of a variable that is registered through a POST "
 "request."
-msgstr ""
+msgstr "POST 요청으로 등록된 변수의 최대 길이를 정의합니다."
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
 #: includes/admin-screens/status.php:546
@@ -1824,70 +1950,79 @@ msgid ""
 "href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Suhosin "
 "Configuration Info</a>."
 msgstr ""
+"%1$s - 권장값: %2$s.<br />Post 최대 값 길이 제한은 데이터베이스에 글로벌 옵"
+"션 데이터 저장을 방해할 수 있습니다. <a href=\"%3$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Suhosin 설정 정보</a>를 확인하세요."
 
 #: includes/admin-screens/status.php:556
 msgid "ZipArchive:"
-msgstr ""
+msgstr "ZipArchive:"
 
 #: includes/admin-screens/status.php:557
 msgid ""
 "ZipArchive is required for importing demos. They are used to import and "
 "export zip files specifically for sliders."
 msgstr ""
+"데모 불러오기를 할 때 ZipArchive가 필요합니다. 특히 슬라이더의 zip 파일을 불"
+"러오기 및 내보내기 할 때 사용됩니다."
 
 #: includes/admin-screens/status.php:561
 msgid "MySQL Version:"
-msgstr ""
+msgstr "MySQL 버전:"
 
 # @ Avada
 #: includes/admin-screens/status.php:562
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:400
 msgid "The version of MySQL installed on your hosting server."
-msgstr ""
+msgstr "호스팅 서버에 설치된 MySQL 버전."
 
 #: includes/admin-screens/status.php:569
 msgid "Max Upload Size:"
-msgstr ""
+msgstr "최대 업로드 크기:"
 
 # @ Avada
 #: includes/admin-screens/status.php:570
 msgid ""
 "The largest file size that can be uploaded to your WordPress installation."
-msgstr ""
+msgstr "설치된 워드프레스에 업로드 가능한 최대 파일 크기."
 
 #: includes/admin-screens/status.php:574
 msgid "DOMDocument:"
-msgstr ""
+msgstr "DOMDocument:"
 
 #: includes/admin-screens/status.php:575
 msgid ""
 "DOMDocument is required for the Avada Builder plugin to properly function."
-msgstr ""
+msgstr "Avada 빌더 플러그인이 제대로 작동하기 위해서 DOMDocument가 필요합니다."
 
 #: includes/admin-screens/status.php:579
 msgid "WP Remote Get:"
-msgstr ""
+msgstr "WP Remote Get:"
 
 #: includes/admin-screens/status.php:580 includes/admin-screens/status.php:594
 msgid ""
 "Avada uses this method to communicate with different APIs, e.g. Google, "
 "Twitter, Facebook."
 msgstr ""
+"Avada는 이 방식을 사용하여 다른 API(예: Google, Twitter, Facebook)와 통신합니"
+"다."
 
 # @ Avada
 #: includes/admin-screens/status.php:593
 msgid "WP Remote Post:"
-msgstr "관련 글"
+msgstr "WP Remote Post:"
 
 #: includes/admin-screens/status.php:607
 msgid "GD Library:"
-msgstr ""
+msgstr "GD Library:"
 
 #: includes/admin-screens/status.php:608
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
 msgstr ""
+"Avada는 이 라이브러리를 사용하여 이미지 크기를 변경하여 웹사이트 로딩 시간을 "
+"개선합니다"
 
 # @ Avada
 #: includes/admin-screens/status.php:611
@@ -1897,58 +2032,58 @@ msgstr "미설치"
 
 #: includes/admin-screens/status.php:613
 msgid "Installed"
-msgstr ""
+msgstr "설치됨"
 
 #: includes/admin-screens/status.php:628
 msgid "Avada Update Server Status"
-msgstr ""
+msgstr "Avada 업데이트 서버 상태"
 
 #: includes/admin-screens/status.php:634
 msgid "Check Envato Server Status"
-msgstr ""
+msgstr "Envato 서버 상태 확인"
 
 #: includes/admin-screens/status.php:639
 msgid "Envato's API server."
-msgstr ""
+msgstr "Envato API 서버."
 
 #: includes/admin-screens/status.php:644
 msgid "Check Avada Server Status"
-msgstr ""
+msgstr "Avada 서버 상태 확인"
 
 #: includes/admin-screens/status.php:649
 msgid ""
 "Server from which Avada, plugins, prebuilt websites and patches are "
 "downloaded."
-msgstr ""
+msgstr "Avada, 플러그인, 사전구축 웹사이트 및 패치를 다운받는 서버."
 
 #: includes/admin-screens/status.php:659 includes/options/advanced.php:596
 msgid "Avada Forms"
-msgstr ""
+msgstr "Avada 폼"
 
 #: includes/admin-screens/status.php:665
 msgid "Re-Create Avada Forms Database Tables"
-msgstr ""
+msgstr "Avada 폼 데이터베이스 테이블 재생성"
 
 #: includes/admin-screens/status.php:670
 msgid "Try to re-create Avada Forms database tables."
-msgstr ""
+msgstr "Avada 폼 데이터베이스 테이블 재생성 시도."
 
 # @ Avada
 #: includes/admin-screens/status.php:687
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:531
 msgid "Active Plugins"
-msgstr ""
+msgstr "활성 플러그인"
 
 # @ Avada
 #: includes/admin-screens/status.php:704
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:546
 msgid "Visit plugin homepage"
-msgstr ""
+msgstr "플러그인 홈페이지 방문"
 
 #. translators: plugin author.
 #: includes/admin-screens/status.php:717
 msgid "by %s"
-msgstr ""
+msgstr "by %s"
 
 #. translators: Version Number.
 #: includes/admin-screens/status.php:735
@@ -1957,6 +2092,8 @@ msgid ""
 "rerun. This page will be newly loaded, which already completes the "
 "conversion."
 msgstr ""
+"주의: OK 클릭 시 Avada %s 글로벌 옵션 변환 과정이 재실행됩니다. 페이지가 새로"
+"고침 되면 변환 과정이 완료됩니다."
 
 #. translators: last version.
 #: includes/admin-screens/status.php:745
@@ -1965,6 +2102,8 @@ msgid ""
 "installing Avada 4.0 will be lost. Your Global Options will be reset to the "
 "values from %s and then converted again to 4.0."
 msgstr ""
+"경고: OK 클릭시 Avada 4.0 이후 변경한 글로벌 옵션은 지워집니다. 글로벌 옵션"
+"은 %s 버전 값으로 설정되며 4.0 버전으로 다시 변환됩니다."
 
 #: includes/admin-screens/status.php:755
 msgid ""
@@ -1972,6 +2111,8 @@ msgid ""
 "screen, where you can restart the conversion of your page contents to the "
 "new Avada Builder format."
 msgstr ""
+"경고: OK 클릭 시 변환 스플래시 화면으로 이동하여 새로운 Avada 빌더 포맷에 맞"
+"게 페이지 콘텐츠 변환을 재실행할 수 있습니다."
 
 #: includes/admin-screens/status.php:763
 msgid ""
@@ -1979,6 +2120,8 @@ msgid ""
 "screen, where you can start the conversion reversion of your page contents "
 "to the old Avada Builder format."
 msgstr ""
+"경고: OK 클릭 시 변환 스플래시 화면으로 이동하여 옛날 Avada 빌더 포맷에 맞게 "
+"페이지 콘텐츠 변환 되돌리기를 실행할 수 있습니다."
 
 #: includes/admin-screens/status.php:771
 msgid ""
@@ -1986,10 +2129,12 @@ msgid ""
 "created during the 5.0 shortcode-conversion process will be removed from "
 "your database."
 msgstr ""
+"경고: 되돌릴 수 없는 과정입니다. OK 클릭 시 모든 5.0 쇼트코드 변환 과정에서 "
+"생성된 백업은 데이터베이스에서 지워집니다."
 
 #: includes/admin-screens/support.php:19
 msgid "Avada Support"
-msgstr ""
+msgstr "Avada 지원"
 
 #. translators: %1$s: "Status" link. %2$s: "View more info here" link.
 #: includes/admin-screens/support.php:22
@@ -1999,18 +2144,22 @@ msgid ""
 "%2$s>more information on support extension</a>). To access Avada support, "
 "you must first setup an account by <a %3$s>following these steps</a>."
 msgstr ""
+"Avada는 매 라이센스 구매 시 6개월간의 무료 고객 지원을 제공합니다. 고객 지원"
+"은 ThemeForest를 통해 <a %1$s>구독하여 연장할 수 있습니다</a> (<a %2$s>고객 "
+"지원 연장 더 알아보기</a>). Avada 고객 지원을 받으려면 우선 <a %3$s>계정을 생"
+"성</a>하세요."
 
 #: includes/admin-screens/support.php:28
 msgid "Create your support account."
-msgstr ""
+msgstr "고객 지원 계정을 생성하세요."
 
 #: includes/admin-screens/support.php:34
 msgid "Channels Of Support"
-msgstr ""
+msgstr "고객 지원 채널"
 
 #: includes/admin-screens/support.php:40
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "빠른 시작 가이드"
 
 #: includes/admin-screens/support.php:43
 msgid ""
@@ -2018,10 +2167,12 @@ msgid ""
 "WordPress. In light of this, we have prepared a starter pack for you, which "
 "includes all you need to know."
 msgstr ""
+"워드프레스를 시작하는것이 벅찰 수 있습니다. 그래서 사용자가 알아야할 모든것"
+"이 포함된 스타터 팩을 준비하였습니다."
 
 #: includes/admin-screens/support.php:46
 msgid "Starter Guide"
-msgstr ""
+msgstr "스타터 가이드"
 
 # @ Avada
 #: includes/admin-screens/support.php:53 includes/admin-screens/support.php:59
@@ -2035,12 +2186,14 @@ msgid ""
 "online documentaiton is an incredible resource for learning the ins and outs "
 "of using the Avada Website Builder."
 msgstr ""
+"제품의 다양한 측면을 참고하기 위한 온라인 문서입니다. Avada 온라인 문서는 "
+"Avada 웹사이트 빌더를 머리부터 발끝까지 파악할 수 있는 훌륭한 자료입니다."
 
 # @ Avada
 #: includes/admin-screens/support.php:66 includes/admin-screens/support.php:72
 #: includes/class-avada-admin.php:627
 msgid "Submit A Ticket"
-msgstr ""
+msgstr "티켓 제출"
 
 #: includes/admin-screens/support.php:69
 msgid ""
@@ -2048,11 +2201,13 @@ msgid ""
 "register your purchase first to access our support services and other "
 "resources."
 msgstr ""
+"저희는 고급 티켓 시스템을 통해 훌륭한 고객 지원을 제공합니다. 고객 지원 서비"
+"스와 기타 자료 활용을 위해 먼저 구매 제품을 등록하세요."
 
 # @ Avada
 #: includes/admin-screens/support.php:81 includes/class-avada-admin.php:624
 msgid "Video Tutorials"
-msgstr ""
+msgstr "비디오 튜토리얼"
 
 #: includes/admin-screens/support.php:84
 msgid ""
@@ -2060,15 +2215,17 @@ msgid ""
 "of narrated HD video tutorials to help teach you the different aspects of "
 "using the Avada Website Builder."
 msgstr ""
+"백문이 불여일견입니다. 점차 늘어나는 나레이션이 지원되는 HD 비디오 튜토리얼 "
+"라이브러리가 Avada 웹사이트 빌더의 다양한 측면을 자세하게 가르쳐줍니다."
 
 # @ Avada
 #: includes/admin-screens/support.php:87
 msgid "Watch Videos"
-msgstr ""
+msgstr "비디오 보기"
 
 #: includes/admin-screens/support.php:94 includes/admin-screens/support.php:100
 msgid "Community Forum"
-msgstr ""
+msgstr "커뮤니티 포럼"
 
 #: includes/admin-screens/support.php:97
 msgid ""
@@ -2076,18 +2233,22 @@ msgid ""
 "other Avada users! Please note that ThemeFusion does not provide product "
 "support here."
 msgstr ""
+"사용자간 소통을 위한 커뮤니티 포럼도 있습니다. 다른 Avada 사용자들에게 질문하"
+"고 답변하세요! ThemeFusion이 이곳에서 제품 지원을 하지는 않습니다."
 
 # @ Avada
 #: includes/admin-screens/support.php:107
 #: includes/admin-screens/support.php:113
 msgid "Facebook Group"
-msgstr "페이스북"
+msgstr "페이스북 그룹"
 
 #: includes/admin-screens/support.php:110
 msgid ""
 "We have an amazing Facebook Group! Share with other Avada users and help "
 "grow our community. Please note, ThemeFusion does not provide support here."
 msgstr ""
+"활발한 페이스북 그룹도 있습니다! 다른 Avada 사용자와 공유하여 커뮤니티 성장"
+"을 도와주세요. ThemeFusion이 이곳에서 제품 지원을 하지는 않습니다."
 
 #: includes/avada-app/class-fusion-panel.php:379
 msgid "The Global Options updated."
@@ -4440,12 +4601,12 @@ msgstr "%1$s %2$s"
 # @ Avada
 #: includes/class-avada-template.php:738
 msgid " - Edit"
-msgstr "- 편집"
+msgstr " - 편집"
 
 # @ Avada
 #: includes/class-avada-template.php:744
 msgid " - Reply"
-msgstr "- 답글쓰기"
+msgstr " - 답글쓰기"
 
 # @ Avada
 #: includes/class-avada-template.php:755
@@ -4478,7 +4639,7 @@ msgstr[0] ""
 #: includes/class-avada-tgm-plugin-activation.php:375
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
-msgstr[0] "플러그인 활성화에 실패했습니다."
+msgstr[0] "플러그인 활성화 시작"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:379
@@ -4626,7 +4787,7 @@ msgstr[0] ""
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:2551
 msgid "Installed version:"
-msgstr "플러그인 설치"
+msgstr "설치 버전:"
 
 #: includes/class-avada-tgm-plugin-activation.php:2559
 msgid "Minimum required version:"
@@ -4662,7 +4823,7 @@ msgstr "타입"
 #: includes/class-avada-tgm-plugin-activation.php:2618
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:715
 msgid "Version"
-msgstr "애플 아이패트 레티나 버전용 파비콘 (144px x 144px)."
+msgstr "버전"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-avada-tgm-plugin-activation.php:2668
@@ -5732,7 +5893,7 @@ msgstr ""
 # @ Avada
 #: includes/lib/inc/class-fusion-breadcrumbs.php:138
 msgid "Search:"
-msgstr "찾아보기"
+msgstr "검색:"
 
 # @ Avada
 #: includes/lib/inc/class-fusion-breadcrumbs.php:139
@@ -6392,7 +6553,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_post.php:209
 #: includes/metaboxes/tabs/tab_post.php:232
 msgid "Show"
-msgstr "보기 :"
+msgstr "표시"
 
 #. translators: The value.
 #: includes/lib/inc/class-fusion-settings.php:499
@@ -6531,7 +6692,7 @@ msgstr ""
 # @ Avada
 #: includes/lib/inc/functions.php:975
 msgid "Pages:"
-msgstr "페이지"
+msgstr "페이지:"
 
 #: includes/lib/inc/functions.php:1701
 msgid "Username:"
@@ -6545,7 +6706,7 @@ msgstr "비밀번호:"
 # @ Avada
 #: includes/lib/inc/fusion-app/class-fusion-app.php:515
 msgid "Page"
-msgstr "죄송하지만, 페이지를 찾지 못했습니다!"
+msgstr "페이지"
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:683
 msgid "Edit Live"
@@ -10348,7 +10509,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:136
 msgid "Content Alignment"
-msgstr "컨텐트 정렬"
+msgstr "콘텐츠 정렬"
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:142
@@ -10631,7 +10792,7 @@ msgstr "슬라이드 링크"
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:306
 msgid "Please enter your URL that will be used to link the full slide."
-msgstr "풀 슬라이드 링크에 사용될 URL을 입력해주세요"
+msgstr "풀 슬라이드 링크에 사용될 URL을 입력해주세요."
 
 # @ Avada
 #: includes/metaboxes/options/options_slide.php:310
@@ -10764,7 +10925,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/tabs/tab_content.php:181
 msgid "Background Image for Main Content Area"
-msgstr "메인 컨텐트 영역을 위한 배경 이미지"
+msgstr "메인 콘텐츠 영역을 위한 배경 이미지"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_content.php:184
@@ -11296,7 +11457,7 @@ msgstr ""
 # @ Avada
 #: includes/metaboxes/tabs/tab_header.php:126
 msgid "Background Image"
-msgstr "메인 컨텐트 영역을 위한 배경 이미지"
+msgstr "배경 이미지"
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_header.php:128
@@ -12465,12 +12626,12 @@ msgstr ""
 # @ Avada
 #: includes/options/background.php:260
 msgid "Controls the background color of the main content area."
-msgstr "메인 컨텐트 영역의 배경 색상 조절"
+msgstr "메인 콘텐츠 영역의 배경 색상 조절"
 
 # @ Avada
 #: includes/options/background.php:287
 msgid "Background Image For Main Content Area"
-msgstr "메인 컨텐트 영역을 위한 배경 이미지"
+msgstr "메인 콘텐츠 영역을 위한 배경 이미지"
 
 #: includes/options/background.php:288
 msgid "Select an image to use for the main content area background."
@@ -13777,7 +13938,7 @@ msgstr ""
 # @ Avada
 #: includes/options/events_calendar.php:78
 msgid "Controls the background color for the events calendar filter bar."
-msgstr "사이드바의 경계선 색상 조절"
+msgstr "이벤트 캘린더 필터 바 배경 색상 조절"
 
 #: includes/options/events_calendar.php:102
 msgid "Event Filter Bar Text Color"
@@ -14897,7 +15058,7 @@ msgstr "푸터 배경 색상"
 # @ Avada
 #: includes/options/footer.php:569
 msgid "Controls the background color of the footer."
-msgstr "푸터 경계선 색상 조절"
+msgstr "푸터 배경 색상 조절"
 
 #: includes/options/footer.php:583
 msgid "Footer Border Size"
@@ -15120,7 +15281,7 @@ msgstr ""
 # @ Avada
 #: includes/options/forms.php:98
 msgid "Controls the background color of form fields."
-msgstr "폼 필더의 배경 색상 조절"
+msgstr "폼 필드 배경 색상 조절"
 
 # @ Avada
 #: includes/options/forms.php:111
@@ -18437,7 +18598,7 @@ msgstr ""
 # @ Avada
 #: includes/options/sidebars.php:132
 msgid "Controls the background color of the sidebar."
-msgstr "사이드바의 경계선 색상 조절"
+msgstr "사이드바 배경 색상 조절"
 
 #: includes/options/sidebars.php:144
 msgid "Sidebar Widget Heading Background Color"
@@ -20248,7 +20409,7 @@ msgstr ""
 # @ Avada
 #: search.php:118
 msgid "If you want to rephrase your query, here is your chance:"
-msgstr "이곳에서 찾고자 하는 것을 다시 찾아볼 수 있습니다."
+msgstr "이곳에서 찾고자 하는 것을 다시 찾아볼 수 있습니다:"
 
 #. translators: The link.
 #: single-wpfc_sermon.php:73 single.php:73
@@ -20397,7 +20558,7 @@ msgstr "검토 및 결제"
 #: templates/wc-cart-collaterals.php:20
 #: templates/wc-checkout-coupon-form.php:22
 msgid "Have A Promotional Code?"
-msgstr "쿠폰 번호"
+msgstr "쿠폰 번호가 있으신가요?"
 
 # @ woocommerce
 #: templates/wc-cart-collaterals.php:23
@@ -20565,7 +20726,7 @@ msgstr "이메일:"
 # @ Avada
 #: templates/wc-view-order.php:120
 msgid "Phone:"
-msgstr "전화"
+msgstr "전화:"
 
 #: templates/wc-view-order.php:138
 msgid "Billing address"
@@ -20690,7 +20851,7 @@ msgstr ""
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:55
 msgid "Date:"
-msgstr "날짜"
+msgstr "날짜:"
 
 # @ woocommerce
 #: woocommerce/checkout/thankyou.php:67
@@ -20737,7 +20898,7 @@ msgstr ""
 # @ Avada
 #. Template Name of the plugin/theme
 msgid "Contact"
-msgstr "이 컨택트 양식을 사용하여 귀하의 이메일은 성공적으로 전송되었습니다!"
+msgstr "연락처"
 
 #. Template Name of the plugin/theme
 msgid "Side Navigation"
@@ -20828,7 +20989,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
 msgctxt "by author"
 msgid "by %s"
-msgstr "%s..."
+msgstr "%s 작성"
 
 #: includes/wc-functions.php:76
 msgctxt "breadcrumb"
