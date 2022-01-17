@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2021-12-15 13:05:35+00:00\n"
+"POT-Creation-Date: 2022-01-17 11:25:54+00:00\n"
 "PO-Revision-Date: 2021-08-05 14:06+0200\n"
 "Last-Translator: Cédric - COMITRONIC-BTI <comitronicbti93@gmail.com>\n"
 "Language-Team: Aurélien PIERRE <contact@aurelienpierre.com>\n"
@@ -216,7 +216,7 @@ msgstr "Email (requis)"
 
 # @ Avada
 #: comments.php:70 includes/lib/inc/class-fusion-social-icon.php:205
-#: includes/options/social_media.php:779
+#: includes/options/social_media.php:800
 msgid "Email"
 msgstr "Email"
 
@@ -590,7 +590,7 @@ msgstr ""
 #: includes/admin-screens/performance.php:78
 #: includes/avada-app/class-fusion-panel.php:728
 #: includes/class-awb-global-typography.php:513
-#: includes/lib/inc/fusion-app/templates/options/typography.php:195
+#: includes/lib/inc/fusion-app/templates/options/typography.php:197
 #: includes/lib/inc/fusion-app/templates/typography-set.php:133
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:296
 #: includes/metaboxes/options/options_slide.php:154
@@ -604,8 +604,8 @@ msgstr ""
 #: includes/options/page_title_bar.php:103 includes/options/performance.php:109
 #: includes/options/performance.php:122 includes/options/performance.php:149
 #: includes/options/portfolio.php:305 includes/options/sidebars.php:104
-#: includes/options/social_media.php:261 includes/options/social_media.php:501
-#: includes/options/social_media.php:812
+#: includes/options/social_media.php:261 includes/options/social_media.php:516
+#: includes/options/social_media.php:833
 #: includes/plugins/multiple_sidebars.php:327
 msgid "None"
 msgstr "Aucun"
@@ -2567,7 +2567,7 @@ msgstr ""
 #: includes/avada-app/class-fusion-panel.php:478
 #: includes/class-avada-megamenu-framework.php:1031
 #: includes/class-avada-nav-walker-megamenu.php:259
-#: includes/class-avada-widget-style.php:383
+#: includes/class-avada-widget-style.php:402
 #: includes/lib/inc/fusion-app/helpers.php:253
 msgid "Cancel"
 msgstr "Annuler"
@@ -2629,7 +2629,7 @@ msgid "(no title)"
 msgstr "(sans titre)"
 
 #: includes/avada-app/class-fusion-panel.php:841
-#: includes/class-avada-woocommerce.php:2066
+#: includes/class-avada-woocommerce.php:2075
 msgid "Default Template"
 msgstr "Modèle par défaut"
 
@@ -2764,8 +2764,8 @@ msgid ""
 msgstr ""
 
 #: includes/avada-app/fusion-panel.php:125
-#: includes/avada-app/panel/templates/sidebar.php:32 includes/bootstrap.php:241
-#: includes/bootstrap.php:242 includes/bootstrap.php:664
+#: includes/avada-app/panel/templates/sidebar.php:32 includes/bootstrap.php:242
+#: includes/bootstrap.php:243 includes/bootstrap.php:665
 #: includes/class-avada-admin-bar.php:61 includes/class-avada-admin.php:488
 #: includes/class-avada-megamenu-framework.php:174
 #: includes/class-avada-megamenu-framework.php:553
@@ -3250,17 +3250,17 @@ msgstr ""
 "Avada nécessite au moins PHP version %1$s. Vous exécutez la version %2$s. "
 "S'il vous plaît mettre à niveau et essayer à nouveau."
 
-#: includes/bootstrap.php:582
+#: includes/bootstrap.php:583
 msgid "Avada Patcher"
 msgstr "Avada Patcher"
 
-#: includes/bootstrap.php:583 includes/class-avada-admin-bar.php:84
+#: includes/bootstrap.php:584 includes/class-avada-admin-bar.php:84
 #: includes/class-avada-admin.php:506
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:241
 msgid "Patcher"
 msgstr "Patches Correctif"
 
-#: includes/bootstrap.php:613
+#: includes/bootstrap.php:614
 msgid ""
 "Our site is currently undergoing scheduled maintenance. Please try again in "
 "a moment."
@@ -3268,7 +3268,7 @@ msgstr ""
 "Notre site est actuellement en maintenance. Merci de recommencer dans "
 "quelques instants."
 
-#: includes/bootstrap.php:617
+#: includes/bootstrap.php:618
 msgid ""
 "Currently updating the Avada Theme. Your site will be accessible once the "
 "update finishes"
@@ -3277,7 +3277,7 @@ msgstr ""
 "mise à jour terminée"
 
 #. translators: The "follow this link" link.
-#: includes/bootstrap.php:629
+#: includes/bootstrap.php:630
 msgid ""
 "The Avada-Core plugin needs to be updated before your site can exit "
 "maintenance mode. Please %s to update the plugin."
@@ -3286,7 +3286,7 @@ msgstr ""
 "quitter le mode de maintenance. S’il vous plaît %s pour mettre à jour le "
 "plugin."
 
-#: includes/bootstrap.php:629
+#: includes/bootstrap.php:630
 msgid "follow this link"
 msgstr "suivez ce lien"
 
@@ -3807,15 +3807,15 @@ msgstr "Énorme"
 msgid "XXL"
 msgstr "XXL"
 
-#: includes/class-avada-eventscalendar.php:234
-#: includes/class-avada-eventscalendar.php:266
-#: includes/class-avada-eventscalendar.php:298
-#: includes/class-avada-woocommerce.php:1842
+#: includes/class-avada-eventscalendar.php:236
+#: includes/class-avada-eventscalendar.php:268
+#: includes/class-avada-eventscalendar.php:300
+#: includes/class-avada-woocommerce.php:1851
 msgid "NOTE"
 msgstr "REMARQUE"
 
 #. translators: EC Customizer notice.
-#: includes/class-avada-eventscalendar.php:236
+#: includes/class-avada-eventscalendar.php:238
 msgid ""
 "You can control the post title color from the Avada Global Options panel "
 "through the <a href=\"%1$s\" target=\"_blank\">Events Primary Color Overlay "
@@ -3824,7 +3824,7 @@ msgid ""
 msgstr ""
 
 #. translators: EC Customizer notice.
-#: includes/class-avada-eventscalendar.php:268
+#: includes/class-avada-eventscalendar.php:270
 msgid ""
 "You can control the photo background color from Avada's Global Options panel "
 "through the <a href=\"%1$s\" target=\"_blank\">Grid Box Color</a> setting. "
@@ -3839,7 +3839,7 @@ msgstr ""
 "globales."
 
 #. translators: EC Customizer notice.
-#: includes/class-avada-eventscalendar.php:300
+#: includes/class-avada-eventscalendar.php:302
 msgid ""
 "You can control the calendar highlight color from Avada's Global Options "
 "panel through the <a href=\"%1$s\" target=\"_blank\">Primary Color</a> "
@@ -4285,7 +4285,7 @@ msgstr "Ajouter des icônes personnalisées"
 
 #: includes/class-avada-megamenu-framework.php:907
 #: includes/lib/inc/fusion-app/helpers.php:374
-#: includes/metaboxes/metaboxes.php:1443
+#: includes/metaboxes/metaboxes.php:1447
 msgid "Search Icons"
 msgstr "Chercher une icône"
 
@@ -4306,7 +4306,7 @@ msgid "Avada Menu Options"
 msgstr "Options du Menu Avada"
 
 #: includes/class-avada-megamenu-framework.php:1030
-#: includes/class-avada-widget-style.php:382
+#: includes/class-avada-widget-style.php:401
 #: includes/lib/inc/fusion-app/helpers.php:209
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:83
 msgid "Save"
@@ -4562,7 +4562,7 @@ msgstr "SoundCloud"
 
 # @ Avada
 #: includes/class-avada-privacy-embeds.php:290
-#: includes/options/social_media.php:769
+#: includes/options/social_media.php:790
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -4572,7 +4572,7 @@ msgstr "Flickr"
 
 # @ Avada
 #: includes/class-avada-privacy-embeds.php:298
-#: includes/options/social_media.php:770
+#: includes/options/social_media.php:791
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -4714,7 +4714,7 @@ msgstr "La création de tables de base de données a échoué."
 msgid "Security check failed."
 msgstr "Échec du test de sécurité."
 
-#: includes/class-avada-system-status.php:142
+#: includes/class-avada-system-status.php:151
 msgid "Database tables are created successfully."
 msgstr "Les tables de la base de données sont créées avec succès."
 
@@ -4783,10 +4783,10 @@ msgstr "Position du slider"
 # @ Avada
 #: includes/class-avada-taxonomy-meta.php:308
 #: includes/class-avada-taxonomy-meta.php:451
-#: includes/lib/inc/class-fusion-images.php:1036
+#: includes/lib/inc/class-fusion-images.php:1041
 #: includes/lib/inc/fusion-app/helpers.php:519
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:160
-#: includes/lib/inc/fusion-app/templates/options/typography.php:190
+#: includes/lib/inc/fusion-app/templates/options/typography.php:192
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1691
 #: includes/metaboxes/tabs/tab_content.php:92
 #: includes/metaboxes/tabs/tab_content.php:194
@@ -5065,14 +5065,14 @@ msgid "Remove Image"
 msgstr "Supprimer l'image"
 
 #: includes/class-avada-taxonomy-meta.php:1237
-#: includes/class-avada-widget-style.php:293
+#: includes/class-avada-widget-style.php:312
 #: includes/lib/inc/class-fusion-settings.php:620
 #: includes/metaboxes/metaboxes.php:833 includes/metaboxes/metaboxes.php:873
 msgid "Reset to default."
 msgstr "Valeurs par défaut."
 
 #: includes/class-avada-taxonomy-meta.php:1239
-#: includes/class-avada-widget-style.php:293
+#: includes/class-avada-widget-style.php:312
 #: includes/lib/inc/class-fusion-settings.php:620
 #: includes/metaboxes/metaboxes.php:833 includes/metaboxes/metaboxes.php:873
 msgid "Using default value."
@@ -5174,7 +5174,7 @@ msgstr "Toutes les extensions installées et activées avec succès. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:399
+#: includes/class-avada-upgrade.php:400
 msgid "Dismiss this notice"
 msgstr "Ignorer cette notification"
 
@@ -5470,15 +5470,15 @@ msgstr "Toutes les installations ont été effectuées avec succès."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "L'extension %1$s (%2$d/%3$d) est en cours d'installation"
 
-#: includes/class-avada-upgrade.php:398
+#: includes/class-avada-upgrade.php:399
 msgid "View Changelog"
 msgstr "Voir l'historique des modifications"
 
-#: includes/class-avada-widget-style.php:132
+#: includes/class-avada-widget-style.php:151
 msgid "Display Widget Title"
 msgstr "Afficher le titre Widget"
 
-#: includes/class-avada-widget-style.php:133
+#: includes/class-avada-widget-style.php:152
 msgid ""
 "Choose to enable or disable the widget title. Specifically useful for WP's "
 "default widget titles."
@@ -5487,7 +5487,7 @@ msgstr ""
 "utile pour les titres de widget par défaut de WP."
 
 # @ Avada
-#: includes/class-avada-widget-style.php:136
+#: includes/class-avada-widget-style.php:155
 #: includes/lib/inc/class-fusion-settings.php:506
 #: includes/lib/inc/class-fusion-settings.php:519
 #: includes/lib/inc/fusion-app/helpers.php:359
@@ -5546,7 +5546,7 @@ msgid "Yes"
 msgstr "Oui"
 
 # @ Avada
-#: includes/class-avada-widget-style.php:137
+#: includes/class-avada-widget-style.php:156
 #: includes/lib/inc/class-fusion-settings.php:506
 #: includes/lib/inc/class-fusion-settings.php:519
 #: includes/lib/inc/fusion-app/helpers.php:360
@@ -5604,12 +5604,12 @@ msgstr "Oui"
 msgid "No"
 msgstr "Non"
 
-#: includes/class-avada-widget-style.php:143
+#: includes/class-avada-widget-style.php:162
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:301
 msgid "Padding"
 msgstr "Marges intérieures"
 
-#: includes/class-avada-widget-style.php:144
+#: includes/class-avada-widget-style.php:163
 msgid ""
 "Controls the padding for this widget container. Enter value including any "
 "valid CSS unit, ex: 10px."
@@ -5617,12 +5617,12 @@ msgstr ""
 "Contrôle la marge intérieur (padding) pour le conteneur du widget. Entrez "
 "une valeur incluant toute unité CSS valide, ex: 10px."
 
-#: includes/class-avada-widget-style.php:150
+#: includes/class-avada-widget-style.php:169
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:285
 msgid "Margin"
 msgstr "Marge"
 
-#: includes/class-avada-widget-style.php:151
+#: includes/class-avada-widget-style.php:170
 msgid ""
 "Controls the margin for this widget container. Enter value including any "
 "valid CSS unit, ex: 10px."
@@ -5631,7 +5631,7 @@ msgstr ""
 "n’importe quelle unité CSS valide, ex: 10px."
 
 # @ Avada
-#: includes/class-avada-widget-style.php:157
+#: includes/class-avada-widget-style.php:176
 #: includes/lib/inc/fusion-app/helpers.php:422
 #: includes/metaboxes/tabs/tab_header.php:96
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:26
@@ -5639,69 +5639,69 @@ msgstr ""
 msgid "Background Color"
 msgstr "Couleur de fond"
 
-#: includes/class-avada-widget-style.php:158
+#: includes/class-avada-widget-style.php:177
 msgid "Controls the background color for this widget container."
 msgstr ""
 "Contrôle la couleur de cet arrière-plan (Background Color) pour le conteneur "
 "du widget."
 
-#: includes/class-avada-widget-style.php:164
+#: includes/class-avada-widget-style.php:183
 msgid "Background Radius"
 msgstr "Rayon du fond"
 
-#: includes/class-avada-widget-style.php:165
+#: includes/class-avada-widget-style.php:184
 msgid "Controls the background radius for this widget container."
 msgstr ""
 "Contrôle le rayon de cet arrière-plan  (Background radius)  pour le "
 "conteneur du widget."
 
 # @ Avada
-#: includes/class-avada-widget-style.php:171
+#: includes/class-avada-widget-style.php:190
 #: includes/lib/inc/fusion-app/helpers.php:446
 msgid "Border Size"
 msgstr "Taille de la bordure"
 
-#: includes/class-avada-widget-style.php:172
+#: includes/class-avada-widget-style.php:191
 msgid "Controls the border size for this widget container."
 msgstr "Contrôle la taille de la bordure de ce conteneur de widget."
 
-#: includes/class-avada-widget-style.php:182
+#: includes/class-avada-widget-style.php:201
 msgid "Border Style"
 msgstr "Style de bordure"
 
-#: includes/class-avada-widget-style.php:183
+#: includes/class-avada-widget-style.php:202
 msgid "Controls the border style for this widget container."
 msgstr "Contrôle le style de bordure pour ce conteneur de widget."
 
-#: includes/class-avada-widget-style.php:195
+#: includes/class-avada-widget-style.php:214
 #: includes/class-awb-performance-wizard.php:717
 #: includes/options/advanced.php:366 includes/options/footer.php:676
 msgid "Solid"
 msgstr "Solide"
 
-#: includes/class-avada-widget-style.php:196 includes/options/footer.php:678
+#: includes/class-avada-widget-style.php:215 includes/options/footer.php:678
 msgid "Dotted"
 msgstr "Pointillés"
 
-#: includes/class-avada-widget-style.php:197 includes/options/footer.php:677
+#: includes/class-avada-widget-style.php:216 includes/options/footer.php:677
 msgid "Dashed"
 msgstr "Tirets"
 
-#: includes/class-avada-widget-style.php:202
+#: includes/class-avada-widget-style.php:221
 #: includes/lib/inc/fusion-app/helpers.php:423
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:275
 msgid "Border Color"
 msgstr "Couleur de la bordure"
 
-#: includes/class-avada-widget-style.php:203
+#: includes/class-avada-widget-style.php:222
 msgid "Controls the border color for this widget container."
 msgstr "Contrôle la couleur de bordure pour ce conteneur de widget."
 
-#: includes/class-avada-widget-style.php:216
+#: includes/class-avada-widget-style.php:235
 msgid "Divider Color"
 msgstr "Couleur du séparateur"
 
-#: includes/class-avada-widget-style.php:217
+#: includes/class-avada-widget-style.php:236
 msgid ""
 "Controls the color of dividers in this widget container. Leave empty for the "
 "Global Options default value or no dividers when using the vertical menu "
@@ -5711,11 +5711,11 @@ msgstr ""
 "pour la valeur par défaut Options globales ou pas de diviseurs lorsque vous "
 "utilisez le widget de menu vertical."
 
-#: includes/class-avada-widget-style.php:223
+#: includes/class-avada-widget-style.php:242
 msgid "Content Align"
 msgstr "Alignement du contenu"
 
-#: includes/class-avada-widget-style.php:224
+#: includes/class-avada-widget-style.php:243
 msgid ""
 "Controls content alignment for this widget container. Inherit means it will "
 "inherit alignment from its parent element."
@@ -5723,14 +5723,14 @@ msgstr ""
 "Contrôle l'alignement du contenu pour ce conteneur de widget. « Inherit » "
 "signifie qu'il héritera de l'alignement de son élément parent."
 
-#: includes/class-avada-widget-style.php:228
-#: includes/class-avada-widget-style.php:241
+#: includes/class-avada-widget-style.php:247
+#: includes/class-avada-widget-style.php:260
 msgid "Inherit"
 msgstr "Hériter"
 
 # @ Avada
-#: includes/class-avada-widget-style.php:229
-#: includes/class-avada-widget-style.php:242
+#: includes/class-avada-widget-style.php:248
+#: includes/class-avada-widget-style.php:261
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:149
 #: includes/lib/inc/fusion-app/helpers.php:478
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:129
@@ -5754,14 +5754,14 @@ msgstr "Hériter"
 #: includes/options/sidebars.php:526 includes/options/sidebars.php:605
 #: includes/options/sidebars.php:652 includes/options/sliding_bar.php:138
 #: includes/options/sliding_bar.php:376 includes/options/social_media.php:260
-#: includes/options/social_media.php:500 includes/options/social_media.php:811
+#: includes/options/social_media.php:515 includes/options/social_media.php:832
 #: includes/options/woocommerce.php:207
 msgid "Left"
 msgstr "Gauche"
 
 # @ Avada
-#: includes/class-avada-widget-style.php:230
-#: includes/class-avada-widget-style.php:243
+#: includes/class-avada-widget-style.php:249
+#: includes/class-avada-widget-style.php:262
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:150
 #: includes/lib/inc/fusion-app/helpers.php:479
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:115
@@ -5785,14 +5785,14 @@ msgstr "Gauche"
 #: includes/options/sidebars.php:481 includes/options/sidebars.php:527
 #: includes/options/sidebars.php:606 includes/options/sidebars.php:653
 #: includes/options/sliding_bar.php:136 includes/options/sliding_bar.php:378
-#: includes/options/social_media.php:258 includes/options/social_media.php:498
-#: includes/options/social_media.php:809 includes/options/woocommerce.php:205
+#: includes/options/social_media.php:258 includes/options/social_media.php:513
+#: includes/options/social_media.php:830 includes/options/woocommerce.php:205
 msgid "Right"
 msgstr "Droite"
 
 # @ Avada
-#: includes/class-avada-widget-style.php:231
-#: includes/class-avada-widget-style.php:244
+#: includes/class-avada-widget-style.php:250
+#: includes/class-avada-widget-style.php:263
 #: includes/metaboxes/options/options_slide.php:140
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:187
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:213
@@ -5806,11 +5806,11 @@ msgstr "Droite"
 msgid "Center"
 msgstr "Centre"
 
-#: includes/class-avada-widget-style.php:236
+#: includes/class-avada-widget-style.php:255
 msgid "Mobile Content Align"
 msgstr "Alignement du contenu mobile"
 
-#: includes/class-avada-widget-style.php:237
+#: includes/class-avada-widget-style.php:256
 msgid ""
 "Controls mobile content alignment for this widget container. Inherit means "
 "it will inherit alignment from its parent element."
@@ -5818,12 +5818,12 @@ msgstr ""
 "Contrôle l'alignement du contenu mobile pour ce conteneur de widget. "
 "« Inherit » signifie qu'il héritera de l'alignement de son élément parent."
 
-#: includes/class-avada-widget-style.php:367
-#: includes/class-avada-widget-style.php:374
+#: includes/class-avada-widget-style.php:386
+#: includes/class-avada-widget-style.php:393
 msgid "Avada Widget Options"
 msgstr "Options du widget Avada"
 
-#: includes/class-avada-widget-style.php:376
+#: includes/class-avada-widget-style.php:395
 msgid "These options apply to the widget container, not the actual widget."
 msgstr "Ces options s’appliquent au conteneur de widget, pas au widget actuel."
 
@@ -5882,20 +5882,20 @@ msgid "Avada Button"
 msgstr "Bouton Avada"
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1659
+#: includes/class-avada-woocommerce.php:1668
 msgid "You Have %s Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] "Vous avez %s produit dans votre panier"
 msgstr[1] "Vous avez %s produits dans votre panier"
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:1782
-#: includes/class-avada-woocommerce.php:1800
+#: includes/class-avada-woocommerce.php:1791
+#: includes/class-avada-woocommerce.php:1809
 msgid "Continue"
 msgstr "Continuer"
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1844
+#: includes/class-avada-woocommerce.php:1853
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -5907,12 +5907,12 @@ msgstr ""
 "Options globales d'Avada."
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:1958
+#: includes/class-avada-woocommerce.php:1967
 #: templates/wc-show-details-button.php:20
 msgid "Details"
 msgstr "Détails"
 
-#: includes/class-avada-woocommerce.php:1961
+#: includes/class-avada-woocommerce.php:1970
 msgid "Not all fields have been filled in correctly."
 msgstr "Certains champs ne sont pas correctement renseignés."
 
@@ -5968,21 +5968,21 @@ msgid "Unknown Font"
 msgstr ""
 
 #: includes/class-awb-global-typography.php:514
-#: includes/lib/inc/fusion-app/templates/options/typography.php:199
+#: includes/lib/inc/fusion-app/templates/options/typography.php:201
 #: includes/lib/inc/fusion-app/templates/typography-set.php:137
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:300
 msgid "Uppercase"
 msgstr "Majuscule"
 
 #: includes/class-awb-global-typography.php:515
-#: includes/lib/inc/fusion-app/templates/options/typography.php:203
+#: includes/lib/inc/fusion-app/templates/options/typography.php:205
 #: includes/lib/inc/fusion-app/templates/typography-set.php:141
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:304
 msgid "Lowercase"
 msgstr "Minuscule"
 
 #: includes/class-awb-global-typography.php:516
-#: includes/lib/inc/fusion-app/templates/options/typography.php:207
+#: includes/lib/inc/fusion-app/templates/options/typography.php:209
 #: includes/lib/inc/fusion-app/templates/typography-set.php:145
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:308
 msgid "Capitalize"
@@ -6931,27 +6931,27 @@ msgstr "Archives mensuelles : %s"
 msgid "Yearly Archives: %s"
 msgstr "Archives annuelles : %s"
 
-#: includes/lib/inc/class-fusion-images.php:1033
+#: includes/lib/inc/class-fusion-images.php:1038
 msgid "Masonry Image Layout"
 msgstr "Agencement d'image de maçonnerie"
 
-#: includes/lib/inc/class-fusion-images.php:1037
+#: includes/lib/inc/class-fusion-images.php:1042
 msgid "1x1"
 msgstr "1 x 1"
 
-#: includes/lib/inc/class-fusion-images.php:1038
+#: includes/lib/inc/class-fusion-images.php:1043
 msgid "Landscape"
 msgstr "Paysage"
 
-#: includes/lib/inc/class-fusion-images.php:1039
+#: includes/lib/inc/class-fusion-images.php:1044
 msgid "Portrait"
 msgstr "Portrait"
 
-#: includes/lib/inc/class-fusion-images.php:1040
+#: includes/lib/inc/class-fusion-images.php:1045
 msgid "2x2"
 msgstr "2 x 2"
 
-#: includes/lib/inc/class-fusion-images.php:1042
+#: includes/lib/inc/class-fusion-images.php:1047
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 "Définir la mise en page (layout) qui sera utilisée lorsque l'image est "
@@ -8913,8 +8913,8 @@ msgstr "Options réactives de bascule"
 #: includes/metaboxes/tabs/tab_template.php:414 includes/options/extra.php:587
 #: includes/options/header.php:131 includes/options/menu.php:1460
 #: includes/options/menu.php:3171 includes/options/sliding_bar.php:135
-#: includes/options/social_media.php:257 includes/options/social_media.php:497
-#: includes/options/social_media.php:808 includes/options/woocommerce.php:204
+#: includes/options/social_media.php:257 includes/options/social_media.php:512
+#: includes/options/social_media.php:829 includes/options/woocommerce.php:204
 msgid "Top"
 msgstr "Haut"
 
@@ -8928,7 +8928,7 @@ msgstr "Haut"
 #: includes/options/extra.php:586 includes/options/lightbox.php:119
 #: includes/options/menu.php:1459 includes/options/menu.php:3173
 #: includes/options/sliding_bar.php:137 includes/options/social_media.php:259
-#: includes/options/social_media.php:499 includes/options/social_media.php:810
+#: includes/options/social_media.php:514 includes/options/social_media.php:831
 #: includes/options/woocommerce.php:206
 msgid "Bottom"
 msgstr "Bas"
@@ -9285,7 +9285,7 @@ msgid "Custom Font(s)"
 msgstr "Police personnalisée(s)"
 
 #: includes/lib/inc/fusion-app/helpers.php:562
-#: includes/metaboxes/metaboxes.php:1300
+#: includes/metaboxes/metaboxes.php:1304
 msgid "Add New"
 msgstr "Ajouter un nouveau"
 
@@ -9606,7 +9606,7 @@ msgid "AND"
 msgstr "ET"
 
 #: includes/lib/inc/fusion-app/templates/options/hubspot-map.php:15
-#: includes/metaboxes/metaboxes.php:1369
+#: includes/metaboxes/metaboxes.php:1373
 msgid "No form fields or HubSpot properties found."
 msgstr ""
 "Aucun champ de formulaire ni aucune propriété de HubSpot n'ont été trouvés."
@@ -9648,7 +9648,7 @@ msgid "Manage Conditions"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/mailchimp-map.php:15
-#: includes/metaboxes/metaboxes.php:1411
+#: includes/metaboxes/metaboxes.php:1415
 msgid "No form fields or Mailchimp merge tags found."
 msgstr ""
 
@@ -9683,13 +9683,13 @@ msgstr "Marge supérieure"
 msgid "Margin Bottom"
 msgstr "Marge inférieure"
 
-#: includes/lib/inc/fusion-app/templates/options/typography.php:212
+#: includes/lib/inc/fusion-app/templates/options/typography.php:214
 #: includes/lib/inc/fusion-app/templates/typography-set.php:150
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:278
 msgid "Text Transform"
 msgstr "Transformation du texte"
 
-#: includes/lib/inc/fusion-app/templates/options/typography.php:238
+#: includes/lib/inc/fusion-app/templates/options/typography.php:240
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:332
 msgid "Font Color"
 msgstr "Couleur de la police"
@@ -11479,11 +11479,11 @@ msgstr ""
 msgid "responsive"
 msgstr ""
 
-#: includes/metaboxes/metaboxes.php:1214
+#: includes/metaboxes/metaboxes.php:1218
 msgid "Browse"
 msgstr "Parcourir"
 
-#: includes/metaboxes/metaboxes.php:1301
+#: includes/metaboxes/metaboxes.php:1305
 msgid "Repeater Row"
 msgstr "Ligne de répéteur"
 
@@ -13480,7 +13480,7 @@ msgid "Show every time"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_off_canvas_rules.php:45
-msgid "Show every time until user close it"
+msgid "Show every time until user closes it"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_off_canvas_rules.php:46
@@ -13508,7 +13508,7 @@ msgid "Show every month"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_off_canvas_rules.php:52
-msgid "Show every specific days"
+msgid "Show on specific days"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_off_canvas_rules.php:57
@@ -15518,7 +15518,7 @@ msgstr "Article de blog unique"
 #: includes/options/blog.php:739 includes/options/footer.php:49
 #: includes/options/menu.php:90 includes/options/page_title_bar.php:45
 #: includes/options/portfolio.php:514 includes/options/search.php:311
-#: includes/options/social_media.php:217
+#: includes/options/social_media.php:217 includes/options/social_media.php:448
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab are not available "
 "because a global %1$s override is currently used. To edit your global layout "
@@ -17484,7 +17484,7 @@ msgstr "Contenu du pied de page"
 #: includes/options/header.php:653 includes/options/header.php:856
 #: includes/options/header.php:1264 includes/options/menu.php:114
 #: includes/options/page_title_bar.php:57 includes/options/social_media.php:229
-#: includes/options/social_media.php:448
+#: includes/options/social_media.php:460
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> For more flexibility and a more modern, "
 "performant setup, we recommend using the %1$s Builder. To create a custom "
@@ -18945,8 +18945,8 @@ msgstr ""
 "Choisissez \"On\" pour afficher la légende des images dans la visionneuse."
 
 # @ Avada
-#: includes/options/lightbox.php:406 includes/options/social_media.php:680
-#: includes/options/social_media.php:762
+#: includes/options/lightbox.php:406 includes/options/social_media.php:701
+#: includes/options/social_media.php:783
 msgid "Social Sharing"
 msgstr "Partage social"
 
@@ -22763,8 +22763,8 @@ msgstr ""
 msgid "Header Social Icon Color Type"
 msgstr "Type de couleur des icônes sociales de l'en-tête"
 
-#: includes/options/social_media.php:285 includes/options/social_media.php:522
-#: includes/options/social_media.php:827
+#: includes/options/social_media.php:285 includes/options/social_media.php:537
+#: includes/options/social_media.php:848
 msgid ""
 "Custom colors allow you to choose a color for icons and boxes. Brand colors "
 "will use the exact brand color of each network for the icons or boxes."
@@ -22773,13 +22773,13 @@ msgstr ""
 "icônes et les boîtes. Les couleurs de la marque utiliseront la couleur de la "
 "marque exacte de chaque réseau pour les icônes ou les boîtes."
 
-#: includes/options/social_media.php:291 includes/options/social_media.php:527
-#: includes/options/social_media.php:832
+#: includes/options/social_media.php:291 includes/options/social_media.php:543
+#: includes/options/social_media.php:853
 msgid "Custom Colors"
 msgstr "Couleurs personnalisées"
 
-#: includes/options/social_media.php:292 includes/options/social_media.php:528
-#: includes/options/social_media.php:833
+#: includes/options/social_media.php:292 includes/options/social_media.php:544
+#: includes/options/social_media.php:854
 msgid "Brand Colors"
 msgstr "Couleurs de la marque"
 
@@ -22800,7 +22800,7 @@ msgstr ""
 msgid "Header Social Icons Boxed"
 msgstr "Icônes sociales encadrées de l'en-têt"
 
-#: includes/options/social_media.php:338 includes/options/social_media.php:575
+#: includes/options/social_media.php:338 includes/options/social_media.php:592
 msgid "Controls if each icon is displayed in a small box."
 msgstr "Contrôle si chaque icône est affichée dans une petite boîte."
 
@@ -22808,8 +22808,8 @@ msgstr "Contrôle si chaque icône est affichée dans une petite boîte."
 msgid "Header Social Icon Box Color"
 msgstr "Couleur de la boîte des icônes sociales de l'en-tête"
 
-#: includes/options/social_media.php:365 includes/options/social_media.php:598
-#: includes/options/social_media.php:885
+#: includes/options/social_media.php:365 includes/options/social_media.php:616
+#: includes/options/social_media.php:906
 msgid "Controls the color of the social icon box."
 msgstr "Contrôle la couleur de l'encadré des icônes sociales."
 
@@ -22817,7 +22817,7 @@ msgstr "Contrôle la couleur de l'encadré des icônes sociales."
 msgid "Header Social Icon Boxed Radius"
 msgstr "Arrondi aux angles de la boîte des icônes sociales de l'en-tête"
 
-#: includes/options/social_media.php:392 includes/options/social_media.php:629
+#: includes/options/social_media.php:392 includes/options/social_media.php:648
 msgid "Controls the box radius."
 msgstr "Contrôle l'arrondi aux angles de la boîte."
 
@@ -22825,7 +22825,7 @@ msgstr "Contrôle l'arrondi aux angles de la boîte."
 msgid "Header Social Icon Boxed Padding"
 msgstr "Marge de la boîte d'icônes sociales de l'en-tête"
 
-#: includes/options/social_media.php:413 includes/options/social_media.php:654
+#: includes/options/social_media.php:413 includes/options/social_media.php:674
 msgid "Controls the interior padding of the box."
 msgstr "Contrôle des marges internes de la boîte."
 
@@ -22833,43 +22833,43 @@ msgstr "Contrôle des marges internes de la boîte."
 msgid "Footer Social Icons Styling"
 msgstr "Pied de page Style des icônes sociales"
 
-#: includes/options/social_media.php:455
+#: includes/options/social_media.php:467
 msgid "Display Social Icons In The Footer"
 msgstr "Afficher les icônes sociales dans le pied de page"
 
-#: includes/options/social_media.php:456
+#: includes/options/social_media.php:468
 msgid "Turn on to display social icons in the footer copyright bar."
 msgstr ""
 "Activer cette option pour afficher les icônes sociales dans la barre de "
 "Copyright du pied de page."
 
-#: includes/options/social_media.php:471
+#: includes/options/social_media.php:484
 msgid "Footer Social Icon Font Size"
 msgstr "Taille de la police des icônes sociales du pied de page"
 
-#: includes/options/social_media.php:472
+#: includes/options/social_media.php:485
 msgid "Controls the font size of the footer social icons."
 msgstr ""
 "Contrôle la taille de la police pour les icônes sociales du pied de page."
 
-#: includes/options/social_media.php:491
+#: includes/options/social_media.php:505
 msgid "Footer Social Icon Tooltip Position"
 msgstr "Emplacement de l'info-bulle des icônes sociales du pied de page"
 
-#: includes/options/social_media.php:492
+#: includes/options/social_media.php:506
 msgid "Controls the tooltip position of the footer social icons."
 msgstr ""
 "Contrôle l'emplacement des info-bulles des icônes sociales du pied de page."
 
-#: includes/options/social_media.php:521
+#: includes/options/social_media.php:536
 msgid "Footer Social Icon Color Type"
 msgstr "Type de couleur des icônes sociales du pied de page"
 
-#: includes/options/social_media.php:548
+#: includes/options/social_media.php:564
 msgid "Footer Social Icon Color"
 msgstr "Couleur des icônes sociales du pied de page"
 
-#: includes/options/social_media.php:549
+#: includes/options/social_media.php:565
 msgid ""
 "Controls the color of the footer social icons. This color will be used for "
 "all social icons in the footer."
@@ -22878,113 +22878,113 @@ msgstr ""
 "utilisée pour toutes les icônes sociales du pied de page."
 
 # @ Avada
-#: includes/options/social_media.php:574
+#: includes/options/social_media.php:591
 msgid "Footer Social Icons Boxed"
 msgstr "Icônes sociales encadrées du pied de page"
 
-#: includes/options/social_media.php:597
+#: includes/options/social_media.php:615
 msgid "Footer Social Icon Box Color"
 msgstr "Pied de page : Couleur de la boîte des icones sociaux"
 
-#: includes/options/social_media.php:628
+#: includes/options/social_media.php:647
 msgid "Footer Social Icon Boxed Radius"
 msgstr "Arrondi aux angles de la boîte des icônes sociales du pied de page"
 
-#: includes/options/social_media.php:653
+#: includes/options/social_media.php:673
 msgid "Footer Social Icon Boxed Padding"
 msgstr "Marge de la boîte des icônes sociales du pied de page"
 
-#: includes/options/social_media.php:686
+#: includes/options/social_media.php:707
 msgid "Social Sharing Tagline"
 msgstr "Le partage social"
 
-#: includes/options/social_media.php:687
+#: includes/options/social_media.php:708
 msgid "Insert a tagline for the social sharing boxes."
 msgstr "Saisissez votre slogan pour les zones de partage social."
 
 # @ Avada
-#: includes/options/social_media.php:689
+#: includes/options/social_media.php:710
 msgid "Share This Story, Choose Your Platform!"
 msgstr "Partagez cet article, Choisissez votre Plateforme!"
 
-#: includes/options/social_media.php:703
+#: includes/options/social_media.php:724
 msgid "Social Sharing Tagline Text Color"
 msgstr "Couleur du texte du slogan \"Social Sharing"
 
-#: includes/options/social_media.php:704
+#: includes/options/social_media.php:725
 msgid "Controls the color of the tagline text in the social sharing boxes."
 msgstr "Contrôle la couleur du slogan dans les zones de partage social."
 
-#: includes/options/social_media.php:717
+#: includes/options/social_media.php:738
 msgid "Social Sharing Background Color"
 msgstr "Couleur d’arrière-plan des partages sociaux"
 
-#: includes/options/social_media.php:718
+#: includes/options/social_media.php:739
 msgid "Controls the background color of the social sharing boxes."
 msgstr "Contrôle la couleur de fond des zones de partage social."
 
-#: includes/options/social_media.php:755
+#: includes/options/social_media.php:776
 msgid "Social Sharing Icons"
 msgstr "Icônes de la boîte de partage social"
 
-#: includes/options/social_media.php:763
+#: includes/options/social_media.php:784
 msgid "Select social network you want to be displayed in the social share box."
 msgstr ""
 "Sélectionnez le réseau social que vous souhaitez voir apparaître dans la "
 "boîte de partage social."
 
 # @ Avada
-#: includes/options/social_media.php:771
+#: includes/options/social_media.php:792
 msgid "Reddit"
 msgstr "Reddit"
 
 # @ Avada
-#: includes/options/social_media.php:772
+#: includes/options/social_media.php:793
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: includes/options/social_media.php:773
+#: includes/options/social_media.php:794
 msgid "WhatsApp"
 msgstr "WhatsApp"
 
-#: includes/options/social_media.php:774
+#: includes/options/social_media.php:795
 msgid "Telegram"
 msgstr ""
 
 # @ Avada
-#: includes/options/social_media.php:775
+#: includes/options/social_media.php:796
 msgid "Tumblr"
 msgstr "Tumblr"
 
 # @ Avada
-#: includes/options/social_media.php:776
+#: includes/options/social_media.php:797
 msgid "Pinterest"
 msgstr "Pinterest"
 
 # @ Avada
-#: includes/options/social_media.php:777
+#: includes/options/social_media.php:798
 msgid "VK"
 msgstr "VK"
 
-#: includes/options/social_media.php:778
+#: includes/options/social_media.php:799
 msgid "Xing"
 msgstr "Xing"
 
-#: includes/options/social_media.php:789
+#: includes/options/social_media.php:810
 msgid "Social Sharing Icon Font Size"
 msgstr "Taille de la police des icônes de partage social"
 
-#: includes/options/social_media.php:790
+#: includes/options/social_media.php:811
 msgid "Controls the font size of the social icons in the social sharing boxes."
 msgstr ""
 "Contrôle la taille de la police de caractères des icônes dans les zones de "
 "partage social."
 
-#: includes/options/social_media.php:802
+#: includes/options/social_media.php:823
 msgid "Social Sharing Icons Tooltip Position"
 msgstr "Icônes de partage social Position de l'outil"
 
-#: includes/options/social_media.php:803
+#: includes/options/social_media.php:824
 msgid ""
 "Controls the tooltip position of the social icons in the social sharing "
 "boxes."
@@ -22992,15 +22992,15 @@ msgstr ""
 "Contrôle l'emplacement des info-bulles des icônes sociales dans les zones de "
 "partage social."
 
-#: includes/options/social_media.php:826
+#: includes/options/social_media.php:847
 msgid "Social Sharing Icon Color Type"
 msgstr "Icône de partage social Type de couleur"
 
-#: includes/options/social_media.php:847
+#: includes/options/social_media.php:868
 msgid "Social Sharing Icon Color"
 msgstr "Couleur de l'icône de partage social"
 
-#: includes/options/social_media.php:848
+#: includes/options/social_media.php:869
 msgid ""
 "Controls the color of the social icons in the social sharing boxes. This "
 "color will be used for all social icons."
@@ -23008,31 +23008,31 @@ msgstr ""
 "Contrôle la couleur des icônes sociales des zones de partage social. Cette "
 "couleur sera utilisée pour toutes les icônes sociales."
 
-#: includes/options/social_media.php:867
+#: includes/options/social_media.php:888
 msgid "Social Sharing Icons Boxed"
 msgstr "Icônes de partage social encadrées"
 
-#: includes/options/social_media.php:868
+#: includes/options/social_media.php:889
 msgid "Controls if each social icon is displayed in a small box."
 msgstr "Contrôle l'affichage de chaque icône sociale dans un petit encadré."
 
-#: includes/options/social_media.php:884
+#: includes/options/social_media.php:905
 msgid "Social Sharing Icon Box Color"
 msgstr "Couleur de la boîte d'icônes de partage social"
 
-#: includes/options/social_media.php:909
+#: includes/options/social_media.php:930
 msgid "Social Sharing Icon Boxed Radius"
 msgstr "Icône de partage social Rayon encadré"
 
-#: includes/options/social_media.php:910
+#: includes/options/social_media.php:931
 msgid "Controls the box radius of the social icon box."
 msgstr "Contrôle l'arrondi aux angles de l'encadré des icônes sociales."
 
-#: includes/options/social_media.php:929
+#: includes/options/social_media.php:950
 msgid "Social Sharing Icons Boxed Padding"
 msgstr "Icônes de partage social Rembourrage en boîte"
 
-#: includes/options/social_media.php:930
+#: includes/options/social_media.php:951
 msgid "Controls the interior padding of the social icon box."
 msgstr "Contrôle les marges internes de l'encadré des icônes sociales."
 
@@ -23766,7 +23766,7 @@ msgstr ""
 "utilisés pour afficher la remise sur le produit en pourcentage ou en valeur, "
 "par exemple : [pourcentage] Off !"
 
-#: includes/options/woocommerce.php:1089 templates/wc-quick-view-product.php:36
+#: includes/options/woocommerce.php:1089 templates/wc-quick-view-product.php:37
 msgid "Sale!"
 msgstr "Promo!"
 
@@ -24198,11 +24198,11 @@ msgstr "Procéder au paiement"
 msgid "Close product quick view"
 msgstr "Fermer la vue rapide du produit"
 
-#: templates/wc-quick-view-product.php:59
+#: templates/wc-quick-view-product.php:60
 msgid "Awaiting product image"
 msgstr "En attente de l’image du produit"
 
-#: templates/wc-quick-view-product.php:83
+#: templates/wc-quick-view-product.php:84
 msgid "View Details"
 msgstr "Voir les détails"
 
