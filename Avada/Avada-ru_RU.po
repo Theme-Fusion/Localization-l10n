@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
 "POT-Creation-Date: 2022-07-26 09:33:52+00:00\n"
-"PO-Revision-Date: 2019-11-28 10:55+0300\n"
+"PO-Revision-Date: 2022-08-23 15:07+0300\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Bookmarks: 2359,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: includes/metaboxes/tabs/tab_template.php:204
@@ -69,7 +69,7 @@ msgstr "Поиск"
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
 msgid "In reply to: "
-msgstr "- Ответить"
+msgstr "- Ответить "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
@@ -240,7 +240,7 @@ msgstr ""
 #. translators: %s: The username.
 #: includes/admin-screens/dashboard.php:55
 msgid "Hello %s!"
-msgstr ""
+msgstr "Здравствуй, %s!"
 
 #: includes/admin-screens/dashboard.php:56
 msgid "Welcome back to the Avada dashboard. Take a look at our latest update."
@@ -254,7 +254,7 @@ msgstr ""
 #: includes/admin-screens/dashboard.php:71
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:112
 msgid "Get Started"
-msgstr ""
+msgstr "Приступить к работе"
 
 #: includes/admin-screens/dashboard.php:77
 #: includes/admin-screens/dashboard.php:80 includes/admin-screens/setup.php:40
@@ -436,7 +436,7 @@ msgstr ""
 
 #: includes/admin-screens/performance.php:50
 msgid "Before Starting"
-msgstr ""
+msgstr "Перед началом работы"
 
 #: includes/admin-screens/performance.php:51
 msgid "Ensure you are ready to optimize your website."
@@ -640,7 +640,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/templates/panel/header_stickybar.tpl.php:21
 #: includes/lib/inc/redux/panel_templates/header_stickybar.tpl.php:27
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: includes/admin-screens/performance.php:175
 #: includes/admin-screens/performance.php:226
@@ -808,11 +808,11 @@ msgstr ""
 
 #: includes/admin-screens/performance.php:363
 msgid "Enable All"
-msgstr ""
+msgstr "Включить все"
 
 #: includes/admin-screens/performance.php:364
 msgid "Disable All"
-msgstr ""
+msgstr "Отключить все"
 
 #: includes/admin-screens/performance.php:372
 msgid "Element scan has completed and only used elements have been selected."
@@ -1022,12 +1022,12 @@ msgstr ""
 
 #: includes/admin-screens/performance.php:728
 msgid "Clearing Cache"
-msgstr ""
+msgstr "Очистка кэша"
 
 #. translators: The number of active plugins.
 #: includes/admin-screens/performance.php:744
 msgid "Active Plugins: %s"
-msgstr ""
+msgstr "Активные плагины %s"
 
 #: includes/admin-screens/performance.php:745
 msgid ""
@@ -1039,10 +1039,18 @@ msgid ""
 "using the Avada lazy loading for images and not the lazy loading from "
 "plugins."
 msgstr ""
+"Постарайтесь свести к минимуму количество плагинов, которые у вас есть. "
+"Убедитесь, что вам действительно нужен каждый плагин, который у вас есть. "
+"Старайтесь использовать функции, уже включенные в Avada, а не дополнительные "
+"плагины. Например, используйте Avada Forms вместо плагина для форм. Вы также "
+"можете попробовать использовать плагин кэширования, однако в этом случае "
+"старайтесь не использовать одни и те же опции в нескольких местах. Например, "
+"мы рекомендуем использовать ленивую загрузку Avada для изображений, а не "
+"ленивую загрузку из плагинов."
 
 #: includes/admin-screens/performance.php:759
 msgid "Possible Improvements"
-msgstr ""
+msgstr "Возможные улучшения"
 
 #: includes/admin-screens/performance.php:769
 msgid "What are Google core web vitals"
@@ -1162,7 +1170,7 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:227
 msgid "Error "
-msgstr ""
+msgstr "Ошибка"
 
 #: includes/admin-screens/plugins.php:231
 msgid "Get Avada Add-ons"
@@ -1265,7 +1273,7 @@ msgstr ""
 
 #: includes/admin-screens/prebuilt-websites-import-modal.php:29
 msgid "Required Plugins To Import Content"
-msgstr ""
+msgstr "Необходимые плагины для импорта содержимого"
 
 #. translators: %1$s: Plugin Slugh. %2$s: Documentation Link.
 #: includes/admin-screens/prebuilt-websites-import-modal.php:39
@@ -3060,7 +3068,7 @@ msgstr ""
 #: includes/avada-app/class-fusion-panel.php:884
 #: includes/lib/inc/fusion-app/helpers.php:514 includes/options/privacy.php:423
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: includes/avada-app/class-fusion-panel.php:768
 #: includes/avada-app/class-fusion-panel.php:902
@@ -4627,7 +4635,7 @@ msgstr ""
 #: includes/lib/inc/fusion-app/helpers.php:210
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:83
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 # @ Avada
 #: includes/class-avada-megamenu-framework.php:1128
@@ -4676,7 +4684,7 @@ msgstr ""
 
 #: includes/class-avada-migrate.php:414
 msgid "Done!"
-msgstr ""
+msgstr "Готово!"
 
 #: includes/class-avada-migrate.php:416
 msgid "Almost there..."
@@ -4832,7 +4840,7 @@ msgstr "Исходный: %s"
 #: includes/class-avada-page-options.php:190
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/extension_import_export.php:120
 msgid "Import / Export"
-msgstr ""
+msgstr "Импорт / Экспорт"
 
 #. translators: Number.
 #: includes/class-avada-page-options.php:362
@@ -4890,24 +4898,24 @@ msgstr ""
 
 #: includes/class-avada-privacy-embeds.php:994
 msgid "I Accept"
-msgstr ""
+msgstr "Я принимаю"
 
 #: includes/class-avada-pwa.php:184
 #: includes/class-awb-performance-wizard.php:1450
 msgid "Fonts"
-msgstr ""
+msgstr "Шрифты"
 
 #: includes/class-avada-pwa.php:198
 msgid "Scripts"
-msgstr ""
+msgstr "Скрипты"
 
 #: includes/class-avada-pwa.php:212
 msgid "Styles"
-msgstr ""
+msgstr "Стили"
 
 #: includes/class-avada-scripts.php:790
 msgid "No search results match your query. Please try again"
-msgstr ""
+msgstr "Не найдено. Попробуйте изменить поисковый запрос"
 
 # @ Avada
 #: includes/class-avada-scripts.php:837
@@ -4924,17 +4932,17 @@ msgstr "Корзина"
 #: includes/class-avada-scripts.php:840
 #: includes/lib/inc/class-fusion-nav-walker.php:886
 msgid "Open submenu of %s"
-msgstr ""
+msgstr "Открыть подменю %s"
 
 #. Translators: The submenu title.
 #: includes/class-avada-scripts.php:842
 msgid "Close submenu of %s"
-msgstr ""
+msgstr "Закрыть подменю %s"
 
 #. translators: the Date.
 #: includes/class-avada-sermon-manager.php:54
 msgid "Date: %s"
-msgstr ""
+msgstr "Дата: %s"
 
 #: includes/class-avada-sermon-manager.php:62
 #: includes/class-avada-sermon-manager.php:64
@@ -4996,7 +5004,7 @@ msgstr ""
 
 #: includes/class-avada-system-status.php:137
 msgid "Security check failed."
-msgstr ""
+msgstr "Проверка безопасности не прошла."
 
 #: includes/class-avada-system-status.php:151
 msgid "Database tables are created successfully."
@@ -5016,7 +5024,7 @@ msgstr ""
 
 #: includes/class-avada-taxonomy-meta.php:181
 msgid "Slider Type "
-msgstr ""
+msgstr "Тип слайдера"
 
 # @ Avada
 #: includes/class-avada-taxonomy-meta.php:185
@@ -5087,11 +5095,13 @@ msgid ""
 "Select if the slider shows below or above the header. Only works for top "
 "header position. %s"
 msgstr ""
+"Выберите, будет ли слайдер отображаться ниже или выше шапки. Работает только "
+"для верхней позиции заголовка. %s"
 
 #: includes/class-avada-taxonomy-meta.php:331
 #: includes/metaboxes/tabs/tab_sliders.php:224
 msgid "Slider Visibility"
-msgstr ""
+msgstr "Видимость слайдера"
 
 #. translators: Global Options link.
 #: includes/class-avada-taxonomy-meta.php:333
@@ -5106,19 +5116,19 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_sliders.php:228
 #: includes/options/responsive.php:234
 msgid "Small Screen"
-msgstr ""
+msgstr "Маленький экран"
 
 #: includes/class-avada-taxonomy-meta.php:336
 #: includes/metaboxes/tabs/tab_sliders.php:229
 #: includes/options/responsive.php:263
 msgid "Medium Screen"
-msgstr ""
+msgstr "Средний экран"
 
 #: includes/class-avada-taxonomy-meta.php:337
 #: includes/metaboxes/tabs/tab_sliders.php:230
 #: includes/options/responsive.php:292
 msgid "Large Screen"
-msgstr ""
+msgstr "Большой экран"
 
 #: includes/class-avada-taxonomy-meta.php:367 includes/options/layout.php:370
 msgid "Page Content Padding"
@@ -22661,16 +22671,16 @@ msgstr "Ой!"
 
 #: search.php:52
 msgid "Helpful Links:"
-msgstr ""
+msgstr "Полезные ссылки:"
 
 #: search.php:117
 msgid "Try again"
-msgstr ""
+msgstr "Попробуйте ещё раз"
 
 # @ Avada
 #: search.php:118
 msgid "If you want to rephrase your query, here is your chance:"
-msgstr "Если Вы хотите перефразировать запрос, это Ваш шанс:"
+msgstr "Попробуйте перефразировать запрос в поле ниже"
 
 #. translators: The link.
 #: single-wpfc_sermon.php:73 single.php:73
@@ -22721,7 +22731,7 @@ msgstr "Защищено паролем"
 
 #: templates/blog-layout.php:429
 msgid "Load More Results"
-msgstr ""
+msgstr "Загрузить больше результатов"
 
 # @ Avada
 #: templates/blog-layout.php:429
@@ -22825,7 +22835,7 @@ msgstr "Код купона скидки"
 #: templates/wc-cart-collaterals.php:24
 #: templates/wc-checkout-coupon-form.php:30 woocommerce/cart/cart.php:150
 msgid "Apply coupon"
-msgstr ""
+msgstr "Применить купон"
 
 #: templates/wc-cart-shipping-calc.php:24
 msgid "Calculate shipping"
@@ -22854,7 +22864,7 @@ msgstr "Город"
 
 #: templates/wc-cart-shipping-calc.php:85
 msgid "Postcode / ZIP"
-msgstr ""
+msgstr "Индекс"
 
 # @ woocommerce
 #: templates/wc-cart-shipping-calc.php:91
