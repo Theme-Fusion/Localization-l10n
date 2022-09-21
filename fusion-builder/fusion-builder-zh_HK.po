@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2022-07-26 09:37:00+00:00\n"
+"POT-Creation-Date: 2022-09-21 09:56:40+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:06+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Chinese (Hong Kong)\n"
@@ -187,6 +187,7 @@ msgid "Edit"
 msgstr ""
 
 #: front-end/templates/context-menu.php:115
+#: inc/lib/inc/class-awb-widget-style.php:420
 #: inc/lib/inc/fusion-app/helpers.php:210
 #: inc/lib/inc/fusion-app/templates/front-end-toolbar.php:83
 #: inc/templates/context-menu.php:108
@@ -997,7 +998,7 @@ msgstr ""
 #: inc/admin-screens/library.php:40
 #: inc/class-fusion-builder-library-table.php:224
 #: inc/class-fusion-dynamic-data.php:628
-#: inc/lib/inc/fusion-app/class-fusion-app.php:942
+#: inc/lib/inc/fusion-app/class-fusion-app.php:984
 #: shortcodes/components/post-card-archives.php:375
 #: shortcodes/fusion-post-cards.php:2393
 msgid "Post Card"
@@ -1024,7 +1025,7 @@ msgstr ""
 #: inc/class-fusion-dynamic-data.php:1248
 #: inc/class-fusion-dynamic-data.php:1260
 #: inc/class-fusion-dynamic-data.php:1269
-#: inc/lib/inc/fusion-app/class-fusion-app.php:977
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1061
 msgid "Off Canvas"
 msgstr ""
 
@@ -1684,6 +1685,10 @@ msgid "Normal"
 msgstr ""
 
 #: inc/class-awb-studio.php:226
+#: inc/lib/inc/widgets/class-fusion-widget-form.php:116
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:176
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:315
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:327
 msgid "Select"
 msgstr ""
 
@@ -1716,9 +1721,13 @@ msgstr ""
 #: inc/helpers/class-fusion-builder-box-shadow-helper.php:40
 #: inc/helpers/class-fusion-builder-gradient-helper.php:274
 #: inc/helpers/class-fusion-builder-text-shadow-helper.php:40
+#: inc/lib/inc/class-awb-widget-style.php:170
 #: inc/lib/inc/class-fusion-settings.php:506
 #: inc/lib/inc/class-fusion-settings.php:519
 #: inc/lib/inc/fusion-app/helpers.php:360
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:584
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:618
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:626
 #: shortcodes/components/archives.php:353
 #: shortcodes/components/archives.php:376
 #: shortcodes/components/archives.php:387
@@ -1912,9 +1921,15 @@ msgstr ""
 #: inc/helpers/class-fusion-builder-box-shadow-helper.php:41
 #: inc/helpers/class-fusion-builder-gradient-helper.php:275
 #: inc/helpers/class-fusion-builder-text-shadow-helper.php:41
+#: inc/lib/inc/class-awb-widget-style.php:171
 #: inc/lib/inc/class-fusion-settings.php:506
 #: inc/lib/inc/class-fusion-settings.php:519
 #: inc/lib/inc/fusion-app/helpers.php:361
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:329
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:363
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:583
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:617
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:625
 #: shortcodes/components/archives.php:354
 #: shortcodes/components/archives.php:377
 #: shortcodes/components/archives.php:388
@@ -2573,6 +2588,7 @@ msgstr ""
 
 #: inc/class-awb-woo-filters.php:637 inc/class-fusion-column-element.php:2609
 #: inc/helpers/class-fusion-builder-margin-helper.php:45
+#: inc/lib/inc/class-awb-widget-style.php:184
 #: shortcodes/components/archives.php:512 shortcodes/components/author.php:354
 #: shortcodes/components/comments.php:584 shortcodes/components/content.php:567
 #: shortcodes/components/meta.php:1087 shortcodes/components/pagination.php:947
@@ -4147,6 +4163,9 @@ msgstr ""
 #: inc/class-fusion-column-element.php:2210
 #: inc/class-fusion-column-element.php:2271
 #: inc/class-fusion-column-element.php:2316
+#: inc/lib/inc/class-awb-widget-style.php:265
+#: inc/lib/inc/class-awb-widget-style.php:278
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:188
 #: shortcodes/components/archives.php:725 shortcodes/components/content.php:588
 #: shortcodes/components/meta.php:879 shortcodes/components/meta.php:906
 #: shortcodes/components/meta.php:939
@@ -4408,9 +4427,11 @@ msgstr ""
 msgid "_self = open in same browser tab, _blank = open in new browser tab."
 msgstr ""
 
-#: inc/class-fusion-column-element.php:2448 shortcodes/fusion-button.php:1487
-#: shortcodes/fusion-countdown.php:1224 shortcodes/fusion-flickr.php:525
-#: shortcodes/fusion-fontawesome.php:726 shortcodes/fusion-gallery.php:2559
+#: inc/class-fusion-column-element.php:2448
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:226
+#: shortcodes/fusion-button.php:1487 shortcodes/fusion-countdown.php:1224
+#: shortcodes/fusion-flickr.php:525 shortcodes/fusion-fontawesome.php:726
+#: shortcodes/fusion-gallery.php:2559
 #: shortcodes/fusion-image-before-after.php:1130
 #: shortcodes/fusion-image-carousel.php:1426
 #: shortcodes/fusion-image-hotspots.php:1028 shortcodes/fusion-image.php:1713
@@ -4421,9 +4442,11 @@ msgstr ""
 msgid "_self"
 msgstr ""
 
-#: inc/class-fusion-column-element.php:2449 shortcodes/fusion-button.php:1488
-#: shortcodes/fusion-countdown.php:1225 shortcodes/fusion-flickr.php:526
-#: shortcodes/fusion-fontawesome.php:727 shortcodes/fusion-gallery.php:2560
+#: inc/class-fusion-column-element.php:2449
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:227
+#: shortcodes/fusion-button.php:1488 shortcodes/fusion-countdown.php:1225
+#: shortcodes/fusion-flickr.php:526 shortcodes/fusion-fontawesome.php:727
+#: shortcodes/fusion-gallery.php:2560
 #: shortcodes/fusion-image-before-after.php:1131
 #: shortcodes/fusion-image-carousel.php:1427
 #: shortcodes/fusion-image-hotspots.php:1029 shortcodes/fusion-image.php:1714
@@ -4505,10 +4528,12 @@ msgstr ""
 msgid "Enter values including any valid CSS unit, ex: 4%."
 msgstr ""
 
-#: inc/class-fusion-column-element.php:2628 shortcodes/components/meta.php:1036
-#: shortcodes/components/meta.php:1073 shortcodes/form/image-select.php:483
-#: shortcodes/form/submit.php:607 shortcodes/fusion-alert.php:740
-#: shortcodes/fusion-button.php:1899 shortcodes/fusion-container.php:2618
+#: inc/class-fusion-column-element.php:2628
+#: inc/lib/inc/class-awb-widget-style.php:177
+#: shortcodes/components/meta.php:1036 shortcodes/components/meta.php:1073
+#: shortcodes/form/image-select.php:483 shortcodes/form/submit.php:607
+#: shortcodes/fusion-alert.php:740 shortcodes/fusion-button.php:1899
+#: shortcodes/fusion-container.php:2618
 #: shortcodes/fusion-image-hotspots.php:1095
 #: shortcodes/fusion-social-sharing.php:1278
 #: shortcodes/fusion-views-counter.php:708
@@ -4542,6 +4567,12 @@ msgstr ""
 #: inc/lib/inc/fusion-app/templates/options/typography.php:222
 #: inc/lib/inc/fusion-app/templates/typography-set.php:137
 #: inc/lib/inc/redux/custom-fields/typography/field_typography.php:310
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:159
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:178
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:197
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:216
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:319
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:610
 #: shortcodes/components/featured-slider.php:359
 #: shortcodes/components/post-card-archives.php:327
 #: shortcodes/components/post-card-archives.php:632
@@ -4581,6 +4612,10 @@ msgid "None"
 msgstr ""
 
 #: inc/class-fusion-column-element.php:2654
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:160
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:179
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:198
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:217
 #: shortcodes/components/featured-slider.php:360
 #: shortcodes/fusion-flickr.php:500 shortcodes/fusion-gallery.php:1399
 #: shortcodes/fusion-gallery.php:1787 shortcodes/fusion-image-carousel.php:875
@@ -4601,6 +4636,10 @@ msgid "Zoom Out"
 msgstr ""
 
 #: inc/class-fusion-column-element.php:2656
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:162
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:181
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:200
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:219
 #: shortcodes/components/featured-slider.php:362
 #: shortcodes/fusion-flickr.php:502 shortcodes/fusion-gallery.php:1401
 #: shortcodes/fusion-gallery.php:1789 shortcodes/fusion-image-carousel.php:877
@@ -4627,6 +4666,7 @@ msgid "Controls the border color of the column element."
 msgstr ""
 
 #: inc/class-fusion-column-element.php:2711
+#: inc/lib/inc/class-awb-widget-style.php:216
 #: shortcodes/fusion-container.php:2717
 #: shortcodes/fusion-syntax-highlighter.php:537
 #: shortcodes/fusion-syntax-highlighter.php:758 shortcodes/woo-notices.php:820
@@ -4641,6 +4681,7 @@ msgid "Controls the border style."
 msgstr ""
 
 #: inc/class-fusion-column-element.php:2740
+#: inc/lib/inc/class-awb-widget-style.php:229
 #: shortcodes/fusion-container.php:2721
 #: shortcodes/fusion-syntax-highlighter.php:550
 #: shortcodes/fusion-syntax-highlighter.php:772 shortcodes/fusion-text.php:328
@@ -4649,6 +4690,7 @@ msgid "Solid"
 msgstr ""
 
 #: inc/class-fusion-column-element.php:2741
+#: inc/lib/inc/class-awb-widget-style.php:231
 #: shortcodes/fusion-container.php:2722
 #: shortcodes/fusion-syntax-highlighter.php:551
 #: shortcodes/fusion-syntax-highlighter.php:773 shortcodes/fusion-text.php:329
@@ -4657,6 +4699,7 @@ msgid "Dashed"
 msgstr ""
 
 #: inc/class-fusion-column-element.php:2742
+#: inc/lib/inc/class-awb-widget-style.php:230
 #: shortcodes/fusion-container.php:2723
 #: shortcodes/fusion-syntax-highlighter.php:552
 #: shortcodes/fusion-syntax-highlighter.php:774 shortcodes/fusion-text.php:330
@@ -4731,6 +4774,7 @@ msgstr ""
 #: inc/helpers/class-fusion-builder-filter-helper.php:55
 #: inc/helpers/class-fusion-builder-transform-helper.php:55
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:92
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:340
 #: shortcodes/fusion-gallery.php:1966
 #: shortcodes/fusion-image-before-after.php:760
 #: shortcodes/fusion-image-before-after.php:1271
@@ -4902,6 +4946,7 @@ msgid "Image"
 msgstr ""
 
 #: inc/class-fusion-column-element.php:2848
+#: inc/lib/inc/class-awb-widget-style.php:191
 #: inc/lib/inc/fusion-app/helpers.php:424 shortcodes/components/meta.php:1004
 #: shortcodes/components/woo-filters-attribute.php:464
 #: shortcodes/components/woo-filters-attribute.php:504
@@ -5917,9 +5962,11 @@ msgstr ""
 #: inc/class-fusion-dynamic-data.php:1466
 #: inc/class-fusion-dynamic-data.php:1477
 #: inc/class-fusion-dynamic-data.php:1487
-#: inc/class-fusion-dynamic-data.php:1499 shortcodes/components/author.php:288
-#: shortcodes/components/meta.php:765 shortcodes/fusion-blog.php:2499
-#: shortcodes/fusion-news-ticker.php:1396 shortcodes/fusion-post-cards.php:2603
+#: inc/class-fusion-dynamic-data.php:1499
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:286
+#: shortcodes/components/author.php:288 shortcodes/components/meta.php:765
+#: shortcodes/fusion-blog.php:2499 shortcodes/fusion-news-ticker.php:1396
+#: shortcodes/fusion-post-cards.php:2603
 msgid "Author"
 msgstr ""
 
@@ -6173,7 +6220,7 @@ msgid "3rd Party Element"
 msgstr ""
 
 #: inc/class-fusion-form-builder-table.php:50
-#: inc/lib/inc/fusion-app/class-fusion-app.php:899
+#: inc/lib/inc/fusion-app/class-fusion-app.php:941
 #: shortcodes/form/fusion-form.php:669
 msgid "Form"
 msgstr ""
@@ -6332,10 +6379,19 @@ msgid "Form Creator"
 msgstr ""
 
 #: inc/class-fusion-form-widget.php:105
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:303
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:156
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:218
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:171
+#: inc/lib/inc/widgets/class-fusion-widget-recent-works.php:138
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:553
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:283
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:299
 msgid "Title:"
 msgstr ""
 
 #: inc/class-fusion-form-widget.php:110
+#: inc/lib/inc/widgets/class-fusion-widget-form.php:114
 msgid "Select Form:"
 msgstr ""
 
@@ -6484,8 +6540,9 @@ msgid "Your Mailchimp account has been disconnected."
 msgstr ""
 
 #: inc/class-fusion-mailchimp.php:599 inc/helpers.php:1049
-#: inc/lib/inc/class-fusion-data.php:162 shortcodes/fusion-person.php:1806
-#: shortcodes/fusion-social-links.php:1370
+#: inc/lib/inc/class-fusion-data.php:162
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:326
+#: shortcodes/fusion-person.php:1806 shortcodes/fusion-social-links.php:1370
 #: shortcodes/fusion-social-sharing.php:283
 msgid "Email Address"
 msgstr ""
@@ -6600,7 +6657,7 @@ msgid "Footer"
 msgstr ""
 
 #: inc/class-fusion-template-builder.php:1977
-#: inc/lib/inc/fusion-app/class-fusion-app.php:557
+#: inc/lib/inc/fusion-app/class-fusion-app.php:597
 msgid "Page"
 msgstr ""
 
@@ -6995,6 +7052,7 @@ msgstr ""
 #: inc/lib/inc/fusion-app/helpers.php:478
 #: inc/lib/inc/redux/custom-fields/spacing/field_spacing.php:108
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:138
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:606
 #: shortcodes/components/pagination.php:643
 #: shortcodes/components/woo-product-images.php:532
 #: shortcodes/fusion-chart.php:496 shortcodes/fusion-chart.php:668
@@ -7017,10 +7075,15 @@ msgid "Top"
 msgstr ""
 
 #: inc/helpers/class-fusion-builder-animation-helper.php:103
+#: inc/lib/inc/class-awb-widget-style.php:264
+#: inc/lib/inc/class-awb-widget-style.php:277
 #: inc/lib/inc/fusion-app/class-fusion-preferences.php:161
 #: inc/lib/inc/fusion-app/helpers.php:481
 #: inc/lib/inc/redux/custom-fields/spacing/field_spacing.php:115
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:145
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:189
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:607
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:349
 #: shortcodes/components/archives.php:726 shortcodes/components/content.php:589
 #: shortcodes/components/pagination.php:718
 #: shortcodes/components/post-card-archives.php:709
@@ -7075,6 +7138,7 @@ msgstr ""
 #: inc/lib/inc/fusion-app/helpers.php:479
 #: inc/lib/inc/redux/custom-fields/spacing/field_spacing.php:122
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:152
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:608
 #: shortcodes/components/pagination.php:642
 #: shortcodes/components/woo-product-images.php:534
 #: shortcodes/fusion-chart.php:498 shortcodes/fusion-chart.php:670
@@ -7096,10 +7160,15 @@ msgid "Bottom"
 msgstr ""
 
 #: inc/helpers/class-fusion-builder-animation-helper.php:105
+#: inc/lib/inc/class-awb-widget-style.php:263
+#: inc/lib/inc/class-awb-widget-style.php:276
 #: inc/lib/inc/fusion-app/class-fusion-preferences.php:160
 #: inc/lib/inc/fusion-app/helpers.php:480
 #: inc/lib/inc/redux/custom-fields/spacing/field_spacing.php:129
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:159
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:187
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:609
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:348
 #: shortcodes/components/archives.php:724 shortcodes/components/content.php:587
 #: shortcodes/components/pagination.php:717
 #: shortcodes/components/post-card-archives.php:708
@@ -9769,6 +9838,224 @@ msgstr ""
 msgid "Years"
 msgstr ""
 
+#: inc/lib/inc/class-awb-widget-framework.php:182
+msgid "Single Sidebar Layouts"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:188
+msgid "Single Sidebar Width"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:189
+msgid "Controls the width of the sidebar when only one sidebar is present."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:201
+msgid "Single Sidebar Gutter"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:202
+msgid "Controls the space between the main content and a single sidebar."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:213
+msgid "Dual Sidebar Layouts"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:219
+msgid "Dual Sidebar Width 1"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:220
+msgid "Controls the width of sidebar 1 when dual sidebars are present."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:232
+msgid "Dual Sidebar Width 2"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:233
+msgid "Controls the width of sidebar 2 when dual sidebars are present."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:245
+msgid "Dual Sidebar Gutter"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:246
+msgid ""
+"Controls the space between the main content and the sidebar when dual "
+"sidebars are present."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:1245
+msgid "Default Widget Area"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:1247
+msgid "Default widget area of Avada"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:1263
+msgid "Footer Widget Area %s"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-framework.php:1282
+msgid "Sliding Bar Widget Area %s"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:166
+msgid "Display Widget Title"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:167
+msgid ""
+"Choose to enable or disable the widget title. Specifically useful for WP's "
+"default widget titles."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:178
+msgid ""
+"Controls the padding for this widget container. Enter value including any "
+"valid CSS unit, ex: 10px."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:185
+msgid ""
+"Controls the margin for this widget container. Enter value including any "
+"valid CSS unit, ex: 10px."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:192
+msgid "Controls the background color for this widget container."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:198
+msgid "Background Border Radius"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:199
+msgid "Controls the background border radius for this widget container."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:205
+#: inc/lib/inc/fusion-app/helpers.php:448 shortcodes/components/meta.php:1013
+#: shortcodes/components/meta.php:1050 shortcodes/form/image-select.php:496
+#: shortcodes/fusion-alert.php:577 shortcodes/fusion-alert.php:695
+#: shortcodes/fusion-audio.php:325 shortcodes/fusion-audio.php:513
+#: shortcodes/fusion-flip-boxes.php:1470
+#: shortcodes/fusion-image-before-after.php:779
+#: shortcodes/fusion-image-before-after.php:1305
+#: shortcodes/fusion-image.php:2161 shortcodes/fusion-scroll-progress.php:434
+#: shortcodes/fusion-separator.php:523 shortcodes/fusion-separator.php:690
+#: shortcodes/fusion-social-sharing.php:1301
+#: shortcodes/fusion-syntax-highlighter.php:509
+#: shortcodes/fusion-syntax-highlighter.php:728
+#: shortcodes/fusion-tagcloud.php:918 shortcodes/fusion-tagline.php:620
+#: shortcodes/woo-notices.php:807
+msgid "Border Size"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:206
+msgid "Controls the border size for this widget container."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:217
+msgid "Controls the border style for this widget container."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:236
+#: inc/lib/inc/fusion-app/helpers.php:425 shortcodes/components/meta.php:1026
+#: shortcodes/components/meta.php:1063
+#: shortcodes/components/woo-filters-attribute.php:726
+#: shortcodes/components/woo-filters-attribute.php:786
+#: shortcodes/components/woo-tabs.php:714 shortcodes/fusion-audio.php:343
+#: shortcodes/fusion-audio.php:524 shortcodes/fusion-chart.php:985
+#: shortcodes/fusion-flip-boxes.php:1482
+#: shortcodes/fusion-image-before-after.php:792
+#: shortcodes/fusion-image-before-after.php:1317
+#: shortcodes/fusion-image.php:2180 shortcodes/fusion-modal.php:540
+#: shortcodes/fusion-person.php:1492 shortcodes/fusion-pricing-table.php:738
+#: shortcodes/fusion-scroll-progress.php:445
+#: shortcodes/fusion-section-separator.php:1921
+#: shortcodes/fusion-section-separator.php:1922
+#: shortcodes/fusion-social-links.php:740
+#: shortcodes/fusion-social-links.php:1058
+#: shortcodes/fusion-social-sharing.php:1314
+#: shortcodes/fusion-syntax-highlighter.php:522
+#: shortcodes/fusion-syntax-highlighter.php:742 shortcodes/fusion-tabs.php:1461
+#: shortcodes/fusion-tagcloud.php:1134 shortcodes/fusion-tagcloud.php:1161
+#: shortcodes/fusion-tagline.php:630 shortcodes/fusion-twitter-timeline.php:449
+#: shortcodes/woo-checkout-tabs.php:843 shortcodes/woo-notices.php:982
+#: shortcodes/woo-notices.php:1071 shortcodes/woo-notices.php:1160
+msgid "Border Color"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:237
+msgid "Controls the border color for this widget container."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:250
+#: shortcodes/fusion-pricing-table.php:746
+msgid "Divider Color"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:251
+msgid ""
+"Controls the color of dividers in this widget container. Leave empty for the "
+"Global Options default value or no dividers when using the vertical menu "
+"widget."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:257
+msgid "Content Align"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:258
+msgid ""
+"Controls content alignment for this widget container. Inherit means it will "
+"inherit alignment from its parent element."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:262
+#: inc/lib/inc/class-awb-widget-style.php:275
+msgid "Inherit"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:270
+msgid "Mobile Content Align"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:271
+msgid ""
+"Controls mobile content alignment for this widget container. Inherit means "
+"it will inherit alignment from its parent element."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:327
+#: inc/lib/inc/class-fusion-settings.php:620
+msgid "Reset to default."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:327
+#: inc/lib/inc/class-fusion-settings.php:620
+msgid "Using default value."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:405
+#: inc/lib/inc/class-awb-widget-style.php:412
+msgid "Avada Widget Options"
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:414
+msgid "These options apply to the widget container, not the actual widget."
+msgstr ""
+
+#: inc/lib/inc/class-awb-widget-style.php:421
+#: inc/lib/inc/fusion-app/helpers.php:254
+msgid "Cancel"
+msgstr ""
+
 #: inc/lib/inc/class-fusion-breadcrumbs.php:136
 msgid "Home"
 msgstr ""
@@ -10385,24 +10672,24 @@ msgstr ""
 msgid "Open up that newly downloaded file and copy the Item Purchase Code."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:598
+#: inc/lib/inc/class-fusion-scripts.php:614
 msgid "Press Esc to close"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:599
+#: inc/lib/inc/class-fusion-scripts.php:615
 msgid "Enter Fullscreen (Shift+Enter)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:600
+#: inc/lib/inc/class-fusion-scripts.php:616
 msgid "Exit Fullscreen (Shift+Enter)"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:601
+#: inc/lib/inc/class-fusion-scripts.php:617
 msgid "Slideshow"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:602 inc/lib/inc/functions.php:1119
-#: inc/lib/inc/functions.php:1864 inc/lib/inc/fusion-app/helpers.php:568
+#: inc/lib/inc/class-fusion-scripts.php:618 inc/lib/inc/functions.php:1119
+#: inc/lib/inc/functions.php:1886 inc/lib/inc/fusion-app/helpers.php:568
 #: shortcodes/components/pagination.php:184
 #: shortcodes/components/pagination.php:192
 #: shortcodes/components/templates/fusion-tb-comments.php:50
@@ -10410,8 +10697,8 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:603 inc/lib/inc/functions.php:1073
-#: inc/lib/inc/functions.php:1863 inc/lib/inc/fusion-app/helpers.php:567
+#: inc/lib/inc/class-fusion-scripts.php:619 inc/lib/inc/functions.php:1073
+#: inc/lib/inc/functions.php:1885 inc/lib/inc/fusion-app/helpers.php:567
 #: shortcodes/components/pagination.php:183
 #: shortcodes/components/pagination.php:191
 #: shortcodes/components/templates/fusion-tb-comments.php:49
@@ -10419,12 +10706,12 @@ msgstr ""
 msgid "Previous"
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:653 shortcodes/fusion-events.php:761
+#: inc/lib/inc/class-fusion-scripts.php:677 shortcodes/fusion-events.php:761
 #: shortcodes/fusion-recent-posts.php:941
 msgid "Loading the next set of posts..."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-scripts.php:654 shortcodes/fusion-events.php:760
+#: inc/lib/inc/class-fusion-scripts.php:678 shortcodes/fusion-events.php:760
 #: shortcodes/fusion-gallery.php:1255 shortcodes/fusion-instagram.php:842
 #: shortcodes/fusion-post-cards.php:1445 shortcodes/fusion-post-cards.php:1496
 #: shortcodes/fusion-recent-posts.php:942
@@ -10536,14 +10823,6 @@ msgid ""
 "a>."
 msgstr ""
 
-#: inc/lib/inc/class-fusion-settings.php:620
-msgid "Reset to default."
-msgstr ""
-
-#: inc/lib/inc/class-fusion-settings.php:620
-msgid "Using default value."
-msgstr ""
-
 #. translators: Social network name
 #: inc/lib/inc/class-fusion-social-sharing.php:181
 msgid "Share on %s"
@@ -10554,7 +10833,7 @@ msgstr ""
 msgid "Share by %s"
 msgstr ""
 
-#: inc/lib/inc/class-fusion.php:450 shortcodes/fusion-container.php:2240
+#: inc/lib/inc/class-fusion.php:452 shortcodes/fusion-container.php:2240
 msgid "Site Width"
 msgstr ""
 
@@ -10660,118 +10939,122 @@ msgstr ""
 msgid "Register"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:737
+#: inc/lib/inc/fusion-app/class-fusion-app.php:779
 msgid "Edit Live"
 msgstr ""
 
 #. translators: Name of post type.
-#: inc/lib/inc/fusion-app/class-fusion-app.php:798
+#: inc/lib/inc/fusion-app/class-fusion-app.php:840
 msgid "Edit %s"
 msgstr ""
 
 #. translators: Number of layout.
-#: inc/lib/inc/fusion-app/class-fusion-app.php:837
+#: inc/lib/inc/fusion-app/class-fusion-app.php:879
 msgid "Edit Layout: %s"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:860
+#: inc/lib/inc/fusion-app/class-fusion-app.php:902
 msgid "Use Layouts"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:860
+#: inc/lib/inc/fusion-app/class-fusion-app.php:902
 msgid "Manage"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1650
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1026
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1738
 msgid "You do not have permission to edit this post."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1714
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1802
 msgid "The page contents updated."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1721
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1809
 msgid "You do not have permission to edit this archive."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:1756
+#: inc/lib/inc/fusion-app/class-fusion-app.php:1844
 msgid "The archive details updated."
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2002
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2003
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2090
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2091
 msgid "Ultra-Light 100"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2004
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2092
 msgid "Ultra-Light 100 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2005
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2093
 msgid "Light 200"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2006
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2094
 msgid "Light 200 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2007
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2095
 msgid "Book 300"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2008
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2096
 msgid "Book 300 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2009
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2010
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2097
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2098
 msgid "Normal 400"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2011
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2099
 msgid "Normal 400 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2012
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2100
 msgid "Medium 500"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2013
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2101
 msgid "Medium 500 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2014
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2015
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2102
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2103
 msgid "Semi-Bold 600"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2016
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2104
 msgid "Semi-Bold 600 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2017
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2105
 msgid "Bold 700"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2018
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2106
 msgid "Bold 700 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2019
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2020
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2107
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2108
 msgid "Extra-Bold 800"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2021
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2109
 msgid "Extra-Bold 800 Italic"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2022
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2023
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2110
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2111
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/class-fusion-app.php:2024
+#: inc/lib/inc/fusion-app/class-fusion-app.php:2112
 msgid "Ultra-Bold 900 Italic"
 msgstr ""
 
@@ -10784,12 +11067,14 @@ msgid "Choose if you want a light or dark builder UI style."
 msgstr ""
 
 #: inc/lib/inc/fusion-app/class-fusion-preferences.php:149
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:349
 #: shortcodes/form/recaptcha.php:304 shortcodes/fusion-audio.php:319
 #: shortcodes/fusion-audio.php:489 shortcodes/fusion-twitter-timeline.php:410
 msgid "Light"
 msgstr ""
 
 #: inc/lib/inc/fusion-app/class-fusion-preferences.php:150
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:350
 #: shortcodes/form/recaptcha.php:305 shortcodes/fusion-audio.php:320
 #: shortcodes/fusion-audio.php:490
 msgid "Dark"
@@ -11075,10 +11360,6 @@ msgstr ""
 
 #: inc/lib/inc/fusion-app/helpers.php:253
 msgid "Library Containers"
-msgstr ""
-
-#: inc/lib/inc/fusion-app/helpers.php:254
-msgid "Cancel"
 msgstr ""
 
 #: inc/lib/inc/fusion-app/helpers.php:255
@@ -11699,32 +11980,6 @@ msgstr ""
 msgid "Color palette options"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/helpers.php:425 shortcodes/components/meta.php:1026
-#: shortcodes/components/meta.php:1063
-#: shortcodes/components/woo-filters-attribute.php:726
-#: shortcodes/components/woo-filters-attribute.php:786
-#: shortcodes/components/woo-tabs.php:714 shortcodes/fusion-audio.php:343
-#: shortcodes/fusion-audio.php:524 shortcodes/fusion-chart.php:985
-#: shortcodes/fusion-flip-boxes.php:1482
-#: shortcodes/fusion-image-before-after.php:792
-#: shortcodes/fusion-image-before-after.php:1317
-#: shortcodes/fusion-image.php:2180 shortcodes/fusion-modal.php:540
-#: shortcodes/fusion-person.php:1492 shortcodes/fusion-pricing-table.php:738
-#: shortcodes/fusion-scroll-progress.php:445
-#: shortcodes/fusion-section-separator.php:1921
-#: shortcodes/fusion-section-separator.php:1922
-#: shortcodes/fusion-social-links.php:740
-#: shortcodes/fusion-social-links.php:1058
-#: shortcodes/fusion-social-sharing.php:1314
-#: shortcodes/fusion-syntax-highlighter.php:522
-#: shortcodes/fusion-syntax-highlighter.php:742 shortcodes/fusion-tabs.php:1461
-#: shortcodes/fusion-tagcloud.php:1134 shortcodes/fusion-tagcloud.php:1161
-#: shortcodes/fusion-tagline.php:630 shortcodes/fusion-twitter-timeline.php:449
-#: shortcodes/woo-checkout-tabs.php:843 shortcodes/woo-notices.php:982
-#: shortcodes/woo-notices.php:1071 shortcodes/woo-notices.php:1160
-msgid "Border Color"
-msgstr ""
-
 #: inc/lib/inc/fusion-app/helpers.php:426
 msgid "Legend Value Text Color"
 msgstr ""
@@ -11796,23 +12051,6 @@ msgstr ""
 
 #: inc/lib/inc/fusion-app/helpers.php:447 shortcodes/fusion-chart.php:628
 msgid "Chart Data"
-msgstr ""
-
-#: inc/lib/inc/fusion-app/helpers.php:448 shortcodes/components/meta.php:1013
-#: shortcodes/components/meta.php:1050 shortcodes/form/image-select.php:496
-#: shortcodes/fusion-alert.php:577 shortcodes/fusion-alert.php:695
-#: shortcodes/fusion-audio.php:325 shortcodes/fusion-audio.php:513
-#: shortcodes/fusion-flip-boxes.php:1470
-#: shortcodes/fusion-image-before-after.php:779
-#: shortcodes/fusion-image-before-after.php:1305
-#: shortcodes/fusion-image.php:2161 shortcodes/fusion-scroll-progress.php:434
-#: shortcodes/fusion-separator.php:523 shortcodes/fusion-separator.php:690
-#: shortcodes/fusion-social-sharing.php:1301
-#: shortcodes/fusion-syntax-highlighter.php:509
-#: shortcodes/fusion-syntax-highlighter.php:728
-#: shortcodes/fusion-tagcloud.php:918 shortcodes/fusion-tagline.php:620
-#: shortcodes/woo-notices.php:807
-msgid "Border Size"
 msgstr ""
 
 #: inc/lib/inc/fusion-app/helpers.php:449
@@ -12408,11 +12646,11 @@ msgstr ""
 msgid "Examples:"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/templates/front-customize.php:54
+#: inc/lib/inc/fusion-app/templates/front-customize.php:62
 msgid "Site Preview"
 msgstr ""
 
-#: inc/lib/inc/fusion-app/templates/front-customize.php:56
+#: inc/lib/inc/fusion-app/templates/front-customize.php:64
 msgid "Invalid Page ID"
 msgstr ""
 
@@ -14251,6 +14489,756 @@ msgstr ""
 msgid "Sanitized value and saved as %1$s instead of %2$s."
 msgstr ""
 
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:31
+msgid "Add 125x125 ads."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:37
+msgid "Avada: 125x125 Ads"
+msgstr ""
+
+#. translators: Number.
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:147
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:166
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:185
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:204
+msgid "Ad %s"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:149
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:168
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:187
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:206
+msgid "Image Ad Link:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:153
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:172
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:191
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:210
+msgid "Ad Link:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:157
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:176
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:195
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:214
+msgid "Image Hover Type:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:161
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:180
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:199
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:218
+msgid "Zoon Out"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:222
+msgid "General Options"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-ad-125-125.php:224
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:558
+msgid "Link Target:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:41
+msgid "Display author details."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:47
+msgid "Avada: Author"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:176
+msgid "Posted by"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:195
+msgid "This author has not yet filled in any details."
+msgstr ""
+
+#. translators: %s: Number.
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:197
+msgid "So far the author has created %s blog entries."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:232
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:355
+msgid "Post Date"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:300
+msgid ""
+"IMPORTANT: When used on single posts, the author will be auto pulled. If you "
+"want to display a specific author please use the \"Custom Author\" field. "
+"Post date will on be displayed on single posts."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:308
+msgid "Custom Author (username or ID):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:313
+msgid "Avatar:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:315
+#: shortcodes/components/woo-cart.php:3513
+#: shortcodes/components/woo-reviews.php:744 shortcodes/form/submit.php:598
+#: shortcodes/fusion-button.php:1890 shortcodes/fusion-facebook-page.php:481
+#: shortcodes/fusion-modal.php:525 shortcodes/fusion-post-card-cart.php:2412
+#: shortcodes/fusion-post-card-cart.php:3033 shortcodes/fusion-tagline.php:732
+#: shortcodes/woo-checkout-payment.php:727 shortcodes/woo-mini-cart.php:1407
+#: shortcodes/woo-mini-cart.php:1866
+msgid "Small"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:316
+#: shortcodes/components/archives.php:552
+#: shortcodes/components/woo-cart.php:3514
+#: shortcodes/components/woo-reviews.php:745 shortcodes/form/submit.php:599
+#: shortcodes/fusion-blog.php:2184 shortcodes/fusion-button.php:1891
+#: shortcodes/fusion-post-card-cart.php:2413
+#: shortcodes/fusion-post-card-cart.php:3034 shortcodes/fusion-tagline.php:733
+#: shortcodes/woo-checkout-payment.php:728 shortcodes/woo-mini-cart.php:1408
+#: shortcodes/woo-mini-cart.php:1867
+msgid "Medium"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:317
+#: shortcodes/components/archives.php:551
+#: shortcodes/components/woo-cart.php:3515
+#: shortcodes/components/woo-reviews.php:746 shortcodes/form/submit.php:600
+#: shortcodes/fusion-blog.php:2183 shortcodes/fusion-button.php:1892
+#: shortcodes/fusion-facebook-page.php:480 shortcodes/fusion-modal.php:526
+#: shortcodes/fusion-post-card-cart.php:2414
+#: shortcodes/fusion-post-card-cart.php:3035 shortcodes/fusion-tagline.php:734
+#: shortcodes/woo-checkout-payment.php:729 shortcodes/woo-mini-cart.php:1409
+#: shortcodes/woo-mini-cart.php:1868
+msgid "Large"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:318
+#: shortcodes/components/woo-cart.php:3516
+#: shortcodes/components/woo-reviews.php:747 shortcodes/form/submit.php:601
+#: shortcodes/fusion-button.php:1893 shortcodes/fusion-post-card-cart.php:2415
+#: shortcodes/fusion-post-card-cart.php:3036 shortcodes/fusion-tagline.php:735
+#: shortcodes/woo-checkout-payment.php:730 shortcodes/woo-mini-cart.php:1410
+#: shortcodes/woo-mini-cart.php:1869
+msgid "XLarge"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:324
+msgid "Display Name:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:326
+msgid "Name with label"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:327
+msgid "Name only"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:328
+msgid "Name as widget title"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:335
+msgid "Link to author page"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:340
+msgid "Display custom author message"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:345
+msgid "Display author biography"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:350
+msgid "Display author social icons"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:355
+msgid "Display separator"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:359
+msgid "Display Post Date:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:361
+msgid "Date with label"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-author.php:362
+msgid "Date only"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:31
+msgid "Adds custom contact information."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:36
+msgid "Avada: Contact Info"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:67
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:164
+msgid "Phone:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:71
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:168
+msgid "Mobile:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:75
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:172
+msgid "Fax:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:80
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:82
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:176
+msgid "Email:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:87
+msgid "Web:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:160
+msgid "Address:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:180
+msgid "Email Link Text:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:184
+msgid "Website URL (with HTTP(S)):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-contact-info.php:188
+msgid "Website URL Text:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:31
+msgid "Adds support for Facebook Page Plugin."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:37
+msgid "Avada: Facebook Page Plugin"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:200
+msgid "Find us on Facebook"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:215
+msgid ""
+"IMPORTANT: Please create a Facebook App and use its ID for features like "
+"sharing."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:215
+msgid "See Instructions."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:223
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:228
+msgid "Facebook App ID:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:233
+msgid "Width (has to be between 180 and 500):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:239
+msgid "Show Friends Faces"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:244
+msgid "Show Timeline Tab"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:249
+msgid "Show Events Tab"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:254
+msgid "Show Messages Tab"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:259
+msgid "Show Cover Photo"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-facebook-page.php:264
+msgid "Use Small Header"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:31
+msgid "The most recent photos from flickr."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:37
+msgid "Avada: Flickr"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:159
+msgid "Photos from Flickr"
+msgstr ""
+
+#. translators: URL.
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:177
+msgid "Flickr ID (<a href=\"%s\">Get your flickr ID</a>):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:182
+msgid "Number of photos to show:"
+msgstr ""
+
+#. translators: URL.
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:188
+msgid ""
+"API key (Use default or get your own from <a href=\"%s\">Flickr APP Garden</"
+"a>):"
+msgstr ""
+
+#. translators: the default key.
+#: inc/lib/inc/widgets/class-fusion-widget-flickr.php:191
+msgid "Default key is: %s"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-form.php:31
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:31
+msgid "Adds a horizontal navigation"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-form.php:36
+msgid "Avada: Form"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:36
+msgid "Avada: Horizontal Menu"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:106
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:116
+msgid "Secondary navigation"
+msgstr ""
+
+#. translators: The widget name.
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:109
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:119
+msgid "Secondary Navigation: %s"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:174
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:313
+msgid "Select Menu:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:185
+msgid "Alignment:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:193
+msgid "Menu Padding:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:197
+msgid "Menu Link Color:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:201
+msgid "Menu Link Hover Color:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:205
+msgid "Separator Text:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-menu.php:209
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:354
+msgid "Font Size:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-recent-works.php:31
+msgid "Recent works from the portfolio."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-recent-works.php:37
+msgid "Avada: Recent Works"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-recent-works.php:132
+msgid "Recent Works"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-recent-works.php:143
+msgid "Number Of Items To Show:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:53
+msgid "Adds social media icons with custom links."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:59
+msgid "Avada: Social Links"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:495
+msgid "Get Social"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:563
+msgid "Icons Font Size:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:568
+msgid "Icons Color Type:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:570
+msgid "Custom Color"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:571
+#: shortcodes/fusion-person.php:1374 shortcodes/fusion-social-links.php:649
+#: shortcodes/fusion-social-links.php:940
+#: shortcodes/fusion-social-sharing.php:1038
+#: shortcodes/fusion-social-sharing.php:1520
+msgid "Brand Colors"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:576
+msgid "Icons Color Hex Code:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:581
+msgid "Icons Boxed:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:589
+msgid "Boxed Icons Background Color Hex Code:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:594
+msgid "Boxed Icons Radius:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:599
+msgid "Boxed Icons Padding:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:604
+msgid "Tooltip Position:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:615
+msgid "Show Custom Icons:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:623
+msgid "Use Global Options Links:"
+msgstr ""
+
+#. translators: The social-network label.
+#: inc/lib/inc/widgets/class-fusion-widget-social-links.php:643
+msgid "%s Link:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:41
+msgid "Popular posts, recent post and comments."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:47
+msgid "Avada: Tabs"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:119
+msgid "Popular"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:123
+msgid "Recent"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:127
+#: shortcodes/components/comments.php:411
+#: shortcodes/components/comments.php:425 shortcodes/components/meta.php:769
+msgid "Comments"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:185
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:233
+msgid "No posts have been published yet."
+msgstr ""
+
+#. translators: comment author.
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:261
+msgid "%s says:"
+msgstr ""
+
+#. translators: %1$s: comment author. %2$s: post-title.
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:264
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:270
+msgid "No comments have been published yet."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:343
+msgid "Tabs Design:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:345
+#: shortcodes/fusion-flip-boxes.php:836 shortcodes/fusion-flip-boxes.php:1043
+#: shortcodes/fusion-search.php:429 shortcodes/fusion-soundcloud.php:197
+#: shortcodes/fusion-tabs.php:1219 shortcodes/fusion-testimonials.php:753
+msgid "Classic"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:346
+#: shortcodes/fusion-search.php:430 shortcodes/fusion-tabs.php:1220
+#: shortcodes/fusion-testimonials.php:754
+msgid "Clean"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:350
+msgid "Post Design:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:352
+msgid "Featured Image / Avatar Default Shape"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:353
+msgid "Featured Image / Avatar Square"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:354
+msgid "Featured Image / Avatar Circle"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:359
+msgid "Popular Posts Order By:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:361
+msgid "Highest Comments"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:362
+msgid "Highest Views"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:366
+msgid "Number of popular posts:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:370
+msgid "Number of recent posts:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:374
+msgid "Number of comments:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:379
+msgid "Show popular posts"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:383
+msgid "Show recent posts"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tabs.php:387
+msgid "Show comments"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:41
+msgid "Adds your twitter timeline"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:47
+msgid "Avada: Twitter"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:205
+msgid "Recent Tweets"
+msgstr ""
+
+#. translators: "How to setup the Avada twitter widget." link.
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:280
+msgid ""
+"For general setup information or information on how to setup a Twitter App "
+"or a Twitter Widget on twitter.com, please see our documentation: %s"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:280
+msgid "How to setup the Avada twitter widget."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:288
+msgid "Widget Style:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:290
+msgid "Twitter Preconfigured Style (deprecated)"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:291
+msgid "Twitter Style"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:292
+msgid "Avada Style"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:297
+msgid "Twitter Username:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:302
+msgid "Twitter Widget ID:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:307
+msgid "Consumer Key:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:312
+msgid "Consumer Secret:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:317
+msgid "Access Token:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:322
+msgid "Access Token Secret:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:327
+msgid "Number of Tweet (max. 20 tweets possible):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:332
+msgid "Icon Color (leave empty for default icon color):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:337
+msgid "Max. Width (has to be between 180 and 520):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:342
+msgid "Height (min. is 200):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:347
+msgid "Color Scheme:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:355
+msgid "Link Color (leave empty for Theme default link color):"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:360
+msgid "Border Color:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:366
+msgid "Show Header"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:371
+#: shortcodes/fusion-modal.php:548
+msgid "Show Footer"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:376
+msgid "Show Borders"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:381
+#: shortcodes/fusion-twitter-timeline.php:463
+msgid "Transparent Background"
+msgstr ""
+
+#. translators: The user's twitter handle.
+#. translators: The twitter-ID.
+#. translators: The twitter-ID.
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:408
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:414
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:417
+msgid "Tweets by %s"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:31
+msgid "This widget replaces the Side Navigation Template."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:36
+msgid "Avada: Vertical Menu"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:139
+msgid ""
+"For the vertical layout to work, the page needs to be set as part of the "
+"WordPress parent/child hierarchy."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:150
+msgid "Back to Parent Page"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:304
+msgid "Menu Type:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:306
+msgid "Custom Menu"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:307
+msgid "Vertical Menu"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:309
+msgid ""
+"Choose if a custom menu or the classic side navigation (vertical menu "
+"option) should be displayed."
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:325
+msgid "Parent Page:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:338
+msgid "Behavior:"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:341
+#: shortcodes/fusion-image-hotspots.php:762 shortcodes/fusion-lottie.php:410
+#: shortcodes/fusion-menu.php:3387 shortcodes/fusion-popover.php:432
+#: shortcodes/fusion-tooltip.php:198
+msgid "Click"
+msgstr ""
+
+#: inc/lib/inc/widgets/class-fusion-widget-vertical-menu.php:346
+msgid "Layout:"
+msgstr ""
+
 #: inc/options/elements.php:32
 msgid "Animations"
 msgstr ""
@@ -14674,29 +15662,6 @@ msgstr ""
 msgid "Select the layout for the element."
 msgstr ""
 
-#: shortcodes/components/archives.php:551
-#: shortcodes/components/woo-cart.php:3515
-#: shortcodes/components/woo-reviews.php:746 shortcodes/form/submit.php:600
-#: shortcodes/fusion-blog.php:2183 shortcodes/fusion-button.php:1892
-#: shortcodes/fusion-facebook-page.php:480 shortcodes/fusion-modal.php:526
-#: shortcodes/fusion-post-card-cart.php:2414
-#: shortcodes/fusion-post-card-cart.php:3035 shortcodes/fusion-tagline.php:734
-#: shortcodes/woo-checkout-payment.php:729 shortcodes/woo-mini-cart.php:1409
-#: shortcodes/woo-mini-cart.php:1868
-msgid "Large"
-msgstr ""
-
-#: shortcodes/components/archives.php:552
-#: shortcodes/components/woo-cart.php:3514
-#: shortcodes/components/woo-reviews.php:745 shortcodes/form/submit.php:599
-#: shortcodes/fusion-blog.php:2184 shortcodes/fusion-button.php:1891
-#: shortcodes/fusion-post-card-cart.php:2413
-#: shortcodes/fusion-post-card-cart.php:3034 shortcodes/fusion-tagline.php:733
-#: shortcodes/woo-checkout-payment.php:728 shortcodes/woo-mini-cart.php:1408
-#: shortcodes/woo-mini-cart.php:1867
-msgid "Medium"
-msgstr ""
-
 #: shortcodes/components/archives.php:553 shortcodes/fusion-blog.php:2185
 msgid "Large Alternate"
 msgstr ""
@@ -14967,11 +15932,6 @@ msgstr ""
 
 #: shortcodes/components/author.php:343
 msgid "Choose to show or hide author biography."
-msgstr ""
-
-#: shortcodes/components/comments.php:411
-#: shortcodes/components/comments.php:425 shortcodes/components/meta.php:769
-msgid "Comments"
 msgstr ""
 
 #: shortcodes/components/comments.php:420
@@ -17053,25 +18013,6 @@ msgstr ""
 #: shortcodes/fusion-post-card-cart.php:3027
 #: shortcodes/woo-checkout-payment.php:721
 msgid "Controls the button size."
-msgstr ""
-
-#: shortcodes/components/woo-cart.php:3513
-#: shortcodes/components/woo-reviews.php:744 shortcodes/form/submit.php:598
-#: shortcodes/fusion-button.php:1890 shortcodes/fusion-facebook-page.php:481
-#: shortcodes/fusion-modal.php:525 shortcodes/fusion-post-card-cart.php:2412
-#: shortcodes/fusion-post-card-cart.php:3033 shortcodes/fusion-tagline.php:732
-#: shortcodes/woo-checkout-payment.php:727 shortcodes/woo-mini-cart.php:1407
-#: shortcodes/woo-mini-cart.php:1866
-msgid "Small"
-msgstr ""
-
-#: shortcodes/components/woo-cart.php:3516
-#: shortcodes/components/woo-reviews.php:747 shortcodes/form/submit.php:601
-#: shortcodes/fusion-button.php:1893 shortcodes/fusion-post-card-cart.php:2415
-#: shortcodes/fusion-post-card-cart.php:3036 shortcodes/fusion-tagline.php:735
-#: shortcodes/woo-checkout-payment.php:730 shortcodes/woo-mini-cart.php:1410
-#: shortcodes/woo-mini-cart.php:1869
-msgid "XLarge"
 msgstr ""
 
 #: shortcodes/components/woo-cart.php:3531
@@ -22751,12 +23692,6 @@ msgstr ""
 msgid "Set the flip effect for the boxes."
 msgstr ""
 
-#: shortcodes/fusion-flip-boxes.php:836 shortcodes/fusion-flip-boxes.php:1043
-#: shortcodes/fusion-search.php:429 shortcodes/fusion-soundcloud.php:197
-#: shortcodes/fusion-tabs.php:1219 shortcodes/fusion-testimonials.php:753
-msgid "Classic"
-msgstr ""
-
 #: shortcodes/fusion-flip-boxes.php:837 shortcodes/fusion-flip-boxes.php:1044
 msgid "3d"
 msgstr ""
@@ -24276,12 +25211,6 @@ msgstr ""
 msgid "Choose mouse action to trigger popover."
 msgstr ""
 
-#: shortcodes/fusion-image-hotspots.php:762 shortcodes/fusion-lottie.php:410
-#: shortcodes/fusion-menu.php:3387 shortcodes/fusion-popover.php:432
-#: shortcodes/fusion-tooltip.php:198
-msgid "Click"
-msgstr ""
-
 #: shortcodes/fusion-image-hotspots.php:791
 msgid "Hotspots Animation"
 msgstr ""
@@ -25788,10 +26717,6 @@ msgstr ""
 msgid "Controls the modal border color. "
 msgstr ""
 
-#: shortcodes/fusion-modal.php:548
-msgid "Show Footer"
-msgstr ""
-
 #: shortcodes/fusion-modal.php:549
 msgid "Choose to show the modal footer with close button."
 msgstr ""
@@ -26335,13 +27260,6 @@ msgstr ""
 #: shortcodes/fusion-social-sharing.php:1519
 #: shortcodes/fusion-tagcloud.php:1022
 msgid "Custom Colors"
-msgstr ""
-
-#: shortcodes/fusion-person.php:1374 shortcodes/fusion-social-links.php:649
-#: shortcodes/fusion-social-links.php:940
-#: shortcodes/fusion-social-sharing.php:1038
-#: shortcodes/fusion-social-sharing.php:1520
-msgid "Brand Colors"
 msgstr ""
 
 #: shortcodes/fusion-person.php:1382
@@ -27463,10 +28381,6 @@ msgstr ""
 msgid "Set pricing table border color."
 msgstr ""
 
-#: shortcodes/fusion-pricing-table.php:746
-msgid "Divider Color"
-msgstr ""
-
 #: shortcodes/fusion-pricing-table.php:747
 msgid "Set pricing table divider color."
 msgstr ""
@@ -27898,11 +28812,6 @@ msgstr ""
 
 #: shortcodes/fusion-search.php:424
 msgid "Controls the design of the search form."
-msgstr ""
-
-#: shortcodes/fusion-search.php:430 shortcodes/fusion-tabs.php:1220
-#: shortcodes/fusion-testimonials.php:754
-msgid "Clean"
 msgstr ""
 
 #: shortcodes/fusion-search.php:437
@@ -30811,10 +31720,6 @@ msgstr ""
 msgid "Set the color of element borders, including the border between tweets."
 msgstr ""
 
-#: shortcodes/fusion-twitter-timeline.php:463
-msgid "Transparent Background"
-msgstr ""
-
 #: shortcodes/fusion-twitter-timeline.php:464
 msgid "Choose whether you want a transparent timeline background."
 msgstr ""
@@ -32964,4 +33869,10 @@ msgstr ""
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
 msgctxt "by author"
 msgid "by %s"
+msgstr ""
+
+#. translators: time difference.
+#: inc/lib/inc/widgets/class-fusion-widget-tweets.php:752
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
 msgstr ""

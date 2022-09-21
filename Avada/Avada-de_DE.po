@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2022-07-26 09:33:52+00:00\n"
+"POT-Creation-Date: 2022-09-21 09:53:15+00:00\n"
 "PO-Revision-Date: 2020-12-12 11:10+0100\n"
 "Last-Translator: wassereimer <wassereimer@wassereimer.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/avada/"
@@ -136,8 +136,8 @@ msgstr[1] "% Kommentare"
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
 #: includes/class-avada-woocommerce.php:812
-#: includes/lib/inc/class-fusion-scripts.php:603
-#: includes/lib/inc/functions.php:1073 includes/lib/inc/functions.php:1863
+#: includes/lib/inc/class-fusion-scripts.php:619
+#: includes/lib/inc/functions.php:1073 includes/lib/inc/functions.php:1885
 #: includes/lib/inc/fusion-app/helpers.php:567 single-wpfc_sermon.php:21
 #: single.php:20
 msgid "Previous"
@@ -150,8 +150,8 @@ msgstr "Zurück"
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
 #: includes/class-avada-woocommerce.php:813
-#: includes/lib/inc/class-fusion-scripts.php:602
-#: includes/lib/inc/functions.php:1119 includes/lib/inc/functions.php:1864
+#: includes/lib/inc/class-fusion-scripts.php:618
+#: includes/lib/inc/functions.php:1119 includes/lib/inc/functions.php:1886
 #: includes/lib/inc/fusion-app/helpers.php:568 single-wpfc_sermon.php:22
 #: single.php:21
 msgid "Next"
@@ -449,7 +449,7 @@ msgid "WP Events Calendar"
 msgstr "WP Events Calendar"
 
 #: includes/admin-screens/performance.php:43
-#: includes/admin-screens/performance.php:46 includes/class-avada-admin.php:583
+#: includes/admin-screens/performance.php:46 includes/class-avada-admin.php:581
 #: includes/class-awb-performance-wizard.php:1438
 msgid "Performance Wizard"
 msgstr ""
@@ -501,6 +501,12 @@ msgstr ""
 #: includes/lib/inc/fusion-app/templates/options/typography.php:222
 #: includes/lib/inc/fusion-app/templates/typography-set.php:137
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:310
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:159
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:178
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:197
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:216
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:319
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:610
 #: includes/metaboxes/options/options_slide.php:154
 #: includes/metaboxes/options/options_slide.php:229
 #: includes/metaboxes/tabs/tab_form_general.php:71
@@ -702,7 +708,7 @@ msgid "Title"
 msgstr "Titel"
 
 #: includes/admin-screens/performance.php:203
-#: includes/class-avada-admin.php:1425 includes/class-awb-setup-wizard.php:1380
+#: includes/class-avada-admin.php:1423 includes/class-awb-setup-wizard.php:1380
 #: includes/lib/inc/fusion-app/helpers.php:602
 #: includes/metaboxes/metaboxes.php:626
 #: includes/metaboxes/tabs/tab_content.php:24
@@ -1143,7 +1149,7 @@ msgstr ""
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
 #: includes/admin-screens/prebuilt-websites.php:72
-#: includes/class-avada-admin-bar.php:87 includes/class-avada-admin.php:364
+#: includes/class-avada-admin-bar.php:87 includes/class-avada-admin.php:362
 #: includes/class-avada-tgm-plugin-activation.php:2619
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:323
 msgid "Status"
@@ -1158,81 +1164,81 @@ msgid "Support Dashboard"
 msgstr "Support Dashboard"
 
 #. translators: Version number.
-#: includes/admin-screens/plugins.php:151
+#: includes/admin-screens/plugins.php:142
 msgid "New version available: %s"
 msgstr "Neue Version verfügbar: %s"
 
 #. translators: plugin name.
-#: includes/admin-screens/plugins.php:157
+#: includes/admin-screens/plugins.php:148
 msgid "Active: %s"
 msgstr "Aktiv: %s"
 
 #. translators: %1$s: Plugin version. %2$s: Author URL. %3$s: Author Name.
-#: includes/admin-screens/plugins.php:164
+#: includes/admin-screens/plugins.php:155
 msgid "v%1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
 msgstr "v%1$s | <a href=\"%2$s\" target=\"_blank\">%3$s</a>"
 
 #. translators: Version number.
-#: includes/admin-screens/plugins.php:167
+#: includes/admin-screens/plugins.php:158
 msgid "Available Version: %s"
 msgstr "Verfügbare Version: %s"
 
 # @ Avada
-#: includes/admin-screens/plugins.php:193
+#: includes/admin-screens/plugins.php:184
 #: includes/class-avada-tgm-plugin-activation.php:2334
 #: includes/lib/inc/fusion-app/helpers.php:378
 msgid "Required"
 msgstr "Benötigt"
 
-#: includes/admin-screens/plugins.php:199
+#: includes/admin-screens/plugins.php:190
 msgid "Premium"
 msgstr "Premium"
 
-#: includes/admin-screens/plugins.php:227
+#: includes/admin-screens/plugins.php:199
 msgid "Error "
 msgstr "Fehler "
 
-#: includes/admin-screens/plugins.php:231
+#: includes/admin-screens/plugins.php:203
 msgid "Get Avada Add-ons"
 msgstr "Erhalte Avada Erweiterungen"
 
-#: includes/admin-screens/plugins.php:232
+#: includes/admin-screens/plugins.php:204
 msgid ""
 "The Avada Website Builder ecosystem offers a variety of third-party add-ons "
 "that extend core features and deliver tailored solutions for specific tasks."
 msgstr ""
 
-#: includes/admin-screens/plugins.php:237
+#: includes/admin-screens/plugins.php:209
 msgid "Add-ons are only supported by the author who created them."
 msgstr ""
 
 # @ Avada
-#: includes/admin-screens/plugins.php:283
+#: includes/admin-screens/plugins.php:255
 msgid "Active:"
 msgstr "Aktiv:"
 
 #. translators: %1$s: Version. %2$s: Author.
-#: includes/admin-screens/plugins.php:293
+#: includes/admin-screens/plugins.php:265
 msgid "v%1$s | %2$s"
 msgstr "v%1$s | %2$s"
 
-#: includes/admin-screens/plugins.php:303 includes/class-avada-admin.php:1153
+#: includes/admin-screens/plugins.php:275 includes/class-avada-admin.php:1151
 msgid "Deactivate"
 msgstr "Deaktivieren"
 
 # @ Avada
-#: includes/admin-screens/plugins.php:305
+#: includes/admin-screens/plugins.php:277
 #: includes/admin-screens/prebuilt-websites-import-modal.php:53
-#: includes/class-avada-admin.php:1114
+#: includes/class-avada-admin.php:1112
 #: includes/class-avada-tgm-plugin-activation.php:2791
 msgid "Activate"
 msgstr "Aktivieren"
 
-#: includes/admin-screens/plugins.php:308
+#: includes/admin-screens/plugins.php:280
 msgid "Get Add-on"
 msgstr "Erhalte die Erweiterung"
 
-#: includes/admin-screens/plugins.php:321
+#: includes/admin-screens/plugins.php:293
 #: includes/admin-screens/prebuilt-websites-demo.php:94
 msgid "New"
 msgstr "Neu"
@@ -1251,7 +1257,7 @@ msgstr "Alle"
 
 #: includes/admin-screens/prebuilt-websites-demo.php:61
 #: includes/admin-screens/prebuilt-websites-import-modal.php:110
-#: includes/class-avada-admin.php:1429
+#: includes/class-avada-admin.php:1427
 #: includes/lib/inc/fusion-app/templates/options/import.php:91
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/extensions/import_export/import_export/field_import_export.php:125
 #: includes/metaboxes/tabs/tab_avada_page_options.php:61
@@ -1259,21 +1265,25 @@ msgid "Import"
 msgstr "Importieren"
 
 #: includes/admin-screens/prebuilt-websites-demo.php:61
-#: includes/class-avada-admin.php:1426
+#: includes/class-avada-admin.php:1424
 msgid "Modify"
 msgstr "Modifizieren"
 
 #: includes/admin-screens/prebuilt-websites-demo.php:65
+#: includes/lib/inc/widgets/class-fusion-widget-form.php:116
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:176
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:315
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:327
 msgid "Select"
 msgstr ""
 
 #: includes/admin-screens/prebuilt-websites-demo.php:70
-#: includes/class-avada-admin.php:1427
+#: includes/class-avada-admin.php:1425
 msgid "Full Import"
 msgstr "Voller Import"
 
 #: includes/admin-screens/prebuilt-websites-demo.php:72
-#: includes/class-avada-admin.php:1428
+#: includes/class-avada-admin.php:1426
 msgid "Partial Import"
 msgstr "Teilweiser Import"
 
@@ -1306,14 +1316,14 @@ msgstr "Einrichtung erforderlich"
 
 # @ Avada
 #: includes/admin-screens/prebuilt-websites-import-modal.php:47
-#: includes/class-avada-admin.php:1095
+#: includes/class-avada-admin.php:1093
 #: includes/class-avada-tgm-plugin-activation.php:2782
 msgid "Install"
 msgstr "Installieren"
 
 # @ Avada
 #: includes/admin-screens/prebuilt-websites-import-modal.php:50
-#: includes/class-avada-admin.php:1447
+#: includes/class-avada-admin.php:1445
 #: includes/class-avada-tgm-plugin-activation.php:2382
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:100
 msgid "Active"
@@ -1688,6 +1698,7 @@ msgstr "Zurück"
 #: includes/admin-screens/setup.php:170
 #: includes/class-awb-performance-wizard.php:718
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:149
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:349
 #: includes/options/advanced.php:367 includes/options/forms.php:282
 #: includes/options/lightbox.php:79
 msgid "Light"
@@ -1695,6 +1706,7 @@ msgstr "Hell"
 
 #: includes/admin-screens/setup.php:171
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:150
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:350
 #: includes/options/forms.php:283 includes/options/lightbox.php:80
 msgid "Dark"
 msgstr "Dunkel"
@@ -2145,7 +2157,7 @@ msgstr "Formulare"
 
 #: includes/admin-screens/setup.php:892 includes/class-avada-admin-bar.php:69
 #: includes/class-avada-megamenu-framework.php:475
-#: includes/lib/inc/fusion-app/class-fusion-app.php:977
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1061
 #: includes/metaboxes/tabs/tab_form_submission.php:184
 msgid "Off Canvas"
 msgstr ""
@@ -2189,7 +2201,7 @@ msgstr ""
 #: includes/avada-app/fusion-panel.php:125
 #: includes/avada-app/panel/templates/sidebar.php:32 includes/bootstrap.php:247
 #: includes/bootstrap.php:248 includes/bootstrap.php:674
-#: includes/class-avada-admin-bar.php:61 includes/class-avada-admin.php:547
+#: includes/class-avada-admin-bar.php:61 includes/class-avada-admin.php:545
 #: includes/class-avada-megamenu-framework.php:174
 #: includes/class-avada-megamenu-framework.php:553
 #: includes/lib/inc/class-fusion-featured-image.php:168
@@ -2265,7 +2277,7 @@ msgstr ""
 
 # @ Avada
 #: includes/admin-screens/setup.php:1010 includes/admin-screens/support.php:53
-#: includes/admin-screens/support.php:59 includes/class-avada-admin.php:680
+#: includes/admin-screens/support.php:59 includes/class-avada-admin.php:678
 #: includes/class-awb-setup-wizard.php:1365
 msgid "Documentation"
 msgstr "Online-Dokumentation"
@@ -2276,7 +2288,7 @@ msgstr ""
 
 # @ Avada
 #: includes/admin-screens/setup.php:1011 includes/admin-screens/support.php:81
-#: includes/class-avada-admin.php:683
+#: includes/class-avada-admin.php:681
 msgid "Video Tutorials"
 msgstr "Video-Tutorials"
 
@@ -2302,7 +2314,7 @@ msgid "Select a prebuilt website to import."
 msgstr ""
 
 # @ Avada
-#: includes/admin-screens/status.php:21 includes/class-avada-admin.php:622
+#: includes/admin-screens/status.php:21 includes/class-avada-admin.php:620
 msgid "System Status"
 msgstr "Systemstatus"
 
@@ -2359,7 +2371,7 @@ msgstr ""
 msgid "Avada %s Conversion"
 msgstr ""
 
-#: includes/admin-screens/status.php:129 includes/class-avada-admin.php:604
+#: includes/admin-screens/status.php:129 includes/class-avada-admin.php:602
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
 msgid "Changelog"
 msgstr "Änderungen"
@@ -2978,7 +2990,7 @@ msgstr ""
 
 # @ Avada
 #: includes/admin-screens/support.php:66 includes/admin-screens/support.php:72
-#: includes/class-avada-admin.php:686
+#: includes/class-avada-admin.php:684
 msgid "Submit A Ticket"
 msgstr "Erstelle ein Ticket"
 
@@ -3113,6 +3125,7 @@ msgstr ""
 #: includes/class-avada-megamenu-framework.php:1031
 #: includes/class-avada-nav-walker-megamenu.php:259
 #: includes/class-avada-widget-style.php:402
+#: includes/lib/inc/class-awb-widget-style.php:421
 #: includes/lib/inc/fusion-app/helpers.php:254
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -3599,8 +3612,8 @@ msgstr "Bilder"
 msgid "Sliders"
 msgstr "Slider"
 
-#: includes/avada-functions.php:2022 includes/class-avada-admin.php:343
-#: includes/class-avada-admin.php:368 includes/class-avada-admin.php:541
+#: includes/avada-functions.php:2022 includes/class-avada-admin.php:341
+#: includes/class-avada-admin.php:366 includes/class-avada-admin.php:539
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:222
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:226
 msgid "Options"
@@ -3776,7 +3789,7 @@ msgid "Avada Patcher"
 msgstr "Avada Patcher"
 
 #: includes/bootstrap.php:593 includes/class-avada-admin-bar.php:84
-#: includes/class-avada-admin.php:565
+#: includes/class-avada-admin.php:563
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:241
 msgid "Patcher"
 msgstr "Patcher"
@@ -3814,12 +3827,12 @@ msgstr "diesem Link folgen"
 msgid "Avada"
 msgstr "Avada"
 
-#: includes/class-avada-admin-bar.php:62 includes/class-avada-admin.php:344
-#: includes/class-avada-admin.php:555
+#: includes/class-avada-admin-bar.php:62 includes/class-avada-admin.php:342
+#: includes/class-avada-admin.php:553
 msgid "Websites"
 msgstr "Websites"
 
-#: includes/class-avada-admin-bar.php:64 includes/class-avada-admin.php:557
+#: includes/class-avada-admin-bar.php:64 includes/class-avada-admin.php:555
 #: includes/metaboxes/metaboxes.php:639
 #: includes/metaboxes/tabs/tab_studio.php:66
 msgid "Studio"
@@ -3844,7 +3857,7 @@ msgstr "Alle Avada Caches wurden zurückgesetzt."
 msgid "Reset Avada Caches"
 msgstr "Avada Cache zurücksetzen"
 
-#: includes/class-avada-admin-bar.php:161 includes/class-avada-admin.php:224
+#: includes/class-avada-admin-bar.php:161 includes/class-avada-admin.php:222
 #: includes/class-avada-woocommerce.php:1048
 msgid "Dashboard"
 msgstr "Übersichts-Bereich"
@@ -3867,80 +3880,80 @@ msgstr ""
 "Menüsystem. Bitte verwenden Sie diese neue Methode anstelle der "
 "Seitenvorlage, die eventuell entfernt wird."
 
-#: includes/class-avada-admin.php:349 includes/class-avada-admin.php:559
+#: includes/class-avada-admin.php:347 includes/class-avada-admin.php:557
 msgid "Maintenance"
 msgstr "Wartung"
 
-#: includes/class-avada-admin.php:361 includes/class-avada-admin.php:574
+#: includes/class-avada-admin.php:359 includes/class-avada-admin.php:572
 msgid "Plugins & Add-ons"
 msgstr "Plugins & Erweiterungen"
 
-#: includes/class-avada-admin.php:362 includes/options/performance.php:64
+#: includes/class-avada-admin.php:360 includes/options/performance.php:64
 msgid "Performance"
 msgstr "Leistung"
 
 # @ Avada
-#: includes/class-avada-admin.php:363 includes/class-avada-admin.php:613
+#: includes/class-avada-admin.php:361 includes/class-avada-admin.php:611
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:105
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:320
 msgid "Support"
 msgstr "Support"
 
-#: includes/class-avada-admin.php:365
+#: includes/class-avada-admin.php:363
 msgid "Setup"
 msgstr ""
 
-#: includes/class-avada-admin.php:533
+#: includes/class-avada-admin.php:531
 #: includes/class-awb-performance-wizard.php:1436
 #: includes/class-awb-setup-wizard.php:1360
 msgid "Link to Avada dashboard"
 msgstr "Link zum Avada Dashboard"
 
-#: includes/class-avada-admin.php:548
+#: includes/class-avada-admin.php:546
 msgid "Edit the global site options & styles."
 msgstr "Bearbeite die globalen Seitenoptionen und -stile."
 
-#: includes/class-avada-admin.php:566
+#: includes/class-avada-admin.php:564
 msgid "Apply patches for your version."
 msgstr "Wende die Patches auf deine Version an."
 
-#: includes/class-avada-admin.php:575
+#: includes/class-avada-admin.php:573
 msgid "Manage plugins & get add-ons."
 msgstr "Verwalte Plugins & erhalte Erweiterungen."
 
-#: includes/class-avada-admin.php:584
+#: includes/class-avada-admin.php:582
 msgid "Optimize the running of your website"
 msgstr ""
 
-#: includes/class-avada-admin.php:594
+#: includes/class-avada-admin.php:592
 msgid "Critical CSS"
 msgstr ""
 
-#: includes/class-avada-admin.php:595
+#: includes/class-avada-admin.php:593
 msgid "Manage critical CSS generation"
 msgstr ""
 
-#: includes/class-avada-admin.php:605
+#: includes/class-avada-admin.php:603
 msgid "View the Avada changelog."
 msgstr "Zeige den Avada Changelog."
 
-#: includes/class-avada-admin.php:614
+#: includes/class-avada-admin.php:612
 msgid "View the different support channels"
 msgstr "Zeige die unterschiedlichen Supportkanäle"
 
-#: includes/class-avada-admin.php:623
+#: includes/class-avada-admin.php:621
 msgid "View the system status of your install."
 msgstr "Zeige den Systemstatus meiner Installation"
 
-#: includes/class-avada-admin.php:632
+#: includes/class-avada-admin.php:630
 msgid "Avada Live"
 msgstr "Avada Live"
 
-#: includes/class-avada-admin.php:641
+#: includes/class-avada-admin.php:639
 msgid "Registered"
 msgstr "Registriert"
 
-#: includes/class-avada-admin.php:642
+#: includes/class-avada-admin.php:640
 msgid "Unregistered"
 msgstr "Unregistriert"
 
@@ -3950,7 +3963,7 @@ msgid "ThemeFusion"
 msgstr "ThemeFusion"
 
 # @ Avada
-#: includes/class-avada-admin.php:695
+#: includes/class-avada-admin.php:693
 msgid ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
 "making your experience perfect."
@@ -3958,79 +3971,79 @@ msgstr ""
 "Vielen Dank, dass Du dich für Avada entschieden hast. Wir fühlen uns geehrt "
 "und sind bemüht, deine Erfahrung perfekt zu machen."
 
-#: includes/class-avada-admin.php:697
+#: includes/class-avada-admin.php:695
 msgid "Support Policy"
 msgstr "Supportrichtlinien"
 
 #. translators: The iconset name.
-#: includes/class-avada-admin.php:846
+#: includes/class-avada-admin.php:844
 #: includes/lib/inc/fusion-app/helpers.php:585
 #: includes/lib/inc/redux/custom-fields/iconpicker/field_iconpicker.php:115
 msgid "No Results in \"%s\""
 msgstr "Keine Ergebnisse in \"%s\""
 
-#: includes/class-avada-admin.php:1059
+#: includes/class-avada-admin.php:1057
 msgid "Please update Avada Core to latest version."
 msgstr "Bitte update Avada Core auf die neueste Version."
 
 #. translators: Plugin name.
-#: includes/class-avada-admin.php:1095
+#: includes/class-avada-admin.php:1093
 msgid "Install %s"
 msgstr "Installiere %s"
 
 #. translators: Plugin Name.
-#: includes/class-avada-admin.php:1114
+#: includes/class-avada-admin.php:1112
 msgid "Activate %s"
 msgstr "Aktiviere %s"
 
 #. translators: Plugin Name.
-#: includes/class-avada-admin.php:1136
+#: includes/class-avada-admin.php:1134
 msgid "Update %s"
 msgstr "Aktualisiere %s"
 
 # @ bbpress
-#: includes/class-avada-admin.php:1136
+#: includes/class-avada-admin.php:1134
 #: includes/class-avada-tgm-plugin-activation.php:2788
 msgid "Update"
 msgstr "Aktualisieren"
 
 #. translators: Plugin name.
-#: includes/class-avada-admin.php:1153
+#: includes/class-avada-admin.php:1151
 msgid "Deactivate %s"
 msgstr "Deaktiviere %s"
 
-#: includes/class-avada-admin.php:1187
+#: includes/class-avada-admin.php:1185
 msgid "Avada Builder will be installable, once Avada Core plugin is updated."
 msgstr ""
 "Avada Builder kann installiert werden, sobald das Avada Core Plugin "
 "aktualisiert wurde."
 
-#: includes/class-avada-admin.php:1187
-#: includes/lib/inc/fusion-app/templates/front-customize.php:39
+#: includes/class-avada-admin.php:1185
+#: includes/lib/inc/fusion-app/templates/front-customize.php:47
 msgid "Avada Builder"
 msgstr "Avada Builder"
 
-#: includes/class-avada-admin.php:1206
+#: includes/class-avada-admin.php:1204
 msgid "Manage Plugins Below"
 msgstr "Verwalte Plugins unten"
 
-#: includes/class-avada-admin.php:1211
+#: includes/class-avada-admin.php:1209
 msgid "Go Manage Plugins"
 msgstr "Verwalte Plugins"
 
-#: includes/class-avada-admin.php:1228
+#: includes/class-avada-admin.php:1226
 msgid "Avada portfolio category base"
 msgstr "Avada Portfolio Kategorie Basis"
 
-#: includes/class-avada-admin.php:1239
+#: includes/class-avada-admin.php:1237
 msgid "Avada portfolio skill base"
 msgstr "Avada Portfolio Skill Basis"
 
-#: includes/class-avada-admin.php:1250
+#: includes/class-avada-admin.php:1248
 msgid "Avada portfolio tag base"
 msgstr "Avada Portfolio Tag Basis"
 
-#: includes/class-avada-admin.php:1422
+#: includes/class-avada-admin.php:1420
 msgid ""
 "<p>Importing prebuilt content will give you layouts, pages, posts, forms, "
 "icons, global options, widgets, sidebars, sliders and other settings. This "
@@ -4049,106 +4062,106 @@ msgid ""
 "third-party content.</span></p>"
 msgstr ""
 
-#: includes/class-avada-admin.php:1430
+#: includes/class-avada-admin.php:1428
 #: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:537
 msgid "Download"
 msgstr "Herunterladen"
 
-#: includes/class-avada-admin.php:1431
+#: includes/class-avada-admin.php:1429
 msgid "General Data"
 msgstr ""
 
 #. translators: The current step label.
-#: includes/class-avada-admin.php:1434
+#: includes/class-avada-admin.php:1432
 msgid "Currently Processing: %s"
 msgstr "Derzeit verarbeitend: %s"
 
 #. translators: The current step label.
-#: includes/class-avada-admin.php:1436
+#: includes/class-avada-admin.php:1434
 msgid "Currently Removing: %s"
 msgstr "Derzeit wird entfernt: %s"
 
-#: includes/class-avada-admin.php:1437
+#: includes/class-avada-admin.php:1435
 #: includes/lib/inc/importer/class-wxr-importer.php:505
 msgid "The file does not exist"
 msgstr "Die Datei existiert nicht"
 
 #. translators: URL.
-#: includes/class-avada-admin.php:1439
+#: includes/class-avada-admin.php:1437
 msgid ""
 "The server couldn't be reached. Please check for wp_remote_get on the <a "
 "href=\"%s\" target=\"_blank\">Status</a> page."
 msgstr ""
 
 #. translators: URL.
-#: includes/class-avada-admin.php:1441
+#: includes/class-avada-admin.php:1439
 msgid ""
 "Prebuilt website import failed. Please check for PHP limits in red on the <a "
 "href=\"%s\" target=\"_blank\">Status</a> page. Change those to the "
 "recommended value and try again."
 msgstr ""
 
-#: includes/class-avada-admin.php:1442
+#: includes/class-avada-admin.php:1440
 msgid ""
 "Removing prebuilt website content will remove ALL previously imported "
 "content from this prebuilt website and restore your site to the state it was "
 "in before this prebuilt content was imported."
 msgstr ""
 
-#: includes/class-avada-admin.php:1443
+#: includes/class-avada-admin.php:1441
 msgid ""
 "Avada Builder Plugin can only be installed and activated if Avada Core "
 "plugin is at version 3.0 or higher. Please update Avada Core first."
 msgstr ""
 
 #. translators: URL.
-#: includes/class-avada-admin.php:1445
+#: includes/class-avada-admin.php:1443
 msgid ""
 "This plugin can only be installed or updated, after you have successfully "
 "completed the Avada product registration on the <a href=\"%s\" target="
 "\"_blank\">Dashboard Welcome</a> tab."
 msgstr ""
 
-#: includes/class-avada-admin.php:1446
+#: includes/class-avada-admin.php:1444
 msgid "Plugin install failed. Please try Again."
 msgstr "PlugIn Installation fehlgeschlagen. Bitte versuche es erneut."
 
-#: includes/class-avada-admin.php:1448
+#: includes/class-avada-admin.php:1446
 msgid "Please wait, this may take a minute..."
 msgstr "Bitte warte, dies kann eine Minute dauern..."
 
-#: includes/class-avada-admin.php:1811
+#: includes/class-avada-admin.php:1650
 msgid "Avada Product Registration Needs To Be Updated"
 msgstr ""
 
-#: includes/class-avada-admin.php:1812
+#: includes/class-avada-admin.php:1651
 msgid "Avada Registration Q and A"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-admin.php:1818
+#: includes/class-avada-admin.php:1657
 #: tribe-events/pro/widgets/countdown-widget.php:21
 msgid "days"
 msgstr "Tage"
 
 # @ Avada
-#: includes/class-avada-admin.php:1818
+#: includes/class-avada-admin.php:1657
 msgid "day"
 msgstr "Tag"
 
 # @ Avada
-#: includes/class-avada-admin.php:1819
+#: includes/class-avada-admin.php:1658
 #: tribe-events/pro/widgets/countdown-widget.php:25
 msgid "hours"
 msgstr "Stunden"
 
 # @ Avada
-#: includes/class-avada-admin.php:1819
+#: includes/class-avada-admin.php:1658
 msgid "hour"
 msgstr "Stunde"
 
 #. translators: The link.
-#: includes/class-avada-admin.php:1827
+#: includes/class-avada-admin.php:1666
 msgid ""
 "To receive further product updates, the registration has to be updated using "
 "your Avada purchase code. Updates, using your Envato token will continue to "
@@ -4157,12 +4170,12 @@ msgid ""
 msgstr ""
 
 #. translators: The remaining  time.
-#: includes/class-avada-admin.php:1830
+#: includes/class-avada-admin.php:1669
 msgid "Updates with the token will stop working in <strong>%s</strong>."
 msgstr ""
 
 #. translators: The link.
-#: includes/class-avada-admin.php:1833
+#: includes/class-avada-admin.php:1672
 msgid ""
 "To receive further product updates, the registration has to be updated using "
 "your Avada purchase code. The grace period for updates using the Envato "
@@ -4172,11 +4185,11 @@ msgid ""
 msgstr ""
 
 #. translators: The expiry date.
-#: includes/class-avada-admin.php:1836
+#: includes/class-avada-admin.php:1675
 msgid "Token updates expired on <strong>%s</strong>."
 msgstr ""
 
-#: includes/class-avada-admin.php:1838
+#: includes/class-avada-admin.php:1677
 msgid "Update Registration"
 msgstr ""
 
@@ -4248,6 +4261,7 @@ msgid ""
 msgstr ""
 
 #: includes/class-avada-block-editor.php:360
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:315
 #: includes/metaboxes/tabs/tab_template.php:469
 msgid "Small"
 msgstr "Klein"
@@ -4265,8 +4279,10 @@ msgstr "Normal"
 msgid "M"
 msgstr "M"
 
-#: includes/class-avada-block-editor.php:372 includes/options/blog.php:137
-#: includes/options/blog.php:168 includes/options/search.php:338
+#: includes/class-avada-block-editor.php:372
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:317
+#: includes/options/blog.php:137 includes/options/blog.php:168
+#: includes/options/search.php:338
 msgid "Large"
 msgstr "Groß"
 
@@ -4275,6 +4291,7 @@ msgid "L"
 msgstr "L"
 
 #: includes/class-avada-block-editor.php:378
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:318
 msgid "XLarge"
 msgstr "Extragross"
 
@@ -4735,6 +4752,7 @@ msgstr "Avada Menü Einstellungen"
 
 #: includes/class-avada-megamenu-framework.php:1030
 #: includes/class-avada-widget-style.php:401
+#: includes/lib/inc/class-awb-widget-style.php:420
 #: includes/lib/inc/fusion-app/helpers.php:210
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:83
 msgid "Save"
@@ -5421,6 +5439,7 @@ msgstr "Bild entfernen"
 
 #: includes/class-avada-taxonomy-meta.php:1237
 #: includes/class-avada-widget-style.php:312
+#: includes/lib/inc/class-awb-widget-style.php:327
 #: includes/lib/inc/class-fusion-settings.php:620
 #: includes/metaboxes/metaboxes.php:878 includes/metaboxes/metaboxes.php:953
 msgid "Reset to default."
@@ -5428,6 +5447,7 @@ msgstr "Auf Standard zurücksetzen."
 
 #: includes/class-avada-taxonomy-meta.php:1239
 #: includes/class-avada-widget-style.php:312
+#: includes/lib/inc/class-awb-widget-style.php:327
 #: includes/lib/inc/class-fusion-settings.php:620
 #: includes/metaboxes/metaboxes.php:878 includes/metaboxes/metaboxes.php:953
 msgid "Using default value."
@@ -5524,7 +5544,7 @@ msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
 
 # @ Avada
 #: includes/class-avada-tgm-plugin-activation.php:389
-#: includes/class-avada-upgrade.php:410
+#: includes/class-avada-upgrade.php:411
 msgid "Dismiss this notice"
 msgstr "Diese Nachricht ausblenden"
 
@@ -5813,15 +5833,17 @@ msgstr "Alle Installationen wurden fertiggestellt."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Installation des Plugins %1$s (%2$d/%3$d)"
 
-#: includes/class-avada-upgrade.php:409
+#: includes/class-avada-upgrade.php:410
 msgid "View Changelog"
 msgstr "Changelog ansehen"
 
 #: includes/class-avada-widget-style.php:151
+#: includes/lib/inc/class-awb-widget-style.php:166
 msgid "Display Widget Title"
 msgstr "Zeige Titel des Widgets"
 
 #: includes/class-avada-widget-style.php:152
+#: includes/lib/inc/class-awb-widget-style.php:167
 msgid ""
 "Choose to enable or disable the widget title. Specifically useful for WP's "
 "default widget titles."
@@ -5829,9 +5851,13 @@ msgstr ""
 
 # @ Avada
 #: includes/class-avada-widget-style.php:155
+#: includes/lib/inc/class-awb-widget-style.php:170
 #: includes/lib/inc/class-fusion-settings.php:506
 #: includes/lib/inc/class-fusion-settings.php:519
 #: includes/lib/inc/fusion-app/helpers.php:360
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:584
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:618
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:626
 #: includes/metaboxes/options/options_slide.php:95
 #: includes/metaboxes/options/options_slide.php:104
 #: includes/metaboxes/options/options_slide.php:113
@@ -5889,9 +5915,15 @@ msgstr "Ja"
 
 # @ Avada
 #: includes/class-avada-widget-style.php:156
+#: includes/lib/inc/class-awb-widget-style.php:171
 #: includes/lib/inc/class-fusion-settings.php:506
 #: includes/lib/inc/class-fusion-settings.php:519
 #: includes/lib/inc/fusion-app/helpers.php:361
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:329
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:363
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:583
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:617
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:625
 #: includes/metaboxes/options/options_slide.php:96
 #: includes/metaboxes/options/options_slide.php:105
 #: includes/metaboxes/options/options_slide.php:114
@@ -5948,22 +5980,26 @@ msgid "No"
 msgstr "Nein"
 
 #: includes/class-avada-widget-style.php:162
+#: includes/lib/inc/class-awb-widget-style.php:177
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:301
 msgid "Padding"
 msgstr ""
 
 #: includes/class-avada-widget-style.php:163
+#: includes/lib/inc/class-awb-widget-style.php:178
 msgid ""
 "Controls the padding for this widget container. Enter value including any "
 "valid CSS unit, ex: 10px."
 msgstr ""
 
 #: includes/class-avada-widget-style.php:169
+#: includes/lib/inc/class-awb-widget-style.php:184
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:285
 msgid "Margin"
 msgstr ""
 
 #: includes/class-avada-widget-style.php:170
+#: includes/lib/inc/class-awb-widget-style.php:185
 msgid ""
 "Controls the margin for this widget container. Enter value including any "
 "valid CSS unit, ex: 10px."
@@ -5971,6 +6007,7 @@ msgstr ""
 
 # @ Avada
 #: includes/class-avada-widget-style.php:176
+#: includes/lib/inc/class-awb-widget-style.php:191
 #: includes/lib/inc/fusion-app/helpers.php:424
 #: includes/metaboxes/tabs/tab_header.php:96
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:26
@@ -5979,65 +6016,81 @@ msgid "Background Color"
 msgstr "Hintergrundfarbe"
 
 #: includes/class-avada-widget-style.php:177
+#: includes/lib/inc/class-awb-widget-style.php:192
 msgid "Controls the background color for this widget container."
 msgstr ""
 
 #: includes/class-avada-widget-style.php:183
+#: includes/lib/inc/class-awb-widget-style.php:198
 msgid "Background Border Radius"
 msgstr ""
 
 #: includes/class-avada-widget-style.php:184
+#: includes/lib/inc/class-awb-widget-style.php:199
 msgid "Controls the background border radius for this widget container."
 msgstr ""
 
 # @ Avada
 #: includes/class-avada-widget-style.php:190
+#: includes/lib/inc/class-awb-widget-style.php:205
 #: includes/lib/inc/fusion-app/helpers.php:448
 msgid "Border Size"
 msgstr "Rahmengröße"
 
 #: includes/class-avada-widget-style.php:191
+#: includes/lib/inc/class-awb-widget-style.php:206
 msgid "Controls the border size for this widget container."
 msgstr ""
 
 #: includes/class-avada-widget-style.php:201
+#: includes/lib/inc/class-awb-widget-style.php:216
 msgid "Border Style"
 msgstr "Rahmenstil"
 
 #: includes/class-avada-widget-style.php:202
+#: includes/lib/inc/class-awb-widget-style.php:217
 msgid "Controls the border style for this widget container."
 msgstr "Kontrolliert den Rahmenstil für diesen Widgetcontainer"
 
 #: includes/class-avada-widget-style.php:214
 #: includes/class-awb-performance-wizard.php:717
+#: includes/lib/inc/class-awb-widget-style.php:229
 #: includes/options/advanced.php:366 includes/options/footer.php:676
 msgid "Solid"
 msgstr "Durchgehend"
 
-#: includes/class-avada-widget-style.php:215 includes/options/footer.php:678
+#: includes/class-avada-widget-style.php:215
+#: includes/lib/inc/class-awb-widget-style.php:230
+#: includes/options/footer.php:678
 msgid "Dotted"
 msgstr "Gepunktet"
 
-#: includes/class-avada-widget-style.php:216 includes/options/footer.php:677
+#: includes/class-avada-widget-style.php:216
+#: includes/lib/inc/class-awb-widget-style.php:231
+#: includes/options/footer.php:677
 msgid "Dashed"
 msgstr "Gestrichelt"
 
 # @ Avada
 #: includes/class-avada-widget-style.php:221
+#: includes/lib/inc/class-awb-widget-style.php:236
 #: includes/lib/inc/fusion-app/helpers.php:425
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:275
 msgid "Border Color"
 msgstr "Rahmenfarbe"
 
 #: includes/class-avada-widget-style.php:222
+#: includes/lib/inc/class-awb-widget-style.php:237
 msgid "Controls the border color for this widget container."
 msgstr "Kontrolliert die Rahmenfarbe für diesen Widget Container"
 
 #: includes/class-avada-widget-style.php:235
+#: includes/lib/inc/class-awb-widget-style.php:250
 msgid "Divider Color"
 msgstr ""
 
 #: includes/class-avada-widget-style.php:236
+#: includes/lib/inc/class-awb-widget-style.php:251
 msgid ""
 "Controls the color of dividers in this widget container. Leave empty for the "
 "Global Options default value or no dividers when using the vertical menu "
@@ -6045,10 +6098,12 @@ msgid ""
 msgstr ""
 
 #: includes/class-avada-widget-style.php:242
+#: includes/lib/inc/class-awb-widget-style.php:257
 msgid "Content Align"
 msgstr "Ausrichtung des Inhalts"
 
 #: includes/class-avada-widget-style.php:243
+#: includes/lib/inc/class-awb-widget-style.php:258
 msgid ""
 "Controls content alignment for this widget container. Inherit means it will "
 "inherit alignment from its parent element."
@@ -6056,16 +6111,23 @@ msgstr ""
 
 #: includes/class-avada-widget-style.php:247
 #: includes/class-avada-widget-style.php:260
+#: includes/lib/inc/class-awb-widget-style.php:262
+#: includes/lib/inc/class-awb-widget-style.php:275
 msgid "Inherit"
 msgstr ""
 
 # @ Avada
 #: includes/class-avada-widget-style.php:248
 #: includes/class-avada-widget-style.php:261
+#: includes/lib/inc/class-awb-widget-style.php:263
+#: includes/lib/inc/class-awb-widget-style.php:276
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:160
 #: includes/lib/inc/fusion-app/helpers.php:480
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:129
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:159
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:187
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:609
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:348
 #: includes/metaboxes/options/options_slide.php:139
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:78
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:185
@@ -6093,10 +6155,15 @@ msgstr "Links"
 # @ Avada
 #: includes/class-avada-widget-style.php:249
 #: includes/class-avada-widget-style.php:262
+#: includes/lib/inc/class-awb-widget-style.php:264
+#: includes/lib/inc/class-awb-widget-style.php:277
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:161
 #: includes/lib/inc/fusion-app/helpers.php:481
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:115
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:145
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:189
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:607
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:349
 #: includes/metaboxes/options/options_slide.php:141
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:76
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:183
@@ -6124,6 +6191,9 @@ msgstr "Rechts"
 # @ Avada
 #: includes/class-avada-widget-style.php:250
 #: includes/class-avada-widget-style.php:263
+#: includes/lib/inc/class-awb-widget-style.php:265
+#: includes/lib/inc/class-awb-widget-style.php:278
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:188
 #: includes/metaboxes/options/options_slide.php:140
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:187
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:213
@@ -6138,10 +6208,12 @@ msgid "Center"
 msgstr "Zentriert"
 
 #: includes/class-avada-widget-style.php:255
+#: includes/lib/inc/class-awb-widget-style.php:270
 msgid "Mobile Content Align"
 msgstr "Ausrichtung mobiler Inhalte"
 
 #: includes/class-avada-widget-style.php:256
+#: includes/lib/inc/class-awb-widget-style.php:271
 msgid ""
 "Controls mobile content alignment for this widget container. Inherit means "
 "it will inherit alignment from its parent element."
@@ -6149,10 +6221,13 @@ msgstr ""
 
 #: includes/class-avada-widget-style.php:386
 #: includes/class-avada-widget-style.php:393
+#: includes/lib/inc/class-awb-widget-style.php:405
+#: includes/lib/inc/class-awb-widget-style.php:412
 msgid "Avada Widget Options"
 msgstr "Avada Widget Optionen"
 
 #: includes/class-avada-widget-style.php:395
+#: includes/lib/inc/class-awb-widget-style.php:414
 msgid "These options apply to the widget container, not the actual widget."
 msgstr ""
 
@@ -6889,6 +6964,7 @@ msgstr "Keine Bild URL eingegeben."
 
 # @ Avada
 #: includes/custom-functions.php:459 includes/custom-functions.php:462
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:150
 msgid "Back to Parent Page"
 msgstr "Zurück zur übergeordneten Seite"
 
@@ -6968,6 +7044,88 @@ msgid ""
 "%4$s"
 msgstr ""
 
+#: includes/lib/inc/class-awb-widget-framework.php:182
+#: includes/options/layout.php:437
+msgid "Single Sidebar Layouts"
+msgstr "Einzelnes Seitenleiste Layout"
+
+#: includes/lib/inc/class-awb-widget-framework.php:188
+#: includes/options/layout.php:443
+msgid "Single Sidebar Width"
+msgstr "Einzelne Seitenleiste Breite"
+
+#: includes/lib/inc/class-awb-widget-framework.php:189
+#: includes/options/events_calendar.php:299 includes/options/layout.php:444
+msgid "Controls the width of the sidebar when only one sidebar is present."
+msgstr "Steuert die Breite der Sidebar, wenn nur eine Sidebar vorhanden ist."
+
+#: includes/lib/inc/class-awb-widget-framework.php:201
+#: includes/options/layout.php:456
+msgid "Single Sidebar Gutter"
+msgstr "Einzelne Seitenleiste Abstand"
+
+#: includes/lib/inc/class-awb-widget-framework.php:202
+#: includes/options/layout.php:457
+msgid "Controls the space between the main content and a single sidebar."
+msgstr ""
+"Steuert den Abstand zwischen dem Hauptinhalt und einer einzelnen "
+"Seitenleiste."
+
+#: includes/lib/inc/class-awb-widget-framework.php:213
+#: includes/options/layout.php:468
+msgid "Dual Sidebar Layouts"
+msgstr "Duales Seitenleisten Layout"
+
+#: includes/lib/inc/class-awb-widget-framework.php:219
+#: includes/options/layout.php:474
+msgid "Dual Sidebar Width 1"
+msgstr "Dual Seitenleiste Breite 1"
+
+#: includes/lib/inc/class-awb-widget-framework.php:220
+#: includes/options/events_calendar.php:318 includes/options/layout.php:475
+msgid "Controls the width of sidebar 1 when dual sidebars are present."
+msgstr ""
+
+#: includes/lib/inc/class-awb-widget-framework.php:232
+#: includes/options/layout.php:487
+msgid "Dual Sidebar Width 2"
+msgstr "Dual Seitenleiste Breite 2"
+
+#: includes/lib/inc/class-awb-widget-framework.php:233
+#: includes/options/events_calendar.php:331 includes/options/layout.php:488
+msgid "Controls the width of sidebar 2 when dual sidebars are present."
+msgstr ""
+
+#: includes/lib/inc/class-awb-widget-framework.php:245
+#: includes/options/layout.php:500
+msgid "Dual Sidebar Gutter"
+msgstr "Dual Seitenleiste Abstand"
+
+#: includes/lib/inc/class-awb-widget-framework.php:246
+#: includes/options/layout.php:501
+msgid ""
+"Controls the space between the main content and the sidebar when dual "
+"sidebars are present."
+msgstr ""
+"Steuert den Abstand zwischen dem Hauptinhalt und den Seitenleisten, wenn "
+"zwei Seitenleisten vorhanden sind."
+
+#: includes/lib/inc/class-awb-widget-framework.php:1245
+msgid "Default Widget Area"
+msgstr ""
+
+#: includes/lib/inc/class-awb-widget-framework.php:1247
+msgid "Default widget area of Avada"
+msgstr ""
+
+#: includes/lib/inc/class-awb-widget-framework.php:1263
+msgid "Footer Widget Area %s"
+msgstr ""
+
+#: includes/lib/inc/class-awb-widget-framework.php:1282
+msgid "Sliding Bar Widget Area %s"
+msgstr ""
+
 # @ Avada
 #: includes/lib/inc/class-fusion-breadcrumbs.php:137
 msgid "Tag:"
@@ -6984,7 +7142,9 @@ msgid "404 - Page not Found"
 msgstr "404 - Seite nicht gefunden"
 
 # @ Avada
-#: includes/lib/inc/class-fusion-data.php:162 includes/options/contact.php:63
+#: includes/lib/inc/class-fusion-data.php:162
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:326
+#: includes/options/contact.php:63
 msgid "Email Address"
 msgstr "E-Mail Adresse"
 
@@ -7587,29 +7747,29 @@ msgstr ""
 msgid "Open up that newly downloaded file and copy the Item Purchase Code."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:598
+#: includes/lib/inc/class-fusion-scripts.php:614
 msgid "Press Esc to close"
 msgstr "Zum Schließen Esc drücken"
 
-#: includes/lib/inc/class-fusion-scripts.php:599
+#: includes/lib/inc/class-fusion-scripts.php:615
 msgid "Enter Fullscreen (Shift+Enter)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:600
+#: includes/lib/inc/class-fusion-scripts.php:616
 msgid "Exit Fullscreen (Shift+Enter)"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:601
+#: includes/lib/inc/class-fusion-scripts.php:617
 msgid "Slideshow"
 msgstr ""
 
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:653
+#: includes/lib/inc/class-fusion-scripts.php:677
 msgid "Loading the next set of posts..."
 msgstr "Lade weitere Beiträge..."
 
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:654
+#: includes/lib/inc/class-fusion-scripts.php:678
 msgid "All items displayed."
 msgstr "Alle Elemente angezeigt."
 
@@ -7725,7 +7885,7 @@ msgid "Share by %s"
 msgstr ""
 
 # @ Avada
-#: includes/lib/inc/class-fusion.php:450 includes/options/layout.php:107
+#: includes/lib/inc/class-fusion.php:452 includes/options/layout.php:107
 #: includes/options/layout.php:406 includes/options/menu.php:2923
 #: includes/options/menu.php:3031
 msgid "Site Width"
@@ -7836,147 +7996,152 @@ msgid "Password:"
 msgstr "Passwort:"
 
 # @ Avada
-#: includes/lib/inc/fusion-app/class-fusion-app.php:557
+#: includes/lib/inc/fusion-app/class-fusion-app.php:597
 msgid "Page"
 msgstr "Seite"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:737
+#: includes/lib/inc/fusion-app/class-fusion-app.php:779
 msgid "Edit Live"
 msgstr "Live bearbeiten"
 
 #. translators: Name of post type.
-#: includes/lib/inc/fusion-app/class-fusion-app.php:798
+#: includes/lib/inc/fusion-app/class-fusion-app.php:840
 msgid "Edit %s"
 msgstr "%s bearbeiten"
 
 #. translators: Number of layout.
-#: includes/lib/inc/fusion-app/class-fusion-app.php:837
+#: includes/lib/inc/fusion-app/class-fusion-app.php:879
 msgid "Edit Layout: %s"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:860
+#: includes/lib/inc/fusion-app/class-fusion-app.php:902
 msgid "Use Layouts"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:860
+#: includes/lib/inc/fusion-app/class-fusion-app.php:902
 msgid "Manage"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:899
+#: includes/lib/inc/fusion-app/class-fusion-app.php:941
 msgid "Form"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:942
+#: includes/lib/inc/fusion-app/class-fusion-app.php:984
 msgid "Post Card"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1650
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1026
+#: includes/options/advanced.php:68 includes/options/menu.php:2886
+msgid "Mega Menu"
+msgstr "Mega Menu"
+
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1738
 msgid "You do not have permission to edit this post."
 msgstr "Du hast keine Berechtigung, diesen Beitrag zu bearbeiten."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1714
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1802
 msgid "The page contents updated."
 msgstr "Der Seiteninhalt wurde aktualisiert."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1721
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1809
 msgid "You do not have permission to edit this archive."
 msgstr "Du hast keine Berechtigung, dieses Archiv zu bearbeiten."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1756
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1844
 msgid "The archive details updated."
 msgstr "Die Archivdetails wurden aktualisiert."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2002
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2003
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2090
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2091
 #: includes/options/performance.php:174
 msgid "Ultra-Light 100"
 msgstr "Ultra-Light 100"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2004
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2092
 #: includes/options/performance.php:175
 msgid "Ultra-Light 100 Italic"
 msgstr "Ultra-Light 100 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2005
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2093
 #: includes/options/performance.php:176
 msgid "Light 200"
 msgstr "Light 200"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2006
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2094
 #: includes/options/performance.php:177
 msgid "Light 200 Italic"
 msgstr "Light 200 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2007
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2095
 #: includes/options/performance.php:178
 msgid "Book 300"
 msgstr "Book 300"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2008
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2096
 #: includes/options/performance.php:179
 msgid "Book 300 Italic"
 msgstr "Book 300 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2009
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2010
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2097
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2098
 #: includes/options/performance.php:180
 msgid "Normal 400"
 msgstr "Normal 400"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2011
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2099
 #: includes/options/performance.php:181
 msgid "Normal 400 Italic"
 msgstr "Normal 400 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2012
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2100
 #: includes/options/performance.php:182
 msgid "Medium 500"
 msgstr "Medium 500"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2013
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2101
 #: includes/options/performance.php:183
 msgid "Medium 500 Italic"
 msgstr "Medium 500 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2014
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2015
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2102
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2103
 #: includes/options/performance.php:184
 msgid "Semi-Bold 600"
 msgstr "Semi-Bold 600"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2016
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2104
 #: includes/options/performance.php:185
 msgid "Semi-Bold 600 Italic"
 msgstr "Semi-Bold 600 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2017
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2105
 #: includes/options/performance.php:186
 msgid "Bold 700"
 msgstr "Bold 700"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2018
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2106
 #: includes/options/performance.php:187
 msgid "Bold 700 Italic"
 msgstr "Bold 700 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2019
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2020
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2107
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2108
 #: includes/options/performance.php:188
 msgid "Extra-Bold 800"
 msgstr "Extra-Bold 800"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2021
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2109
 #: includes/options/performance.php:189
 msgid "Extra-Bold 800 Italic"
 msgstr "Extra-Bold 800 Kursiv"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2022
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2023
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2110
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2111
 #: includes/options/performance.php:190
 msgid "Ultra-Bold 900"
 msgstr "Ultra-Bold 900"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2024
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2112
 #: includes/options/performance.php:191
 msgid "Ultra-Bold 900 Italic"
 msgstr "Ultra-Bold 900 Kursiv"
@@ -9154,6 +9319,7 @@ msgstr "Responsive Optionen umschalten"
 #: includes/lib/inc/fusion-app/helpers.php:478
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:108
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:138
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:606
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:75
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:182
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:70
@@ -9169,6 +9335,7 @@ msgstr "Oben"
 #: includes/lib/inc/fusion-app/helpers.php:479
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:122
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:152
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:608
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:77
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:184
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:72
@@ -9634,11 +9801,11 @@ msgstr ""
 msgid "Examples:"
 msgstr "Beispiele:"
 
-#: includes/lib/inc/fusion-app/templates/front-customize.php:54
+#: includes/lib/inc/fusion-app/templates/front-customize.php:62
 msgid "Site Preview"
 msgstr "Seitenvorschau"
 
-#: includes/lib/inc/fusion-app/templates/front-customize.php:56
+#: includes/lib/inc/fusion-app/templates/front-customize.php:64
 msgid "Invalid Page ID"
 msgstr "Ungültige Seiten-ID"
 
@@ -10458,6 +10625,7 @@ msgid "Clear Gallery"
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:92
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:340
 #: includes/options/extra.php:56
 msgid "Hover"
 msgstr "Mit der Maus darüber fahren"
@@ -11365,6 +11533,797 @@ msgstr ""
 #: includes/lib/inc/templates/rollover.php:137
 msgid "Gallery"
 msgstr "Gallerie"
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:31
+msgid "Add 125x125 ads."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:37
+msgid "Avada: 125x125 Ads"
+msgstr ""
+
+#. translators: Number.
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:147
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:166
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:185
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:204
+msgid "Ad %s"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:149
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:168
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:187
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:206
+msgid "Image Ad Link:"
+msgstr "Bild URL"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:153
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:172
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:191
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:210
+msgid "Ad Link:"
+msgstr "Link im Slider"
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:157
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:176
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:195
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:214
+msgid "Image Hover Type:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:160
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:179
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:198
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:217
+#: includes/options/events_calendar.php:220
+msgid "Zoom In"
+msgstr "Hineinzoomen"
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:161
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:180
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:199
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:218
+msgid "Zoon Out"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:162
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:181
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:200
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:219
+#: includes/options/events_calendar.php:222
+msgid "Lift Up"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:222
+msgid "General Options"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:224
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:558
+msgid "Link Target:"
+msgstr "Link-Ziel:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:226
+msgid "_self"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:227
+msgid "_blank"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:41
+msgid "Display author details."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:47
+msgid "Avada: Author"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:176
+msgid "Posted by"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:195
+#: templates/author-info.php:30
+msgid "This author has not yet filled in any details."
+msgstr "Der Autor hat bisher keine Details angegeben."
+
+#. translators: %s: Number.
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:197
+msgid "So far the author has created %s blog entries."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:232
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:355
+msgid "Post Date"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:286
+#: includes/options/portfolio.php:667 includes/options/search.php:553
+msgid "Author"
+msgstr "Autor"
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:300
+msgid ""
+"IMPORTANT: When used on single posts, the author will be auto pulled. If you "
+"want to display a specific author please use the \"Custom Author\" field. "
+"Post date will on be displayed on single posts."
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:303
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:156
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:218
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:171
+#: includes/lib/inc/widgets/class-fusion-widget-recent-works.php:138
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:553
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:283
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:299
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:308
+msgid "Custom Author (username or ID):"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:313
+msgid "Avatar:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:316
+#: includes/metaboxes/tabs/tab_template.php:470 includes/options/blog.php:138
+#: includes/options/blog.php:169 includes/options/search.php:339
+msgid "Medium"
+msgstr "Mittel"
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:324
+msgid "Display Name:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:326
+msgid "Name with label"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:327
+msgid "Name only"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:328
+msgid "Name as widget title"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:335
+msgid "Link to author page"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:340
+msgid "Display custom author message"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:345
+msgid "Display author biography"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:350
+msgid "Display author social icons"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:355
+msgid "Display separator"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:359
+msgid "Display Post Date:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:361
+msgid "Date with label"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-author.php:362
+msgid "Date only"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:31
+msgid "Adds custom contact information."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:36
+msgid "Avada: Contact Info"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:67
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:164
+#: templates/wc-view-order.php:120
+msgid "Phone:"
+msgstr "Telefon:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:71
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:168
+msgid "Mobile:"
+msgstr "Handy:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:75
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:172
+msgid "Fax:"
+msgstr "Fax:"
+
+# @ Avada
+# @ woocommerce
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:80
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:82
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:176
+#: templates/wc-view-order.php:115 woocommerce/checkout/thankyou.php:61
+msgid "Email:"
+msgstr "E-Mail:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:87
+msgid "Web:"
+msgstr "Webseite:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:160
+msgid "Address:"
+msgstr "Benutzername oder Emailadresse"
+
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:180
+msgid "Email Link Text:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:184
+msgid "Website URL (with HTTP(S)):"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-contact-info.php:188
+msgid "Website URL Text:"
+msgstr "Projekt URL Text"
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:31
+msgid "Adds support for Facebook Page Plugin."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:37
+msgid "Avada: Facebook Page Plugin"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:200
+msgid "Find us on Facebook"
+msgstr "Finde uns auf Facebook"
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:215
+msgid ""
+"IMPORTANT: Please create a Facebook App and use its ID for features like "
+"sharing."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:215
+msgid "See Instructions."
+msgstr "Siehe Anleitung."
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:223
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:228
+msgid "Facebook App ID:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:233
+msgid "Width (has to be between 180 and 500):"
+msgstr "Breite (muss zwischen 180 und 500 sein):"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:239
+msgid "Show Friends Faces"
+msgstr "Zeige Gesichter von Freunden"
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:244
+msgid "Show Timeline Tab"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:249
+msgid "Show Events Tab"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:254
+msgid "Show Messages Tab"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:259
+msgid "Show Cover Photo"
+msgstr "Zeige Album Foto"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-facebook-page.php:264
+msgid "Use Small Header"
+msgstr "Benutze schmalen Kopfbereich"
+
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:31
+msgid "The most recent photos from flickr."
+msgstr "Die neusten Fotos von Flickr"
+
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:37
+msgid "Avada: Flickr"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:159
+msgid "Photos from Flickr"
+msgstr "Fotos von Flickr"
+
+#. translators: URL.
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:177
+msgid "Flickr ID (<a href=\"%s\">Get your flickr ID</a>):"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:182
+msgid "Number of photos to show:"
+msgstr "Anzahl Spalte in der Fusszeile"
+
+#. translators: URL.
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:188
+msgid ""
+"API key (Use default or get your own from <a href=\"%s\">Flickr APP Garden</"
+"a>):"
+msgstr ""
+
+#. translators: the default key.
+#: includes/lib/inc/widgets/class-fusion-widget-flickr.php:191
+msgid "Default key is: %s"
+msgstr "Standard: Schlüssel ist %s"
+
+#: includes/lib/inc/widgets/class-fusion-widget-form.php:31
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:31
+msgid "Adds a horizontal navigation"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-form.php:36
+msgid "Avada: Form"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-form.php:114
+msgid "Select Form:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:36
+msgid "Avada: Horizontal Menu"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:106
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:116
+msgid "Secondary navigation"
+msgstr ""
+
+#. translators: The widget name.
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:109
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:119
+msgid "Secondary Navigation: %s"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:174
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:313
+msgid "Select Menu:"
+msgstr "Menü wählen"
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:185
+msgid "Alignment:"
+msgstr "Ausrichtung:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:193
+msgid "Menu Padding:"
+msgstr "Abstand der Menüelemente"
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:197
+msgid "Menu Link Color:"
+msgstr "Menü Link Farbe"
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:201
+msgid "Menu Link Hover Color:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:205
+msgid "Separator Text:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-menu.php:209
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:354
+msgid "Font Size:"
+msgstr "Schriftgrösse:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-recent-works.php:31
+msgid "Recent works from the portfolio."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-recent-works.php:37
+msgid "Avada: Recent Works"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-recent-works.php:132
+msgid "Recent Works"
+msgstr "Kürzlich"
+
+#: includes/lib/inc/widgets/class-fusion-widget-recent-works.php:143
+msgid "Number Of Items To Show:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:53
+msgid "Adds social media icons with custom links."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:59
+msgid "Avada: Social Links"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:495
+msgid "Get Social"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:563
+msgid "Icons Font Size:"
+msgstr "Schriftgrösse des Hauptinhalts"
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:568
+msgid "Icons Color Type:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:570
+msgid "Custom Color"
+msgstr "Eigene Farbe"
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:571
+#: includes/options/social_media.php:292 includes/options/social_media.php:544
+#: includes/options/social_media.php:854
+msgid "Brand Colors"
+msgstr "Marken Farben"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:576
+msgid "Icons Color Hex Code:"
+msgstr "Iconfarbe"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:581
+msgid "Icons Boxed:"
+msgstr "Eingerahmte Icons der sozialen Medien im Teilen mit Kasten"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:589
+msgid "Boxed Icons Background Color Hex Code:"
+msgstr "Hintergrund- und Hover-Farbe der Registerkarten"
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:594
+msgid "Boxed Icons Radius:"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:599
+msgid "Boxed Icons Padding:"
+msgstr "Kopfzeile Abstand oben"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:604
+msgid "Tooltip Position:"
+msgstr "Position der Tooltips"
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:615
+msgid "Show Custom Icons:"
+msgstr "Zeige Benutzerdefinierte Symbole"
+
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:623
+msgid "Use Global Options Links:"
+msgstr ""
+
+# @ Avada
+#. translators: The social-network label.
+#: includes/lib/inc/widgets/class-fusion-widget-social-links.php:643
+msgid "%s Link:"
+msgstr "%s Link:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:41
+msgid "Popular posts, recent post and comments."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:47
+msgid "Avada: Tabs"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:119
+msgid "Popular"
+msgstr "Beliebt"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:123
+msgid "Recent"
+msgstr "Kürzlich"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:127
+#: includes/options/blog.php:895 includes/options/portfolio.php:712
+#: includes/options/search.php:557
+msgid "Comments"
+msgstr "Kommentare"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:185
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:233
+msgid "No posts have been published yet."
+msgstr "Es wurden noch keine Einträge veröffentlicht ."
+
+#. translators: comment author.
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:261
+msgid "%s says:"
+msgstr "%s sagt:"
+
+# @ Avada
+#. translators: %1$s: comment author. %2$s: post-title.
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:264
+msgid "%1$s on %2$s"
+msgstr "%1$s bei %2$s"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:270
+msgid "No comments have been published yet."
+msgstr "Es wurden noch keine Kommentare veröffentlicht."
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:343
+msgid "Tabs Design:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:345
+#: includes/options/menu.php:2096 includes/options/search.php:116
+#: includes/options/woocommerce.php:635
+msgid "Classic"
+msgstr "Klassisch"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:346
+#: includes/options/search.php:117 includes/options/woocommerce.php:636
+msgid "Clean"
+msgstr "Sauber"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:350
+msgid "Post Design:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:352
+msgid "Featured Image / Avatar Default Shape"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:353
+msgid "Featured Image / Avatar Square"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:354
+msgid "Featured Image / Avatar Circle"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:359
+msgid "Popular Posts Order By:"
+msgstr "Beliebtesten Beiträge sortieren nach:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:361
+msgid "Highest Comments"
+msgstr "Meisten  Kommentare"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:362
+msgid "Highest Views"
+msgstr "Am meisten Angesehen:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:366
+msgid "Number of popular posts:"
+msgstr "Anzahl der beliebtesten Beiträge:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:370
+msgid "Number of recent posts:"
+msgstr "Anzahl der ähnlichen Beiträge:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:374
+msgid "Number of comments:"
+msgstr "Anzahl Kommentare:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:379
+msgid "Show popular posts"
+msgstr "Zeige beliebte Beiträge"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:383
+msgid "Show recent posts"
+msgstr "Zeige verwandte Beiträge"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tabs.php:387
+msgid "Show comments"
+msgstr "Zeige Kommentare"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:41
+msgid "Adds your twitter timeline"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:47
+msgid "Avada: Twitter"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:205
+msgid "Recent Tweets"
+msgstr "Neueste Tweets"
+
+#. translators: "How to setup the Avada twitter widget." link.
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:280
+msgid ""
+"For general setup information or information on how to setup a Twitter App "
+"or a Twitter Widget on twitter.com, please see our documentation: %s"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:280
+msgid "How to setup the Avada twitter widget."
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:288
+msgid "Widget Style:"
+msgstr "Widget Stil:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:290
+msgid "Twitter Preconfigured Style (deprecated)"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:291
+msgid "Twitter Style"
+msgstr "Twitter Stil"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:292
+msgid "Avada Style"
+msgstr "Avada Stil"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:297
+msgid "Twitter Username:"
+msgstr "Twitter Name"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:302
+msgid "Twitter Widget ID:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:307
+msgid "Consumer Key:"
+msgstr "Benutzer Schüssel:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:312
+msgid "Consumer Secret:"
+msgstr "Benutzer Geheim:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:317
+msgid "Access Token:"
+msgstr "Zugriffs Token:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:322
+msgid "Access Token Secret:"
+msgstr "Zugriffs Token Geheim:"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:327
+msgid "Number of Tweet (max. 20 tweets possible):"
+msgstr "Anzahl Tweets (Max. 20 tweets möglich):"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:332
+msgid "Icon Color (leave empty for default icon color):"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:337
+msgid "Max. Width (has to be between 180 and 520):"
+msgstr "Max. Breite (muss zwischen 180 und 520 sein("
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:342
+msgid "Height (min. is 200):"
+msgstr "Höhe (min. ist 200)"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:347
+msgid "Color Scheme:"
+msgstr "Farbschema"
+
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:355
+msgid "Link Color (leave empty for Theme default link color):"
+msgstr ""
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:360
+msgid "Border Color:"
+msgstr "Rahmenfarbe:"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:366
+msgid "Show Header"
+msgstr "Zeige Kopfzeile"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:371
+msgid "Show Footer"
+msgstr "Zeige Fusszeile"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:376
+msgid "Show Borders"
+msgstr "Zeige Ränder"
+
+# @ Avada
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:381
+msgid "Transparent Background"
+msgstr "Transparenter Hintergrund"
+
+#. translators: The user's twitter handle.
+#. translators: The twitter-ID.
+#. translators: The twitter-ID.
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:408
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:414
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:417
+msgid "Tweets by %s"
+msgstr "Tweets von %s"
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:31
+msgid "This widget replaces the Side Navigation Template."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:36
+msgid "Avada: Vertical Menu"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:139
+msgid ""
+"For the vertical layout to work, the page needs to be set as part of the "
+"WordPress parent/child hierarchy."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:304
+msgid "Menu Type:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:306
+msgid "Custom Menu"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:307
+msgid "Vertical Menu"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:309
+msgid ""
+"Choose if a custom menu or the classic side navigation (vertical menu "
+"option) should be displayed."
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:325
+msgid "Parent Page:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:338
+msgid "Behavior:"
+msgstr ""
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:341
+#: includes/options/extra.php:57
+msgid "Click"
+msgstr "Klick"
+
+#: includes/lib/inc/widgets/class-fusion-widget-vertical-menu.php:346
+msgid "Layout:"
+msgstr ""
 
 #: includes/metaboxes/metaboxes.php:298 includes/metaboxes/metaboxes.php:299
 #: includes/metaboxes/metaboxes.php:300 includes/metaboxes/metaboxes.php:301
@@ -14706,11 +15665,6 @@ msgid ""
 "page."
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_template.php:470 includes/options/blog.php:138
-#: includes/options/blog.php:169 includes/options/search.php:339
-msgid "Medium"
-msgstr "Mittel"
-
 #: includes/metaboxes/tabs/tab_template.php:495
 msgid "Custom Breakpoint"
 msgstr ""
@@ -14760,10 +15714,6 @@ msgid ""
 "Turn on to enable encoding in the Avada Builder code block and syntax "
 "highlighting elements."
 msgstr ""
-
-#: includes/options/advanced.php:68 includes/options/menu.php:2886
-msgid "Mega Menu"
-msgstr "Mega Menu"
 
 #: includes/options/advanced.php:69
 msgid "Turn on to enable Avada's mega menu."
@@ -15586,12 +16536,6 @@ msgstr ""
 msgid "Turn on to display related posts."
 msgstr ""
 
-# @ Avada
-#: includes/options/blog.php:895 includes/options/portfolio.php:712
-#: includes/options/search.php:557
-msgid "Comments"
-msgstr "Kommentare"
-
 #: includes/options/blog.php:896
 msgid "Turn on to display comments."
 msgstr ""
@@ -16346,17 +17290,9 @@ msgstr ""
 msgid "Controls the hover type for event featured images."
 msgstr ""
 
-#: includes/options/events_calendar.php:220
-msgid "Zoom In"
-msgstr "Hineinzoomen"
-
 #: includes/options/events_calendar.php:221
 msgid "Zoom Out"
 msgstr "Rauszoomen"
-
-#: includes/options/events_calendar.php:222
-msgid "Lift Up"
-msgstr ""
 
 #: includes/options/events_calendar.php:236
 msgid "Events Image Background Size For List View"
@@ -16410,10 +17346,6 @@ msgstr ""
 msgid "Events Single Sidebar Width"
 msgstr ""
 
-#: includes/options/events_calendar.php:299 includes/options/layout.php:444
-msgid "Controls the width of the sidebar when only one sidebar is present."
-msgstr "Steuert die Breite der Sidebar, wenn nur eine Sidebar vorhanden ist."
-
 #: includes/options/events_calendar.php:311
 msgid "Events Dual Sidebar Layout"
 msgstr ""
@@ -16422,16 +17354,8 @@ msgstr ""
 msgid "Events Dual Sidebar Width 1"
 msgstr ""
 
-#: includes/options/events_calendar.php:318 includes/options/layout.php:475
-msgid "Controls the width of sidebar 1 when dual sidebars are present."
-msgstr ""
-
 #: includes/options/events_calendar.php:330
 msgid "Events Dual Sidebar Width 2"
-msgstr ""
-
-#: includes/options/events_calendar.php:331 includes/options/layout.php:488
-msgid "Controls the width of sidebar 2 when dual sidebars are present."
 msgstr ""
 
 #: includes/options/events_calendar.php:343
@@ -16544,10 +17468,6 @@ msgid ""
 "Controls if the child pages show on click or hover for the side navigation "
 "page template."
 msgstr ""
-
-#: includes/options/extra.php:57
-msgid "Click"
-msgstr "Klick"
 
 #: includes/options/extra.php:79
 msgid "Post Views Counter"
@@ -18316,48 +19236,6 @@ msgid ""
 "affect Avada Builder containers."
 msgstr ""
 
-#: includes/options/layout.php:437
-msgid "Single Sidebar Layouts"
-msgstr "Einzelnes Seitenleiste Layout"
-
-#: includes/options/layout.php:443
-msgid "Single Sidebar Width"
-msgstr "Einzelne Seitenleiste Breite"
-
-#: includes/options/layout.php:456
-msgid "Single Sidebar Gutter"
-msgstr "Einzelne Seitenleiste Abstand"
-
-#: includes/options/layout.php:457
-msgid "Controls the space between the main content and a single sidebar."
-msgstr ""
-"Steuert den Abstand zwischen dem Hauptinhalt und einer einzelnen "
-"Seitenleiste."
-
-#: includes/options/layout.php:468
-msgid "Dual Sidebar Layouts"
-msgstr "Duales Seitenleisten Layout"
-
-#: includes/options/layout.php:474
-msgid "Dual Sidebar Width 1"
-msgstr "Dual Seitenleiste Breite 1"
-
-#: includes/options/layout.php:487
-msgid "Dual Sidebar Width 2"
-msgstr "Dual Seitenleiste Breite 2"
-
-#: includes/options/layout.php:500
-msgid "Dual Sidebar Gutter"
-msgstr "Dual Seitenleiste Abstand"
-
-#: includes/options/layout.php:501
-msgid ""
-"Controls the space between the main content and the sidebar when dual "
-"sidebars are present."
-msgstr ""
-"Steuert den Abstand zwischen dem Hauptinhalt und den Seitenleisten, wenn "
-"zwei Seitenleisten vorhanden sind."
-
 # @ Avada
 #: includes/options/lightbox.php:27 includes/options/lightbox.php:34
 msgid "Lightbox"
@@ -19171,11 +20049,6 @@ msgid ""
 "Controls the design of the mobile menu. Flyout design style only allows "
 "parent level menu items."
 msgstr ""
-
-#: includes/options/menu.php:2096 includes/options/search.php:116
-#: includes/options/woocommerce.php:635
-msgid "Classic"
-msgstr "Klassisch"
 
 #: includes/options/menu.php:2097
 msgid "Modern"
@@ -20329,10 +21202,6 @@ msgid ""
 "a new window."
 msgstr ""
 
-#: includes/options/portfolio.php:667 includes/options/search.php:553
-msgid "Author"
-msgstr "Autor"
-
 #: includes/options/portfolio.php:668
 msgid "Turn on to display the author name on single portfolio posts."
 msgstr ""
@@ -20766,10 +21635,6 @@ msgstr "Suchfeld Design"
 #: includes/options/search.php:111
 msgid "Controls the design of the search forms."
 msgstr ""
-
-#: includes/options/search.php:117 includes/options/woocommerce.php:636
-msgid "Clean"
-msgstr "Sauber"
 
 #: includes/options/search.php:131
 msgid "Enable Live Search"
@@ -21775,11 +22640,6 @@ msgstr ""
 #: includes/options/social_media.php:853
 msgid "Custom Colors"
 msgstr "Eigene Farben"
-
-#: includes/options/social_media.php:292 includes/options/social_media.php:544
-#: includes/options/social_media.php:854
-msgid "Brand Colors"
-msgstr "Marken Farben"
 
 #: includes/options/social_media.php:315
 msgid "Header Social Icon Color"
@@ -22865,11 +23725,6 @@ msgstr ""
 msgid "Close Sliding Bar Area"
 msgstr ""
 
-# @ Avada
-#: templates/author-info.php:30
-msgid "This author has not yet filled in any details."
-msgstr "Der Autor hat bisher keine Details angegeben."
-
 #. translators: %1$s: Username. %2$s: Number.
 #: templates/author-info.php:32
 msgid "So far %1$s has created %2$s blog entries."
@@ -23156,17 +24011,6 @@ msgstr "Gesamt"
 msgid "Customer details"
 msgstr "Kunden Details"
 
-# @ Avada
-# @ woocommerce
-#: templates/wc-view-order.php:115 woocommerce/checkout/thankyou.php:61
-msgid "Email:"
-msgstr "E-Mail:"
-
-# @ Avada
-#: templates/wc-view-order.php:120
-msgid "Phone:"
-msgstr "Telefon:"
-
 #: templates/wc-view-order.php:138
 msgid "Billing address"
 msgstr "Rechnungsadresse"
@@ -23425,6 +24269,12 @@ msgstr ""
 msgctxt "by author"
 msgid "by %s"
 msgstr "von %s"
+
+#. translators: time difference.
+#: includes/lib/inc/widgets/class-fusion-widget-tweets.php:752
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s her"
 
 #: includes/wc-functions.php:76
 msgctxt "breadcrumb"
@@ -24856,261 +25706,12 @@ msgstr ""
 #~ msgstr "Laden Sie die .eot Schriftdatei hoch."
 
 # @ Avada
-#~ msgid "Image Ad Link:"
-#~ msgstr "Bild URL"
-
-# @ Avada
-#~ msgid "Ad Link:"
-#~ msgstr "Link im Slider"
-
-#~ msgid "Link Target:"
-#~ msgstr "Link-Ziel:"
-
-# @ Avada
-#~ msgid "Title:"
-#~ msgstr "Titel:"
-
-# @ Avada
-#~ msgid "Mobile:"
-#~ msgstr "Handy:"
-
-# @ Avada
-#~ msgid "Fax:"
-#~ msgstr "Fax:"
-
-# @ Avada
-#~ msgid "Web:"
-#~ msgstr "Webseite:"
-
-# @ Avada
-#~ msgid "Address:"
-#~ msgstr "Benutzername oder Emailadresse"
-
-# @ Avada
-#~ msgid "Website URL Text:"
-#~ msgstr "Projekt URL Text"
-
-#~ msgid "Find us on Facebook"
-#~ msgstr "Finde uns auf Facebook"
-
-#~ msgid "See Instructions."
-#~ msgstr "Siehe Anleitung."
-
-#~ msgid "Width (has to be between 180 and 500):"
-#~ msgstr "Breite (muss zwischen 180 und 500 sein):"
-
-# @ Avada
-#~ msgid "Show Friends Faces"
-#~ msgstr "Zeige Gesichter von Freunden"
-
-# @ Avada
-#~ msgid "Show Cover Photo"
-#~ msgstr "Zeige Album Foto"
-
-# @ Avada
-#~ msgid "Use Small Header"
-#~ msgstr "Benutze schmalen Kopfbereich"
-
-#~ msgid "The most recent photos from flickr."
-#~ msgstr "Die neusten Fotos von Flickr"
-
-#~ msgid "Photos from Flickr"
-#~ msgstr "Fotos von Flickr"
-
-# @ Avada
-#~ msgid "Number of photos to show:"
-#~ msgstr "Anzahl Spalte in der Fusszeile"
-
-#~ msgid "Default key is: %s"
-#~ msgstr "Standard: Schlüssel ist %s"
-
-#~ msgid "Select Menu:"
-#~ msgstr "Menü wählen"
-
-#~ msgid "Alignment:"
-#~ msgstr "Ausrichtung:"
-
-#~ msgid "Menu Padding:"
-#~ msgstr "Abstand der Menüelemente"
-
-#~ msgid "Menu Link Color:"
-#~ msgstr "Menü Link Farbe"
-
-#~ msgid "Font Size:"
-#~ msgstr "Schriftgrösse:"
-
-# @ Avada
-#~ msgid "Recent Works"
-#~ msgstr "Kürzlich"
-
-# @ Avada
 #~ msgid "Number of items to show:"
 #~ msgstr "Anzahl Spalte in der Fusszeile"
 
 # @ Avada
-#~ msgid "Icons Font Size:"
-#~ msgstr "Schriftgrösse des Hauptinhalts"
-
-#~ msgid "Custom Color"
-#~ msgstr "Eigene Farbe"
-
-# @ Avada
-#~ msgid "Icons Color Hex Code:"
-#~ msgstr "Iconfarbe"
-
-# @ Avada
-#~ msgid "Icons Boxed:"
-#~ msgstr "Eingerahmte Icons der sozialen Medien im Teilen mit Kasten"
-
-# @ Avada
-#~ msgid "Boxed Icons Background Color Hex Code:"
-#~ msgstr "Hintergrund- und Hover-Farbe der Registerkarten"
-
-# @ Avada
-#~ msgid "Boxed Icons Padding:"
-#~ msgstr "Kopfzeile Abstand oben"
-
-# @ Avada
-#~ msgid "Tooltip Position:"
-#~ msgstr "Position der Tooltips"
-
-#~ msgid "Show Custom Icons:"
-#~ msgstr "Zeige Benutzerdefinierte Symbole"
-
-# @ Avada
-#~ msgid "%s Link:"
-#~ msgstr "%s Link:"
-
-# @ Avada
-#~ msgid "Popular"
-#~ msgstr "Beliebt"
-
-# @ Avada
-#~ msgid "Recent"
-#~ msgstr "Kürzlich"
-
-# @ Avada
-#~ msgid "No posts have been published yet."
-#~ msgstr "Es wurden noch keine Einträge veröffentlicht ."
-
-#~ msgid "%s says:"
-#~ msgstr "%s sagt:"
-
-# @ Avada
-#~ msgid "%1$s on %2$s"
-#~ msgstr "%1$s bei %2$s"
-
-# @ Avada
-#~ msgid "No comments have been published yet."
-#~ msgstr "Es wurden noch keine Kommentare veröffentlicht."
-
-#~ msgid "Popular Posts Order By:"
-#~ msgstr "Beliebtesten Beiträge sortieren nach:"
-
-# @ Avada
-#~ msgid "Highest Comments"
-#~ msgstr "Meisten  Kommentare"
-
-#~ msgid "Highest Views"
-#~ msgstr "Am meisten Angesehen:"
-
-# @ Avada
-#~ msgid "Number of popular posts:"
-#~ msgstr "Anzahl der beliebtesten Beiträge:"
-
-#~ msgid "Number of recent posts:"
-#~ msgstr "Anzahl der ähnlichen Beiträge:"
-
-# @ Avada
-#~ msgid "Number of comments:"
-#~ msgstr "Anzahl Kommentare:"
-
-# @ Avada
-#~ msgid "Show popular posts"
-#~ msgstr "Zeige beliebte Beiträge"
-
-# @ Avada
-#~ msgid "Show recent posts"
-#~ msgstr "Zeige verwandte Beiträge"
-
-# @ Avada
-#~ msgid "Show comments"
-#~ msgstr "Zeige Kommentare"
-
-# @ Avada
-#~ msgid "Recent Tweets"
-#~ msgstr "Neueste Tweets"
-
-# @ Avada
-#~ msgid "Widget Style:"
-#~ msgstr "Widget Stil:"
-
-# @ Avada
-#~ msgid "Twitter Style"
-#~ msgstr "Twitter Stil"
-
-#~ msgid "Avada Style"
-#~ msgstr "Avada Stil"
-
-# @ Avada
-#~ msgid "Twitter Username:"
-#~ msgstr "Twitter Name"
-
-#~ msgid "Consumer Key:"
-#~ msgstr "Benutzer Schüssel:"
-
-#~ msgid "Consumer Secret:"
-#~ msgstr "Benutzer Geheim:"
-
-#~ msgid "Access Token:"
-#~ msgstr "Zugriffs Token:"
-
-#~ msgid "Access Token Secret:"
-#~ msgstr "Zugriffs Token Geheim:"
-
-#~ msgid "Number of Tweet (max. 20 tweets possible):"
-#~ msgstr "Anzahl Tweets (Max. 20 tweets möglich):"
-
-#~ msgid "Max. Width (has to be between 180 and 520):"
-#~ msgstr "Max. Breite (muss zwischen 180 und 520 sein("
-
-#~ msgid "Height (min. is 200):"
-#~ msgstr "Höhe (min. ist 200)"
-
-# @ Avada
-#~ msgid "Color Scheme:"
-#~ msgstr "Farbschema"
-
-# @ Avada
-#~ msgid "Border Color:"
-#~ msgstr "Rahmenfarbe:"
-
-# @ Avada
-#~ msgid "Show Header"
-#~ msgstr "Zeige Kopfzeile"
-
-# @ Avada
-#~ msgid "Show Footer"
-#~ msgstr "Zeige Fusszeile"
-
-# @ Avada
-#~ msgid "Show Borders"
-#~ msgstr "Zeige Ränder"
-
-# @ Avada
-#~ msgid "Transparent Background"
-#~ msgstr "Transparenter Hintergrund"
-
-#~ msgid "Tweets by %s"
-#~ msgstr "Tweets von %s"
-
-# @ Avada
 #~ msgid "Mail This Product"
 #~ msgstr "Empfehle dieses Produkt per Mail"
-
-#~ msgctxt "%s = human-readable time difference"
-#~ msgid "%s ago"
-#~ msgstr "%s her"
 
 #~ msgid "Social Media Links"
 #~ msgstr "Links Soziale Medien"
