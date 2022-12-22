@@ -287,7 +287,7 @@ msgstr "Osta toinen lisenssi"
 
 #: includes/admin-screens/dashboard.php:121
 msgid "Sale"
-msgstr ""
+msgstr "Ale"
 
 #: includes/admin-screens/dashboard.php:124
 #: includes/class-avada-migrate.php:387
@@ -557,7 +557,7 @@ msgstr ""
 #: includes/admin-screens/performance.php:239
 #: includes/admin-screens/performance.php:518
 msgid "Apply All"
-msgstr ""
+msgstr "Asenna paikat"
 
 #: includes/admin-screens/performance.php:103
 msgid "Disable Unused Features"
@@ -3001,7 +3001,7 @@ msgid ""
 "of narrated HD video tutorials to help teach you the different aspects of "
 "using the Avada Website Builder."
 msgstr ""
-"Opi katsomalla videoita. Kasvava kirjastomme sisältää korkealaatuisia, "
+"Opi katsomalla videoita. Kasvava kirjastomme sisältää korkealaatuisia "
 "opasvideoita, mitkä opettavat käyttämään Avada Website Builder:n "
 "monipuolisia ominaisuuksia."
 
@@ -3870,7 +3870,7 @@ msgstr ""
 
 #: includes/class-avada-admin.php:606
 msgid "Apply patches for your version."
-msgstr ""
+msgstr "Asenna versiokohtaisia korjauspäivityksiä."
 
 #: includes/class-avada-admin.php:616
 msgid "Manage plugins & get add-ons."
@@ -4962,7 +4962,7 @@ msgstr "Seurantaevästeet"
 #. translators: The placeholder label (embed-type).
 #: includes/class-avada-privacy-embeds.php:981
 msgid "For privacy reasons %s needs your permission to be loaded."
-msgstr ""
+msgstr "Palvelun %s toiminta edellyttää yksityisyysasetuksien muuttamista."
 
 #. translators: The link to the privacy page (embed-type).
 #: includes/class-avada-privacy-embeds.php:987
@@ -7355,11 +7355,11 @@ msgstr "Paikka #"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:357
 msgid "Applied"
-msgstr ""
+msgstr "Asennettu"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:362
 msgid "Apply"
-msgstr ""
+msgstr "Asenna"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:364
 msgid "Dismiss Notices"
@@ -7368,7 +7368,7 @@ msgstr ""
 #. translators: The patch-ID.
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:372
 msgid "Apply patch #%s first."
-msgstr ""
+msgstr "Asenna ensin paikka #%s."
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:374
 msgid "Patch cannot be currently aplied."
@@ -7476,10 +7476,12 @@ msgid ""
 "In order to import a prebuilt website Avada must be registered. No purchase "
 "code was found."
 msgstr ""
+"Ostokoodia ei löydy. Avadan tulee olla rekisteröity ennen näytesivustojen "
+"latausta."
 
 #: includes/lib/inc/class-fusion-product-registration.php:370
 msgid "No purchase code was provided."
-msgstr ""
+msgstr "Ostokoodia ei ole syötetty."
 
 #: includes/lib/inc/class-fusion-product-registration.php:375
 msgid "No domain was passed on and therefore revoke could not be confirmed."
@@ -7513,12 +7515,16 @@ msgid ""
 "In order to import a prebuilt website Avada must be registered. The purchase "
 "code being used does not seem to be valid."
 msgstr ""
+"Virheellinen ostokoodi. Avadan tulee olla rekisteröity ennen näytesivustojen "
+"latausta."
 
 #: includes/lib/inc/class-fusion-product-registration.php:397
 msgid ""
 "Envato API did not respond. Either the purchase code is incorrect or the API "
 "is temporarily unavailable."
 msgstr ""
+"Envaton API-rajapinta ei vastaa. Tämä voi johtua virheellisestä ostokoodista "
+"tai rajapinnan tilapäisestä toimintahäiriöstä."
 
 #: includes/lib/inc/class-fusion-product-registration.php:402
 #: includes/lib/inc/class-fusion-product-registration.php:410
@@ -7535,17 +7541,22 @@ msgid ""
 "In order to import a prebuilt website Avada must be registered. The current "
 "domain does not match our records."
 msgstr ""
+"Rekisterimme ei tunnista ilmoitettua verkkotunnusta. Avadan tulee olla "
+"rekisteröity ennen näytesivustojen latausta."
 
 #: includes/lib/inc/class-fusion-product-registration.php:415
 #: includes/lib/inc/class-fusion-product-registration.php:420
 msgid "The purchase code is already being used on another staging domain."
 msgstr ""
+"Ostokoodi on jo käytössä toisen verkkotunnuksen testisivustolla."
 
 #: includes/lib/inc/class-fusion-product-registration.php:418
 msgid ""
 "In order to import a prebuilt website Avada must be registered. The current "
 "staging domain does not match our records."
 msgstr ""
+"Testisivuston verkkotunnus ei vastaa rekisterimme tietoja. Avadan tulee olla "
+"rekisteröity ennen näytesivustojen latausta."
 
 #. translators: "ThemeFusion" contact link.
 #: includes/lib/inc/class-fusion-product-registration.php:425
@@ -7556,7 +7567,8 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-product-registration.php:429
 msgid "Sorry, the API is currently overloaded. Please try again later."
-msgstr ""
+msgstr "API-rajapinta on ylikuormitustilassa. Ole hyvä ja yritä myöhemmin "
+"uudelleen."
 
 #. translators: "ThemeFusion" contact link.
 #: includes/lib/inc/class-fusion-product-registration.php:434
@@ -7564,10 +7576,12 @@ msgid ""
 "The purchase code has been registered too many times. Please contact %s to "
 "resolve."
 msgstr ""
+"Ostokoodi on rekisteröity liian monta kertaa. Ota yhteyttä %s asian "
+"ratkaisemiseksi."
 
 #: includes/lib/inc/class-fusion-product-registration.php:437
 msgid "Unknown error encountered. Please try again later."
-msgstr ""
+msgstr "Tuntematon virhe. Ole hyvä ja yritä myöhemmin uudelleen."
 
 #: includes/lib/inc/class-fusion-product-registration.php:709
 msgid "Register Your Website"
@@ -7579,7 +7593,7 @@ msgstr "Sivustosi on rekisteröity"
 
 #: includes/lib/inc/class-fusion-product-registration.php:715
 msgid "How To?"
-msgstr "Miten toimia"
+msgstr "Miten toimia?"
 
 #. translators: Link.
 #: includes/lib/inc/class-fusion-product-registration.php:723
@@ -7597,6 +7611,10 @@ msgid ""
 "will be sent to a ThemeFusion server located in the U.S. to verify the "
 "purchase."
 msgstr ""
+"Avadan automaattisia päivityksiä, näytesivustoja ja Premium-lisäosia "
+"voivat ladata vain rekisteröidyt käyttäjät. Tarkistamme käyttöoikeuden "
+"lähettämällä ostokoodin ja sivuston verkkotunnuksen USA:ssa "
+"sijaitsevalle ThemeFusion:n palvelimelle."
 
 #: includes/lib/inc/class-fusion-product-registration.php:734
 msgid ""
@@ -7606,7 +7624,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-product-registration.php:755
 msgid "Register Now"
-msgstr ""
+msgstr "Aloita rekisteröinti"
 
 #: includes/lib/inc/class-fusion-product-registration.php:757
 msgid "Unregister"
@@ -7614,7 +7632,7 @@ msgstr "Peruuta"
 
 #: includes/lib/inc/class-fusion-product-registration.php:776
 msgid "How To Find Your Purchase Code"
-msgstr ""
+msgstr "Mistä ostokoodi löytyy?"
 
 #. translators: "ThemeForest sign in link" link.
 #: includes/lib/inc/class-fusion-product-registration.php:782
@@ -7626,7 +7644,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-product-registration.php:783
 msgid "ThemeForest account"
-msgstr ""
+msgstr "ThemeForest-asiakastili"
 
 #. translators: "Generate A Personal Token" link.
 #: includes/lib/inc/class-fusion-product-registration.php:791
