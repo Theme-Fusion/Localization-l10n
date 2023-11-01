@@ -228,7 +228,7 @@ msgstr ""
 #. translators: %s: user name
 #: includes/admin-screens/dashboard.php:51 includes/admin-screens/setup.php:36
 msgid "Welcome To Avada, %s!"
-msgstr ""
+msgstr "Tervetuloa Avadan pariin, %s!"
 
 #: includes/admin-screens/dashboard.php:52
 msgid ""
@@ -238,16 +238,16 @@ msgstr ""
 #. translators: %s: The username.
 #: includes/admin-screens/dashboard.php:55
 msgid "Hello %s!"
-msgstr ""
+msgstr "Hei"
 
 #: includes/admin-screens/dashboard.php:56
 msgid "Welcome back to the Avada dashboard. Take a look at our latest update."
-msgstr ""
+msgstr "Tervetuloa takaisin. Tutustu uusimpaan päivitykseen."
 
 #. translators: %s: version number.
 #: includes/admin-screens/dashboard.php:68
 msgid "What’s New In Avada %s"
-msgstr ""
+msgstr "Mitä uutta on versiossa %s"
 
 #: includes/admin-screens/dashboard.php:71
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:112
@@ -325,7 +325,7 @@ msgstr ""
 
 #: includes/admin-screens/dashboard.php:149
 msgid "Enjoy 4 months free!"
-msgstr ""
+msgstr "4 kuukautta maksutta!"
 
 #: includes/admin-screens/dashboard.php:152
 #: includes/admin-screens/dashboard.php:169
@@ -1139,6 +1139,8 @@ msgid ""
 "Premium Plugins Can Only Be Installed And Updated With Valid Product "
 "Registration"
 msgstr ""
+"Avadan rekisteröinti on edellytys Premium-lisäosien asentamiselle ja "
+"päivittämiselle."
 
 #. translators: "Product Registration" link.
 #: includes/admin-screens/plugins.php:76
@@ -1234,7 +1236,7 @@ msgstr ""
 
 #: includes/admin-screens/plugins.php:209
 msgid "Add-ons are only supported by the author who created them."
-msgstr ""
+msgstr "Lisäosien tuesta vastaavat niiden kehittäjät."
 
 #: includes/admin-screens/plugins.php:255
 msgid "Active:"
@@ -1566,21 +1568,23 @@ msgstr ""
 
 #: includes/admin-screens/setup.php:50
 msgid "Activate Avada Plugins"
-msgstr ""
+msgstr "Aktivoi Avadan lisäosia"
 
 #: includes/admin-screens/setup.php:52
 msgid ""
 "Avada plugins are not active, it is required to activate them before "
 "continuing."
 msgstr ""
+"Jatkaminen edellyttää Avadan lisäosan/-osien aktivointia."
 
 #: includes/admin-screens/setup.php:54
 msgid "Page will reload after plugins are activated."
 msgstr ""
+"Sivu latautuu uudelleen lisäosan/-osien aktivoinnin jälkeen."
 
 #: includes/admin-screens/setup.php:56
 msgid "Activate Plugins"
-msgstr ""
+msgstr "Aktivoi lisäosia"
 
 #: includes/admin-screens/setup.php:67
 msgid "Select A Setup Type"
@@ -7436,24 +7440,28 @@ msgid ""
 "The %1$sPatcher%2$s allows you to apply small fixes to your site between "
 "Avada releases, thereby keeping your site up to date."
 msgstr ""
+"%1$sPatcher-paikkatyökalun%2$s avulla pidät sivusi koodin "
+"ajan tasalla myös varsinaisten versiopäivitysten välillä."
 
 #. translators: The product name and its version.
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:255
 msgid "Currently there are no patches available for %1$s %2$s"
 msgstr ""
+"Paikkoja ei ole tarjolla tuotteeseen %1$s %2$s"
 
 #. translators: The product name and its version.
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:258
 msgid "The following patches are available for %1$s %2$s"
 msgstr ""
+"Paikkoja tarjolla tuotteeseen %1$s %2$s"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:264
 msgid "Apply All Patches"
-msgstr ""
+msgstr "Asenna kaikki paikat"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:271
 msgid "Patch can be reapplied if necessary."
-msgstr ""
+msgstr "Paikka on mahdollista asentaa tarvittaessa uudelleen."
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:289
 msgid "Patch #"
@@ -7772,10 +7780,12 @@ msgid ""
 "certificate & purchase code (text). This should then download either a text "
 "or PDF file."
 msgstr ""
+"Lataa tiedosto License certificate & purchase code (PDF), tai "
+"License certificate & purchase code (text)."
 
 #: includes/lib/inc/class-fusion-product-registration.php:807
 msgid "Open up that newly downloaded file and copy the Item Purchase Code."
-msgstr ""
+msgstr "Avaa ladattu tiedosto ja kopioi ostokoodi (Purchase Code)."
 
 #: includes/lib/inc/class-fusion-scripts.php:594
 msgid "Press Esc to close"
@@ -7835,7 +7845,7 @@ msgstr "Suurenna"
 #: includes/metaboxes/tabs/tab_portfolio_post.php:187
 #: includes/metaboxes/tabs/tab_post.php:112 includes/options/extra.php:574
 msgid "No Icons"
-msgstr "Otsikon taustaväri"
+msgstr ""
 
 #. translators: The value.
 #. translators: The default value.
