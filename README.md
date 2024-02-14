@@ -1,6 +1,6 @@
 # Avada Translations
 
-In this repository, you can find translations for allcomponents of the [Avada Website Builder](https://avada.com/) products, and contribute translations for your own language.
+In this repository, you can find translations for all components of the [Avada Website Builder](https://avada.com/) products, and contribute translations for your language.
 
 ## Who maintains this repository
 
@@ -11,13 +11,13 @@ You can find a list of contributors on [this page](https://github.com/Theme-Fusi
 ## How to Contribute
 
 If you find that some strings are not translated for your language, you can use software like [Poedit](https://poedit.net/) which is free and cross-platform to translate them, and then submit your updated files so we can include them.  
-**IMPORTANT**: Make sure sure you are using the latest files for your locale _before_ you start translating them.
+**IMPORTANT**: Make sure you are using the latest files for your locale _before_ you start translating them.
 
-You can find instruction on how to fork the repository and contribute back in this [GitHub guide](https://guides.github.com/activities/forking/#making-a-pull-request).
+You can find instructions on how to fork the repository and contribute back in this [GitHub guide](https://guides.github.com/activities/forking/#making-a-pull-request).
 
-If you are not comfortable using GitHub for your translations you can also submit them by sending an email to our support team, and we will submit the updated translations for you > support@theme-fusion.com
+If you are not comfortable using GitHub for your translations you can also submit them by sending an email to our support team, and we will submit the updated translations for you > support@avada.com
 
-There is no need to submit `.mo` or `.zip` files, we automatically generate these after your translations are merged. The only thing that should be included in your pull-request is an updated `.po` file for your locale.
+There is no need to submit `.mo` or `.zip` files, we automatically generate these after your translations are merged. The only thing that should be included in your pull request is an updated `.po` file for your locale.
 
 ## Review Process
 
