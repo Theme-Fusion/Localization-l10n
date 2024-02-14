@@ -1,6 +1,6 @@
-# ThemeFusion Translations
+# Avada Translations
 
-In this repository you can find translations for all [ThemeFusion](https://theme-fusion.com/) products, and contribute translations for your own language.
+In this repository, you can find translations for allcomponents of the [Avada Website Builder](https://avada.com/) products, and contribute translations for your own language.
 
 ## Who maintains this repository
 
