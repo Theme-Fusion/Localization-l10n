@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2024-02-26 14:23:18+00:00\n"
+"POT-Creation-Date: 2024-03-13 14:09:44+00:00\n"
 "PO-Revision-Date: 2020-12-12 11:10+0100\n"
 "Last-Translator: wassereimer <wassereimer@wassereimer.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/avada/"
@@ -1224,51 +1224,6 @@ msgstr "Premium"
 msgid "Error "
 msgstr "Fehler "
 
-#: includes/admin-screens/plugins.php:203
-msgid "Get Avada Add-ons"
-msgstr "Erhalte Avada Erweiterungen"
-
-#: includes/admin-screens/plugins.php:204
-msgid ""
-"The Avada Website Builder ecosystem offers a variety of third-party add-ons "
-"that extend core features and deliver tailored solutions for specific tasks."
-msgstr ""
-
-#: includes/admin-screens/plugins.php:209
-msgid "Add-ons are only supported by the author who created them."
-msgstr ""
-
-# @ Avada
-#: includes/admin-screens/plugins.php:255
-msgid "Active:"
-msgstr "Aktiv:"
-
-#. translators: %1$s: Version. %2$s: Author.
-#: includes/admin-screens/plugins.php:265
-msgid "v%1$s | %2$s"
-msgstr "v%1$s | %2$s"
-
-#: includes/admin-screens/plugins.php:275 includes/class-avada-admin.php:1214
-msgid "Deactivate"
-msgstr "Deaktivieren"
-
-# @ Avada
-#: includes/admin-screens/plugins.php:277
-#: includes/admin-screens/prebuilt-websites-import-modal.php:53
-#: includes/class-avada-admin.php:1175
-#: includes/class-avada-tgm-plugin-activation.php:2791
-msgid "Activate"
-msgstr "Aktivieren"
-
-#: includes/admin-screens/plugins.php:280
-msgid "Get Add-on"
-msgstr "Erhalte die Erweiterung"
-
-#: includes/admin-screens/plugins.php:293
-#: includes/admin-screens/prebuilt-websites-demo.php:94
-msgid "New"
-msgstr "Neu"
-
 # @ Avada
 #: includes/admin-screens/prebuilt-websites-demo.php:27
 #: includes/lib/inc/fusion-app/helpers.php:494
@@ -1324,6 +1279,10 @@ msgstr "Teilweiser Import"
 msgid "Preview"
 msgstr "Vorschau"
 
+#: includes/admin-screens/prebuilt-websites-demo.php:94
+msgid "New"
+msgstr "Neu"
+
 #: includes/admin-screens/prebuilt-websites-import-modal.php:22
 msgid "Live Preview"
 msgstr "Live Vorschau"
@@ -1361,6 +1320,13 @@ msgstr "Installieren"
 #: includes/metaboxes/tabs/tab_form_steps.php:930
 msgid "Active"
 msgstr "Aktiv"
+
+# @ Avada
+#: includes/admin-screens/prebuilt-websites-import-modal.php:53
+#: includes/class-avada-admin.php:1175
+#: includes/class-avada-tgm-plugin-activation.php:2791
+msgid "Activate"
+msgstr "Aktivieren"
 
 #: includes/admin-screens/prebuilt-websites-import-modal.php:88
 msgid "Import Content"
@@ -3287,7 +3253,7 @@ msgid "(no title)"
 msgstr "(kein Titel)"
 
 #: includes/avada-app/class-fusion-panel.php:842
-#: includes/class-avada-woocommerce.php:2166
+#: includes/class-avada-woocommerce.php:2168
 msgid "Default Template"
 msgstr "Standard-Template"
 
@@ -3939,7 +3905,8 @@ msgstr ""
 msgid "Library"
 msgstr "Bibliothek"
 
-#: includes/class-avada-admin-bar.php:86
+#: includes/class-avada-admin-bar.php:86 includes/class-avada-admin.php:371
+#: includes/class-avada-admin.php:624
 msgid "Plugins"
 msgstr "Plugins"
 
@@ -3954,7 +3921,7 @@ msgid "Reset Avada Caches"
 msgstr "Avada Cache zurücksetzen"
 
 #: includes/class-avada-admin-bar.php:161 includes/class-avada-admin.php:230
-#: includes/class-avada-woocommerce.php:1120
+#: includes/class-avada-woocommerce.php:1122
 msgid "Dashboard"
 msgstr "Übersichts-Bereich"
 
@@ -3980,10 +3947,6 @@ msgstr ""
 #: includes/options/maintenance.php:49
 msgid "Maintenance"
 msgstr "Wartung"
-
-#: includes/class-avada-admin.php:371 includes/class-avada-admin.php:624
-msgid "Plugins & Add-ons"
-msgstr "Plugins & Erweiterungen"
 
 #: includes/class-avada-admin.php:373 includes/options/performance.php:64
 msgid "Performance"
@@ -4015,8 +3978,8 @@ msgid "Apply patches for your version."
 msgstr "Wende die Patches auf deine Version an."
 
 #: includes/class-avada-admin.php:625
-msgid "Manage plugins & get add-ons."
-msgstr "Verwalte Plugins & erhalte Erweiterungen."
+msgid "Manage plugins."
+msgstr ""
 
 #: includes/class-avada-admin.php:635
 msgid "Maintenance & Coming Soon mode."
@@ -4113,6 +4076,10 @@ msgstr "Aktualisieren"
 #: includes/class-avada-admin.php:1214
 msgid "Deactivate %s"
 msgstr "Deaktiviere %s"
+
+#: includes/class-avada-admin.php:1214
+msgid "Deactivate"
+msgstr "Deaktivieren"
 
 #: includes/class-avada-admin.php:1248
 msgid "Avada Builder will be installable, once Avada Core plugin is updated."
@@ -4393,7 +4360,7 @@ msgstr "XXL"
 #: includes/class-avada-eventscalendar.php:244
 #: includes/class-avada-eventscalendar.php:276
 #: includes/class-avada-eventscalendar.php:308
-#: includes/class-avada-woocommerce.php:1940
+#: includes/class-avada-woocommerce.php:1942
 msgid "NOTE"
 msgstr "HINWEIS"
 
@@ -6003,26 +5970,26 @@ msgid "Avada Button"
 msgstr ""
 
 # @ woocommerce
-#: includes/class-avada-woocommerce.php:970
+#: includes/class-avada-woocommerce.php:972
 msgid "Clear selection"
 msgstr "Auswahl aufheben"
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1757
+#: includes/class-avada-woocommerce.php:1759
 msgid "You Have %s Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] "Du hast %s Artikel in deinem Warenkorb"
 msgstr[1] "Du hast %s Artikel in deinem Warenkorb"
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:1880
-#: includes/class-avada-woocommerce.php:1898
+#: includes/class-avada-woocommerce.php:1882
+#: includes/class-avada-woocommerce.php:1900
 #: includes/lib/inc/fusion-app/helpers.php:606
 msgid "Continue"
 msgstr "Weiter"
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:1942
+#: includes/class-avada-woocommerce.php:1944
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
@@ -6030,12 +5997,12 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-woocommerce.php:2058
+#: includes/class-avada-woocommerce.php:2060
 #: templates/wc-show-details-button.php:20
 msgid "Details"
 msgstr "Details"
 
-#: includes/class-avada-woocommerce.php:2061
+#: includes/class-avada-woocommerce.php:2063
 msgid "Not all fields have been filled in correctly."
 msgstr "Nicht alle Felder wurden richtig ausgefüllt."
 
@@ -15958,7 +15925,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_seo.php:32
 msgid ""
 "Insert the SEO title. Available placeholders are [site_title], "
-"[site_tagline], [post_title], and [separator]. Separator is currenrly set "
+"[site_tagline], [post_title], and [separator]. Separator is currently set "
 "to: %s."
 msgstr ""
 
@@ -15970,7 +15937,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_seo.php:41
 msgid ""
 "Insert your post meta description. Available placeholders are [site_title], "
-"[site_tagline], [post_title], and [separator]. Separator is currenrly set "
+"[site_tagline], [post_title], and [separator]. Separator is currently set "
 "to: %s."
 msgstr ""
 
@@ -16601,15 +16568,16 @@ msgid ""
 msgstr ""
 
 #: includes/options/advanced.php:390
-msgid "Open Graph Meta Tags"
+msgid "Description And Open Graph Meta Tags"
 msgstr ""
 
 #: includes/options/advanced.php:391
 msgid ""
-"Turn on to enable open graph meta tags which are mainly used when sharing "
-"pages on social networking sites like Facebook. <strong>IMPORTANT:</strong> "
-"Some optimization plugins, like e.g. Yoast SEO, add their own implementation "
-"of this, and if you want to use that, this option should be disabled."
+"Turn on to enable custom description meta tag and open graph meta tags which "
+"are mainly used when sharing pages on social networking sites like Facebook. "
+"<strong>IMPORTANT:</strong> Some optimization plugins, like e.g. Yoast SEO, "
+"add their own implementation of this, and if you want to use that, this "
+"option should be disabled."
 msgstr ""
 
 #: includes/options/advanced.php:399
@@ -25296,6 +25264,25 @@ msgstr ""
 msgctxt "%s Events plural label"
 msgid "All %s"
 msgstr ""
+
+#~ msgid "Get Avada Add-ons"
+#~ msgstr "Erhalte Avada Erweiterungen"
+
+# @ Avada
+#~ msgid "Active:"
+#~ msgstr "Aktiv:"
+
+#~ msgid "v%1$s | %2$s"
+#~ msgstr "v%1$s | %2$s"
+
+#~ msgid "Get Add-on"
+#~ msgstr "Erhalte die Erweiterung"
+
+#~ msgid "Plugins & Add-ons"
+#~ msgstr "Plugins & Erweiterungen"
+
+#~ msgid "Manage plugins & get add-ons."
+#~ msgstr "Verwalte Plugins & erhalte Erweiterungen."
 
 #~ msgid ""
 #~ "Avada uses this method to communicate with different APIs, e.g. Google, "
