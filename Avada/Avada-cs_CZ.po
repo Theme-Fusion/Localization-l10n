@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2025-05-05 14:02:45+00:00\n"
+"POT-Creation-Date: 2025-07-07 09:08:53+00:00\n"
 "PO-Revision-Date: 2021-01-12 08:48+0100\n"
 "Last-Translator: Miloš Havlíček <miloshavlicek@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/"
@@ -115,7 +115,7 @@ msgstr[2] "% komentářů"
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
 #: includes/class-avada-woocommerce.php:868
-#: includes/lib/inc/class-fusion-scripts.php:592
+#: includes/lib/inc/class-fusion-scripts.php:593
 #: includes/lib/inc/functions.php:1096
 #: includes/lib/inc/fusion-app/helpers.php:575 single-wpfc_sermon.php:21
 #: single.php:20
@@ -129,7 +129,7 @@ msgstr "Předchozí"
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
 #: includes/class-avada-woocommerce.php:869
-#: includes/lib/inc/class-fusion-scripts.php:591
+#: includes/lib/inc/class-fusion-scripts.php:592
 #: includes/lib/inc/functions.php:1142
 #: includes/lib/inc/fusion-app/helpers.php:576 single-wpfc_sermon.php:22
 #: single.php:21
@@ -159,7 +159,7 @@ msgid "Email (required)"
 msgstr "Emailová adresa (vyžadováno)"
 
 # @ Avada
-#: comments.php:70 includes/lib/inc/class-fusion-social-icon.php:206
+#: comments.php:70 includes/lib/inc/class-fusion-social-icon.php:216
 #: includes/metaboxes/tabs/tab_form_notifications.php:89
 #: includes/options/social_media.php:845
 msgid "Email"
@@ -571,9 +571,9 @@ msgstr ""
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:216
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:227
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:238
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:261
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:272
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:294
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:273
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:284
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:295
 #: includes/lib/inc/fusion-app/helpers.php:475
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:45
 #: includes/metaboxes/tabs/tab_page.php:204 includes/options/advanced.php:489
@@ -596,9 +596,9 @@ msgstr "Zapnuto"
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:217
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:228
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:239
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:262
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:273
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:295
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:274
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:285
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:296
 #: includes/lib/inc/fusion-app/helpers.php:476
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:48
 #: includes/metaboxes/tabs/tab_page.php:205 includes/options/advanced.php:490
@@ -1098,8 +1098,8 @@ msgstr ""
 msgid ""
 "Avada Core and Avada Builder are required plugins for the Avada Website "
 "Builder. Avada Custom Branding, Convert Plus, ACF Pro, Slider Revolution & "
-"Layer Slider are premium plugins that can be installed once your <a "
-"href=\"%s\">product is registered</a>."
+"Layer Slider are premium plugins that can be installed once your <a href=\"%s"
+"\">product is registered</a>."
 msgstr ""
 
 #: includes/admin-screens/plugins.php:69
@@ -1247,7 +1247,7 @@ msgstr "Částečný import"
 # @ Avada
 #: includes/admin-screens/prebuilt-websites-demo.php:89
 #: includes/avada-app/fusion-panel.php:154
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2349
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2353
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:149
 #: includes/metaboxes/metaboxes.php:658
 #: includes/metaboxes/tabs/tab_template.php:146
@@ -1429,8 +1429,8 @@ msgstr "Přegenerovat náhledy"
 #. translators: "Permalinks" link.
 #: includes/admin-screens/prebuilt-websites.php:34
 msgid ""
-"Please visit the %s page and change your permalinks structure to \"Post "
-"Name\" so that content links work properly."
+"Please visit the %s page and change your permalinks structure to \"Post Name"
+"\" so that content links work properly."
 msgstr ""
 "Navštivte, prosím, stránku %s a změňte svou strukturu trvalých odkazů na "
 "\"Název příspěvku\", aby odkazy na obsah fungovaly správně."
@@ -2471,9 +2471,9 @@ msgstr ""
 "verzí. Jedná se o automatický proces, ke kterému dochází po aktualizaci. Ve "
 "výjimečných situacích bude možná nutné znovu spustit převod, pokud došlo k "
 "problému prostřednictvím automatického procesu. Následující ovládací prvky "
-"vám to v případě potřeby umožňují. Prosím<a href=\"%s\" "
-"target=\"_blank\">kontaktujte náš tým podpory</a>přes tiket pokud máte "
-"nějaké dotazy nebo potřebujete pomoc."
+"vám to v případě potřeby umožňují. Prosím<a href=\"%s\" target=\"_blank"
+"\">kontaktujte náš tým podpory</a>přes tiket pokud máte nějaké dotazy nebo "
+"potřebujete pomoc."
 
 #. translators: Version Number.
 #: includes/admin-screens/status.php:240 includes/admin-screens/status.php:259
@@ -2626,8 +2626,8 @@ msgstr ""
 msgid ""
 "%1$s - We recommend setting memory to at least <strong>128MB</strong>. "
 "Please define memory limit in <strong>wp-config.php</strong> file. To learn "
-"how, see: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">Increasing memory allocated to PHP.</a>"
+"how, see: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">Increasing memory allocated to PHP.</a>"
 msgstr ""
 "%1$s - Doporučujeme nastavit paměť alespoň na <strong>128 MB</strong>. "
 "Zadejte prosím limit paměti v souboru <strong>wp-config.php</strong>. Další "
@@ -2753,13 +2753,13 @@ msgstr ""
 #: includes/admin-screens/status.php:610
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
-"POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">Increasing max input vars limit.</a>"
+"POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Increasing max input vars limit.</a>"
 msgstr ""
 "%1$s - Doporučená hodnota: %2$s.<br/>Omezení maximálních vstupních "
-"proměnných zkrátí POST data jako jsou nabídky. Viz: <a href=\"%3$s\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">Zvýšení maximálního limitu "
-"vstupních proměnných (max input vars limit).</a>"
+"proměnných zkrátí POST data jako jsou nabídky. Viz: <a href=\"%3$s\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Zvýšení maximálního limitu vstupních "
+"proměnných (max input vars limit).</a>"
 
 # @ Avada
 #: includes/admin-screens/status.php:538
@@ -3929,11 +3929,11 @@ msgid ""
 "the page template which will eventually be removed."
 msgstr ""
 "Šablona stránky „Boční navigace“ bude v budoucí verzi Avada zastaralá. "
-"Nahradili jsme ji lepším řešením, <a href=\"%s\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">pomůckou Avada svislé menu</a>. Tento nový "
-"widget nabízí stejné funkce, ale s větší flexibilitou. Pracuje se systémem "
-"nabídky WP. Použijte prosím tuto novou metodu místo šablony stránky, která "
-"bude nakonec odstraněna."
+"Nahradili jsme ji lepším řešením, <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">pomůckou Avada svislé menu</a>. Tento nový widget "
+"nabízí stejné funkce, ale s větší flexibilitou. Pracuje se systémem nabídky "
+"WP. Použijte prosím tuto novou metodu místo šablony stránky, která bude "
+"nakonec odstraněna."
 
 #: includes/class-avada-admin.php:396 includes/class-avada-admin.php:612
 #: includes/class-awb-maintenance-mode.php:71
@@ -4163,8 +4163,8 @@ msgstr ""
 #: includes/class-avada-admin.php:1500
 msgid ""
 "This plugin can only be installed or updated, after you have successfully "
-"completed the Avada product registration on the <a href=\"%s\" "
-"target=\"_blank\">Dashboard Welcome</a> tab."
+"completed the Avada product registration on the <a href=\"%s\" target="
+"\"_blank\">Dashboard Welcome</a> tab."
 msgstr ""
 
 #: includes/class-avada-admin.php:1501
@@ -4377,8 +4377,8 @@ msgstr "POZNÁMKA"
 msgid ""
 "You can control the post title color from the Avada Global Options panel "
 "through the <a href=\"%1$s\" target=\"_blank\">Events Primary Color Overlay "
-"Text Color</a> setting. Avada has additional <a href=\"%2$s\" "
-"target=\"_blank\">Event Calendar settings</a> in Global Options."
+"Text Color</a> setting. Avada has additional <a href=\"%2$s\" target=\"_blank"
+"\">Event Calendar settings</a> in Global Options."
 msgstr ""
 
 #. translators: EC Customizer notice.
@@ -4474,10 +4474,10 @@ msgstr "Mega menu"
 #: includes/class-avada-megamenu-framework.php:161
 msgid ""
 "Select a pre-created mega menu item from the Avada Library, that should be "
-"displayed. To create a new mega menu, visit the <a href=\"%s\" "
-"target=\"_blank\">Avada Library</a>. Mega menus are disabled on menus in "
-"mobile mode and are replaced by sub-menu items that have been added to a "
-"parent mega menu item."
+"displayed. To create a new mega menu, visit the <a href=\"%s\" target="
+"\"_blank\">Avada Library</a>. Mega menus are disabled on menus in mobile "
+"mode and are replaced by sub-menu items that have been added to a parent "
+"mega menu item."
 msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:168
@@ -7353,12 +7353,12 @@ msgid "Email Address"
 msgstr "E-mailová adresa"
 
 #: includes/lib/inc/class-fusion-data.php:186
-#: includes/lib/inc/class-fusion-social-icon.php:208
+#: includes/lib/inc/class-fusion-social-icon.php:218
 msgid "Phone"
 msgstr ""
 
 #: includes/lib/inc/class-fusion-data.php:194
-#: includes/lib/inc/class-fusion-social-icon.php:214
+#: includes/lib/inc/class-fusion-social-icon.php:224
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:118
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:203
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:180
@@ -7941,29 +7941,29 @@ msgstr ""
 msgid "Open up that newly downloaded file and copy the Item Purchase Code."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:587
+#: includes/lib/inc/class-fusion-scripts.php:588
 msgid "Press Esc to close"
 msgstr "Klikněte Esc pro zavření"
 
-#: includes/lib/inc/class-fusion-scripts.php:588
+#: includes/lib/inc/class-fusion-scripts.php:589
 msgid "Enter Fullscreen (Shift+Enter)"
 msgstr "Na celou obrazovku (Shift+Enter)"
 
-#: includes/lib/inc/class-fusion-scripts.php:589
+#: includes/lib/inc/class-fusion-scripts.php:590
 msgid "Exit Fullscreen (Shift+Enter)"
 msgstr "Ukončit celou obrazovku (Shift+Enter)"
 
-#: includes/lib/inc/class-fusion-scripts.php:590
+#: includes/lib/inc/class-fusion-scripts.php:591
 msgid "Slideshow"
 msgstr "Prezentace"
 
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:642
+#: includes/lib/inc/class-fusion-scripts.php:643
 msgid "Loading the next set of posts..."
 msgstr "Načítání další sady příspěvků ..."
 
 # @ Avada
-#: includes/lib/inc/class-fusion-scripts.php:643
+#: includes/lib/inc/class-fusion-scripts.php:644
 msgid "All items displayed."
 msgstr "Všechny položky jsou zobrazeny."
 
@@ -8076,12 +8076,12 @@ msgstr ""
 "<a %1$s>%2$s</a>."
 
 #. translators: Social network name
-#: includes/lib/inc/class-fusion-social-sharing.php:187
+#: includes/lib/inc/class-fusion-social-sharing.php:188
 msgid "Share on %s"
 msgstr ""
 
 #. translators: Share by email
-#: includes/lib/inc/class-fusion-social-sharing.php:192
+#: includes/lib/inc/class-fusion-social-sharing.php:193
 msgid "Share by %s"
 msgstr ""
 
@@ -8227,134 +8227,134 @@ msgstr ""
 msgid "Post Card"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1728
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1732
 msgid "You do not have permission to edit this post."
 msgstr "Nemáte dostatečná oprávnění k úpravě tohoto příspěvku."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1792
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1796
 msgid "The page contents updated."
 msgstr "Obsah stránky byl aktualizován."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1799
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1803
 msgid "You do not have permission to edit this archive."
 msgstr "Nemáte oprávnění k úpravám tohoto archivu."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1834
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1838
 msgid "The archive details updated."
 msgstr "Podrobnosti archivu byly aktualizovány."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2059
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2060
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2063
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2064
 #: includes/options/performance.php:200
 msgid "Ultra-Light 100"
 msgstr "Ultralehký 100"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2061
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2065
 #: includes/options/performance.php:201
 msgid "Ultra-Light 100 Italic"
 msgstr "Ultratenká 100 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2062
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2066
 #: includes/options/performance.php:202
 msgid "Light 200"
 msgstr "Tenká 200"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2063
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2067
 #: includes/options/performance.php:203
 msgid "Light 200 Italic"
 msgstr "Tenká 200 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2064
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2068
 #: includes/options/performance.php:204
 msgid "Book 300"
 msgstr "Knižní 300"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2065
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2069
 #: includes/options/performance.php:205
 msgid "Book 300 Italic"
 msgstr "Knižní 300 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2066
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2067
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2070
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2071
 #: includes/options/performance.php:206
 msgid "Normal 400"
 msgstr "Normální 400"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2068
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2072
 #: includes/options/performance.php:207
 msgid "Normal 400 Italic"
 msgstr "Normální 400 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2069
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2073
 #: includes/options/performance.php:208
 msgid "Medium 500"
 msgstr "Střední 500"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2070
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2074
 #: includes/options/performance.php:209
 msgid "Medium 500 Italic"
 msgstr "Střední 500 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2071
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2072
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2075
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2076
 #: includes/options/performance.php:210
 msgid "Semi-Bold 600"
 msgstr "Středně tučné 600"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2073
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2077
 #: includes/options/performance.php:211
 msgid "Semi-Bold 600 Italic"
 msgstr "Středně tučné 600 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2074
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2078
 #: includes/options/performance.php:212
 msgid "Bold 700"
 msgstr "Tučné 700"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2075
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2079
 #: includes/options/performance.php:213
 msgid "Bold 700 Italic"
 msgstr "Tučné 700 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2076
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2077
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2080
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2081
 #: includes/options/performance.php:214
 msgid "Extra-Bold 800"
 msgstr "Extra tučné 800"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2078
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2082
 #: includes/options/performance.php:215
 msgid "Extra-Bold 800 Italic"
 msgstr "Extra tučné 800 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2079
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2080
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2083
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2084
 #: includes/options/performance.php:216
 msgid "Ultra-Bold 900"
 msgstr "Ultra tučné 900"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2081
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2085
 #: includes/options/performance.php:217
 msgid "Ultra-Bold 900 Italic"
 msgstr "Ultra tučné 900 kurzíva"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2336
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2340
 msgid "Go back"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2344
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2348
 msgid "Back to"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2351
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2355
 msgid "Take Over"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2360
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2364
 msgid "is currently editing this post. Do you want to take over?"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2366
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2370
 msgid "has taken over and is currently editing."
 msgstr ""
 
@@ -8462,60 +8462,71 @@ msgid "Choose if element transform options preview."
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:249
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:261
 msgid "Always"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:250
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:262
 msgid "Editing"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:251
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:263
 #: includes/metaboxes/tabs/tab_template.php:520 templates/wc-view-order.php:65
 msgid "Never"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:257
-msgid "Show Droppable Areas While Dragging"
+msgid "Enable Preview for Inline Dynamic Data"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:258
-msgid "Enable in order to see all dropppable areas while dragging element."
-msgstr ""
-
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:268
-msgid "Sidebar Panel Overlay Mode"
+msgid "Choose if or when a preview of inline dynamic data should be displayed."
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:269
+msgid "Enable Preview For Rendering Logic"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:270
+msgid ""
+"Choose to enable the device rendering logic preview for container and "
+"columns."
+msgstr ""
+
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:280
+msgid "Show Droppable Areas While Dragging"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:281
+msgid "Enable in order to see all dropppable areas while dragging element."
+msgstr ""
+
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:291
+msgid "Sidebar Panel Overlay Mode"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:292
 msgid ""
 "Choose if the sidebar panel should act as an overlay.  If enabled, the "
 "sidebar will overlay the preview content."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:279
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:302
 msgid "Options Sub Tabs"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:280
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:303
 msgid "Choose if options sub tabs expanded or collapsed."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:283
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:306
 msgid "Expanded"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:284
+#: includes/lib/inc/fusion-app/class-fusion-preferences.php:307
 msgid "Collapsed"
-msgstr ""
-
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:290
-msgid "Enable Preview For Rendering Logic"
-msgstr ""
-
-#: includes/lib/inc/fusion-app/class-fusion-preferences.php:291
-msgid ""
-"Choose to enable the device rendering logic preview for container and "
-"columns."
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:204
@@ -10732,9 +10743,9 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_cdn.php:79
 msgid ""
-"If you are developing offline, please download and install the <a "
-"href=\"%s\" target=\"_blank\">FusionRedux Vendor Support</a> plugin/"
-"extension to bypass the our CDN and avoid this warning"
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">FusionRedux Vendor Support</a> plugin/extension to "
+"bypass the our CDN and avoid this warning"
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_cdn.php:84
@@ -10753,8 +10764,8 @@ msgid ""
 msgstr ""
 "<a href=\"%s\">Plugin Podpora dodavatele</a> (nebo rozšíření) buď není "
 "nainstalován nebo nebyl aktivován, a tak některé ovládací prvky nemusí "
-"fungovat správně.  Ujistěte se, že je to nainstalován a <a "
-"href=\"%s\">aktivován</a>"
+"fungovat správně.  Ujistěte se, že je to nainstalován a <a href=\"%s"
+"\">aktivován</a>"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php:37
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php:66
@@ -10769,21 +10780,21 @@ msgid ""
 "href=\"%s\" target=\"_blank\">outlined here</a>."
 msgstr ""
 "Nebyli jsme schopni změnit požadované soubory. Zkontrolujte svá oprávnění, "
-"či upravte wp-config.php,, aby obsahoval přihlašovací údaje jako <a "
-"href=\"%s\" target=\"_blank\">je nastíněno zde</a>."
+"či upravte wp-config.php,, aby obsahoval přihlašovací údaje jako <a href=\"%s"
+"\" target=\"_blank\">je nastíněno zde</a>."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php:66
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php:257
 msgid ""
 "We were unable to modify required files. Please ensure that <code>%1s</code> "
 "has the proper read-write permissions, or modify your wp-config.php file to "
-"contain your FTP login credentials as <a href=\"%2s\" "
-"target=\"_blank\">outlined here</a>."
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
 msgstr ""
-"Nebyli jsme schopni změnit požadované soubory. Prosím ujisti se, že "
-"<code>%1s</code> má příslušná oprávnění pro čtení i zápis, či upravte wp-"
-"config.php, aby obsahoval přihlašovací údaje jako <a href=\"%2s\" "
-"target=\"_blank\">je nastíněno zde</a>."
+"Nebyli jsme schopni změnit požadované soubory. Prosím ujisti se, že <code>"
+"%1s</code> má příslušná oprávnění pro čtení i zápis, či upravte wp-config."
+"php, aby obsahoval přihlašovací údaje jako <a href=\"%2s\" target=\"_blank"
+"\">je nastíněno zde</a>."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_helpers.php:586
 msgid ""
@@ -11025,8 +11036,8 @@ msgid ""
 "That URL slug is in use, please choose another. <code>%s</code> is open for "
 "use."
 msgstr ""
-"Tento URL kód je již používán, zvolte prosím jiný. Lze použít např. "
-"<code>%s</code>."
+"Tento URL kód je již používán, zvolte prosím jiný. Lze použít např. <code>"
+"%s</code>."
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/validation/url/validation_url.php:22
 msgid "You must provide a valid URL for this option."
@@ -11224,8 +11235,8 @@ msgid ""
 "%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
 "target=\"_blank\">Increasing memory allocated to PHP</a>"
 msgstr ""
-"%s - Doporučujeme nastavit paměť alespoň na 40MB. Viz: <a href=\"%s\" "
-"target=\"_blank\">Zvýšení paměti vyhrazené pro PHP</a>"
+"%s - Doporučujeme nastavit paměť alespoň na 40MB. Viz: <a href=\"%s\" target="
+"\"_blank\">Zvýšení paměti vyhrazené pro PHP</a>"
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:229
 msgid "Database Table Prefix"
@@ -11523,8 +11534,8 @@ msgstr "Zobrazuje, zda je či není aktuální šablona podřazenou šablonou."
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:737
 msgid ""
 "If you're modifying FusionRedux Framework or a parent theme you didn't build "
-"personally, we recommend using a child theme. See: <a href=\"%s\" "
-"target=\"_blank\">How to create a child theme</a>"
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:745
@@ -11589,8 +11600,8 @@ msgstr "Nejprve je nutné vygenerovat hash podpory."
 msgid ""
 "This will provide to your developer all the information they may need to "
 "remedy your issue. This action WILL send information securely to a remote "
-"server. To see the type of information sent, please look at the  <a "
-"href=\"%s\">Status tab</a>."
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
 msgstr ""
 "Takto získáte veškeré informace, které potřebujete k nápravě svého problému. "
 "Tato akce BUDE bezpečně posílat informace na vzdálený server. Chcete-li "
@@ -11647,9 +11658,8 @@ msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:134
 msgid ""
-"Should the developer not be responsive, read the <a href=\"%s\" "
-"target=\"_blank\">following article</a> before asking for support from us "
-"directly."
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
 msgstr ""
 "V případě, že vývojář nebude reagovat, přečtěte si <a href=“%s” "
 "target=“_blank”>následující článek</a> před tím, než od nás budete vyžadovat "
@@ -13765,8 +13775,8 @@ msgstr ""
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> In email options, field names within square "
 "brackets can be used as placeholders which will be replaced when the form is "
-"submitted, ie: [email_address]. For more information check out our <a "
-"href=\"%s\" target=\"_blank\">form placeholders post</a>."
+"submitted, ie: [email_address]. For more information check out our <a href="
+"\"%s\" target=\"_blank\">form placeholders post</a>."
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_form_notifications.php:52
@@ -16332,10 +16342,10 @@ msgstr ""
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_sidebars.php:368
 msgid ""
-"<strong>IMPORTANT NOTE:</strong> The <a href=\"%s\" "
-"target=\"_blank\">Activate Global Sidebars</a> option is turned on which "
-"removes the ability to choose individual sidebars. Turn off that option to "
-"assign unique sidebars."
+"<strong>IMPORTANT NOTE:</strong> The <a href=\"%s\" target=\"_blank"
+"\">Activate Global Sidebars</a> option is turned on which removes the "
+"ability to choose individual sidebars. Turn off that option to assign unique "
+"sidebars."
 msgstr ""
 
 # @ Avada
@@ -17377,9 +17387,9 @@ msgstr ""
 
 #: includes/options/blog.php:703
 msgid ""
-"Controls the month and year format for blog alternate layouts. <a "
-"href=\"https://wordpress.org/support/article/formatting-date-and-time/\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">Formatting Date and Time</a>"
+"Controls the month and year format for blog alternate layouts. <a href="
+"\"https://wordpress.org/support/article/formatting-date-and-time/\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Formatting Date and Time</a>"
 msgstr ""
 
 #: includes/options/blog.php:709
@@ -17399,9 +17409,9 @@ msgstr ""
 
 #: includes/options/blog.php:717
 msgid ""
-"Controls the timeline label format for blog timeline layouts. <a "
-"href=\"https://wordpress.org/support/article/formatting-date-and-time/\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">Formatting Date</a>"
+"Controls the timeline label format for blog timeline layouts. <a href="
+"\"https://wordpress.org/support/article/formatting-date-and-time/\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Formatting Date</a>"
 msgstr ""
 
 #. translators: %1$s: Content|Header|Footer|Page Title Bar. %2$s: Layout
@@ -17602,11 +17612,11 @@ msgstr "Formát data"
 #. translators: Link to general settings in the dashboard.
 #: includes/options/blog.php:1166
 msgid ""
-"Controls the date format for date meta data.  <a href=\"https://"
-"wordpress.org/support/article/formatting-date-and-time/\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">Formatting Date and Time</a>. Leave empty to use "
-"the default value from your <a href=\"%s\" target=\"_blank\">WordPress "
-"Settings</a>"
+"Controls the date format for date meta data.  <a href=\"https://wordpress."
+"org/support/article/formatting-date-and-time/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Formatting Date and Time</a>. Leave empty to use the "
+"default value from your <a href=\"%s\" target=\"_blank\">WordPress Settings</"
+"a>"
 msgstr ""
 
 # @ Avada
@@ -19780,8 +19790,8 @@ msgstr ""
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab are not available "
 "because a global %1$s override is currently used. To edit your global layout "
-"please visit <a href=\"%2$s\" target=\"_blank\">this page</a>, or <a "
-"href=\"%3$s\" target=\"_blank\">edit the header</a>."
+"please visit <a href=\"%2$s\" target=\"_blank\">this page</a>, or <a href="
+"\"%3$s\" target=\"_blank\">edit the header</a>."
 msgstr ""
 
 #: includes/options/header.php:92
@@ -21971,9 +21981,9 @@ msgstr "Progresivní webová aplikace"
 #: includes/options/performance.php:464
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> To use the Avada PWA feature you need to "
-"install and activate the latest version of the PWA plugin. Please <a "
-"href=\"%s\">visit the Avada Plugins page</a> to install and activate the "
-"plugin and then refresh Global Options to edit the options."
+"install and activate the latest version of the PWA plugin. Please <a href="
+"\"%s\">visit the Avada Plugins page</a> to install and activate the plugin "
+"and then refresh Global Options to edit the options."
 msgstr ""
 
 #: includes/options/performance.php:472
@@ -22054,8 +22064,8 @@ msgstr ""
 msgid ""
 "If the user installs your site as an app, select how the app will behave. "
 "For more information about these options please refer to <a href=\"https://"
-"developers.google.com/web/fundamentals/web-app-manifest/#display\" "
-"target=\"_blank\">this document.</a>"
+"developers.google.com/web/fundamentals/web-app-manifest/#display\" target="
+"\"_blank\">this document.</a>"
 msgstr ""
 
 #: includes/options/performance.php:558
@@ -23028,8 +23038,8 @@ msgstr "Pod výsledky"
 #: includes/options/shortcode_styling.php:39
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> Avada Builder Elements settigns are moved "
-"to Avada Builder Elements options panel <a href=\"%s\" "
-"target=\"_blank\">here</a>."
+"to Avada Builder Elements options panel <a href=\"%s\" target=\"_blank"
+"\">here</a>."
 msgstr ""
 
 #: includes/options/sidebars.php:72
@@ -24495,8 +24505,8 @@ msgstr ""
 msgid ""
 "Turn on to enable the WooCommerce product images zoom feature. "
 "<strong>IMPORTANT NOTE:</strong> Every product image you use must be larger "
-"than the product images container for zoom to work correctly. <a "
-"href=\"https://avada.com/documentation/woocommerce-single-product-gallery/\" "
+"than the product images container for zoom to work correctly. <a href="
+"\"https://avada.com/documentation/woocommerce-single-product-gallery/\" "
 "target=\"_blank\">See this post for more information.</a>"
 msgstr ""
 
@@ -26017,9 +26027,9 @@ msgstr ""
 #~ "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
 #~ "for the main shop page</a> from Avada theme options panel."
 #~ msgstr ""
-#~ "Na panelu možností šablony Avada můžete ovládat <a href=\"%1$s\" "
-#~ "target=\"_blank\">počet produktů na stránku</a> a <a href=\"%2$s\" "
-#~ "target=\"_blank\">počet sloupců pro hlavní stránku obchodu</a>."
+#~ "Na panelu možností šablony Avada můžete ovládat <a href=\"%1$s\" target="
+#~ "\"_blank\">počet produktů na stránku</a> a <a href=\"%2$s\" target="
+#~ "\"_blank\">počet sloupců pro hlavní stránku obchodu</a>."
 
 #~ msgid ""
 #~ "Are you sure? This will reset all saved options to the default Avada "
@@ -26813,9 +26823,9 @@ msgstr ""
 #~ "Avada je nyní nainstalována a připravena k použití! Připravte se vytvořit "
 #~ "něco krásného. Prosím, <a href=\"%1$s\" target=\"%2$s\">zaregistrujte "
 #~ "svůj nákup</a>, abyste získali automatické aktualizace šablony, import "
-#~ "ukázek Avada a nainstalovali prémiové pluginy. Podívejte se na <a "
-#~ "href=\"%3$s\">kartu Podpora</a>, kde se dozvíte, jak získat odbornou "
-#~ "pomoc. Doufáme, že se vám to bude líbit!"
+#~ "ukázek Avada a nainstalovali prémiové pluginy. Podívejte se na <a href="
+#~ "\"%3$s\">kartu Podpora</a>, kde se dozvíte, jak získat odbornou pomoc. "
+#~ "Doufáme, že se vám to bude líbit!"
 
 #~ msgid ""
 #~ "Avada is now installed and ready to use! Get ready to build something "
@@ -26828,10 +26838,10 @@ msgstr ""
 #~ "Avada je nyní nainstalována a připravena k použití! Připravte se vytvořit "
 #~ "něco krásného. Prostřednictvím své registrace na hostované platformě "
 #~ "Envato můžete nyní získat automatické aktualizace šablony, importovat "
-#~ "ukázky Avada a instalovat prémiové pluginy. Podívejte se na <a "
-#~ "href=\"%s\" target=\"_blank\">Envato zásady podpory hostovaného řešení</"
-#~ "a>, kde se dozvíte, jak získat podporu prostřednictvím Envato týmu "
-#~ "podpory pro hostovaná řešení. Doufáme, že se vám to bude líbit!"
+#~ "ukázky Avada a instalovat prémiové pluginy. Podívejte se na <a href=\"%s"
+#~ "\" target=\"_blank\">Envato zásady podpory hostovaného řešení</a>, kde se "
+#~ "dozvíte, jak získat podporu prostřednictvím Envato týmu podpory pro "
+#~ "hostovaná řešení. Doufáme, že se vám to bude líbit!"
 
 #~ msgid "Please update Fusion Core to latest version."
 #~ msgstr "Aktualizujte, prosím, Fusion Core na nejnovější verzi."
@@ -27074,13 +27084,13 @@ msgstr ""
 #~ "href=\"%s\" target=\"_blank\">Stav systému</a>."
 
 #~ msgid ""
-#~ "Demo import failed. Please check for PHP limits in red on the <a "
-#~ "href=\"%s\" target=\"_blank\">System Status</a> page. Change those to the "
+#~ "Demo import failed. Please check for PHP limits in red on the <a href=\"%s"
+#~ "\" target=\"_blank\">System Status</a> page. Change those to the "
 #~ "recommended value and try again."
 #~ msgstr ""
-#~ "Import ukázky se nezdařil. Na stránce <a href=\"%s\" "
-#~ "target=\"_blank\">Stav systému</a>, prosím, zkontrolujte červené limity "
-#~ "PHP. Změňte je na doporučenou hodnotu a akci opakujte."
+#~ "Import ukázky se nezdařil. Na stránce <a href=\"%s\" target=\"_blank"
+#~ "\">Stav systému</a>, prosím, zkontrolujte červené limity PHP. Změňte je "
+#~ "na doporučenou hodnotu a akci opakujte."
 
 #~ msgid ""
 #~ "Fusion Builder Plugin can only be installed and activated if Fusion Core "
@@ -27092,12 +27102,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "This plugin can only be installed or updated, after you have successfully "
-#~ "completed the Avada product registration on the <a href=\"%s\" "
-#~ "target=\"_blank\">Product Registration</a> tab."
+#~ "completed the Avada product registration on the <a href=\"%s\" target="
+#~ "\"_blank\">Product Registration</a> tab."
 #~ msgstr ""
 #~ "Tento plugin lze nainstalovat nebo aktualizovat až poté, co úspěšně "
-#~ "dokončíte registraci produktu Avada na kartě <a href=\"%s\" "
-#~ "target=\"_blank\">Registrace produktu</a>."
+#~ "dokončíte registraci produktu Avada na kartě <a href=\"%s\" target="
+#~ "\"_blank\">Registrace produktu</a>."
 
 #~ msgid ""
 #~ "Select to use normal text (default) for the parent level menu item, or a "
@@ -27513,8 +27523,8 @@ msgstr ""
 #~ "No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
 #~ "Dashboard</a>"
 #~ msgstr ""
-#~ "K dispozici nejsou žádné pluginy k instalaci ani aktivaci. <a "
-#~ "href=\"%1$s\" title=\"Návrat do Nástěnky\">Návrat do Nástěnky</a>"
+#~ "K dispozici nejsou žádné pluginy k instalaci ani aktivaci. <a href=\"%1$s"
+#~ "\" title=\"Návrat do Nástěnky\">Návrat do Nástěnky</a>"
 
 # @ Avada
 #~ msgid "In pixels, default is 18px."
