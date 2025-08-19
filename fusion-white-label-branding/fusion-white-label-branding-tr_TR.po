@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion White Label Branding 1.0\n"
 "Report-Msgid-Bugs-To: https://theme-fusion.com/support/\n"
-"POT-Creation-Date: 2025-07-07 09:12:30+00:00\n"
+"POT-Creation-Date: 2025-08-19 06:34:24+00:00\n"
 "PO-Revision-Date: 2025-07-24 19:48+0300\n"
 "Last-Translator: Kaya Zeren <translator@zeron.net>\n"
 "Language-Team: Turkish\n"
@@ -52,14 +52,14 @@ msgstr "%s menü ögesini ön yüzdeki yönetici çubuğundan kaldırır."
 #: inc/admin-screens/avada.php:62 inc/admin-screens/avada.php:341
 #: inc/admin-screens/avada.php:365 inc/admin-screens/wp-admin.php:40
 #: inc/admin-screens/wp-admin.php:62 inc/admin-screens/wp-admin.php:84
-#: inc/admin-screens/wp-admin.php:304 inc/admin-screens/wp-login.php:178
+#: inc/admin-screens/wp-admin.php:304 inc/admin-screens/wp-login.php:188
 msgid "Yes"
 msgstr "Evet"
 
 #: inc/admin-screens/avada.php:63 inc/admin-screens/avada.php:342
 #: inc/admin-screens/avada.php:366 inc/admin-screens/wp-admin.php:41
 #: inc/admin-screens/wp-admin.php:63 inc/admin-screens/wp-admin.php:85
-#: inc/admin-screens/wp-admin.php:305 inc/admin-screens/wp-login.php:179
+#: inc/admin-screens/wp-admin.php:305 inc/admin-screens/wp-login.php:189
 msgid "No"
 msgstr "Hayır"
 
@@ -78,8 +78,8 @@ msgstr ""
 
 #: inc/admin-screens/avada.php:78 inc/admin-screens/wp-admin.php:99
 #: inc/admin-screens/wp-admin.php:133
-#: inc/class-fusion-white-label-branding-admin.php:778
-#: inc/class-fusion-white-label-branding-admin.php:824
+#: inc/class-fusion-white-label-branding-admin.php:777
+#: inc/class-fusion-white-label-branding-admin.php:823
 msgid "Dashboard"
 msgstr "Pano"
 
@@ -246,13 +246,12 @@ msgid "%s Menu Icon Image"
 msgstr "%s menü simgesi görseli"
 
 #. Translators: Avada.
-#: inc/admin-screens/avada.php:251
+#. Translators: %s: Avada Custom Branding.
+#: inc/admin-screens/avada.php:251 inc/admin-screens/avada.php:421
 msgid ""
 "Controls the menu icon image on %s admin menu and replaces the %s logo. <br/"
-"><strong>Recommended size:</strong> 20px wide x 20px high."
+"><strong>Recommended size:</strong> 40px x 40px."
 msgstr ""
-"%s yönetici menüsündeki menü simgesi görselini ve %s logosunu seçin. <br/"
-"><strong>Önerilen boyut:</strong> 20px genişlik x 20px yükseklik."
 
 #: inc/admin-screens/avada.php:269 inc/admin-screens/avada.php:441
 msgid "Use Menu Icon"
@@ -348,20 +347,6 @@ msgstr "Instagram"
 msgid "YouTube"
 msgstr "YouTube"
 
-#. Translators: %s: Avada Custom Branding.
-#: inc/admin-screens/avada.php:421
-msgid ""
-"Controls the menu icon image on %s admin menu and replaces the ThemeFusion "
-"logo. <br/><strong>Recommended size:</strong> 20px wide x 20px high."
-msgstr ""
-"%s yönetim menüsündeki menü simgesi görselini ayarlar ve ThemeFusion "
-"logosunun yerini alır. <br/><strong>Önerilen boyut:</strong> 20px genişlik x "
-"20px yükseklik."
-
-#. Plugin Name of the plugin/theme
-msgid "Avada Custom Branding"
-msgstr "Avada özel marka"
-
 #. Translators: %1$s: "Avada Custom Branding". %2$s: The link URL.
 #: inc/admin-screens/avada.php:457
 msgid ""
@@ -372,13 +357,17 @@ msgstr ""
 "değiştirir.<br/>Tüm pano simgelerini görmek için <a target=\"_blank\" "
 "href=\"%2$s\">Buraya tıklayın</a>."
 
+#. Plugin Name of the plugin/theme
+msgid "Avada Custom Branding"
+msgstr "Avada özel marka"
+
 #: inc/admin-screens/avada.php:473 inc/admin-screens/wp-admin.php:315
-#: inc/admin-screens/wp-login.php:189
+#: inc/admin-screens/wp-login.php:199
 msgid "Save Settings"
 msgstr "Ayarları kaydet"
 
 #: inc/admin-screens/avada.php:474 inc/admin-screens/wp-admin.php:316
-#: inc/admin-screens/wp-login.php:190
+#: inc/admin-screens/wp-login.php:200
 msgid ""
 "Are you sure, you want to reset these settings?\\n\\nThis action can not be "
 "undone."
@@ -387,12 +376,12 @@ msgstr ""
 "alınamaz."
 
 #: inc/admin-screens/avada.php:474 inc/admin-screens/wp-admin.php:316
-#: inc/admin-screens/wp-login.php:190
+#: inc/admin-screens/wp-login.php:200
 msgid "Reset Section"
 msgstr "Bölümü sıfırla"
 
 #: inc/admin-screens/avada.php:475 inc/admin-screens/wp-admin.php:317
-#: inc/admin-screens/wp-login.php:191
+#: inc/admin-screens/wp-login.php:201
 msgid ""
 "Are you sure, you want to reset all settings?\\n\\nThis action can not be "
 "undone."
@@ -401,7 +390,7 @@ msgstr ""
 "alınamaz."
 
 #: inc/admin-screens/avada.php:475 inc/admin-screens/wp-admin.php:317
-#: inc/admin-screens/wp-login.php:191
+#: inc/admin-screens/wp-login.php:201
 msgid "Reset All"
 msgstr "Tümünü sıfırla"
 
@@ -460,7 +449,7 @@ msgid "Starter Guide"
 msgstr "Başlangıç rehberi"
 
 #: inc/admin-screens/dashboard.php:48 inc/admin-screens/dashboard.php:54
-#: inc/class-fusion-white-label-branding-admin.php:407
+#: inc/class-fusion-white-label-branding-admin.php:406
 msgid "Documentation"
 msgstr "Belgeler"
 
@@ -475,7 +464,7 @@ msgstr ""
 "kullanmayı öğrenmek için harika bir kaynaktır."
 
 #: inc/admin-screens/dashboard.php:61 inc/admin-screens/dashboard.php:67
-#: inc/class-fusion-white-label-branding-admin.php:413
+#: inc/class-fusion-white-label-branding-admin.php:412
 msgid "Submit A Ticket"
 msgstr "Destek isteğinde bulunun"
 
@@ -489,7 +478,7 @@ msgstr ""
 "hizmetlerimize ve diğer kaynaklara erişmek için hesap açtığınızdan emin olun."
 
 #: inc/admin-screens/dashboard.php:76
-#: inc/class-fusion-white-label-branding-admin.php:410
+#: inc/class-fusion-white-label-branding-admin.php:409
 msgid "Video Tutorials"
 msgstr "Görüntülü eğitimler"
 
@@ -536,8 +525,8 @@ msgstr ""
 "tarafından destek verilmediğini unutmayın."
 
 #: inc/admin-screens/import-export.php:13
-#: inc/class-fusion-white-label-branding-admin.php:216
-#: inc/class-fusion-white-label-branding-admin.php:379
+#: inc/class-fusion-white-label-branding-admin.php:215
+#: inc/class-fusion-white-label-branding-admin.php:378
 msgid "Import / Export"
 msgstr "İçe / Dışa aktar"
 
@@ -667,7 +656,7 @@ msgid "Tools"
 msgstr "Araçlar"
 
 #: inc/admin-screens/wp-admin.php:108 inc/admin-screens/wp-admin.php:142
-#: inc/class-fusion-white-label-branding-admin.php:164
+#: inc/class-fusion-white-label-branding-admin.php:163
 msgid "Settings"
 msgstr "Ayarlar"
 
@@ -848,103 +837,111 @@ msgid "Login Screen Logo Image"
 msgstr "Oturum açma sayfası logo görseli"
 
 #: inc/admin-screens/wp-login.php:85
+msgid "Logo Image Link"
+msgstr "Logo görseli bağlantısı"
+
+#: inc/admin-screens/wp-login.php:86
+msgid "Set a custom link for the logo image."
+msgstr "Logo görseli için bir özel bağlantı ayarlayın."
+
+#: inc/admin-screens/wp-login.php:95
 msgid "Login Box Background Color"
 msgstr "Oturum açma kutusu arka plan rengi"
 
-#: inc/admin-screens/wp-login.php:86
+#: inc/admin-screens/wp-login.php:96
 msgid "Controls the login box background color."
 msgstr "Oturum açma kutusunun arka plan rengini seçin."
 
-#: inc/admin-screens/wp-login.php:95
+#: inc/admin-screens/wp-login.php:105
 msgid "Login Box Text Color"
 msgstr "Oturum açma kutusu yazı rengi"
 
-#: inc/admin-screens/wp-login.php:96
+#: inc/admin-screens/wp-login.php:106
 msgid "Controls the login form label color."
 msgstr "Oturum açma kutusunun yazı rengini seçin."
 
-#: inc/admin-screens/wp-login.php:105
+#: inc/admin-screens/wp-login.php:115
 msgid "Login Screen Link Color"
 msgstr "Oturum açma sayfası bağlantı rengi"
 
-#: inc/admin-screens/wp-login.php:106
+#: inc/admin-screens/wp-login.php:116
 msgid "Controls the login screen link color."
 msgstr "Oturum açma sayfasının bağlantı rengini seçin."
 
-#: inc/admin-screens/wp-login.php:115
+#: inc/admin-screens/wp-login.php:125
 msgid "Login Screen Link Hover Color"
 msgstr "Oturum açma sayfası bağlantı üzerine gelme rengi"
 
-#: inc/admin-screens/wp-login.php:116
+#: inc/admin-screens/wp-login.php:126
 msgid "Controls the login screen link hover color."
 msgstr ""
 "Oturum açma sayfasında bağlantı üzerine gelindiğinde görüntülenecek rengi "
 "seçin."
 
-#: inc/admin-screens/wp-login.php:125
+#: inc/admin-screens/wp-login.php:135
 msgid "Default Button Color"
 msgstr "Varsayılan düğme rengi"
 
-#: inc/admin-screens/wp-login.php:126
+#: inc/admin-screens/wp-login.php:136
 msgid "Controls the default color of the button."
 msgstr "Düğmenin varsayılan rengini seçin."
 
-#: inc/admin-screens/wp-login.php:135
+#: inc/admin-screens/wp-login.php:145
 msgid "Hover Button Color"
 msgstr "Düğme üzerine gelme rengi"
 
-#: inc/admin-screens/wp-login.php:136
+#: inc/admin-screens/wp-login.php:146
 msgid "Controls the hover color of the button."
 msgstr "Düğmenin üzerine gelindiğinde görüntülenecek rengi seçin."
 
-#: inc/admin-screens/wp-login.php:145
+#: inc/admin-screens/wp-login.php:155
 msgid "Button Default Text Color"
 msgstr "Düğme varsayılan yazı rengi"
 
-#: inc/admin-screens/wp-login.php:146
+#: inc/admin-screens/wp-login.php:156
 msgid "Controls the text color of the button."
 msgstr "Düğmenin varsayılan yazı rengini seçin."
 
-#: inc/admin-screens/wp-login.php:155
+#: inc/admin-screens/wp-login.php:165
 msgid "Button Hover Text Color"
 msgstr "Düğme üzerine gelme yazı rengi"
 
-#: inc/admin-screens/wp-login.php:156
+#: inc/admin-screens/wp-login.php:166
 msgid "Controls the hover text color of the button."
 msgstr "Düğmenin üzerine gelindiğinde görüntülenecek yazı rengini seçin."
 
-#: inc/admin-screens/wp-login.php:165
+#: inc/admin-screens/wp-login.php:175
 msgid "Remove Lost Password Link"
 msgstr "Parolamı unuttum görüntülenmesin"
 
-#: inc/admin-screens/wp-login.php:166
+#: inc/admin-screens/wp-login.php:176
 msgid "Remove the lost password link from login page."
 msgstr "Oturum açma sayfasından parolamı unuttum bağlantısını kaldırır."
 
-#: inc/class-fusion-white-label-branding-admin.php:212
+#: inc/class-fusion-white-label-branding-admin.php:211
 msgid "Avada Branding"
 msgstr "Avada markası"
 
-#: inc/class-fusion-white-label-branding-admin.php:213
-#: inc/class-fusion-white-label-branding-admin.php:376
+#: inc/class-fusion-white-label-branding-admin.php:212
+#: inc/class-fusion-white-label-branding-admin.php:375
 msgid "WP Admin"
 msgstr "WP yönetimi"
 
-#: inc/class-fusion-white-label-branding-admin.php:214
-#: inc/class-fusion-white-label-branding-admin.php:377
+#: inc/class-fusion-white-label-branding-admin.php:213
+#: inc/class-fusion-white-label-branding-admin.php:376
 msgid "WP Login Screen"
 msgstr "WP oturum açma sayfası"
 
-#: inc/class-fusion-white-label-branding-admin.php:215
+#: inc/class-fusion-white-label-branding-admin.php:214
 msgid "Avada"
 msgstr "Avada"
 
-#: inc/class-fusion-white-label-branding-admin.php:362
+#: inc/class-fusion-white-label-branding-admin.php:361
 msgid "Link to Avada While Label Branding dashboard"
 msgstr "Avada beyaz etiket marka panosu bağlantısı"
 
 #. translators: The version number.
-#: inc/class-fusion-white-label-branding-admin.php:369
+#: inc/class-fusion-white-label-branding-admin.php:368
 msgid "v%s"
 msgstr "v%s"
 
@@ -952,7 +949,7 @@ msgstr "v%s"
 msgid "ThemeFusion"
 msgstr "ThemeFusion"
 
-#: inc/class-fusion-white-label-branding-admin.php:422
+#: inc/class-fusion-white-label-branding-admin.php:421
 msgid ""
 "Thank you for choosing Avada. We are honored and are fully dedicated to "
 "making your experience perfect."
@@ -960,11 +957,11 @@ msgstr ""
 "Avada temasını seçtiğiniz için teşekkür ederiz. Bizi seçtiğiniz için onur "
 "duyuyoruz ve deneyiminizi mükemmelleştirmeye çalışıyoruz."
 
-#: inc/class-fusion-white-label-branding-admin.php:424
+#: inc/class-fusion-white-label-branding-admin.php:423
 msgid "Support Policy"
 msgstr "Destek ilkesi"
 
-#: inc/class-fusion-white-label-branding-admin.php:465
+#: inc/class-fusion-white-label-branding-admin.php:464
 msgid "Welcome"
 msgstr "Hoş geldiniz"
 
@@ -972,21 +969,21 @@ msgstr "Hoş geldiniz"
 #. translators: The taxonomy (skills) name.
 #. translators: The taxonomy name.
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1472
-#: inc/class-fusion-white-label-branding-admin.php:1499
-#: inc/class-fusion-white-label-branding-admin.php:1518
-#: inc/class-fusion-white-label-branding-admin.php:1537
-#: inc/class-fusion-white-label-branding-admin.php:1570
+#: inc/class-fusion-white-label-branding-admin.php:1525
+#: inc/class-fusion-white-label-branding-admin.php:1552
+#: inc/class-fusion-white-label-branding-admin.php:1571
+#: inc/class-fusion-white-label-branding-admin.php:1590
+#: inc/class-fusion-white-label-branding-admin.php:1623
 msgid "View %s"
 msgstr "%s görüntüle"
 
 #. translators: The taxonomy (slide-page) name.
 #. translators: The taxonomy (skills) name.
 #. translators: The taxonomy name.
-#: inc/class-fusion-white-label-branding-admin.php:1475
-#: inc/class-fusion-white-label-branding-admin.php:1502
-#: inc/class-fusion-white-label-branding-admin.php:1521
-#: inc/class-fusion-white-label-branding-admin.php:1540
+#: inc/class-fusion-white-label-branding-admin.php:1528
+#: inc/class-fusion-white-label-branding-admin.php:1555
+#: inc/class-fusion-white-label-branding-admin.php:1574
+#: inc/class-fusion-white-label-branding-admin.php:1593
 msgid "Add New %s"
 msgstr "Yeni %s ekle"
 
@@ -994,43 +991,43 @@ msgstr "Yeni %s ekle"
 #. translators: The taxonomy (skills) name.
 #. translators: The taxonomy name.
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1478
-#: inc/class-fusion-white-label-branding-admin.php:1505
-#: inc/class-fusion-white-label-branding-admin.php:1524
-#: inc/class-fusion-white-label-branding-admin.php:1543
-#: inc/class-fusion-white-label-branding-admin.php:1563
+#: inc/class-fusion-white-label-branding-admin.php:1531
+#: inc/class-fusion-white-label-branding-admin.php:1558
+#: inc/class-fusion-white-label-branding-admin.php:1577
+#: inc/class-fusion-white-label-branding-admin.php:1596
+#: inc/class-fusion-white-label-branding-admin.php:1616
 msgid "Edit %s"
 msgstr "%s düzenle"
 
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1557
-#: inc/class-fusion-white-label-branding-admin.php:1560
+#: inc/class-fusion-white-label-branding-admin.php:1610
+#: inc/class-fusion-white-label-branding-admin.php:1613
 msgid "Add %s"
 msgstr "%s ekle"
 
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1567
+#: inc/class-fusion-white-label-branding-admin.php:1620
 msgid "All %s"
 msgstr "Tüm %s"
 
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1573
+#: inc/class-fusion-white-label-branding-admin.php:1626
 msgid "Search %s"
 msgstr "%s ara"
 
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1576
+#: inc/class-fusion-white-label-branding-admin.php:1629
 msgid "No %s found"
 msgstr "Herhangi bir %s bulunamadı"
 
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1579
+#: inc/class-fusion-white-label-branding-admin.php:1632
 msgid "No %s found in Trash"
 msgstr "Çöp Kutusunda %s bulunamadı"
 
 #. translators: The post-type name.
-#: inc/class-fusion-white-label-branding-admin.php:1587
-#: inc/class-fusion-white-label-branding-admin.php:1590
+#: inc/class-fusion-white-label-branding-admin.php:1640
+#: inc/class-fusion-white-label-branding-admin.php:1643
 msgid "%s Categories"
 msgstr "%s kategorileri"
 
@@ -1151,8 +1148,18 @@ msgstr "https://theme-fusion.com"
 msgid "Custom Branding plugin for the Avada Website Builder."
 msgstr "Avada Website Builder için Custom Branding eklentisi."
 
-#~ msgid "Logo Image Link"
-#~ msgstr "Logo görseli bağlantısı"
+#~ msgid ""
+#~ "Controls the menu icon image on %s admin menu and replaces the %s logo. "
+#~ "<br/><strong>Recommended size:</strong> 20px wide x 20px high."
+#~ msgstr ""
+#~ "%s yönetici menüsündeki menü simgesi görselini ve %s logosunu seçin. <br/"
+#~ "><strong>Önerilen boyut:</strong> 20px genişlik x 20px yükseklik."
 
-#~ msgid "Set a custom link for the logo image."
-#~ msgstr "Logo görseli için bir özel bağlantı ayarlayın."
+#~ msgid ""
+#~ "Controls the menu icon image on %s admin menu and replaces the "
+#~ "ThemeFusion logo. <br/><strong>Recommended size:</strong> 20px wide x "
+#~ "20px high."
+#~ msgstr ""
+#~ "%s yönetim menüsündeki menü simgesi görselini ayarlar ve ThemeFusion "
+#~ "logosunun yerini alır. <br/><strong>Önerilen boyut:</strong> 20px "
+#~ "genişlik x 20px yükseklik."
