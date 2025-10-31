@@ -3,14 +3,13 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    db_prefix() . 'dpt_consultations.id as id',
-    db_prefix() . 'contacts.firstname as firstname',
-    db_prefix() . 'dpt_consultations.consultation_date as consultation_date',
-    db_prefix() . 'dpt_consultations.consultation_type as consultation_type',
-    db_prefix() . 'dpt_consultations.status as status'
+    'id',
+    'consultation_date',
+    'consultation_type',
+    'status'
 ];
 
-$sIndexColumn = db_prefix() . 'dpt_consultations.id';
+$sIndexColumn = 'id';
 $sTable       = db_prefix() . 'dpt_consultations';
 
 $join = [
@@ -19,6 +18,7 @@ $join = [
 ];
 
 $additionalSelect = [
+    db_prefix() . 'contacts.firstname as firstname',
     db_prefix() . 'contacts.lastname as lastname',
     db_prefix() . 'dpt_consultations.subject as subject'
 ];

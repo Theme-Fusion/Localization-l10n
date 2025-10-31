@@ -3,16 +3,16 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    db_prefix() . 'dpt_food_library.id as id',
-    db_prefix() . 'dpt_food_library.name as name',
-    db_prefix() . 'dpt_food_library.category as category',
-    db_prefix() . 'dpt_food_library.calories as calories',
-    db_prefix() . 'dpt_food_library.protein as protein',
-    db_prefix() . 'dpt_food_library.carbohydrates as carbohydrates',
-    db_prefix() . 'dpt_food_library.fat as fat'
+    'id',
+    'name',
+    'category',
+    'calories',
+    'protein',
+    'carbohydrates',
+    'fat'
 ];
 
-$sIndexColumn = db_prefix() . 'dpt_food_library.id';
+$sIndexColumn = 'id';
 $sTable       = db_prefix() . 'dpt_food_library';
 
 $result = data_tables_init($aColumns, $sIndexColumn, $sTable, [], [], []);

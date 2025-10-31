@@ -3,15 +3,12 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    db_prefix() . 'dpt_patient_profiles.id as id',
-    db_prefix() . 'contacts.firstname as firstname',
-    db_prefix() . 'contacts.lastname as lastname',
-    db_prefix() . 'contacts.email as email',
-    db_prefix() . 'dpt_patient_profiles.status as status',
-    db_prefix() . 'dpt_patient_profiles.created_at as created_at'
+    'id',
+    'status',
+    'created_at'
 ];
 
-$sIndexColumn = db_prefix() . 'dpt_patient_profiles.id';
+$sIndexColumn = 'id';
 $sTable       = db_prefix() . 'dpt_patient_profiles';
 
 $join = [
@@ -20,6 +17,9 @@ $join = [
 ];
 
 $additionalSelect = [
+    db_prefix() . 'contacts.firstname as firstname',
+    db_prefix() . 'contacts.lastname as lastname',
+    db_prefix() . 'contacts.email as email',
     db_prefix() . 'staff.firstname as staff_firstname',
     db_prefix() . 'staff.lastname as staff_lastname'
 ];
