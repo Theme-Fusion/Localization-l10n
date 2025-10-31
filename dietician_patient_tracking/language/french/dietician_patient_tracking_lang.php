@@ -123,6 +123,11 @@ $lang['dpt_diagnosis'] = 'Diagnostic';
 $lang['dpt_recommendations'] = 'Recommandations';
 $lang['dpt_next_consultation'] = 'Prochaine consultation';
 $lang['dpt_attachments'] = 'Pièces jointes';
+$lang['dpt_anamnesis_file'] = 'Fichier Anamnèse';
+$lang['dpt_upload_anamnesis_file_help'] = 'Télécharger un fichier PDF, DOC ou DOCX pour l\'anamnèse';
+$lang['dpt_existing_attachments'] = 'Pièces jointes existantes';
+$lang['dpt_contact_required'] = 'Le contact est obligatoire';
+$lang['dpt_contact_has_no_client'] = 'Ce contact n\'est pas associé à un client';
 
 // Consultation Types
 $lang['dpt_consultation_initial'] = 'Consultation initiale';

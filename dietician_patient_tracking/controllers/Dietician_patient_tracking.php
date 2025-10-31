@@ -66,6 +66,28 @@ class Dietician_patient_tracking extends AdminController
         if ($this->input->post()) {
             $data = $this->input->post();
 
+            // Get client_id from contact_id - THIS IS REQUIRED
+            if (isset($data['contact_id']) && !empty($data['contact_id'])) {
+                $this->load->model('clients_model');
+                $contact = $this->clients_model->get_contact($data['contact_id']);
+                if ($contact && isset($contact->userid) && $contact->userid > 0) {
+                    $data['client_id'] = $contact->userid;
+                } else {
+                    set_alert('danger', _l('dpt_contact_has_no_client'));
+                    redirect(admin_url('dietician_patient_tracking/patient' . ($id ? '/' . $id : '')));
+                    return;
+                }
+            } else {
+                set_alert('danger', _l('dpt_contact_required'));
+                redirect(admin_url('dietician_patient_tracking/patient' . ($id ? '/' . $id : '')));
+                return;
+            }
+
+            // Set created_at for new records
+            if (!$id) {
+                $data['created_at'] = date('Y-m-d H:i:s');
+            }
+
             if ($id) {
                 $success = $this->dietician_patient_tracking_model->update_patient_profile($id, $data);
                 if ($success) {
@@ -245,6 +267,46 @@ class Dietician_patient_tracking extends AdminController
 
             if (!$id) {
                 $data['dietician_id'] = get_staff_user_id();
+                $data['created_at'] = date('Y-m-d H:i:s');
+            }
+
+            // Handle file upload for anamnesis PDF
+            if (isset($_FILES['anamnesis_file']) && $_FILES['anamnesis_file']['error'] == 0) {
+                $this->load->library('upload');
+
+                $config['upload_path'] = 'uploads/dietician_patient_tracking/consultations/';
+                $config['allowed_types'] = 'pdf|doc|docx';
+                $config['max_size'] = 10240; // 10MB
+                $config['file_name'] = 'anamnesis_' . time() . '_' . uniqid();
+
+                // Create directory if it doesn't exist
+                if (!is_dir($config['upload_path'])) {
+                    mkdir($config['upload_path'], 0755, true);
+                }
+
+                $this->upload->initialize($config);
+
+                if ($this->upload->do_upload('anamnesis_file')) {
+                    $upload_data = $this->upload->data();
+
+                    // Store attachments as JSON
+                    $attachments = [];
+                    if ($id && isset($data['consultation']->attachments)) {
+                        $attachments = json_decode($data['consultation']->attachments, true) ?: [];
+                    }
+
+                    $attachments[] = [
+                        'file_name' => $upload_data['file_name'],
+                        'file_path' => $config['upload_path'] . $upload_data['file_name'],
+                        'original_name' => $_FILES['anamnesis_file']['name'],
+                        'uploaded_at' => date('Y-m-d H:i:s'),
+                        'uploaded_by' => get_staff_user_id()
+                    ];
+
+                    $data['attachments'] = json_encode($attachments);
+                } else {
+                    set_alert('warning', $this->upload->display_errors('', ''));
+                }
             }
 
             if ($id) {
@@ -254,15 +316,16 @@ class Dietician_patient_tracking extends AdminController
                 } else {
                     set_alert('danger', _l('updated_fail', _l('dpt_consultation')));
                 }
-                redirect(admin_url('dietician_patient_tracking/consultations'));
+                redirect(admin_url('dietician_patient_tracking/consultation/' . $id));
             } else {
-                $id = $this->dietician_patient_tracking_model->add_consultation($data);
-                if ($id) {
+                $new_id = $this->dietician_patient_tracking_model->add_consultation($data);
+                if ($new_id) {
                     set_alert('success', _l('added_successfully', _l('dpt_consultation')));
+                    redirect(admin_url('dietician_patient_tracking/consultation/' . $new_id));
                 } else {
                     set_alert('danger', _l('added_fail', _l('dpt_consultation')));
+                    redirect(admin_url('dietician_patient_tracking/consultations'));
                 }
-                redirect(admin_url('dietician_patient_tracking/consultations'));
             }
         }
 
@@ -319,6 +382,7 @@ class Dietician_patient_tracking extends AdminController
 
             if (!$id) {
                 $data['dietician_id'] = get_staff_user_id();
+                $data['created_at'] = date('Y-m-d H:i:s');
             }
 
             if ($id) {
@@ -328,15 +392,16 @@ class Dietician_patient_tracking extends AdminController
                 } else {
                     set_alert('danger', _l('updated_fail', _l('dpt_meal_plan')));
                 }
-                redirect(admin_url('dietician_patient_tracking/meal_plans'));
+                redirect(admin_url('dietician_patient_tracking/meal_plan/' . $id));
             } else {
-                $id = $this->dietician_patient_tracking_model->add_meal_plan($data);
-                if ($id) {
+                $new_id = $this->dietician_patient_tracking_model->add_meal_plan($data);
+                if ($new_id) {
                     set_alert('success', _l('added_successfully', _l('dpt_meal_plan')));
+                    redirect(admin_url('dietician_patient_tracking/meal_plan/' . $new_id));
                 } else {
                     set_alert('danger', _l('added_fail', _l('dpt_meal_plan')));
+                    redirect(admin_url('dietician_patient_tracking/meal_plans'));
                 }
-                redirect(admin_url('dietician_patient_tracking/meal_plans'));
             }
         }
 

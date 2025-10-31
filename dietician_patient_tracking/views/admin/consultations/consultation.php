@@ -8,7 +8,7 @@
                     <div class="panel-body">
                         <h4><?php echo isset($consultation) ? _l('dpt_edit_consultation') : _l('dpt_add_consultation'); ?></h4>
                         <hr />
-                        <?php echo form_open(admin_url('dietician_patient_tracking/consultation' . (isset($consultation) ? '/' . $consultation->id : '')), ['id' => 'consultation-form']); ?>
+                        <?php echo form_open_multipart(admin_url('dietician_patient_tracking/consultation' . (isset($consultation) ? '/' . $consultation->id : '')), ['id' => 'consultation-form']); ?>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -58,6 +58,28 @@
                             <label><?php echo _l('dpt_anamnesis'); ?></label>
                             <textarea class="form-control" name="anamnesis" rows="4"><?php echo isset($consultation) ? $consultation->anamnesis : ''; ?></textarea>
                         </div>
+                        <div class="form-group">
+                            <label><?php echo _l('dpt_anamnesis_file'); ?> (PDF, DOC, DOCX)</label>
+                            <input type="file" class="form-control" name="anamnesis_file" accept=".pdf,.doc,.docx">
+                            <small class="text-muted"><?php echo _l('dpt_upload_anamnesis_file_help'); ?></small>
+                        </div>
+                        <?php if (isset($consultation) && !empty($consultation->attachments)) : ?>
+                            <?php $attachments = json_decode($consultation->attachments, true); ?>
+                            <?php if ($attachments && is_array($attachments)) : ?>
+                                <div class="form-group">
+                                    <label><?php echo _l('dpt_existing_attachments'); ?></label>
+                                    <div class="list-group">
+                                        <?php foreach ($attachments as $attachment) : ?>
+                                            <a href="<?php echo site_url($attachment['file_path']); ?>" target="_blank" class="list-group-item">
+                                                <i class="fa fa-file-pdf-o"></i>
+                                                <?php echo $attachment['original_name']; ?>
+                                                <small class="pull-right text-muted"><?php echo date('d/m/Y H:i', strtotime($attachment['uploaded_at'])); ?></small>
+                                            </a>
+                                        <?php endforeach; ?>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
+                        <?php endif; ?>
                         <div class="form-group">
                             <label><?php echo _l('dpt_diagnosis'); ?></label>
                             <textarea class="form-control" name="diagnosis" rows="3"><?php echo isset($consultation) ? $consultation->diagnosis : ''; ?></textarea>
