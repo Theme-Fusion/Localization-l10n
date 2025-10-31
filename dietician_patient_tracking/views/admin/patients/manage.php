@@ -18,7 +18,7 @@
                         <div class="clearfix"></div>
 
                         <div class="table-responsive">
-                            <table class="table table-striped table-hover dpt-datatable" id="patients-table">
+                            <table class="table table-striped table-hover dt-table" id="patients-table" data-order-col="0" data-order-type="desc">
                                 <thead>
                                     <tr>
                                         <th><?php echo _l('id'); ?></th>
@@ -30,9 +30,7 @@
                                         <th><?php echo _l('options'); ?></th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <!-- Data loaded via AJAX -->
-                                </tbody>
+                                <tbody></tbody>
                             </table>
                         </div>
                     </div>
@@ -43,3 +41,8 @@
 </div>
 
 <?php init_tail(); ?>
+<script>
+    $(function() {
+        initDataTable('#patients-table', '<?php echo admin_url('dietician_patient_tracking/patients'); ?>', undefined, undefined, undefined, [0, 'desc']);
+    });
+</script>

@@ -13,7 +13,7 @@
                         </div>
                         <hr class="hr-panel-heading" />
                         <div class="table-responsive">
-                            <table class="table table-striped dpt-datatable">
+                            <table class="table table-striped dt-table" id="meal-plans-table" data-order-col="0" data-order-type="desc">
                                 <thead>
                                     <tr>
                                         <th><?php echo _l('id'); ?></th>
@@ -34,3 +34,8 @@
     </div>
 </div>
 <?php init_tail(); ?>
+<script>
+    $(function() {
+        initDataTable('#meal-plans-table', '<?php echo admin_url('dietician_patient_tracking/meal_plans'); ?>', undefined, undefined, undefined, [0, 'desc']);
+    });
+</script>
