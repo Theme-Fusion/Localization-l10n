@@ -168,8 +168,8 @@ class Client extends ClientsController
             $patient = $this->dietician_patient_tracking_model->get_patient_profile(null, $contact_id);
 
             if (!$patient) {
-                echo json_encode(['success' => false, 'message' => _l('patient_not_found')]);
-                return;
+                set_alert('danger', _l('patient_not_found'));
+                redirect(site_url('dietician_patient_tracking/client/dashboard'));
             }
 
             $data = $this->input->post();
@@ -178,16 +178,15 @@ class Client extends ClientsController
             $data['measurement_date'] = date('Y-m-d');
 
             $id = $this->dietician_patient_tracking_model->add_measurement($data);
-            $success = $id ? true : false;
 
-            if ($success) {
+            if ($id) {
                 dpt_check_achievement($patient->id, 'first_measurement');
+                set_alert('success', _l('added_successfully', _l('dpt_measurement')));
+            } else {
+                set_alert('danger', _l('added_fail', _l('dpt_measurement')));
             }
 
-            echo json_encode([
-                'success' => $success,
-                'message' => $success ? _l('added_successfully', _l('dpt_measurement')) : _l('added_fail', _l('dpt_measurement'))
-            ]);
+            redirect(site_url('dietician_patient_tracking/client/measurements'));
         }
     }
 

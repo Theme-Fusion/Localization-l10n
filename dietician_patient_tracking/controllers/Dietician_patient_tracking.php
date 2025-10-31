@@ -12,7 +12,7 @@ class Dietician_patient_tracking extends AdminController
             access_denied('dietician_patient_tracking');
         }
 
-        $this->load->model('dietician_patient_tracking_model');
+        $this->load->model('dietician_patient_tracking/dietician_patient_tracking_model');
         $this->load->helper('dietician_patient_tracking/dietician_patient_tracking');
     }
 
@@ -68,15 +68,22 @@ class Dietician_patient_tracking extends AdminController
 
             if ($id) {
                 $success = $this->dietician_patient_tracking_model->update_patient_profile($id, $data);
-                $message = $success ? _l('updated_successfully', _l('dpt_patient')) : _l('updated_fail', _l('dpt_patient'));
+                if ($success) {
+                    set_alert('success', _l('updated_successfully', _l('dpt_patient')));
+                } else {
+                    set_alert('danger', _l('updated_fail', _l('dpt_patient')));
+                }
+                redirect(admin_url('dietician_patient_tracking/patient/' . $id));
             } else {
                 $id = $this->dietician_patient_tracking_model->add_patient_profile($data);
-                $success = $id ? true : false;
-                $message = $success ? _l('added_successfully', _l('dpt_patient')) : _l('added_fail', _l('dpt_patient'));
+                if ($id) {
+                    set_alert('success', _l('added_successfully', _l('dpt_patient')));
+                    redirect(admin_url('dietician_patient_tracking/patient/' . $id));
+                } else {
+                    set_alert('danger', _l('added_fail', _l('dpt_patient')));
+                    redirect(admin_url('dietician_patient_tracking/patients'));
+                }
             }
-
-            echo json_encode(['success' => $success, 'message' => $message, 'id' => $id]);
-            return;
         }
 
         if ($id) {
@@ -196,11 +203,12 @@ class Dietician_patient_tracking extends AdminController
                 }
             }
 
-            echo json_encode([
-                'success' => $success,
-                'message' => $success ? _l('added_successfully', _l('dpt_measurement')) : _l('added_fail', _l('dpt_measurement'))
-            ]);
-            return;
+            if ($success) {
+                set_alert('success', _l('added_successfully', _l('dpt_measurement')));
+            } else {
+                set_alert('danger', _l('added_fail', _l('dpt_measurement')));
+            }
+            redirect(admin_url('dietician_patient_tracking/patient/' . $patient_id));
         }
     }
 
@@ -241,15 +249,21 @@ class Dietician_patient_tracking extends AdminController
 
             if ($id) {
                 $success = $this->dietician_patient_tracking_model->update_consultation($id, $data);
-                $message = $success ? _l('updated_successfully', _l('dpt_consultation')) : _l('updated_fail', _l('dpt_consultation'));
+                if ($success) {
+                    set_alert('success', _l('updated_successfully', _l('dpt_consultation')));
+                } else {
+                    set_alert('danger', _l('updated_fail', _l('dpt_consultation')));
+                }
+                redirect(admin_url('dietician_patient_tracking/consultations'));
             } else {
                 $id = $this->dietician_patient_tracking_model->add_consultation($data);
-                $success = $id ? true : false;
-                $message = $success ? _l('added_successfully', _l('dpt_consultation')) : _l('added_fail', _l('dpt_consultation'));
+                if ($id) {
+                    set_alert('success', _l('added_successfully', _l('dpt_consultation')));
+                } else {
+                    set_alert('danger', _l('added_fail', _l('dpt_consultation')));
+                }
+                redirect(admin_url('dietician_patient_tracking/consultations'));
             }
-
-            echo json_encode(['success' => $success, 'message' => $message, 'id' => $id]);
-            return;
         }
 
         if ($id) {
@@ -309,15 +323,21 @@ class Dietician_patient_tracking extends AdminController
 
             if ($id) {
                 $success = $this->dietician_patient_tracking_model->update_meal_plan($id, $data);
-                $message = $success ? _l('updated_successfully', _l('dpt_meal_plan')) : _l('updated_fail', _l('dpt_meal_plan'));
+                if ($success) {
+                    set_alert('success', _l('updated_successfully', _l('dpt_meal_plan')));
+                } else {
+                    set_alert('danger', _l('updated_fail', _l('dpt_meal_plan')));
+                }
+                redirect(admin_url('dietician_patient_tracking/meal_plans'));
             } else {
                 $id = $this->dietician_patient_tracking_model->add_meal_plan($data);
-                $success = $id ? true : false;
-                $message = $success ? _l('added_successfully', _l('dpt_meal_plan')) : _l('added_fail', _l('dpt_meal_plan'));
+                if ($id) {
+                    set_alert('success', _l('added_successfully', _l('dpt_meal_plan')));
+                } else {
+                    set_alert('danger', _l('added_fail', _l('dpt_meal_plan')));
+                }
+                redirect(admin_url('dietician_patient_tracking/meal_plans'));
             }
-
-            echo json_encode(['success' => $success, 'message' => $message, 'id' => $id]);
-            return;
         }
 
         if ($id) {
@@ -391,15 +411,21 @@ class Dietician_patient_tracking extends AdminController
 
             if ($id) {
                 $success = $this->dietician_patient_tracking_model->update_food_item($id, $data);
-                $message = $success ? _l('updated_successfully', _l('dpt_food_item')) : _l('updated_fail', _l('dpt_food_item'));
+                if ($success) {
+                    set_alert('success', _l('updated_successfully', _l('dpt_food_item')));
+                } else {
+                    set_alert('danger', _l('updated_fail', _l('dpt_food_item')));
+                }
+                redirect(admin_url('dietician_patient_tracking/food_library'));
             } else {
                 $id = $this->dietician_patient_tracking_model->add_food_item($data);
-                $success = $id ? true : false;
-                $message = $success ? _l('added_successfully', _l('dpt_food_item')) : _l('added_fail', _l('dpt_food_item'));
+                if ($id) {
+                    set_alert('success', _l('added_successfully', _l('dpt_food_item')));
+                } else {
+                    set_alert('danger', _l('added_fail', _l('dpt_food_item')));
+                }
+                redirect(admin_url('dietician_patient_tracking/food_library'));
             }
-
-            echo json_encode(['success' => $success, 'message' => $message, 'id' => $id]);
-            return;
         }
 
         if ($id) {

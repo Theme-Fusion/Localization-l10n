@@ -36,44 +36,11 @@
          * Initialize Forms
          */
         initForms: function() {
-            // Patient form
-            $('#patient-form').on('submit', function(e) {
-                e.preventDefault();
-                DPT.submitForm($(this), 'patient');
-            });
-
-            // Consultation form
-            $('#consultation-form').on('submit', function(e) {
-                e.preventDefault();
-                DPT.submitForm($(this), 'consultation');
-            });
-
-            // Measurement form
-            $('#measurement-form').on('submit', function(e) {
-                e.preventDefault();
-                DPT.submitForm($(this), 'measurement');
-            });
-
-            // Meal plan form
-            $('#meal-plan-form').on('submit', function(e) {
-                e.preventDefault();
-                DPT.submitForm($(this), 'meal_plan');
-            });
-
-            // Food item form
-            $('#food-item-form').on('submit', function(e) {
-                e.preventDefault();
-                DPT.submitForm($(this), 'food_item');
-            });
-
-            // Goal form
-            $('#goal-form').on('submit', function(e) {
-                e.preventDefault();
-                DPT.submitForm($(this), 'goal');
-            });
+            // Patient form - NO AJAX, use standard form submit
+            // This allows Perfex to handle it properly
 
             // Real-time BMI calculation
-            $('#weight, #height').on('input', function() {
+            $('#height').on('input', function() {
                 DPT.calculateBMI();
             });
 
@@ -84,69 +51,23 @@
         },
 
         /**
-         * Submit form via AJAX
+         * Submit form via AJAX (for specific cases only)
          */
         submitForm: function($form, type) {
-            var url = $form.attr('action');
-            var formData = new FormData($form[0]);
-
-            $.ajax({
-                url: url,
-                type: 'POST',
-                data: formData,
-                processData: false,
-                contentType: false,
-                beforeSend: function() {
-                    $form.find('button[type="submit"]').prop('disabled', true);
-                    DPT.showLoader();
-                },
-                success: function(response) {
-                    var data = typeof response === 'string' ? JSON.parse(response) : response;
-
-                    if (data.success) {
-                        alert_float('success', data.message);
-
-                        // Reload or redirect based on type
-                        if (type === 'patient' && data.id) {
-                            setTimeout(function() {
-                                window.location.href = admin_url + 'dietician_patient_tracking/patient/' + data.id;
-                            }, 1000);
-                        } else {
-                            setTimeout(function() {
-                                location.reload();
-                            }, 1000);
-                        }
-                    } else {
-                        alert_float('danger', data.message);
-                    }
-                },
-                error: function(xhr, status, error) {
-                    alert_float('danger', 'An error occurred. Please try again.');
-                    console.error(error);
-                },
-                complete: function() {
-                    $form.find('button[type="submit"]').prop('disabled', false);
-                    DPT.hideLoader();
-                }
-            });
+            // This function is kept for backward compatibility
+            // Most forms should use standard submit
+            $form[0].submit();
         },
 
         /**
          * Calculate BMI in real-time
          */
         calculateBMI: function() {
-            var weight = parseFloat($('#weight').val());
             var height = parseFloat($('#height').val());
 
-            if (weight > 0 && height > 0) {
-                var heightM = height / 100;
-                var bmi = weight / (heightM * heightM);
-
-                $('#bmi-result').text(bmi.toFixed(2));
-                $('#bmi-category').text(DPT.getBMICategory(bmi));
-                $('#bmi-display').show();
-            } else {
-                $('#bmi-display').hide();
+            if (height > 0) {
+                // Just show that we have the height, actual BMI needs weight from measurements
+                console.log('Height entered: ' + height + ' cm');
             }
         },
 
