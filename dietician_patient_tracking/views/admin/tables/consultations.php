@@ -19,8 +19,8 @@ $join = [
 ];
 
 $additionalSelect = [
-    db_prefix() . 'contacts.lastname',
-    db_prefix() . 'dpt_consultations.subject'
+    db_prefix() . 'contacts.lastname as lastname',
+    db_prefix() . 'dpt_consultations.subject as subject'
 ];
 
 $result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], $additionalSelect);

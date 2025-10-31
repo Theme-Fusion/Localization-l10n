@@ -19,7 +19,7 @@ $join = [
 ];
 
 $additionalSelect = [
-    db_prefix() . 'contacts.lastname'
+    db_prefix() . 'contacts.lastname as lastname'
 ];
 
 $result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], $additionalSelect);
