@@ -783,4 +783,472 @@ class Dietician_patient_tracking_model extends App_Model
             $this->db->update(db_prefix() . 'dpt_consultations', ['project_id' => null]);
         }
     }
+
+    /**
+     * DIETITIANS MANAGEMENT
+     */
+
+    public function get_dietitian($id = null, $staff_id = null)
+    {
+        if ($id) {
+            return $this->db->get_where(db_prefix() . 'dpt_dietitians', ['id' => $id])->row();
+        } elseif ($staff_id) {
+            return $this->db->get_where(db_prefix() . 'dpt_dietitians', ['staff_id' => $staff_id])->row();
+        }
+        return false;
+    }
+
+    public function get_all_dietitians($filters = [])
+    {
+        $this->db->select('d.*, s.firstname, s.lastname, s.email');
+        $this->db->from(db_prefix() . 'dpt_dietitians d');
+        $this->db->join(db_prefix() . 'staff s', 's.staffid = d.staff_id');
+
+        if (isset($filters['status'])) {
+            $this->db->where('d.status', $filters['status']);
+        }
+
+        return $this->db->get()->result();
+    }
+
+    public function add_dietitian($data)
+    {
+        $this->db->insert(db_prefix() . 'dpt_dietitians', $data);
+        return $this->db->insert_id();
+    }
+
+    public function update_dietitian($id, $data)
+    {
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'dpt_dietitians', $data);
+        return $this->db->affected_rows() > 0;
+    }
+
+    /**
+     * ANAMNESIS MANAGEMENT
+     */
+
+    public function get_anamnesis($id)
+    {
+        return $this->db->get_where(db_prefix() . 'dpt_anamnesis', ['id' => $id])->row();
+    }
+
+    public function get_patient_anamnesis($patient_id)
+    {
+        $this->db->where('patient_id', $patient_id);
+        $this->db->order_by('created_at', 'DESC');
+        return $this->db->get(db_prefix() . 'dpt_anamnesis')->result();
+    }
+
+    public function get_latest_anamnesis($patient_id)
+    {
+        $this->db->where('patient_id', $patient_id);
+        $this->db->order_by('created_at', 'DESC');
+        $this->db->limit(1);
+        return $this->db->get(db_prefix() . 'dpt_anamnesis')->row();
+    }
+
+    public function add_anamnesis($data)
+    {
+        $this->db->insert(db_prefix() . 'dpt_anamnesis', $data);
+        $insert_id = $this->db->insert_id();
+
+        if ($insert_id) {
+            $this->log_audit('create', 'anamnesis', $insert_id, $data['patient_id']);
+            log_activity('New Anamnesis Created [Patient ID: ' . $data['patient_id'] . ']');
+        }
+
+        return $insert_id;
+    }
+
+    public function update_anamnesis($id, $data)
+    {
+        $old = $this->get_anamnesis($id);
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'dpt_anamnesis', $data);
+
+        if ($this->db->affected_rows() > 0 && $old) {
+            $this->log_audit('update', 'anamnesis', $id, $old->patient_id, $old, $data);
+        }
+
+        return $this->db->affected_rows() > 0;
+    }
+
+    /**
+     * PROGRAMS MANAGEMENT
+     */
+
+    public function get_program($id)
+    {
+        return $this->db->get_where(db_prefix() . 'dpt_programs', ['id' => $id])->row();
+    }
+
+    public function get_programs($patient_id = null, $filters = [])
+    {
+        $this->db->select('p.*, pat.contact_id, c.firstname, c.lastname');
+        $this->db->from(db_prefix() . 'dpt_programs p');
+        $this->db->join(db_prefix() . 'dpt_patient_profiles pat', 'pat.id = p.patient_id');
+        $this->db->join(db_prefix() . 'contacts c', 'c.id = pat.contact_id');
+
+        if ($patient_id) {
+            $this->db->where('p.patient_id', $patient_id);
+        }
+
+        if (isset($filters['status'])) {
+            $this->db->where('p.status', $filters['status']);
+        }
+
+        $this->db->order_by('p.start_date', 'DESC');
+        return $this->db->get()->result();
+    }
+
+    public function add_program($data)
+    {
+        $this->db->insert(db_prefix() . 'dpt_programs', $data);
+        $insert_id = $this->db->insert_id();
+
+        if ($insert_id) {
+            log_activity('New Program Created [ID: ' . $insert_id . ']');
+        }
+
+        return $insert_id;
+    }
+
+    public function update_program($id, $data)
+    {
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'dpt_programs', $data);
+        return $this->db->affected_rows() > 0;
+    }
+
+    public function delete_program($id)
+    {
+        // Delete milestones first
+        $this->db->where('program_id', $id);
+        $this->db->delete(db_prefix() . 'dpt_program_milestones');
+
+        // Delete program
+        $this->db->where('id', $id);
+        $this->db->delete(db_prefix() . 'dpt_programs');
+
+        return $this->db->affected_rows() > 0;
+    }
+
+    public function add_program_milestone($data)
+    {
+        $this->db->insert(db_prefix() . 'dpt_program_milestones', $data);
+        return $this->db->insert_id();
+    }
+
+    public function get_program_milestones($program_id)
+    {
+        $this->db->where('program_id', $program_id);
+        $this->db->order_by('target_date', 'ASC');
+        return $this->db->get(db_prefix() . 'dpt_program_milestones')->result();
+    }
+
+    public function update_program_milestone($id, $data)
+    {
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'dpt_program_milestones', $data);
+        return $this->db->affected_rows() > 0;
+    }
+
+    /**
+     * REMINDERS MANAGEMENT
+     */
+
+    public function get_reminder($id)
+    {
+        return $this->db->get_where(db_prefix() . 'dpt_reminders', ['id' => $id])->row();
+    }
+
+    public function get_reminders($patient_id = null, $filters = [])
+    {
+        if ($patient_id) {
+            $this->db->where('patient_id', $patient_id);
+        }
+
+        if (isset($filters['status'])) {
+            $this->db->where('status', $filters['status']);
+        }
+
+        if (isset($filters['type'])) {
+            $this->db->where('reminder_type', $filters['type']);
+        }
+
+        $this->db->order_by('next_trigger_date', 'ASC');
+        return $this->db->get(db_prefix() . 'dpt_reminders')->result();
+    }
+
+    public function get_due_reminders()
+    {
+        $this->db->where('status', 'active');
+        $this->db->where('next_trigger_date <=', date('Y-m-d H:i:s'));
+        return $this->db->get(db_prefix() . 'dpt_reminders')->result();
+    }
+
+    public function add_reminder($data)
+    {
+        $this->db->insert(db_prefix() . 'dpt_reminders', $data);
+        return $this->db->insert_id();
+    }
+
+    public function update_reminder($id, $data)
+    {
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'dpt_reminders', $data);
+        return $this->db->affected_rows() > 0;
+    }
+
+    public function delete_reminder($id)
+    {
+        $this->db->where('id', $id);
+        $this->db->delete(db_prefix() . 'dpt_reminders');
+        return $this->db->affected_rows() > 0;
+    }
+
+    public function log_reminder_sent($reminder_id, $sent_via, $status = 'sent', $error = null)
+    {
+        $data = [
+            'reminder_id' => $reminder_id,
+            'sent_via' => $sent_via,
+            'status' => $status,
+            'error_message' => $error
+        ];
+
+        $this->db->insert(db_prefix() . 'dpt_reminder_logs', $data);
+        return $this->db->insert_id();
+    }
+
+    /**
+     * SMS MANAGEMENT
+     */
+
+    public function send_sms($phone_number, $message, $patient_id = null, $type = 'notification')
+    {
+        $enabled = $this->get_setting('dpt_sms_enabled');
+        if (!$enabled || $enabled == '0') {
+            return false;
+        }
+
+        $api_key = $this->get_setting('dpt_sms_lam_api_key');
+        $sender_id = $this->get_setting('dpt_sms_lam_sender_id');
+        $api_url = $this->get_setting('dpt_sms_lam_api_url');
+
+        if (empty($api_key) || empty($sender_id)) {
+            log_activity('SMS API not configured');
+            return false;
+        }
+
+        // Log SMS attempt
+        $log_data = [
+            'patient_id' => $patient_id,
+            'phone_number' => $phone_number,
+            'message' => $message,
+            'message_type' => $type,
+            'sender_id' => $sender_id,
+            'status' => 'pending'
+        ];
+
+        $this->db->insert(db_prefix() . 'dpt_sms_logs', $log_data);
+        $log_id = $this->db->insert_id();
+
+        // Send via LAM API
+        $curl = curl_init();
+        curl_setopt_array($curl, [
+            CURLOPT_URL => $api_url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => json_encode([
+                'api_key' => $api_key,
+                'sender_id' => $sender_id,
+                'phone' => $phone_number,
+                'message' => $message
+            ]),
+            CURLOPT_HTTPHEADER => [
+                'Content-Type: application/json',
+                'Accept: application/json'
+            ]
+        ]);
+
+        $response = curl_exec($curl);
+        $http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        $error = curl_error($curl);
+        curl_close($curl);
+
+        // Update log
+        $update_data = [
+            'api_response' => $response,
+            'sent_at' => date('Y-m-d H:i:s')
+        ];
+
+        if ($http_code == 200 || $http_code == 201) {
+            $update_data['status'] = 'sent';
+            $result = true;
+        } else {
+            $update_data['status'] = 'failed';
+            $result = false;
+        }
+
+        $this->db->where('id', $log_id);
+        $this->db->update(db_prefix() . 'dpt_sms_logs', $update_data);
+
+        return $result;
+    }
+
+    public function get_sms_logs($patient_id = null, $limit = 50)
+    {
+        if ($patient_id) {
+            $this->db->where('patient_id', $patient_id);
+        }
+
+        $this->db->order_by('created_at', 'DESC');
+        $this->db->limit($limit);
+        return $this->db->get(db_prefix() . 'dpt_sms_logs')->result();
+    }
+
+    /**
+     * GDPR CONSENT MANAGEMENT
+     */
+
+    public function add_consent($data)
+    {
+        $this->db->insert(db_prefix() . 'dpt_gdpr_consents', $data);
+        return $this->db->insert_id();
+    }
+
+    public function get_patient_consents($patient_id)
+    {
+        $this->db->where('patient_id', $patient_id);
+        $this->db->order_by('created_at', 'DESC');
+        return $this->db->get(db_prefix() . 'dpt_gdpr_consents')->result();
+    }
+
+    public function get_active_consent($patient_id, $consent_type)
+    {
+        $this->db->where('patient_id', $patient_id);
+        $this->db->where('consent_type', $consent_type);
+        $this->db->where('consent_given', 1);
+        $this->db->where('withdrawn_at IS NULL');
+        $this->db->order_by('consented_at', 'DESC');
+        $this->db->limit(1);
+        return $this->db->get(db_prefix() . 'dpt_gdpr_consents')->row();
+    }
+
+    public function withdraw_consent($patient_id, $consent_type)
+    {
+        $this->db->where('patient_id', $patient_id);
+        $this->db->where('consent_type', $consent_type);
+        $this->db->where('consent_given', 1);
+        $this->db->where('withdrawn_at IS NULL');
+        $this->db->update(db_prefix() . 'dpt_gdpr_consents', [
+            'withdrawn_at' => date('Y-m-d H:i:s')
+        ]);
+
+        return $this->db->affected_rows() > 0;
+    }
+
+    /**
+     * AUDIT LOG
+     */
+
+    public function log_audit($action, $entity_type, $entity_id, $patient_id = null, $old_values = null, $new_values = null)
+    {
+        $enabled = $this->get_setting('dpt_enable_audit_log');
+        if (!$enabled || $enabled == '0') {
+            return false;
+        }
+
+        $user_id = is_staff_logged_in() ? get_staff_user_id() : (is_client_logged_in() ? get_contact_user_id() : 0);
+        $user_type = is_staff_logged_in() ? 'staff' : 'client';
+
+        $data = [
+            'patient_id' => $patient_id,
+            'user_id' => $user_id,
+            'user_type' => $user_type,
+            'action' => $action,
+            'entity_type' => $entity_type,
+            'entity_id' => $entity_id,
+            'old_values' => $old_values ? json_encode($old_values) : null,
+            'new_values' => $new_values ? json_encode($new_values) : null,
+            'ip_address' => $this->input->ip_address(),
+            'user_agent' => $this->input->user_agent()
+        ];
+
+        $this->db->insert(db_prefix() . 'dpt_audit_log', $data);
+        return $this->db->insert_id();
+    }
+
+    public function get_audit_logs($filters = [], $limit = 100)
+    {
+        if (isset($filters['patient_id'])) {
+            $this->db->where('patient_id', $filters['patient_id']);
+        }
+
+        if (isset($filters['entity_type'])) {
+            $this->db->where('entity_type', $filters['entity_type']);
+        }
+
+        if (isset($filters['from_date'])) {
+            $this->db->where('created_at >=', $filters['from_date']);
+        }
+
+        if (isset($filters['to_date'])) {
+            $this->db->where('created_at <=', $filters['to_date']);
+        }
+
+        $this->db->order_by('created_at', 'DESC');
+        $this->db->limit($limit);
+        return $this->db->get(db_prefix() . 'dpt_audit_log')->result();
+    }
+
+    /**
+     * SATISFACTION SURVEYS
+     */
+
+    public function get_satisfaction_survey($id)
+    {
+        return $this->db->get_where(db_prefix() . 'dpt_satisfaction_surveys', ['id' => $id])->row();
+    }
+
+    public function get_survey_by_consultation($consultation_id)
+    {
+        return $this->db->get_where(db_prefix() . 'dpt_satisfaction_surveys', ['consultation_id' => $consultation_id])->row();
+    }
+
+    public function add_satisfaction_survey($data)
+    {
+        $this->db->insert(db_prefix() . 'dpt_satisfaction_surveys', $data);
+        return $this->db->insert_id();
+    }
+
+    public function update_satisfaction_survey($id, $data)
+    {
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'dpt_satisfaction_surveys', $data);
+        return $this->db->affected_rows() > 0;
+    }
+
+    public function get_dietician_nps_score($dietician_id, $from_date = null)
+    {
+        $this->db->select('AVG(nps_score) as avg_nps');
+        $this->db->where('dietician_id', $dietician_id);
+        $this->db->where('nps_score IS NOT NULL');
+
+        if ($from_date) {
+            $this->db->where('completed_at >=', $from_date);
+        }
+
+        $result = $this->db->get(db_prefix() . 'dpt_satisfaction_surveys')->row();
+        return $result ? round($result->avg_nps, 1) : null;
+    }
+
+    public function get_pending_surveys()
+    {
+        $this->db->where('completed_at IS NULL');
+        $this->db->where('survey_sent_at IS NOT NULL');
+        $this->db->where('reminder_sent_count <', 3); // Max 3 reminders
+        return $this->db->get(db_prefix() . 'dpt_satisfaction_surveys')->result();
+    }
 }

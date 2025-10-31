@@ -6,6 +6,128 @@ Module complet de gestion et suivi nutritionnel pour diététiciens et leurs pat
 
 ## ✨ Fonctionnalités Principales
 
+### 🆕 NOUVELLES FONCTIONNALITÉS (Version 1.0.0)
+
+#### 📋 Anamnèse Structurée
+- **Historique médical complet** : antécédents, chirurgies
+- **Médications actuelles** et suivi
+- **Allergies et intolérances** alimentaires détaillées
+- **Conditions chroniques** (diabète, hypertension, etc.)
+- **Antécédents familiaux**
+- **Habitudes de vie** : tabac, alcool, sommeil
+- **Niveau de stress** et qualité du sommeil (échelles)
+- **Niveau de motivation** (1-10)
+- **Objectifs** principaux et secondaires
+- **Obstacles** et système de soutien
+- **Régimes précédents**, préférences alimentaires
+- **Contraintes budgétaires** et temps de préparation
+- **Compétences culinaires** (débutant à expert)
+
+#### 🎯 Programmes Nutritionnels
+- **Création de programmes** avec durée définie
+- **Types** : perte de poids, prise de masse, santé, nutrition sportive, thérapeutique
+- **Objectifs macro quotidiens** (calories, protéines, glucides, lipides)
+- **Fréquence d'entraînement** et type
+- **Jalons (Milestones)** avec dates cibles et métriques
+- **Suivi de progression automatique** (%)
+- **Lien avec plans alimentaires** (versioning)
+- **Statuts** : brouillon, actif, en pause, complété, annulé
+
+#### ⏰ Système de Rappels Automatisés
+- **Types de rappels** : Repas, Hydratation, Médicaments, RDV, Mesures, Renouvellement de plan
+- **Fréquences** : Unique, Quotidien, Hebdomadaire, Mensuel, Personnalisé
+- **Configuration** : Jours de la semaine, heures précises
+- **Multi-canal** : Email, SMS, Notifications in-app
+- **Gestion automatique via CRON** (toutes les 5 minutes)
+- **Logs d'envoi** avec statuts (succès/échec)
+- **Calcul automatique** prochaine date de déclenchement
+
+#### 📱 Intégration SMS (API LAM)
+- **Configuration** : Clé API, Sender ID, URL API
+- **Envoi automatique** : Rappels, Notifications consultations, Invitations enquêtes
+- **Logs complets** : Statut, réponse API, coûts
+- **Templates** personnalisables
+- **Gestion des erreurs** et retry logic
+- **Support multi-patients**
+
+#### 😊 Satisfaction & NPS Post-Consultation
+- **Enquêtes automatiques** envoyées après délai configurable (défaut: 24h)
+- **NPS Score** (0-10) pour Net Promoter Score
+- **Évaluations multiples** :
+  - Satisfaction globale (1-5 étoiles)
+  - Qualité communication (1-5 étoiles)
+  - Expertise diététicien (1-5 étoiles)
+  - Qualité du plan (1-5 étoiles)
+  - Temps d'attente (1-5 étoiles)
+- **Feedback qualitatif** : Positif, Négatif, Suggestions
+- **Système de relances** automatique (J+3, J+7, J+14, max 3 relances)
+- **Calcul NPS moyen** par diététicien
+- **Recommandation** (Oui/Non)
+
+#### 🔐 RGPD & Conformité
+- **Consentements tracés** :
+  - Traitement données de santé
+  - Partage de données
+  - Communications marketing
+  - Photographies
+  - Notifications SMS
+- **Horodatage complet** : Date, IP, User-Agent
+- **Retrait de consentement** possible à tout moment
+- **Historique des consentements** consultable
+- **Journal d'audit** :
+  - Traçabilité CRUD (Create, Read, Update, Delete, Export)
+  - Enregistrement user, IP, timestamp
+  - Comparaison anciennes/nouvelles valeurs (JSON)
+  - Filtres par patient, entité, période
+  - Export pour conformité
+
+#### 👨‍⚕️ Profils Diététiciens Dédiés
+- **Table dédiée** distincte du staff Perfex
+- **Spécialités** (JSON array)
+- **Langues** parlées
+- **Qualifications** et formations
+- **Numéro de licence** professionnel
+- **Tarif consultation** configurable
+- **Disponibilités** (planning JSON)
+- **Signature numérique** (image)
+- **Limite patients** (0 = illimité)
+- **Statuts** : Actif, Inactif, En congé
+
+#### 📑 Onglet "Suivi Diététique" dans Fiche Client Perfex
+- **Intégration native** dans profil client Perfex
+- **Hook automatique** `after_customer_tabs`
+- **Affichage conditionnel** si profil patient existe
+- **Statistiques rapides** :
+  - Nombre de consultations
+  - Poids actuel
+  - Objectifs actifs
+  - Statut patient
+- **Actions rapides** :
+  - Voir profil complet
+  - Ajouter mesure
+  - Créer consultation
+- **Support multi-contacts** : Plusieurs profils patients par client
+
+#### ⚙️ CRON Jobs Automatisés
+- **Processus principal** : Toutes les 5 minutes
+- **Tâches horaires** :
+  - Traitement rappels dus
+  - Envoi Email/SMS
+  - Mise à jour prochaines dates
+  - Marquage rappels terminés
+- **Tâches quotidiennes** (1x/jour) :
+  - Envoi enquêtes satisfaction (24h post-consultation)
+  - Relances enquêtes (J+3, J+7, J+14)
+  - Mise à jour progression programmes (%)
+  - Vérification objectifs et alertes
+  - Rappels consultations (3 jours avant)
+  - Nettoyage fichiers temporaires (>7 jours)
+  - Génération rapports quotidiens
+- **Configuration** : Ajout dans crontab serveur
+  ```bash
+  */5 * * * * php /path/to/perfex/index.php dietician_patient_tracking/cron/process
+  ```
+
 ### 🏥 Gestion des Patients
 
 - **Profils patients complets** liés aux contacts Perfex CRM
@@ -180,8 +302,9 @@ Module complet de gestion et suivi nutritionnel pour diététiciens et leurs pat
 
 ### Base de Données
 
-Le module crée automatiquement 12 tables :
+Le module crée automatiquement **23 tables** :
 
+#### Tables Principales (Existantes)
 - `dpt_patient_profiles` : Profils patients
 - `dpt_measurements` : Mesures corporelles
 - `dpt_consultations` : Consultations et rendez-vous
@@ -195,6 +318,22 @@ Le module crée automatiquement 12 tables :
 - `dpt_messages` : Messages
 - `dpt_recipes` : Recettes
 - `dpt_settings` : Paramètres du module
+
+#### 🆕 Nouvelles Tables (Version 1.0.0)
+- `dpt_dietitians` : Profils diététiciens dédiés
+- `dpt_anamnesis` : Anamnèses structurées
+- `dpt_programs` : Programmes nutritionnels
+- `dpt_program_milestones` : Jalons des programmes
+- `dpt_reminders` : Rappels automatiques
+- `dpt_reminder_logs` : Logs d'envoi rappels
+- `dpt_sms_logs` : Logs envoi SMS (API LAM)
+- `dpt_gdpr_consents` : Consentements RGPD
+- `dpt_audit_log` : Journal d'audit RGPD
+- `dpt_satisfaction_surveys` : Enquêtes de satisfaction NPS
+
+#### Colonnes Ajoutées
+- `dpt_consultations` : `nps_score`, `satisfaction_rating`
+- `dpt_meal_plans` : `program_id`, `version`, `parent_plan_id`
 
 ### Architecture MVC
 

@@ -325,3 +325,6 @@ foreach ($sample_foods as $food) {
         $CI->db->insert(db_prefix() . 'dpt_food_library', $food);
     }
 }
+
+// Run upgrade script to add additional tables
+require_once(__DIR__ . '/upgrade.php');

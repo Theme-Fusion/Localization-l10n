@@ -381,3 +381,167 @@ $lang['welcome'] = 'Bienvenue';
 $lang['draft'] = 'Brouillon';
 $lang['select'] = 'Sélectionner';
 $lang['send'] = 'Envoyer';
+
+// Programs
+$lang['dpt_program'] = 'Programme';
+$lang['dpt_programs'] = 'Programmes';
+$lang['dpt_add_program'] = 'Ajouter un Programme';
+$lang['dpt_program_name'] = 'Nom du programme';
+$lang['dpt_program_type'] = 'Type de programme';
+$lang['dpt_duration_weeks'] = 'Durée (semaines)';
+$lang['dpt_milestones'] = 'Jalons';
+$lang['dpt_add_milestone'] = 'Ajouter un Jalon';
+$lang['dpt_milestone'] = 'Jalon';
+$lang['dpt_program_weight_loss'] = 'Perte de poids';
+$lang['dpt_program_weight_gain'] = 'Prise de poids';
+$lang['dpt_program_muscle_building'] = 'Prise de masse musculaire';
+$lang['dpt_program_health_improvement'] = 'Amélioration de la santé';
+$lang['dpt_program_sports_nutrition'] = 'Nutrition sportive';
+$lang['dpt_program_therapeutic'] = 'Programme thérapeutique';
+$lang['dpt_training_frequency'] = 'Fréquence d\'entraînement';
+$lang['dpt_training_type'] = 'Type d\'entraînement';
+
+// Anamnesis
+$lang['dpt_anamnesis_detailed'] = 'Anamnèse Détaillée';
+$lang['dpt_create_anamnesis'] = 'Créer une Anamnèse';
+$lang['dpt_current_medications'] = 'Médicaments actuels';
+$lang['dpt_food_intolerances'] = 'Intolérances alimentaires';
+$lang['dpt_chronic_conditions'] = 'Affections chroniques';
+$lang['dpt_family_history'] = 'Antécédents familiaux';
+$lang['dpt_lifestyle_habits'] = 'Habitudes de vie';
+$lang['dpt_eating_habits'] = 'Habitudes alimentaires';
+$lang['dpt_stress_level'] = 'Niveau de stress';
+$lang['dpt_sleep_quality'] = 'Qualité du sommeil';
+$lang['dpt_motivation_level'] = 'Niveau de motivation';
+$lang['dpt_main_objective'] = 'Objectif principal';
+$lang['dpt_secondary_objectives'] = 'Objectifs secondaires';
+$lang['dpt_obstacles'] = 'Obstacles';
+$lang['dpt_support_system'] = 'Système de soutien';
+$lang['dpt_previous_diets'] = 'Régimes précédents';
+$lang['dpt_preferences'] = 'Préférences';
+$lang['dpt_budget_constraints'] = 'Contraintes budgétaires';
+$lang['dpt_cooking_skills'] = 'Compétences culinaires';
+$lang['dpt_meal_prep_time'] = 'Temps de préparation des repas';
+$lang['dpt_stress_low'] = 'Faible';
+$lang['dpt_stress_moderate'] = 'Modéré';
+$lang['dpt_stress_high'] = 'Élevé';
+$lang['dpt_stress_very_high'] = 'Très élevé';
+$lang['dpt_sleep_poor'] = 'Mauvaise';
+$lang['dpt_sleep_fair'] = 'Passable';
+$lang['dpt_sleep_good'] = 'Bonne';
+$lang['dpt_sleep_excellent'] = 'Excellente';
+$lang['dpt_budget_low'] = 'Limité';
+$lang['dpt_budget_unlimited'] = 'Illimité';
+$lang['dpt_cooking_beginner'] = 'Débutant';
+$lang['dpt_cooking_intermediate'] = 'Intermédiaire';
+$lang['dpt_cooking_advanced'] = 'Avancé';
+$lang['dpt_cooking_expert'] = 'Expert';
+
+// Reminders
+$lang['dpt_reminders'] = 'Rappels';
+$lang['dpt_reminder'] = 'Rappel';
+$lang['dpt_add_reminder'] = 'Ajouter un Rappel';
+$lang['dpt_reminder_type'] = 'Type de rappel';
+$lang['dpt_reminder_meal'] = 'Repas';
+$lang['dpt_reminder_hydration'] = 'Hydratation';
+$lang['dpt_reminder_medication'] = 'Médicament';
+$lang['dpt_reminder_appointment'] = 'Rendez-vous';
+$lang['dpt_reminder_measurement'] = 'Prise de mesures';
+$lang['dpt_reminder_plan_renewal'] = 'Renouvellement du plan';
+$lang['dpt_reminder_custom'] = 'Personnalisé';
+$lang['dpt_time_of_day'] = 'Heure de la journée';
+$lang['dpt_days_of_week'] = 'Jours de la semaine';
+$lang['dpt_send_via_sms'] = 'Envoyer par SMS';
+$lang['dpt_send_via_email'] = 'Envoyer par Email';
+$lang['dpt_frequency_once'] = 'Une fois';
+$lang['dpt_frequency_custom'] = 'Personnalisé';
+$lang['dpt_paused'] = 'En pause';
+
+// SMS
+$lang['dpt_sms_settings'] = 'Paramètres SMS';
+$lang['dpt_sms_enabled'] = 'SMS activé';
+$lang['dpt_sms_api_key'] = 'Clé API LAM';
+$lang['dpt_sms_sender_id'] = 'ID Expéditeur';
+$lang['dpt_sms_api_url'] = 'URL API';
+$lang['dpt_sms_logs'] = 'Journaux SMS';
+$lang['dpt_sms_sent'] = 'SMS envoyé';
+$lang['dpt_sms_failed'] = 'SMS échoué';
+$lang['dpt_sms_pending'] = 'SMS en attente';
+
+// GDPR & Consent
+$lang['dpt_gdpr_consent'] = 'Consentement RGPD';
+$lang['dpt_consent_health_data'] = 'Traitement des données de santé';
+$lang['dpt_consent_data_sharing'] = 'Partage de données';
+$lang['dpt_consent_marketing'] = 'Communications marketing';
+$lang['dpt_consent_photography'] = 'Photographies';
+$lang['dpt_consent_sms'] = 'Notifications SMS';
+$lang['dpt_consent_given'] = 'Consentement donné';
+$lang['dpt_consent_withdrawn'] = 'Consentement retiré';
+$lang['dpt_consent_required'] = 'Consentement requis';
+$lang['dpt_withdraw_consent'] = 'Retirer le consentement';
+$lang['dpt_audit_log'] = 'Journal d\'audit';
+$lang['dpt_view_audit_log'] = 'Voir le journal d\'audit';
+
+// Satisfaction Surveys
+$lang['dpt_satisfaction'] = 'Satisfaction';
+$lang['dpt_satisfaction_survey'] = 'Enquête de satisfaction';
+$lang['dpt_nps'] = 'NPS (Net Promoter Score)';
+$lang['dpt_overall_satisfaction'] = 'Satisfaction globale';
+$lang['dpt_communication_rating'] = 'Évaluation communication';
+$lang['dpt_expertise_rating'] = 'Évaluation expertise';
+$lang['dpt_plan_quality_rating'] = 'Qualité du plan';
+$lang['dpt_waiting_time_rating'] = 'Temps d\'attente';
+$lang['dpt_would_recommend'] = 'Recommanderiez-vous?';
+$lang['dpt_positive_feedback'] = 'Retours positifs';
+$lang['dpt_negative_feedback'] = 'Points d\'amélioration';
+$lang['dpt_complete_survey'] = 'Compléter l\'enquête';
+$lang['dpt_survey_completed'] = 'Enquête complétée';
+$lang['dpt_survey_pending'] = 'Enquête en attente';
+$lang['dpt_thank_you_feedback'] = 'Merci pour votre retour!';
+
+// Dietitians
+$lang['dpt_dietitians'] = 'Diététiciens';
+$lang['dpt_specialties'] = 'Spécialités';
+$lang['dpt_qualifications'] = 'Qualifications';
+$lang['dpt_license_number'] = 'Numéro de licence';
+$lang['dpt_consultation_fee'] = 'Tarif consultation';
+$lang['dpt_availability'] = 'Disponibilité';
+$lang['dpt_max_patients'] = 'Maximum de patients';
+$lang['dpt_on_leave'] = 'En congé';
+
+// Dashboard & KPIs
+$lang['dpt_kpi_adherence_rate'] = 'Taux d\'adhérence';
+$lang['dpt_kpi_avg_weight_change'] = 'Δ poids moyen';
+$lang['dpt_kpi_consultations_ratio'] = 'Ratio consultations tenues/planifiées';
+$lang['dpt_kpi_avg_nps'] = 'NPS moyen';
+$lang['dpt_kpi_revenue_per_dietitian'] = 'Revenu par diététicien';
+$lang['dpt_adherence_by_day'] = 'Adhérence par jour';
+$lang['dpt_weight_evolution'] = 'Évolution du poids';
+$lang['dpt_funnel_lead_to_patient'] = 'Funnel Lead → Patient';
+
+// Tab in Client Profile
+$lang['dpt_dietary_tracking'] = 'Suivi Diététique';
+$lang['dpt_no_contacts'] = 'Aucun contact pour ce client';
+$lang['dpt_no_patient_profile_for_client'] = 'Aucun profil patient n\'a été créé pour ce client';
+$lang['dpt_create_patient_profile'] = 'Créer un profil patient';
+$lang['dpt_view_full_profile'] = 'Voir le profil complet';
+$lang['dpt_new_consultation'] = 'Nouvelle consultation';
+
+// Exports
+$lang['dpt_export_csv'] = 'Exporter CSV';
+$lang['dpt_export_xlsx'] = 'Exporter Excel';
+$lang['dpt_generate_pdf'] = 'Générer PDF';
+$lang['dpt_export_report'] = 'Exporter le rapport';
+$lang['dpt_download_plan_pdf'] = 'Télécharger le plan (PDF)';
+
+// Notifications
+$lang['dpt_cron_enabled'] = 'Tâches automatiques activées';
+$lang['dpt_cron_disabled'] = 'Tâches automatiques désactivées';
+$lang['dpt_last_cron_run'] = 'Dernière exécution CRON';
+
+// Status messages
+$lang['dpt_pending'] = 'En attente';
+$lang['dpt_on_hold'] = 'En suspens';
+$lang['dpt_failed'] = 'Échec';
+$lang['dpt_sent'] = 'Envoyé';
+$lang['dpt_achieved'] = 'Atteint';

@@ -29,6 +29,10 @@ hooks()->add_action('app_customers_footer', 'dietician_patient_tracking_client_f
 hooks()->add_action('after_project_added', 'dietician_patient_tracking_project_created');
 hooks()->add_action('before_project_deleted', 'dietician_patient_tracking_project_deleted');
 
+// Client profile tab hook
+hooks()->add_action('after_customer_tabs', 'dietician_patient_tracking_add_client_profile_tab');
+hooks()->add_action('after_customer_tabs_content', 'dietician_patient_tracking_add_client_profile_tab_content');
+
 /**
  * Register activation module hook
  */
@@ -208,4 +212,147 @@ function dietician_patient_tracking_project_deleted($project_id)
     $CI = &get_instance();
     $CI->load->model('dietician_patient_tracking/dietician_patient_tracking_model');
     $CI->dietician_patient_tracking_model->handle_project_deletion($project_id);
+}
+
+/**
+ * Add "Dietary Tracking" tab to client profile
+ */
+function dietician_patient_tracking_add_client_profile_tab($customer_id)
+{
+    if (has_permission('dietician_patient_tracking', '', 'view')) {
+        echo '<li role="presentation">
+                <a href="#dietician_tracking" aria-controls="dietician_tracking" role="tab" data-toggle="tab">
+                    <i class="fa fa-heartbeat"></i> ' . _l('dpt_dietary_tracking') . '
+                </a>
+              </li>';
+    }
+}
+
+/**
+ * Add "Dietary Tracking" tab content to client profile
+ */
+function dietician_patient_tracking_add_client_profile_tab_content($customer_id)
+{
+    if (!has_permission('dietician_patient_tracking', '', 'view')) {
+        return;
+    }
+
+    $CI = &get_instance();
+    $CI->load->model('dietician_patient_tracking/dietician_patient_tracking_model');
+    $CI->load->model('clients_model');
+
+    // Get all contacts for this customer
+    $contacts = $CI->clients_model->get_contacts($customer_id);
+
+    echo '<div role="tabpanel" class="tab-pane" id="dietician_tracking">';
+
+    if (empty($contacts)) {
+        echo '<p class="text-muted">' . _l('dpt_no_contacts') . '</p>';
+        echo '</div>';
+        return;
+    }
+
+    // Check if any contact has a patient profile
+    $patient_profiles = [];
+    foreach ($contacts as $contact) {
+        $profile = $CI->dietician_patient_tracking_model->get_patient_profile(null, $contact['id']);
+        if ($profile) {
+            $patient_profiles[] = [
+                'contact' => $contact,
+                'profile' => $profile
+            ];
+        }
+    }
+
+    if (empty($patient_profiles)) {
+        echo '<div class="alert alert-info">';
+        echo '<p>' . _l('dpt_no_patient_profile_for_client') . '</p>';
+        if (has_permission('dietician_patient_tracking', '', 'create')) {
+            echo '<a href="' . admin_url('dietician_patient_tracking/patients') . '" class="btn btn-primary">';
+            echo '<i class="fa fa-plus"></i> ' . _l('dpt_create_patient_profile');
+            echo '</a>';
+        }
+        echo '</div>';
+    } else {
+        foreach ($patient_profiles as $item) {
+            $profile = $item['profile'];
+            $contact = $item['contact'];
+
+            echo '<div class="panel panel-default">';
+            echo '<div class="panel-heading">';
+            echo '<h4 class="panel-title">';
+            echo '<i class="fa fa-user"></i> ' . $contact['firstname'] . ' ' . $contact['lastname'];
+            echo '<a href="' . admin_url('dietician_patient_tracking/patient/' . $profile->id) . '" class="btn btn-xs btn-info pull-right">';
+            echo '<i class="fa fa-eye"></i> ' . _l('view_profile');
+            echo '</a>';
+            echo '</h4>';
+            echo '</div>';
+            echo '<div class="panel-body">';
+
+            // Quick stats
+            $stats = $CI->dietician_patient_tracking_model->get_patient_statistics($profile->id);
+            $latest_measurement = $CI->dietician_patient_tracking_model->get_latest_measurement($profile->id);
+
+            echo '<div class="row">';
+
+            // Stats columns
+            echo '<div class="col-md-3">';
+            echo '<div class="text-center">';
+            echo '<h3 class="bold">' . ($stats['total_consultations'] ?? 0) . '</h3>';
+            echo '<p class="text-muted">' . _l('dpt_consultations') . '</p>';
+            echo '</div>';
+            echo '</div>';
+
+            echo '<div class="col-md-3">';
+            echo '<div class="text-center">';
+            if ($latest_measurement) {
+                echo '<h3 class="bold">' . $latest_measurement->weight . ' kg</h3>';
+                echo '<p class="text-muted">' . _l('dpt_current_weight') . '</p>';
+            } else {
+                echo '<p class="text-muted">' . _l('dpt_no_measurements') . '</p>';
+            }
+            echo '</div>';
+            echo '</div>';
+
+            echo '<div class="col-md-3">';
+            echo '<div class="text-center">';
+            echo '<h3 class="bold">' . ($stats['active_goals'] ?? 0) . '</h3>';
+            echo '<p class="text-muted">' . _l('dpt_active_goals') . '</p>';
+            echo '</div>';
+            echo '</div>';
+
+            echo '<div class="col-md-3">';
+            echo '<div class="text-center">';
+            $status_class = $profile->status == 'active' ? 'success' : 'default';
+            echo '<span class="label label-' . $status_class . '">' . _l('dpt_' . $profile->status) . '</span>';
+            echo '<p class="text-muted mtop10">' . _l('dpt_status') . '</p>';
+            echo '</div>';
+            echo '</div>';
+
+            echo '</div>'; // End row
+
+            // Quick actions
+            echo '<hr>';
+            echo '<div class="text-center">';
+            echo '<a href="' . admin_url('dietician_patient_tracking/patient/' . $profile->id) . '" class="btn btn-default">';
+            echo '<i class="fa fa-folder-open"></i> ' . _l('dpt_view_full_profile');
+            echo '</a> ';
+
+            if (has_permission('dietician_patient_tracking', '', 'create')) {
+                echo '<a href="' . admin_url('dietician_patient_tracking/add_measurement/' . $profile->id) . '" class="btn btn-primary">';
+                echo '<i class="fa fa-plus"></i> ' . _l('dpt_add_measurement');
+                echo '</a> ';
+
+                echo '<a href="' . admin_url('dietician_patient_tracking/consultation?patient_id=' . $profile->id) . '" class="btn btn-success">';
+                echo '<i class="fa fa-calendar-plus-o"></i> ' . _l('dpt_new_consultation');
+                echo '</a>';
+            }
+            echo '</div>';
+
+            echo '</div>'; // End panel-body
+            echo '</div>'; // End panel
+        }
+    }
+
+    echo '</div>'; // End tab-pane
 }
