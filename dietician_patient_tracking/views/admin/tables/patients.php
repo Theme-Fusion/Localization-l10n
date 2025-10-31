@@ -3,13 +3,13 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    'id',
-    'firstname',
-    'lastname',
-    'email',
-    'dietician_firstname',
-    'status',
-    'created_at'
+    db_prefix() . 'dpt_patient_profiles.id as id',
+    db_prefix() . 'contacts.firstname as firstname',
+    db_prefix() . 'contacts.lastname as lastname',
+    db_prefix() . 'contacts.email as email',
+    'CONCAT(' . db_prefix() . 'staff.firstname, " ", ' . db_prefix() . 'staff.lastname) as dietician_name',
+    db_prefix() . 'dpt_patient_profiles.status as status',
+    db_prefix() . 'dpt_patient_profiles.created_at as created_at'
 ];
 
 $sIndexColumn = 'id';
@@ -20,15 +20,7 @@ $join = [
     'LEFT JOIN ' . db_prefix() . 'staff ON ' . db_prefix() . 'staff.staffid = ' . db_prefix() . 'dpt_patient_profiles.dietician_id'
 ];
 
-$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], [
-    db_prefix() . 'dpt_patient_profiles.id',
-    db_prefix() . 'contacts.firstname',
-    db_prefix() . 'contacts.lastname',
-    db_prefix() . 'contacts.email',
-    'CONCAT(' . db_prefix() . 'staff.firstname, " ", ' . db_prefix() . 'staff.lastname) as dietician_name',
-    db_prefix() . 'dpt_patient_profiles.status',
-    db_prefix() . 'dpt_patient_profiles.created_at'
-]);
+$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], []);
 
 $output  = $result['output'];
 $rResult = $result['rResult'];
@@ -43,7 +35,7 @@ foreach ($rResult as $aRow) {
 
     $row[] = $aRow['email'];
 
-    $row[] = $aRow['dietician_name'];
+    $row[] = $aRow['dietician_name'] ?: '-';
 
     $status_class = '';
     switch ($aRow['status']) {
@@ -77,3 +69,4 @@ foreach ($rResult as $aRow) {
 }
 
 echo json_encode($output);
+

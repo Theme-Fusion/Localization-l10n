@@ -3,11 +3,11 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    'id',
-    'name',
-    'firstname',
-    'start_date',
-    'status'
+    db_prefix() . 'dpt_meal_plans.id as id',
+    db_prefix() . 'dpt_meal_plans.name as name',
+    'CONCAT(' . db_prefix() . 'contacts.firstname, " ", ' . db_prefix() . 'contacts.lastname) as patient_name',
+    db_prefix() . 'dpt_meal_plans.start_date as start_date',
+    db_prefix() . 'dpt_meal_plans.status as status'
 ];
 
 $sIndexColumn = 'id';
@@ -18,13 +18,7 @@ $join = [
     'LEFT JOIN ' . db_prefix() . 'contacts ON ' . db_prefix() . 'contacts.id = ' . db_prefix() . 'dpt_patient_profiles.contact_id'
 ];
 
-$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], [
-    db_prefix() . 'dpt_meal_plans.id',
-    db_prefix() . 'dpt_meal_plans.name',
-    'CONCAT(' . db_prefix() . 'contacts.firstname, " ", ' . db_prefix() . 'contacts.lastname) as patient_name',
-    db_prefix() . 'dpt_meal_plans.start_date',
-    db_prefix() . 'dpt_meal_plans.status'
-]);
+$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], []);
 
 $output  = $result['output'];
 $rResult = $result['rResult'];

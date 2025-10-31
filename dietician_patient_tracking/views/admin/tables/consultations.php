@@ -3,11 +3,12 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    'id',
-    'firstname',
-    'consultation_date',
-    'consultation_type',
-    'status'
+    db_prefix() . 'dpt_consultations.id as id',
+    'CONCAT(' . db_prefix() . 'contacts.firstname, " ", ' . db_prefix() . 'contacts.lastname) as patient_name',
+    db_prefix() . 'dpt_consultations.consultation_date as consultation_date',
+    db_prefix() . 'dpt_consultations.consultation_type as consultation_type',
+    db_prefix() . 'dpt_consultations.subject as subject',
+    db_prefix() . 'dpt_consultations.status as status'
 ];
 
 $sIndexColumn = 'id';
@@ -18,14 +19,7 @@ $join = [
     'LEFT JOIN ' . db_prefix() . 'contacts ON ' . db_prefix() . 'contacts.id = ' . db_prefix() . 'dpt_patient_profiles.contact_id'
 ];
 
-$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], [
-    db_prefix() . 'dpt_consultations.id',
-    'CONCAT(' . db_prefix() . 'contacts.firstname, " ", ' . db_prefix() . 'contacts.lastname) as patient_name',
-    db_prefix() . 'dpt_consultations.consultation_date',
-    db_prefix() . 'dpt_consultations.consultation_type',
-    db_prefix() . 'dpt_consultations.subject',
-    db_prefix() . 'dpt_consultations.status'
-]);
+$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], []);
 
 $output  = $result['output'];
 $rResult = $result['rResult'];

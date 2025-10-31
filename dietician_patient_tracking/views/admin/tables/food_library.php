@@ -15,15 +15,7 @@ $aColumns = [
 $sIndexColumn = 'id';
 $sTable       = db_prefix() . 'dpt_food_library';
 
-$result = data_tables_init($aColumns, $sIndexColumn, $sTable, [], [], [
-    'id',
-    'name',
-    'category',
-    'calories',
-    'protein',
-    'carbohydrates',
-    'fat'
-]);
+$result = data_tables_init($aColumns, $sIndexColumn, $sTable, [], [], []);
 
 $output  = $result['output'];
 $rResult = $result['rResult'];
