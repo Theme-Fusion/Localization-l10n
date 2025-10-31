@@ -490,4 +490,69 @@ class Client extends ClientsController
         $this->view('client/messages');
         $this->layout();
     }
+
+    /**
+     * Satisfaction Survey
+     */
+    public function satisfaction_survey($survey_id)
+    {
+        $survey = $this->dietician_patient_tracking_model->get_satisfaction_survey($survey_id);
+
+        if (!$survey) {
+            show_404();
+        }
+
+        $contact_id = get_contact_user_id();
+        $patient = $this->dietician_patient_tracking_model->get_patient_profile($survey->patient_id);
+
+        if (!$patient || $patient->contact_id != $contact_id) {
+            show_404();
+        }
+
+        // Check if already completed
+        if ($survey->completed_at) {
+            $data['survey'] = $survey;
+            $data['already_completed'] = true;
+            $data['title'] = _l('dpt_satisfaction_survey');
+            $this->data($data);
+            $this->view('client/satisfaction_survey');
+            $this->layout();
+            return;
+        }
+
+        if ($this->input->post()) {
+            $update_data = [
+                'nps_score' => $this->input->post('nps_score'),
+                'overall_satisfaction' => $this->input->post('overall_satisfaction'),
+                'communication_rating' => $this->input->post('communication_rating'),
+                'expertise_rating' => $this->input->post('expertise_rating'),
+                'plan_quality_rating' => $this->input->post('plan_quality_rating'),
+                'waiting_time_rating' => $this->input->post('waiting_time_rating'),
+                'would_recommend' => $this->input->post('would_recommend'),
+                'positive_feedback' => $this->input->post('positive_feedback'),
+                'negative_feedback' => $this->input->post('negative_feedback'),
+                'suggestions' => $this->input->post('suggestions'),
+                'completed_at' => date('Y-m-d H:i:s'),
+            ];
+
+            $success = $this->dietician_patient_tracking_model->update_satisfaction_survey($survey_id, $update_data);
+
+            if ($success) {
+                set_alert('success', _l('dpt_thank_you_feedback'));
+            } else {
+                set_alert('danger', _l('error_occurred'));
+            }
+
+            redirect(site_url('dietician_patient_tracking/client/satisfaction_survey/' . $survey_id));
+        }
+
+        $data['survey'] = $survey;
+        $data['consultation'] = $this->dietician_patient_tracking_model->get_consultation($survey->consultation_id);
+        $data['already_completed'] = false;
+        $data['title'] = _l('dpt_satisfaction_survey');
+
+        $this->data($data);
+        $this->view('client/satisfaction_survey');
+        $this->layout();
+    }
 }

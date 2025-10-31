@@ -578,4 +578,279 @@ class Dietician_patient_tracking extends AdminController
 
         $this->load->view('admin/settings/settings', $data);
     }
+
+    /**
+     * PROGRAMS MANAGEMENT
+     */
+
+    public function programs()
+    {
+        if ($this->input->is_ajax_request()) {
+            $this->app->get_table_data(module_views_path('dietician_patient_tracking', 'admin/tables/programs'));
+        }
+
+        $data['title'] = _l('dpt_programs');
+        $data['patients'] = $this->dietician_patient_tracking_model->get_all_patients(['status' => 'active']);
+
+        $this->load->view('admin/programs/manage', $data);
+    }
+
+    public function program($id = null)
+    {
+        if ($this->input->post()) {
+            $data = $this->input->post();
+
+            if (!$id) {
+                $data['dietician_id'] = get_staff_user_id();
+                $data['created_at'] = date('Y-m-d H:i:s');
+            }
+
+            if ($id) {
+                $success = $this->dietician_patient_tracking_model->update_program($id, $data);
+                if ($success) {
+                    set_alert('success', _l('updated_successfully', _l('dpt_program')));
+                } else {
+                    set_alert('danger', _l('updated_fail', _l('dpt_program')));
+                }
+                redirect(admin_url('dietician_patient_tracking/program/' . $id));
+            } else {
+                $new_id = $this->dietician_patient_tracking_model->add_program($data);
+                if ($new_id) {
+                    set_alert('success', _l('added_successfully', _l('dpt_program')));
+                    redirect(admin_url('dietician_patient_tracking/program/' . $new_id));
+                } else {
+                    set_alert('danger', _l('added_fail', _l('dpt_program')));
+                    redirect(admin_url('dietician_patient_tracking/programs'));
+                }
+            }
+        }
+
+        if ($id) {
+            $data['program'] = $this->dietician_patient_tracking_model->get_program($id);
+
+            if (!$data['program']) {
+                show_404();
+            }
+
+            $data['milestones'] = $this->dietician_patient_tracking_model->get_program_milestones($id);
+            $data['title'] = $data['program']->name;
+        }
+
+        $data['patients'] = $this->dietician_patient_tracking_model->get_all_patients(['status' => 'active']);
+
+        $this->load->view('admin/programs/program', $data);
+    }
+
+    public function add_program_milestone($program_id)
+    {
+        if ($this->input->post()) {
+            $data = $this->input->post();
+            $data['program_id'] = $program_id;
+
+            $id = $this->dietician_patient_tracking_model->add_program_milestone($data);
+            $success = $id ? true : false;
+
+            echo json_encode([
+                'success' => $success,
+                'message' => $success ? _l('added_successfully', _l('dpt_milestone')) : _l('added_fail', _l('dpt_milestone'))
+            ]);
+        }
+    }
+
+    public function delete_program($id)
+    {
+        if (!has_permission('dietician_patient_tracking', '', 'delete')) {
+            access_denied('dietician_patient_tracking');
+        }
+
+        $success = $this->dietician_patient_tracking_model->delete_program($id);
+        echo json_encode([
+            'success' => $success,
+            'message' => $success ? _l('deleted', _l('dpt_program')) : _l('problem_deleting', _l('dpt_program'))
+        ]);
+    }
+
+    /**
+     * ANAMNESIS MANAGEMENT
+     */
+
+    public function anamnesis($patient_id)
+    {
+        $data['patient'] = $this->dietician_patient_tracking_model->get_patient_profile($patient_id);
+
+        if (!$data['patient']) {
+            show_404();
+        }
+
+        $data['anamnesis_list'] = $this->dietician_patient_tracking_model->get_patient_anamnesis($patient_id);
+        $data['title'] = _l('dpt_anamnesis') . ' - ' . $data['patient']->firstname . ' ' . $data['patient']->lastname;
+
+        $this->load->view('admin/anamnesis/list', $data);
+    }
+
+    public function anamnesis_form($patient_id, $id = null)
+    {
+        $data['patient'] = $this->dietician_patient_tracking_model->get_patient_profile($patient_id);
+
+        if (!$data['patient']) {
+            show_404();
+        }
+
+        if ($this->input->post()) {
+            $post_data = $this->input->post();
+            $post_data['patient_id'] = $patient_id;
+            $post_data['created_by'] = get_staff_user_id();
+
+            // Handle PDF upload
+            if (isset($_FILES['pdf_attachment']) && $_FILES['pdf_attachment']['error'] == 0) {
+                $this->load->library('upload');
+
+                $config['upload_path'] = 'uploads/dietician_patient_tracking/anamnesis/';
+                $config['allowed_types'] = 'pdf|doc|docx';
+                $config['max_size'] = 10240; // 10MB
+                $config['file_name'] = 'anamnesis_' . $patient_id . '_' . time();
+
+                if (!is_dir($config['upload_path'])) {
+                    mkdir($config['upload_path'], 0755, true);
+                }
+
+                $this->upload->initialize($config);
+
+                if ($this->upload->do_upload('pdf_attachment')) {
+                    $upload_data = $this->upload->data();
+                    $post_data['pdf_attachment'] = $config['upload_path'] . $upload_data['file_name'];
+                }
+            }
+
+            if ($id) {
+                $success = $this->dietician_patient_tracking_model->update_anamnesis($id, $post_data);
+                $message = $success ? _l('updated_successfully', _l('dpt_anamnesis')) : _l('updated_fail', _l('dpt_anamnesis'));
+            } else {
+                $new_id = $this->dietician_patient_tracking_model->add_anamnesis($post_data);
+                $success = $new_id ? true : false;
+                $message = $success ? _l('added_successfully', _l('dpt_anamnesis')) : _l('added_fail', _l('dpt_anamnesis'));
+            }
+
+            set_alert($success ? 'success' : 'danger', $message);
+            redirect(admin_url('dietician_patient_tracking/anamnesis/' . $patient_id));
+        }
+
+        if ($id) {
+            $data['anamnesis'] = $this->dietician_patient_tracking_model->get_anamnesis($id);
+            if (!$data['anamnesis']) {
+                show_404();
+            }
+        }
+
+        $data['consultations'] = $this->dietician_patient_tracking_model->get_consultations($patient_id);
+        $data['title'] = $id ? _l('dpt_edit') . ' ' . _l('dpt_anamnesis') : _l('dpt_create_anamnesis');
+
+        $this->load->view('admin/anamnesis/form', $data);
+    }
+
+    /**
+     * REMINDERS MANAGEMENT
+     */
+
+    public function reminders()
+    {
+        if ($this->input->is_ajax_request()) {
+            $this->app->get_table_data(module_views_path('dietician_patient_tracking', 'admin/tables/reminders'));
+        }
+
+        $data['title'] = _l('dpt_reminders');
+        $data['patients'] = $this->dietician_patient_tracking_model->get_all_patients(['status' => 'active']);
+
+        $this->load->view('admin/reminders/manage', $data);
+    }
+
+    public function reminder($id = null)
+    {
+        if ($this->input->post()) {
+            $data = $this->input->post();
+
+            if (!$id) {
+                $data['created_by'] = get_staff_user_id();
+                $data['created_at'] = date('Y-m-d H:i:s');
+
+                // Calculate first trigger date
+                $start_date = $data['start_date'];
+                $time_of_day = $data['time_of_day'] ?? '09:00:00';
+                $data['next_trigger_date'] = $start_date . ' ' . $time_of_day;
+            }
+
+            if ($id) {
+                $success = $this->dietician_patient_tracking_model->update_reminder($id, $data);
+                if ($success) {
+                    set_alert('success', _l('updated_successfully', _l('dpt_reminder')));
+                } else {
+                    set_alert('danger', _l('updated_fail', _l('dpt_reminder')));
+                }
+                redirect(admin_url('dietician_patient_tracking/reminder/' . $id));
+            } else {
+                $new_id = $this->dietician_patient_tracking_model->add_reminder($data);
+                if ($new_id) {
+                    set_alert('success', _l('added_successfully', _l('dpt_reminder')));
+                    redirect(admin_url('dietician_patient_tracking/reminder/' . $new_id));
+                } else {
+                    set_alert('danger', _l('added_fail', _l('dpt_reminder')));
+                    redirect(admin_url('dietician_patient_tracking/reminders'));
+                }
+            }
+        }
+
+        if ($id) {
+            $data['reminder'] = $this->dietician_patient_tracking_model->get_reminder($id);
+
+            if (!$data['reminder']) {
+                show_404();
+            }
+
+            $data['title'] = $data['reminder']->title;
+        }
+
+        $data['patients'] = $this->dietician_patient_tracking_model->get_all_patients(['status' => 'active']);
+
+        $this->load->view('admin/reminders/reminder', $data);
+    }
+
+    public function delete_reminder($id)
+    {
+        if (!has_permission('dietician_patient_tracking', '', 'delete')) {
+            access_denied('dietician_patient_tracking');
+        }
+
+        $success = $this->dietician_patient_tracking_model->delete_reminder($id);
+        echo json_encode([
+            'success' => $success,
+            'message' => $success ? _l('deleted', _l('dpt_reminder')) : _l('problem_deleting', _l('dpt_reminder'))
+        ]);
+    }
+
+    /**
+     * SATISFACTION SURVEYS
+     */
+
+    public function satisfaction_surveys()
+    {
+        if ($this->input->is_ajax_request()) {
+            $this->app->get_table_data(module_views_path('dietician_patient_tracking', 'admin/tables/satisfaction_surveys'));
+        }
+
+        $data['title'] = _l('dpt_satisfaction_survey');
+
+        // Get NPS statistics
+        $this->db->select('AVG(nps_score) as avg_nps, COUNT(*) as total_surveys, SUM(CASE WHEN nps_score >= 9 THEN 1 ELSE 0 END) as promoters, SUM(CASE WHEN nps_score <= 6 THEN 1 ELSE 0 END) as detractors');
+        $this->db->where('nps_score IS NOT NULL');
+        $stats = $this->db->get(db_prefix() . 'dpt_satisfaction_surveys')->row();
+
+        $data['stats'] = $stats;
+        if ($stats && $stats->total_surveys > 0) {
+            $data['nps_score'] = round((($stats->promoters - $stats->detractors) / $stats->total_surveys) * 100);
+        } else {
+            $data['nps_score'] = 0;
+        }
+
+        $this->load->view('admin/satisfaction/manage', $data);
+    }
 }

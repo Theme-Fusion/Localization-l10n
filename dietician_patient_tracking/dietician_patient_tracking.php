@@ -96,11 +96,35 @@ function dietician_patient_tracking_module_init_menu_items()
         ]);
 
         $CI->app_menu->add_sidebar_children_item('dietician-patient-tracking', [
+            'slug'     => 'dietician-programs',
+            'name'     => _l('dpt_programs'),
+            'icon'     => 'fa fa-tasks',
+            'href'     => admin_url('dietician_patient_tracking/programs'),
+            'position' => 5,
+        ]);
+
+        $CI->app_menu->add_sidebar_children_item('dietician-patient-tracking', [
+            'slug'     => 'dietician-reminders',
+            'name'     => _l('dpt_reminders'),
+            'icon'     => 'fa fa-bell',
+            'href'     => admin_url('dietician_patient_tracking/reminders'),
+            'position' => 6,
+        ]);
+
+        $CI->app_menu->add_sidebar_children_item('dietician-patient-tracking', [
+            'slug'     => 'dietician-satisfaction',
+            'name'     => _l('dpt_satisfaction'),
+            'icon'     => 'fa fa-smile-o',
+            'href'     => admin_url('dietician_patient_tracking/satisfaction_surveys'),
+            'position' => 7,
+        ]);
+
+        $CI->app_menu->add_sidebar_children_item('dietician-patient-tracking', [
             'slug'     => 'dietician-reports',
             'name'     => _l('dpt_reports'),
             'icon'     => 'fa fa-bar-chart',
             'href'     => admin_url('dietician_patient_tracking/reports'),
-            'position' => 5,
+            'position' => 8,
         ]);
 
         $CI->app_menu->add_sidebar_children_item('dietician-patient-tracking', [
