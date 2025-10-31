@@ -353,3 +353,23 @@ $lang['dpt_help_bmi'] = 'BMI is calculated by dividing weight (kg) by the square
 $lang['dpt_help_bmr'] = 'Basal metabolic rate represents calories burned at rest';
 $lang['dpt_help_tdee'] = 'Total daily energy expenditure includes physical activity';
 $lang['dpt_help_water_intake'] = 'Recommendation: 35ml per kg of body weight';
+
+// Additional translations
+$lang['dpt_all_time'] = 'All Time';
+$lang['dpt_next_7_days'] = 'Next 7 Days';
+$lang['dpt_active_meal_plans'] = 'Active Meal Plans';
+$lang['dpt_recent_activity'] = 'Recent Activity';
+$lang['dpt_upcoming_events'] = 'Upcoming Events';
+$lang['dpt_date'] = 'Date';
+$lang['dpt_type'] = 'Type';
+$lang['dpt_created_at'] = 'Created At';
+$lang['dpt_biometric_data'] = 'Biometric Data';
+$lang['dpt_select_patient_to_view_report'] = 'Select a patient to view their report';
+$lang['dpt_select_patient'] = 'Select Patient';
+$lang['dpt_recent_consultations'] = 'Recent Consultations';
+$lang['dpt_track_daily_meals'] = 'Track your daily meals';
+$lang['you'] = 'You';
+$lang['welcome'] = 'Welcome';
+$lang['draft'] = 'Draft';
+$lang['select'] = 'Select';
+$lang['send'] = 'Send';

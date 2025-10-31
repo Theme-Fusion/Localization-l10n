@@ -353,3 +353,23 @@ $lang['dpt_help_bmi'] = 'L\'IMC est calculé en divisant le poids (kg) par le ca
 $lang['dpt_help_bmr'] = 'Le métabolisme de base représente les calories brûlées au repos';
 $lang['dpt_help_tdee'] = 'La dépense énergétique totale inclut l\'activité physique';
 $lang['dpt_help_water_intake'] = 'Recommandation: 35ml par kg de poids corporel';
+
+// Additional translations
+$lang['dpt_all_time'] = 'Total';
+$lang['dpt_next_7_days'] = 'Prochains 7 jours';
+$lang['dpt_active_meal_plans'] = 'Plans alimentaires actifs';
+$lang['dpt_recent_activity'] = 'Activité récente';
+$lang['dpt_upcoming_events'] = 'Événements à venir';
+$lang['dpt_date'] = 'Date';
+$lang['dpt_type'] = 'Type';
+$lang['dpt_created_at'] = 'Créé le';
+$lang['dpt_biometric_data'] = 'Données biométriques';
+$lang['dpt_select_patient_to_view_report'] = 'Sélectionnez un patient pour voir son rapport';
+$lang['dpt_select_patient'] = 'Sélectionner un patient';
+$lang['dpt_recent_consultations'] = 'Consultations récentes';
+$lang['dpt_track_daily_meals'] = 'Suivez vos repas quotidiens';
+$lang['you'] = 'Vous';
+$lang['welcome'] = 'Bienvenue';
+$lang['draft'] = 'Brouillon';
+$lang['select'] = 'Sélectionner';
+$lang['send'] = 'Envoyer';
