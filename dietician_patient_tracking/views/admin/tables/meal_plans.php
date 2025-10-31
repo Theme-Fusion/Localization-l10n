@@ -3,11 +3,11 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    db_prefix() . 'dpt_meal_plans.id as id',
-    db_prefix() . 'dpt_meal_plans.name as name',
-    'CONCAT(' . db_prefix() . 'contacts.firstname, " ", ' . db_prefix() . 'contacts.lastname) as patient_name',
-    db_prefix() . 'dpt_meal_plans.start_date as start_date',
-    db_prefix() . 'dpt_meal_plans.status as status'
+    db_prefix() . 'dpt_meal_plans.id',
+    db_prefix() . 'dpt_meal_plans.name',
+    db_prefix() . 'contacts.firstname',
+    db_prefix() . 'dpt_meal_plans.start_date',
+    db_prefix() . 'dpt_meal_plans.status'
 ];
 
 $sIndexColumn = 'id';
@@ -18,7 +18,11 @@ $join = [
     'LEFT JOIN ' . db_prefix() . 'contacts ON ' . db_prefix() . 'contacts.id = ' . db_prefix() . 'dpt_patient_profiles.contact_id'
 ];
 
-$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], []);
+$additionalSelect = [
+    db_prefix() . 'contacts.lastname as contact_lastname'
+];
+
+$result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], $additionalSelect);
 
 $output  = $result['output'];
 $rResult = $result['rResult'];
@@ -26,18 +30,20 @@ $rResult = $result['rResult'];
 foreach ($rResult as $aRow) {
     $row = [];
 
-    $row[] = $aRow['id'];
+    $id = $aRow[db_prefix() . 'dpt_meal_plans.id'];
+    $row[] = $id;
 
-    $row[] = '<a href="' . admin_url('dietician_patient_tracking/meal_plan/' . $aRow['id']) . '">' .
-             $aRow['patient_name'] . '</a>';
+    $patient_name = $aRow[db_prefix() . 'contacts.firstname'] . ' ' . $aRow['contact_lastname'];
+    $row[] = '<a href="' . admin_url('dietician_patient_tracking/meal_plan/' . $id) . '">' . $patient_name . '</a>';
 
-    $row[] = '<a href="' . admin_url('dietician_patient_tracking/meal_plan/' . $aRow['id']) . '">' .
-             $aRow['name'] . '</a>';
+    $row[] = '<a href="' . admin_url('dietician_patient_tracking/meal_plan/' . $id) . '">' .
+             $aRow[db_prefix() . 'dpt_meal_plans.name'] . '</a>';
 
-    $row[] = _d($aRow['start_date']);
+    $row[] = _d($aRow[db_prefix() . 'dpt_meal_plans.start_date']);
 
+    $status = $aRow[db_prefix() . 'dpt_meal_plans.status'];
     $status_class = '';
-    switch ($aRow['status']) {
+    switch ($status) {
         case 'draft':
             $status_class = 'default';
             break;
@@ -51,12 +57,12 @@ foreach ($rResult as $aRow) {
             $status_class = 'warning';
             break;
     }
-    $row[] = '<span class="label label-' . $status_class . '">' . _l('dpt_' . $aRow['status']) . '</span>';
+    $row[] = '<span class="label label-' . $status_class . '">' . _l('dpt_' . $status) . '</span>';
 
     $options = '<div class="btn-group">';
-    $options .= '<a href="' . admin_url('dietician_patient_tracking/meal_plan/' . $aRow['id']) . '" class="btn btn-default btn-icon"><i class="fa fa-eye"></i></a>';
+    $options .= '<a href="' . admin_url('dietician_patient_tracking/meal_plan/' . $id) . '" class="btn btn-default btn-icon"><i class="fa fa-eye"></i></a>';
     if (has_permission('dietician_patient_tracking', '', 'delete')) {
-        $options .= '<a href="' . admin_url('dietician_patient_tracking/delete_meal_plan/' . $aRow['id']) . '" class="btn btn-danger btn-icon dpt-delete-btn" data-type="meal_plan"><i class="fa fa-trash"></i></a>';
+        $options .= '<a href="' . admin_url('dietician_patient_tracking/delete_meal_plan/' . $id) . '" class="btn btn-danger btn-icon dpt-delete-btn" data-type="meal_plan"><i class="fa fa-trash"></i></a>';
     }
     $options .= '</div>';
 
