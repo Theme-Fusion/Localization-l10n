@@ -10,7 +10,7 @@ $aColumns = [
     db_prefix() . 'dpt_meal_plans.status as status'
 ];
 
-$sIndexColumn = 'id';
+$sIndexColumn = db_prefix() . 'dpt_meal_plans.id';
 $sTable       = db_prefix() . 'dpt_meal_plans';
 
 $join = [

@@ -12,7 +12,7 @@ $aColumns = [
     db_prefix() . 'dpt_food_library.fat as fat'
 ];
 
-$sIndexColumn = 'id';
+$sIndexColumn = db_prefix() . 'dpt_food_library.id';
 $sTable       = db_prefix() . 'dpt_food_library';
 
 $result = data_tables_init($aColumns, $sIndexColumn, $sTable, [], [], []);

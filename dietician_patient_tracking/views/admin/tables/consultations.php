@@ -10,7 +10,7 @@ $aColumns = [
     db_prefix() . 'dpt_consultations.status as status'
 ];
 
-$sIndexColumn = 'id';
+$sIndexColumn = db_prefix() . 'dpt_consultations.id';
 $sTable       = db_prefix() . 'dpt_consultations';
 
 $join = [

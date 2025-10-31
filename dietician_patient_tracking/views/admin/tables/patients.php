@@ -11,7 +11,7 @@ $aColumns = [
     db_prefix() . 'dpt_patient_profiles.created_at as created_at'
 ];
 
-$sIndexColumn = 'id';
+$sIndexColumn = db_prefix() . 'dpt_patient_profiles.id';
 $sTable       = db_prefix() . 'dpt_patient_profiles';
 
 $join = [
