@@ -3,11 +3,11 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 $aColumns = [
-    'id',
-    'name',
-    'firstname',
-    'start_date',
-    'status'
+    db_prefix() . 'dpt_meal_plans.id as id',
+    db_prefix() . 'dpt_meal_plans.name as name',
+    db_prefix() . 'contacts.firstname as firstname',
+    db_prefix() . 'dpt_meal_plans.start_date as start_date',
+    db_prefix() . 'dpt_meal_plans.status as status'
 ];
 
 $sIndexColumn = 'id';
@@ -19,12 +19,7 @@ $join = [
 ];
 
 $additionalSelect = [
-    db_prefix() . 'dpt_meal_plans.id',
-    db_prefix() . 'dpt_meal_plans.name',
-    db_prefix() . 'contacts.firstname',
-    db_prefix() . 'contacts.lastname',
-    db_prefix() . 'dpt_meal_plans.start_date',
-    db_prefix() . 'dpt_meal_plans.status'
+    db_prefix() . 'contacts.lastname'
 ];
 
 $result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, [], $additionalSelect);
