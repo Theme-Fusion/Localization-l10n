@@ -160,12 +160,7 @@
 
             // Add measurement modal
             $('#add-measurement-btn').on('click', function() {
-                $('#measurement-modal').show();
-            });
-
-            // Close modal
-            $('.modal-close, .modal-overlay').on('click', function() {
-                $(this).closest('.modal-overlay').hide();
+                $('#measurement-modal').modal('show');
             });
         },
 
