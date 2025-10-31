@@ -197,12 +197,19 @@ class Dietician_patient_tracking extends AdminController
 
     public function add_measurement($patient_id)
     {
-        if ($this->input->post()) {
-            $data = $this->input->post();
-            $data['patient_id'] = $patient_id;
-            $data['created_by'] = get_staff_user_id();
+        // Get patient info
+        $data['patient'] = $this->dietician_patient_tracking_model->get_patient_profile($patient_id);
 
-            $id = $this->dietician_patient_tracking_model->add_measurement($data);
+        if (!$data['patient']) {
+            show_404();
+        }
+
+        if ($this->input->post()) {
+            $post_data = $this->input->post();
+            $post_data['patient_id'] = $patient_id;
+            $post_data['created_by'] = get_staff_user_id();
+
+            $id = $this->dietician_patient_tracking_model->add_measurement($post_data);
             $success = $id ? true : false;
 
             // Check for achievements
@@ -232,6 +239,9 @@ class Dietician_patient_tracking extends AdminController
             }
             redirect(admin_url('dietician_patient_tracking/patient/' . $patient_id));
         }
+
+        $data['title'] = _l('dpt_add_measurement');
+        $this->load->view('admin/measurements/add', $data);
     }
 
     public function delete_measurement($id)

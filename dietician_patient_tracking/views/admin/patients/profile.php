@@ -192,9 +192,9 @@
 
                             <!-- Measurements Table -->
                             <h4 class="mtop40"><?php echo _l('dpt_measurements'); ?></h4>
-                            <button type="button" class="btn btn-success btn-sm mtop10" id="add-measurement-btn">
+                            <a href="<?php echo admin_url('dietician_patient_tracking/add_measurement/' . $patient->id); ?>" class="btn btn-success btn-sm mtop10">
                                 <i class="fa fa-plus"></i> <?php echo _l('dpt_add_measurement'); ?>
-                            </button>
+                            </a>
                             <div class="table-responsive mtop15">
                                 <table class="table table-striped dpt-measurements-table">
                                     <thead>
@@ -240,76 +240,5 @@
         </div>
     </div>
 </div>
-
-<!-- Add Measurement Modal -->
-<?php if (isset($patient)) : ?>
-<div id="measurement-modal" class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title"><?php echo _l('dpt_add_measurement'); ?></h4>
-            </div>
-            <?php echo form_open(admin_url('dietician_patient_tracking/add_measurement/' . $patient->id), ['id' => 'measurement-form']); ?>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="measurement_date"><?php echo _l('dpt_date'); ?> *</label>
-                            <input type="date" class="form-control" name="measurement_date" id="measurement_date"
-                                value="<?php echo date('Y-m-d'); ?>" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="weight"><?php echo _l('dpt_weight'); ?> (kg) *</label>
-                            <input type="number" step="0.1" class="form-control" name="weight" id="weight" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="body_fat_percentage"><?php echo _l('dpt_body_fat_percentage'); ?> (%)</label>
-                            <input type="number" step="0.1" class="form-control" name="body_fat_percentage" id="body_fat_percentage">
-                        </div>
-                        <div class="form-group">
-                            <label for="muscle_mass"><?php echo _l('dpt_muscle_mass'); ?> (kg)</label>
-                            <input type="number" step="0.1" class="form-control" name="muscle_mass" id="muscle_mass">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="waist_circumference"><?php echo _l('dpt_waist_circumference'); ?> (cm)</label>
-                            <input type="number" step="0.1" class="form-control" name="waist_circumference" id="waist_circumference">
-                        </div>
-                        <div class="form-group">
-                            <label for="hip_circumference"><?php echo _l('dpt_hip_circumference'); ?> (cm)</label>
-                            <input type="number" step="0.1" class="form-control" name="hip_circumference" id="hip_circumference">
-                        </div>
-                        <div class="form-group">
-                            <label for="chest_circumference"><?php echo _l('dpt_chest_circumference'); ?> (cm)</label>
-                            <input type="number" step="0.1" class="form-control" name="chest_circumference" id="chest_circumference">
-                        </div>
-                        <div class="form-group">
-                            <label for="arm_circumference"><?php echo _l('dpt_arm_circumference'); ?> (cm)</label>
-                            <input type="number" step="0.1" class="form-control" name="arm_circumference" id="arm_circumference">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="notes"><?php echo _l('dpt_notes'); ?></label>
-                            <textarea class="form-control" name="notes" id="notes" rows="2"></textarea>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo _l('close'); ?></button>
-                <button type="submit" class="btn btn-info"><?php echo _l('save'); ?></button>
-            </div>
-            <?php echo form_close(); ?>
-        </div>
-    </div>
-</div>
-<?php endif; ?>
 
 <?php init_tail(); ?>

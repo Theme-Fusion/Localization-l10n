@@ -88,7 +88,10 @@ $lang['dpt_chest_circumference'] = 'Chest Circumference';
 $lang['dpt_arm_circumference'] = 'Arm Circumference';
 $lang['dpt_thigh_circumference'] = 'Thigh Circumference';
 $lang['dpt_blood_pressure'] = 'Blood Pressure';
+$lang['dpt_systolic'] = 'Systolic';
+$lang['dpt_diastolic'] = 'Diastolic';
 $lang['dpt_blood_sugar'] = 'Blood Sugar';
+$lang['dpt_weight_help'] = 'Weight measured at the same time of day for better accuracy';
 $lang['dpt_photos'] = 'Photos';
 
 // Biometric Calculations

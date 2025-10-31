@@ -88,7 +88,10 @@ $lang['dpt_chest_circumference'] = 'Tour de poitrine';
 $lang['dpt_arm_circumference'] = 'Tour de bras';
 $lang['dpt_thigh_circumference'] = 'Tour de cuisse';
 $lang['dpt_blood_pressure'] = 'Tension artérielle';
+$lang['dpt_systolic'] = 'Systolique';
+$lang['dpt_diastolic'] = 'Diastolique';
 $lang['dpt_blood_sugar'] = 'Glycémie';
+$lang['dpt_weight_help'] = 'Poids mesuré à la même heure de la journée pour plus de précision';
 $lang['dpt_photos'] = 'Photos';
 
 // Biometric Calculations

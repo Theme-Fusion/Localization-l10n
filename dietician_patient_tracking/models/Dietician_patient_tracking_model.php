@@ -43,7 +43,28 @@ class Dietician_patient_tracking_model extends App_Model
 
     public function add_patient_profile($data)
     {
+        // Clean data - remove empty strings for optional fields
+        foreach ($data as $key => $value) {
+            if ($value === '' && !in_array($key, ['contact_id', 'client_id', 'dietician_id'])) {
+                $data[$key] = null;
+            }
+        }
+
+        // Ensure required fields are present
+        if (empty($data['contact_id']) || empty($data['client_id']) || empty($data['dietician_id'])) {
+            log_activity('Patient Profile Creation Failed: Missing required fields');
+            return false;
+        }
+
         $this->db->insert(db_prefix() . 'dpt_patient_profiles', $data);
+
+        // Check for database errors
+        $error = $this->db->error();
+        if ($error['code'] != 0) {
+            log_activity('Patient Profile Creation Failed: ' . $error['message']);
+            return false;
+        }
+
         $insert_id = $this->db->insert_id();
 
         if ($insert_id) {
@@ -92,7 +113,28 @@ class Dietician_patient_tracking_model extends App_Model
 
     public function add_measurement($data)
     {
+        // Clean data - remove empty strings for optional fields
+        foreach ($data as $key => $value) {
+            if ($value === '' && !in_array($key, ['patient_id', 'measurement_date', 'weight', 'created_by'])) {
+                $data[$key] = null;
+            }
+        }
+
+        // Ensure required fields are present
+        if (empty($data['patient_id']) || empty($data['measurement_date']) || empty($data['weight'])) {
+            log_activity('Measurement Creation Failed: Missing required fields');
+            return false;
+        }
+
         $this->db->insert(db_prefix() . 'dpt_measurements', $data);
+
+        // Check for database errors
+        $error = $this->db->error();
+        if ($error['code'] != 0) {
+            log_activity('Measurement Creation Failed: ' . $error['message']);
+            return false;
+        }
+
         $insert_id = $this->db->insert_id();
 
         if ($insert_id) {
