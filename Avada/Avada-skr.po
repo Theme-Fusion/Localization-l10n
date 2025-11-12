@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 6.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2025-09-23 05:17:41+00:00\n"
+"POT-Creation-Date: 2025-11-12 09:44:39+00:00\n"
 "PO-Revision-Date: 2019-08-26 12:40+0300\n"
 "Last-Translator:  <info@theme-fusion.com>\n"
 "Language-Team: Language skr\n"
@@ -96,7 +96,7 @@ msgstr[1] ""
 #: includes/class-avada-woocommerce.php:868
 #: includes/lib/inc/class-fusion-scripts.php:593
 #: includes/lib/inc/functions.php:1096
-#: includes/lib/inc/fusion-app/helpers.php:575 single-wpfc_sermon.php:21
+#: includes/lib/inc/fusion-app/helpers.php:577 single-wpfc_sermon.php:21
 #: single.php:20
 msgid "Previous"
 msgstr ""
@@ -109,7 +109,7 @@ msgstr ""
 #: includes/class-avada-woocommerce.php:869
 #: includes/lib/inc/class-fusion-scripts.php:592
 #: includes/lib/inc/functions.php:1142
-#: includes/lib/inc/fusion-app/helpers.php:576 single-wpfc_sermon.php:22
+#: includes/lib/inc/fusion-app/helpers.php:578 single-wpfc_sermon.php:22
 #: single.php:21
 msgid "Next"
 msgstr ""
@@ -452,7 +452,7 @@ msgstr ""
 #: includes/metaboxes/metaboxes.php:1150
 #: includes/metaboxes/options/options_slide.php:154
 #: includes/metaboxes/options/options_slide.php:229
-#: includes/metaboxes/tabs/tab_form_general.php:71
+#: includes/metaboxes/tabs/tab_form_general.php:105
 #: includes/metaboxes/tabs/tab_form_steps.php:40
 #: includes/metaboxes/tabs/tab_form_steps.php:347
 #: includes/metaboxes/tabs/tab_form_steps.php:448
@@ -464,8 +464,8 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_studio.php:109
 #: includes/metaboxes/tabs/tab_template.php:426 includes/options/footer.php:160
 #: includes/options/footer.php:675 includes/options/menu.php:731
-#: includes/options/page_title_bar.php:103 includes/options/performance.php:148
-#: includes/options/performance.php:161 includes/options/performance.php:188
+#: includes/options/page_title_bar.php:103 includes/options/performance.php:80
+#: includes/options/performance.php:107 includes/options/performance.php:429
 #: includes/options/portfolio.php:305 includes/options/sidebars.php:104
 #: includes/options/social_media.php:261 includes/options/social_media.php:516
 #: includes/options/social_media.php:879
@@ -541,7 +541,7 @@ msgstr ""
 #: includes/lib/inc/fusion-app/helpers.php:475
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:45
 #: includes/metaboxes/tabs/tab_page.php:204 includes/options/advanced.php:489
-#: includes/options/performance.php:352 includes/options/responsive.php:43
+#: includes/options/performance.php:271 includes/options/responsive.php:43
 #: includes/options/responsive.php:213
 msgid "On"
 msgstr ""
@@ -566,9 +566,9 @@ msgstr ""
 #: includes/lib/inc/fusion-app/helpers.php:476
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:48
 #: includes/metaboxes/tabs/tab_page.php:205 includes/options/advanced.php:490
-#: includes/options/extra.php:1104 includes/options/forms.php:275
-#: includes/options/forms.php:344 includes/options/maintenance.php:48
-#: includes/options/performance.php:353 includes/options/responsive.php:44
+#: includes/options/extra.php:1104 includes/options/forms.php:450
+#: includes/options/forms.php:519 includes/options/maintenance.php:48
+#: includes/options/performance.php:272 includes/options/responsive.php:44
 #: includes/options/responsive.php:214
 msgid "Off"
 msgstr ""
@@ -661,7 +661,7 @@ msgstr ""
 
 #: includes/admin-screens/performance.php:204
 #: includes/class-avada-admin.php:1480 includes/class-awb-setup-wizard.php:1436
-#: includes/lib/inc/fusion-app/helpers.php:612
+#: includes/lib/inc/fusion-app/helpers.php:614
 #: includes/metaboxes/metaboxes.php:667
 #: includes/metaboxes/tabs/tab_content.php:24
 #: includes/metaboxes/tabs/tab_sidebars.php:291
@@ -745,7 +745,7 @@ msgid "Search Font Families"
 msgstr ""
 
 #: includes/admin-screens/performance.php:308
-#: includes/lib/inc/fusion-app/helpers.php:528
+#: includes/lib/inc/fusion-app/helpers.php:530
 #: includes/lib/inc/fusion-app/templates/options/typography.php:160
 #: includes/lib/inc/fusion-app/templates/typography-set.php:101
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:203
@@ -1109,10 +1109,10 @@ msgstr ""
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
 #: includes/admin-screens/prebuilt-websites.php:72
-#: includes/class-avada-admin-bar.php:87 includes/class-avada-admin.php:412
-#: includes/class-avada-tgm-plugin-activation.php:2623
-#: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:323
-msgid "Status"
+#: includes/admin-screens/status.php:21 includes/class-avada-admin-bar.php:87
+#: includes/class-avada-admin.php:412 includes/class-avada-admin.php:694
+#: includes/options/performance.php:308
+msgid "System Status"
 msgstr ""
 
 #: includes/admin-screens/plugins.php:90
@@ -1159,12 +1159,13 @@ msgstr ""
 
 #: includes/admin-screens/prebuilt-websites-demo.php:27
 #: includes/lib/inc/fusion-app/helpers.php:496
-#: includes/lib/inc/fusion-app/helpers.php:598
+#: includes/lib/inc/fusion-app/helpers.php:600
 #: includes/lib/inc/redux/custom-fields/spacing/field_border_radius.php:84
 #: includes/lib/inc/redux/custom-fields/spacing/field_spacing.php:84
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/border/field_border.php:128
-#: includes/options/extra.php:68 includes/options/forms.php:227
-#: includes/options/performance.php:185
+#: includes/metaboxes/tabs/tab_form_general.php:92
+#: includes/options/extra.php:68 includes/options/forms.php:238
+#: includes/options/performance.php:104
 msgid "All"
 msgstr ""
 
@@ -1201,7 +1202,7 @@ msgid "Partial Import"
 msgstr ""
 
 #: includes/admin-screens/prebuilt-websites-demo.php:89
-#: includes/avada-app/fusion-panel.php:154
+#: includes/avada-app/fusion-panel.php:156
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2360
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:149
 #: includes/metaboxes/metaboxes.php:672
@@ -1272,7 +1273,7 @@ msgstr ""
 #: includes/admin-screens/prebuilt-websites-import-modal.php:114
 #: includes/class-avada-megamenu-framework.php:1031
 #: includes/class-avada-nav-walker-megamenu.php:249
-#: includes/lib/inc/fusion-app/helpers.php:558
+#: includes/lib/inc/fusion-app/helpers.php:560
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/background/field_background.php:325
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/media/field_media.php:209
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/multi_text/field_multi_text.php:74
@@ -1345,8 +1346,8 @@ msgstr ""
 #: includes/admin-screens/prebuilt-websites.php:26
 #: includes/admin-screens/prebuilt-websites.php:43
 msgid ""
-"Fix the PHP configurations reported in %1$s on the Status page, then use the "
-"%2$s, then reimport."
+"Fix the PHP configurations reported in %1$s on the System Status page, then "
+"use the %2$s, then reimport."
 msgstr ""
 
 #: includes/admin-screens/prebuilt-websites.php:26
@@ -1372,7 +1373,7 @@ msgid ""
 msgstr ""
 
 #: includes/admin-screens/prebuilt-websites.php:32
-#: includes/options/performance.php:87 includes/options/performance.php:101
+#: includes/options/performance.php:368 includes/options/performance.php:382
 msgid "Regenerate Thumbnails"
 msgstr ""
 
@@ -1401,7 +1402,7 @@ msgstr ""
 
 #: includes/admin-screens/prebuilt-websites.php:50
 #: includes/admin-screens/status.php:156 includes/admin-screens/status.php:178
-#: includes/admin-screens/status.php:245 includes/admin-screens/status.php:264
+#: includes/admin-screens/status.php:280 includes/admin-screens/status.php:299
 msgid "Learn More"
 msgstr ""
 
@@ -1415,7 +1416,7 @@ msgid ""
 "the exact same look and feel as the the sites in the preview."
 msgstr ""
 
-#. translators: %1$s: "Status" link. %2$s: "View more info here" link.
+#. translators: %1$s: "System Status" link. %2$s: "View more info here" link.
 #: includes/admin-screens/prebuilt-websites.php:71
 msgid ""
 "Prebuilt website imports can vary in time. Please check the %1$s page to "
@@ -1609,15 +1610,16 @@ msgstr ""
 #: includes/class-awb-performance-wizard.php:726
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:156
 #: includes/lib/inc/widgets/class-fusion-widget-tweets.php:340
-#: includes/options/advanced.php:335 includes/options/lightbox.php:79
-#: includes/options/recaptcha.php:81
+#: includes/options/advanced.php:335 includes/options/forms.php:288
+#: includes/options/forms.php:365 includes/options/lightbox.php:79
 msgid "Light"
 msgstr ""
 
 #: includes/admin-screens/setup.php:171
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:157
 #: includes/lib/inc/widgets/class-fusion-widget-tweets.php:341
-#: includes/options/lightbox.php:80 includes/options/recaptcha.php:82
+#: includes/options/forms.php:289 includes/options/forms.php:366
+#: includes/options/lightbox.php:80
 msgid "Dark"
 msgstr ""
 
@@ -1859,8 +1861,8 @@ msgstr ""
 #: includes/admin-screens/setup.php:517 includes/admin-screens/setup.php:546
 #: includes/class-avada-taxonomy-meta.php:308
 #: includes/class-avada-taxonomy-meta.php:451
-#: includes/lib/inc/class-fusion-images.php:1045
-#: includes/lib/inc/fusion-app/helpers.php:529
+#: includes/lib/inc/class-fusion-images.php:1064
+#: includes/lib/inc/fusion-app/helpers.php:531
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:160
 #: includes/lib/inc/fusion-app/templates/options/typography.php:218
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:287
@@ -1873,6 +1875,8 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_footer.php:45
 #: includes/metaboxes/tabs/tab_footer.php:67
 #: includes/metaboxes/tabs/tab_footer.php:89
+#: includes/metaboxes/tabs/tab_form_general.php:74
+#: includes/metaboxes/tabs/tab_form_general.php:91
 #: includes/metaboxes/tabs/tab_header.php:77
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:202
 #: includes/metaboxes/tabs/tab_page.php:53
@@ -1910,6 +1914,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_sliders.php:166
 #: includes/metaboxes/tabs/tab_sliders.php:187
 #: includes/metaboxes/tabs/tab_template.php:245
+#: includes/options/performance.php:313
 msgid "Default"
 msgstr ""
 
@@ -1918,7 +1923,7 @@ msgid "Select Header"
 msgstr ""
 
 #: includes/admin-screens/setup.php:530
-#: includes/lib/inc/fusion-app/helpers.php:596 includes/options/logo.php:32
+#: includes/lib/inc/fusion-app/helpers.php:598 includes/options/logo.php:32
 #: includes/options/logo.php:40 templates/logo.php:60
 msgid "Logo"
 msgstr ""
@@ -2064,7 +2069,7 @@ msgid "Forum"
 msgstr ""
 
 #: includes/admin-screens/setup.php:905 includes/avada-functions.php:1935
-#: includes/class-avada-admin-bar.php:75 includes/options/forms.php:36
+#: includes/class-avada-admin-bar.php:75 includes/options/forms.php:35
 msgid "Forms"
 msgstr ""
 
@@ -2119,8 +2124,8 @@ msgid "Complete Setup"
 msgstr ""
 
 #: includes/admin-screens/setup.php:1000 includes/admin-screens/setup.php:1025
-#: includes/avada-app/fusion-panel.php:142
-#: includes/avada-app/panel/templates/sidebar.php:31 includes/bootstrap.php:691
+#: includes/avada-app/fusion-panel.php:144
+#: includes/avada-app/panel/templates/sidebar.php:31 includes/bootstrap.php:692
 #: includes/class-avada-admin-bar.php:61 includes/class-avada-admin.php:596
 #: includes/class-avada-megamenu-framework.php:218
 #: includes/class-avada-megamenu-framework.php:586
@@ -2191,7 +2196,7 @@ msgid "Manage Coming Soon mode."
 msgstr ""
 
 #: includes/admin-screens/setup.php:1027
-#: includes/avada-app/class-fusion-panel.php:1733
+#: includes/avada-app/class-fusion-panel.php:1735
 #: includes/avada-functions.php:1905
 #: includes/lib/inc/class-fusion-fusionredux.php:250
 #: includes/options/sidebars.php:198
@@ -2264,10 +2269,6 @@ msgstr ""
 msgid "Activate Maintenance Mode"
 msgstr ""
 
-#: includes/admin-screens/status.php:21 includes/class-avada-admin.php:694
-msgid "System Status"
-msgstr ""
-
 #: includes/admin-screens/status.php:22
 msgid ""
 "On this page you can see your Avada version history, run conversions and see "
@@ -2329,8 +2330,8 @@ msgstr ""
 msgid "Rerun Global Options Conversion for version %s manually."
 msgstr ""
 
-#: includes/admin-screens/status.php:143 includes/admin-screens/status.php:252
-#: includes/admin-screens/status.php:272
+#: includes/admin-screens/status.php:143 includes/admin-screens/status.php:287
+#: includes/admin-screens/status.php:307
 msgid "Run Conversion"
 msgstr ""
 
@@ -2360,14 +2361,14 @@ msgid "Create Tables"
 msgstr ""
 
 #: includes/admin-screens/status.php:203
-msgid "Copy Multisite Global Options "
+msgid "Copy Multisite Global Options"
 msgstr ""
 
 #: includes/admin-screens/status.php:210
 msgid "Copy the main site global options to all sites across this multisite."
 msgstr ""
 
-#: includes/admin-screens/status.php:212
+#: includes/admin-screens/status.php:212 includes/admin-screens/status.php:246
 msgid "WARNING: This can't be reversed."
 msgstr ""
 
@@ -2380,12 +2381,52 @@ msgstr ""
 msgid "Copy Global Options"
 msgstr ""
 
-#: includes/admin-screens/status.php:227
+#: includes/admin-screens/status.php:229
+msgid "Convert Image Formats"
+msgstr ""
+
+#: includes/admin-screens/status.php:243
+msgid ""
+"Convert all compatible image attachments (*.jpeg, *.jpg, *.png) in the media "
+"library to webP or AVIF format. Before running this conversion, please set "
+"your preferred format in Global Options:"
+msgstr ""
+
+#: includes/admin-screens/status.php:244 includes/options/performance.php:306
+msgid "Upload Image Format"
+msgstr ""
+
+#: includes/admin-screens/status.php:248
+msgid "Converting images:"
+msgstr ""
+
+#: includes/admin-screens/status.php:248
+msgid "of"
+msgstr ""
+
+#: includes/admin-screens/status.php:248
+msgid "Conversion complete! Images processed:"
+msgstr ""
+
+#: includes/admin-screens/status.php:248
+msgid "%s images can be converted."
+msgstr ""
+
+#: includes/admin-screens/status.php:253
+msgid ""
+"Are you sure you want to convert all image attachments in the media library?"
+msgstr ""
+
+#: includes/admin-screens/status.php:253
+msgid "Convert Images"
+msgstr ""
+
+#: includes/admin-screens/status.php:262
 msgid "Legacy Conversion Tools"
 msgstr ""
 
 #. translators: URL.
-#: includes/admin-screens/status.php:231
+#: includes/admin-screens/status.php:266
 msgid ""
 "<strong style=\"color:red;\">IMPORTANT:</strong> Updating to Avada 4.0 and "
 "5.0 requires a conversion process to ensure your content is compatible with "
@@ -2397,11 +2438,11 @@ msgid ""
 msgstr ""
 
 #. translators: Version Number.
-#: includes/admin-screens/status.php:240 includes/admin-screens/status.php:259
+#: includes/admin-screens/status.php:275 includes/admin-screens/status.php:294
 msgid "Previous Version"
 msgstr ""
 
-#: includes/admin-screens/status.php:240 includes/admin-screens/status.php:259
+#: includes/admin-screens/status.php:275 includes/admin-screens/status.php:294
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:8
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/changelog.php:10
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:10
@@ -2411,127 +2452,127 @@ msgstr ""
 msgid "Version %s"
 msgstr ""
 
-#: includes/admin-screens/status.php:244
+#: includes/admin-screens/status.php:279
 msgid "Avada 4.0 Conversion:"
 msgstr ""
 
 #. translators: Version Number.
-#: includes/admin-screens/status.php:251
+#: includes/admin-screens/status.php:286
 msgid ""
 "Rerun Global Options Conversion from version %s to version 4.0 manually."
 msgstr ""
 
-#: includes/admin-screens/status.php:263
+#: includes/admin-screens/status.php:298
 msgid "Avada 5.0 Conversion:"
 msgstr ""
 
 #. translators: Version Number.
-#: includes/admin-screens/status.php:271
+#: includes/admin-screens/status.php:306
 msgid "Rerun Shortcode Conversion from version %s to version 5.0 manually."
 msgstr ""
 
-#: includes/admin-screens/status.php:284
+#: includes/admin-screens/status.php:319
 msgid "Revert Avada Builder Conversion."
 msgstr ""
 
-#: includes/admin-screens/status.php:285
+#: includes/admin-screens/status.php:320
 msgid "Revert Conversion"
 msgstr ""
 
-#: includes/admin-screens/status.php:295
+#: includes/admin-screens/status.php:330
 msgid ""
 "The backups cleanup process has been scheduled and your the version 5.0 "
 "conversion backups will be purged from your database."
 msgstr ""
 
 #. translators: Numbers.
-#: includes/admin-screens/status.php:333
+#: includes/admin-screens/status.php:368
 msgid "Currently removing backups from your database (step %1$s of %2$s)"
 msgstr ""
 
-#: includes/admin-screens/status.php:336
+#: includes/admin-screens/status.php:371
 msgid ""
 "Remove Shortcode Conversion Backups created during the version 5.0 "
 "conversion."
 msgstr ""
 
-#: includes/admin-screens/status.php:341
+#: includes/admin-screens/status.php:376
 msgid "Remove Backups"
 msgstr ""
 
-#: includes/admin-screens/status.php:356
+#: includes/admin-screens/status.php:391
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:73
 msgid "WordPress Environment"
 msgstr ""
 
-#: includes/admin-screens/status.php:361
+#: includes/admin-screens/status.php:396
 msgid "Home URL:"
 msgstr ""
 
-#: includes/admin-screens/status.php:362
+#: includes/admin-screens/status.php:397
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:83
 msgid "The URL of your site's homepage."
 msgstr ""
 
-#: includes/admin-screens/status.php:366
+#: includes/admin-screens/status.php:401
 msgid "Site URL:"
 msgstr ""
 
-#: includes/admin-screens/status.php:367
+#: includes/admin-screens/status.php:402
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:92
 msgid "The root URL of your site."
 msgstr ""
 
-#: includes/admin-screens/status.php:371
+#: includes/admin-screens/status.php:406
 msgid "WP Content Path:"
 msgstr ""
 
-#: includes/admin-screens/status.php:372
+#: includes/admin-screens/status.php:407
 msgid "System path of your wp-content directory."
 msgstr ""
 
-#: includes/admin-screens/status.php:373 includes/admin-screens/status.php:378
+#: includes/admin-screens/status.php:408 includes/admin-screens/status.php:413
 #: templates/wc-view-order.php:208 templates/wc-view-order.php:221
 msgid "N/A"
 msgstr ""
 
-#: includes/admin-screens/status.php:376
+#: includes/admin-screens/status.php:411
 msgid "WP Path:"
 msgstr ""
 
-#: includes/admin-screens/status.php:377
+#: includes/admin-screens/status.php:412
 msgid "System path of your WP root directory."
 msgstr ""
 
-#: includes/admin-screens/status.php:381
+#: includes/admin-screens/status.php:416
 msgid "WP Version:"
 msgstr ""
 
-#: includes/admin-screens/status.php:382
+#: includes/admin-screens/status.php:417
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:140
 msgid "The version of WordPress installed on your site."
 msgstr ""
 
-#: includes/admin-screens/status.php:386
+#: includes/admin-screens/status.php:421
 msgid "WP Multisite:"
 msgstr ""
 
-#: includes/admin-screens/status.php:387
+#: includes/admin-screens/status.php:422
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:151
 msgid "Whether or not you have WordPress Multisite enabled."
 msgstr ""
 
-#: includes/admin-screens/status.php:391
+#: includes/admin-screens/status.php:426
 msgid "PHP Memory Limit:"
 msgstr ""
 
-#: includes/admin-screens/status.php:392
+#: includes/admin-screens/status.php:427
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:213
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
 msgstr ""
 
 #. translators: %1$s: Current value. %2$s: URL.
-#: includes/admin-screens/status.php:409
+#: includes/admin-screens/status.php:444
 msgid ""
 "%1$s - We recommend setting memory to at least <strong>128MB</strong>. "
 "Please define memory limit in <strong>wp-config.php</strong> file. To learn "
@@ -2539,78 +2580,78 @@ msgid ""
 "noreferrer\">Increasing memory allocated to PHP.</a>"
 msgstr ""
 
-#: includes/admin-screens/status.php:419
+#: includes/admin-screens/status.php:454
 msgid "WP Debug Mode:"
 msgstr ""
 
-#: includes/admin-screens/status.php:420
+#: includes/admin-screens/status.php:455
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:243
 msgid "Displays whether or not WordPress is in Debug Mode."
 msgstr ""
 
-#: includes/admin-screens/status.php:430
+#: includes/admin-screens/status.php:465
 msgid "Language:"
 msgstr ""
 
-#: includes/admin-screens/status.php:431
+#: includes/admin-screens/status.php:466
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:258
 msgid "The current language used by WordPress. Default = English"
 msgstr ""
 
-#: includes/admin-screens/status.php:439
+#: includes/admin-screens/status.php:474
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:297
 msgid "Server Environment"
 msgstr ""
 
-#: includes/admin-screens/status.php:444
+#: includes/admin-screens/status.php:479
 msgid "Server Info:"
 msgstr ""
 
-#: includes/admin-screens/status.php:445
+#: includes/admin-screens/status.php:480
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:307
 msgid "Information about the web server that is currently hosting your site."
 msgstr ""
 
-#: includes/admin-screens/status.php:446 includes/class-awb-site-data.php:156
+#: includes/admin-screens/status.php:481 includes/class-awb-site-data.php:156
 msgid "Unknown"
 msgstr ""
 
-#: includes/admin-screens/status.php:449
+#: includes/admin-screens/status.php:484
 msgid "PHP Version:"
 msgstr ""
 
-#: includes/admin-screens/status.php:450
+#: includes/admin-screens/status.php:485
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:335
 msgid "The version of PHP installed on your hosting server."
 msgstr ""
 
-#: includes/admin-screens/status.php:460
+#: includes/admin-screens/status.php:495
 msgid "PHP Version could not be detected."
 msgstr ""
 
 #. translators: %1$s: Current PHP version. %2$s: Recommended PHP version. %3$s:
 #. "WordPress Requirements" link.
-#: includes/admin-screens/status.php:467
+#: includes/admin-screens/status.php:502
 msgid "%1$s. WordPress recommendation: %2$s or above. See %3$s for details."
 msgstr ""
 
-#: includes/admin-screens/status.php:470
+#: includes/admin-screens/status.php:505
 msgid "WordPress Requirements"
 msgstr ""
 
-#: includes/admin-screens/status.php:480
+#: includes/admin-screens/status.php:515
 msgid "PHP Post Max Size:"
 msgstr ""
 
-#: includes/admin-screens/status.php:481
+#: includes/admin-screens/status.php:516
 msgid "The largest file size that can be contained in one post."
 msgstr ""
 
-#: includes/admin-screens/status.php:485
+#: includes/admin-screens/status.php:520
 msgid "PHP Time Limit:"
 msgstr ""
 
-#: includes/admin-screens/status.php:486
+#: includes/admin-screens/status.php:521
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:366
 msgid ""
 "The amount of time (in seconds) that your site will spend on a single "
@@ -2618,19 +2659,19 @@ msgid ""
 msgstr ""
 
 #. translators: %1$s: Current value. %2$s: URL.
-#: includes/admin-screens/status.php:493
+#: includes/admin-screens/status.php:528
 msgid ""
 "%1$s - We recommend setting max execution time to at least 180.<br />See: <a "
 "href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing max "
 "execution to PHP</a>"
 msgstr ""
 
-#: includes/admin-screens/status.php:501
+#: includes/admin-screens/status.php:536
 msgid "PHP Max Input Vars:"
 msgstr ""
 
-#: includes/admin-screens/status.php:502 includes/admin-screens/status.php:547
-#: includes/admin-screens/status.php:583
+#: includes/admin-screens/status.php:537 includes/admin-screens/status.php:582
+#: includes/admin-screens/status.php:618
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:371
 msgid ""
 "The maximum number of variables your server can use for a single function to "
@@ -2638,19 +2679,19 @@ msgid ""
 msgstr ""
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
-#: includes/admin-screens/status.php:529 includes/admin-screens/status.php:574
-#: includes/admin-screens/status.php:610
+#: includes/admin-screens/status.php:564 includes/admin-screens/status.php:609
+#: includes/admin-screens/status.php:645
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
 "POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">Increasing max input vars limit.</a>"
 msgstr ""
 
-#: includes/admin-screens/status.php:538
+#: includes/admin-screens/status.php:573
 msgid "SUHOSIN Installed:"
 msgstr ""
 
-#: includes/admin-screens/status.php:540
+#: includes/admin-screens/status.php:575
 msgid ""
 "Suhosin is an advanced protection system for PHP installations. It was "
 "designed to protect your servers on the one hand against a number of well "
@@ -2660,26 +2701,26 @@ msgid ""
 "data submission limits."
 msgstr ""
 
-#: includes/admin-screens/status.php:546
+#: includes/admin-screens/status.php:581
 msgid "Suhosin Post Max Vars:"
 msgstr ""
 
-#: includes/admin-screens/status.php:582
+#: includes/admin-screens/status.php:617
 msgid "Suhosin Request Max Vars:"
 msgstr ""
 
-#: includes/admin-screens/status.php:618
+#: includes/admin-screens/status.php:653
 msgid "Suhosin Post Max Value Length:"
 msgstr ""
 
-#: includes/admin-screens/status.php:619
+#: includes/admin-screens/status.php:654
 msgid ""
 "Defines the maximum length of a variable that is registered through a POST "
 "request."
 msgstr ""
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
-#: includes/admin-screens/status.php:627
+#: includes/admin-screens/status.php:662
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
 "prohibit the Global Options data from being saved to your database. See: <a "
@@ -2687,131 +2728,131 @@ msgid ""
 "Configuration Info</a>."
 msgstr ""
 
-#: includes/admin-screens/status.php:637
+#: includes/admin-screens/status.php:672
 msgid "ZipArchive:"
 msgstr ""
 
-#: includes/admin-screens/status.php:638
+#: includes/admin-screens/status.php:673
 msgid ""
 "ZipArchive is required for importing demos. They are used to import and "
 "export zip files specifically for sliders."
 msgstr ""
 
-#: includes/admin-screens/status.php:642
+#: includes/admin-screens/status.php:677
 msgid "cURL:"
 msgstr ""
 
-#: includes/admin-screens/status.php:643
+#: includes/admin-screens/status.php:678
 msgid "cURL is required for downloading plugins and theme updates."
 msgstr ""
 
-#: includes/admin-screens/status.php:647
+#: includes/admin-screens/status.php:682
 msgid "PHP Mail:"
 msgstr ""
 
-#: includes/admin-screens/status.php:648
+#: includes/admin-screens/status.php:683
 msgid "PHP mail is required for sending emails via Avada forms."
 msgstr ""
 
-#: includes/admin-screens/status.php:652
+#: includes/admin-screens/status.php:687
 msgid "MySQL Version:"
 msgstr ""
 
-#: includes/admin-screens/status.php:653
+#: includes/admin-screens/status.php:688
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:400
 msgid "The version of MySQL installed on your hosting server."
 msgstr ""
 
-#: includes/admin-screens/status.php:660
+#: includes/admin-screens/status.php:695
 msgid "Max Upload Size:"
 msgstr ""
 
-#: includes/admin-screens/status.php:661
+#: includes/admin-screens/status.php:696
 msgid ""
 "The largest file size that can be uploaded to your WordPress installation."
 msgstr ""
 
-#: includes/admin-screens/status.php:665
+#: includes/admin-screens/status.php:700
 msgid "DOMDocument:"
 msgstr ""
 
-#: includes/admin-screens/status.php:666
+#: includes/admin-screens/status.php:701
 msgid ""
 "DOMDocument is required for the Avada Builder plugin to properly function."
 msgstr ""
 
-#: includes/admin-screens/status.php:670
+#: includes/admin-screens/status.php:705
 msgid "WP Remote Get:"
 msgstr ""
 
-#: includes/admin-screens/status.php:671 includes/admin-screens/status.php:685
+#: includes/admin-screens/status.php:706 includes/admin-screens/status.php:720
 msgid ""
 "Avada uses this method to communicate with different APIs, e.g. Google, X, "
 "Facebook."
 msgstr ""
 
-#: includes/admin-screens/status.php:684
+#: includes/admin-screens/status.php:719
 msgid "WP Remote Post:"
 msgstr ""
 
-#: includes/admin-screens/status.php:698
+#: includes/admin-screens/status.php:733
 msgid "GD Library:"
 msgstr ""
 
-#: includes/admin-screens/status.php:699
+#: includes/admin-screens/status.php:734
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
 msgstr ""
 
-#: includes/admin-screens/status.php:702
+#: includes/admin-screens/status.php:737
 #: includes/class-avada-tgm-plugin-activation.php:2380
 msgid "Not Installed"
 msgstr ""
 
-#: includes/admin-screens/status.php:704
+#: includes/admin-screens/status.php:739
 msgid "Installed"
 msgstr ""
 
-#: includes/admin-screens/status.php:719
+#: includes/admin-screens/status.php:754
 msgid "Avada Update Server Status"
 msgstr ""
 
-#: includes/admin-screens/status.php:725
+#: includes/admin-screens/status.php:760
 msgid "Check Envato Server Status"
 msgstr ""
 
-#: includes/admin-screens/status.php:730
+#: includes/admin-screens/status.php:765
 msgid "Envato's API server."
 msgstr ""
 
-#: includes/admin-screens/status.php:735
+#: includes/admin-screens/status.php:770
 msgid "Check Avada Server Status"
 msgstr ""
 
-#: includes/admin-screens/status.php:740
+#: includes/admin-screens/status.php:775
 msgid ""
 "Server from which Avada, plugins, prebuilt websites and patches are "
 "downloaded."
 msgstr ""
 
-#: includes/admin-screens/status.php:759
+#: includes/admin-screens/status.php:794
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:531
 msgid "Active Plugins"
 msgstr ""
 
-#: includes/admin-screens/status.php:776
+#: includes/admin-screens/status.php:811
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:546
 msgid "Visit plugin homepage"
 msgstr ""
 
 #. translators: plugin author.
-#: includes/admin-screens/status.php:789
+#: includes/admin-screens/status.php:824
 msgid "by %s"
 msgstr ""
 
 #. translators: Version Number.
-#: includes/admin-screens/status.php:807
+#: includes/admin-screens/status.php:842
 msgid ""
 "Note: By clicking OK, the Global Options conversion for Avada %s will be "
 "rerun. This page will be newly loaded, which already completes the "
@@ -2819,28 +2860,28 @@ msgid ""
 msgstr ""
 
 #. translators: last version.
-#: includes/admin-screens/status.php:817
+#: includes/admin-screens/status.php:852
 msgid ""
 "Warning: By clicking OK, all changes made to your Global Options after "
 "installing Avada 4.0 will be lost. Your Global Options will be reset to the "
 "values from %s and then converted again to 4.0."
 msgstr ""
 
-#: includes/admin-screens/status.php:827
+#: includes/admin-screens/status.php:862
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can restart the conversion of your page contents to the "
 "new Avada Builder format."
 msgstr ""
 
-#: includes/admin-screens/status.php:835
+#: includes/admin-screens/status.php:870
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can start the conversion reversion of your page contents "
 "to the old Avada Builder format."
 msgstr ""
 
-#: includes/admin-screens/status.php:843
+#: includes/admin-screens/status.php:878
 msgid ""
 "Warning: This is a non-reversable process. By clicking OK, all backups "
 "created during the 5.0 shortcode-conversion process will be removed from "
@@ -2851,7 +2892,7 @@ msgstr ""
 msgid "Avada Support"
 msgstr ""
 
-#. translators: %1$s: "Status" link. %2$s: "View more info here" link.
+#. translators: %1$s: support extension link. %2$s: "View more info here" link.
 #: includes/admin-screens/support.php:22
 msgid ""
 "Avada comes with 6 months of free support for every license you purchase. "
@@ -3045,7 +3086,7 @@ msgstr ""
 
 #: includes/avada-app/class-fusion-panel.php:703
 #: includes/avada-app/class-fusion-panel.php:838
-#: includes/lib/inc/fusion-app/helpers.php:522 includes/options/privacy.php:423
+#: includes/lib/inc/fusion-app/helpers.php:524 includes/options/privacy.php:423
 msgid "Settings"
 msgstr ""
 
@@ -3150,7 +3191,7 @@ msgid ""
 msgstr ""
 
 #: includes/avada-app/class-fusion-panel.php:1138
-#: includes/avada-app/class-fusion-panel.php:1491
+#: includes/avada-app/class-fusion-panel.php:1493
 msgid "Import/Export"
 msgstr ""
 
@@ -3177,70 +3218,70 @@ msgid ""
 "Export your Page Options.  You can either export as a file or copy the data."
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1378
-#: includes/avada-app/class-fusion-panel.php:1386
+#: includes/avada-app/class-fusion-panel.php:1380
+#: includes/avada-app/class-fusion-panel.php:1388
 #: includes/avada-app/panel/templates/sidebar.php:63
 #: includes/options/shortcode_styling.php:30
 msgid "Avada Builder Elements"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1391
+#: includes/avada-app/class-fusion-panel.php:1393
 #: includes/avada-app/panel/templates/sidebar.php:69
 msgid "Add-on Elements"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1498
+#: includes/avada-app/class-fusion-panel.php:1500
 msgid "Import Global Options"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1499
+#: includes/avada-app/class-fusion-panel.php:1501
 msgid ""
 "Import Global Options. You can import via file, copy and paste or select an "
 "Avada prebuilt website."
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1506
-#: includes/avada-app/class-fusion-panel.php:1511
+#: includes/avada-app/class-fusion-panel.php:1508
+#: includes/avada-app/class-fusion-panel.php:1513
 msgid "Export Global Options"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1507
+#: includes/avada-app/class-fusion-panel.php:1509
 msgid ""
 "Export your Global Options. You can either export as a file or copy the data."
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1732
+#: includes/avada-app/class-fusion-panel.php:1734
 #: includes/avada-functions.php:1899
 #: includes/lib/inc/class-fusion-fusionredux.php:249
 msgid "Posts"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1734
+#: includes/avada-app/class-fusion-panel.php:1736
 #: includes/lib/inc/class-fusion-fusionredux.php:251
 msgid "Portfolio Items"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1735
+#: includes/avada-app/class-fusion-panel.php:1737
 #: includes/lib/inc/class-fusion-fusionredux.php:252
 msgid "FAQ Items"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1736
+#: includes/avada-app/class-fusion-panel.php:1738
 #: includes/lib/inc/class-fusion-fusionredux.php:253
 #: includes/options/sidebars.php:488
 msgid "WooCommerce Products"
 msgstr ""
 
-#: includes/avada-app/class-fusion-panel.php:1737
+#: includes/avada-app/class-fusion-panel.php:1739
 #: includes/lib/inc/class-fusion-fusionredux.php:254
 msgid "Events Calendar Posts"
 msgstr ""
 
-#: includes/avada-app/fusion-panel.php:145
+#: includes/avada-app/fusion-panel.php:147
 msgid "Reset To Default"
 msgstr ""
 
-#: includes/avada-app/fusion-panel.php:197
+#: includes/avada-app/fusion-panel.php:199
 #: includes/class-awb-global-typography.php:506
 #: includes/lib/inc/fusion-app/templates/options/typography.php:13
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:97
@@ -3301,17 +3342,17 @@ msgstr ""
 msgid "No page specific options are available for this page."
 msgstr ""
 
-#: includes/avada-functions.php:352 includes/lib/inc/fusion-app/helpers.php:578
+#: includes/avada-functions.php:352 includes/lib/inc/fusion-app/helpers.php:580
 #: includes/options/blog.php:880
 msgid "Related Posts"
 msgstr ""
 
-#: includes/avada-functions.php:355 includes/lib/inc/fusion-app/helpers.php:579
+#: includes/avada-functions.php:355 includes/lib/inc/fusion-app/helpers.php:581
 #: includes/options/portfolio.php:704
 msgid "Related Projects"
 msgstr ""
 
-#: includes/avada-functions.php:358 includes/lib/inc/fusion-app/helpers.php:580
+#: includes/avada-functions.php:358 includes/lib/inc/fusion-app/helpers.php:582
 msgid "Related Faqs"
 msgstr ""
 
@@ -3393,7 +3434,7 @@ msgid "Learn How To Import Sliders"
 msgstr ""
 
 #: includes/avada-functions.php:1366
-#: includes/lib/inc/fusion-app/helpers.php:594 includes/options/menu.php:79
+#: includes/lib/inc/fusion-app/helpers.php:596 includes/options/menu.php:79
 #: includes/options/menu.php:103
 msgid "Main Menu"
 msgstr ""
@@ -3450,6 +3491,7 @@ msgstr ""
 
 #: includes/avada-functions.php:1895 includes/class-avada-pwa.php:170
 #: includes/class-awb-setup-wizard.php:1989
+#: includes/options/performance.php:287
 msgid "Images"
 msgstr ""
 
@@ -3471,7 +3513,7 @@ msgstr ""
 msgid "Products"
 msgstr ""
 
-#: includes/avada-functions.php:1959
+#: includes/avada-functions.php:1959 includes/options/performance.php:462
 msgid "Convert Plus"
 msgstr ""
 
@@ -3616,36 +3658,36 @@ msgid ""
 "Please upgrade and try again."
 msgstr ""
 
-#: includes/bootstrap.php:604
+#: includes/bootstrap.php:605
 msgid "Avada Patcher"
 msgstr ""
 
-#: includes/bootstrap.php:605 includes/class-avada-admin-bar.php:84
+#: includes/bootstrap.php:606 includes/class-avada-admin-bar.php:84
 #: includes/class-avada-admin.php:618
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:241
 msgid "Patcher"
 msgstr ""
 
-#: includes/bootstrap.php:638
+#: includes/bootstrap.php:639
 msgid ""
 "Our site is currently undergoing scheduled maintenance. Please try again in "
 "a moment."
 msgstr ""
 
-#: includes/bootstrap.php:642
+#: includes/bootstrap.php:643
 msgid ""
 "Currently updating the Avada Theme. Your site will be accessible once the "
 "update finishes"
 msgstr ""
 
 #. translators: The "follow this link" link.
-#: includes/bootstrap.php:654
+#: includes/bootstrap.php:655
 msgid ""
 "The Avada-Core plugin needs to be updated before your site can exit "
 "maintenance mode. Please %s to update the plugin."
 msgstr ""
 
-#: includes/bootstrap.php:654
+#: includes/bootstrap.php:655
 msgid "follow this link"
 msgstr ""
 
@@ -3679,8 +3721,8 @@ msgstr ""
 msgid "All Avada caches have been reset."
 msgstr ""
 
-#: includes/class-avada-admin-bar.php:93 includes/options/performance.php:443
-#: includes/options/performance.php:449
+#: includes/class-avada-admin-bar.php:93 includes/options/performance.php:518
+#: includes/options/performance.php:524
 msgid "Reset Avada Caches"
 msgstr ""
 
@@ -3794,7 +3836,7 @@ msgstr ""
 
 #. translators: The iconset name.
 #: includes/class-avada-admin.php:918
-#: includes/lib/inc/fusion-app/helpers.php:593
+#: includes/lib/inc/fusion-app/helpers.php:595
 #: includes/lib/inc/redux/custom-fields/iconpicker/field_iconpicker.php:115
 msgid "No Results in \"%s\""
 msgstr ""
@@ -3894,11 +3936,11 @@ msgstr ""
 #: includes/class-avada-admin.php:1494
 msgid ""
 "The server couldn't be reached. Please check for wp_remote_get on the <a "
-"href=\"%s\" target=\"_blank\">Status</a> page."
+"href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr ""
 
 #: includes/class-avada-admin.php:1495
-#: includes/lib/inc/fusion-app/helpers.php:611
+#: includes/lib/inc/fusion-app/helpers.php:613
 msgid ""
 "The import process has timed out, but already imported steps have been "
 "saved. Click \"continue\", and the importer will attempt to complete the "
@@ -4432,7 +4474,7 @@ msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:440
 #: includes/class-avada-megamenu-framework.php:506
-#: includes/options/recaptcha.php:121
+#: includes/options/forms.php:405
 msgid "Inline"
 msgstr ""
 
@@ -4524,7 +4566,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:115
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:177
 #: includes/options/advanced.php:488 includes/options/extra.php:394
-#: includes/options/portfolio.php:78
+#: includes/options/forms.php:287 includes/options/portfolio.php:78
 msgid "Auto"
 msgstr ""
 
@@ -4559,7 +4601,7 @@ msgid "Select a widget area to be used as the content for the column."
 msgstr ""
 
 #: includes/class-avada-megamenu-framework.php:938
-#: includes/lib/inc/fusion-app/helpers.php:585
+#: includes/lib/inc/fusion-app/helpers.php:587
 msgid "Add Custom Icon Set"
 msgstr ""
 
@@ -4887,60 +4929,60 @@ msgstr ""
 msgid "Topics: "
 msgstr ""
 
-#: includes/class-avada-system-status.php:53
+#: includes/class-avada-system-status.php:58
 msgid "API type missing."
 msgstr ""
 
-#: includes/class-avada-system-status.php:65
+#: includes/class-avada-system-status.php:70
 msgid "Tested API is working properly."
 msgstr ""
 
 #. translators: HTTP response code
-#: includes/class-avada-system-status.php:90
+#: includes/class-avada-system-status.php:95
 msgid "Server responded with unauthorized response code: %1$s. %2$s"
 msgstr ""
 
 #. translators: HTTP response code
-#: includes/class-avada-system-status.php:93
+#: includes/class-avada-system-status.php:98
 msgid "Server responded with redirection response code: %1$s. %2$s"
 msgstr ""
 
 #. translators: HTTP response code
-#: includes/class-avada-system-status.php:96
+#: includes/class-avada-system-status.php:101
 msgid "Error occured while checking API status. Response code: %1$s. %2$s"
 msgstr ""
 
 #. translators: HTTP response code
-#: includes/class-avada-system-status.php:99
+#: includes/class-avada-system-status.php:104
 msgid ""
 "Internal server error occured while checking API status. Response code: "
 "%1$s. %2$s"
 msgstr ""
 
 #. translators: HTTP response code
-#: includes/class-avada-system-status.php:102
+#: includes/class-avada-system-status.php:107
 msgid ""
 "Something went wrong while checking API status. Response code: %1$s. %2$s"
 msgstr ""
 
-#: includes/class-avada-system-status.php:137
+#: includes/class-avada-system-status.php:142
 msgid "Creating database tables failed."
 msgstr ""
 
-#: includes/class-avada-system-status.php:140
-#: includes/class-avada-system-status.php:173
+#: includes/class-avada-system-status.php:145
+#: includes/class-avada-system-status.php:177
 msgid "Security check failed."
 msgstr ""
 
-#: includes/class-avada-system-status.php:154
+#: includes/class-avada-system-status.php:159
 msgid "Database tables are created successfully."
 msgstr ""
 
-#: includes/class-avada-system-status.php:170
+#: includes/class-avada-system-status.php:174
 msgid "This is not a multisite."
 msgstr ""
 
-#: includes/class-avada-system-status.php:188
+#: includes/class-avada-system-status.php:192
 msgid "Global options were successfully copied across the network."
 msgstr ""
 
@@ -5144,8 +5186,8 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_post.php:187
 #: includes/metaboxes/tabs/tab_post.php:210
 #: includes/metaboxes/tabs/tab_post.php:233 includes/options/blog.php:58
-#: includes/options/blog.php:77 includes/options/page_title_bar.php:72
-#: includes/options/recaptcha.php:124 includes/options/search.php:585
+#: includes/options/blog.php:77 includes/options/forms.php:408
+#: includes/options/page_title_bar.php:72 includes/options/search.php:585
 msgid "Hide"
 msgstr ""
 
@@ -5438,6 +5480,11 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
+#: includes/class-avada-tgm-plugin-activation.php:2623
+#: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:323
+msgid "Status"
+msgstr ""
+
 #. translators: %2$s: plugin name in screen reader markup
 #: includes/class-avada-tgm-plugin-activation.php:2672
 msgid "Install %2$s"
@@ -5615,7 +5662,7 @@ msgstr[1] ""
 
 #: includes/class-avada-woocommerce.php:1996
 #: includes/class-avada-woocommerce.php:2014
-#: includes/lib/inc/fusion-app/helpers.php:608
+#: includes/lib/inc/fusion-app/helpers.php:610
 msgid "Continue"
 msgstr ""
 
@@ -5650,6 +5697,179 @@ msgstr ""
 
 #: includes/class-awb-adobe-typography.php:304
 msgid "Adobe Fonts detected:"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:119
+msgid ""
+"Sorry, Turnstile could not verify that you are a human. Please try again."
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:141
+msgid "The Cloudflare server did not respond."
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:156
+msgid "The token verification failed."
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:175
+msgid "Auto (User browser language)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:176
+msgid "Arabic (Egypt)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:177
+msgid "Bulgarian (Bulgaria)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:178
+msgid "Chinese (Simplified, China)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:179
+msgid "Chinese (Traditional, Taiwan)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:180
+msgid "Croatian (Croatia)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:181
+msgid "Czech (Czech Republic)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:182
+msgid "Danish (Denmark)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:183
+msgid "Dutch (Netherlands)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:184
+msgid "English (United States)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:185
+msgid "Farsi (Iran)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:186
+msgid "Finnish (Finland)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:187
+msgid "French (France)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:188
+msgid "German (Germany)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:189
+msgid "Greek (Greece)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:190
+msgid "Hebrew (Israel)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:191
+msgid "Hindi (India)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:192
+msgid "Hungarian (Hungary)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:193
+msgid "Indonesian (Indonesia)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:194
+msgid "Italian (Italy)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:195
+msgid "Japanese (Japan)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:196
+msgid "Klingon (Qo’noS)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:197
+msgid "Korean (Korea)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:198
+msgid "Lithuanian (Lithuania)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:199
+msgid "Malay (Malaysia)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:200
+msgid "Norwegian Bokmål (Norway)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:201
+msgid "Polish (Poland)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:202
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:203
+msgid "Romanian (Romania)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:204
+msgid "Russian (Russia)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:205
+msgid "Serbian (Bosnia and Herzegovina)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:206
+msgid "Slovak (Slovakia)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:207
+msgid "Slovenian (Slovenia)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:208
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:209
+msgid "Swedish (Sweden)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:210
+msgid "Tagalog (Philippines)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:211
+msgid "Thai (Thailand)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:212
+msgid "Turkish (Turkey)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:213
+msgid "Ukrainian (Ukraine)"
+msgstr ""
+
+#: includes/class-awb-cloudflare-turnstile.php:214
+msgid "Vietnamese (Vietnam)"
 msgstr ""
 
 #: includes/class-awb-global-colors.php:95
@@ -5720,7 +5940,7 @@ msgid "Standard Fonts"
 msgstr ""
 
 #: includes/class-awb-global-typography.php:510
-#: includes/options/performance.php:186
+#: includes/options/performance.php:105
 msgid "Google Fonts"
 msgstr ""
 
@@ -5745,9 +5965,9 @@ msgid ""
 "your reCAPTCHA account settings."
 msgstr ""
 
-#: includes/class-awb-google-recaptcha.php:318
-#: includes/class-awb-google-recaptcha.php:327
-#: includes/class-awb-google-recaptcha.php:334
+#: includes/class-awb-google-recaptcha.php:340
+#: includes/class-awb-google-recaptcha.php:349
+#: includes/class-awb-google-recaptcha.php:356
 msgid "Sorry, reCAPTCHA could not verify that you are a human."
 msgstr ""
 
@@ -6046,7 +6266,7 @@ msgid "Colors"
 msgstr ""
 
 #: includes/class-awb-setup-wizard.php:1434
-#: includes/lib/inc/fusion-app/helpers.php:521
+#: includes/lib/inc/fusion-app/helpers.php:523
 #: includes/options/typography.php:163
 msgid "Typography"
 msgstr ""
@@ -6571,7 +6791,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_form_general.php:43
 #: includes/metaboxes/tabs/tab_form_notifications.php:126
 #: includes/metaboxes/tabs/tab_form_notifications.php:162
-#: includes/metaboxes/tabs/tab_form_notifications.php:174
+#: includes/metaboxes/tabs/tab_form_notifications.php:182
 #: includes/metaboxes/tabs/tab_form_privacy.php:31
 #: includes/metaboxes/tabs/tab_form_steps.php:538
 #: includes/metaboxes/tabs/tab_form_steps.php:794
@@ -6645,7 +6865,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_form_general.php:44
 #: includes/metaboxes/tabs/tab_form_notifications.php:127
 #: includes/metaboxes/tabs/tab_form_notifications.php:163
-#: includes/metaboxes/tabs/tab_form_notifications.php:175
+#: includes/metaboxes/tabs/tab_form_notifications.php:183
 #: includes/metaboxes/tabs/tab_form_privacy.php:32
 #: includes/metaboxes/tabs/tab_form_steps.php:539
 #: includes/metaboxes/tabs/tab_form_steps.php:795
@@ -7065,6 +7285,7 @@ msgid "Theme Skin"
 msgstr ""
 
 #: includes/lib/inc/class-fusion-fusionredux.php:921
+#: includes/options/forms.php:282
 msgid "Color Scheme"
 msgstr ""
 
@@ -7163,27 +7384,27 @@ msgstr ""
 msgid "Yearly Archives: %s"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1042
+#: includes/lib/inc/class-fusion-images.php:1061
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1046
+#: includes/lib/inc/class-fusion-images.php:1065
 msgid "1x1"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1047
+#: includes/lib/inc/class-fusion-images.php:1066
 msgid "Landscape"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1048
+#: includes/lib/inc/class-fusion-images.php:1067
 msgid "Portrait"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1049
+#: includes/lib/inc/class-fusion-images.php:1068
 msgid "2x2"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1051
+#: includes/lib/inc/class-fusion-images.php:1070
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -7720,7 +7941,7 @@ msgstr ""
 #. translators: The tags list.
 #. Translators: List of tags.
 #: includes/lib/inc/functions.php:419
-#: includes/lib/inc/fusion-app/helpers.php:567
+#: includes/lib/inc/fusion-app/helpers.php:569
 msgid "Tags: %s"
 msgstr ""
 
@@ -7792,96 +8013,96 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2070
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2071
-#: includes/options/performance.php:200
+#: includes/options/performance.php:119
 msgid "Ultra-Light 100"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2072
-#: includes/options/performance.php:201
+#: includes/options/performance.php:120
 msgid "Ultra-Light 100 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2073
-#: includes/options/performance.php:202
+#: includes/options/performance.php:121
 msgid "Light 200"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2074
-#: includes/options/performance.php:203
+#: includes/options/performance.php:122
 msgid "Light 200 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2075
-#: includes/options/performance.php:204
+#: includes/options/performance.php:123
 msgid "Book 300"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2076
-#: includes/options/performance.php:205
+#: includes/options/performance.php:124
 msgid "Book 300 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2077
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2078
-#: includes/options/performance.php:206
+#: includes/options/performance.php:125
 msgid "Normal 400"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2079
-#: includes/options/performance.php:207
+#: includes/options/performance.php:126
 msgid "Normal 400 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2080
-#: includes/options/performance.php:208
+#: includes/options/performance.php:127
 msgid "Medium 500"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2081
-#: includes/options/performance.php:209
+#: includes/options/performance.php:128
 msgid "Medium 500 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2082
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2083
-#: includes/options/performance.php:210
+#: includes/options/performance.php:129
 msgid "Semi-Bold 600"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2084
-#: includes/options/performance.php:211
+#: includes/options/performance.php:130
 msgid "Semi-Bold 600 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2085
-#: includes/options/performance.php:212
+#: includes/options/performance.php:131
 msgid "Bold 700"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2086
-#: includes/options/performance.php:213
+#: includes/options/performance.php:132
 msgid "Bold 700 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2087
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2088
-#: includes/options/performance.php:214
+#: includes/options/performance.php:133
 msgid "Extra-Bold 800"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2089
-#: includes/options/performance.php:215
+#: includes/options/performance.php:134
 msgid "Extra-Bold 800 Italic"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2090
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2091
-#: includes/options/performance.php:216
+#: includes/options/performance.php:135
 msgid "Ultra-Bold 900"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-app.php:2092
-#: includes/options/performance.php:217
+#: includes/options/performance.php:136
 msgid "Ultra-Bold 900 Italic"
 msgstr ""
 
@@ -8009,6 +8230,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:266
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:278
+#: includes/options/forms.php:276
 msgid "Always"
 msgstr ""
 
@@ -8186,6 +8408,7 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:233
 #: includes/lib/inc/fusion-app/helpers.php:356
+#: includes/lib/inc/fusion-app/helpers.php:499
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:266
 msgid "Column"
 msgstr ""
@@ -9182,103 +9405,108 @@ msgstr ""
 msgid "Vertical"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:499
-msgid "Confirm"
-msgstr ""
-
 #: includes/lib/inc/fusion-app/helpers.php:500
-msgid "Unsaved Changes"
+#: includes/metaboxes/tabs/tab_off_canvas_general.php:267
+msgid "Row"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:501
-msgid "Your changes will be lost, do you want to save changes before leaving?"
+msgid "Confirm"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:502
-msgid "Reset"
+msgid "Unsaved Changes"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:503
-msgid "Reset to Defaults"
+msgid "Your changes will be lost, do you want to save changes before leaving?"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:504
-msgid "Are you sure you want to reset this element's options to default?"
+msgid "Reset"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:505
-msgid "Are you sure you want to delete this element?"
+msgid "Reset to Defaults"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:506
-msgid "I Agree"
+msgid "Are you sure you want to reset this element's options to default?"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:507
-msgid "Are You Sure?"
+msgid "Are you sure you want to delete this element?"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:508
-msgid "I'm sure"
+msgid "I Agree"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:509
-msgid "Ok"
+msgid "Are You Sure?"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:510
-msgid "Import Prebuilt Website Page"
+msgid "I'm sure"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:511
-msgid "Import Prebuilt Website Layout"
+msgid "Ok"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:512
-msgid "Extended options"
+msgid "Import Prebuilt Website Page"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:513
-msgid "Align text"
+msgid "Import Prebuilt Website Layout"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:514
-msgid "Align left"
+msgid "Extended options"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:515
-msgid "Align center"
+msgid "Align text"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:516
-msgid "Align right"
+msgid "Align left"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:517
-msgid "Justify"
+msgid "Align center"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:518
-msgid "Indent"
+msgid "Align right"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:519
-msgid "Outdent"
+msgid "Justify"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:520
+msgid "Indent"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:521
+msgid "Outdent"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:522
 msgid "Accept"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:523
+#: includes/lib/inc/fusion-app/helpers.php:525
 msgid "Family"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:524
+#: includes/lib/inc/fusion-app/helpers.php:526
 msgid "Tag"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:525
+#: includes/lib/inc/fusion-app/helpers.php:527
 #: includes/lib/inc/fusion-app/templates/options/typography.php:171
 #: includes/lib/inc/fusion-app/templates/typography-set.php:111
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:233
@@ -9286,7 +9514,7 @@ msgstr ""
 msgid "Font Size"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:526
+#: includes/lib/inc/fusion-app/helpers.php:528
 #: includes/lib/inc/fusion-app/templates/options/typography.php:172
 #: includes/lib/inc/fusion-app/templates/typography-set.php:112
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:234
@@ -9294,7 +9522,7 @@ msgstr ""
 msgid "Line Height"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:527
+#: includes/lib/inc/fusion-app/helpers.php:529
 #: includes/lib/inc/fusion-app/templates/options/typography.php:173
 #: includes/lib/inc/fusion-app/templates/typography-set.php:113
 #: includes/lib/inc/redux/custom-fields/typography/field_typography.php:235
@@ -9302,23 +9530,23 @@ msgstr ""
 msgid "Letter Spacing"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:530
+#: includes/lib/inc/fusion-app/helpers.php:532
 msgid "Font color"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:531
+#: includes/lib/inc/fusion-app/helpers.php:533
 msgid "Edit Inline Element"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:532
+#: includes/lib/inc/fusion-app/helpers.php:534
 msgid "Remove Inline Element"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:533
+#: includes/lib/inc/fusion-app/helpers.php:535
 msgid "Delete All"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:534
+#: includes/lib/inc/fusion-app/helpers.php:536
 #: includes/lib/inc/fusion-app/templates/options/import.php:94
 #: includes/lib/inc/redux/extensions/repeater/repeater/field_repeater.php:187
 #: includes/lib/inc/redux/extensions/repeater/repeater/field_repeater.php:230
@@ -9328,268 +9556,268 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:535
+#: includes/lib/inc/fusion-app/helpers.php:537
 msgid "Preview Mode"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:536
+#: includes/lib/inc/fusion-app/helpers.php:538
 msgid ""
 "Please beware that editing options are limited on this mode. All open "
 "dialogs and panels will be closed."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:537
+#: includes/lib/inc/fusion-app/helpers.php:539
 msgid "Multiple Dialogs"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:538
+#: includes/lib/inc/fusion-app/helpers.php:540
 msgid "Please close other open dialogs first to use this option."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:539
+#: includes/lib/inc/fusion-app/helpers.php:541
 msgid "Widget"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:540
+#: includes/lib/inc/fusion-app/helpers.php:542
 msgid "No widget selected. Edit to select widget type."
 msgstr ""
 
 #. translators: Add unknown element type.
-#: includes/lib/inc/fusion-app/helpers.php:543
+#: includes/lib/inc/fusion-app/helpers.php:545
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:244
 msgid "Add %s"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:544
+#: includes/lib/inc/fusion-app/helpers.php:546
 #: includes/metaboxes/options/options_slide.php:297
 msgid "Link Options"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:545
+#: includes/lib/inc/fusion-app/helpers.php:547
 msgid "Open Link in New Tab"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:546
+#: includes/lib/inc/fusion-app/helpers.php:548
 msgid "Clear"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:547
+#: includes/lib/inc/fusion-app/helpers.php:549
 msgid "Remove formatting"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:548
+#: includes/lib/inc/fusion-app/helpers.php:550
 msgid "Please add a gallery image here."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:549
+#: includes/lib/inc/fusion-app/helpers.php:551
 msgid "Please select a slider for it to display here."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:550
+#: includes/lib/inc/fusion-app/helpers.php:552
 msgid "Please select a form for it to display here."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:551
+#: includes/lib/inc/fusion-app/helpers.php:553
 msgid "Please add a video here."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:552
+#: includes/lib/inc/fusion-app/helpers.php:554
 msgid "Search Results"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:553
+#: includes/lib/inc/fusion-app/helpers.php:555
 msgid "Page Save Incomplete"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:554
+#: includes/lib/inc/fusion-app/helpers.php:556
 msgid ""
 "Not all content has saved correctly. Click ok to return to the page editor "
 "and try again."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:555
+#: includes/lib/inc/fusion-app/helpers.php:557
 msgid "Page Save Failed"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:556
+#: includes/lib/inc/fusion-app/helpers.php:558
 msgid ""
 "Security nonce check failed.  Attempts to reconnect were also unsuccessful.  "
 "Please ensure WordPress Heartbeat is not disabled."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:557
+#: includes/lib/inc/fusion-app/helpers.php:559
 msgid "Layout cleared."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:559
+#: includes/lib/inc/fusion-app/helpers.php:561
 msgid "Enter value"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:560
+#: includes/lib/inc/fusion-app/helpers.php:562
 msgid "Import Failed"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:561
+#: includes/lib/inc/fusion-app/helpers.php:563
 msgid ""
 "Please check that the file selected is valid JSON. Click ok to return to the "
 "page editor and try again."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:562
+#: includes/lib/inc/fusion-app/helpers.php:564
 msgid "Saved"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:563
+#: includes/lib/inc/fusion-app/helpers.php:565
 msgid "As global"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:564
+#: includes/lib/inc/fusion-app/helpers.php:566
 msgid ""
 "This action will redirect you to the front-end builder. All unsaved changes "
 "will be lost. Are you sure?"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:565
+#: includes/lib/inc/fusion-app/helpers.php:567
 msgid ""
 "Duplicate Slider Revolution detected.  Duplicate sliders will not be "
 "rendered whilst in the live editor."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:568
+#: includes/lib/inc/fusion-app/helpers.php:570
 msgid "Other"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:569
+#: includes/lib/inc/fusion-app/helpers.php:571
 msgid "Dynamic Data"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:570
+#: includes/lib/inc/fusion-app/helpers.php:572
 msgid "Select Dynamic Data"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:571
+#: includes/lib/inc/fusion-app/helpers.php:573
 msgid "Custom Font(s)"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:572
+#: includes/lib/inc/fusion-app/helpers.php:574
 #: includes/metaboxes/metaboxes.php:1741 includes/metaboxes/metaboxes.php:2075
 msgid "Add New"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:573
+#: includes/lib/inc/fusion-app/helpers.php:575
 #: includes/lib/inc/redux/extensions/repeater/repeater/field_repeater.php:252
 msgid "Add"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:574
+#: includes/lib/inc/fusion-app/helpers.php:576
 msgid "Separate with Commas"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:577 includes/options/blog.php:804
+#: includes/lib/inc/fusion-app/helpers.php:579 includes/options/blog.php:804
 msgid "Post Title"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:581
+#: includes/lib/inc/fusion-app/helpers.php:583
 msgid "Related products"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:582
+#: includes/lib/inc/fusion-app/helpers.php:584
 msgid "You may also like&hellip;"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:583
+#: includes/lib/inc/fusion-app/helpers.php:585
 msgid "You may be interested in&hellip;"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:584
+#: includes/lib/inc/fusion-app/helpers.php:586
 #: includes/options/portfolio.php:649
 msgid "Project Details"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:586
+#: includes/lib/inc/fusion-app/helpers.php:588
 msgid "Edit Layout Section"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:587
+#: includes/lib/inc/fusion-app/helpers.php:589
 msgid "Edit Content Layout Section"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:588
+#: includes/lib/inc/fusion-app/helpers.php:590
 msgid "Edit Footer Layout Section"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:589
+#: includes/lib/inc/fusion-app/helpers.php:591
 msgid "Edit Header Layout Section"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:590
+#: includes/lib/inc/fusion-app/helpers.php:592
 msgid "Set dynamic data to update preview source."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:591
+#: includes/lib/inc/fusion-app/helpers.php:593
 msgid "Avada Builder Library"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:595
+#: includes/lib/inc/fusion-app/helpers.php:597
 #: includes/options/background.php:27 includes/options/menu.php:187
 msgid "Background"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:597
+#: includes/lib/inc/fusion-app/helpers.php:599
 msgid "Only numbers and phone characters are accepted"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:599
+#: includes/lib/inc/fusion-app/helpers.php:601
 msgid "Importing Studio Content"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:600
+#: includes/lib/inc/fusion-app/helpers.php:602
 msgid "Importing Studio Content Failed"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:601
+#: includes/lib/inc/fusion-app/helpers.php:603
 msgid "Importing Studio Media:"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:602
+#: includes/lib/inc/fusion-app/helpers.php:604
 msgid "Failed to retrieve data from API"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:603
+#: includes/lib/inc/fusion-app/helpers.php:605
 msgid "Importing Prebuilt Page Content"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:604
+#: includes/lib/inc/fusion-app/helpers.php:606
 msgid "Importing Prebuilt Page Content Failed"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:605
+#: includes/lib/inc/fusion-app/helpers.php:607
 msgid "Importing Prebuilt Page Media:"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:606
+#: includes/lib/inc/fusion-app/helpers.php:608
 msgid "Plugin Installation Failed"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:607
+#: includes/lib/inc/fusion-app/helpers.php:609
 msgid "Importing Prebuilt Website Failed"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:609
+#: includes/lib/inc/fusion-app/helpers.php:611
 msgid "Something Went Wrong"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:610
+#: includes/lib/inc/fusion-app/helpers.php:612
 msgid ""
 "An error occured and the process could not be completed. Please check your "
 "error log for details."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:613
+#: includes/lib/inc/fusion-app/helpers.php:615
 msgid "Loading the next set of gallery items..."
 msgstr ""
 
-#: includes/lib/inc/fusion-app/helpers.php:614
+#: includes/lib/inc/fusion-app/helpers.php:616
 msgid "Dummy Title Placeholder"
 msgstr ""
 
@@ -9726,10 +9954,12 @@ msgid "Enabled"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/connected-sortable.php:39
+#: includes/metaboxes/tabs/tab_form_general.php:77
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:165
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:237
 #: includes/options/blog.php:813 includes/options/events_calendar.php:302
-#: includes/options/extra.php:58 includes/options/performance.php:382
+#: includes/options/extra.php:58 includes/options/forms.php:228
+#: includes/options/performance.php:448
 msgid "Disabled"
 msgstr ""
 
@@ -9740,13 +9970,13 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/export.php:19
 #: includes/lib/inc/fusion-app/templates/options/import.php:19
-#: includes/options/performance.php:380
+#: includes/options/performance.php:446
 msgid "File"
 msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/options/export.php:22
 #: includes/lib/inc/fusion-app/templates/options/import.php:25
-#: includes/options/performance.php:381
+#: includes/options/performance.php:447
 msgid "Database"
 msgstr ""
 
@@ -10074,12 +10304,12 @@ msgid "Top Right"
 msgstr ""
 
 #: includes/lib/inc/redux/custom-fields/spacing/field_border_radius.php:122
-#: includes/options/recaptcha.php:123
+#: includes/options/forms.php:407
 msgid "Bottom Right"
 msgstr ""
 
 #: includes/lib/inc/redux/custom-fields/spacing/field_border_radius.php:129
-#: includes/options/recaptcha.php:122
+#: includes/options/forms.php:406
 msgid "Bottom Left"
 msgstr ""
 
@@ -10171,14 +10401,15 @@ msgid "FusionRedux Framework"
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1549
-#: includes/options/performance.php:78 includes/options/performance.php:293
-#: includes/options/performance.php:306
+#: includes/options/performance.php:212 includes/options/performance.php:225
+#: includes/options/performance.php:299 includes/options/performance.php:327
 msgid "Enable"
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:1554
-#: includes/options/events_calendar.php:60 includes/options/performance.php:79
-#: includes/options/performance.php:294 includes/options/performance.php:307
+#: includes/options/events_calendar.php:60 includes/options/performance.php:213
+#: includes/options/performance.php:226 includes/options/performance.php:300
+#: includes/options/performance.php:328
 msgid "Disable"
 msgstr ""
 
@@ -10201,19 +10432,19 @@ msgstr ""
 msgid "Hints"
 msgstr ""
 
-#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2506
+#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2505
 msgid "Invalid security credential. Please reload the page and try again."
 msgstr ""
 
-#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2515
+#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2514
 msgid "Invalid user capability. Please reload the page and try again."
 msgstr ""
 
-#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2588
+#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:2587
 msgid "Your panel has no fields. Nothing to save."
 msgstr ""
 
-#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:3612
+#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:3611
 msgid ""
 "<strong>FusionRedux Framework Notice: </strong>There are references to the "
 "FusionRedux Framework support site in your config's <code>admin_bar_links</"
@@ -10221,7 +10452,7 @@ msgid ""
 "before shipping your product."
 msgstr ""
 
-#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:3627
+#: includes/lib/inc/redux/framework/FusionReduxCore/framework.php:3626
 msgid ""
 "<strong>FusionRedux Framework Notice: </strong>There are references to the "
 "FusionRedux Framework support site in your config's <code>share_icons</code> "
@@ -10699,11 +10930,12 @@ msgid "WP Debug Mode"
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:255
+#: includes/options/forms.php:306
 msgid "Language"
 msgstr ""
 
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:270
-#: includes/options/performance.php:561
+#: includes/options/performance.php:636
 msgid "Browser"
 msgstr ""
 
@@ -13025,7 +13257,7 @@ msgid "Controls the border color of the form input field. %s"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_form_appearance.php:270
-#: includes/options/forms.php:182
+#: includes/options/forms.php:181
 msgid "Form Border Color On Focus"
 msgstr ""
 
@@ -13096,23 +13328,65 @@ msgid ""
 "display form to any logged in user."
 msgstr ""
 
+#: includes/metaboxes/tabs/tab_form_general.php:64
+msgid "Views Counter"
+msgstr ""
+
 #: includes/metaboxes/tabs/tab_form_general.php:65
+#: includes/options/forms.php:221
+msgid ""
+"Set the method to update the form views, or disable them entirely. \"Page "
+"Load\" option will update using PHP when a page is retrieved. \"Ajax\" will "
+"send an additional request after the page loads."
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_general.php:75
+#: includes/options/extra.php:56 includes/options/forms.php:226
+msgid "Page Load"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_general.php:76
+#: includes/options/extra.php:57 includes/options/forms.php:227
+msgid "Ajax"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_general.php:81
+#: includes/options/forms.php:232
+msgid "Form Views Counting"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_general.php:82
+#: includes/options/forms.php:233
+msgid "Select which types of users will increase the form views on visit."
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_general.php:93
+#: includes/options/extra.php:69 includes/options/forms.php:239
+msgid "Logged Out"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_general.php:94
+#: includes/options/extra.php:70 includes/options/forms.php:240
+msgid "Non-Admins"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_general.php:99
 msgid "Security Nonce Method"
 msgstr ""
 
 #. translators: %1$s: Opening anchor tag. %2$s: Closing anchor tag.
-#: includes/metaboxes/tabs/tab_form_general.php:67
+#: includes/metaboxes/tabs/tab_form_general.php:101
 msgid ""
 "Select the method which is used to add %1$s nonce %2$s field to the form. "
 "Note that Localized might cause problems if page's HTML is cached."
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_general.php:72
+#: includes/metaboxes/tabs/tab_form_general.php:106
 #: includes/metaboxes/tabs/tab_form_submission.php:48
 msgid "AJAX"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_general.php:73
+#: includes/metaboxes/tabs/tab_form_general.php:107
 msgid "Localized"
 msgstr ""
 
@@ -13227,19 +13501,27 @@ msgstr ""
 msgid "Add uploaded files as email attachments."
 msgstr ""
 
+#: includes/metaboxes/tabs/tab_form_notifications.php:168
+msgid "Custom Attachment"
+msgstr ""
+
 #: includes/metaboxes/tabs/tab_form_notifications.php:169
+msgid "Select a custom attachment to be sent along in the notification email."
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_notifications.php:177
 msgid "Wordwrap For Labels"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:171
+#: includes/metaboxes/tabs/tab_form_notifications.php:179
 msgid "Set to \"yes\" to enable wordwrap for labels in the notification email."
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:181
+#: includes/metaboxes/tabs/tab_form_notifications.php:189
 msgid "Email Message"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:183
+#: includes/metaboxes/tabs/tab_form_notifications.php:191
 msgid ""
 "Enter an email message, or leave empty to get the default message with all "
 "form fields. You can add form fields to the message by inserting a field "
@@ -13247,48 +13529,53 @@ msgid ""
 "fields with [all_fields] tag."
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:188
-#: includes/metaboxes/tabs/tab_form_notifications.php:192
+#: includes/metaboxes/tabs/tab_form_notifications.php:196
+#: includes/metaboxes/tabs/tab_form_notifications.php:200
 msgid "Conditional Logic"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:190
+#: includes/metaboxes/tabs/tab_form_notifications.php:198
 msgid ""
 "Add conditional logic for the notification. The notification will only be "
 "sent, if the set conditions are met."
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:191
+#: includes/metaboxes/tabs/tab_form_notifications.php:199
 msgid "Add Conditional Logic"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:195
+#: includes/metaboxes/tabs/tab_form_notifications.php:203
 msgid "Select A Condition Type"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:198
 #: includes/metaboxes/tabs/tab_form_notifications.php:206
+#: includes/metaboxes/tabs/tab_form_notifications.php:215
 msgid "Equal To"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:199
 #: includes/metaboxes/tabs/tab_form_notifications.php:207
+#: includes/metaboxes/tabs/tab_form_notifications.php:216
 msgid "Not Equal To"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:200
 #: includes/metaboxes/tabs/tab_form_notifications.php:208
+#: includes/metaboxes/tabs/tab_form_notifications.php:217
 msgid "Greater Than"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:201
 #: includes/metaboxes/tabs/tab_form_notifications.php:209
+#: includes/metaboxes/tabs/tab_form_notifications.php:218
 msgid "Less Than"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_notifications.php:202
 #: includes/metaboxes/tabs/tab_form_notifications.php:210
+#: includes/metaboxes/tabs/tab_form_notifications.php:219
 msgid "Contains"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_notifications.php:211
+#: includes/metaboxes/tabs/tab_form_notifications.php:220
+msgid "Does Not Contain"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_form_privacy.php:20
@@ -13744,12 +14031,12 @@ msgid "Send To URL"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_form_submission.php:23
-#: includes/options/forms.php:330
+#: includes/options/forms.php:505
 msgid "Mailchimp"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_form_submission.php:24
-#: includes/options/forms.php:261
+#: includes/options/forms.php:436
 msgid "HubSpot"
 msgstr ""
 
@@ -14614,12 +14901,8 @@ msgid ""
 "allow floated elements."
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_off_canvas_general.php:267
-msgid "Row"
-msgstr ""
-
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:268
-#: includes/options/performance.php:172
+#: includes/options/performance.php:91
 msgid "Block"
 msgstr ""
 
@@ -16379,7 +16662,7 @@ msgid ""
 "and height according to the window size."
 msgstr ""
 
-#: includes/options/bbpress.php:30
+#: includes/options/bbpress.php:30 includes/options/performance.php:464
 msgid "bbPress"
 msgstr ""
 
@@ -17763,28 +18046,12 @@ msgid ""
 "send an additional request after the page loads."
 msgstr ""
 
-#: includes/options/extra.php:56
-msgid "Page Load"
-msgstr ""
-
-#: includes/options/extra.php:57
-msgid "Ajax"
-msgstr ""
-
 #: includes/options/extra.php:62
 msgid "Post Views User Type Counting"
 msgstr ""
 
 #: includes/options/extra.php:63
 msgid "Select which types of users will increase post views on visit."
-msgstr ""
-
-#: includes/options/extra.php:69 includes/options/forms.php:228
-msgid "Logged Out"
-msgstr ""
-
-#: includes/options/extra.php:70 includes/options/forms.php:229
-msgid "Non-Admins"
 msgstr ""
 
 #: includes/options/extra.php:74
@@ -18843,179 +19110,317 @@ msgstr ""
 msgid "Controls the font size for the copyright text."
 msgstr ""
 
-#: includes/options/forms.php:44
+#: includes/options/forms.php:43
 msgid "Forms Styling"
 msgstr ""
 
-#: includes/options/forms.php:51
+#: includes/options/forms.php:50
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab apply to all forms "
 "throughout the site, including Avada Forms and the 3rd party plugins that "
 "Avada has design integration with."
 msgstr ""
 
-#: includes/options/forms.php:56
+#: includes/options/forms.php:55
 msgid "Form Input and Select Height"
 msgstr ""
 
-#: includes/options/forms.php:57
+#: includes/options/forms.php:56
 msgid "Controls the height of all search, form input and select fields."
 msgstr ""
 
-#: includes/options/forms.php:81
+#: includes/options/forms.php:80
 msgid "Form Font Size"
 msgstr ""
 
-#: includes/options/forms.php:82
+#: includes/options/forms.php:81
 msgid "Controls the size of the form text."
 msgstr ""
 
-#: includes/options/forms.php:94
+#: includes/options/forms.php:93
 msgid "Form Field Background Color"
 msgstr ""
 
-#: includes/options/forms.php:95
+#: includes/options/forms.php:94
 msgid "Controls the background color of form fields."
 msgstr ""
 
-#: includes/options/forms.php:108
+#: includes/options/forms.php:107
 msgid "Form Text Color"
 msgstr ""
 
-#: includes/options/forms.php:109
+#: includes/options/forms.php:108
 msgid "Controls the color of the form text."
 msgstr ""
 
-#: includes/options/forms.php:127
+#: includes/options/forms.php:126
 msgid "Form Border Size"
 msgstr ""
 
-#: includes/options/forms.php:128
+#: includes/options/forms.php:127
 msgid "Controls the border size of the form fields."
 msgstr ""
 
-#: includes/options/forms.php:167
+#: includes/options/forms.php:166
 msgid "Form Border Color"
 msgstr ""
 
-#: includes/options/forms.php:168
+#: includes/options/forms.php:167
 msgid "Controls the border color of the form fields."
 msgstr ""
 
-#: includes/options/forms.php:183
+#: includes/options/forms.php:182
 msgid "Controls the border color of the form fields when they have focus."
 msgstr ""
 
-#: includes/options/forms.php:202
+#: includes/options/forms.php:201
 msgid "Form Border Radius"
 msgstr ""
 
-#: includes/options/forms.php:203
+#: includes/options/forms.php:202
 msgid ""
 "Controls the border radius of the form fields. Also works, if border size is "
 "set to 0."
 msgstr ""
 
-#: includes/options/forms.php:221
-msgid "Form Views Counting"
+#: includes/options/forms.php:220
+msgid "Form Views Counter"
 msgstr ""
 
-#: includes/options/forms.php:222
-msgid "Select which types of users will increase the form views on visit."
-msgstr ""
-
-#: includes/options/forms.php:235
+#: includes/options/forms.php:246
 msgid "Cloudflare Turnstile"
 msgstr ""
 
-#: includes/options/forms.php:241
+#: includes/options/forms.php:252
 msgid "Site Key"
 msgstr ""
 
 #. translators: "our docs" link.
-#: includes/options/forms.php:243
+#: includes/options/forms.php:254
 msgid "Follow the steps in %s to create/access your site key."
 msgstr ""
 
-#: includes/options/forms.php:243 includes/options/forms.php:252
+#: includes/options/forms.php:254 includes/options/forms.php:263
 msgid "Cloudflare Turnstile docs"
 msgstr ""
 
-#: includes/options/forms.php:250
+#: includes/options/forms.php:261
 msgid "Secret Key"
 msgstr ""
 
 #. translators: "our docs" link.
-#: includes/options/forms.php:252
+#: includes/options/forms.php:263
 msgid "Follow the steps in %s to create/access your secret key."
 msgstr ""
 
-#: includes/options/forms.php:267
+#: includes/options/forms.php:271
+msgid "Appearance Mode"
+msgstr ""
+
+#: includes/options/forms.php:272
+msgid ""
+"Choose the Turnstile appearance mode. \"Always\" will display the widget on "
+"page load in any case, while \"Interaction Only\" will make it visible only "
+"when visitor interaction is required."
+msgstr ""
+
+#: includes/options/forms.php:277
+msgid "Interaction Only"
+msgstr ""
+
+#: includes/options/forms.php:283
+msgid "Choose the Turnstile color scheme."
+msgstr ""
+
+#: includes/options/forms.php:294
+msgid "Widget Size"
+msgstr ""
+
+#: includes/options/forms.php:295
+msgid "Choose the Turnstile widget size."
+msgstr ""
+
+#: includes/options/forms.php:299
+msgid "Normal (300px)"
+msgstr ""
+
+#: includes/options/forms.php:300
+msgid "Flexible (100%)"
+msgstr ""
+
+#: includes/options/forms.php:301
+msgid "Compact (150px)"
+msgstr ""
+
+#: includes/options/forms.php:307
+msgid "Choose the Turnstile widget language."
+msgstr ""
+
+#: includes/options/forms.php:313
+msgid "Turnstile For Comments"
+msgstr ""
+
+#: includes/options/forms.php:314
+msgid "Turn on to add Turnstile to comment forms."
+msgstr ""
+
+#: includes/options/forms.php:322
+msgid "Google reCaptcha"
+msgstr ""
+
+#: includes/options/forms.php:327
+msgid "reCAPTCHA Version"
+msgstr ""
+
+#: includes/options/forms.php:328
+msgid ""
+"Set the reCAPTCHA version you want to use and make sure your keys below "
+"match the set version."
+msgstr ""
+
+#: includes/options/forms.php:333
+msgid "V2"
+msgstr ""
+
+#: includes/options/forms.php:334
+msgid "V3"
+msgstr ""
+
+#: includes/options/forms.php:339
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#. translators: "our docs" link.
+#: includes/options/forms.php:341
+msgid "Follow the steps in %s to get the site key."
+msgstr ""
+
+#: includes/options/forms.php:341 includes/options/forms.php:351
+msgid "our docs"
+msgstr ""
+
+#: includes/options/forms.php:349
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#. translators: "our docs" link.
+#: includes/options/forms.php:351
+msgid "Follow the steps in %s to get the secret key."
+msgstr ""
+
+#: includes/options/forms.php:359
+msgid "reCAPTCHA Color Scheme"
+msgstr ""
+
+#: includes/options/forms.php:360
+msgid "Controls the reCAPTCHA color scheme."
+msgstr ""
+
+#: includes/options/forms.php:378
+msgid "reCAPTCHA Security Score"
+msgstr ""
+
+#: includes/options/forms.php:379
+msgid ""
+"Set a threshold score that must be met by the reCAPTCHA response. The higher "
+"the score the harder it becomes for bots, but also false positives increase."
+msgstr ""
+
+#: includes/options/forms.php:399
+msgid "reCAPTCHA Badge Position"
+msgstr ""
+
+#: includes/options/forms.php:400
+msgid ""
+"Set where and if the reCAPTCHA badge should be displayed. <strong>NOTE:</"
+"strong> Google's Terms and Privacy information needs to be displayed on the "
+"contact form."
+msgstr ""
+
+#: includes/options/forms.php:420
+msgid "reCAPTCHA For User Elements"
+msgstr ""
+
+#: includes/options/forms.php:421
+msgid ""
+"Turn on to add reCAPTCHA to the user login, user lost password and user "
+"registration forms."
+msgstr ""
+
+#: includes/options/forms.php:427
+msgid "reCAPTCHA For Comments"
+msgstr ""
+
+#: includes/options/forms.php:428
+msgid "Turn on to add reCAPTCHA to comment forms."
+msgstr ""
+
+#: includes/options/forms.php:442
 msgid "HubSpot API"
 msgstr ""
 
-#: includes/options/forms.php:268
+#: includes/options/forms.php:443
 msgid "Select a method to connect to your HubSpot account."
 msgstr ""
 
-#: includes/options/forms.php:273 includes/options/forms.php:342
+#: includes/options/forms.php:448 includes/options/forms.php:517
 msgid "OAuth"
 msgstr ""
 
-#: includes/options/forms.php:274 includes/options/forms.php:343
+#: includes/options/forms.php:449 includes/options/forms.php:518
 msgid "API Key"
 msgstr ""
 
-#: includes/options/forms.php:280
+#: includes/options/forms.php:455
 msgid "HubSpot API Key"
 msgstr ""
 
 #. translators: "our docs" link.
-#: includes/options/forms.php:282 includes/options/forms.php:351
+#: includes/options/forms.php:457 includes/options/forms.php:526
 msgid "Follow the steps in %s to access your API key."
 msgstr ""
 
-#: includes/options/forms.php:282
+#: includes/options/forms.php:457
 msgid "HubSpot docs"
 msgstr ""
 
-#: includes/options/forms.php:310
+#: includes/options/forms.php:485
 msgid "Reset HubSpot Properties"
 msgstr ""
 
-#: includes/options/forms.php:311
+#: includes/options/forms.php:486
 msgid "Resets all HubSpot properties data."
 msgstr ""
 
-#: includes/options/forms.php:315
+#: includes/options/forms.php:490
 msgid "Reset HubSpot Cache"
 msgstr ""
 
-#: includes/options/forms.php:336
+#: includes/options/forms.php:511
 msgid "Mailchimp API"
 msgstr ""
 
-#: includes/options/forms.php:337
+#: includes/options/forms.php:512
 msgid "Select a method to connect to your Mailchimp account."
 msgstr ""
 
-#: includes/options/forms.php:349
+#: includes/options/forms.php:524
 msgid "Mailchimp API Key"
 msgstr ""
 
-#: includes/options/forms.php:351
+#: includes/options/forms.php:526
 msgid "Mailchimp docs"
 msgstr ""
 
-#: includes/options/forms.php:379
+#: includes/options/forms.php:554
 msgid "Reset Mailchimp Lists and Fields"
 msgstr ""
 
-#: includes/options/forms.php:380
+#: includes/options/forms.php:555
 msgid "Resets all Mailchimp lists and fields data."
 msgstr ""
 
-#: includes/options/forms.php:384
+#: includes/options/forms.php:559
 msgid "Reset Mailchimp Cache"
 msgstr ""
 
@@ -20324,7 +20729,7 @@ msgid ""
 "parent level menu items."
 msgstr ""
 
-#: includes/options/menu.php:2081
+#: includes/options/menu.php:2081 includes/options/performance.php:347
 msgid "Modern"
 msgstr ""
 
@@ -20704,21 +21109,323 @@ msgid ""
 msgstr ""
 
 #: includes/options/performance.php:72
-msgid "SVG Media Upload"
+msgid "Iframe Lazy Loading"
 msgstr ""
 
 #: includes/options/performance.php:73
+msgid ""
+"Choose your preferred lazy loading method for your website's iframe to "
+"improve performance."
+msgstr ""
+
+#: includes/options/performance.php:79 includes/options/performance.php:428
+msgid "WordPress"
+msgstr ""
+
+#: includes/options/performance.php:85
+msgid "Font Face Rendering"
+msgstr ""
+
+#: includes/options/performance.php:86
+msgid ""
+"Choose \"Swap All\" for faster rendering with possible flash of unstyled "
+"text (FOUT) or \"Block\" for clean rendering but longer wait time until "
+"first paint. \"Swap Non-Icon Fonts\" will use a mix of the first 2 methods "
+"(\"swap\" for text fonts and \"block\" for icon-fonts)."
+msgstr ""
+
+#: includes/options/performance.php:92
+msgid "Swap Non-Icon Fonts"
+msgstr ""
+
+#: includes/options/performance.php:93
+msgid "Swap All"
+msgstr ""
+
+#: includes/options/performance.php:98
+msgid "Preload Key Fonts"
+msgstr ""
+
+#: includes/options/performance.php:99
+msgid ""
+"Make a selection to prioritize fetching resources that will be requested "
+"later in page load. This improves page load time as the browser caches "
+"preloaded resources so they are available immediately when needed."
+msgstr ""
+
+#: includes/options/performance.php:106
+msgid "Icon Fonts"
+msgstr ""
+
+#: includes/options/performance.php:112
+msgid "Preload Google Font Variants"
+msgstr ""
+
+#: includes/options/performance.php:113
+msgid ""
+"Select the variants of Google fonts that should get preloaded. Leave empty "
+"to preload all variants."
+msgstr ""
+
+#: includes/options/performance.php:154
+msgid "Preload Google Font Subsets"
+msgstr ""
+
+#: includes/options/performance.php:155
+msgid ""
+"Select the subsets of Google fonts that should get preloaded. Leave empty to "
+"preload all subsets."
+msgstr ""
+
+#: includes/options/performance.php:161 includes/options/performance.php:178
+msgid "Latin"
+msgstr ""
+
+#: includes/options/performance.php:162
+msgid "Bengali"
+msgstr ""
+
+#: includes/options/performance.php:163
+msgid "Chinese Hongkong"
+msgstr ""
+
+#: includes/options/performance.php:164
+msgid "Chinese Simplified"
+msgstr ""
+
+#: includes/options/performance.php:165
+msgid "Chinese Traditional"
+msgstr ""
+
+#: includes/options/performance.php:166
+msgid "Cyrillic"
+msgstr ""
+
+#: includes/options/performance.php:167
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: includes/options/performance.php:168
+msgid "Devanagari"
+msgstr ""
+
+#: includes/options/performance.php:169
+msgid "Greek"
+msgstr ""
+
+#: includes/options/performance.php:170
+msgid "Greek Extended"
+msgstr ""
+
+#: includes/options/performance.php:171
+msgid "Gujarati"
+msgstr ""
+
+#: includes/options/performance.php:172
+msgid "Gurmukhi"
+msgstr ""
+
+#: includes/options/performance.php:173
+msgid "Hebrew"
+msgstr ""
+
+#: includes/options/performance.php:174
+msgid "Japanese"
+msgstr ""
+
+#: includes/options/performance.php:175
+msgid "Kannada"
+msgstr ""
+
+#: includes/options/performance.php:176
+msgid "Khmer"
+msgstr ""
+
+#: includes/options/performance.php:177
+msgid "Korean"
+msgstr ""
+
+#: includes/options/performance.php:179
+msgid "Latin Extended"
+msgstr ""
+
+#: includes/options/performance.php:180
+msgid "Malayalam"
+msgstr ""
+
+#: includes/options/performance.php:181
+msgid "Myanmar"
+msgstr ""
+
+#: includes/options/performance.php:182
+msgid "Oriya"
+msgstr ""
+
+#: includes/options/performance.php:183
+msgid "Sinhala"
+msgstr ""
+
+#: includes/options/performance.php:184
+msgid "Tamil"
+msgstr ""
+
+#: includes/options/performance.php:185
+msgid "Telugu"
+msgstr ""
+
+#: includes/options/performance.php:186
+msgid "Thai"
+msgstr ""
+
+#: includes/options/performance.php:187
+msgid "Tibetan"
+msgstr ""
+
+#: includes/options/performance.php:188
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/options/performance.php:206
+msgid "Emojis Script"
+msgstr ""
+
+#: includes/options/performance.php:207
+msgid ""
+"If you don't use emojis you can improve performance by removing WordPress' "
+"emojis script."
+msgstr ""
+
+#: includes/options/performance.php:219
+msgid "jQuery Migrate Script"
+msgstr ""
+
+#: includes/options/performance.php:220
+msgid ""
+"If you are not using any deprecated jQuery code, you can disable this script "
+"to improve performance."
+msgstr ""
+
+#: includes/options/performance.php:232
+msgid "Load jQuery In Footer"
+msgstr ""
+
+#: includes/options/performance.php:233
+msgid ""
+"Set to 'on' to defer loading of jQuery to the footer of the page. This will "
+"only take effect if no other jQuery dependent scripts are added to the head. "
+"Turning this on can cause JS scripts to break, use with caution."
+msgstr ""
+
+#: includes/options/performance.php:241
+msgid "Load Stylesheets In Footer"
+msgstr ""
+
+#: includes/options/performance.php:242
+msgid ""
+"Set to 'on' to defer loading of the stylesheets to the footer of the page. "
+"This improves page load time by making the styles non-render-blocking. "
+"Depending on the connection speed, a flash of unstyled content (FOUC) might "
+"occur."
+msgstr ""
+
+#: includes/options/performance.php:251
+msgid ""
+"<strong>IMPORTANT NOTE:</strong> .htaccess doesn't exist or it is not "
+"writable."
+msgstr ""
+
+#: includes/options/performance.php:256
+msgid "Enable Gzip Compression"
+msgstr ""
+
+#: includes/options/performance.php:257
+msgid ""
+"Set to 'on' to add Gzip Compression rules to the .htaccess file. "
+"<strong>IMPORTANT:</strong> This option works only on Apache web servers "
+"with mod_gzip and mod_deflate enabled."
+msgstr ""
+
+#: includes/options/performance.php:265
+msgid "Enable Video Facade"
+msgstr ""
+
+#: includes/options/performance.php:266
+msgid ""
+"Use video facade in order to load video player only when video is played. "
+"<strong>IMPORTANT:</strong> This option is only applied to YouTube and Vimeo "
+"elements."
+msgstr ""
+
+#: includes/options/performance.php:278
+msgid "Clear Object Cache "
+msgstr ""
+
+#: includes/options/performance.php:279
+msgid ""
+"Set to 'on' to clear WP's object cache on post edit, post deletion, and "
+"Avada Form Entries page view. This is useful, if your setup or hoster uses "
+"persistent object caching, to make sure that queries update when you add or "
+"remove posts."
+msgstr ""
+
+#: includes/options/performance.php:293
+msgid "SVG Media Upload"
+msgstr ""
+
+#: includes/options/performance.php:294
 msgid ""
 "Enable upload of SVG files and improve performance through their smaller "
 "image and logo file size."
 msgstr ""
 
-#: includes/options/performance.php:85
+#. translators: "System Statuss" page link.
+#: includes/options/performance.php:308
+msgid ""
+"Select a modern format to use when uploading new images to the media "
+"library. If you choose AVIF but your server is not able to convert to this "
+"format, it will automatically fall back to webP. You can also convert all "
+"your existing images on the %s page."
+msgstr ""
+
+#: includes/options/performance.php:314
+msgid "WebP"
+msgstr ""
+
+#: includes/options/performance.php:315
+msgid "AVIF"
+msgstr ""
+
+#: includes/options/performance.php:321
+msgid "Keep Original Upload Images"
+msgstr ""
+
+#: includes/options/performance.php:322
+msgid ""
+"If enabled, the image with its original upload format and the thumbnails "
+"will be kept. This will increase the filesystem storage use of your images."
+msgstr ""
+
+#: includes/options/performance.php:341
+msgid "Display Image Format"
+msgstr ""
+
+#: includes/options/performance.php:342
+msgid ""
+"If set to \"original\", Avada will try to load the images in their original "
+"upload format. If set to \"modern\", it will try to load the images in the "
+"upload image format you set above."
+msgstr ""
+
+#: includes/options/performance.php:348
+msgid "Original"
+msgstr ""
+
+#: includes/options/performance.php:366
 msgid "WordPress Image Quality"
 msgstr ""
 
 #. translators: "Regenerate Thumbnails" plugin link.
-#: includes/options/performance.php:87
+#: includes/options/performance.php:368
 msgid ""
 "Controls the quality of the generated image sizes for every uploaded image. "
 "Ranges between 0 and 100 percent. Higher values lead to better image "
@@ -20726,11 +21433,11 @@ msgid ""
 "this value, please install and run the %s plugin once."
 msgstr ""
 
-#: includes/options/performance.php:100
+#: includes/options/performance.php:381
 msgid "Avada Image Sizes"
 msgstr ""
 
-#: includes/options/performance.php:101
+#: includes/options/performance.php:382
 msgid ""
 "Choose which Avada image sizes should be created for every image uploaded to "
 "the Media Library. <strong>NOTE:</strong> Image sizes used in legacy areas/"
@@ -20739,353 +21446,93 @@ msgid ""
 "changing this value, please install and run the %s plugin once."
 msgstr ""
 
-#: includes/options/performance.php:107
+#: includes/options/performance.php:388
 msgid "200px Width"
 msgstr ""
 
-#: includes/options/performance.php:108
+#: includes/options/performance.php:389
 msgid "400px Width"
 msgstr ""
 
-#: includes/options/performance.php:109
+#: includes/options/performance.php:390
 msgid "600px Width"
 msgstr ""
 
-#: includes/options/performance.php:110
+#: includes/options/performance.php:391
 msgid "800px Width"
 msgstr ""
 
-#: includes/options/performance.php:111
+#: includes/options/performance.php:392
 msgid "1200px Width"
 msgstr ""
 
-#: includes/options/performance.php:112
+#: includes/options/performance.php:393
 msgid "Blog Large (L)"
 msgstr ""
 
-#: includes/options/performance.php:113
+#: includes/options/performance.php:394
 msgid "Blog Medium (L)"
 msgstr ""
 
-#: includes/options/performance.php:114
+#: includes/options/performance.php:395
 msgid "Recent Posts (L)"
 msgstr ""
 
-#: includes/options/performance.php:115
+#: includes/options/performance.php:396
 msgid "Recent Works (L)"
 msgstr ""
 
-#: includes/options/performance.php:116
+#: includes/options/performance.php:397
 msgid "Portfolio Full (L)"
 msgstr ""
 
-#: includes/options/performance.php:117
+#: includes/options/performance.php:398
 msgid "Portfolio 1 Col (L)"
 msgstr ""
 
-#: includes/options/performance.php:118
+#: includes/options/performance.php:399
 msgid "Portfolio 2 Col (L)"
 msgstr ""
 
-#: includes/options/performance.php:119
+#: includes/options/performance.php:400
 msgid "Portfolio 3 Col (L)"
 msgstr ""
 
-#: includes/options/performance.php:120
+#: includes/options/performance.php:401
 msgid "Portfolio 5 Col (L)"
 msgstr ""
 
-#: includes/options/performance.php:126
+#: includes/options/performance.php:407
 msgid "WordPress Big Image Size Threshold"
 msgstr ""
 
-#: includes/options/performance.php:127
+#: includes/options/performance.php:408
 msgid ""
 "Sets the threshold for image height and width, above which WordPress will "
 "scale down newly uploaded images to this values as max-width or max-height. "
 "Set to \"0\" to disable the threshold completely."
 msgstr ""
 
-#: includes/options/performance.php:140
+#: includes/options/performance.php:421
 msgid "Image Lazy Loading"
 msgstr ""
 
-#: includes/options/performance.php:141
+#: includes/options/performance.php:422
 msgid ""
 "Choose your preferred lazy loading method for your website's images to "
 "improve performance. <strong>IMPORTANT:</strong> The WordPress native method "
 "can cause issues with dynamically loaded elements like image carousels."
 msgstr ""
 
-#: includes/options/performance.php:147 includes/options/performance.php:160
-msgid "WordPress"
-msgstr ""
-
-#: includes/options/performance.php:153
-msgid "Iframe Lazy Loading"
-msgstr ""
-
-#: includes/options/performance.php:154
-msgid ""
-"Choose your preferred lazy loading method for your website's iframe to "
-"improve performance."
-msgstr ""
-
-#: includes/options/performance.php:166
-msgid "Font Face Rendering"
-msgstr ""
-
-#: includes/options/performance.php:167
-msgid ""
-"Choose \"Swap All\" for faster rendering with possible flash of unstyled "
-"text (FOUT) or \"Block\" for clean rendering but longer wait time until "
-"first paint. \"Swap Non-Icon Fonts\" will use a mix of the first 2 methods "
-"(\"swap\" for text fonts and \"block\" for icon-fonts)."
-msgstr ""
-
-#: includes/options/performance.php:173
-msgid "Swap Non-Icon Fonts"
-msgstr ""
-
-#: includes/options/performance.php:174
-msgid "Swap All"
-msgstr ""
-
-#: includes/options/performance.php:179
-msgid "Preload Key Fonts"
-msgstr ""
-
-#: includes/options/performance.php:180
-msgid ""
-"Make a selection to prioritize fetching resources that will be requested "
-"later in page load. This improves page load time as the browser caches "
-"preloaded resources so they are available immediately when needed."
-msgstr ""
-
-#: includes/options/performance.php:187
-msgid "Icon Fonts"
-msgstr ""
-
-#: includes/options/performance.php:193
-msgid "Preload Google Font Variants"
-msgstr ""
-
-#: includes/options/performance.php:194
-msgid ""
-"Select the variants of Google fonts that should get preloaded. Leave empty "
-"to preload all variants."
-msgstr ""
-
-#: includes/options/performance.php:235
-msgid "Preload Google Font Subsets"
-msgstr ""
-
-#: includes/options/performance.php:236
-msgid ""
-"Select the subsets of Google fonts that should get preloaded. Leave empty to "
-"preload all subsets."
-msgstr ""
-
-#: includes/options/performance.php:242 includes/options/performance.php:259
-msgid "Latin"
-msgstr ""
-
-#: includes/options/performance.php:243
-msgid "Bengali"
-msgstr ""
-
-#: includes/options/performance.php:244
-msgid "Chinese Hongkong"
-msgstr ""
-
-#: includes/options/performance.php:245
-msgid "Chinese Simplified"
-msgstr ""
-
-#: includes/options/performance.php:246
-msgid "Chinese Traditional"
-msgstr ""
-
-#: includes/options/performance.php:247
-msgid "Cyrillic"
-msgstr ""
-
-#: includes/options/performance.php:248
-msgid "Cyrillic Extended"
-msgstr ""
-
-#: includes/options/performance.php:249
-msgid "Devanagari"
-msgstr ""
-
-#: includes/options/performance.php:250
-msgid "Greek"
-msgstr ""
-
-#: includes/options/performance.php:251
-msgid "Greek Extended"
-msgstr ""
-
-#: includes/options/performance.php:252
-msgid "Gujarati"
-msgstr ""
-
-#: includes/options/performance.php:253
-msgid "Gurmukhi"
-msgstr ""
-
-#: includes/options/performance.php:254
-msgid "Hebrew"
-msgstr ""
-
-#: includes/options/performance.php:255
-msgid "Japanese"
-msgstr ""
-
-#: includes/options/performance.php:256
-msgid "Kannada"
-msgstr ""
-
-#: includes/options/performance.php:257
-msgid "Khmer"
-msgstr ""
-
-#: includes/options/performance.php:258
-msgid "Korean"
-msgstr ""
-
-#: includes/options/performance.php:260
-msgid "Latin Extended"
-msgstr ""
-
-#: includes/options/performance.php:261
-msgid "Malayalam"
-msgstr ""
-
-#: includes/options/performance.php:262
-msgid "Myanmar"
-msgstr ""
-
-#: includes/options/performance.php:263
-msgid "Oriya"
-msgstr ""
-
-#: includes/options/performance.php:264
-msgid "Sinhala"
-msgstr ""
-
-#: includes/options/performance.php:265
-msgid "Tamil"
-msgstr ""
-
-#: includes/options/performance.php:266
-msgid "Telugu"
-msgstr ""
-
-#: includes/options/performance.php:267
-msgid "Thai"
-msgstr ""
-
-#: includes/options/performance.php:268
-msgid "Tibetan"
-msgstr ""
-
-#: includes/options/performance.php:269
-msgid "Vietnamese"
-msgstr ""
-
-#: includes/options/performance.php:287
-msgid "Emojis Script"
-msgstr ""
-
-#: includes/options/performance.php:288
-msgid ""
-"If you don't use emojis you can improve performance by removing WordPress' "
-"emojis script."
-msgstr ""
-
-#: includes/options/performance.php:300
-msgid "jQuery Migrate Script"
-msgstr ""
-
-#: includes/options/performance.php:301
-msgid ""
-"If you are not using any deprecated jQuery code, you can disable this script "
-"to improve performance."
-msgstr ""
-
-#: includes/options/performance.php:313
-msgid "Load jQuery In Footer"
-msgstr ""
-
-#: includes/options/performance.php:314
-msgid ""
-"Set to 'on' to defer loading of jQuery to the footer of the page. This will "
-"only take effect if no other jQuery dependent scripts are added to the head. "
-"Turning this on can cause JS scripts to break, use with caution."
-msgstr ""
-
-#: includes/options/performance.php:322
-msgid "Load Stylesheets In Footer"
-msgstr ""
-
-#: includes/options/performance.php:323
-msgid ""
-"Set to 'on' to defer loading of the stylesheets to the footer of the page. "
-"This improves page load time by making the styles non-render-blocking. "
-"Depending on the connection speed, a flash of unstyled content (FOUC) might "
-"occur."
-msgstr ""
-
-#: includes/options/performance.php:332
-msgid ""
-"<strong>IMPORTANT NOTE:</strong> .htaccess doesn't exist or it is not "
-"writable."
-msgstr ""
-
-#: includes/options/performance.php:337
-msgid "Enable Gzip Compression"
-msgstr ""
-
-#: includes/options/performance.php:338
-msgid ""
-"Set to 'on' to add Gzip Compression rules to the .htaccess file. "
-"<strong>IMPORTANT:</strong> This option works only on Apache web servers "
-"with mod_gzip and mod_deflate enabled."
-msgstr ""
-
-#: includes/options/performance.php:346
-msgid "Enable Video Facade"
-msgstr ""
-
-#: includes/options/performance.php:347
-msgid ""
-"Use video facade in order to load video player only when video is played. "
-"<strong>IMPORTANT:</strong> This option is only applied to YouTube and Vimeo "
-"elements."
-msgstr ""
-
-#: includes/options/performance.php:359
-msgid "Clear Object Cache "
-msgstr ""
-
-#: includes/options/performance.php:360
-msgid ""
-"Set to 'on' to clear WP's object cache on post edit, post deletion, and "
-"Avada Form Entries page view. This is useful, if your setup or hoster uses "
-"persistent object caching, to make sure that queries update when you add or "
-"remove posts."
-msgstr ""
-
-#: includes/options/performance.php:368
+#: includes/options/performance.php:434
 msgid "Dynamic CSS & JS"
 msgstr ""
 
-#: includes/options/performance.php:374
+#: includes/options/performance.php:440
 msgid "CSS Compiling Method"
 msgstr ""
 
-#: includes/options/performance.php:375
+#: includes/options/performance.php:441
 msgid ""
 "Select \"File\" mode to compile the dynamic CSS to files (a separate file "
 "will be created for each of your pages & posts inside of the uploads/fusion-"
@@ -21093,57 +21540,68 @@ msgid ""
 "select \"Disabled\" to disable."
 msgstr ""
 
-#: includes/options/performance.php:387
+#: includes/options/performance.php:453
 msgid "Combine Third Party CSS Files"
 msgstr ""
 
-#: includes/options/performance.php:388
+#: includes/options/performance.php:454
 msgid ""
-"When enabled, third party CSS files will be combined into Avada's main "
-"stylesheet. Plugins affected are The Events Calendar, Slider Revolution, "
-"ConvertPlus, Contact Form 7 and bbPress. <strong>IMPORTANT:</strong> "
-"Enabling this option is not recommended when you are are using third party "
-"file combining services, like cache plugins. <strong>NOTE:</strong> When "
-"this option is changed, Avada Caches have to be reset for changes to apply."
+"Third party CSS files of the selected plugins will be combined into Avada's "
+"main stylesheet.<br><strong>IMPORTANT:</strong> Enabling this option is not "
+"recommended when you are are using third party file combining services, like "
+"cache plugins. When this option is changed, Avada Caches have to be reset "
+"for changes to apply."
 msgstr ""
 
-#: includes/options/performance.php:402
+#: includes/options/performance.php:460
+msgid "The Events Calendar"
+msgstr ""
+
+#: includes/options/performance.php:461
+msgid "Slider Revolutiln"
+msgstr ""
+
+#: includes/options/performance.php:463
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/options/performance.php:477
 msgid "Load Media-Queries Files Asynchronously"
 msgstr ""
 
-#: includes/options/performance.php:403
+#: includes/options/performance.php:478
 msgid ""
 "When enabled, the CSS media-queries will be enqueued separately and then "
 "loaded asynchronously, improving performance on mobile and desktop."
 msgstr ""
 
-#: includes/options/performance.php:410
+#: includes/options/performance.php:485
 msgid "Enable Critical CSS"
 msgstr ""
 
 #. translators: URL for the critical CSS page.
-#: includes/options/performance.php:421
+#: includes/options/performance.php:496
 msgid "Cache Server IP"
 msgstr ""
 
-#: includes/options/performance.php:422
+#: includes/options/performance.php:497
 msgid ""
 "For unique cases where you are using CloudFlare and a cache server, ex: "
 "varnish cache. Enter your cache server IP to clear the Global Options "
 "dynamic CSS cache. Consult with your server admin for help."
 msgstr ""
 
-#: includes/options/performance.php:430
+#: includes/options/performance.php:505
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
 "exist or access is restricted."
 msgstr ""
 
-#: includes/options/performance.php:435
+#: includes/options/performance.php:510
 msgid "Enable JS Compiler"
 msgstr ""
 
-#: includes/options/performance.php:436
+#: includes/options/performance.php:511
 msgid ""
 "By default all the JavaScript files are combined. Disabling the JS compiler "
 "will load non-combined JavaScript files. This will have an impact on the "
@@ -21152,7 +21610,7 @@ msgstr ""
 
 #. translators: %1$s: <code>uploads/fusion-styles</code>. %2$s:
 #. <code>uploads/fusion-scripts</code>.
-#: includes/options/performance.php:445
+#: includes/options/performance.php:520
 msgid ""
 "Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
 "%1$s and %2$s folders. When resetting the caches on the main site of a "
@@ -21161,18 +21619,18 @@ msgid ""
 "resetting the caches may timeout."
 msgstr ""
 
-#: includes/options/performance.php:445
+#: includes/options/performance.php:520
 msgid ""
 "Resets all Dynamic CSS & Dynamic JS, cleans-up the database and deletes the "
 "%1$s and %2$s folders."
 msgstr ""
 
-#: includes/options/performance.php:455
+#: includes/options/performance.php:530
 msgid "Progressive Web App"
 msgstr ""
 
 #. translators: URL for the plugins page.
-#: includes/options/performance.php:464
+#: includes/options/performance.php:539
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> To use the Avada PWA feature you need to "
 "install and activate the latest version of the PWA plugin. Please <a "
@@ -21180,7 +21638,7 @@ msgid ""
 "plugin and then refresh Global Options to edit the options."
 msgstr ""
 
-#: includes/options/performance.php:472
+#: includes/options/performance.php:547
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> To use the Avada PWA feature your site must "
 "use SSL (HTTPS). For more information about the options in this section, "
@@ -21192,32 +21650,32 @@ msgid ""
 "a>."
 msgstr ""
 
-#: includes/options/performance.php:477
+#: includes/options/performance.php:552
 msgid "Enable Progressive Web App"
 msgstr ""
 
-#: includes/options/performance.php:478
+#: includes/options/performance.php:553
 msgid ""
 "Enable this option if you want to enable the Progressive Web App feature and "
 "options on your website."
 msgstr ""
 
-#: includes/options/performance.php:485
+#: includes/options/performance.php:560
 msgid "Cache-First strategy file types"
 msgstr ""
 
-#: includes/options/performance.php:486
+#: includes/options/performance.php:561
 msgid ""
 "File types added in this list will be cached in the browser. Subsequent page "
 "requests will use the cached assets. Use this for static assets that don't "
 "change like images and fonts."
 msgstr ""
 
-#: includes/options/performance.php:502
+#: includes/options/performance.php:577
 msgid "Network-First strategy file types"
 msgstr ""
 
-#: includes/options/performance.php:503
+#: includes/options/performance.php:578
 msgid ""
 "File types added in this list will be cached in the browser. Subsequent page "
 "requests will first try to get a more recent version of these files from the "
@@ -21226,11 +21684,11 @@ msgid ""
 "use this for your content."
 msgstr ""
 
-#: includes/options/performance.php:519
+#: includes/options/performance.php:594
 msgid "Stale-While-Revalidating strategy file types"
 msgstr ""
 
-#: includes/options/performance.php:520
+#: includes/options/performance.php:595
 msgid ""
 "Any file types added here will be served with a cache-first strategy, and "
 "after the page has been loaded the caches will be updated with more recent "
@@ -21238,21 +21696,21 @@ msgid ""
 "that may get updated but having their latest version is not critical."
 msgstr ""
 
-#: includes/options/performance.php:536
+#: includes/options/performance.php:611
 msgid "App Splash Screen Logo"
 msgstr ""
 
-#: includes/options/performance.php:537
+#: includes/options/performance.php:612
 msgid ""
 "Logo displayed for your website at 512px x 512px when installing as an app. "
 "Logo image must be in PNG format."
 msgstr ""
 
-#: includes/options/performance.php:552
+#: includes/options/performance.php:627
 msgid "App Display Mode"
 msgstr ""
 
-#: includes/options/performance.php:553
+#: includes/options/performance.php:628
 msgid ""
 "If the user installs your site as an app, select how the app will behave. "
 "For more information about these options please refer to <a href=\"https://"
@@ -21260,23 +21718,23 @@ msgid ""
 "target=\"_blank\">this document.</a>"
 msgstr ""
 
-#: includes/options/performance.php:558
+#: includes/options/performance.php:633
 msgid "Fullscreen"
 msgstr ""
 
-#: includes/options/performance.php:559
+#: includes/options/performance.php:634
 msgid "Standalone"
 msgstr ""
 
-#: includes/options/performance.php:560
+#: includes/options/performance.php:635
 msgid "Minimal UI"
 msgstr ""
 
-#: includes/options/performance.php:594
+#: includes/options/performance.php:669
 msgid "App Theme Color"
 msgstr ""
 
-#: includes/options/performance.php:595
+#: includes/options/performance.php:670
 msgid ""
 "Select a color that will be used for the header of your app, as well as the "
 "browser toolbar-color on mobile devices."
@@ -21817,97 +22275,6 @@ msgstr ""
 
 #: includes/options/privacy.php:605
 msgid "Reject"
-msgstr ""
-
-#: includes/options/recaptcha.php:35
-msgid "Google reCaptcha"
-msgstr ""
-
-#: includes/options/recaptcha.php:43
-msgid "reCAPTCHA Version"
-msgstr ""
-
-#: includes/options/recaptcha.php:44
-msgid ""
-"Set the reCAPTCHA version you want to use and make sure your keys below "
-"match the set version."
-msgstr ""
-
-#: includes/options/recaptcha.php:49
-msgid "V2"
-msgstr ""
-
-#: includes/options/recaptcha.php:50
-msgid "V3"
-msgstr ""
-
-#: includes/options/recaptcha.php:55
-msgid "reCAPTCHA Site Key"
-msgstr ""
-
-#. translators: "our docs" link.
-#: includes/options/recaptcha.php:57
-msgid "Follow the steps in %s to get the site key."
-msgstr ""
-
-#: includes/options/recaptcha.php:57 includes/options/recaptcha.php:67
-msgid "our docs"
-msgstr ""
-
-#: includes/options/recaptcha.php:65
-msgid "reCAPTCHA Secret Key"
-msgstr ""
-
-#. translators: "our docs" link.
-#: includes/options/recaptcha.php:67
-msgid "Follow the steps in %s to get the secret key."
-msgstr ""
-
-#: includes/options/recaptcha.php:75
-msgid "reCAPTCHA Color Scheme"
-msgstr ""
-
-#: includes/options/recaptcha.php:76
-msgid "Controls the reCAPTCHA color scheme."
-msgstr ""
-
-#: includes/options/recaptcha.php:94
-msgid "reCAPTCHA Security Score"
-msgstr ""
-
-#: includes/options/recaptcha.php:95
-msgid ""
-"Set a threshold score that must be met by the reCAPTCHA response. The higher "
-"the score the harder it becomes for bots, but also false positives increase."
-msgstr ""
-
-#: includes/options/recaptcha.php:115
-msgid "reCAPTCHA Badge Position"
-msgstr ""
-
-#: includes/options/recaptcha.php:116
-msgid ""
-"Set where and if the reCAPTCHA badge should be displayed. <strong>NOTE:</"
-"strong> Google's Terms and Privacy information needs to be displayed on the "
-"contact form."
-msgstr ""
-
-#: includes/options/recaptcha.php:136
-msgid "reCAPTCHA For User Elements"
-msgstr ""
-
-#: includes/options/recaptcha.php:137
-msgid ""
-"Turn on to add reCAPTCHA to the user login, user lost password and user "
-"registration forms."
-msgstr ""
-
-#: includes/options/recaptcha.php:143
-msgid "reCAPTCHA For Comments"
-msgstr ""
-
-#: includes/options/recaptcha.php:144
-msgid "Turn on to add reCAPTCHA to comment forms."
 msgstr ""
 
 #: includes/options/responsive.php:37
@@ -24515,7 +24882,7 @@ msgid "Order details"
 msgstr ""
 
 #: templates/wc-view-order.php:87 woocommerce/cart/cart.php:145
-#: woocommerce/checkout/review-order.php:127
+#: woocommerce/checkout/review-order.php:133
 msgid "Total"
 msgstr ""
 
@@ -24586,7 +24953,7 @@ msgid "Quantity"
 msgstr ""
 
 #: woocommerce/cart/cart.php:34 woocommerce/checkout/review-order.php:27
-#: woocommerce/checkout/review-order.php:80
+#: woocommerce/checkout/review-order.php:86
 msgid "Subtotal"
 msgstr ""
 
