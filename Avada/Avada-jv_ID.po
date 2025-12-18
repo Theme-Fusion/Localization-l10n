@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2025-12-15 05:56:55+00:00\n"
+"POT-Creation-Date: 2025-12-18 10:06:08+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:02+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Javanese\n"
@@ -1871,7 +1871,7 @@ msgstr ""
 #: includes/admin-screens/setup.php:517 includes/admin-screens/setup.php:546
 #: includes/class-avada-taxonomy-meta.php:308
 #: includes/class-avada-taxonomy-meta.php:451
-#: includes/lib/inc/class-fusion-images.php:1064
+#: includes/lib/inc/class-fusion-images.php:1063
 #: includes/lib/inc/fusion-app/helpers.php:531
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:160
 #: includes/lib/inc/fusion-app/templates/options/typography.php:218
@@ -7525,27 +7525,27 @@ msgstr ""
 msgid "Yearly Archives: %s"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1061
+#: includes/lib/inc/class-fusion-images.php:1060
 msgid "Masonry Image Layout"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1065
+#: includes/lib/inc/class-fusion-images.php:1064
 msgid "1x1"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1066
+#: includes/lib/inc/class-fusion-images.php:1065
 msgid "Landscape"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1067
+#: includes/lib/inc/class-fusion-images.php:1066
 msgid "Portrait"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1068
+#: includes/lib/inc/class-fusion-images.php:1067
 msgid "2x2"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-images.php:1070
+#: includes/lib/inc/class-fusion-images.php:1069
 msgid "Set layout which will be used when image is displayed in masonry."
 msgstr ""
 
@@ -16809,9 +16809,9 @@ msgstr ""
 #: includes/options/auth_pages.php:120
 msgid ""
 "Set a value here, if you want to use that as a query var for bypassing the "
-"custom authentication pages. E.g https://example.com/wp-login.php??my-secret-"
-"login=1. The default login will be valid for 5 minutes, or until successful "
-"log in."
+"custom authentication pages. E.g. my-secret-login (https://example.com/wp-"
+"login.php?my-secret-login=1). The default login will be valid for 5 minutes, "
+"or until successful log in."
 msgstr ""
 
 #: includes/options/background.php:34
@@ -21645,8 +21645,9 @@ msgstr ""
 
 #: includes/options/performance.php:322
 msgid ""
-"If enabled, the image with its original upload format and the thumbnails "
-"will be kept. This will increase the filesystem storage use of your images."
+"If enabled, not only the image with its original upload format will be kept, "
+"but also the created thumbnails. This will increase the filesystem storage "
+"use of your images."
 msgstr ""
 
 #: includes/options/performance.php:341
