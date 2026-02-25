@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 6.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-02-09 14:04:09+00:00\n"
+"POT-Creation-Date: 2026-02-25 06:00:09+00:00\n"
 "PO-Revision-Date: 2020-02-06 13:16+0200\n"
 "Last-Translator: Ari Stathopoulos <info@theme-fusion.com>\n"
 "Language-Team: Spanish\n"
@@ -94,7 +94,7 @@ msgstr[1] ""
 #: includes/class-avada-layout-bbpress.php:224
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
-#: includes/class-avada-woocommerce.php:889
+#: includes/class-avada-woocommerce.php:911
 #: includes/lib/inc/class-fusion-scripts.php:593
 #: includes/lib/inc/functions.php:1096
 #: includes/lib/inc/fusion-app/helpers.php:578 single-wpfc_sermon.php:21
@@ -107,7 +107,7 @@ msgstr ""
 #: includes/class-avada-layout-bbpress.php:225
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
-#: includes/class-avada-woocommerce.php:890
+#: includes/class-avada-woocommerce.php:912
 #: includes/lib/inc/class-fusion-scripts.php:592
 #: includes/lib/inc/functions.php:1142
 #: includes/lib/inc/fusion-app/helpers.php:579 single-wpfc_sermon.php:22
@@ -453,6 +453,7 @@ msgstr ""
 #: includes/metaboxes/metaboxes.php:1153
 #: includes/metaboxes/options/options_slide.php:154
 #: includes/metaboxes/options/options_slide.php:229
+#: includes/metaboxes/tabs/tab_form_appearance.php:260
 #: includes/metaboxes/tabs/tab_form_general.php:105
 #: includes/metaboxes/tabs/tab_form_steps.php:40
 #: includes/metaboxes/tabs/tab_form_steps.php:347
@@ -568,7 +569,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:48
 #: includes/metaboxes/tabs/tab_page.php:205 includes/options/advanced.php:490
 #: includes/options/extra.php:1092 includes/options/forms.php:458
-#: includes/options/forms.php:527 includes/options/maintenance.php:48
+#: includes/options/forms.php:527 includes/options/maintenance.php:59
 #: includes/options/performance.php:272 includes/options/responsive.php:44
 #: includes/options/responsive.php:214
 msgid "Off"
@@ -2095,7 +2096,7 @@ msgstr ""
 #: includes/admin-screens/setup.php:920 includes/class-avada-admin.php:409
 #: includes/class-avada-admin.php:640
 #: includes/class-awb-maintenance-mode.php:147
-#: includes/options/maintenance.php:35
+#: includes/options/maintenance.php:46
 msgid "Maintenance Mode"
 msgstr ""
 
@@ -3128,7 +3129,7 @@ msgid "(no title)"
 msgstr ""
 
 #: includes/avada-app/class-fusion-panel.php:804
-#: includes/class-avada-woocommerce.php:2347
+#: includes/class-avada-woocommerce.php:2369
 msgid "Default Template"
 msgstr ""
 
@@ -3739,7 +3740,7 @@ msgid "Reset Avada Caches"
 msgstr ""
 
 #: includes/class-avada-admin-bar.php:161 includes/class-avada-admin.php:272
-#: includes/class-avada-woocommerce.php:1180
+#: includes/class-avada-woocommerce.php:1202
 msgid "Dashboard"
 msgstr ""
 
@@ -3756,7 +3757,7 @@ msgstr ""
 
 #: includes/class-avada-admin.php:396 includes/class-avada-admin.php:611
 #: includes/class-awb-maintenance-mode.php:71
-#: includes/options/maintenance.php:49
+#: includes/options/maintenance.php:60
 msgid "Maintenance"
 msgstr ""
 
@@ -4177,7 +4178,7 @@ msgstr ""
 #: includes/class-avada-eventscalendar.php:281
 #: includes/class-avada-eventscalendar.php:313
 #: includes/class-avada-eventscalendar.php:345
-#: includes/class-avada-woocommerce.php:2116
+#: includes/class-avada-woocommerce.php:2138
 msgid "NOTE"
 msgstr ""
 
@@ -5665,37 +5666,37 @@ msgstr ""
 msgid "Avada Button"
 msgstr ""
 
-#: includes/class-avada-woocommerce.php:1030
+#: includes/class-avada-woocommerce.php:1052
 msgid "Clear selection"
 msgstr ""
 
 #. translators: Number.
-#: includes/class-avada-woocommerce.php:1835
+#: includes/class-avada-woocommerce.php:1857
 msgid "You Have %s Item In Your Cart"
 msgid_plural "You Have %s Items In Your Cart"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-avada-woocommerce.php:2056
-#: includes/class-avada-woocommerce.php:2074
+#: includes/class-avada-woocommerce.php:2078
+#: includes/class-avada-woocommerce.php:2096
 #: includes/lib/inc/fusion-app/helpers.php:611
 msgid "Continue"
 msgstr ""
 
 #. translators: WC Customizer notice.
-#: includes/class-avada-woocommerce.php:2118
+#: includes/class-avada-woocommerce.php:2140
 msgid ""
 "You can control the <a href=\"%1$s\" target=\"_blank\">number of products "
 "per page</a> and the <a href=\"%2$s\" target=\"_blank\">number of columns "
 "for the main shop page</a> from Avada\\`s Global Options panel."
 msgstr ""
 
-#: includes/class-avada-woocommerce.php:2236
+#: includes/class-avada-woocommerce.php:2258
 #: templates/wc-show-details-button.php:20
 msgid "Details"
 msgstr ""
 
-#: includes/class-avada-woocommerce.php:2239
+#: includes/class-avada-woocommerce.php:2261
 msgid "Not all fields have been filled in correctly."
 msgstr ""
 
@@ -5989,7 +5990,7 @@ msgstr ""
 
 #: includes/class-awb-maintenance-mode.php:70
 #: includes/class-awb-maintenance-mode.php:147
-#: includes/options/maintenance.php:50
+#: includes/options/maintenance.php:61
 msgid "Coming Soon"
 msgstr ""
 
@@ -7049,6 +7050,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_sliders.php:189
 #: includes/metaboxes/tabs/tab_studio.php:75
 #: includes/metaboxes/tabs/tab_studio.php:88
+#: includes/options/woocommerce.php:606
 msgid "No"
 msgstr ""
 
@@ -12154,12 +12156,12 @@ msgstr ""
 
 #: includes/lib/inc/widgets/class-fusion-widget-tabs.php:346
 #: includes/options/menu.php:2080 includes/options/search.php:123
-#: includes/options/woocommerce.php:664
+#: includes/options/woocommerce.php:669
 msgid "Classic"
 msgstr ""
 
 #: includes/lib/inc/widgets/class-fusion-widget-tabs.php:347
-#: includes/options/search.php:124 includes/options/woocommerce.php:665
+#: includes/options/search.php:124 includes/options/woocommerce.php:670
 msgid "Clean"
 msgstr ""
 
@@ -13389,39 +13391,57 @@ msgid ""
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_form_appearance.php:255
+msgid "Field Placeholder Focus Animation"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_appearance.php:256
+msgid ""
+"Choose to animate the field placeholders to the top or bottom of the form "
+"fields. The animation only works, if no form labels are used. If set to "
+"\"none\" placeholders will disappear on field focus."
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_appearance.php:261
+msgid "To Top"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_appearance.php:262
+msgid "To Bottom"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_appearance.php:271
 msgid "Field Border Size"
 msgstr ""
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_form_appearance.php:257
+#: includes/metaboxes/tabs/tab_form_appearance.php:273
 msgid "Controls the border size of the form fields. %s"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_form_appearance.php:282
+#: includes/metaboxes/tabs/tab_form_appearance.php:298
 msgid "Field Border Color"
 msgstr ""
 
 #. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_form_appearance.php:284
-msgid "Controls the border color of the form input field. %s"
-msgstr ""
-
-#: includes/metaboxes/tabs/tab_form_appearance.php:297
-#: includes/options/forms.php:181
-msgid "Form Border Color On Focus"
-msgstr ""
-
-#. translators: Additional description (defaults).
-#: includes/metaboxes/tabs/tab_form_appearance.php:299
-msgid "Controls the border color of the form input field on focus. %s"
+#: includes/metaboxes/tabs/tab_form_appearance.php:300
+msgid "Controls the border color of the form input fields. %s"
 msgstr ""
 
 #: includes/metaboxes/tabs/tab_form_appearance.php:313
-msgid "Field Border Radius"
+msgid "Field Border Color On Focus"
 msgstr ""
 
 #. translators: Additional description (defaults).
 #: includes/metaboxes/tabs/tab_form_appearance.php:315
+msgid "Controls the border color of the form input fields on focus. %s"
+msgstr ""
+
+#: includes/metaboxes/tabs/tab_form_appearance.php:329
+msgid "Field Border Radius"
+msgstr ""
+
+#. translators: Additional description (defaults).
+#: includes/metaboxes/tabs/tab_form_appearance.php:331
 msgid "Controls the border radius of input field. In pixels. %s"
 msgstr ""
 
@@ -15444,7 +15464,7 @@ msgstr ""
 
 #: includes/metaboxes/tabs/tab_off_canvas_triggers.php:230
 msgid ""
-"Set the time that needs to pass for visitor inactivity before the Off Canvas "
+"Set the time of visitor inactivity that needs to pass before the Off Canvas "
 "will be displayed. In seconds, ex: 30."
 msgstr ""
 
@@ -16743,6 +16763,10 @@ msgstr ""
 msgid "Turn on to enable the Avada Faqs."
 msgstr ""
 
+#: includes/options/auth_pages.php:40 includes/options/auth_pages.php:42
+msgid "WP Default"
+msgstr ""
+
 #: includes/options/auth_pages.php:46
 msgid "Custom Auth Pages"
 msgstr ""
@@ -17121,7 +17145,7 @@ msgid ""
 msgstr ""
 
 #: includes/options/blog.php:414 includes/options/portfolio.php:133
-#: includes/options/woocommerce.php:719
+#: includes/options/woocommerce.php:724
 msgid "Equal Heights"
 msgstr ""
 
@@ -17275,7 +17299,7 @@ msgid ""
 msgstr ""
 
 #: includes/options/blog.php:759 includes/options/portfolio.php:555
-#: includes/options/woocommerce.php:705
+#: includes/options/woocommerce.php:710
 msgid "100% Width Page"
 msgstr ""
 
@@ -18384,7 +18408,7 @@ msgid "Square"
 msgstr ""
 
 #: includes/options/extra.php:120 includes/options/sliding_bar.php:426
-#: includes/options/woocommerce.php:914 includes/options/woocommerce.php:1136
+#: includes/options/woocommerce.php:919 includes/options/woocommerce.php:1141
 msgid "Circle"
 msgstr ""
 
@@ -19455,6 +19479,10 @@ msgstr ""
 msgid "Controls the border color of the form fields."
 msgstr ""
 
+#: includes/options/forms.php:181
+msgid "Form Border Color On Focus"
+msgstr ""
+
 #: includes/options/forms.php:182
 msgid "Controls the border color of the form fields when they have focus."
 msgstr ""
@@ -20475,85 +20503,85 @@ msgstr ""
 msgid "Favicon for Microsoft Edge browsers at 270px x 270px."
 msgstr ""
 
-#: includes/options/maintenance.php:42
+#: includes/options/maintenance.php:53
 msgid "Mode"
 msgstr ""
 
-#: includes/options/maintenance.php:43
+#: includes/options/maintenance.php:54
 msgid ""
 "Set your site to Maintenance Mode to take it offline temporarily (status "
 "code 503), or to Coming Soon mode (status code 200), taking it offline until "
 "it is ready to be launched."
 msgstr ""
 
-#: includes/options/maintenance.php:54
+#: includes/options/maintenance.php:65
 msgid "URL Redirect"
 msgstr ""
 
-#: includes/options/maintenance.php:55
+#: includes/options/maintenance.php:66
 msgid ""
 "If set, this option will redirect users without access to the URL given. "
 "Enter with protocol (e.g. https://)."
 msgstr ""
 
-#: includes/options/maintenance.php:68
+#: includes/options/maintenance.php:79
 msgid "Page Template"
 msgstr ""
 
-#: includes/options/maintenance.php:69
+#: includes/options/maintenance.php:80
 msgid ""
 "Select an Avada Library template for the Maintenance or Coming Soon page."
 msgstr ""
 
-#: includes/options/maintenance.php:75
+#: includes/options/maintenance.php:86
 msgid "Edit Template"
 msgstr ""
 
-#: includes/options/maintenance.php:93
+#: includes/options/maintenance.php:104
 msgid "User Roles For Access"
 msgstr ""
 
-#: includes/options/maintenance.php:94
+#: includes/options/maintenance.php:105
 msgid ""
 "Select the user roles that should be able to access the site when. "
 "<strong>NOTE:</strong> Administrators will always have access."
 msgstr ""
 
-#: includes/options/maintenance.php:109
+#: includes/options/maintenance.php:120
 msgid "Exclude"
 msgstr ""
 
-#: includes/options/maintenance.php:110
+#: includes/options/maintenance.php:121
 msgid ""
 "Exclude parts of your site like feed, pages, or archives from Maintenance or "
 "Coming Soon mode. Add one slug or URL per line."
 msgstr ""
 
-#: includes/options/maintenance.php:123
+#: includes/options/maintenance.php:134
 msgid "Page Title HTML Tag"
 msgstr ""
 
-#: includes/options/maintenance.php:124
+#: includes/options/maintenance.php:135
 msgid ""
 "This will also be used in the default page template. Leave empty for default "
 "title."
 msgstr ""
 
-#: includes/options/maintenance.php:142
+#: includes/options/maintenance.php:153
 msgid "Robots Meta Tag"
 msgstr ""
 
-#: includes/options/maintenance.php:143
+#: includes/options/maintenance.php:154
 msgid ""
 "Decide whether the Maintenance or Coming Soon page should get indexed by "
 "search engines."
 msgstr ""
 
-#: includes/options/maintenance.php:148
+#: includes/options/maintenance.php:159
 msgid "Index/Follow"
 msgstr ""
 
-#: includes/options/maintenance.php:149
+#: includes/options/maintenance.php:160
 msgid "Noindex/Nofollow"
 msgstr ""
 
@@ -20595,7 +20623,7 @@ msgstr ""
 msgid "See this post for more information"
 msgstr ""
 
-#: includes/options/menu.php:184 includes/options/woocommerce.php:1134
+#: includes/options/menu.php:184 includes/options/woocommerce.php:1139
 msgid "Top Bar"
 msgstr ""
 
@@ -22094,7 +22122,7 @@ msgstr ""
 msgid "Controls the column spacing for portfolio items for archive pages."
 msgstr ""
 
-#: includes/options/portfolio.php:134 includes/options/woocommerce.php:720
+#: includes/options/portfolio.php:134 includes/options/woocommerce.php:725
 msgid "Turn on to display grid boxes with equal heights per row."
 msgstr ""
 
@@ -23525,8 +23553,8 @@ msgstr ""
 msgid "Triangle"
 msgstr ""
 
-#: includes/options/sliding_bar.php:425 includes/options/woocommerce.php:913
-#: includes/options/woocommerce.php:1135
+#: includes/options/sliding_bar.php:425 includes/options/woocommerce.php:918
+#: includes/options/woocommerce.php:1140
 msgid "Rectangle"
 msgstr ""
 
@@ -24533,325 +24561,335 @@ msgid ""
 "resource intensive on large shops."
 msgstr ""
 
-#: includes/options/woocommerce.php:600
+#: includes/options/woocommerce.php:601
 msgid "WooCommerce AJAX Product Filters"
 msgstr ""
 
-#: includes/options/woocommerce.php:601
-msgid "Turn on to use AJAX loading on the WooCommerce product filters."
+#: includes/options/woocommerce.php:602
+msgid ""
+"Set to one of the AJAX options to enable WooCommerce product filters "
+"wqithout page reload."
 msgstr ""
 
 #: includes/options/woocommerce.php:607
-msgid "WooCommerce AJAX Product Sorting"
+msgid "AJAX On Submit"
 msgstr ""
 
 #: includes/options/woocommerce.php:608
+msgid "AJAX On Change"
+msgstr ""
+
+#: includes/options/woocommerce.php:612
+msgid "WooCommerce AJAX Product Sorting"
+msgstr ""
+
+#: includes/options/woocommerce.php:613
 msgid "Turn on to use AJAX loading on the WooCommerce product sorting."
 msgstr ""
 
-#: includes/options/woocommerce.php:614
+#: includes/options/woocommerce.php:619
 msgid "WooCommerce Single Product Ajax Add to Cart"
 msgstr ""
 
-#: includes/options/woocommerce.php:615
+#: includes/options/woocommerce.php:620
 msgid "Turn on to enable single product ajax Add to Cart."
 msgstr ""
 
-#: includes/options/woocommerce.php:621
+#: includes/options/woocommerce.php:626
 msgid "WooCommerce Account Area Message 1"
 msgstr ""
 
-#: includes/options/woocommerce.php:622
+#: includes/options/woocommerce.php:627
 msgid ""
 "Controls the text that displays in the first message box on the account page."
 msgstr ""
 
-#: includes/options/woocommerce.php:635
+#: includes/options/woocommerce.php:640
 msgid "WooCommerce Account Area Message 2"
 msgstr ""
 
-#: includes/options/woocommerce.php:636
+#: includes/options/woocommerce.php:641
 msgid ""
 "Controls the text that displays in the second message box on the account "
 "page."
 msgstr ""
 
-#: includes/options/woocommerce.php:651
+#: includes/options/woocommerce.php:656
 msgid "WooCommerce Styling"
 msgstr ""
 
-#: includes/options/woocommerce.php:659
+#: includes/options/woocommerce.php:664
 msgid "WooCommerce Product Box Design"
 msgstr ""
 
-#: includes/options/woocommerce.php:660
+#: includes/options/woocommerce.php:665
 msgid "Controls the design of the product boxes."
 msgstr ""
 
-#: includes/options/woocommerce.php:669
+#: includes/options/woocommerce.php:674
 msgid "WooCommerce Product Box Content Padding"
 msgstr ""
 
-#: includes/options/woocommerce.php:670
+#: includes/options/woocommerce.php:675
 msgid "Controls the top/right/bottom/left padding of the products contents."
 msgstr ""
 
-#: includes/options/woocommerce.php:706
+#: includes/options/woocommerce.php:711
 msgid ""
 "Turn on to display product posts at 100% browser width according to the "
 "window size. Turn off to follow site width."
 msgstr ""
 
-#: includes/options/woocommerce.php:741
+#: includes/options/woocommerce.php:746
 msgid "WooCommerce Tab Design"
 msgstr ""
 
-#: includes/options/woocommerce.php:742
+#: includes/options/woocommerce.php:747
 msgid "Controls the design of all WooCommerce tabs."
 msgstr ""
 
-#: includes/options/woocommerce.php:747
+#: includes/options/woocommerce.php:752
 msgid "Horizontal Tabs"
 msgstr ""
 
-#: includes/options/woocommerce.php:748
+#: includes/options/woocommerce.php:753
 msgid "Vertical Tabs"
 msgstr ""
 
-#: includes/options/woocommerce.php:761
+#: includes/options/woocommerce.php:766
 msgid "WooCommerce Quantity Input Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:762
+#: includes/options/woocommerce.php:767
 msgid "Controls the width and height of the quantity input field."
 msgstr ""
 
-#: includes/options/woocommerce.php:782
+#: includes/options/woocommerce.php:787
 msgid "WooCommerce Quantity Font Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:783
+#: includes/options/woocommerce.php:788
 msgid "Controls the font size of the quantity input field."
 msgstr ""
 
-#: includes/options/woocommerce.php:794
+#: includes/options/woocommerce.php:799
 msgid "WooCommerce Quantity Box Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:795
+#: includes/options/woocommerce.php:800
 msgid "Controls the background color of the WooCommerce quantity box."
 msgstr ""
 
-#: includes/options/woocommerce.php:807
+#: includes/options/woocommerce.php:812
 msgid "WooCommerce Quantity Box Hover Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:808
+#: includes/options/woocommerce.php:813
 msgid "Controls the hover color of the WooCommerce quantity box."
 msgstr ""
 
-#: includes/options/woocommerce.php:820
+#: includes/options/woocommerce.php:825
 msgid "WooCommerce Order Dropdown Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:821
+#: includes/options/woocommerce.php:826
 msgid "Controls the background color of the WooCommerce order dropdowns."
 msgstr ""
 
-#: includes/options/woocommerce.php:837
+#: includes/options/woocommerce.php:842
 msgid "WooCommerce Order Dropdown Text Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:838
+#: includes/options/woocommerce.php:843
 msgid ""
 "Controls the color of the text and icons in the WooCommerce order dropdowns."
 msgstr ""
 
-#: includes/options/woocommerce.php:850
+#: includes/options/woocommerce.php:855
 msgid "WooCommerce Order Dropdown Border Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:851
+#: includes/options/woocommerce.php:856
 msgid "Controls the border color in the WooCommerce order dropdowns."
 msgstr ""
 
-#: includes/options/woocommerce.php:863
+#: includes/options/woocommerce.php:868
 msgid "WooCommerce Cart Menu Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:864
+#: includes/options/woocommerce.php:869
 msgid ""
 "Controls the bottom section background color of the WooCommerce cart "
 "dropdown."
 msgstr ""
 
-#: includes/options/woocommerce.php:889
+#: includes/options/woocommerce.php:894
 msgid "WooCommerce Icon Font Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:890
+#: includes/options/woocommerce.php:895
 msgid "Controls the font size of the WooCommerce icons."
 msgstr ""
 
-#: includes/options/woocommerce.php:901
+#: includes/options/woocommerce.php:906
 msgid "Sale Badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:907
+#: includes/options/woocommerce.php:912
 msgid "WooCommerce Sale Badge Shape"
 msgstr ""
 
-#: includes/options/woocommerce.php:908
+#: includes/options/woocommerce.php:913
 msgid "Controls the shape of the sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:933
+#: includes/options/woocommerce.php:938
 msgid "WooCommerce Sale Badge Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:934
+#: includes/options/woocommerce.php:939
 msgid "Controls the background color of the WooCommerce sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:946
+#: includes/options/woocommerce.php:951
 msgid "WooCommerce Sale Badge Text Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:947
+#: includes/options/woocommerce.php:952
 msgid "Controls the text color of the WooCommerce sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:959
+#: includes/options/woocommerce.php:964
 msgid "WooCommerce Sale Badge Text Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:960
+#: includes/options/woocommerce.php:965
 msgid "Controls the font size of the WooCommerce sale badge text."
 msgstr ""
 
-#: includes/options/woocommerce.php:971
+#: includes/options/woocommerce.php:976
 msgid "WooCommerce Sale Badge Padding"
 msgstr ""
 
-#: includes/options/woocommerce.php:972
+#: includes/options/woocommerce.php:977
 msgid "Controls the top/right/bottom/left padding of the sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1016
+#: includes/options/woocommerce.php:1021
 msgid "WooCommerce Sale Badge Border Radius"
 msgstr ""
 
-#: includes/options/woocommerce.php:1017
+#: includes/options/woocommerce.php:1022
 msgid "Controls the border radius of sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1066
+#: includes/options/woocommerce.php:1071
 msgid "WooCommerce Sale Badge Border Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:1067
+#: includes/options/woocommerce.php:1072
 msgid "Controls the border size of the sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1102
+#: includes/options/woocommerce.php:1107
 msgid "WooCommerce Sale Badge Border Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1103
+#: includes/options/woocommerce.php:1108
 msgid "Controls the border color of the sale badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:1115
+#: includes/options/woocommerce.php:1120
 msgid "WooCommerce Sale Badge Text"
 msgstr ""
 
-#: includes/options/woocommerce.php:1116
+#: includes/options/woocommerce.php:1121
 msgid ""
 "[percentage] and [value] placeholders can be used to display product "
 "discount as percentage or as a value, ex: [percentage] Off!"
 msgstr ""
 
-#: includes/options/woocommerce.php:1118 templates/wc-quick-view-product.php:37
+#: includes/options/woocommerce.php:1123 templates/wc-quick-view-product.php:37
 msgid "Sale!"
 msgstr ""
 
-#: includes/options/woocommerce.php:1122
+#: includes/options/woocommerce.php:1127
 msgid "Out Of Stock Badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:1128
+#: includes/options/woocommerce.php:1133
 msgid "WooCommerce Out Of Stock Badge Shape"
 msgstr ""
 
-#: includes/options/woocommerce.php:1129
+#: includes/options/woocommerce.php:1134
 msgid "Controls the shape of the out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1181
+#: includes/options/woocommerce.php:1186
 msgid "WooCommerce Out of Stock Badge Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1182
+#: includes/options/woocommerce.php:1187
 msgid "Controls the background color of the WooCommerce out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1194
+#: includes/options/woocommerce.php:1199
 msgid "WooCommerce Out of Stock Badge Text Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1195
+#: includes/options/woocommerce.php:1200
 msgid "Controls the text color of the WooCommerce out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1207
+#: includes/options/woocommerce.php:1212
 msgid "WooCommerce Out of Stock Badge Text Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:1208
+#: includes/options/woocommerce.php:1213
 msgid "Controls the font size of the WooCommerce out of stock badge text."
 msgstr ""
 
-#: includes/options/woocommerce.php:1219
+#: includes/options/woocommerce.php:1224
 msgid "WooCommerce Out Of Stock Badge Padding"
 msgstr ""
 
-#: includes/options/woocommerce.php:1220
+#: includes/options/woocommerce.php:1225
 msgid "Controls the top/right/bottom/left padding of the out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1264
+#: includes/options/woocommerce.php:1269
 msgid "WooCommerce Out Of Stock Badge Border Radius"
 msgstr ""
 
-#: includes/options/woocommerce.php:1265
+#: includes/options/woocommerce.php:1270
 msgid "Controls the border radius of out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1314
+#: includes/options/woocommerce.php:1319
 msgid "WooCommerce Out Of Stock Badge Border Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:1315
+#: includes/options/woocommerce.php:1320
 msgid "Controls the border size of the out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1350
+#: includes/options/woocommerce.php:1355
 msgid "WooCommerce Out Of Stock Badge Border Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1351
+#: includes/options/woocommerce.php:1356
 msgid "Controls the border color of the out of stock badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:1363
+#: includes/options/woocommerce.php:1368
 msgid "WooCommerce Out Of Stock Badge Text"
 msgstr ""
 
-#: includes/options/woocommerce.php:1364
+#: includes/options/woocommerce.php:1369
 msgid "Default value is: Out of stock"
 msgstr ""
 
-#: includes/options/woocommerce.php:1366
+#: includes/options/woocommerce.php:1371
 #: templates/wc-product-loop-outofstock-flash.php:23
 msgid "Out of stock"
 msgstr ""
