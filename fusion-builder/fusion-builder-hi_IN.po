@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fusion Builder 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2026-03-02 12:01:17+00:00\n"
+"POT-Creation-Date: 2026-03-02 13:01:42+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:06+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Hindi\n"
@@ -8845,16 +8845,32 @@ msgstr ""
 msgid "Reset of form %s faild."
 msgstr ""
 
-#: inc/class-fusion-form-builder.php:826
+#: inc/class-fusion-form-builder.php:782
+msgid "Updating submissions database table failed."
+msgstr ""
+
+#: inc/class-fusion-form-builder.php:805
+msgid "Database table was successfully updated."
+msgstr ""
+
+#: inc/class-fusion-form-builder.php:807
+msgid "Database table already contains the \"device_type\" column."
+msgstr ""
+
+#: inc/class-fusion-form-builder.php:878
 msgid "Submission ID"
 msgstr ""
 
-#: inc/class-fusion-form-builder.php:829
+#: inc/class-fusion-form-builder.php:881
 msgid "Date Time"
 msgstr ""
 
 #: inc/class-fusion-form-component.php:138
 msgid "required"
+msgstr ""
+
+#: inc/class-fusion-form-db-items.php:98
+msgid "AWB Form database insert failed."
 msgstr ""
 
 #: inc/class-fusion-form-db-privacy.php:334
@@ -8885,24 +8901,24 @@ msgid "Additional Information"
 msgstr ""
 
 #: inc/class-fusion-form-list-table.php:441
-#: inc/class-fusion-form-submit.php:1050
+#: inc/class-fusion-form-submit.php:1055
 msgid "Unknown"
 msgstr ""
 
 #: inc/class-fusion-form-list-table.php:442
-#: inc/class-fusion-form-submit.php:1053
+#: inc/class-fusion-form-submit.php:1058
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:119
 msgid "Desktop"
 msgstr ""
 
 #: inc/class-fusion-form-list-table.php:443
-#: inc/class-fusion-form-submit.php:1052
+#: inc/class-fusion-form-submit.php:1057
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:122
 msgid "Tablet"
 msgstr ""
 
 #: inc/class-fusion-form-list-table.php:444
-#: inc/class-fusion-form-submit.php:1051
+#: inc/class-fusion-form-submit.php:1056
 #: inc/helpers/class-fusion-builder-conditional-render-helper.php:121
 #: inc/helpers/class-fusion-builder-form-helper.php:412
 #: shortcodes/fusion-menu.php:1983 shortcodes/fusion-menu.php:2006
@@ -8922,7 +8938,7 @@ msgid "Mobile"
 msgstr ""
 
 #: inc/class-fusion-form-list-table.php:445
-#: inc/class-fusion-form-submit.php:1054
+#: inc/class-fusion-form-submit.php:1059
 msgid "Mobile or Tablet"
 msgstr ""
 
@@ -8944,57 +8960,57 @@ msgstr ""
 
 #. Translators: The form-ID.
 #. translators: The title.
-#: inc/class-fusion-form-submit.php:166 inc/class-fusion-form-submit.php:478
+#: inc/class-fusion-form-submit.php:171 inc/class-fusion-form-submit.php:483
 #: inc/helpers/class-fusion-builder-form-helper.php:215
 msgid "%s - Form Submission Notification"
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:346
+#: inc/class-fusion-form-submit.php:351
 msgid "URL Failed"
 msgstr ""
 
 #. translators: %s: Email to
-#: inc/class-fusion-form-submit.php:640
+#: inc/class-fusion-form-submit.php:645
 msgid "Email to (%s) has been sent."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:645 inc/class-fusion-form-submit.php:741
+#: inc/class-fusion-form-submit.php:650 inc/class-fusion-form-submit.php:746
 msgid "Email has been sent."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:651 inc/class-fusion-form-submit.php:746
+#: inc/class-fusion-form-submit.php:656 inc/class-fusion-form-submit.php:751
 msgid "Email Failed"
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:725
+#: inc/class-fusion-form-submit.php:730
 msgid "Form data is saved to database."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:727
+#: inc/class-fusion-form-submit.php:732
 msgid "Saving form data to database failed."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:851 inc/class-fusion-form-submit.php:856
+#: inc/class-fusion-form-submit.php:856 inc/class-fusion-form-submit.php:861
 msgid "View File"
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:1146
+#: inc/class-fusion-form-submit.php:1151
 msgid "Not connected to HubSpot API."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:1193
+#: inc/class-fusion-form-submit.php:1198
 msgid "reCAPTCHA could not verify that you are a human."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:1247 inc/class-fusion-form-submit.php:1248
+#: inc/class-fusion-form-submit.php:1252 inc/class-fusion-form-submit.php:1253
 msgid "The Turnstile challenge could not be completed."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:1265
+#: inc/class-fusion-form-submit.php:1270
 msgid "The Cloudflare server did not respond."
 msgstr ""
 
-#: inc/class-fusion-form-submit.php:1274
+#: inc/class-fusion-form-submit.php:1279
 msgid "The token verification failed."
 msgstr ""
 
