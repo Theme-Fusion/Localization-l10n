@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-03-03 13:06:33+00:00\n"
+"POT-Creation-Date: 2026-03-16 05:40:01+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:03+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Thai\n"
@@ -3136,7 +3136,7 @@ msgid "(no title)"
 msgstr ""
 
 #: includes/avada-app/class-fusion-panel.php:804
-#: includes/class-avada-woocommerce.php:2369
+#: includes/class-avada-woocommerce.php:2370
 msgid "Default Template"
 msgstr ""
 
@@ -5297,19 +5297,19 @@ msgid "Using default value."
 msgstr ""
 
 #. translators: %1$s: Comment date. %2$s: Comment time.
-#: includes/class-avada-template.php:447
+#: includes/class-avada-template.php:451
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: includes/class-avada-template.php:452
+#: includes/class-avada-template.php:456
 msgid " - Edit"
 msgstr ""
 
-#: includes/class-avada-template.php:458
+#: includes/class-avada-template.php:462
 msgid " - Reply"
 msgstr ""
 
-#: includes/class-avada-template.php:469
+#: includes/class-avada-template.php:473
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
@@ -6386,7 +6386,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_form_general.php:77
 #: includes/metaboxes/tabs/tab_off_canvas_design.php:165
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:237
-#: includes/options/blog.php:813 includes/options/events_calendar.php:302
+#: includes/options/blog.php:813 includes/options/events_calendar.php:309
 #: includes/options/forms.php:228 includes/options/performance.php:470
 msgid "Disabled"
 msgstr ""
@@ -6830,7 +6830,7 @@ msgid "Single Sidebar Width"
 msgstr ""
 
 #: includes/lib/inc/class-awb-widget-framework.php:223
-#: includes/options/events_calendar.php:313
+#: includes/options/events_calendar.php:320
 msgid "Controls the width of the sidebar when only one sidebar is present."
 msgstr ""
 
@@ -6851,7 +6851,7 @@ msgid "Dual Sidebar Width 1"
 msgstr ""
 
 #: includes/lib/inc/class-awb-widget-framework.php:254
-#: includes/options/events_calendar.php:332
+#: includes/options/events_calendar.php:339
 msgid "Controls the width of sidebar 1 when dual sidebars are present."
 msgstr ""
 
@@ -6860,7 +6860,7 @@ msgid "Dual Sidebar Width 2"
 msgstr ""
 
 #: includes/lib/inc/class-awb-widget-framework.php:267
-#: includes/options/events_calendar.php:345
+#: includes/options/events_calendar.php:352
 msgid "Controls the width of sidebar 2 when dual sidebars are present."
 msgstr ""
 
@@ -8305,7 +8305,7 @@ msgid "Choose if element editing should be in the sidebar or in dialogs."
 msgstr ""
 
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:178
-#: includes/options/events_calendar.php:300
+#: includes/options/events_calendar.php:307
 msgid "Sidebar"
 msgstr ""
 
@@ -11690,7 +11690,7 @@ msgstr ""
 #: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:180
 #: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:199
 #: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:218
-#: includes/options/events_calendar.php:220
+#: includes/options/events_calendar.php:227
 msgid "Zoom In"
 msgstr ""
 
@@ -11705,7 +11705,7 @@ msgstr ""
 #: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:182
 #: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:201
 #: includes/lib/inc/widgets/class-fusion-widget-ad-125-125.php:220
-#: includes/options/events_calendar.php:222
+#: includes/options/events_calendar.php:229
 msgid "Lift Up"
 msgstr ""
 
@@ -12168,12 +12168,12 @@ msgstr ""
 
 #: includes/lib/inc/widgets/class-fusion-widget-tabs.php:346
 #: includes/options/menu.php:2080 includes/options/search.php:123
-#: includes/options/woocommerce.php:669
+#: includes/options/woocommerce.php:684
 msgid "Classic"
 msgstr ""
 
 #: includes/lib/inc/widgets/class-fusion-widget-tabs.php:347
-#: includes/options/search.php:124 includes/options/woocommerce.php:670
+#: includes/options/search.php:124 includes/options/woocommerce.php:685
 msgid "Clean"
 msgstr ""
 
@@ -17157,7 +17157,7 @@ msgid ""
 msgstr ""
 
 #: includes/options/blog.php:414 includes/options/portfolio.php:133
-#: includes/options/woocommerce.php:724
+#: includes/options/woocommerce.php:739
 msgid "Equal Heights"
 msgstr ""
 
@@ -17311,7 +17311,7 @@ msgid ""
 msgstr ""
 
 #: includes/options/blog.php:759 includes/options/portfolio.php:555
-#: includes/options/woocommerce.php:710
+#: includes/options/woocommerce.php:725
 msgid "100% Width Page"
 msgstr ""
 
@@ -18086,257 +18086,267 @@ msgid ""
 msgstr ""
 
 #: includes/options/events_calendar.php:64
-msgid "Events Primary Color Overlay Text Color"
+msgid "Use Category Colors In Archives"
 msgstr ""
 
 #: includes/options/events_calendar.php:65
+msgid ""
+"Turn on to use the category colors in event archive views when available. "
+"When off, the Avada default coloring will be used for all events."
+msgstr ""
+
+#: includes/options/events_calendar.php:71
+msgid "Events Primary Color Overlay Text Color"
+msgstr ""
+
+#: includes/options/events_calendar.php:72
 msgid "Controls the color of text when primary color is the background."
 msgstr ""
 
-#: includes/options/events_calendar.php:77
+#: includes/options/events_calendar.php:84
 msgid "Events Filter Bar Background Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:78
+#: includes/options/events_calendar.php:85
 msgid "Controls the background color for the events calendar filter bar."
 msgstr ""
 
-#: includes/options/events_calendar.php:102
+#: includes/options/events_calendar.php:109
 msgid "Event Filter Bar Text Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:103
+#: includes/options/events_calendar.php:110
 msgid "Controls the color of the event filter bar text."
 msgstr ""
 
-#: includes/options/events_calendar.php:115
+#: includes/options/events_calendar.php:122
 msgid "Events Monthly Calendar Heading Background Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:116
+#: includes/options/events_calendar.php:123
 msgid "Controls the background color of the numbered heading in the calendar."
 msgstr ""
 
-#: includes/options/events_calendar.php:132
+#: includes/options/events_calendar.php:139
 msgid "Events Monthly Calendar Background Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:133
+#: includes/options/events_calendar.php:140
 msgid "Controls the background color of each day in the calendar."
 msgstr ""
 
-#: includes/options/events_calendar.php:157
+#: includes/options/events_calendar.php:164
 msgid "Events Popover/Drop-down Background Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:158
+#: includes/options/events_calendar.php:165
 msgid "Controls the color for the event popover/drop-down background."
 msgstr ""
 
-#: includes/options/events_calendar.php:170
+#: includes/options/events_calendar.php:177
 msgid "Events Popover/Drop-down Background Hover Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:171
+#: includes/options/events_calendar.php:178
 msgid "Controls the hover color for the event popover/drop-down background."
 msgstr ""
 
-#: includes/options/events_calendar.php:183
+#: includes/options/events_calendar.php:190
 msgid "Events Popover/Drop-down Body Text Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:184
+#: includes/options/events_calendar.php:191
 msgid "Controls the color of the popover/drop-down text."
 msgstr ""
 
-#: includes/options/events_calendar.php:196
+#: includes/options/events_calendar.php:203
 msgid "Events Border Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:197
+#: includes/options/events_calendar.php:204
 msgid "Controls the various border colors around the calendar."
 msgstr ""
 
-#: includes/options/events_calendar.php:213
+#: includes/options/events_calendar.php:220
 msgid "Events Featured Image Hover Type"
 msgstr ""
 
-#: includes/options/events_calendar.php:214
+#: includes/options/events_calendar.php:221
 msgid "Controls the hover type for event featured images."
 msgstr ""
 
-#: includes/options/events_calendar.php:221
+#: includes/options/events_calendar.php:228
 msgid "Zoom Out"
 msgstr ""
 
-#: includes/options/events_calendar.php:236
+#: includes/options/events_calendar.php:243
 msgid "Events Image Background Size For List View"
 msgstr ""
 
-#: includes/options/events_calendar.php:237
+#: includes/options/events_calendar.php:244
 msgid ""
 "Controls if the image is set to auto or covered for list view layout. All "
 "other layouts use auto."
 msgstr ""
 
-#: includes/options/events_calendar.php:247
+#: includes/options/events_calendar.php:254
 msgid "Events Separator Heading Font Size"
 msgstr ""
 
-#: includes/options/events_calendar.php:248
+#: includes/options/events_calendar.php:255
 msgid ""
 "Controls the font size of the month and day separator headings on events "
 "archive pages."
 msgstr ""
 
-#: includes/options/events_calendar.php:261
+#: includes/options/events_calendar.php:268
 msgid "Events Single Posts"
 msgstr ""
 
-#: includes/options/events_calendar.php:266
+#: includes/options/events_calendar.php:273
 msgid "Display All Events Link"
 msgstr ""
 
-#: includes/options/events_calendar.php:267
+#: includes/options/events_calendar.php:274
 msgid "Turn on to display the link back to the main event page."
 msgstr ""
 
-#: includes/options/events_calendar.php:273
+#: includes/options/events_calendar.php:280
 msgid "Display Featured Image & Title"
 msgstr ""
 
-#: includes/options/events_calendar.php:274
+#: includes/options/events_calendar.php:281
 msgid "Turn on to display the featured image and title on single event posts."
 msgstr ""
 
-#: includes/options/events_calendar.php:280
+#: includes/options/events_calendar.php:287
 msgid "Events Social Sharing Box"
 msgstr ""
 
-#: includes/options/events_calendar.php:281
+#: includes/options/events_calendar.php:288
 msgid "Turn on to display the social sharing box on single event posts."
 msgstr ""
 
-#: includes/options/events_calendar.php:295
+#: includes/options/events_calendar.php:302
 msgid "Events Single Post Meta Layout"
 msgstr ""
 
-#: includes/options/events_calendar.php:296
+#: includes/options/events_calendar.php:303
 msgid "Sets the layout of the single events meta data."
 msgstr ""
 
-#: includes/options/events_calendar.php:301
+#: includes/options/events_calendar.php:308
 msgid "Below Content"
 msgstr ""
 
-#: includes/options/events_calendar.php:306
+#: includes/options/events_calendar.php:313
 msgid "Events Single Sidebar Layout"
 msgstr ""
 
-#: includes/options/events_calendar.php:312
+#: includes/options/events_calendar.php:319
 msgid "Events Single Sidebar Width"
 msgstr ""
 
-#: includes/options/events_calendar.php:325
+#: includes/options/events_calendar.php:332
 msgid "Events Dual Sidebar Layout"
 msgstr ""
 
-#: includes/options/events_calendar.php:331
+#: includes/options/events_calendar.php:338
 msgid "Events Dual Sidebar Width 1"
 msgstr ""
 
-#: includes/options/events_calendar.php:344
+#: includes/options/events_calendar.php:351
 msgid "Events Dual Sidebar Width 2"
 msgstr ""
 
-#: includes/options/events_calendar.php:357
+#: includes/options/events_calendar.php:364
 msgid "Events Single Post Sidebar / Meta Content Styling"
 msgstr ""
 
-#: includes/options/events_calendar.php:363
+#: includes/options/events_calendar.php:370
 msgid "Events Sidebar / Meta Content Background Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:364
+#: includes/options/events_calendar.php:371
 msgid ""
 "Controls the background color of the single event post sidebar(s) / meta "
 "content."
 msgstr ""
 
-#: includes/options/events_calendar.php:376
+#: includes/options/events_calendar.php:383
 msgid "Events Sidebar / Meta Content Padding"
 msgstr ""
 
-#: includes/options/events_calendar.php:377
+#: includes/options/events_calendar.php:384
 msgid ""
 "Controls the padding for the single event post sidebar(s) / meta content."
 msgstr ""
 
-#: includes/options/events_calendar.php:393
+#: includes/options/events_calendar.php:400
 msgid "Events Sidebar Widget / Meta Content Heading Font Size"
 msgstr ""
 
-#: includes/options/events_calendar.php:394
+#: includes/options/events_calendar.php:401
 msgid ""
 "Controls the size of the sidebar widget / meta content heading for single "
 "event posts."
 msgstr ""
 
-#: includes/options/events_calendar.php:405
+#: includes/options/events_calendar.php:412
 msgid "Events Sidebar Widget / Meta Content Title Background Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:406
+#: includes/options/events_calendar.php:413
 msgid ""
 "Controls the background color of the sidebar widget / meta content title for "
 "single event posts."
 msgstr ""
 
-#: includes/options/events_calendar.php:428
+#: includes/options/events_calendar.php:435
 msgid "Events Sidebar Widget / Meta Content Headings Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:429
+#: includes/options/events_calendar.php:436
 msgid ""
 "Controls the color of the sidebar widget / meta content heading for single "
 "event posts."
 msgstr ""
 
-#: includes/options/events_calendar.php:441
+#: includes/options/events_calendar.php:448
 msgid "Events Sidebar / Meta Content Text Font Size"
 msgstr ""
 
-#: includes/options/events_calendar.php:442
+#: includes/options/events_calendar.php:449
 msgid ""
 "Controls the size of the text in the single event post sidebar / meta "
 "content."
 msgstr ""
 
-#: includes/options/events_calendar.php:459
+#: includes/options/events_calendar.php:466
 msgid "Events Sidebar / Meta Content Text Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:460
+#: includes/options/events_calendar.php:467
 msgid ""
 "Controls the color of the text in the single event post sidebar / meta "
 "content."
 msgstr ""
 
-#: includes/options/events_calendar.php:472
+#: includes/options/events_calendar.php:479
 msgid "Events Sidebar / Meta Content Link Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:473
+#: includes/options/events_calendar.php:480
 msgid ""
 "Controls the color of the link text in the single event post sidebar / meta "
 "content."
 msgstr ""
 
-#: includes/options/events_calendar.php:485
+#: includes/options/events_calendar.php:492
 msgid "Events Sidebar / Meta Content Divider Color"
 msgstr ""
 
-#: includes/options/events_calendar.php:486
+#: includes/options/events_calendar.php:493
 msgid ""
 "Controls the color of the dividers in the single event post sidebar / meta "
 "content."
@@ -18420,7 +18430,7 @@ msgid "Square"
 msgstr ""
 
 #: includes/options/extra.php:120 includes/options/sliding_bar.php:426
-#: includes/options/woocommerce.php:919 includes/options/woocommerce.php:1141
+#: includes/options/woocommerce.php:934 includes/options/woocommerce.php:1156
 msgid "Circle"
 msgstr ""
 
@@ -20635,7 +20645,7 @@ msgstr ""
 msgid "See this post for more information"
 msgstr ""
 
-#: includes/options/menu.php:184 includes/options/woocommerce.php:1139
+#: includes/options/menu.php:184 includes/options/woocommerce.php:1154
 msgid "Top Bar"
 msgstr ""
 
@@ -22134,7 +22144,7 @@ msgstr ""
 msgid "Controls the column spacing for portfolio items for archive pages."
 msgstr ""
 
-#: includes/options/portfolio.php:134 includes/options/woocommerce.php:725
+#: includes/options/portfolio.php:134 includes/options/woocommerce.php:740
 msgid "Turn on to display grid boxes with equal heights per row."
 msgstr ""
 
@@ -23565,8 +23575,8 @@ msgstr ""
 msgid "Triangle"
 msgstr ""
 
-#: includes/options/sliding_bar.php:425 includes/options/woocommerce.php:918
-#: includes/options/woocommerce.php:1140
+#: includes/options/sliding_bar.php:425 includes/options/woocommerce.php:933
+#: includes/options/woocommerce.php:1155
 msgid "Rectangle"
 msgstr ""
 
@@ -24592,316 +24602,326 @@ msgid "AJAX On Change"
 msgstr ""
 
 #: includes/options/woocommerce.php:612
-msgid "WooCommerce AJAX Product Sorting"
+msgid "WooCommerce AJAX Category Navigation"
 msgstr ""
 
 #: includes/options/woocommerce.php:613
-msgid "Turn on to use AJAX loading on the WooCommerce product sorting."
-msgstr ""
-
-#: includes/options/woocommerce.php:619
-msgid "WooCommerce Single Product Ajax Add to Cart"
-msgstr ""
-
-#: includes/options/woocommerce.php:620
-msgid "Turn on to enable single product ajax Add to Cart."
+msgid ""
+"Turn on to enable AJAX navigation when using the WooCommerce Category Filter "
+"element."
 msgstr ""
 
 #: includes/options/woocommerce.php:626
-msgid "WooCommerce Account Area Message 1"
+msgid "WooCommerce AJAX Product Sorting"
 msgstr ""
 
 #: includes/options/woocommerce.php:627
+msgid "Turn on to use AJAX loading on the WooCommerce product sorting."
+msgstr ""
+
+#: includes/options/woocommerce.php:634
+msgid "WooCommerce Single Product Ajax Add to Cart"
+msgstr ""
+
+#: includes/options/woocommerce.php:635
+msgid "Turn on to enable single product ajax Add to Cart."
+msgstr ""
+
+#: includes/options/woocommerce.php:641
+msgid "WooCommerce Account Area Message 1"
+msgstr ""
+
+#: includes/options/woocommerce.php:642
 msgid ""
 "Controls the text that displays in the first message box on the account page."
 msgstr ""
 
-#: includes/options/woocommerce.php:640
+#: includes/options/woocommerce.php:655
 msgid "WooCommerce Account Area Message 2"
 msgstr ""
 
-#: includes/options/woocommerce.php:641
+#: includes/options/woocommerce.php:656
 msgid ""
 "Controls the text that displays in the second message box on the account "
 "page."
 msgstr ""
 
-#: includes/options/woocommerce.php:656
+#: includes/options/woocommerce.php:671
 msgid "WooCommerce Styling"
 msgstr ""
 
-#: includes/options/woocommerce.php:664
+#: includes/options/woocommerce.php:679
 msgid "WooCommerce Product Box Design"
 msgstr ""
 
-#: includes/options/woocommerce.php:665
+#: includes/options/woocommerce.php:680
 msgid "Controls the design of the product boxes."
 msgstr ""
 
-#: includes/options/woocommerce.php:674
+#: includes/options/woocommerce.php:689
 msgid "WooCommerce Product Box Content Padding"
 msgstr ""
 
-#: includes/options/woocommerce.php:675
+#: includes/options/woocommerce.php:690
 msgid "Controls the top/right/bottom/left padding of the products contents."
 msgstr ""
 
-#: includes/options/woocommerce.php:711
+#: includes/options/woocommerce.php:726
 msgid ""
 "Turn on to display product posts at 100% browser width according to the "
 "window size. Turn off to follow site width."
 msgstr ""
 
-#: includes/options/woocommerce.php:746
+#: includes/options/woocommerce.php:761
 msgid "WooCommerce Tab Design"
 msgstr ""
 
-#: includes/options/woocommerce.php:747
+#: includes/options/woocommerce.php:762
 msgid "Controls the design of all WooCommerce tabs."
 msgstr ""
 
-#: includes/options/woocommerce.php:752
+#: includes/options/woocommerce.php:767
 msgid "Horizontal Tabs"
 msgstr ""
 
-#: includes/options/woocommerce.php:753
+#: includes/options/woocommerce.php:768
 msgid "Vertical Tabs"
 msgstr ""
 
-#: includes/options/woocommerce.php:766
+#: includes/options/woocommerce.php:781
 msgid "WooCommerce Quantity Input Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:767
+#: includes/options/woocommerce.php:782
 msgid "Controls the width and height of the quantity input field."
 msgstr ""
 
-#: includes/options/woocommerce.php:787
+#: includes/options/woocommerce.php:802
 msgid "WooCommerce Quantity Font Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:788
+#: includes/options/woocommerce.php:803
 msgid "Controls the font size of the quantity input field."
 msgstr ""
 
-#: includes/options/woocommerce.php:799
+#: includes/options/woocommerce.php:814
 msgid "WooCommerce Quantity Box Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:800
+#: includes/options/woocommerce.php:815
 msgid "Controls the background color of the WooCommerce quantity box."
 msgstr ""
 
-#: includes/options/woocommerce.php:812
+#: includes/options/woocommerce.php:827
 msgid "WooCommerce Quantity Box Hover Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:813
+#: includes/options/woocommerce.php:828
 msgid "Controls the hover color of the WooCommerce quantity box."
 msgstr ""
 
-#: includes/options/woocommerce.php:825
+#: includes/options/woocommerce.php:840
 msgid "WooCommerce Order Dropdown Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:826
+#: includes/options/woocommerce.php:841
 msgid "Controls the background color of the WooCommerce order dropdowns."
 msgstr ""
 
-#: includes/options/woocommerce.php:842
+#: includes/options/woocommerce.php:857
 msgid "WooCommerce Order Dropdown Text Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:843
+#: includes/options/woocommerce.php:858
 msgid ""
 "Controls the color of the text and icons in the WooCommerce order dropdowns."
 msgstr ""
 
-#: includes/options/woocommerce.php:855
+#: includes/options/woocommerce.php:870
 msgid "WooCommerce Order Dropdown Border Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:856
+#: includes/options/woocommerce.php:871
 msgid "Controls the border color in the WooCommerce order dropdowns."
 msgstr ""
 
-#: includes/options/woocommerce.php:868
+#: includes/options/woocommerce.php:883
 msgid "WooCommerce Cart Menu Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:869
+#: includes/options/woocommerce.php:884
 msgid ""
 "Controls the bottom section background color of the WooCommerce cart "
 "dropdown."
 msgstr ""
 
-#: includes/options/woocommerce.php:894
+#: includes/options/woocommerce.php:909
 msgid "WooCommerce Icon Font Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:895
+#: includes/options/woocommerce.php:910
 msgid "Controls the font size of the WooCommerce icons."
 msgstr ""
 
-#: includes/options/woocommerce.php:906
+#: includes/options/woocommerce.php:921
 msgid "Sale Badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:912
+#: includes/options/woocommerce.php:927
 msgid "WooCommerce Sale Badge Shape"
 msgstr ""
 
-#: includes/options/woocommerce.php:913
+#: includes/options/woocommerce.php:928
 msgid "Controls the shape of the sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:938
+#: includes/options/woocommerce.php:953
 msgid "WooCommerce Sale Badge Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:939
+#: includes/options/woocommerce.php:954
 msgid "Controls the background color of the WooCommerce sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:951
+#: includes/options/woocommerce.php:966
 msgid "WooCommerce Sale Badge Text Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:952
+#: includes/options/woocommerce.php:967
 msgid "Controls the text color of the WooCommerce sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:964
+#: includes/options/woocommerce.php:979
 msgid "WooCommerce Sale Badge Text Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:965
+#: includes/options/woocommerce.php:980
 msgid "Controls the font size of the WooCommerce sale badge text."
 msgstr ""
 
-#: includes/options/woocommerce.php:976
+#: includes/options/woocommerce.php:991
 msgid "WooCommerce Sale Badge Padding"
 msgstr ""
 
-#: includes/options/woocommerce.php:977
+#: includes/options/woocommerce.php:992
 msgid "Controls the top/right/bottom/left padding of the sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1021
+#: includes/options/woocommerce.php:1036
 msgid "WooCommerce Sale Badge Border Radius"
 msgstr ""
 
-#: includes/options/woocommerce.php:1022
+#: includes/options/woocommerce.php:1037
 msgid "Controls the border radius of sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1071
+#: includes/options/woocommerce.php:1086
 msgid "WooCommerce Sale Badge Border Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:1072
+#: includes/options/woocommerce.php:1087
 msgid "Controls the border size of the sale badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1107
+#: includes/options/woocommerce.php:1122
 msgid "WooCommerce Sale Badge Border Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1108
+#: includes/options/woocommerce.php:1123
 msgid "Controls the border color of the sale badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:1120
+#: includes/options/woocommerce.php:1135
 msgid "WooCommerce Sale Badge Text"
 msgstr ""
 
-#: includes/options/woocommerce.php:1121
+#: includes/options/woocommerce.php:1136
 msgid ""
 "[percentage] and [value] placeholders can be used to display product "
 "discount as percentage or as a value, ex: [percentage] Off!"
 msgstr ""
 
-#: includes/options/woocommerce.php:1123 templates/wc-quick-view-product.php:37
+#: includes/options/woocommerce.php:1138 templates/wc-quick-view-product.php:37
 msgid "Sale!"
 msgstr ""
 
-#: includes/options/woocommerce.php:1127
+#: includes/options/woocommerce.php:1142
 msgid "Out Of Stock Badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:1133
+#: includes/options/woocommerce.php:1148
 msgid "WooCommerce Out Of Stock Badge Shape"
 msgstr ""
 
-#: includes/options/woocommerce.php:1134
+#: includes/options/woocommerce.php:1149
 msgid "Controls the shape of the out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1186
+#: includes/options/woocommerce.php:1201
 msgid "WooCommerce Out of Stock Badge Background Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1187
+#: includes/options/woocommerce.php:1202
 msgid "Controls the background color of the WooCommerce out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1199
+#: includes/options/woocommerce.php:1214
 msgid "WooCommerce Out of Stock Badge Text Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1200
+#: includes/options/woocommerce.php:1215
 msgid "Controls the text color of the WooCommerce out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1212
+#: includes/options/woocommerce.php:1227
 msgid "WooCommerce Out of Stock Badge Text Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:1213
+#: includes/options/woocommerce.php:1228
 msgid "Controls the font size of the WooCommerce out of stock badge text."
 msgstr ""
 
-#: includes/options/woocommerce.php:1224
+#: includes/options/woocommerce.php:1239
 msgid "WooCommerce Out Of Stock Badge Padding"
 msgstr ""
 
-#: includes/options/woocommerce.php:1225
+#: includes/options/woocommerce.php:1240
 msgid "Controls the top/right/bottom/left padding of the out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1269
+#: includes/options/woocommerce.php:1284
 msgid "WooCommerce Out Of Stock Badge Border Radius"
 msgstr ""
 
-#: includes/options/woocommerce.php:1270
+#: includes/options/woocommerce.php:1285
 msgid "Controls the border radius of out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1319
+#: includes/options/woocommerce.php:1334
 msgid "WooCommerce Out Of Stock Badge Border Size"
 msgstr ""
 
-#: includes/options/woocommerce.php:1320
+#: includes/options/woocommerce.php:1335
 msgid "Controls the border size of the out of stock badge."
 msgstr ""
 
-#: includes/options/woocommerce.php:1355
+#: includes/options/woocommerce.php:1370
 msgid "WooCommerce Out Of Stock Badge Border Color"
 msgstr ""
 
-#: includes/options/woocommerce.php:1356
+#: includes/options/woocommerce.php:1371
 msgid "Controls the border color of the out of stock badge"
 msgstr ""
 
-#: includes/options/woocommerce.php:1368
+#: includes/options/woocommerce.php:1383
 msgid "WooCommerce Out Of Stock Badge Text"
 msgstr ""
 
-#: includes/options/woocommerce.php:1369
+#: includes/options/woocommerce.php:1384
 msgid "Default value is: Out of stock"
 msgstr ""
 
-#: includes/options/woocommerce.php:1371
+#: includes/options/woocommerce.php:1386
 #: templates/wc-product-loop-outofstock-flash.php:23
 msgid "Out of stock"
 msgstr ""
