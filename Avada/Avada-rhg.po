@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 5.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-08-18 07:55:37+00:00\n"
+"POT-Creation-Date: 2026-08-25 08:46:54+00:00\n"
 "PO-Revision-Date: 2017-06-22 11:02+0300\n"
 "Last-Translator: Aristeides <info@theme-fusion.com>\n"
 "Language-Team: Language rhg\n"
@@ -392,7 +392,7 @@ msgstr ""
 
 #: includes/admin-screens/performance.php:43
 #: includes/admin-screens/performance.php:46 includes/class-avada-admin.php:654
-#: includes/class-awb-performance-wizard.php:1487
+#: includes/class-awb-performance-wizard.php:1494
 msgid "Performance Wizard"
 msgstr ""
 
@@ -1638,7 +1638,7 @@ msgid "Back"
 msgstr ""
 
 #: includes/admin-screens/setup.php:170
-#: includes/class-awb-performance-wizard.php:738
+#: includes/class-awb-performance-wizard.php:745
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:156
 #: includes/lib/inc/widgets/class-fusion-widget-tweets.php:340
 #: includes/options/advanced.php:352 includes/options/forms.php:296
@@ -3556,7 +3556,7 @@ msgid "FAQs"
 msgstr ""
 
 #: includes/avada-functions.php:1935 includes/class-avada-admin-bar.php:72
-#: includes/class-awb-performance-wizard.php:1498
+#: includes/class-awb-performance-wizard.php:1505
 #: includes/metaboxes/tabs/tab_form_steps.php:449
 msgid "Icons"
 msgstr ""
@@ -3815,7 +3815,7 @@ msgid "Setup"
 msgstr ""
 
 #: includes/class-avada-admin.php:585
-#: includes/class-awb-performance-wizard.php:1483
+#: includes/class-awb-performance-wizard.php:1490
 #: includes/class-awb-setup-wizard.php:1414
 msgid "Link to Avada dashboard"
 msgstr ""
@@ -4905,15 +4905,27 @@ msgstr ""
 msgid "Import / Export"
 msgstr ""
 
-#: includes/class-avada-page-options.php:356
-#: includes/class-avada-page-options.php:394
+#: includes/class-avada-page-options.php:280
+msgid "Invalid post."
+msgstr ""
+
+#: includes/class-avada-page-options.php:286
+msgid "This link has expired, please reload the page and try again."
+msgstr ""
+
+#: includes/class-avada-page-options.php:290
+msgid "You do not have permission to export the Page Options of this post."
+msgstr ""
+
+#: includes/class-avada-page-options.php:366
+#: includes/class-avada-page-options.php:404
 #: includes/class-avada-system-status.php:146
 #: includes/class-avada-system-status.php:178
 msgid "Permission check failed."
 msgstr ""
 
 #. translators: Number.
-#: includes/class-avada-page-options.php:420
+#: includes/class-avada-page-options.php:430
 msgid "Custom page options %d "
 msgstr ""
 
@@ -5048,7 +5060,7 @@ msgid "I Accept"
 msgstr ""
 
 #: includes/class-avada-pwa.php:184
-#: includes/class-awb-performance-wizard.php:1499
+#: includes/class-awb-performance-wizard.php:1506
 msgid "Fonts"
 msgstr ""
 
@@ -6344,18 +6356,18 @@ msgstr ""
 msgid "Full List"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:735
+#: includes/class-awb-performance-wizard.php:742
 #: includes/options/advanced.php:349
 msgid "Brands"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:736
+#: includes/class-awb-performance-wizard.php:743
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:92
 #: includes/options/advanced.php:350
 msgid "Regular"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:737
+#: includes/class-awb-performance-wizard.php:744
 #: includes/lib/inc/class-awb-widget-style.php:246
 #: includes/metaboxes/tabs/tab_form_steps.php:203
 #: includes/metaboxes/tabs/tab_form_steps.php:348
@@ -6365,51 +6377,51 @@ msgstr ""
 msgid "Solid"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:741
+#: includes/class-awb-performance-wizard.php:748
 msgid "No Font Awesome icons found being used. Recommend disabling all."
 msgstr ""
 
 #. translators: Used subset labels.
-#: includes/class-awb-performance-wizard.php:747
+#: includes/class-awb-performance-wizard.php:754
 msgid "Content has been scanned for icons, recommend selecting %s."
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:759
+#: includes/class-awb-performance-wizard.php:766
 msgid ""
 "Recommended to disable this and update any old icon references by editing "
 "the pages/menus."
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:1402
+#: includes/class-awb-performance-wizard.php:1409
 #: includes/lib/inc/importer/class-fusion-wxr-importer.php:85
 #: includes/lib/inc/importer/class-wxr-importer.php:674
 msgid "Cannot import auto-draft posts"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:1490
+#: includes/class-awb-performance-wizard.php:1497
 msgid "Run PageSpeed Insights"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:1496
+#: includes/class-awb-performance-wizard.php:1503
 #: includes/lib/inc/fusion-app/helpers.php:381
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:181
 msgid "Start"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:1497
+#: includes/class-awb-performance-wizard.php:1504
 #: includes/options/advanced.php:52
 msgid "Features"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:1500
+#: includes/class-awb-performance-wizard.php:1507
 msgid "Elements"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:1501
+#: includes/class-awb-performance-wizard.php:1508
 msgid "Optimization"
 msgstr ""
 
-#: includes/class-awb-performance-wizard.php:1502
+#: includes/class-awb-performance-wizard.php:1509
 #: includes/class-awb-setup-wizard.php:1437
 #: includes/class-awb-setup-wizard.php:1443
 msgid "Finish"
@@ -7804,20 +7816,20 @@ msgid ""
 "unblock the \"%s\" domain."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:181
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:208
 msgid "Patch empty."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:217
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:244
 msgid "Invalid Patch target."
 msgstr ""
 
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:226
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:253
 msgid "Invalid patch path."
 msgstr ""
 
 #. translators: Links.
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:252
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:279
 msgid ""
 "The patch could not be applied because of your specific server permissions. "
 "You have two options to remedy this. 1. <a %1$s>Download this zip file</a> "
