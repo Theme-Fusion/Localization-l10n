@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-09-29 09:51:51+00:00\n"
+"POT-Creation-Date: 2026-09-29 11:05:05+00:00\n"
 "PO-Revision-Date: 2019-11-07 00:29+0200\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/avada/language/"
@@ -514,13 +514,13 @@ msgstr "אין"
 
 #: includes/admin-screens/performance.php:79
 #: includes/metaboxes/tabs/tab_off_canvas_rules.php:243
-#: includes/options/extra.php:1134
+#: includes/options/extra.php:1154
 msgid "Mobile"
 msgstr ""
 
 #: includes/admin-screens/performance.php:80
 #: includes/metaboxes/tabs/tab_off_canvas_rules.php:241
-#: includes/options/extra.php:1133
+#: includes/options/extra.php:1153
 msgid "Desktop"
 msgstr ""
 
@@ -607,7 +607,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/switch/field_switch.php:48
 #: includes/metaboxes/tabs/tab_form_notifications.php:71
 #: includes/metaboxes/tabs/tab_page.php:228 includes/options/advanced.php:507
-#: includes/options/extra.php:1135 includes/options/forms.php:458
+#: includes/options/extra.php:1155 includes/options/forms.php:458
 #: includes/options/forms.php:527 includes/options/maintenance.php:59
 #: includes/options/performance.php:300 includes/options/responsive.php:44
 #: includes/options/responsive.php:214 includes/options/woocommerce.php:634
@@ -4415,12 +4415,12 @@ msgid ""
 msgstr ""
 
 #. Translators: 1: Author name; 2: Site name.
-#: includes/class-avada-head.php:331
+#: includes/class-avada-head.php:350
 msgid "%1$s, Author at %2$s"
 msgstr ""
 
 #. Translators: Site name.
-#: includes/class-avada-head.php:334
+#: includes/class-avada-head.php:353
 msgid " Authored by %s"
 msgstr ""
 
@@ -4803,7 +4803,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:200
 #: includes/metaboxes/tabs/tab_seo.php:59
 #: includes/metaboxes/tabs/tab_seo.php:71 includes/options/advanced.php:505
-#: includes/options/extra.php:425 includes/options/forms.php:295
+#: includes/options/extra.php:445 includes/options/forms.php:295
 #: includes/options/portfolio.php:78
 msgid "Auto"
 msgstr "אוטומטי"
@@ -5525,7 +5525,7 @@ msgstr ""
 #: includes/metaboxes/metaboxes.php:672
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:21
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:142
-#: includes/options/page_title_bar.php:34
+#: includes/options/extra.php:323 includes/options/page_title_bar.php:34
 #: includes/options/page_title_bar.php:64
 msgid "Page Title Bar"
 msgstr "פס כותרת הדף"
@@ -7642,7 +7642,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_sidebars.php:250
 #: includes/metaboxes/tabs/tab_sidebars.php:276
 #: includes/metaboxes/tabs/tab_template.php:467 includes/options/blog.php:531
-#: includes/options/extra.php:564 includes/options/extra.php:1173
+#: includes/options/extra.php:584 includes/options/extra.php:1193
 #: includes/options/header.php:132 includes/options/logo.php:54
 #: includes/options/menu.php:1092 includes/options/menu.php:1449
 #: includes/options/menu.php:2790 includes/options/menu.php:3184
@@ -7677,7 +7677,7 @@ msgstr "שמאלה"
 #: includes/metaboxes/tabs/tab_sidebars.php:251
 #: includes/metaboxes/tabs/tab_sidebars.php:277
 #: includes/metaboxes/tabs/tab_template.php:468 includes/options/blog.php:533
-#: includes/options/extra.php:565 includes/options/extra.php:1175
+#: includes/options/extra.php:585 includes/options/extra.php:1195
 #: includes/options/header.php:133 includes/options/lightbox.php:118
 #: includes/options/logo.php:56 includes/options/menu.php:1094
 #: includes/options/menu.php:1450 includes/options/menu.php:2792
@@ -8388,7 +8388,7 @@ msgstr ""
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:426
 #: includes/metaboxes/tabs/tab_portfolio_post.php:185
-#: includes/metaboxes/tabs/tab_post.php:110 includes/options/extra.php:610
+#: includes/metaboxes/tabs/tab_post.php:110 includes/options/extra.php:630
 msgid "Link"
 msgstr "קישור"
 
@@ -8400,14 +8400,14 @@ msgstr "קישור"
 #: includes/metaboxes/tabs/tab_page.php:186
 #: includes/metaboxes/tabs/tab_portfolio_post.php:186
 #: includes/metaboxes/tabs/tab_post.php:111 includes/options/extra.php:290
-#: includes/options/extra.php:611
+#: includes/options/extra.php:631
 msgid "Zoom"
 msgstr "הגדל"
 
 # @ Avada
 #: includes/lib/inc/class-fusion-settings.php:430
 #: includes/metaboxes/tabs/tab_portfolio_post.php:187
-#: includes/metaboxes/tabs/tab_post.php:112 includes/options/extra.php:612
+#: includes/metaboxes/tabs/tab_post.php:112 includes/options/extra.php:632
 msgid "No Icons"
 msgstr "ללא סמלים"
 
@@ -10260,7 +10260,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:214
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:70
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:208
-#: includes/metaboxes/tabs/tab_template.php:466 includes/options/extra.php:567
+#: includes/metaboxes/tabs/tab_template.php:466 includes/options/extra.php:587
 #: includes/options/header.php:131 includes/options/menu.php:1452
 #: includes/options/menu.php:3181 includes/options/sliding_bar.php:145
 #: includes/options/social_media.php:257 includes/options/social_media.php:512
@@ -10276,7 +10276,7 @@ msgstr "למעלה"
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:216
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:72
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:210
-#: includes/options/extra.php:566 includes/options/lightbox.php:119
+#: includes/options/extra.php:586 includes/options/lightbox.php:119
 #: includes/options/menu.php:1451 includes/options/menu.php:3183
 #: includes/options/sliding_bar.php:147 includes/options/social_media.php:259
 #: includes/options/social_media.php:514 includes/options/social_media.php:877
@@ -13247,7 +13247,8 @@ msgstr "פוסט"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:669
-#: includes/metaboxes/tabs/tab_header.php:21 includes/options/header.php:41
+#: includes/metaboxes/tabs/tab_header.php:21 includes/options/extra.php:322
+#: includes/options/header.php:41
 msgid "Header"
 msgstr "כותרת"
 
@@ -13306,7 +13307,8 @@ msgstr ""
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:682
-#: includes/metaboxes/tabs/tab_footer.php:21 includes/options/footer.php:34
+#: includes/metaboxes/tabs/tab_footer.php:21 includes/options/extra.php:324
+#: includes/options/footer.php:34
 msgid "Footer"
 msgstr "כותרת תחתונה"
 
@@ -15360,7 +15362,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:405
 #: includes/metaboxes/tabs/tab_page.php:149
 #: includes/metaboxes/tabs/tab_page.php:177 includes/options/extra.php:287
-#: includes/options/extra.php:563 includes/options/menu.php:540
+#: includes/options/extra.php:583 includes/options/menu.php:540
 #: includes/options/menu.php:1448
 msgid "Fade"
 msgstr "דהייה"
@@ -16897,7 +16899,7 @@ msgstr "טקסט זכויות יוצרים מותאם אישית זה יופיע
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:177
-#: includes/metaboxes/tabs/tab_post.php:99 includes/options/extra.php:603
+#: includes/metaboxes/tabs/tab_post.php:99 includes/options/extra.php:623
 msgid "Image Rollover Icons"
 msgstr "סמלי היפוך תמונה"
 
@@ -16909,7 +16911,7 @@ msgstr ""
 
 # @ Avada
 #: includes/metaboxes/tabs/tab_portfolio_post.php:184
-#: includes/metaboxes/tabs/tab_post.php:109 includes/options/extra.php:609
+#: includes/metaboxes/tabs/tab_post.php:109 includes/options/extra.php:629
 msgid "Link + Zoom"
 msgstr "קישור והגדלה"
 
@@ -18291,7 +18293,7 @@ msgid ""
 "Reading\" or blog archive pages."
 msgstr ""
 
-#: includes/options/blog.php:209 includes/options/extra.php:754
+#: includes/options/blog.php:209 includes/options/extra.php:774
 #: includes/options/portfolio.php:381 includes/options/search.php:387
 msgid "Pagination"
 msgstr ""
@@ -19809,66 +19811,76 @@ msgid ""
 "second."
 msgstr ""
 
+#: includes/options/extra.php:315
+msgid "Exclude From Page Transitions"
+msgstr ""
+
+#: includes/options/extra.php:316
+msgid ""
+"Select the areas that stay in place during the page transitions, while the "
+"rest of the page is animated."
+msgstr ""
+
 # @ Avada
-#: includes/options/extra.php:317
+#: includes/options/extra.php:337
 msgid "Related Posts / Projects"
 msgstr "מספר פרוייקטים/הודעות קשורים/ות"
 
 # @ Avada
-#: includes/options/extra.php:323
+#: includes/options/extra.php:343
 msgid "Related Posts / Projects Layout"
 msgstr ""
 
-#: includes/options/extra.php:324
+#: includes/options/extra.php:344
 msgid "Controls the layout style for related posts and related projects."
 msgstr ""
 
-#: includes/options/extra.php:329
+#: includes/options/extra.php:349
 msgid "Title on rollover"
 msgstr ""
 
-#: includes/options/extra.php:330
+#: includes/options/extra.php:350
 msgid "Title below image"
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:343
+#: includes/options/extra.php:363
 msgid "Number of Related Posts / Projects"
 msgstr "מספר פרוייקטים/הודעות קשורים/ות"
 
-#: includes/options/extra.php:344
+#: includes/options/extra.php:364
 msgid ""
 "Controls the number of related posts and projects that display on a single "
 "post."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:364
+#: includes/options/extra.php:384
 msgid "Related Posts / Projects Maximum Columns"
 msgstr ""
 
-#: includes/options/extra.php:365
+#: includes/options/extra.php:385
 msgid ""
 "Controls the number of columns for the related posts and projects layout."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:390
+#: includes/options/extra.php:410
 msgid "Related Posts / Projects Column Spacing"
 msgstr ""
 
-#: includes/options/extra.php:391
+#: includes/options/extra.php:411
 msgid ""
 "Controls the amount of spacing between columns for the related posts and "
 "projects."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:418
+#: includes/options/extra.php:438
 msgid "Related Posts / Projects Image Size"
 msgstr ""
 
-#: includes/options/extra.php:419
+#: includes/options/extra.php:439
 msgid ""
 "Controls if the featured image size is fixed (cropped) or auto (full image "
 "ratio) for related posts and projects. IMPORTANT: Fixed works best with a "
@@ -19876,257 +19888,257 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:424 includes/options/portfolio.php:77
+#: includes/options/extra.php:444 includes/options/portfolio.php:77
 msgid "Fixed"
 msgstr "קבוע"
 
 # @ Avada
-#: includes/options/extra.php:438
+#: includes/options/extra.php:458
 msgid "Related Posts / Projects Autoplay"
 msgstr ""
 
-#: includes/options/extra.php:439
+#: includes/options/extra.php:459
 msgid "Turn on to autoplay the related posts and project carousel."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:454
+#: includes/options/extra.php:474
 msgid "Related Posts / Projects Speed"
 msgstr "מספר פרוייקטים/הודעות קשורים/ות"
 
-#: includes/options/extra.php:455
+#: includes/options/extra.php:475
 msgid ""
 "Controls the speed of related posts and project carousel. ex: 1000 = 1 "
 "second."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:483
+#: includes/options/extra.php:503
 msgid "Related Posts / Projects Show Navigation"
 msgstr ""
 
-#: includes/options/extra.php:484
+#: includes/options/extra.php:504
 msgid "Turn on to display navigation arrows on the carousel."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:499
+#: includes/options/extra.php:519
 msgid "Related Posts / Projects Mouse Scroll"
 msgstr ""
 
-#: includes/options/extra.php:500
+#: includes/options/extra.php:520
 msgid "Turn on to enable mouse drag control on the carousel."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:515
+#: includes/options/extra.php:535
 msgid "Related Posts / Projects Scroll Items"
 msgstr ""
 
-#: includes/options/extra.php:516
+#: includes/options/extra.php:536
 msgid ""
 "Controls the number of items that scroll at one time. Set to 0 to scroll the "
 "number of visible items."
 msgstr ""
 
-#: includes/options/extra.php:538
+#: includes/options/extra.php:558
 msgid "Featured Image Rollover"
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:544
+#: includes/options/extra.php:564
 msgid "Image Rollover"
 msgstr "גלגול התמונה"
 
-#: includes/options/extra.php:545
+#: includes/options/extra.php:565
 msgid ""
 "Turn on to display the rollover graphic on blog and portfolio featured "
 "images."
 msgstr ""
 
-#: includes/options/extra.php:557
+#: includes/options/extra.php:577
 msgid "Image Rollover Direction"
 msgstr ""
 
-#: includes/options/extra.php:558
+#: includes/options/extra.php:578
 msgid "Controls the direction the rollover starts from."
 msgstr ""
 
-#: includes/options/extra.php:568
+#: includes/options/extra.php:588
 msgid "Center Horizontal"
 msgstr ""
 
-#: includes/options/extra.php:569
+#: includes/options/extra.php:589
 msgid "Center Vertical"
 msgstr ""
 
-#: includes/options/extra.php:584
+#: includes/options/extra.php:604
 msgid "Image Rollover Icon Font Size"
 msgstr ""
 
-#: includes/options/extra.php:585
+#: includes/options/extra.php:605
 msgid "Controls the size of the rollover icons."
 msgstr ""
 
-#: includes/options/extra.php:604
+#: includes/options/extra.php:624
 msgid "Choose which icons display."
 msgstr ""
 
-#: includes/options/extra.php:629
+#: includes/options/extra.php:649
 msgid "Image Rollover Title"
 msgstr ""
 
-#: includes/options/extra.php:630
+#: includes/options/extra.php:650
 msgid "Turn on to display the post title in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:643
+#: includes/options/extra.php:663
 msgid "Image Rollover Categories"
 msgstr ""
 
-#: includes/options/extra.php:644
+#: includes/options/extra.php:664
 msgid "Turn on to display the post categories in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:657
+#: includes/options/extra.php:677
 msgid "Image Rollover Icon Circle"
 msgstr ""
 
-#: includes/options/extra.php:658
+#: includes/options/extra.php:678
 msgid "Turn on to display the icon background circle in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:693
+#: includes/options/extra.php:713
 msgid "Image Rollover Gradient Top Color"
 msgstr ""
 
-#: includes/options/extra.php:694
+#: includes/options/extra.php:714
 msgid "Controls the top color of the image rollover background."
 msgstr ""
 
-#: includes/options/extra.php:708
+#: includes/options/extra.php:728
 msgid "Image Rollover Gradient Bottom Color"
 msgstr ""
 
-#: includes/options/extra.php:709
+#: includes/options/extra.php:729
 msgid "Controls the bottom color of the image rollover background."
 msgstr ""
 
-#: includes/options/extra.php:723
+#: includes/options/extra.php:743
 msgid "Image Rollover Element Color"
 msgstr ""
 
-#: includes/options/extra.php:724
+#: includes/options/extra.php:744
 msgid ""
 "Controls the color of image rollover text and icon circular backgrounds."
 msgstr ""
 
-#: includes/options/extra.php:737
+#: includes/options/extra.php:757
 msgid "Image Rollover Icon Color"
 msgstr ""
 
-#: includes/options/extra.php:738
+#: includes/options/extra.php:758
 msgid "Controls the color of the icons in the image rollover."
 msgstr ""
 
-#: includes/options/extra.php:761
+#: includes/options/extra.php:781
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> The options on this tab apply to all "
 "pagination throughout the site, including the 3rd party plugins that Avada "
 "has design integration with."
 msgstr ""
 
-#: includes/options/extra.php:767
+#: includes/options/extra.php:787
 msgid "Pagination Sizing"
 msgstr ""
 
-#: includes/options/extra.php:768
+#: includes/options/extra.php:788
 msgid "Set on which dimension the pagination box size should be based."
 msgstr ""
 
-#: includes/options/extra.php:772
+#: includes/options/extra.php:792
 msgid "Width/Height Based"
 msgstr ""
 
-#: includes/options/extra.php:773
+#: includes/options/extra.php:793
 msgid "Padding Based"
 msgstr ""
 
-#: includes/options/extra.php:787
+#: includes/options/extra.php:807
 msgid "Pagination Box Width/Height"
 msgstr ""
 
-#: includes/options/extra.php:788
+#: includes/options/extra.php:808
 msgid "Controls the width and height of the displayed page links."
 msgstr ""
 
-#: includes/options/extra.php:812
+#: includes/options/extra.php:832
 msgid "Pagination Box Padding"
 msgstr ""
 
-#: includes/options/extra.php:813
+#: includes/options/extra.php:833
 msgid "Controls the padding inside the pagination boxes."
 msgstr ""
 
-#: includes/options/extra.php:840
+#: includes/options/extra.php:860
 msgid "Pagination Border Width"
 msgstr ""
 
-#: includes/options/extra.php:841
+#: includes/options/extra.php:861
 msgid "Controls the border width of the displayed page links."
 msgstr ""
 
-#: includes/options/extra.php:858
+#: includes/options/extra.php:878
 msgid "Pagination Border Radius"
 msgstr ""
 
-#: includes/options/extra.php:859
+#: includes/options/extra.php:879
 msgid ""
 "Controls the border radius of the displayed page links. Values of half the "
 "overall width or higher will yield circular links."
 msgstr ""
 
-#: includes/options/extra.php:876
+#: includes/options/extra.php:896
 msgid "Pagination Text Display"
 msgstr ""
 
-#: includes/options/extra.php:877
+#: includes/options/extra.php:897
 msgid "Turn on to display the \"Previous/Next\" text."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:898
+#: includes/options/extra.php:918
 msgid "Pagination Font Size"
 msgstr "גודל הגופן למספור עמודים"
 
-#: includes/options/extra.php:899
+#: includes/options/extra.php:919
 msgid "Controls the size of the pagination text."
 msgstr ""
 
-#: includes/options/extra.php:910
+#: includes/options/extra.php:930
 msgid "Pagination Range"
 msgstr ""
 
-#: includes/options/extra.php:911
+#: includes/options/extra.php:931
 msgid ""
 "Controls the number of page links displayed left and right of current page."
 msgstr ""
 
-#: includes/options/extra.php:928
+#: includes/options/extra.php:948
 msgid "Pagination Start / End Range"
 msgstr ""
 
-#: includes/options/extra.php:929
+#: includes/options/extra.php:949
 msgid ""
 "Controls the number of page links displayed at the start and at the end of "
 "pagination."
 msgstr ""
 
-#: includes/options/extra.php:948
+#: includes/options/extra.php:968
 msgid "Grid / Masonry"
 msgstr ""
 
-#: includes/options/extra.php:955
+#: includes/options/extra.php:975
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> These are Grid Box Styling global options "
 "that apply to grid boxes throughout the site; blog grid and timeline, "
@@ -20135,82 +20147,82 @@ msgid ""
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:960
+#: includes/options/extra.php:980
 msgid "Grid Box Color"
 msgstr "צבע תיבת רשת"
 
-#: includes/options/extra.php:961
+#: includes/options/extra.php:981
 msgid "Controls the background color for the grid boxes."
 msgstr ""
 
 # @ Avada
-#: includes/options/extra.php:987
+#: includes/options/extra.php:1007
 msgid "Grid Element Color"
 msgstr "צבע יסודות הרשת"
 
-#: includes/options/extra.php:988
+#: includes/options/extra.php:1008
 msgid ""
 "Controls the color of borders/date box/timeline dots and arrows for the grid "
 "boxes."
 msgstr ""
 
-#: includes/options/extra.php:1015
+#: includes/options/extra.php:1035
 msgid "Grid Separator Style"
 msgstr ""
 
-#: includes/options/extra.php:1016
+#: includes/options/extra.php:1036
 msgid ""
 "Controls the line style of grid separators. <strong>NOTE:</strong> For blog "
 "and portfolio grids at least one meta data field must be enabled and excerpt "
 "or full content must be shown in order that the separator will be displayed."
 msgstr ""
 
-#: includes/options/extra.php:1021 includes/options/typography.php:351
+#: includes/options/extra.php:1041 includes/options/typography.php:351
 #: includes/options/typography.php:474
 msgid "No Style"
 msgstr ""
 
-#: includes/options/extra.php:1022
+#: includes/options/extra.php:1042
 msgid "Single Border Solid"
 msgstr ""
 
-#: includes/options/extra.php:1023
+#: includes/options/extra.php:1043
 msgid "Double Border Solid"
 msgstr ""
 
-#: includes/options/extra.php:1024
+#: includes/options/extra.php:1044
 msgid "Single Border Dashed"
 msgstr ""
 
-#: includes/options/extra.php:1025
+#: includes/options/extra.php:1045
 msgid "Double Border Dashed"
 msgstr ""
 
-#: includes/options/extra.php:1026
+#: includes/options/extra.php:1046
 msgid "Single Border Dotted"
 msgstr ""
 
-#: includes/options/extra.php:1027
+#: includes/options/extra.php:1047
 msgid "Double Border Dotted"
 msgstr ""
 
-#: includes/options/extra.php:1028
+#: includes/options/extra.php:1048
 msgid "Shadow"
 msgstr ""
 
-#: includes/options/extra.php:1042
+#: includes/options/extra.php:1062
 msgid "Grid Separator Color"
 msgstr ""
 
-#: includes/options/extra.php:1043
+#: includes/options/extra.php:1063
 msgid "Controls the line style color of grid separators."
 msgstr ""
 
-#: includes/options/extra.php:1070
+#: includes/options/extra.php:1090
 msgid "Masonry Options"
 msgstr ""
 
-#: includes/options/extra.php:1077
+#: includes/options/extra.php:1097
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> These are Masonry global options that apply "
 "to the Blog / Portfolio / Gallery elements in addition to Blog and Portfolio "
@@ -20218,11 +20230,11 @@ msgid ""
 "these."
 msgstr ""
 
-#: includes/options/extra.php:1082
+#: includes/options/extra.php:1102
 msgid "Masonry Image Aspect Ratio"
 msgstr ""
 
-#: includes/options/extra.php:1083
+#: includes/options/extra.php:1103
 msgid ""
 "Set the ratio to decide when an image should become landscape (ratio being "
 "width : height) and portrait (ratio being height : width). <strong>IMPORTANT:"
@@ -20230,11 +20242,11 @@ msgid ""
 "auto calculated ratios like in versions prior to Avada 5.5."
 msgstr ""
 
-#: includes/options/extra.php:1100
+#: includes/options/extra.php:1120
 msgid "Masonry 2x2 Width"
 msgstr ""
 
-#: includes/options/extra.php:1101
+#: includes/options/extra.php:1121
 msgid ""
 "This option decides when a square 1x1 image should become 2x2. This will not "
 "apply to images that highly favor landscape or portrait layouts. "
@@ -20244,108 +20256,108 @@ msgid ""
 "original ratio."
 msgstr ""
 
-#: includes/options/extra.php:1120
+#: includes/options/extra.php:1140
 msgid "ToTop"
 msgstr ""
 
-#: includes/options/extra.php:1126
+#: includes/options/extra.php:1146
 msgid "ToTop Script"
 msgstr ""
 
-#: includes/options/extra.php:1127
+#: includes/options/extra.php:1147
 msgid ""
 "Turn on to enable the ToTop script which adds the scrolling to top "
 "functionality."
 msgstr ""
 
-#: includes/options/extra.php:1132
+#: includes/options/extra.php:1152
 msgid "Desktop & Mobile"
 msgstr ""
 
-#: includes/options/extra.php:1167
+#: includes/options/extra.php:1187
 msgid "ToTop Button Position"
 msgstr ""
 
-#: includes/options/extra.php:1168
+#: includes/options/extra.php:1188
 msgid ""
 "Controls the position of the ToTop button. On mobiles also non-floating "
 "layouts will be floating."
 msgstr ""
 
-#: includes/options/extra.php:1174
+#: includes/options/extra.php:1194
 msgid "Left Floating"
 msgstr ""
 
-#: includes/options/extra.php:1176
+#: includes/options/extra.php:1196
 msgid "Right Floating"
 msgstr ""
 
-#: includes/options/extra.php:1204
+#: includes/options/extra.php:1224
 msgid "Bottom & Side Spacing"
 msgstr ""
 
-#: includes/options/extra.php:1205
+#: includes/options/extra.php:1225
 msgid ""
 "Controls the distance between the ToTop button and the viewport edges. Side "
 "spacing follows the selected side (left or right), while bottom spacing "
 "applies only to floating layouts."
 msgstr ""
 
-#: includes/options/extra.php:1234
+#: includes/options/extra.php:1254
 msgid "ToTop Border Radius"
 msgstr ""
 
-#: includes/options/extra.php:1235
+#: includes/options/extra.php:1255
 msgid ""
 "Controls the border radius of the ToTop button. For non-floating layouts the "
 "border radius will only apply to the upper corners."
 msgstr ""
 
-#: includes/options/extra.php:1260
+#: includes/options/extra.php:1280
 msgid "ToTop Background"
 msgstr ""
 
-#: includes/options/extra.php:1261
+#: includes/options/extra.php:1281
 msgid "Controls the background color of the ToTop button."
 msgstr ""
 
-#: includes/options/extra.php:1281
+#: includes/options/extra.php:1301
 msgid "ToTop Background Hover Color"
 msgstr ""
 
-#: includes/options/extra.php:1282
+#: includes/options/extra.php:1302
 msgid "Controls the background hover color of the ToTop button."
 msgstr ""
 
-#: includes/options/extra.php:1302
+#: includes/options/extra.php:1322
 msgid "ToTop Icon Color"
 msgstr ""
 
-#: includes/options/extra.php:1303
+#: includes/options/extra.php:1323
 msgid "Controls the icon color color of the ToTop button."
 msgstr ""
 
-#: includes/options/extra.php:1323
+#: includes/options/extra.php:1343
 msgid "ToTop Icon Hover Color"
 msgstr ""
 
-#: includes/options/extra.php:1324
+#: includes/options/extra.php:1344
 msgid "Controls the icon hover color of the ToTop button."
 msgstr ""
 
-#: includes/options/extra.php:1344
+#: includes/options/extra.php:1364
 msgid "ToTop Show Scroll Progress"
 msgstr ""
 
-#: includes/options/extra.php:1345
+#: includes/options/extra.php:1365
 msgid "Turn on to show the page scroll progress within the ToTop Button."
 msgstr ""
 
-#: includes/options/extra.php:1384
+#: includes/options/extra.php:1404
 msgid "ToTop Show on Scroll Down Only"
 msgstr ""
 
-#: includes/options/extra.php:1385
+#: includes/options/extra.php:1405
 msgid ""
 "Turn on to show the ToTop button on scroll down only. Otherwise it will "
 "always show if the page is scrolled."
