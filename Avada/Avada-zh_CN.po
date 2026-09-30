@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-09-29 14:31:00+00:00\n"
+"POT-Creation-Date: 2026-09-30 08:19:52+00:00\n"
 "PO-Revision-Date: 2026-04-14 11:08+0800\n"
 "Last-Translator: Bo <thewayyouare@vip.qq.com>\n"
 "Language-Team: Chinese (China)\n"
@@ -21012,62 +21012,102 @@ msgstr ""
 "控制返回顶部按钮与视口边缘之间的距离。侧边间距遵循所选侧（左侧或右侧），而底"
 "部间距仅适用于悬浮布局。"
 
-# @ Avada
 #: includes/options/extra.php:1254
+msgid "ToTop Button Text"
+msgstr ""
+
+#: includes/options/extra.php:1255
+msgid ""
+"Enter a text to show within the ToTop button next to the icon, e.g. \"Back "
+"to top\". Leave empty for an icon only button."
+msgstr ""
+
+#: includes/options/extra.php:1287
+msgid "ToTop Button Text Layout"
+msgstr ""
+
+#: includes/options/extra.php:1288
+msgid "Controls how the icon and the text of the ToTop button are arranged."
+msgstr ""
+
+#: includes/options/extra.php:1293
+msgid "Icon Before Text"
+msgstr ""
+
+#: includes/options/extra.php:1294
+msgid "Icon After Text"
+msgstr ""
+
+#: includes/options/extra.php:1295
+msgid "Icon Above Text"
+msgstr ""
+
+#: includes/options/extra.php:1326
+msgid "ToTop Button Text On Mobile"
+msgstr ""
+
+#: includes/options/extra.php:1327
+msgid ""
+"Turn on to also show the text of the ToTop button on mobile devices. "
+"Otherwise an icon only button will be used there."
+msgstr ""
+
+# @ Avada
+#: includes/options/extra.php:1360
 msgid "ToTop Border Radius"
 msgstr "至顶部 边框弧度"
 
-#: includes/options/extra.php:1255
+#: includes/options/extra.php:1361
 msgid ""
 "Controls the border radius of the ToTop button. For non-floating layouts the "
 "border radius will only apply to the upper corners."
 msgstr "控制返回顶部按钮的边框半径。对于非悬浮布局，边框半径将仅适用于上角。"
 
-#: includes/options/extra.php:1280
+#: includes/options/extra.php:1386
 msgid "ToTop Background"
 msgstr "返回顶部背景"
 
-#: includes/options/extra.php:1281
+#: includes/options/extra.php:1387
 msgid "Controls the background color of the ToTop button."
 msgstr "控制返回顶部按钮的背景颜色。"
 
-#: includes/options/extra.php:1301
+#: includes/options/extra.php:1407
 msgid "ToTop Background Hover Color"
 msgstr "返回顶部背景悬停颜色"
 
-#: includes/options/extra.php:1302
+#: includes/options/extra.php:1408
 msgid "Controls the background hover color of the ToTop button."
 msgstr "控制返回顶部按钮的悬停背景颜色。"
 
-#: includes/options/extra.php:1322
+#: includes/options/extra.php:1428
 msgid "ToTop Icon Color"
 msgstr "返回顶部图标颜色"
 
-#: includes/options/extra.php:1323
-msgid "Controls the icon color color of the ToTop button."
-msgstr "控制返回顶部按钮的图标颜色。"
+#: includes/options/extra.php:1429
+msgid "Controls the icon and text color of the ToTop button."
+msgstr ""
 
-#: includes/options/extra.php:1343
+#: includes/options/extra.php:1449
 msgid "ToTop Icon Hover Color"
 msgstr "返回顶部图标悬停颜色"
 
-#: includes/options/extra.php:1344
-msgid "Controls the icon hover color of the ToTop button."
-msgstr "控制返回顶部按钮的悬停图标颜色。"
+#: includes/options/extra.php:1450
+msgid "Controls the icon and text hover color of the ToTop button."
+msgstr ""
 
-#: includes/options/extra.php:1364
+#: includes/options/extra.php:1470
 msgid "ToTop Show Scroll Progress"
 msgstr "返回顶部显示滚动进度"
 
-#: includes/options/extra.php:1365
+#: includes/options/extra.php:1471
 msgid "Turn on to show the page scroll progress within the ToTop Button."
 msgstr "开启以在返回顶部按钮中显示页面滚动进度。"
 
-#: includes/options/extra.php:1404
+#: includes/options/extra.php:1510
 msgid "ToTop Show on Scroll Down Only"
 msgstr "仅在向下滚动时显示返回顶部"
 
-#: includes/options/extra.php:1405
+#: includes/options/extra.php:1511
 msgid ""
 "Turn on to show the ToTop button on scroll down only. Otherwise it will "
 "always show if the page is scrolled."
@@ -28198,7 +28238,7 @@ msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] ""
 
-#: templates/to-top.php:26
+#: templates/to-top.php:34
 msgid "Go to Top"
 msgstr "返回顶部"
 
@@ -28645,6 +28685,12 @@ msgstr "首页"
 msgctxt "%s Events plural label"
 msgid "All %s"
 msgstr "所有 %s"
+
+#~ msgid "Controls the icon color color of the ToTop button."
+#~ msgstr "控制返回顶部按钮的图标颜色。"
+
+#~ msgid "Controls the icon hover color of the ToTop button."
+#~ msgstr "控制返回顶部按钮的悬停图标颜色。"
 
 #~ msgid ""
 #~ "<strong>IMPORTANT NOTE:</strong> To use the Avada PWA feature your site "

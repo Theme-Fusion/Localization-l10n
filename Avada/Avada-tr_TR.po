@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 7.12.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-09-29 14:31:00+00:00\n"
+"POT-Creation-Date: 2026-09-30 08:19:52+00:00\n"
 "PO-Revision-Date: 2025-07-26 22:27+0300\n"
 "Last-Translator: Kaya Zeren <translator@zeron.net>\n"
 "Language-Team: Turkish (Turkey)\n"
@@ -21279,10 +21279,50 @@ msgid ""
 msgstr ""
 
 #: includes/options/extra.php:1254
+msgid "ToTop Button Text"
+msgstr ""
+
+#: includes/options/extra.php:1255
+msgid ""
+"Enter a text to show within the ToTop button next to the icon, e.g. \"Back "
+"to top\". Leave empty for an icon only button."
+msgstr ""
+
+#: includes/options/extra.php:1287
+msgid "ToTop Button Text Layout"
+msgstr ""
+
+#: includes/options/extra.php:1288
+msgid "Controls how the icon and the text of the ToTop button are arranged."
+msgstr ""
+
+#: includes/options/extra.php:1293
+msgid "Icon Before Text"
+msgstr ""
+
+#: includes/options/extra.php:1294
+msgid "Icon After Text"
+msgstr ""
+
+#: includes/options/extra.php:1295
+msgid "Icon Above Text"
+msgstr ""
+
+#: includes/options/extra.php:1326
+msgid "ToTop Button Text On Mobile"
+msgstr ""
+
+#: includes/options/extra.php:1327
+msgid ""
+"Turn on to also show the text of the ToTop button on mobile devices. "
+"Otherwise an icon only button will be used there."
+msgstr ""
+
+#: includes/options/extra.php:1360
 msgid "ToTop Border Radius"
 msgstr "Üste git kenarlığının yarıçapı"
 
-#: includes/options/extra.php:1255
+#: includes/options/extra.php:1361
 msgid ""
 "Controls the border radius of the ToTop button. For non-floating layouts the "
 "border radius will only apply to the upper corners."
@@ -21290,51 +21330,51 @@ msgstr ""
 "Üste git düğmesi kenarlığının yarıçapını yazın. Yüzer olmayan yerleşimler "
 "için kenarlık yarıçapı yalnızca üst köşelere uygulanır."
 
-#: includes/options/extra.php:1280
+#: includes/options/extra.php:1386
 msgid "ToTop Background"
 msgstr "Üste git arka planı"
 
-#: includes/options/extra.php:1281
+#: includes/options/extra.php:1387
 msgid "Controls the background color of the ToTop button."
 msgstr "Üste git düğmesinin arka plan rengini seçin."
 
-#: includes/options/extra.php:1301
+#: includes/options/extra.php:1407
 msgid "ToTop Background Hover Color"
 msgstr "Üste git üzerine gelme arka plan rengi"
 
-#: includes/options/extra.php:1302
+#: includes/options/extra.php:1408
 msgid "Controls the background hover color of the ToTop button."
 msgstr "Üste git düğmesinin üzerine gelindiğinde arka plan rengini seçin."
 
-#: includes/options/extra.php:1322
+#: includes/options/extra.php:1428
 msgid "ToTop Icon Color"
 msgstr "Üste git simgesi rengi"
 
-#: includes/options/extra.php:1323
-msgid "Controls the icon color color of the ToTop button."
-msgstr "Üste git düğmesi simgesinin rengini seçin."
+#: includes/options/extra.php:1429
+msgid "Controls the icon and text color of the ToTop button."
+msgstr ""
 
-#: includes/options/extra.php:1343
+#: includes/options/extra.php:1449
 msgid "ToTop Icon Hover Color"
 msgstr "Üste git simgesi üzerine gelme rengi"
 
-#: includes/options/extra.php:1344
-msgid "Controls the icon hover color of the ToTop button."
-msgstr "Üste git düğmesi simgesinin üzerine gelindiğinde rengini seçin."
+#: includes/options/extra.php:1450
+msgid "Controls the icon and text hover color of the ToTop button."
+msgstr ""
 
-#: includes/options/extra.php:1364
+#: includes/options/extra.php:1470
 msgid "ToTop Show Scroll Progress"
 msgstr "Üste git kaydırma işlemini görüntülesin"
 
-#: includes/options/extra.php:1365
+#: includes/options/extra.php:1471
 msgid "Turn on to show the page scroll progress within the ToTop Button."
 msgstr "Üste git düğmesinin sayfa kaydırma işlemini görüntülemesi için açın."
 
-#: includes/options/extra.php:1404
+#: includes/options/extra.php:1510
 msgid "ToTop Show on Scroll Down Only"
 msgstr "Üste git yalnızca aşağı kaydırınca görüntülensin"
 
-#: includes/options/extra.php:1405
+#: includes/options/extra.php:1511
 msgid ""
 "Turn on to show the ToTop button on scroll down only. Otherwise it will "
 "always show if the page is scrolled."
@@ -28606,7 +28646,7 @@ msgid_plural "%s days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: templates/to-top.php:26
+#: templates/to-top.php:34
 msgid "Go to Top"
 msgstr "Üste git"
 
@@ -29032,6 +29072,12 @@ msgstr "Giriş"
 msgctxt "%s Events plural label"
 msgid "All %s"
 msgstr "Tüm %s"
+
+#~ msgid "Controls the icon color color of the ToTop button."
+#~ msgstr "Üste git düğmesi simgesinin rengini seçin."
+
+#~ msgid "Controls the icon hover color of the ToTop button."
+#~ msgstr "Üste git düğmesi simgesinin üzerine gelindiğinde rengini seçin."
 
 #~ msgid ""
 #~ "<strong>IMPORTANT NOTE:</strong> To use the Avada PWA feature your site "
