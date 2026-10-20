@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada Builder 3.16.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
-"POT-Creation-Date: 2026-10-19 11:47:58+00:00\n"
+"POT-Creation-Date: 2026-10-20 09:17:02+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,8 +43,8 @@ msgstr ""
 #: inc/admin-screens/role-manager-options.php:61
 #: inc/class-fusion-builder-gutenberg.php:203
 #: inc/class-fusion-builder-gutenberg.php:444 inc/class-fusion-builder.php:2922
-#: inc/class-fusion-template-builder.php:377
-#: inc/class-fusion-template-builder.php:2814 inc/helpers.php:3074
+#: inc/class-fusion-template-builder.php:388
+#: inc/class-fusion-template-builder.php:2868 inc/helpers.php:3074
 msgid "Live Builder"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 #: front-end/templates/column-library.php:22
 #: front-end/templates/container-library.php:33
 #: front-end/templates/element-library.php:27 inc/class-awb-studio-admin.php:43
-#: inc/class-fusion-builder-library.php:1247
+#: inc/class-fusion-builder-library.php:1250
 #: inc/templates/column-library.php:26 inc/templates/column-library.php:34
 #: inc/templates/element-library.php:35
 msgid "Studio"
@@ -310,12 +310,12 @@ msgid "Delete Element"
 msgstr ""
 
 #: front-end/templates/context-menu.php:116
-#: inc/class-fusion-builder-library.php:688
-#: inc/class-fusion-builder-library.php:736
-#: inc/class-fusion-builder-library.php:1398
-#: inc/class-fusion-builder-library.php:1487
-#: inc/class-fusion-builder-library.php:1592
-#: inc/class-fusion-builder-library.php:1724
+#: inc/class-fusion-builder-library.php:691
+#: inc/class-fusion-builder-library.php:739
+#: inc/class-fusion-builder-library.php:1401
+#: inc/class-fusion-builder-library.php:1490
+#: inc/class-fusion-builder-library.php:1595
+#: inc/class-fusion-builder-library.php:1727
 #: inc/class-fusion-custom-icons-table.php:260 inc/helpers.php:3061
 #: inc/lib/inc/fusion-app/helpers.php:364 inc/templates/context-menu.php:100
 msgid "Edit"
@@ -811,7 +811,7 @@ msgid "Save Page"
 msgstr ""
 
 #: front-end/templates/front-end-shortcuts.php:103
-#: inc/class-fusion-builder-library.php:1637
+#: inc/class-fusion-builder-library.php:1640
 msgid "Save Template"
 msgstr ""
 
@@ -862,7 +862,7 @@ msgstr ""
 #: front-end/templates/front-end-toolbar.php:22
 #: inc/class-fusion-builder-admin.php:147
 #: inc/class-fusion-builder-admin.php:238
-#: inc/class-fusion-builder-library.php:1234
+#: inc/class-fusion-builder-library.php:1237
 #: inc/lib/inc/fusion-app/helpers.php:272
 msgid "Library"
 msgstr ""
@@ -1168,7 +1168,7 @@ msgid "Delete Layout"
 msgstr ""
 
 #: inc/admin-screens/layout-builder/layout.php:21
-#: inc/class-fusion-template-builder.php:598
+#: inc/class-fusion-template-builder.php:609
 msgid "Global Layout"
 msgstr ""
 
@@ -1188,7 +1188,7 @@ msgid "Select %s"
 msgstr ""
 
 #: inc/admin-screens/layout-builder/layout.php:60
-#: inc/class-fusion-template-builder.php:299
+#: inc/class-fusion-template-builder.php:310
 msgid "Edit Section"
 msgstr ""
 
@@ -1209,7 +1209,7 @@ msgid "Sections here appear globally."
 msgstr ""
 
 #: inc/admin-screens/layout-builder/layout.php:87
-#: inc/class-fusion-template-builder.php:300
+#: inc/class-fusion-template-builder.php:311
 msgid "New Section"
 msgstr ""
 
@@ -1265,8 +1265,8 @@ msgid ""
 msgstr ""
 
 #: inc/admin-screens/layout-sections.php:43 inc/admin-screens/layouts.php:43
-#: inc/class-fusion-template-builder.php:2844
-#: inc/class-fusion-template-builder.php:2863
+#: inc/class-fusion-template-builder.php:2898
+#: inc/class-fusion-template-builder.php:2917
 #: inc/class-fusion-woo-products-component.php:686
 #: shortcodes/awb-categories.php:807 shortcodes/awb-post-list.php:1435
 #: shortcodes/components/archives.php:537 shortcodes/components/meta.php:859
@@ -1866,9 +1866,9 @@ msgid "No post to clone or no permission."
 msgstr ""
 
 #: inc/class-awb-clone-posts.php:137 inc/class-awb-off-canvas-admin.php:192
-#: inc/class-fusion-builder-library.php:1899
+#: inc/class-fusion-builder-library.php:1902
 #: inc/class-fusion-form-builder.php:588
-#: inc/class-fusion-template-builder.php:3340
+#: inc/class-fusion-template-builder.php:3394
 #. translators: The post title.
 msgid "%s ( Cloned )"
 msgstr ""
@@ -1992,12 +1992,12 @@ msgid "Register"
 msgstr ""
 
 #: inc/class-awb-off-canvas-admin.php:137
-#: inc/class-fusion-builder-library.php:1842
+#: inc/class-fusion-builder-library.php:1845
 msgid "No element to clone."
 msgstr ""
 
 #: inc/class-awb-off-canvas-admin.php:156
-#: inc/class-fusion-builder-library.php:1863
+#: inc/class-fusion-builder-library.php:1866
 #. translators: The ID not found.
 msgid "Cloning failed. Element not found. ID: %s"
 msgstr ""
@@ -2141,7 +2141,7 @@ msgstr ""
 msgid "Sync Avada Studio"
 msgstr ""
 
-#: inc/class-awb-studio-admin.php:109 inc/class-fusion-builder-library.php:1241
+#: inc/class-awb-studio-admin.php:109 inc/class-fusion-builder-library.php:1244
 msgid "Templates"
 msgstr ""
 
@@ -2153,7 +2153,7 @@ msgstr ""
 msgid "Page Title Bars"
 msgstr ""
 
-#: inc/class-awb-studio-admin.php:123 inc/class-fusion-template-builder.php:376
+#: inc/class-awb-studio-admin.php:123 inc/class-fusion-template-builder.php:387
 #: inc/lib/inc/fusion-app/helpers.php:689 shortcodes/components/content.php:554
 #: shortcodes/form/image-select.php:375 shortcodes/fusion-checklist.php:719
 #: shortcodes/fusion-circles-info.php:717
@@ -2179,11 +2179,11 @@ msgstr ""
 
 #: inc/class-awb-studio-admin.php:133
 #: inc/class-fusion-builder-library-table.php:488
-#: inc/class-fusion-builder-library.php:1242
+#: inc/class-fusion-builder-library.php:1245
 msgid "Containers"
 msgstr ""
 
-#: inc/class-awb-studio-admin.php:137 inc/class-fusion-builder-library.php:1243
+#: inc/class-awb-studio-admin.php:137 inc/class-fusion-builder-library.php:1246
 #: inc/class-fusion-woo-products-component.php:692
 #: inc/lib/inc/fusion-app/helpers.php:299
 #: shortcodes/fusion-testimonials.php:1647
@@ -2192,7 +2192,7 @@ msgstr ""
 
 #: inc/class-awb-studio-admin.php:141
 #: inc/class-fusion-builder-library-table.php:51
-#: inc/class-fusion-builder-library.php:1245
+#: inc/class-fusion-builder-library.php:1248
 msgid "Elements"
 msgstr ""
 
@@ -2254,21 +2254,21 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
-#: inc/class-awb-studio.php:149 inc/class-fusion-builder-library.php:722
-#: inc/class-fusion-builder-library.php:1697
-#: inc/class-fusion-builder-library.php:1710
+#: inc/class-awb-studio.php:149 inc/class-fusion-builder-library.php:725
+#: inc/class-fusion-builder-library.php:1700
+#: inc/class-fusion-builder-library.php:1713
 msgid "Insert above current content"
 msgstr ""
 
-#: inc/class-awb-studio.php:155 inc/class-fusion-builder-library.php:719
-#: inc/class-fusion-builder-library.php:1694
-#: inc/class-fusion-builder-library.php:1710
+#: inc/class-awb-studio.php:155 inc/class-fusion-builder-library.php:722
+#: inc/class-fusion-builder-library.php:1697
+#: inc/class-fusion-builder-library.php:1713
 msgid "Replace all page content"
 msgstr ""
 
-#: inc/class-awb-studio.php:161 inc/class-fusion-builder-library.php:725
-#: inc/class-fusion-builder-library.php:1700
-#: inc/class-fusion-builder-library.php:1710
+#: inc/class-awb-studio.php:161 inc/class-fusion-builder-library.php:728
+#: inc/class-fusion-builder-library.php:1703
+#: inc/class-fusion-builder-library.php:1713
 msgid "Insert below current content"
 msgstr ""
 
@@ -4922,7 +4922,7 @@ msgid "Type"
 msgstr ""
 
 #: inc/class-fusion-builder-library-table.php:109
-#: inc/class-fusion-template-builder.php:2850
+#: inc/class-fusion-template-builder.php:2904
 msgid "Global"
 msgstr ""
 
@@ -4981,22 +4981,22 @@ msgid "Avada Library is empty."
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:276
-#: inc/class-fusion-template-builder.php:258
+#: inc/class-fusion-template-builder.php:269
 msgid "Add New Layout"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:277
-#: inc/class-fusion-template-builder.php:259
+#: inc/class-fusion-template-builder.php:270
 msgid "Edit Layout"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:278
-#: inc/class-fusion-template-builder.php:260
+#: inc/class-fusion-template-builder.php:271
 msgid "New Layout"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:279
-#: inc/class-fusion-template-builder.php:261
+#: inc/class-fusion-template-builder.php:272
 msgid "All Layouts"
 msgstr ""
 
@@ -5005,51 +5005,51 @@ msgid "View Layout"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:281
-#: inc/class-fusion-template-builder.php:263
+#: inc/class-fusion-template-builder.php:274
 msgid "Search Layouts"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:282
 #: inc/class-fusion-builder-library.php:321
-#: inc/class-fusion-template-builder.php:264
-#: inc/class-fusion-template-builder.php:304
+#: inc/class-fusion-template-builder.php:275
+#: inc/class-fusion-template-builder.php:315
 msgid "Nothing found"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:283
 #: inc/class-fusion-builder-library.php:322
-#: inc/class-fusion-template-builder.php:265
-#: inc/class-fusion-template-builder.php:305
+#: inc/class-fusion-template-builder.php:276
+#: inc/class-fusion-template-builder.php:316
 msgid "Nothing found in Trash"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:284
-#: inc/class-fusion-template-builder.php:266
-#: inc/class-fusion-template-builder.php:306
+#: inc/class-fusion-template-builder.php:277
+#: inc/class-fusion-template-builder.php:317
 msgid "Layout published."
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:285
-#: inc/class-fusion-template-builder.php:267
-#: inc/class-fusion-template-builder.php:307
+#: inc/class-fusion-template-builder.php:278
+#: inc/class-fusion-template-builder.php:318
 msgid "Layout published privately."
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:286
-#: inc/class-fusion-template-builder.php:268
-#: inc/class-fusion-template-builder.php:308
+#: inc/class-fusion-template-builder.php:279
+#: inc/class-fusion-template-builder.php:319
 msgid "Layout reverted to draft."
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:287
-#: inc/class-fusion-template-builder.php:269
-#: inc/class-fusion-template-builder.php:309
+#: inc/class-fusion-template-builder.php:280
+#: inc/class-fusion-template-builder.php:320
 msgid "Layout scheduled."
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:288
-#: inc/class-fusion-template-builder.php:270
-#: inc/class-fusion-template-builder.php:310
+#: inc/class-fusion-template-builder.php:281
+#: inc/class-fusion-template-builder.php:321
 msgid "Layout updated."
 msgstr ""
 
@@ -5111,17 +5111,17 @@ msgstr ""
 msgid "Imported Post Card"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:667
+#: inc/class-fusion-builder-library.php:670
 #. translators: The global's type.
 msgid "This is a global %s."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:676
-#: inc/class-fusion-builder-library.php:746
-#: inc/class-fusion-builder-library.php:1388
-#: inc/class-fusion-builder-library.php:1497
-#: inc/class-fusion-builder-library.php:1602
-#: inc/class-fusion-builder-library.php:1734
+#: inc/class-fusion-builder-library.php:679
+#: inc/class-fusion-builder-library.php:749
+#: inc/class-fusion-builder-library.php:1391
+#: inc/class-fusion-builder-library.php:1500
+#: inc/class-fusion-builder-library.php:1605
+#: inc/class-fusion-builder-library.php:1737
 #: inc/class-fusion-form-list-table.php:338
 #: inc/critical-css/class-awb-critical-css-table.php:255
 #: inc/critical-css/class-awb-critical-css-table.php:324
@@ -5135,70 +5135,70 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:708
-#: inc/class-fusion-builder-library.php:1682
+#: inc/class-fusion-builder-library.php:711
+#: inc/class-fusion-builder-library.php:1685
 msgid "Load"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:715
-#: inc/class-fusion-builder-library.php:1688
-#: inc/class-fusion-builder-library.php:1710
+#: inc/class-fusion-builder-library.php:718
+#: inc/class-fusion-builder-library.php:1691
+#: inc/class-fusion-builder-library.php:1713
 msgid "How To Load Template?"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:879
-#: inc/class-fusion-builder-library.php:1617
+#: inc/class-fusion-builder-library.php:882
+#: inc/class-fusion-builder-library.php:1620
 msgid "There are no custom elements in your library"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1238
+#: inc/class-fusion-builder-library.php:1241
 msgid "Websites"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1259
+#: inc/class-fusion-builder-library.php:1262
 msgid "Failed to retrieve data from API."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1270
+#: inc/class-fusion-builder-library.php:1273
 msgid "Back to websites"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1277
+#: inc/class-fusion-builder-library.php:1280
 msgid ""
 "Select a prebuilt website and the pages that are available to import will "
 "display."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1287
+#: inc/class-fusion-builder-library.php:1290
 msgid "Avada needs to be registered to access the prebuilt websites page import"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1288
+#: inc/class-fusion-builder-library.php:1291
 msgid ""
 "To import single pages from any of the Avada prebuilt websites, you need to "
 "register your copy of Avada. You can do this from the Avada Dashboard."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1290
-#: inc/class-fusion-builder-library.php:1317
+#: inc/class-fusion-builder-library.php:1293
+#: inc/class-fusion-builder-library.php:1320
 msgid "Avada Registration"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1314
+#: inc/class-fusion-builder-library.php:1317
 msgid "Avada needs to be registered to access the Avada Studio"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1315
+#: inc/class-fusion-builder-library.php:1318
 msgid ""
 "To access Avada Studio content, you need to register your copy of Avada. "
 "You can do this from the Avada Dashboard."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1333
+#: inc/class-fusion-builder-library.php:1336
 msgid "Saved Containers"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1338
+#: inc/class-fusion-builder-library.php:1341
 #. translators: The "Fusion Documentation" link.
 msgid ""
 "Manage your saved containers. Containers cannot be inserted from the "
@@ -5206,19 +5206,19 @@ msgid ""
 "target=\"_blank\">global element</a>."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1378
+#: inc/class-fusion-builder-library.php:1381
 msgid "This is a global container."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1412
+#: inc/class-fusion-builder-library.php:1415
 msgid "There are no custom containers in your library"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1432
+#: inc/class-fusion-builder-library.php:1435
 msgid "Saved Columns"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1437
+#: inc/class-fusion-builder-library.php:1440
 #. translators: The "Fusion Documentation" link.
 msgid ""
 "Manage your saved columns. Columns cannot be inserted from the library "
@@ -5226,19 +5226,19 @@ msgid ""
 "the element is a <a href=\"%s\" target=\"_blank\">global element</a>."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1477
+#: inc/class-fusion-builder-library.php:1480
 msgid "This is a global column."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1512
+#: inc/class-fusion-builder-library.php:1515
 msgid "There are no custom columns in your library"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1533
+#: inc/class-fusion-builder-library.php:1536
 msgid "Saved Elements"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1539
+#: inc/class-fusion-builder-library.php:1542
 #. translators: The "Fusion Documentation" link.
 msgid ""
 "Manage your saved elements. Elements cannot be inserted from the library "
@@ -5246,19 +5246,19 @@ msgid ""
 "the element is a <a href=\"%s\" target=\"_blank\">global element</a>."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1581
+#: inc/class-fusion-builder-library.php:1584
 msgid "This is a global element."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1638
+#: inc/class-fusion-builder-library.php:1641
 msgid "Custom template name"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1642
+#: inc/class-fusion-builder-library.php:1645
 msgid "Save current page layout as a template"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1643
+#: inc/class-fusion-builder-library.php:1646
 msgid ""
 "Enter a name for your template and click the Save button. This will save "
 "the entire page layout, page template from the page attributes box, custom "
@@ -5268,11 +5268,11 @@ msgid ""
 "existing content only the saved content will be added."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1651
+#: inc/class-fusion-builder-library.php:1654
 msgid "Saved Templates"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1652
+#: inc/class-fusion-builder-library.php:1655
 msgid ""
 "IMPORTANT: When loading a saved template through the \"Replace All "
 "Content\" option, everything will load, including the page template and "
@@ -5280,12 +5280,12 @@ msgid ""
 "saved content will be added."
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1709
+#: inc/class-fusion-builder-library.php:1712
 #. translators: content.
 msgid "Load %s"
 msgstr ""
 
-#: inc/class-fusion-builder-library.php:1749
+#: inc/class-fusion-builder-library.php:1752
 msgid "There are no custom templates in your library"
 msgstr ""
 
@@ -7829,7 +7829,7 @@ msgid "Archives: %s"
 msgstr ""
 
 #: inc/class-fusion-dynamic-data-callbacks.php:481
-#: inc/class-fusion-template-builder.php:3107
+#: inc/class-fusion-template-builder.php:3161
 #: shortcodes/components/archives.php:280
 msgid "Archives"
 msgstr ""
@@ -8508,7 +8508,7 @@ msgstr ""
 #: inc/class-fusion-dynamic-data.php:1877
 #: inc/class-fusion-dynamic-data.php:1897
 #: inc/class-fusion-dynamic-data.php:1916
-#: inc/class-fusion-template-builder.php:3002
+#: inc/class-fusion-template-builder.php:3056
 #: inc/lib/inc/fusion-app/helpers.php:643
 msgid "Other"
 msgstr ""
@@ -9737,7 +9737,7 @@ msgstr ""
 #: inc/class-fusion-dynamic-data.php:4098
 #: inc/class-fusion-dynamic-data.php:4109
 #: inc/class-fusion-dynamic-data.php:4120
-#: inc/class-fusion-template-builder.php:372
+#: inc/class-fusion-template-builder.php:383
 msgid "Page Title Bar"
 msgstr ""
 
@@ -10758,52 +10758,52 @@ msgstr ""
 msgid "No custom templates have been created yet."
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:262
+#: inc/class-fusion-template-builder.php:273
 msgid "View Layouts"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:298
+#: inc/class-fusion-template-builder.php:309
 msgid "Add New Section"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:301
+#: inc/class-fusion-template-builder.php:312
 msgid "All Sections"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:302
+#: inc/class-fusion-template-builder.php:313
 msgid "View Sections"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:303
+#: inc/class-fusion-template-builder.php:314
 msgid "Search Sections"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:336
+#: inc/class-fusion-template-builder.php:347
 msgid "Section Category"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:368
+#: inc/class-fusion-template-builder.php:379
 #: shortcodes/fusion-facebook-page.php:502
 #: shortcodes/fusion-twitter-timeline.php:447
 msgid "Header"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:381
+#: inc/class-fusion-template-builder.php:392
 #: shortcodes/fusion-twitter-timeline.php:458
 msgid "Footer"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:2405
+#: inc/class-fusion-template-builder.php:2459
 #: inc/helpers/class-fusion-builder-form-helper.php:532
 #: inc/lib/inc/fusion-app/class-fusion-app.php:730
 msgid "Page"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:2844
+#: inc/class-fusion-template-builder.php:2898
 msgid "%s Layout Section"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:2860
+#: inc/class-fusion-template-builder.php:2914
 #. translators: %1$s: The current post type. %2$s: "header", "footer" or "page
 #. title bar". %3$s: Layouts screen title & link. %4$s: Link & title for the
 #. specific override.
@@ -10812,78 +10812,78 @@ msgid ""
 "%4$s"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:2870
+#: inc/class-fusion-template-builder.php:2924
 #. translators: 1: The current post type and the edit link. 2: "footer" or
 #. "page title bar". 3: template title & link.
 msgid "This %1$s is currently using a custom %2$s - %3$s."
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3006
+#: inc/class-fusion-template-builder.php:3060
 #: inc/lib/inc/fusion-app/helpers.php:627
 msgid "Search Results"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3011
+#: inc/class-fusion-template-builder.php:3065
 msgid "404 Page"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3020
+#: inc/class-fusion-template-builder.php:3074
 msgid "WooCommerce Thank You Page"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3050
-#: inc/class-fusion-template-builder.php:3183
+#: inc/class-fusion-template-builder.php:3104
+#: inc/class-fusion-template-builder.php:3237
 #. Translators: The post-type label.
 msgid "All %s"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3057
+#: inc/class-fusion-template-builder.php:3111
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:185
 msgid "Front Page"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3065
-#: inc/class-fusion-template-builder.php:3190
+#: inc/class-fusion-template-builder.php:3119
+#: inc/class-fusion-template-builder.php:3244
 #. Translators: The post-type label.
 msgid "Specific %s"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3074
+#: inc/class-fusion-template-builder.php:3128
 #. Translators: The post-type label.
 msgid "Children of Specific %s"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3089
+#: inc/class-fusion-template-builder.php:3143
 #. translators: 1: The post-type label. 2: The taxonomy label.
 msgid "%1$s with Specific %2$s"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3111
+#: inc/class-fusion-template-builder.php:3165
 msgid "All Archives Pages"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3135
+#: inc/class-fusion-template-builder.php:3189
 #. Translators: The post-type label.
 msgid "%s Archive Types"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3143
+#: inc/class-fusion-template-builder.php:3197
 msgid "All Date Pages"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3150
+#: inc/class-fusion-template-builder.php:3204
 msgid "All Author Pages"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3155
+#: inc/class-fusion-template-builder.php:3209
 msgid "Specific Author Page"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3283
+#: inc/class-fusion-template-builder.php:3337
 msgid "No section to clone."
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:3304
+#: inc/class-fusion-template-builder.php:3358
 #. translators: The ID not found.
 msgid "Cloning failed. Section not found. ID: %s"
 msgstr ""
@@ -49022,7 +49022,7 @@ msgid "Layout"
 msgstr ""
 
 #: inc/class-fusion-builder-library.php:275
-#: inc/class-fusion-template-builder.php:257
+#: inc/class-fusion-template-builder.php:268
 msgctxt "Layout item"
 msgid "Add New"
 msgstr ""
@@ -49128,27 +49128,27 @@ msgctxt "fusion-builder"
 msgid "Edit Form"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:255
+#: inc/class-fusion-template-builder.php:266
 msgctxt "Layout general name"
 msgid "Avada Layouts"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:256
+#: inc/class-fusion-template-builder.php:267
 msgctxt "Layout singular name"
 msgid "Layout"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:295
+#: inc/class-fusion-template-builder.php:306
 msgctxt "Section type general name"
 msgid "Avada Layout Sections"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:296
+#: inc/class-fusion-template-builder.php:307
 msgctxt "Section type singular name"
 msgid "Section"
 msgstr ""
 
-#: inc/class-fusion-template-builder.php:297
+#: inc/class-fusion-template-builder.php:308
 msgctxt "Section item"
 msgid "Add New"
 msgstr ""
