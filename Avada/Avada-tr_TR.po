@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada 7.12.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-10-26 08:56:12+00:00\n"
+"POT-Creation-Date: 2026-11-13 10:57:20+00:00\n"
 "PO-Revision-Date: 2025-07-26 22:27+0300\n"
 "Last-Translator: Kaya Zeren <translator@zeron.net>\n"
 "Language-Team: Turkish (Turkey)\n"
@@ -95,8 +95,8 @@ msgstr[1] "% yorum"
 #: includes/class-avada-layout-bbpress.php:249
 #: includes/class-avada-layout-bbpress.php:271
 #: includes/class-avada-woocommerce.php:920
-#: includes/lib/inc/class-fusion-scripts.php:597
-#: includes/lib/inc/functions.php:1108
+#: includes/lib/inc/class-fusion-scripts.php:640
+#: includes/lib/inc/functions.php:1128
 #: includes/lib/inc/fusion-app/helpers.php:650 single-wpfc_sermon.php:21
 #: single.php:20
 msgid "Previous"
@@ -108,8 +108,8 @@ msgstr "Önceki"
 #: includes/class-avada-layout-bbpress.php:250
 #: includes/class-avada-layout-bbpress.php:272
 #: includes/class-avada-woocommerce.php:921
-#: includes/lib/inc/class-fusion-scripts.php:596
-#: includes/lib/inc/functions.php:1154
+#: includes/lib/inc/class-fusion-scripts.php:639
+#: includes/lib/inc/functions.php:1174
 #: includes/lib/inc/fusion-app/helpers.php:651 single-wpfc_sermon.php:22
 #: single.php:21
 msgid "Next"
@@ -237,7 +237,7 @@ msgid "Avada Resources"
 msgstr "Avada kaynakları"
 
 #: includes/admin-screens/dashboard.php:92
-#: includes/class-avada-tgm-plugin-activation.php:2344
+#: includes/class-avada-tgm-plugin-activation.php:2325
 msgid "Recommended"
 msgstr "Önerilir"
 
@@ -489,6 +489,7 @@ msgstr ""
 #: includes/metaboxes/tabs/tab_studio.php:109
 #: includes/metaboxes/tabs/tab_template.php:426 includes/options/extra.php:305
 #: includes/options/footer.php:160 includes/options/footer.php:675
+#: includes/options/lightbox.php:1261 includes/options/lightbox.php:1574
 #: includes/options/menu.php:731 includes/options/page_title_bar.php:103
 #: includes/options/performance.php:80 includes/options/performance.php:107
 #: includes/options/performance.php:502 includes/options/portfolio.php:305
@@ -598,10 +599,10 @@ msgstr "Açık"
 #: includes/metaboxes/tabs/tab_form_notifications.php:71
 #: includes/metaboxes/tabs/tab_page.php:228 includes/options/advanced.php:507
 #: includes/options/extra.php:1174 includes/options/forms.php:458
-#: includes/options/forms.php:527 includes/options/maintenance.php:59
-#: includes/options/performance.php:300 includes/options/responsive.php:44
-#: includes/options/responsive.php:214 includes/options/woocommerce.php:634
-#: includes/options/woocommerce.php:646
+#: includes/options/forms.php:527 includes/options/lightbox.php:719
+#: includes/options/maintenance.php:59 includes/options/performance.php:300
+#: includes/options/responsive.php:44 includes/options/responsive.php:214
+#: includes/options/woocommerce.php:634 includes/options/woocommerce.php:646
 msgid "Off"
 msgstr "Kapalı"
 
@@ -700,7 +701,7 @@ msgstr "Uyarı: Çok sayıda yazı bulundu. Tarama işlemi biraz zaman alabilir.
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:166
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:221
 #: includes/metaboxes/options/options_es.php:17
-#: includes/options/lightbox.php:411 templates/wc-quick-view-container.php:22
+#: includes/options/lightbox.php:1354 templates/wc-quick-view-container.php:22
 msgid "Title"
 msgstr "Başlık"
 
@@ -909,7 +910,7 @@ msgstr "Simge"
 #: includes/admin-screens/performance.php:417
 #: includes/avada-app/class-fusion-panel.php:526
 #: includes/avada-functions.php:1872 includes/class-awb-site-data.php:455
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1250
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1253
 #: includes/options/advanced.php:653
 msgid "Avada Slider"
 msgstr "Avada kaydırıcı"
@@ -1281,7 +1282,7 @@ msgid "Available Version: %s"
 msgstr "Kullanılabilecek sürüm: %s"
 
 #: includes/admin-screens/plugins.php:185
-#: includes/class-avada-tgm-plugin-activation.php:2341
+#: includes/class-avada-tgm-plugin-activation.php:2322
 #: includes/lib/inc/fusion-app/helpers.php:449
 msgid "Required"
 msgstr "Gerekli"
@@ -1340,7 +1341,7 @@ msgstr "Bir bölümünü içe aktar"
 
 #: includes/admin-screens/prebuilt-websites-demo.php:89
 #: includes/avada-app/fusion-panel.php:165
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2842
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2870
 #: includes/lib/inc/fusion-app/helpers.php:223
 #: includes/lib/inc/fusion-app/templates/front-end-toolbar.php:149
 #: includes/metaboxes/metaboxes.php:675
@@ -1372,13 +1373,13 @@ msgstr "Kurulum gerekli"
 
 #: includes/admin-screens/prebuilt-websites-import-modal.php:47
 #: includes/class-avada-admin.php:1172
-#: includes/class-avada-tgm-plugin-activation.php:2789
+#: includes/class-avada-tgm-plugin-activation.php:2770
 msgid "Install"
 msgstr "Kur"
 
 #: includes/admin-screens/prebuilt-websites-import-modal.php:50
 #: includes/class-avada-admin.php:1506
-#: includes/class-avada-tgm-plugin-activation.php:2389
+#: includes/class-avada-tgm-plugin-activation.php:2370
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:104
 #: includes/metaboxes/tabs/tab_form_steps.php:108
 #: includes/metaboxes/tabs/tab_form_steps.php:245
@@ -1391,7 +1392,7 @@ msgstr "Etkin"
 
 #: includes/admin-screens/prebuilt-websites-import-modal.php:53
 #: includes/class-avada-admin.php:1191
-#: includes/class-avada-tgm-plugin-activation.php:2798
+#: includes/class-avada-tgm-plugin-activation.php:2779
 msgid "Activate"
 msgstr "Etkinleştir"
 
@@ -1778,7 +1779,7 @@ msgstr "Geri"
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:184
 #: includes/lib/inc/widgets/class-fusion-widget-tweets.php:340
 #: includes/options/advanced.php:352 includes/options/forms.php:296
-#: includes/options/forms.php:373 includes/options/lightbox.php:79
+#: includes/options/forms.php:373 includes/options/lightbox.php:389
 msgid "Light"
 msgstr "Açık"
 
@@ -1786,7 +1787,7 @@ msgstr "Açık"
 #: includes/lib/inc/fusion-app/class-fusion-preferences.php:185
 #: includes/lib/inc/widgets/class-fusion-widget-tweets.php:341
 #: includes/options/forms.php:297 includes/options/forms.php:374
-#: includes/options/lightbox.php:80
+#: includes/options/lightbox.php:390
 msgid "Dark"
 msgstr "Koyu"
 
@@ -2257,7 +2258,7 @@ msgstr "Formlar"
 
 #: includes/admin-screens/setup.php:910 includes/class-avada-admin-bar.php:69
 #: includes/class-avada-megamenu-framework.php:522
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1197
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1200
 #: includes/metaboxes/tabs/tab_form_submission.php:240
 #: includes/options/typography.php:331
 msgid "Off Canvas"
@@ -2799,8 +2800,12 @@ msgstr "PHP bellek sınırı:"
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
 msgstr "Sitenizin bir anda kullanabileceği en fazla bellek (RAM) miktarı."
 
+#: includes/admin-screens/status.php:461
+msgid "Unlimited"
+msgstr ""
+
 #. translators: %1$s: Current value. %2$s: URL.
-#: includes/admin-screens/status.php:465
+#: includes/admin-screens/status.php:466
 msgid ""
 "%1$s - We recommend setting memory to at least <strong>128MB</strong>. "
 "Please define memory limit in <strong>wp-config.php</strong> file. To learn "
@@ -2813,80 +2818,80 @@ msgstr ""
 "target=\"_blank\" rel=\"noopener noreferrer\">PHP belleğini arttırmak</a> "
 "bölümüne bakabilirsiniz."
 
-#: includes/admin-screens/status.php:475
+#: includes/admin-screens/status.php:476
 msgid "WP Debug Mode:"
 msgstr "WP hata ayıklama kipi:"
 
-#: includes/admin-screens/status.php:476
+#: includes/admin-screens/status.php:477
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:243
 msgid "Displays whether or not WordPress is in Debug Mode."
 msgstr "WordPress hata ayıklama kipinin açık/kapalı durumu."
 
-#: includes/admin-screens/status.php:486
+#: includes/admin-screens/status.php:487
 msgid "Language:"
 msgstr "Dil:"
 
-#: includes/admin-screens/status.php:487
+#: includes/admin-screens/status.php:488
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:258
 msgid "The current language used by WordPress. Default = English"
 msgstr "WordPress tarafından kullanılan geçerli dil. Varsayılan: İngilizce"
 
-#: includes/admin-screens/status.php:495
+#: includes/admin-screens/status.php:496
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:297
 msgid "Server Environment"
 msgstr "Sunucu ortamı"
 
-#: includes/admin-screens/status.php:500
+#: includes/admin-screens/status.php:501
 msgid "Server Info:"
 msgstr "Sunucu bilgileri:"
 
-#: includes/admin-screens/status.php:501
+#: includes/admin-screens/status.php:502
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:307
 msgid "Information about the web server that is currently hosting your site."
 msgstr "Sitenin barındırıldığı sunucu hakkındaki bilgiler."
 
-#: includes/admin-screens/status.php:502 includes/class-awb-site-data.php:156
+#: includes/admin-screens/status.php:503 includes/class-awb-site-data.php:156
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
-#: includes/admin-screens/status.php:505
+#: includes/admin-screens/status.php:506
 msgid "PHP Version:"
 msgstr "PHP sürümü:"
 
-#: includes/admin-screens/status.php:506
+#: includes/admin-screens/status.php:507
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:335
 msgid "The version of PHP installed on your hosting server."
 msgstr "Sitenin barındırıldığı sunucuda kurulu PHP sürümü."
 
-#: includes/admin-screens/status.php:516
+#: includes/admin-screens/status.php:517
 msgid "PHP Version could not be detected."
 msgstr "PHP sürümü algılanamadı."
 
 #. translators: %1$s: Current PHP version. %2$s: Recommended PHP version. %3$s:
 #. "WordPress Requirements" link.
-#: includes/admin-screens/status.php:523
+#: includes/admin-screens/status.php:524
 msgid "%1$s. WordPress recommendation: %2$s or above. See %3$s for details."
 msgstr ""
 "%1$s. WordPress önerisi: %2$s ya da üzeri. Ayrıntılı bilgi almak için %3$s "
 "bölümüne bakın."
 
-#: includes/admin-screens/status.php:526
+#: includes/admin-screens/status.php:527
 msgid "WordPress Requirements"
 msgstr "WordPress gereksinimleri"
 
-#: includes/admin-screens/status.php:536
+#: includes/admin-screens/status.php:537
 msgid "PHP Post Max Size:"
 msgstr "PHP en büyük gönderi sınırı:"
 
-#: includes/admin-screens/status.php:537
+#: includes/admin-screens/status.php:538
 msgid "The largest file size that can be contained in one post."
 msgstr "Bir gönderide bulunabilecek en büyük dosya boyutu."
 
-#: includes/admin-screens/status.php:541
+#: includes/admin-screens/status.php:542
 msgid "PHP Time Limit:"
 msgstr "PHP en uzun yürütme süresi:"
 
-#: includes/admin-screens/status.php:542
+#: includes/admin-screens/status.php:543
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:366
 msgid ""
 "The amount of time (in seconds) that your site will spend on a single "
@@ -2896,7 +2901,7 @@ msgstr ""
 "tamamlamak için bekleyeceği süre (sunucu kilitlenmelerini engeller)"
 
 #. translators: %1$s: Current value. %2$s: URL.
-#: includes/admin-screens/status.php:549
+#: includes/admin-screens/status.php:550
 msgid ""
 "%1$s - We recommend setting max execution time to at least 180.<br />See: <a "
 "href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing max "
@@ -2907,12 +2912,12 @@ msgstr ""
 "noreferrer\">PHP en uzun yürütme süresini arttırmak</a> bölümüne "
 "bakabilirsiniz"
 
-#: includes/admin-screens/status.php:557
+#: includes/admin-screens/status.php:558
 msgid "PHP Max Input Vars:"
 msgstr "PHP en fazla giriş değişkeni sayısı:"
 
-#: includes/admin-screens/status.php:558 includes/admin-screens/status.php:603
-#: includes/admin-screens/status.php:639
+#: includes/admin-screens/status.php:559 includes/admin-screens/status.php:604
+#: includes/admin-screens/status.php:640
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:371
 msgid ""
 "The maximum number of variables your server can use for a single function to "
@@ -2922,8 +2927,8 @@ msgstr ""
 "kullanabileceği en fazla değişken sayısı."
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
-#: includes/admin-screens/status.php:585 includes/admin-screens/status.php:630
-#: includes/admin-screens/status.php:666
+#: includes/admin-screens/status.php:586 includes/admin-screens/status.php:631
+#: includes/admin-screens/status.php:667
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
 "POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" "
@@ -2934,11 +2939,11 @@ msgstr ""
 "<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">En fazla "
 "giriş değişkeni sayısı sınırını arttırmak</a> bölümüne bakabilirsiniz"
 
-#: includes/admin-screens/status.php:594
+#: includes/admin-screens/status.php:595
 msgid "SUHOSIN Installed:"
 msgstr "SUHOSIN kurulu:"
 
-#: includes/admin-screens/status.php:596
+#: includes/admin-screens/status.php:597
 msgid ""
 "Suhosin is an advanced protection system for PHP installations. It was "
 "designed to protect your servers on the one hand against a number of well "
@@ -2953,19 +2958,19 @@ msgstr ""
 "tasarlanmıştır. Sunucunuzda kullanılıyorsa, Suhosin yapılandırmasının veri "
 "gönderme sınırlarını arttıracak şekilde değiştirilmesi gerekebilir."
 
-#: includes/admin-screens/status.php:602
+#: includes/admin-screens/status.php:603
 msgid "Suhosin Post Max Vars:"
 msgstr "Suhosin gönderileri en fazla değişken sayısı:"
 
-#: includes/admin-screens/status.php:638
+#: includes/admin-screens/status.php:639
 msgid "Suhosin Request Max Vars:"
 msgstr "Suhosin istekleri en fazla değişken sayısı:"
 
-#: includes/admin-screens/status.php:674
+#: includes/admin-screens/status.php:675
 msgid "Suhosin Post Max Value Length:"
 msgstr "Suhosin gönderileri en fazla değer uzunluğu:"
 
-#: includes/admin-screens/status.php:675
+#: includes/admin-screens/status.php:676
 msgid ""
 "Defines the maximum length of a variable that is registered through a POST "
 "request."
@@ -2973,7 +2978,7 @@ msgstr ""
 "Bir POST isteği ile kaydedilen bir değişkenin en fazla uzunluğunu tanımlar."
 
 #. translators: %1$s: Current value. $2%s: Recommended value. %3$s: URL.
-#: includes/admin-screens/status.php:683
+#: includes/admin-screens/status.php:684
 msgid ""
 "%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
 "prohibit the Global Options data from being saved to your database. See: <a "
@@ -2986,11 +2991,11 @@ msgstr ""
 "target=\"_blank\" rel=\"noopener noreferrer\">Suhosin yapılandırma "
 "bilgileri</a> bölümüne bakabilirsiniz."
 
-#: includes/admin-screens/status.php:693
+#: includes/admin-screens/status.php:694
 msgid "ZipArchive:"
 msgstr "ZipArchive:"
 
-#: includes/admin-screens/status.php:694
+#: includes/admin-screens/status.php:695
 msgid ""
 "ZipArchive is required for importing demos. They are used to import and "
 "export zip files specifically for sliders."
@@ -2998,55 +3003,55 @@ msgstr ""
 "Tanıtımları içe aktarmak için ZipArchive gereklidir. Özellikle "
 "kaydırıcıların ZIP dosyalarını içe ve dışa aktarmak için kullanılır."
 
-#: includes/admin-screens/status.php:698
+#: includes/admin-screens/status.php:699
 msgid "cURL:"
 msgstr "cURL:"
 
-#: includes/admin-screens/status.php:699
+#: includes/admin-screens/status.php:700
 msgid "cURL is required for downloading plugins and theme updates."
 msgstr "Eklenti ve tema güncellemelerini indirebilmek için cURL gereklidir."
 
-#: includes/admin-screens/status.php:703
+#: includes/admin-screens/status.php:704
 msgid "PHP Mail:"
 msgstr "PHP Mail:"
 
-#: includes/admin-screens/status.php:704
+#: includes/admin-screens/status.php:705
 msgid "PHP mail is required for sending emails via Avada forms."
 msgstr "Avada Forms ile e-posta gönderebilmek için PHP Mail gereklidir."
 
-#: includes/admin-screens/status.php:708
+#: includes/admin-screens/status.php:709
 msgid "MySQL Version:"
 msgstr "MySQL sürümü:"
 
-#: includes/admin-screens/status.php:709
+#: includes/admin-screens/status.php:710
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:400
 msgid "The version of MySQL installed on your hosting server."
 msgstr "Sitenizin barındırıldığı sunucuda kurulu MySQL sürümü."
 
-#: includes/admin-screens/status.php:716
+#: includes/admin-screens/status.php:717
 msgid "Max Upload Size:"
 msgstr "En büyük yükleme boyutu:"
 
-#: includes/admin-screens/status.php:717
+#: includes/admin-screens/status.php:718
 msgid ""
 "The largest file size that can be uploaded to your WordPress installation."
 msgstr "WordPress kurulumunuza yüklenebilecek en büyük dosya boyutu."
 
-#: includes/admin-screens/status.php:721
+#: includes/admin-screens/status.php:722
 msgid "DOMDocument:"
 msgstr "DOMDocument:"
 
-#: includes/admin-screens/status.php:722
+#: includes/admin-screens/status.php:723
 msgid ""
 "DOMDocument is required for the Avada Builder plugin to properly function."
 msgstr ""
 "Avada Builder eklentisinin düzgün çalışması için DOMDocument gereklidir."
 
-#: includes/admin-screens/status.php:726
+#: includes/admin-screens/status.php:727
 msgid "WP Remote Get:"
 msgstr "WP Remote Get:"
 
-#: includes/admin-screens/status.php:727 includes/admin-screens/status.php:741
+#: includes/admin-screens/status.php:728 includes/admin-screens/status.php:742
 msgid ""
 "Avada uses this method to communicate with different APIs, e.g. Google, X, "
 "Facebook."
@@ -3054,15 +3059,15 @@ msgstr ""
 "Avada, farklı API uygulamaları ile iletişim kurmak için bu yöntemi kullanır. "
 "Örnek: Google, X, Facebook."
 
-#: includes/admin-screens/status.php:740
+#: includes/admin-screens/status.php:741
 msgid "WP Remote Post:"
 msgstr "WP Remote Post:"
 
-#: includes/admin-screens/status.php:754
+#: includes/admin-screens/status.php:755
 msgid "GD Library:"
 msgstr "GD kitaplığı:"
 
-#: includes/admin-screens/status.php:755
+#: includes/admin-screens/status.php:756
 msgid ""
 "Avada uses this library to resize images and speed up your site's loading "
 "time"
@@ -3070,55 +3075,55 @@ msgstr ""
 "Avada görselleri yeniden boyutlandırmak ve sitenizin yüklenme süresini "
 "hızlandırmak için bu kitaplığı kullanır"
 
-#: includes/admin-screens/status.php:758
-#: includes/class-avada-tgm-plugin-activation.php:2383
+#: includes/admin-screens/status.php:759
+#: includes/class-avada-tgm-plugin-activation.php:2364
 msgid "Not Installed"
 msgstr "Kurulmamış"
 
-#: includes/admin-screens/status.php:760
+#: includes/admin-screens/status.php:761
 msgid "Installed"
 msgstr "Kurulmuş"
 
-#: includes/admin-screens/status.php:775
+#: includes/admin-screens/status.php:776
 msgid "Avada Update Server Status"
 msgstr "Avada güncelleme sunucusu durumu"
 
-#: includes/admin-screens/status.php:781
+#: includes/admin-screens/status.php:782
 msgid "Check Envato Server Status"
 msgstr "Envato sunucusu durumunu denetle"
 
-#: includes/admin-screens/status.php:786
+#: includes/admin-screens/status.php:787
 msgid "Envato's API server."
 msgstr "Envato API sunucusu."
 
-#: includes/admin-screens/status.php:791
+#: includes/admin-screens/status.php:792
 msgid "Check Avada Server Status"
 msgstr "Avada sunucusu durumunu denetle"
 
-#: includes/admin-screens/status.php:796
+#: includes/admin-screens/status.php:797
 msgid ""
 "Server from which Avada, plugins, prebuilt websites and patches are "
 "downloaded."
 msgstr ""
 "Avada eklentilerinin, hazır sitelerinin ve yamalarının indirildiği sunucu."
 
-#: includes/admin-screens/status.php:815
+#: includes/admin-screens/status.php:816
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:531
 msgid "Active Plugins"
 msgstr "Etkin eklentiler"
 
-#: includes/admin-screens/status.php:832
+#: includes/admin-screens/status.php:833
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:546
 msgid "Visit plugin homepage"
 msgstr "Eklenti sayfasını açın"
 
 #. translators: plugin author.
-#: includes/admin-screens/status.php:845
+#: includes/admin-screens/status.php:846
 msgid "by %s"
 msgstr "Geliştiren: %s"
 
 #. translators: Version Number.
-#: includes/admin-screens/status.php:863
+#: includes/admin-screens/status.php:864
 msgid ""
 "Note: By clicking OK, the Global Options conversion for Avada %s will be "
 "rerun. This page will be newly loaded, which already completes the "
@@ -3128,7 +3133,7 @@ msgstr ""
 "dönüştürülür. Dönüştürme tamamlandığında bu sayfa yeniden yüklenir."
 
 #. translators: last version.
-#: includes/admin-screens/status.php:873
+#: includes/admin-screens/status.php:874
 msgid ""
 "Warning: By clicking OK, all changes made to your Global Options after "
 "installing Avada 4.0 will be lost. Your Global Options will be reset to the "
@@ -3138,7 +3143,7 @@ msgstr ""
 "ayarlarda yapılan tüm değişiklikler kaybolur. Genel ayarlar %s değerlerine "
 "sıfırlanır ve sonra yeniden 4.0 sürümüne dönüştürülür."
 
-#: includes/admin-screens/status.php:883
+#: includes/admin-screens/status.php:884
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can restart the conversion of your page contents to the "
@@ -3147,7 +3152,7 @@ msgstr ""
 "Uyarı: Tamam üzerinde tıklandığında, sayfa içeriklerinin yeni Avada Builder "
 "biçimine dönüştürülme işlemini yeniden başlatabileceğiniz sayfa açılır."
 
-#: includes/admin-screens/status.php:891
+#: includes/admin-screens/status.php:892
 msgid ""
 "Warning: By clicking OK, you will be redirected to the conversion splash "
 "screen, where you can start the conversion reversion of your page contents "
@@ -3156,7 +3161,7 @@ msgstr ""
 "Uyarı: Tamam üzerinde tıklandığında, sayfa içeriklerini eski Avada Builder "
 "biçimine geri dönüştürme işlemini başlatabileceğiniz sayfa açılır."
 
-#: includes/admin-screens/status.php:899
+#: includes/admin-screens/status.php:900
 msgid ""
 "Warning: This is a non-reversable process. By clicking OK, all backups "
 "created during the 5.0 shortcode-conversion process will be removed from "
@@ -3359,6 +3364,7 @@ msgstr ""
 #: includes/class-avada-nav-walker-megamenu.php:259
 #: includes/lib/inc/class-awb-widget-style.php:438
 #: includes/lib/inc/fusion-app/helpers.php:319
+#: includes/lib/inc/fusion-app/helpers.php:702
 msgid "Cancel"
 msgstr "İptal"
 
@@ -3710,7 +3716,7 @@ msgstr ""
 
 #: includes/avada-functions.php:695 includes/avada-functions.php:761
 #: includes/avada-functions.php:793 includes/avada-functions.php:824
-#: includes/lib/inc/functions.php:1592
+#: includes/lib/inc/functions.php:1612
 #: includes/lib/inc/templates/rollover.php:201
 #: templates/wc-top-user-container.php:47
 msgid "View Cart"
@@ -3722,13 +3728,13 @@ msgid "%s Item(s)"
 msgstr "%s öge"
 
 #: includes/avada-functions.php:713 includes/class-awb-setup-wizard.php:782
-#: includes/class-awb-setup-wizard.php:826 includes/lib/inc/functions.php:1620
-#: includes/lib/inc/functions.php:1646
+#: includes/class-awb-setup-wizard.php:826 includes/lib/inc/functions.php:1640
+#: includes/lib/inc/functions.php:1666
 msgid "Cart"
 msgstr "Sepet"
 
 #: includes/avada-functions.php:762 includes/class-awb-setup-wizard.php:788
-#: includes/class-awb-setup-wizard.php:843 includes/lib/inc/functions.php:1593
+#: includes/class-awb-setup-wizard.php:843 includes/lib/inc/functions.php:1613
 msgid "Checkout"
 msgstr "Ödeme yap"
 
@@ -3984,7 +3990,7 @@ msgid "Return to the Avada Plugins page."
 msgstr "Avada eklentileri sayfasına dön."
 
 #: includes/avada-tgm.php:96 includes/class-avada-tgm-plugin-activation.php:385
-#: includes/class-avada-tgm-plugin-activation.php:3231
+#: includes/class-avada-tgm-plugin-activation.php:3212
 msgid "Plugin activated successfully."
 msgstr "Eklenti etkinleştirildi."
 
@@ -4231,7 +4237,7 @@ msgid "Update %s"
 msgstr "%s güncelle"
 
 #: includes/class-avada-admin.php:1213
-#: includes/class-avada-tgm-plugin-activation.php:2795
+#: includes/class-avada-tgm-plugin-activation.php:2776
 #: templates/wc-cart-shipping-calc.php:91
 msgid "Update"
 msgstr "Güncelle"
@@ -4280,6 +4286,7 @@ msgid "Avada FAQ category base"
 msgstr "Avada SSS kategori temeli"
 
 #: includes/class-avada-admin.php:1490
+#: includes/lib/inc/class-fusion-scripts.php:644
 #: includes/lib/inc/custom-icons/class-fusion-custom-icon-set.php:540
 msgid "Download"
 msgstr "İndir"
@@ -4540,7 +4547,7 @@ msgid "S"
 msgstr "S"
 
 #: includes/class-avada-block-editor.php:370
-#: includes/class-awb-setup-wizard.php:2015 includes/options/lightbox.php:153
+#: includes/class-awb-setup-wizard.php:2015
 #: includes/options/typography.php:1243
 msgid "Normal"
 msgstr "Orta"
@@ -4624,12 +4631,12 @@ msgstr ""
 "ayarları</a> bulunur."
 
 #. Translators: 1: Author name; 2: Site name.
-#: includes/class-avada-head.php:387
+#: includes/class-avada-head.php:392
 msgid "%1$s, Author at %2$s"
 msgstr "%1$s, Sorumlu %2$s zamanında"
 
 #. Translators: Site name.
-#: includes/class-avada-head.php:390
+#: includes/class-avada-head.php:395
 msgid " Authored by %s"
 msgstr " %s tarafından yönetiliyor"
 
@@ -4693,7 +4700,7 @@ msgstr ""
 "ekranda görüntülenir."
 
 #: includes/class-avada-megamenu-framework.php:158
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1162
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1165
 #: includes/metaboxes/metaboxes.php:703
 #: includes/metaboxes/tabs/tab_template.php:163
 msgid "Mega Menu"
@@ -4893,6 +4900,7 @@ msgstr "WooCommerce hesabım"
 
 #: includes/class-avada-megamenu-framework.php:340
 #: includes/class-avada-woocommerce-variations.php:160
+#: includes/lib/inc/fusion-app/helpers.php:749
 msgid "Select all"
 msgstr "Tümünü seç"
 
@@ -4990,6 +4998,7 @@ msgstr "Açılan kutu"
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:20
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:26
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:263
+#: includes/options/lightbox.php:1129 includes/options/lightbox.php:1541
 msgid "Overlay"
 msgstr "Kaplama"
 
@@ -5257,10 +5266,12 @@ msgid "sub item"
 msgstr "alt öge"
 
 #: includes/class-avada-nav-walker-megamenu.php:163
+#: includes/lib/inc/fusion-app/helpers.php:742
 msgid "Move up"
 msgstr "Yukarı taşı"
 
 #: includes/class-avada-nav-walker-megamenu.php:165
+#: includes/lib/inc/fusion-app/helpers.php:739
 msgid "Move down"
 msgstr "Aşağı taşı"
 
@@ -5336,7 +5347,7 @@ msgstr ""
 #: includes/class-avada-page-options.php:404
 #: includes/class-avada-system-status.php:146
 #: includes/class-avada-system-status.php:178
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2296
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2324
 msgid "Permission check failed."
 msgstr ""
 
@@ -5476,16 +5487,16 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: The placeholder label (embed-type).
-#: includes/class-avada-privacy-embeds.php:1310
+#: includes/class-avada-privacy-embeds.php:1318
 msgid "For privacy reasons %s needs your permission to be loaded."
 msgstr "Gizlilik nedeniyle %s yüklenmesi için izniniz gerekiyor."
 
 #. translators: The link to the privacy page (embed-type).
-#: includes/class-avada-privacy-embeds.php:1316
+#: includes/class-avada-privacy-embeds.php:1324
 msgid "For more details, please see our %s."
 msgstr "Ayrıntılı bilgi almak için lütfen %s bölümüne bakın."
 
-#: includes/class-avada-privacy-embeds.php:1323
+#: includes/class-avada-privacy-embeds.php:1331
 msgid "I Accept"
 msgstr "Kabul ediyorum"
 
@@ -5502,27 +5513,27 @@ msgstr "Betikler"
 msgid "Styles"
 msgstr "Biçemler"
 
-#: includes/class-avada-scripts.php:754
+#: includes/class-avada-scripts.php:750
 msgid "No search results match your query. Please try again"
 msgstr "Arama sorgunuza uyan sonuç yok. Lütfen yeniden deneyin"
 
-#: includes/class-avada-scripts.php:801
+#: includes/class-avada-scripts.php:797
 msgid "Go to..."
 msgstr "Git..."
 
-#: includes/class-avada-scripts.php:802
+#: includes/class-avada-scripts.php:798
 msgid "Shopping Cart"
 msgstr "Alışveriş sepeti"
 
 #. Translators: The submenu title.
 #. Translators: The menu item title.
-#: includes/class-avada-scripts.php:804
+#: includes/class-avada-scripts.php:800
 #: includes/lib/inc/class-fusion-nav-walker.php:926
 msgid "Open submenu of %s"
 msgstr "%s alt menüsünü aç"
 
 #. Translators: The submenu title.
-#: includes/class-avada-scripts.php:806
+#: includes/class-avada-scripts.php:802
 msgid "Close submenu of %s"
 msgstr "%s alt menüsünü kapat"
 
@@ -5953,12 +5964,12 @@ msgid "Return to Required Plugins Installer"
 msgstr "Gerekli eklenti kurulumuna dön"
 
 #: includes/class-avada-tgm-plugin-activation.php:384
-#: includes/class-avada-tgm-plugin-activation.php:3652
+#: includes/class-avada-tgm-plugin-activation.php:3633
 msgid "Return to the Dashboard"
 msgstr "Panoya dön"
 
 #: includes/class-avada-tgm-plugin-activation.php:386
-#: includes/class-avada-tgm-plugin-activation.php:3024
+#: includes/class-avada-tgm-plugin-activation.php:3005
 msgid "The following plugin was activated successfully:"
 msgstr "Şu eklenti etkinleştirildi:"
 
@@ -6001,15 +6012,15 @@ msgstr ""
 msgid "Please contact the administrator of this site for help."
 msgstr "Lütfen yardım almak için bu sitenin yöneticisiyle görüşün."
 
-#: includes/class-avada-tgm-plugin-activation.php:571
+#: includes/class-avada-tgm-plugin-activation.php:540
 msgid "This plugin needs to be updated to be compatible with your theme."
 msgstr "Bu eklentinin temanızla uyumlu olması için güncellenmesi gerekiyor."
 
-#: includes/class-avada-tgm-plugin-activation.php:572
+#: includes/class-avada-tgm-plugin-activation.php:541
 msgid "Update Required"
 msgstr "Güncelleme gerekli"
 
-#: includes/class-avada-tgm-plugin-activation.php:988
+#: includes/class-avada-tgm-plugin-activation.php:969
 msgid ""
 "The remote plugin package does not contain a folder with the desired slug "
 "and renaming did not work."
@@ -6017,8 +6028,8 @@ msgstr ""
 "Uzak eklenti paketinde istenilen kısaltmayla bir klasör bulunmuyor ve "
 "yeniden adlandırma yapılamadı."
 
-#: includes/class-avada-tgm-plugin-activation.php:988
-#: includes/class-avada-tgm-plugin-activation.php:991
+#: includes/class-avada-tgm-plugin-activation.php:969
+#: includes/class-avada-tgm-plugin-activation.php:972
 msgid ""
 "Please contact the plugin provider and ask them to package their plugin "
 "according to the WordPress guidelines."
@@ -6026,7 +6037,7 @@ msgstr ""
 "Lütfen eklenti geliştiricisi ile görüşün ve eklentisini WordPress "
 "yönergelerine göre paketlemesini isteyin."
 
-#: includes/class-avada-tgm-plugin-activation.php:991
+#: includes/class-avada-tgm-plugin-activation.php:972
 msgid ""
 "The remote plugin package consists of more than one file, but the files are "
 "not packaged in a folder."
@@ -6034,78 +6045,78 @@ msgstr ""
 "Uzak eklenti paketi birden fazla dosyadan oluşur, ancak dosyalar bir klasör "
 "içinde toplanmaz."
 
-#: includes/class-avada-tgm-plugin-activation.php:1163
+#: includes/class-avada-tgm-plugin-activation.php:1144
 msgid "Install/Activation/Update Of Required Plugin(s) Needed"
 msgstr "Gerekli eklentilerin kurulması/etkinleştirilmesi/güncellenmesi gerekli"
 
 #. translators: %s: version number
-#: includes/class-avada-tgm-plugin-activation.php:2046
+#: includes/class-avada-tgm-plugin-activation.php:2027
 msgid "TGMPA v%s"
 msgstr "TGMPA v%s"
 
-#: includes/class-avada-tgm-plugin-activation.php:2360
+#: includes/class-avada-tgm-plugin-activation.php:2341
 msgid "WordPress Repository"
 msgstr "WordPress dposu"
 
-#: includes/class-avada-tgm-plugin-activation.php:2363
+#: includes/class-avada-tgm-plugin-activation.php:2344
 msgid "External Source"
 msgstr "Dış kaynak"
 
-#: includes/class-avada-tgm-plugin-activation.php:2366
+#: includes/class-avada-tgm-plugin-activation.php:2347
 msgid "Pre-Packaged"
 msgstr "Hazır paket"
 
-#: includes/class-avada-tgm-plugin-activation.php:2387
+#: includes/class-avada-tgm-plugin-activation.php:2368
 msgid "Installed But Not Activated"
 msgstr "Kurulu ancak etkin değil"
 
-#: includes/class-avada-tgm-plugin-activation.php:2395
+#: includes/class-avada-tgm-plugin-activation.php:2376
 msgid "Required Update not Available"
 msgstr "Gerekli güncellemeye erişilemedi"
 
-#: includes/class-avada-tgm-plugin-activation.php:2398
+#: includes/class-avada-tgm-plugin-activation.php:2379
 msgid "Requires Update"
 msgstr "Güncelleme gerekli"
 
-#: includes/class-avada-tgm-plugin-activation.php:2401
+#: includes/class-avada-tgm-plugin-activation.php:2382
 msgid "Update recommended"
 msgstr "Güncellenmesi önerilir"
 
 #. translators: 1: number of plugins.
-#: includes/class-avada-tgm-plugin-activation.php:2460
+#: includes/class-avada-tgm-plugin-activation.php:2441
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] "Kurmak için <span class=\"count\">(%s)</span>"
 msgstr[1] "Kurmak için <span class=\"count\">(%s)</span>"
 
 #. translators: 1: number of plugins.
-#: includes/class-avada-tgm-plugin-activation.php:2464
+#: includes/class-avada-tgm-plugin-activation.php:2445
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] "Güncelleme var <span class=\"count\">(%s)</span>"
 msgstr[1] "Güncelleme var <span class=\"count\">(%s)</span>"
 
 #. translators: 1: number of plugins.
-#: includes/class-avada-tgm-plugin-activation.php:2468
+#: includes/class-avada-tgm-plugin-activation.php:2449
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
 msgstr[0] "Etkinleştirmek için <span class=\"count\">(%s)</span>"
 msgstr[1] "Etkinleştirmek için <span class=\"count\">(%s)</span>"
 
-#: includes/class-avada-tgm-plugin-activation.php:2558
+#: includes/class-avada-tgm-plugin-activation.php:2539
 msgid "Installed version:"
 msgstr "Kurulu sürüm:"
 
-#: includes/class-avada-tgm-plugin-activation.php:2566
+#: includes/class-avada-tgm-plugin-activation.php:2547
 msgid "Minimum required version:"
 msgstr "Gerekli en düşük sürüm:"
 
-#: includes/class-avada-tgm-plugin-activation.php:2578
+#: includes/class-avada-tgm-plugin-activation.php:2559
 msgid "Available version:"
 msgstr "Kullanılabilecek sürüm:"
 
 #. translators: Dashboard URL.
-#: includes/class-avada-tgm-plugin-activation.php:2603
+#: includes/class-avada-tgm-plugin-activation.php:2584
 msgid ""
 "No plugins to install, update or activate. <a href=\"%s\">Return to the "
 "Dashboard</a>"
@@ -6113,93 +6124,93 @@ msgstr ""
 "Kurulacak, güncellenecek ya da etkinleştirilecek bir eklenti yok. <a "
 "href=\"%s\">Panoya dön</a>"
 
-#: includes/class-avada-tgm-plugin-activation.php:2619
+#: includes/class-avada-tgm-plugin-activation.php:2600
 msgid "Plugin"
 msgstr "Eklenti"
 
-#: includes/class-avada-tgm-plugin-activation.php:2620
+#: includes/class-avada-tgm-plugin-activation.php:2601
 msgid "Source"
 msgstr "Kaynak"
 
-#: includes/class-avada-tgm-plugin-activation.php:2621
+#: includes/class-avada-tgm-plugin-activation.php:2602
 msgid "Type"
 msgstr "Tür"
 
-#: includes/class-avada-tgm-plugin-activation.php:2625
+#: includes/class-avada-tgm-plugin-activation.php:2606
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:715
 msgid "Version"
 msgstr "Sürüm"
 
-#: includes/class-avada-tgm-plugin-activation.php:2626
+#: includes/class-avada-tgm-plugin-activation.php:2607
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:323
 #: includes/metaboxes/tabs/tab_form_notifications.php:105
 msgid "Status"
 msgstr "Durum"
 
 #. translators: %2$s: plugin name in screen reader markup
-#: includes/class-avada-tgm-plugin-activation.php:2675
+#: includes/class-avada-tgm-plugin-activation.php:2656
 msgid "Install %2$s"
 msgstr "%2$s kur"
 
 #. translators: %2$s: plugin name in screen reader markup
-#: includes/class-avada-tgm-plugin-activation.php:2680
+#: includes/class-avada-tgm-plugin-activation.php:2661
 msgid "Update %2$s"
 msgstr "%2$s güncelle"
 
 #. translators: %2$s: plugin name in screen reader markup
-#: includes/class-avada-tgm-plugin-activation.php:2686
+#: includes/class-avada-tgm-plugin-activation.php:2667
 msgid "Activate %2$s"
 msgstr "%2$s etkinleştir"
 
-#: includes/class-avada-tgm-plugin-activation.php:2756
+#: includes/class-avada-tgm-plugin-activation.php:2737
 msgid "Upgrade message from the plugin author:"
 msgstr "Eklenti geliştiricisinin yükseltme iletisi:"
 
-#: includes/class-avada-tgm-plugin-activation.php:2829
+#: includes/class-avada-tgm-plugin-activation.php:2810
 msgid "No plugins were selected to be installed. No action taken."
 msgstr "Kurulacak bir eklenti seçilmemiş. Herhangi bir işlem yapılmadı."
 
-#: includes/class-avada-tgm-plugin-activation.php:2831
+#: includes/class-avada-tgm-plugin-activation.php:2812
 msgid "No plugins were selected to be updated. No action taken."
 msgstr "Güncellenecek bir eklenti seçilmemiş. Herhangi bir işlem yapılmadı."
 
-#: includes/class-avada-tgm-plugin-activation.php:2872
+#: includes/class-avada-tgm-plugin-activation.php:2853
 msgid "No plugins are available to be installed at this time."
 msgstr "Şu anda kurulabilecek bir eklenti yok."
 
-#: includes/class-avada-tgm-plugin-activation.php:2874
+#: includes/class-avada-tgm-plugin-activation.php:2855
 msgid "No plugins are available to be updated at this time."
 msgstr "Şu anda güncellenebilecek bir eklenti yok."
 
-#: includes/class-avada-tgm-plugin-activation.php:2980
+#: includes/class-avada-tgm-plugin-activation.php:2961
 msgid "No plugins were selected to be activated. No action taken."
 msgstr ""
 "Etkinleştirilecek bir eklenti seçilmemiş. Herhangi bir işlem yapılmadı."
 
-#: includes/class-avada-tgm-plugin-activation.php:3006
+#: includes/class-avada-tgm-plugin-activation.php:2987
 msgid "No plugins are available to be activated at this time."
 msgstr "Şu anda etkinleştirilebilecek bir eklenti yok."
 
-#: includes/class-avada-tgm-plugin-activation.php:3230
+#: includes/class-avada-tgm-plugin-activation.php:3211
 msgid "Plugin activation failed."
 msgstr "Eklenti etkinleştirilemedi."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: includes/class-avada-tgm-plugin-activation.php:3570
+#: includes/class-avada-tgm-plugin-activation.php:3551
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr "Eklenti güncelleniyor %1$s (%2$d/%3$d)"
 
 #. translators: 1: plugin name, 2: error message.
-#: includes/class-avada-tgm-plugin-activation.php:3573
+#: includes/class-avada-tgm-plugin-activation.php:3554
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr "Kurulum sırasında bir sorun çıktı %1$s: <strong>%2$s</strong>."
 
 #. translators: 1: plugin name.
-#: includes/class-avada-tgm-plugin-activation.php:3575
+#: includes/class-avada-tgm-plugin-activation.php:3556
 msgid "The installation of %1$s failed."
 msgstr "%1$s kurulamadı."
 
-#: includes/class-avada-tgm-plugin-activation.php:3579
+#: includes/class-avada-tgm-plugin-activation.php:3560
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
@@ -6208,30 +6219,30 @@ msgstr ""
 "bu işlemin tamamlanması zaman alabilir. Lütfen sabırlı olun."
 
 #. translators: 1: plugin name.
-#: includes/class-avada-tgm-plugin-activation.php:3581
+#: includes/class-avada-tgm-plugin-activation.php:3562
 msgid "%1$s installed and activated successfully."
 msgstr "%1$s kuruldu ve etkinleştirildi."
 
-#: includes/class-avada-tgm-plugin-activation.php:3581
-#: includes/class-avada-tgm-plugin-activation.php:3589
+#: includes/class-avada-tgm-plugin-activation.php:3562
+#: includes/class-avada-tgm-plugin-activation.php:3570
 msgid "Show Details"
 msgstr "Ayrıntıları görüntüle"
 
-#: includes/class-avada-tgm-plugin-activation.php:3581
-#: includes/class-avada-tgm-plugin-activation.php:3589
+#: includes/class-avada-tgm-plugin-activation.php:3562
+#: includes/class-avada-tgm-plugin-activation.php:3570
 msgid "Hide Details"
 msgstr "Ayrıntıları gizle"
 
-#: includes/class-avada-tgm-plugin-activation.php:3582
+#: includes/class-avada-tgm-plugin-activation.php:3563
 msgid "All installations and activations have been completed."
 msgstr "Tüm kurulumlar ve etkinleştirmeler tamamlandı."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: includes/class-avada-tgm-plugin-activation.php:3584
+#: includes/class-avada-tgm-plugin-activation.php:3565
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr "%1$s eklentisi kuruluyor ve etkinleştiriliyor (%2$d/%3$d)"
 
-#: includes/class-avada-tgm-plugin-activation.php:3587
+#: includes/class-avada-tgm-plugin-activation.php:3568
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
@@ -6240,16 +6251,16 @@ msgstr ""
 "tamamlanması zaman alabilir. Lütfen sabırlı olun."
 
 #. translators: 1: plugin name.
-#: includes/class-avada-tgm-plugin-activation.php:3589
+#: includes/class-avada-tgm-plugin-activation.php:3570
 msgid "%1$s installed successfully."
 msgstr "%1$s kuruldu."
 
-#: includes/class-avada-tgm-plugin-activation.php:3590
+#: includes/class-avada-tgm-plugin-activation.php:3571
 msgid "All installations have been completed."
 msgstr "Tüm kurulumlar tamamlandı."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: includes/class-avada-tgm-plugin-activation.php:3592
+#: includes/class-avada-tgm-plugin-activation.php:3573
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "%1$s eklentisi kuruluyor (%2$d/%3$d)"
 
@@ -7967,17 +7978,18 @@ msgstr "Devralınsın"
 #: includes/metaboxes/tabs/tab_sidebars.php:276
 #: includes/metaboxes/tabs/tab_template.php:467 includes/options/blog.php:531
 #: includes/options/extra.php:603 includes/options/extra.php:1212
-#: includes/options/header.php:132 includes/options/logo.php:54
-#: includes/options/menu.php:1092 includes/options/menu.php:1449
-#: includes/options/menu.php:2790 includes/options/menu.php:3184
-#: includes/options/page_title_bar.php:360 includes/options/portfolio.php:322
-#: includes/options/sidebars.php:236 includes/options/sidebars.php:283
-#: includes/options/sidebars.php:408 includes/options/sidebars.php:480
-#: includes/options/sidebars.php:526 includes/options/sidebars.php:605
-#: includes/options/sidebars.php:652 includes/options/sliding_bar.php:148
-#: includes/options/sliding_bar.php:386 includes/options/social_media.php:260
-#: includes/options/social_media.php:515 includes/options/social_media.php:878
-#: includes/options/woocommerce.php:207
+#: includes/options/header.php:132 includes/options/lightbox.php:788
+#: includes/options/lightbox.php:1260 includes/options/lightbox.php:1642
+#: includes/options/logo.php:54 includes/options/menu.php:1092
+#: includes/options/menu.php:1449 includes/options/menu.php:2790
+#: includes/options/menu.php:3184 includes/options/page_title_bar.php:360
+#: includes/options/portfolio.php:322 includes/options/sidebars.php:236
+#: includes/options/sidebars.php:283 includes/options/sidebars.php:408
+#: includes/options/sidebars.php:480 includes/options/sidebars.php:526
+#: includes/options/sidebars.php:605 includes/options/sidebars.php:652
+#: includes/options/sliding_bar.php:148 includes/options/sliding_bar.php:386
+#: includes/options/social_media.php:260 includes/options/social_media.php:515
+#: includes/options/social_media.php:878 includes/options/woocommerce.php:207
 msgid "Left"
 msgstr "Solda"
 
@@ -8001,7 +8013,8 @@ msgstr "Solda"
 #: includes/metaboxes/tabs/tab_sidebars.php:277
 #: includes/metaboxes/tabs/tab_template.php:468 includes/options/blog.php:533
 #: includes/options/extra.php:604 includes/options/extra.php:1214
-#: includes/options/header.php:133 includes/options/lightbox.php:118
+#: includes/options/header.php:133 includes/options/lightbox.php:790
+#: includes/options/lightbox.php:1258 includes/options/lightbox.php:1644
 #: includes/options/logo.php:56 includes/options/menu.php:1094
 #: includes/options/menu.php:1450 includes/options/menu.php:2792
 #: includes/options/menu.php:3182 includes/options/page_title_bar.php:362
@@ -8026,6 +8039,7 @@ msgstr "Sağda"
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:321
 #: includes/metaboxes/tabs/tab_pagetitlebar.php:197
 #: includes/options/blog.php:532 includes/options/elastic_slider.php:84
+#: includes/options/lightbox.php:789 includes/options/lightbox.php:1643
 #: includes/options/logo.php:55 includes/options/menu.php:1093
 #: includes/options/menu.php:2791 includes/options/page_title_bar.php:361
 #: includes/options/portfolio.php:323 includes/options/sliding_bar.php:387
@@ -8259,7 +8273,7 @@ msgstr ""
 "Tüm Adobe ön bellekleri temizlendi. Değişiklikleri görmek için sayfayı "
 "yenileyin."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1405
+#: includes/lib/inc/class-fusion-fusionredux.php:1401
 msgid ""
 "Are you sure? This will reset all saved options to the default Avada Classic "
 "Global Options. This does not reset them to any other prebuilt site that you "
@@ -8272,7 +8286,7 @@ msgstr ""
 "kopyası, avada-global-options bölümünde belirtilen yüklemeler (uploads) "
 "klasörüne yedeklenir."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1416
+#: includes/lib/inc/class-fusion-fusionredux.php:1412
 msgid ""
 "Are you sure? This will reset all saved options to the default Avada Classic "
 "Global Options for this section. This does not reset them to any other "
@@ -8285,7 +8299,7 @@ msgstr ""
 "ayarlarınızın kopyası, avada-global-options bölümünde belirtilen yüklemeler "
 "(uploads) klasörüne yedeklenir."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1427
+#: includes/lib/inc/class-fusion-fusionredux.php:1423
 msgid ""
 "Copy the contents of the json file and paste it below. Then click \"Import\" "
 "to restore your setings."
@@ -8293,42 +8307,42 @@ msgstr ""
 "JSON dosyasının içeriğini kopyalayıp aşağıya yapıştırın ve ayarları geri "
 "yüklemek için \"İçe aktar\" üzerine tıklayın."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1502
+#: includes/lib/inc/class-fusion-fusionredux.php:1498
 msgid "Media fields using remote URLs were detected in your Global Options"
 msgstr "Genel ayarlarda uzak adresler kullanan ortam alanları bulundu"
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1508
+#: includes/lib/inc/class-fusion-fusionredux.php:1504
 msgid ""
 "Please replace them with locally-imported files from your media library."
 msgstr ""
 "Lütfen ortam kitaplığınızdan bunları yerel olarak içe aktarılmış dosyalarla "
 "değiştirin."
 
-#: includes/lib/inc/class-fusion-fusionredux.php:1513
+#: includes/lib/inc/class-fusion-fusionredux.php:1509
 msgid "Dismiss Message"
 msgstr "İletiyi yok say"
 
 #. translators: The search query.
-#: includes/lib/inc/class-fusion-helper.php:419
+#: includes/lib/inc/class-fusion-helper.php:484
 msgid "Search results for: %s"
 msgstr "%s için arama sonuçları"
 
-#: includes/lib/inc/class-fusion-helper.php:432
+#: includes/lib/inc/class-fusion-helper.php:497
 msgid "Error 404 Page"
 msgstr "404 hatası sayfası"
 
 #. translators: Date.
-#: includes/lib/inc/class-fusion-helper.php:440
+#: includes/lib/inc/class-fusion-helper.php:505
 msgid "Daily Archives: %s"
 msgstr "Günlük arşivler: %s"
 
 #. translators: Date.
-#: includes/lib/inc/class-fusion-helper.php:443
+#: includes/lib/inc/class-fusion-helper.php:508
 msgid "Monthly Archives: %s"
 msgstr "Aylık arşivler: %s"
 
 #. translators: Date.
-#: includes/lib/inc/class-fusion-helper.php:446
+#: includes/lib/inc/class-fusion-helper.php:511
 msgid "Yearly Archives: %s"
 msgstr "Yıllık arşivler: %s"
 
@@ -8392,6 +8406,7 @@ msgid "Applied"
 msgstr "Uygulandı"
 
 #: includes/lib/inc/class-fusion-patcher-admin-screen.php:362
+#: includes/lib/inc/fusion-app/helpers.php:700
 msgid "Apply"
 msgstr "Uygula"
 
@@ -8442,16 +8457,16 @@ msgstr ""
 msgid "Patch empty."
 msgstr "Yama boş."
 
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:244
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:245
 msgid "Invalid Patch target."
 msgstr "Yama hedefi geçersiz."
 
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:253
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:254
 msgid "Invalid patch path."
 msgstr ""
 
 #. translators: Links.
-#: includes/lib/inc/class-fusion-patcher-filesystem.php:279
+#: includes/lib/inc/class-fusion-patcher-filesystem.php:280
 msgid ""
 "The patch could not be applied because of your specific server permissions. "
 "You have two options to remedy this. 1. <a %1$s>Download this zip file</a> "
@@ -8747,31 +8762,86 @@ msgstr ""
 "Yeni indirilen dosyayı açın ve ürün satın alma kodunu (Item Purchase Code) "
 "kopyalayın."
 
-#: includes/lib/inc/class-fusion-scripts.php:537
+#: includes/lib/inc/class-fusion-scripts.php:555
 msgid "Background video"
 msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:592
-msgid "Press Esc to close"
-msgstr "Kapatmak için Esc tuşuna basın"
+#: includes/lib/inc/class-fusion-scripts.php:635
+#: includes/options/lightbox.php:27 includes/options/lightbox.php:41
+msgid "Lightbox"
+msgstr "Işıklı kutu"
 
-#: includes/lib/inc/class-fusion-scripts.php:593
-msgid "Enter Fullscreen (Shift+Enter)"
-msgstr "Tam ekrana geç (Shift+Enter)"
+#. translators: %1$s: Current item number. %2$s: Number of items.
+#: includes/lib/inc/class-fusion-scripts.php:637
+msgid "%1$s of %2$s"
+msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:594
-msgid "Exit Fullscreen (Shift+Enter)"
-msgstr "Tam ekrandan çık (Shift+Enter)"
+#: includes/lib/inc/class-fusion-scripts.php:638
+msgid "Close (Esc)"
+msgstr ""
 
-#: includes/lib/inc/class-fusion-scripts.php:595
+#: includes/lib/inc/class-fusion-scripts.php:641
 msgid "Slideshow"
 msgstr "Slayt sunumu"
 
+#: includes/lib/inc/class-fusion-scripts.php:642
+#: includes/lib/inc/class-fusion-settings.php:428
+#: includes/metaboxes/tabs/tab_off_canvas_animation.php:28
+#: includes/metaboxes/tabs/tab_off_canvas_animation.php:40
+#: includes/metaboxes/tabs/tab_page.php:152
+#: includes/metaboxes/tabs/tab_page.php:186
+#: includes/metaboxes/tabs/tab_portfolio_post.php:186
+#: includes/metaboxes/tabs/tab_post.php:111 includes/options/extra.php:309
+#: includes/options/extra.php:650 includes/options/lightbox.php:266
+#: includes/options/lightbox.php:590
+msgid "Zoom"
+msgstr "Yakınlaştırma"
+
+#: includes/lib/inc/class-fusion-scripts.php:643
+#: includes/options/performance.php:706
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+#: includes/lib/inc/class-fusion-scripts.php:645
+#: includes/options/lightbox.php:1245
+msgid "Thumbnails"
+msgstr ""
+
 #: includes/lib/inc/class-fusion-scripts.php:646
+msgid "Share"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:647
+msgid "Share via…"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:648
+msgid "Copy link"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:649
+msgid "Link copied"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:650
+msgid "This item could not be loaded."
+msgstr ""
+
+#. translators: %s: Video service, e.g. YouTube.
+#: includes/lib/inc/class-fusion-scripts.php:652
+msgid "This %s video is blocked by your privacy settings."
+msgstr ""
+
+#. translators: %s: Video service, e.g. YouTube.
+#: includes/lib/inc/class-fusion-scripts.php:654
+msgid "Allow %s and play"
+msgstr ""
+
+#: includes/lib/inc/class-fusion-scripts.php:703
 msgid "Loading the next set of posts..."
 msgstr "Sonraki yazı kümesi yükleniyor..."
 
-#: includes/lib/inc/class-fusion-scripts.php:647
+#: includes/lib/inc/class-fusion-scripts.php:704
 msgid "All items displayed."
 msgstr "Tüm ögeler görüntülendi."
 
@@ -8785,21 +8855,11 @@ msgid "Link & Zoom"
 msgstr "Bağlantı ve yakınlaştıma"
 
 #: includes/lib/inc/class-fusion-settings.php:426
+#: includes/lib/inc/fusion-app/helpers.php:734
 #: includes/metaboxes/tabs/tab_portfolio_post.php:185
 #: includes/metaboxes/tabs/tab_post.php:110 includes/options/extra.php:649
 msgid "Link"
 msgstr "Bağlantı"
-
-#: includes/lib/inc/class-fusion-settings.php:428
-#: includes/metaboxes/tabs/tab_off_canvas_animation.php:28
-#: includes/metaboxes/tabs/tab_off_canvas_animation.php:40
-#: includes/metaboxes/tabs/tab_page.php:152
-#: includes/metaboxes/tabs/tab_page.php:186
-#: includes/metaboxes/tabs/tab_portfolio_post.php:186
-#: includes/metaboxes/tabs/tab_post.php:111 includes/options/extra.php:309
-#: includes/options/extra.php:650
-msgid "Zoom"
-msgstr "Yakınlaştırma"
 
 #: includes/lib/inc/class-fusion-settings.php:430
 #: includes/metaboxes/tabs/tab_portfolio_post.php:187
@@ -8891,7 +8951,7 @@ msgstr "%s üzerinde paylaş"
 msgid "Share by %s"
 msgstr "%s ile paylaş"
 
-#: includes/lib/inc/class-fusion.php:444
+#: includes/lib/inc/class-fusion.php:446
 #: includes/metaboxes/tabs/tab_template.php:200 includes/options/layout.php:107
 #: includes/options/layout.php:400 includes/options/menu.php:2917
 #: includes/options/menu.php:3025
@@ -8962,212 +9022,212 @@ msgid "Icons Count:"
 msgstr "Simge sayısı:"
 
 #. translators: The author.
-#: includes/lib/inc/functions.php:363 includes/lib/inc/functions.php:366
+#: includes/lib/inc/functions.php:383 includes/lib/inc/functions.php:386
 msgid "By %s"
 msgstr "%s tarafından"
 
 #. translators: The categories list.
-#: includes/lib/inc/functions.php:406
+#: includes/lib/inc/functions.php:426
 msgid "Categories: %s"
 msgstr "Kategoriler: %s"
 
 #. translators: The tags list.
 #. Translators: List of tags.
-#: includes/lib/inc/functions.php:419
+#: includes/lib/inc/functions.php:439
 #: includes/lib/inc/fusion-app/helpers.php:642
 msgid "Tags: %s"
 msgstr "Etiketler: %s"
 
-#: includes/lib/inc/functions.php:426 templates/related-posts.php:117
+#: includes/lib/inc/functions.php:446 templates/related-posts.php:117
 msgid "0 Comments"
 msgstr "0 yorum"
 
-#: includes/lib/inc/functions.php:426 templates/related-posts.php:117
+#: includes/lib/inc/functions.php:446 templates/related-posts.php:117
 msgid "1 Comment"
 msgstr "1 yorum"
 
-#: includes/lib/inc/functions.php:426 templates/related-posts.php:117
+#: includes/lib/inc/functions.php:446 templates/related-posts.php:117
 msgid "% Comments"
 msgstr "% yorum"
 
-#: includes/lib/inc/functions.php:921
+#: includes/lib/inc/functions.php:941
 msgid "Pages:"
 msgstr "Sayfalar:"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:730
+#: includes/lib/inc/fusion-app/class-fusion-app.php:733
 msgid "Page"
 msgstr "Sayfa"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:915
+#: includes/lib/inc/fusion-app/class-fusion-app.php:918
 msgid "Edit Live"
 msgstr "Canlı düzenle"
 
 #. translators: Name of post type.
-#: includes/lib/inc/fusion-app/class-fusion-app.php:976
+#: includes/lib/inc/fusion-app/class-fusion-app.php:979
 msgid "Edit %s"
 msgstr "%s düzenle"
 
 #. translators: Number of layout.
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1015
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1018
 msgid "Edit Layout: %s"
 msgstr "Yerleşimi düzenle: %s"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1038
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1041
 msgid "Use Layouts"
 msgstr "Yerleşimleri kullan"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1038
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1041
 msgid "Manage"
 msgstr "Yönet"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1077
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1080
 msgid "Form"
 msgstr "Form"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1120
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1123
 msgid "Post Card"
 msgstr "Kartpostal"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1941
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1968
 msgid "Hours"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1942
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1969
 msgid "Minutes"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:1943
+#: includes/lib/inc/fusion-app/class-fusion-app.php:1970
 msgid "Seconds"
 msgstr ""
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2113
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2141
 msgid "You do not have permission to edit this post."
 msgstr "Bu yazıyı düzenleme izniniz yok."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2193
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2221
 msgid "The page contents updated."
 msgstr "Sayfa içeriği güncellendi."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2200
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2228
 msgid "You do not have permission to edit this archive."
 msgstr "Bu arşivi düzenleme izniniz yok."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2235
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2263
 msgid "The archive details updated."
 msgstr "Arşiv bilgileri güncellendi."
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2505
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2506
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2533
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2534
 #: includes/options/performance.php:119 includes/options/typography.php:1225
 msgid "Ultra-Light 100"
 msgstr "Çok hafif 100"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2507
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2535
 #: includes/options/performance.php:120
 msgid "Ultra-Light 100 Italic"
 msgstr "Çok hafif 100 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2508
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2536
 #: includes/options/performance.php:121 includes/options/typography.php:1226
 msgid "Light 200"
 msgstr "Hafif 200"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2509
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2537
 #: includes/options/performance.php:122
 msgid "Light 200 Italic"
 msgstr "Hafif 200 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2510
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2538
 #: includes/options/performance.php:123 includes/options/typography.php:1227
 msgid "Book 300"
 msgstr "Kitap 300"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2511
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2539
 #: includes/options/performance.php:124
 msgid "Book 300 Italic"
 msgstr "Kitap 300 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2512
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2513
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2540
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2541
 #: includes/options/performance.php:125 includes/options/typography.php:1228
 msgid "Normal 400"
 msgstr "Normal 400"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2514
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2542
 #: includes/options/performance.php:126
 msgid "Normal 400 Italic"
 msgstr "Normal 400 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2515
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2543
 #: includes/options/performance.php:127 includes/options/typography.php:1229
 msgid "Medium 500"
 msgstr "Orta 500"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2516
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2544
 #: includes/options/performance.php:128
 msgid "Medium 500 Italic"
 msgstr "Orta 500 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2517
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2518
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2545
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2546
 #: includes/options/performance.php:129 includes/options/typography.php:1230
 msgid "Semi-Bold 600"
 msgstr "Hafif koyu 600"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2519
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2547
 #: includes/options/performance.php:130
 msgid "Semi-Bold 600 Italic"
 msgstr "Hafif koyu 600 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2520
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2548
 #: includes/options/performance.php:131 includes/options/typography.php:1231
 msgid "Bold 700"
 msgstr "Koyu 700"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2521
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2549
 #: includes/options/performance.php:132
 msgid "Bold 700 Italic"
 msgstr "Koyu 700 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2522
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2523
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2550
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2551
 #: includes/options/performance.php:133 includes/options/typography.php:1232
 msgid "Extra-Bold 800"
 msgstr "Daha koyu 800"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2524
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2552
 #: includes/options/performance.php:134
 msgid "Extra-Bold 800 Italic"
 msgstr "Daha koyu 800 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2525
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2526
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2553
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2554
 #: includes/options/performance.php:135 includes/options/typography.php:1233
 msgid "Ultra-Bold 900"
 msgstr "Çok koyu 900"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2527
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2555
 #: includes/options/performance.php:136
 msgid "Ultra-Bold 900 Italic"
 msgstr "Çok koyu 900 yatık"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2829
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2857
 msgid "Go back"
 msgstr "Geri git"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2837
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2865
 msgid "Back to"
 msgstr "Şuraya dön"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2844
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2872
 msgid "Take Over"
 msgstr "Devral"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2853
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2881
 msgid "is currently editing this post. Do you want to take over?"
 msgstr "şu anda bu yazıyı düzenliyor. Devralmak ister misiniz?"
 
-#: includes/lib/inc/fusion-app/class-fusion-app.php:2859
+#: includes/lib/inc/fusion-app/class-fusion-app.php:2887
 msgid "has taken over and is currently editing."
 msgstr "devraldı ve şu anda düzenliyor."
 
@@ -9591,12 +9651,12 @@ msgstr ""
 
 #: includes/lib/inc/fusion-app/helpers.php:269
 #: includes/metaboxes/metaboxes.php:696
-#: includes/metaboxes/tabs/tab_code_fields.php:22
+#: includes/metaboxes/tabs/tab_code_fields.php:26
 msgid "Code Fields"
 msgstr "Kod alanları"
 
 #: includes/lib/inc/fusion-app/helpers.php:270
-#: includes/metaboxes/tabs/tab_code_fields.php:78
+#: includes/metaboxes/tabs/tab_code_fields.php:82
 msgid "Custom Code"
 msgstr "Özel kod"
 
@@ -9701,6 +9761,7 @@ msgstr "Adı yazın…"
 #: includes/lib/inc/fusion-app/helpers.php:298
 #: includes/lib/inc/fusion-app/helpers.php:429
 #: includes/lib/inc/fusion-app/helpers.php:572
+#: includes/lib/inc/fusion-app/helpers.php:707
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:268
 msgid "Column"
 msgstr "Sütun"
@@ -9727,10 +9788,12 @@ msgid "Save column"
 msgstr "Sütunu kaydet"
 
 #: includes/lib/inc/fusion-app/helpers.php:304
+#: includes/lib/inc/fusion-app/helpers.php:710
 msgid "Delete column"
 msgstr "Sütunu sil"
 
 #: includes/lib/inc/fusion-app/helpers.php:305
+#: includes/lib/inc/fusion-app/helpers.php:713
 msgid "Delete row"
 msgstr "Satırı sil"
 
@@ -10210,6 +10273,7 @@ msgid "Table Options"
 msgstr "Tablo ayarları"
 
 #: includes/lib/inc/fusion-app/helpers.php:435
+#: includes/lib/inc/fusion-app/helpers.php:755
 msgid "Table"
 msgstr "Tablo"
 
@@ -10713,10 +10777,12 @@ msgstr "Varsayılan durum"
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:70
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:208
 #: includes/metaboxes/tabs/tab_template.php:466 includes/options/extra.php:606
-#: includes/options/header.php:131 includes/options/menu.php:1452
-#: includes/options/menu.php:3181 includes/options/sliding_bar.php:145
-#: includes/options/social_media.php:257 includes/options/social_media.php:512
-#: includes/options/social_media.php:875 includes/options/woocommerce.php:204
+#: includes/options/header.php:131 includes/options/lightbox.php:720
+#: includes/options/lightbox.php:1257 includes/options/lightbox.php:1610
+#: includes/options/menu.php:1452 includes/options/menu.php:3181
+#: includes/options/sliding_bar.php:145 includes/options/social_media.php:257
+#: includes/options/social_media.php:512 includes/options/social_media.php:875
+#: includes/options/woocommerce.php:204
 msgid "Top"
 msgstr "Üst"
 
@@ -10728,7 +10794,8 @@ msgstr "Üst"
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:216
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:72
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:210
-#: includes/options/extra.php:605 includes/options/lightbox.php:119
+#: includes/options/extra.php:605 includes/options/lightbox.php:721
+#: includes/options/lightbox.php:1259 includes/options/lightbox.php:1611
 #: includes/options/menu.php:1451 includes/options/menu.php:3183
 #: includes/options/sliding_bar.php:147 includes/options/social_media.php:259
 #: includes/options/social_media.php:514 includes/options/social_media.php:877
@@ -10766,14 +10833,17 @@ msgid "Bot/Right"
 msgstr "Sağ alt"
 
 #: includes/lib/inc/fusion-app/helpers.php:570
+#: includes/options/lightbox.php:621
 msgid "Horizontal"
 msgstr "Yatay"
 
 #: includes/lib/inc/fusion-app/helpers.php:571
+#: includes/options/lightbox.php:622
 msgid "Vertical"
 msgstr "Dikey"
 
 #: includes/lib/inc/fusion-app/helpers.php:573
+#: includes/lib/inc/fusion-app/helpers.php:746
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:269
 msgid "Row"
 msgstr "Satır"
@@ -11216,6 +11286,197 @@ msgstr "Sonraki galeri ögeleri kümesi yükleniyor..."
 #: includes/lib/inc/fusion-app/helpers.php:691
 msgid "Dummy Title Placeholder"
 msgstr "Boş başlık yer doldurucusu"
+
+#: includes/lib/inc/fusion-app/helpers.php:694
+msgid "Add column"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:695
+msgid "Add row"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:696
+msgid "Align"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:697
+msgid "Align column center"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:698
+msgid "Align column left"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:699
+msgid "Align column right"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:701
+msgid "Bold"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:703
+msgid "Cell content (HTML)"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:704
+msgid "Clear content"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:705
+msgid "Clear all content"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:706
+msgid "Collapse editor"
+msgstr ""
+
+#. translators: The column letter, ex: B.
+#: includes/lib/inc/fusion-app/helpers.php:709
+msgid "Column %s options"
+msgstr ""
+
+#. translators: Number of columns.
+#: includes/lib/inc/fusion-app/helpers.php:712
+msgid "Delete %s columns"
+msgstr ""
+
+#. translators: Number of rows.
+#: includes/lib/inc/fusion-app/helpers.php:715
+msgid "Delete %s rows"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:716
+msgid "Duplicate column"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:717
+msgid "Duplicate columns"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:718
+msgid "Duplicate row"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:719
+msgid "Duplicate rows"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:720
+#: includes/lib/inc/fusion-app/helpers.php:722
+msgid "Edit as HTML"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:721
+msgid ""
+"The table markup, for changes the table editor does not offer. Shortcodes in "
+"cells are kept."
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:723
+msgid "Expand editor"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:724
+msgid "Footer row"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:725
+msgid "First column header"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:726
+msgid "Header row"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:727
+msgid "No table found in the markup."
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:728
+msgid "Insert column left"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:729
+msgid "Insert column right"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:730
+msgid "Insert row above"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:731
+msgid "Insert row below"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:732
+msgid ""
+"The table markup could not be read. Fix it below, or apply to start from a "
+"new table."
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:733
+#: includes/options/typography.php:1244
+msgid "Italic"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:735
+msgid "Link URL"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:736
+msgid "Make header rows up to here"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:737
+msgid "Merge cells"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:738
+msgid "More"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:740
+msgid "Move left"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:741
+msgid "Move right"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:743
+msgid ""
+"That is not possible with merged cells in the way, or for the last row or "
+"column."
+msgstr ""
+
+#. translators: 1: Number of rows, 2: number of columns.
+#: includes/lib/inc/fusion-app/helpers.php:745
+msgid "Pasted %1$s × %2$s cells"
+msgstr ""
+
+#. translators: The row number.
+#: includes/lib/inc/fusion-app/helpers.php:748
+msgid "Row %s options"
+msgstr ""
+
+#. translators: 1: Number of rows, 2: number of columns.
+#: includes/lib/inc/fusion-app/helpers.php:751
+msgid "%1$s × %2$s selected"
+msgstr ""
+
+#. translators: 1: Number of rows, 2: number of columns.
+#: includes/lib/inc/fusion-app/helpers.php:753
+msgid "%1$s rows × %2$s columns"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:754
+msgid "Split cell"
+msgstr ""
+
+#: includes/lib/inc/fusion-app/helpers.php:756
+msgid "Table tools"
+msgstr ""
 
 #: includes/lib/inc/fusion-app/templates/bulk-add.php:19
 msgid "Examples:"
@@ -12132,7 +12393,7 @@ msgstr "Bu türde herhangi bir öge bulunamadı."
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:38
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:322
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:403
-#: includes/options/menu.php:541
+#: includes/options/lightbox.php:588 includes/options/menu.php:541
 msgid "Slide"
 msgstr "Slayt"
 
@@ -13858,6 +14119,7 @@ msgstr "Yerleşim bölümü"
 #: includes/metaboxes/tabs/tab_form_general.php:31
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:21
 #: includes/metaboxes/tabs/tab_off_canvas_general.php:266
+#: includes/options/lightbox.php:35
 msgid "General"
 msgstr "Genel"
 
@@ -13879,6 +14141,7 @@ msgstr "Onay"
 
 #: includes/metaboxes/metaboxes.php:680
 #: includes/metaboxes/tabs/tab_form_appearance.php:20
+#: includes/options/lightbox.php:377
 msgid "Appearance"
 msgstr "Görünüm"
 
@@ -13982,11 +14245,11 @@ msgid "Operator"
 msgstr ""
 
 #: includes/metaboxes/metaboxes.php:2157
-msgid "Set an operatot to connect several conditionals."
+msgid "Set an operator to connect several conditionals."
 msgstr ""
 
 #: includes/metaboxes/options/options_es.php:18
-#: includes/options/lightbox.php:441
+#: includes/options/lightbox.php:1444
 msgid "Caption"
 msgstr "Alt yazı"
 
@@ -14517,11 +14780,11 @@ msgstr ""
 "Kullanılacak sayfa ayarları kümesini (JSON dosyası) seçmek için İçe aktar "
 "düğmesine tıklayın."
 
-#: includes/metaboxes/tabs/tab_code_fields.php:32
+#: includes/metaboxes/tabs/tab_code_fields.php:36
 msgid "Tracking Code"
 msgstr "İzleme kodu"
 
-#: includes/metaboxes/tabs/tab_code_fields.php:33
+#: includes/metaboxes/tabs/tab_code_fields.php:37
 msgid ""
 "Paste your tracking code here. This will be added into the header template "
 "of your theme. Place code inside &lt;script&gt; tags."
@@ -14529,11 +14792,11 @@ msgstr ""
 "İzleme kodunuzu buraya yapıştırın. Temanızın üst bilgi kalıbına eklenir. "
 "Kodu &lt;script&gt; kod imleri arasına yerleştirin."
 
-#: includes/metaboxes/tabs/tab_code_fields.php:47
+#: includes/metaboxes/tabs/tab_code_fields.php:51
 msgid "Space Before &lt;/head&gt;"
 msgstr "&lt;/head&gt; kod iminden önce boşluk"
 
-#: includes/metaboxes/tabs/tab_code_fields.php:48
+#: includes/metaboxes/tabs/tab_code_fields.php:52
 msgid ""
 "Only accepts JavaScript code wrapped with &lt;script&gt; tags and HTML "
 "markup that is valid inside the &lt;head&gt; tag."
@@ -14541,12 +14804,12 @@ msgstr ""
 "Yalnızca &lt;script&gt; kod imleri arasındaki JavaScript kodunu ve "
 "&lt;head&gt; kod imi içindeki geçerli HTML kodunu kabul eder."
 
-#: includes/metaboxes/tabs/tab_code_fields.php:62
+#: includes/metaboxes/tabs/tab_code_fields.php:66
 msgid "Space After &lt;body&gt;"
 msgstr "&lt;/body&gt; kod iminden önce boşluk"
 
-#: includes/metaboxes/tabs/tab_code_fields.php:63
-#: includes/metaboxes/tabs/tab_code_fields.php:79
+#: includes/metaboxes/tabs/tab_code_fields.php:67
+#: includes/metaboxes/tabs/tab_code_fields.php:83
 #: includes/options/advanced.php:618 includes/options/advanced.php:632
 msgid ""
 "Only accepts JavaScript code, wrapped with &lt;script&gt; tags and valid "
@@ -14555,7 +14818,7 @@ msgstr ""
 "Yalnızca &lt;script&gt; kod imleri arasındaki JavaScript kodunu ve "
 "&lt;body&gt; kod imi içindeki geçerli HTML kodunu kabul eder."
 
-#: includes/metaboxes/tabs/tab_code_fields.php:78
+#: includes/metaboxes/tabs/tab_code_fields.php:82
 msgid "Space Before &lt;/body&gt;"
 msgstr "&lt;/body&gt; kod iminden önce boşluk"
 
@@ -16017,7 +16280,8 @@ msgstr "Zıplama"
 #: includes/metaboxes/tabs/tab_off_canvas_animation.php:405
 #: includes/metaboxes/tabs/tab_page.php:149
 #: includes/metaboxes/tabs/tab_page.php:177 includes/options/extra.php:306
-#: includes/options/extra.php:602 includes/options/menu.php:540
+#: includes/options/extra.php:602 includes/options/lightbox.php:589
+#: includes/options/lightbox.php:1572 includes/options/menu.php:540
 #: includes/options/menu.php:1448
 msgid "Fade"
 msgstr "Solma"
@@ -16802,6 +17066,7 @@ msgstr ""
 "rgba(0,0,0,0.8) kullanılır."
 
 #: includes/metaboxes/tabs/tab_off_canvas_overlay.php:82
+#: includes/options/lightbox.php:524
 msgid "Backdrop Blur"
 msgstr ""
 
@@ -22659,19 +22924,15 @@ msgstr ""
 "seçeneği kullanıldığında, sayfa içeriğinin sol ve sağ iç kenar boşluğunu "
 "yazın. Bu seçenek Avada Builder kapsayıcılarını etkilemez."
 
-#: includes/options/lightbox.php:27 includes/options/lightbox.php:34
-msgid "Lightbox"
-msgstr "Işıklı kutu"
-
-#: includes/options/lightbox.php:35
+#: includes/options/lightbox.php:42
 msgid "Turn on to enable the lightbox throughout the theme."
 msgstr "Tüm temada ışıklı kutu kullanılması için açın."
 
-#: includes/options/lightbox.php:41
+#: includes/options/lightbox.php:48
 msgid "Lightbox For Featured Images On Single Post Pages"
 msgstr "Tek yazı sayfalarında öne çıkarılmış görseller için ışıklı kutu"
 
-#: includes/options/lightbox.php:42
+#: includes/options/lightbox.php:49
 msgid ""
 "Turn on to enable the lightbox on single blog and portfolio posts for the "
 "main featured images."
@@ -22679,169 +22940,53 @@ msgstr ""
 "Öne çıkarılmış ana görseller için tek Günlük ve Portföy yazılarında ışıklı "
 "kutu kullanılması için açın."
 
-#: includes/options/lightbox.php:55
+#: includes/options/lightbox.php:62
 msgid "Lightbox Behavior"
 msgstr "Işıklı kutu davranışı"
 
-#: includes/options/lightbox.php:56
+#: includes/options/lightbox.php:63
 msgid ""
 "Controls what the lightbox displays for single blog and portfolio posts."
 msgstr ""
 "Tek Günlük ve Portföy yazılarında ışıklı kutuda neyin görüntüleneceğini "
 "seçin."
 
-#: includes/options/lightbox.php:61
+#: includes/options/lightbox.php:68
 msgid "First featured image of every post"
 msgstr "Her yazının ilk öne çıkarılmış görseli"
 
-#: includes/options/lightbox.php:62
+#: includes/options/lightbox.php:69
 msgid "Only featured images of individual post"
 msgstr "Yalnızca tek yazının öne çıkarılmış görselleri"
 
-#: includes/options/lightbox.php:73
-msgid "Lightbox Skin"
-msgstr "Işıklı kutu kaplaması"
-
-#: includes/options/lightbox.php:74
-msgid "Controls the lightbox skin design."
-msgstr "Işıklı kutu kaplama tasarımını seçin."
+#: includes/options/lightbox.php:80
+msgid "Lightbox Screen Sizes"
+msgstr ""
 
 #: includes/options/lightbox.php:81
-msgid "Mac"
-msgstr "Mac"
-
-#: includes/options/lightbox.php:82
-msgid "Metro Black"
-msgstr "Metro siyah"
-
-#: includes/options/lightbox.php:83
-msgid "Metro White"
-msgstr "Metro beyaz"
-
-#: includes/options/lightbox.php:84
-msgid "Parade"
-msgstr "Geçit töreni"
-
-#: includes/options/lightbox.php:85
-msgid "Smooth"
-msgstr "Pürüzsüz"
-
-#: includes/options/lightbox.php:112
-msgid "Thumbnails Position"
-msgstr "Küçük görsel konumu"
-
-#: includes/options/lightbox.php:113
-msgid "Controls the position of the lightbox thumbnails."
-msgstr "Işıklı kutu küçük görsellerinin konumunu seçin."
-
-#: includes/options/lightbox.php:146
-msgid "Animation Speed"
-msgstr "Canlandırma hızı"
-
-#: includes/options/lightbox.php:147
-msgid "Controls the animation speed of the lightbox."
-msgstr "Işıklı kutu canlandırmasının hızını ayarlayın."
-
-#: includes/options/lightbox.php:152
-msgid "Fast"
-msgstr "Hızlı"
-
-#: includes/options/lightbox.php:154
-msgid "Slow"
-msgstr "Yavaş"
-
-#: includes/options/lightbox.php:181
-msgid "Lightbox Image Hover Zoom"
-msgstr ""
-
-#: includes/options/lightbox.php:182
 msgid ""
-"Set the scale factor for hovered images inside the lightbox. Set to 1 to "
-"disable zoom."
+"Choose the screen sizes the lightbox opens on, using the breakpoints of the "
+"visibility options. On other screen sizes, lightbox links open like normal "
+"links."
 msgstr ""
 
-#: includes/options/lightbox.php:216
-msgid "Arrows"
-msgstr "Oklar"
-
-#: includes/options/lightbox.php:217
-msgid "Turn on to display arrows in the lightbox"
-msgstr "Işıklı kutu içinde okların görüntülenmesi için açın"
-
-#: includes/options/lightbox.php:251
-msgid "Gallery Start/Stop Button"
-msgstr "Galeriyi Başlat/Durdur düğmesi"
-
-#: includes/options/lightbox.php:252
-msgid "Turn on to display the gallery start and stop button."
-msgstr "Galeriyi başlatma ve durdurma düğmesinin görüntülenmesi için açın."
-
-#: includes/options/lightbox.php:281
-msgid "Loop Lightbox Gallery"
-msgstr "Işıklı kutu galerisi sürekli oynatılsın"
-
-#: includes/options/lightbox.php:282
-msgid "Turn on to loop the lightbox gallery."
-msgstr "Işıklı kutu galerisinin sürekli oynatılması için açın."
-
-#: includes/options/lightbox.php:311
-msgid "Autoplay the Lightbox Gallery"
-msgstr "Işıklı kutu galerisi otomatik oynatılsın"
-
-#: includes/options/lightbox.php:312
-msgid "Turn on to autoplay the lightbox gallery."
-msgstr "Işıklı kutu galerisinin otomatik olarak oynatılması için açın."
-
-#: includes/options/lightbox.php:341 includes/options/slideshows.php:62
-msgid "Slideshow Speed"
-msgstr "Slayt sunumu hızı"
-
-#: includes/options/lightbox.php:342
-msgid ""
-"Controls the slideshow speed if autoplay is turned on. ex: 1000 = 1 second."
+#: includes/options/lightbox.php:86
+msgid "Small Screens"
 msgstr ""
-"Otomatik oynatma açıksa slayt sunumunun hızını ayarlayın. Örnek: 1000 = 1 "
-"saniye."
 
-#: includes/options/lightbox.php:376
-msgid "Background Opacity"
-msgstr "Arka plan matlığı"
-
-#: includes/options/lightbox.php:377
-msgid "Controls the opacity level for the background behind the lightbox."
-msgstr "Işıklı kutu arkasındaki arka planın matlık düzeyini yazın."
-
-#: includes/options/lightbox.php:412
-msgid "Turn on to display the image title in the lightbox."
-msgstr "Işıklı kutu içinde görsel başlığının görüntülenmesi için açın."
-
-#: includes/options/lightbox.php:442
-msgid "Turn on to display the image caption in the lightbox."
-msgstr "Işıklı kutu içinde görsel alt yazısının görüntülenmesi için açın."
-
-#: includes/options/lightbox.php:471 includes/options/social_media.php:701
-#: includes/options/social_media.php:825
-msgid "Social Sharing"
-msgstr "Sosyal ağ paylaşımı"
-
-#: includes/options/lightbox.php:472
-msgid "Turn on to display social sharing buttons on lightbox."
+#: includes/options/lightbox.php:87
+msgid "Medium Screens"
 msgstr ""
-"Işıklı kutu içinde sosyal ağ paylaşımı düğmelerinin görüntülenmesi için açın."
 
-#: includes/options/lightbox.php:501
-msgid "Deeplinking"
-msgstr "Derin bağlantılar"
+#: includes/options/lightbox.php:88
+msgid "Large Screens"
+msgstr ""
 
-#: includes/options/lightbox.php:502
-msgid "Turn on to deeplink images in the lightbox."
-msgstr "Işıklı kutu içinde görsellere derin bağlantı verilmesi için açın."
-
-#: includes/options/lightbox.php:517
+#: includes/options/lightbox.php:114
 msgid "Show Post Images in Lightbox"
 msgstr "Işıklı kutu içinde yazı görselleri görüntülensin"
 
-#: includes/options/lightbox.php:518
+#: includes/options/lightbox.php:115
 msgid ""
 "Turn on to display post images in the lightbox that are inside the post "
 "content area."
@@ -22849,13 +22994,528 @@ msgstr ""
 "Işıklı kutu içinde yazı içeriği bölgesindeki yazı görsellerinin "
 "görüntülenmesi için açın."
 
-#: includes/options/lightbox.php:547
+#: includes/options/lightbox.php:142
+msgid "Deeplinking"
+msgstr "Derin bağlantılar"
+
+#: includes/options/lightbox.php:143
+msgid "Turn on to deeplink images in the lightbox."
+msgstr "Işıklı kutu içinde görsellere derin bağlantı verilmesi için açın."
+
+#: includes/options/lightbox.php:170
+msgid "Loop Lightbox Gallery"
+msgstr "Işıklı kutu galerisi sürekli oynatılsın"
+
+#: includes/options/lightbox.php:171
+msgid "Turn on to loop the lightbox gallery."
+msgstr "Işıklı kutu galerisinin sürekli oynatılması için açın."
+
+#: includes/options/lightbox.php:198
+msgid "Autoplay the Lightbox Gallery"
+msgstr "Işıklı kutu galerisi otomatik oynatılsın"
+
+#: includes/options/lightbox.php:199
+msgid "Turn on to autoplay the lightbox gallery."
+msgstr "Işıklı kutu galerisinin otomatik olarak oynatılması için açın."
+
+#: includes/options/lightbox.php:226 includes/options/slideshows.php:62
+msgid "Slideshow Speed"
+msgstr "Slayt sunumu hızı"
+
+#: includes/options/lightbox.php:227
+msgid ""
+"Controls the slideshow speed if autoplay is turned on. ex: 1000 = 1 second."
+msgstr ""
+"Otomatik oynatma açıksa slayt sunumunun hızını ayarlayın. Örnek: 1000 = 1 "
+"saniye."
+
+#: includes/options/lightbox.php:259
+msgid "Mouse Wheel"
+msgstr ""
+
+#: includes/options/lightbox.php:260
+msgid ""
+"Controls what the mouse wheel does in the lightbox: move to the next or "
+"previous item, or zoom into the image. Pinching on a trackpad always zooms."
+msgstr ""
+
+#: includes/options/lightbox.php:265
+msgid "Navigate"
+msgstr ""
+
+#: includes/options/lightbox.php:291
+msgid "Close on Background Click"
+msgstr ""
+
+#: includes/options/lightbox.php:292
+msgid "Turn on to close the lightbox when clicking next to the image or video."
+msgstr ""
+
+#: includes/options/lightbox.php:319
+msgid "Swipe to Close"
+msgstr ""
+
+#: includes/options/lightbox.php:320
+msgid ""
+"Turn on to close the lightbox on touch devices by swiping the image away: up "
+"or down, or sideways with the vertical slide direction."
+msgstr ""
+
+#: includes/options/lightbox.php:347
+msgid "Auto-Hide Controls"
+msgstr ""
+
+#: includes/options/lightbox.php:348
+msgid ""
+"Turn on to fade out the toolbar, arrows and thumbnails after a few seconds "
+"without activity. Moving the mouse, pressing a key or tapping the image "
+"brings them back."
+msgstr ""
+
+#: includes/options/lightbox.php:383
+msgid "Lightbox Color Scheme"
+msgstr ""
+
+#: includes/options/lightbox.php:384
+msgid ""
+"Controls the lightbox colors. Light and Dark take them from the global color "
+"palette: Color 1 for the background, Color 8 for text and icons, Color 5 for "
+"accents; Dark swaps the first two. Custom Colors lets you set the three "
+"colors yourself."
+msgstr ""
+
+#: includes/options/lightbox.php:391 includes/options/social_media.php:291
+#: includes/options/social_media.php:543 includes/options/social_media.php:899
+msgid "Custom Colors"
+msgstr "Özel renkler"
+
+#: includes/options/lightbox.php:416
+msgid "Lightbox Background Color"
+msgstr ""
+
+#: includes/options/lightbox.php:417
+msgid ""
+"Controls the background color of the lightbox. The Background Opacity below "
+"applies to it."
+msgstr ""
+
+#: includes/options/lightbox.php:441
+msgid "Lightbox Text & Icon Color"
+msgstr ""
+
+#: includes/options/lightbox.php:442
+msgid ""
+"Controls the color of text and icons in the lightbox. Button backgrounds and "
+"hover states are light tints of it."
+msgstr ""
+
+#: includes/options/lightbox.php:466
+msgid "Lightbox Accent Color"
+msgstr ""
+
+#: includes/options/lightbox.php:467
+msgid ""
+"Controls the accent color: the active thumbnail border, the slideshow "
+"progress bar, the loading spinner and the video consent button."
+msgstr ""
+
+#: includes/options/lightbox.php:491
+msgid "Background Opacity"
+msgstr "Arka plan matlığı"
+
+#: includes/options/lightbox.php:492
+msgid "Controls the opacity level for the background behind the lightbox."
+msgstr "Işıklı kutu arkasındaki arka planın matlık düzeyini yazın."
+
+#: includes/options/lightbox.php:525
+msgid ""
+"Set the blur of the page behind the lightbox in pixels, e.g. for frosted "
+"glass effects together with a lower background opacity. Set to 0 for no blur."
+msgstr ""
+
+#: includes/options/lightbox.php:549
+msgid "Opening Speed"
+msgstr ""
+
+#: includes/options/lightbox.php:550
+msgid ""
+"Controls how long the lightbox takes to open, in milliseconds. Images zoom "
+"from the clicked thumbnail where the browser supports it. Set to 0 to open "
+"instantly."
+msgstr ""
+
+#: includes/options/lightbox.php:582
+msgid "Transition Effect"
+msgstr ""
+
+#: includes/options/lightbox.php:583
+msgid ""
+"Controls how the lightbox moves to another item with the arrows, keys, "
+"thumbnails or the slideshow. Swiping always slides."
+msgstr ""
+
+#: includes/options/lightbox.php:615
+msgid "Slide Direction"
+msgstr ""
+
+#: includes/options/lightbox.php:616
+msgid ""
+"Controls whether items follow each other horizontally or vertically: the "
+"arrows, keys, swipes and the slide transition go that way."
+msgstr ""
+
+#: includes/options/lightbox.php:647
+msgid "Slide Transition Speed"
+msgstr ""
+
+#: includes/options/lightbox.php:648
+msgid ""
+"Controls how long moving to another item takes, in milliseconds, with the "
+"arrows, keys, thumbnails or the slideshow. Swiping follows the finger. Set "
+"to 0 to switch instantly."
+msgstr ""
+
+#: includes/options/lightbox.php:680
+msgid "Lightbox Image Zoom"
+msgstr ""
+
+#: includes/options/lightbox.php:681
+msgid ""
+"Controls the maximum zoom for images. Clicking or double-tapping the image "
+"zooms to it; pinching and the mouse wheel zoom anywhere up to it. Set to 1 "
+"to disable zoom."
+msgstr ""
+
+#: includes/options/lightbox.php:713
+msgid "Slideshow Progress Bar"
+msgstr ""
+
+#: includes/options/lightbox.php:714
+msgid ""
+"Controls whether a progress bar shows at the top or the bottom of the "
+"lightbox while the slideshow runs."
+msgstr ""
+
+#: includes/options/lightbox.php:746
+msgid "Scale Controls on Smaller Screens"
+msgstr ""
+
+#: includes/options/lightbox.php:747
+msgid ""
+"Turn on to scale the toolbar, arrows and thumbnails down gradually on "
+"screens narrower than 1280px, so large sizes set below still fit on phones. "
+"They never get smaller than the default sizes."
+msgstr ""
+
+#: includes/options/lightbox.php:776
+msgid "Toolbar"
+msgstr ""
+
+#: includes/options/lightbox.php:782
+msgid "Toolbar Position"
+msgstr ""
+
+#: includes/options/lightbox.php:783
+msgid ""
+"Controls where the toolbar buttons sit at the top of the lightbox. The image "
+"counter takes the other side. In right-to-left languages, left and right "
+"swap."
+msgstr ""
+
+#: includes/options/lightbox.php:815
+msgid "Image Counter"
+msgstr ""
+
+#: includes/options/lightbox.php:816
+msgid ""
+"Turn on to display the position of the current item in a gallery, e.g. 2 / 8."
+msgstr ""
+
+#: includes/options/lightbox.php:843
+msgid "Gallery Start/Stop Button"
+msgstr "Galeriyi Başlat/Durdur düğmesi"
+
+#: includes/options/lightbox.php:844
+msgid "Turn on to display the gallery start and stop button."
+msgstr "Galeriyi başlatma ve durdurma düğmesinin görüntülenmesi için açın."
+
+#: includes/options/lightbox.php:871
+msgid "Fullscreen Button"
+msgstr ""
+
+#: includes/options/lightbox.php:872
+msgid ""
+"Turn on to display the fullscreen button. It only shows in browsers that "
+"support fullscreen."
+msgstr ""
+
+#: includes/options/lightbox.php:899
+msgid "Download Button"
+msgstr ""
+
+#: includes/options/lightbox.php:900
+msgid ""
+"Turn on to display a button that downloads the current image or self-hosted "
+"video."
+msgstr ""
+
+#: includes/options/lightbox.php:927 includes/options/social_media.php:701
+#: includes/options/social_media.php:825
+msgid "Social Sharing"
+msgstr "Sosyal ağ paylaşımı"
+
+#: includes/options/lightbox.php:928
+msgid "Turn on to display social sharing buttons on lightbox."
+msgstr ""
+"Işıklı kutu içinde sosyal ağ paylaşımı düğmelerinin görüntülenmesi için açın."
+
+#: includes/options/lightbox.php:955
+msgid "Social Sharing Style"
+msgstr ""
+
+#: includes/options/lightbox.php:956
+msgid ""
+"Controls how the sharing options show: a dropdown list with icons and names, "
+"or a grid of icons."
+msgstr ""
+
+#: includes/options/lightbox.php:961
+msgid "Dropdown List"
+msgstr ""
+
+#: includes/options/lightbox.php:962
+msgid "Icon Grid"
+msgstr ""
+
+#: includes/options/lightbox.php:992
+msgid "Toolbar Button Background"
+msgstr ""
+
+#: includes/options/lightbox.php:993
+msgid ""
+"Turn on to display the toolbar buttons with a background. Turn off to show "
+"only the icons."
+msgstr ""
+
+#: includes/options/lightbox.php:1011
+msgid "Toolbar Icon Size"
+msgstr ""
+
+#: includes/options/lightbox.php:1012
+msgid ""
+"Controls the size of the toolbar icons in pixels. The buttons grow with them."
+msgstr ""
+
+#: includes/options/lightbox.php:1036
+msgid "Toolbar Icon Spacing"
+msgstr ""
+
+#: includes/options/lightbox.php:1037
+msgid ""
+"Controls the space between the toolbar buttons in pixels. Set to 0 to join "
+"the buttons into one bar, with the border radius only on its outer corners."
+msgstr ""
+
+#: includes/options/lightbox.php:1061
+msgid "Toolbar Button Border Radius"
+msgstr ""
+
+#: includes/options/lightbox.php:1062
+msgid ""
+"Controls the corner radius of the toolbar buttons in pixels. Set to 0 for "
+"square buttons; high values make them round."
+msgstr ""
+
+#: includes/options/lightbox.php:1088 includes/options/lightbox.php:1094
+msgid "Arrows"
+msgstr "Oklar"
+
+#: includes/options/lightbox.php:1095
+msgid "Turn on to display arrows in the lightbox"
+msgstr "Işıklı kutu içinde okların görüntülenmesi için açın"
+
+#: includes/options/lightbox.php:1122
+msgid "Arrow Position"
+msgstr ""
+
+#: includes/options/lightbox.php:1123
+msgid ""
+"Controls whether the arrows sit beside the items, or on the image, so images "
+"can use that space and display larger. Videos keep the arrows beside them. "
+"Keep the arrow button background on, so the arrows stay visible on bright "
+"images."
+msgstr ""
+
+#: includes/options/lightbox.php:1128
+msgid "Beside"
+msgstr ""
+
+#: includes/options/lightbox.php:1159
+msgid "Arrow Button Background"
+msgstr ""
+
+#: includes/options/lightbox.php:1160
+msgid ""
+"Turn on to display the previous and next buttons with a background. Turn off "
+"to show only the arrows."
+msgstr ""
+
+#: includes/options/lightbox.php:1183
+msgid "Arrow Icon Size"
+msgstr ""
+
+#: includes/options/lightbox.php:1184
+msgid ""
+"Controls the size of the previous and next arrows in pixels. The buttons "
+"grow with them."
+msgstr ""
+
+#: includes/options/lightbox.php:1213
+msgid "Arrow Button Border Radius"
+msgstr ""
+
+#: includes/options/lightbox.php:1214
+msgid ""
+"Controls the corner radius of the previous and next buttons in pixels. Set "
+"to 0 for square buttons; high values make them round."
+msgstr ""
+
+#: includes/options/lightbox.php:1251
+msgid "Thumbnails Position"
+msgstr "Küçük görsel konumu"
+
+#: includes/options/lightbox.php:1252
+msgid ""
+"Controls where the thumbnails of a gallery show. On small screens, "
+"thumbnails on the left or right move to the bottom."
+msgstr ""
+
+#: includes/options/lightbox.php:1286
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/options/lightbox.php:1287
+msgid "Controls the width and height of the thumbnails in pixels."
+msgstr ""
+
+#: includes/options/lightbox.php:1316
+msgid "Thumbnail Border Radius"
+msgstr ""
+
+#: includes/options/lightbox.php:1317
+msgid "Controls the corner radius of the thumbnails in pixels."
+msgstr ""
+
+#: includes/options/lightbox.php:1348
+msgid "Title & Caption"
+msgstr ""
+
+#: includes/options/lightbox.php:1355
+msgid "Turn on to display the image title in the lightbox."
+msgstr "Işıklı kutu içinde görsel başlığının görüntülenmesi için açın."
+
+#: includes/options/lightbox.php:1382
+msgid "Title Typography"
+msgstr ""
+
+#: includes/options/lightbox.php:1383
+msgid ""
+"These settings control the typography of the lightbox title. The color comes "
+"from the lightbox color scheme."
+msgstr ""
+
+#: includes/options/lightbox.php:1445
+msgid "Turn on to display the image caption in the lightbox."
+msgstr "Işıklı kutu içinde görsel alt yazısının görüntülenmesi için açın."
+
+#: includes/options/lightbox.php:1472
+msgid "Caption Typography"
+msgstr ""
+
+#: includes/options/lightbox.php:1473
+msgid ""
+"These settings control the typography of the lightbox caption. The color "
+"comes from the lightbox color scheme."
+msgstr ""
+
+#: includes/options/lightbox.php:1534
+msgid "Title & Caption Layout"
+msgstr ""
+
+#: includes/options/lightbox.php:1535
+msgid ""
+"Controls whether the title and caption show outside the image, or over it."
+msgstr ""
+
+#: includes/options/lightbox.php:1540
+msgid "Outside"
+msgstr ""
+
+#: includes/options/lightbox.php:1566
+msgid "Title & Caption Overlay Background"
+msgstr ""
+
+#: includes/options/lightbox.php:1567
+msgid ""
+"Controls what keeps overlay titles and captions readable: a fade of the "
+"background color, a frosted glass panel, or only a soft glow behind the "
+"letters."
+msgstr ""
+
+#: includes/options/lightbox.php:1573
+msgid "Glass"
+msgstr ""
+
+#: includes/options/lightbox.php:1604
+msgid "Title & Caption Position"
+msgstr ""
+
+#: includes/options/lightbox.php:1605
+msgid ""
+"Controls whether the title and caption show at the top or the bottom of the "
+"image."
+msgstr ""
+
+#: includes/options/lightbox.php:1636
+msgid "Title & Caption Alignment"
+msgstr ""
+
+#: includes/options/lightbox.php:1637
+msgid ""
+"Controls the alignment of the title and caption, along the edges of the "
+"image. In right-to-left languages, left and right swap."
+msgstr ""
+
+#: includes/options/lightbox.php:1669
+msgid "Show Title & Caption on Hover Only"
+msgstr ""
+
+#: includes/options/lightbox.php:1670
+msgid ""
+"Turn on to show overlay titles and captions only while the mouse is over the "
+"image. On touch screens, they show when the image is tapped. Without this, a "
+"tap on the image hides them."
+msgstr ""
+
+#: includes/options/lightbox.php:1704
+msgid "Video"
+msgstr ""
+
+#: includes/options/lightbox.php:1710
 msgid "Slideshow Video Dimensions"
 msgstr "Slayt sunumu video boyutları"
 
-#: includes/options/lightbox.php:548
+#: includes/options/lightbox.php:1711
 msgid "Controls the width and height for videos inside the lightbox."
 msgstr "Işıklı kutu içindeki videoların genişliğini ve yüksekliğini yazın."
+
+#: includes/options/lightbox.php:1756
+msgid "Autoplay Videos"
+msgstr ""
+
+#: includes/options/lightbox.php:1757
+msgid "Turn on to start videos as soon as they show in the lightbox."
+msgstr ""
 
 #: includes/options/logo.php:48
 msgid "Logo Alignment"
@@ -24795,10 +25455,6 @@ msgstr ""
 "davranacağını seçin. Bu seçenekler hakkında ayrıntılı bilgi almak için "
 "lütfen <a href=\"https://developers.google.com/web/fundamentals/web-app-"
 "manifest/#display\" target=\"_blank\">bu belgeye bakın.</a>"
-
-#: includes/options/performance.php:706
-msgid "Fullscreen"
-msgstr "Tam ekran"
 
 #: includes/options/performance.php:707
 msgid "Standalone"
@@ -27146,11 +27802,6 @@ msgstr ""
 "Özel renkler, simgeler ve kutular için bir renk seçilmesini sağlar. Marka "
 "renkleri, simgeler veya kutular için her ağın tam marka rengi kullanılır."
 
-#: includes/options/social_media.php:291 includes/options/social_media.php:543
-#: includes/options/social_media.php:899
-msgid "Custom Colors"
-msgstr "Özel renkler"
-
 #: includes/options/social_media.php:315
 msgid "Header Social Icon Color"
 msgstr "Üst bilgi sosyal ağ simgesi rengi"
@@ -27761,10 +28412,6 @@ msgstr ""
 
 #: includes/options/typography.php:1238
 msgid "The style of this font file."
-msgstr ""
-
-#: includes/options/typography.php:1244
-msgid "Italic"
 msgstr ""
 
 #: includes/options/typography.php:1290
@@ -28997,27 +29644,27 @@ msgstr "Boş sayfa"
 msgid "Side Navigation"
 msgstr "Yan gezinme"
 
-#: includes/class-avada-tgm-plugin-activation.php:1183
-#: includes/class-avada-tgm-plugin-activation.php:3020
+#: includes/class-avada-tgm-plugin-activation.php:1164
+#: includes/class-avada-tgm-plugin-activation.php:3001
 msgctxt "plugin A *and* plugin B"
 msgid "and"
 msgstr "ve"
 
 #. translators: 1: install status, 2: update status
-#: includes/class-avada-tgm-plugin-activation.php:2410
+#: includes/class-avada-tgm-plugin-activation.php:2391
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
 #. translators: 1: number of plugins.
-#: includes/class-avada-tgm-plugin-activation.php:2456
+#: includes/class-avada-tgm-plugin-activation.php:2437
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "All <span class=\"count\">(%s)</span>"
 msgstr[1] "Tümü <span class=\"count\">(%s)</span>"
 
-#: includes/class-avada-tgm-plugin-activation.php:2550
+#: includes/class-avada-tgm-plugin-activation.php:2531
 msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
 msgstr "bilinmiyor"
@@ -29098,6 +29745,51 @@ msgstr "Giriş"
 msgctxt "%s Events plural label"
 msgid "All %s"
 msgstr "Tüm %s"
+
+#~ msgid "Press Esc to close"
+#~ msgstr "Kapatmak için Esc tuşuna basın"
+
+#~ msgid "Enter Fullscreen (Shift+Enter)"
+#~ msgstr "Tam ekrana geç (Shift+Enter)"
+
+#~ msgid "Exit Fullscreen (Shift+Enter)"
+#~ msgstr "Tam ekrandan çık (Shift+Enter)"
+
+#~ msgid "Lightbox Skin"
+#~ msgstr "Işıklı kutu kaplaması"
+
+#~ msgid "Controls the lightbox skin design."
+#~ msgstr "Işıklı kutu kaplama tasarımını seçin."
+
+#~ msgid "Mac"
+#~ msgstr "Mac"
+
+#~ msgid "Metro Black"
+#~ msgstr "Metro siyah"
+
+#~ msgid "Metro White"
+#~ msgstr "Metro beyaz"
+
+#~ msgid "Parade"
+#~ msgstr "Geçit töreni"
+
+#~ msgid "Smooth"
+#~ msgstr "Pürüzsüz"
+
+#~ msgid "Controls the position of the lightbox thumbnails."
+#~ msgstr "Işıklı kutu küçük görsellerinin konumunu seçin."
+
+#~ msgid "Animation Speed"
+#~ msgstr "Canlandırma hızı"
+
+#~ msgid "Controls the animation speed of the lightbox."
+#~ msgstr "Işıklı kutu canlandırmasının hızını ayarlayın."
+
+#~ msgid "Fast"
+#~ msgstr "Hızlı"
+
+#~ msgid "Slow"
+#~ msgstr "Yavaş"
 
 #~ msgid ""
 #~ "Adds a button in posts/pages view under each item to allow an easy and "
